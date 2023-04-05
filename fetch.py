@@ -10,7 +10,7 @@ import binascii
 from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
 
 try: PROXY = open("local_proxy.conf").read().strip()
-except FileNotFoundError: LOCAL = False
+except FileNotFoundError: LOCAL = False; PROXY = None
 else: LOCAL = not PROXY
 
 def b64encodes(s):
@@ -114,7 +114,7 @@ class Node:
                 parts = b64decodes_safe(url[6:]).split(':')
             try:
                 passwd, info = parts[-1].split('/?')
-            except: breakpoint();raise
+            except: raise
             passwd = b64decodes_safe(passwd)
             self.data = {'type': 'ssr', 'server': parts[0], 'port': parts[1],
                     'protocol': parts[2], 'cipher': parts[3], 'obfs': parts[4],
