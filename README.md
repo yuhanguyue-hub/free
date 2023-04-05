@@ -1,13 +1,22 @@
 # NoMoreWalls
 
-自动抓取部分不提供订阅的公开节点。
+[![Fetch](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml/badge.svg)](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml) ![Stars](https://img.shields.io/github/stars/peasoft/NoMoreWalls) ![Watchers](https://img.shields.io/github/watchers/peasoft/NoMoreWalls) ![Forks](https://img.shields.io/github/forks/peasoft/NoMoreWalls) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=peasoft.NoMoreWalls)
+
+自动抓取合并互联网上的公开节点。
+
+## 注意
+
+我们对本项目进行了较大升级，使其可以抓取全网节点，使节点数增加到了 5000+，有效节点数增加到了 20+。
 
 ## 使用方法
 
-添加Base64订阅：
-
+添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - [加速链接](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+
+或添加 Clash 订阅：
+- [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
+- [加速链接](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 
 ## 免责声明
 
