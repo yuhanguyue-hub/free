@@ -55,6 +55,8 @@ class Node:
         else: raise TypeError
         if not self.data['name']:
             self.data['name'] = "未命名"
+        if 'password' in self.data:
+            self.data['password'] = str(self.data['password'])
 
     def __str__(self):
         return self.url
