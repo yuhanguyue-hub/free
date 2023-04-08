@@ -257,6 +257,7 @@ class Node:
             ret['password'] = '!!str '+ret['password']
         if 'uuid' in ret and len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
+        if 'group' in ret: del ret['group']
         return ret
 
     def supports_clash(self):
@@ -339,8 +340,8 @@ def merge(text):
         except: traceback.print_exc()
         else:
             if n not in merged:
-                if len(n.data['name']) > 30:
-                    n.data['name'] = n.data['name'][:27]+'...'
+                if len(n.data['name']) > 25:
+                    n.data['name'] = n.data['name'][:22]+'...'
                 while n.data['name'] in names:
                     n.data['name'] += '_'
                 names.add(n.data['name'])
@@ -443,6 +444,8 @@ if __name__ == '__main__':
         f.write(b64encodes(txt))
     print("写出完成！")
 
+    with open("config.yml", encoding="utf-8") as f:
+        conf = yaml.full_load(f)
     print("正在解析 Adblock 列表...")
     abfbase = "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/"
     if LOCAL: abfbase = raw2fastly(abfbase)
@@ -466,16 +469,23 @@ if __name__ == '__main__':
                 blocked.add(line[2:-1])
     adblock_rules = []
     for domain in blocked:
-        adblock_rules.append(f"DOMAIN-SUFFIX,{domain},⛔ 广告拦截")
+        adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
 
     print("正在写出 Clash 订阅...")
-    with open("config.yml", encoding="utf-8") as f:
-        conf = yaml.full_load(f)
     rules = conf['rules']
     rules2 = list(set(rules))
     rules2.sort(key=rules.index)
     conf['rules'] = adblock_rules + rules2
-    conf['proxies'] = [_.clash_data for _ in merged if _.supports_clash()]
+    conf['proxies'] = []
+    names_clash = set()
+    for p in merged:
+        if p.supports_clash():
+            conf['proxies'].append(p.clash_data)
+            names_clash.add(p.data['name'])
+    names_clash = list(names_clash)
+    for group in conf['proxy-groups']:
+        if not group['proxies']:
+            group['proxies'] = names_clash
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     print("写出完成！")
