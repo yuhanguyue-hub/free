@@ -345,11 +345,14 @@ def merge(text):
         elif '://' in text:
             # V2Ray raw list
             sub = text.strip().split('\n')
+        elif '<html' in text:
+            print("不是订阅，跳过！", end='', flush=True)
+            return
         else:
             # V2Ray Sub
             sub = b64decodes(text.strip()).strip().split('\n')
     else: sub = text # 动态节点抓取后直接传入列表
-    if not sub: return
+    if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
         try: n = Node(p)
         except KeyboardInterrupt: raise

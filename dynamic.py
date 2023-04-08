@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import re
 import datetime
+import requests
 
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53"}
 
@@ -58,7 +59,7 @@ def vpn_fail():
     links = set()
     for ip in ips:
         try:
-            response = requests.get(f"https://vpn.fail/free-proxy/ip/{ip}").text
+            response = session.get(f"https://vpn.fail/free-proxy/ip/{ip}").text
             link = response.split('class="form-control text-center" id="pp2" value="')[1].split('"')[0]
             links.append(link)
         except requests.exceptions.RequestException: pass
