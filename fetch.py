@@ -255,7 +255,7 @@ class Node:
         ret = self.data.copy()
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
-        if len(ret['uuid']) != len(DEFAULT_UUID):
+        if 'uuid' in ret and len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
         return ret
 
