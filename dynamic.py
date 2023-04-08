@@ -46,8 +46,43 @@ def sharkdoor():
             nodes.add(line.split('|')[-2])
     return nodes
 
-AUTOURLS = (kkzui, mux2sub, mux2sub2)
-AUTOFETCH = (sharkdoor, mianfeifq)
+def changfengoss():
+    res = session.get(datetime.datetime.now().strftime(
+        "https://api.github.com/repos/changfengoss/pub/contents/data/%Y_%m_%d?ref=main")).json()
+    return [_['download_url'] for _ in res]
+
+def vpn_fail():
+    # From https://github.com/mahdibland/get_v2/blob/main/get_clash.py
+    response = session.get("https://vpn.fail/free-proxy/type/v2ray").text
+    ips = re.findall(r'<a href=\"https://vpn\.fail/free-proxy/ip/(.*?)\" style=', response)
+    links = set()
+    for ip in ips:
+        try:
+            response = requests.get(f"https://vpn.fail/free-proxy/ip/{ip}").text
+            link = response.split('class="form-control text-center" id="pp2" value="')[1].split('"')[0]
+            links.append(link)
+        except requests.exceptions.RequestException: pass
+    return links
+
+def rxsweet():
+    res = session.get("https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/sublist_mining.txt").text
+    urls = set()
+    for line in res:
+        if line.startswith("http"):
+            urls.add(line)
+    return urls
+
+def tolinkshare():
+    res = session.get("https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md").text
+    urls = set()
+    for line in res:
+        if line.startswith("ssr://") or line.startswith("vmess://"):
+            urls.add(line)
+    return urls
+
+
+AUTOURLS = (kkzui, mux2sub, mux2sub2, changfengoss, rxsweet)
+AUTOFETCH = (sharkdoor, mianfeifq, vpn_fail, tolinkshare)
 
 if __name__ == '__main__':
     import requests

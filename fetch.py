@@ -69,7 +69,8 @@ class Node:
         return self.url
 
     def __hash__(self):
-        return hash(f"{self.data['server']}:{self.data['port']}")
+        # return hash(f"{self.data['server']}:{self.data['port']}")
+        return hash(self.data['server'])
     
     def __eq__(self, other):
         if isinstance(other, self.__class__):
@@ -102,6 +103,15 @@ class Node:
                 if 'host' in v:
                     opts['headers'] = {'Host': v['host']}
                 self.data['ws-opts'] = opts
+            elif v['net'] == 'h2':
+                opts = {}
+                if 'path' in v:
+                    opts['path'] = v['path']
+                if 'host' in v:
+                    opts['host'] = v.split(',')
+                self.data['h2-opts'] = opts
+            elif v['net'] == 'grpc' and 'path' in v:
+                self.data['grpc-opts'] = {'grpc-service-name': v['path']}
 
         elif self.type == 'ss':
             info = url.split('@')
@@ -204,6 +214,16 @@ class Node:
                     except KeyError: pass
                     if 'path' in data['ws-opts']:
                         v['path'] = data['ws-opts']['path']
+            elif v['net'] == 'h2':
+                if 'h2-opts' in data:
+                    if 'host' in data['h2-opts']:
+                        v['host'] = ','.join(data['h2-opts']['host'])
+                    if 'path' in data['h2-opts']:
+                        v['path'] = data['h2-opts']['path']
+            elif v['net'] == 'grpc':
+                if 'grpc-opts' in data:
+                    if 'grpc-service-name' in data['grpc-opts']:
+                        v['path'] = data['grpc-opts']['grpc-service-name']
             if ('tls' in data) and data['tls']:
                 v['tls'] = 'tls'
             return 'vmess://'+b64encodes(json.dumps(v, ensure_ascii=False))
@@ -348,11 +368,13 @@ def merge(text):
                 merged.add(n)
 
 def raw2fastly(url):
-    url = url[34:].split('/')
-    url[1] += '@'+url[2]
-    del url[2]
-    url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
-    return url
+    # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
+    # url = url[34:].split('/')
+    # url[1] += '@'+url[2]
+    # del url[2]
+    # url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
+    # return url
+    return "https://ghproxy.net/"+url
 
 if __name__ == '__main__':
     sources = open("sources.list").read().strip().split('\n')
