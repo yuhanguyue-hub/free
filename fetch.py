@@ -180,6 +180,7 @@ class Node:
                         self.data['ws-opts']['path'] = v
         
         else: raise UnsupportedType(self.type)
+        self.data['type'] == self.type
 
     @property
     def url(self):
@@ -442,7 +443,7 @@ if __name__ == '__main__':
                 blocked.add(line[2:-1])
     adblock_rules = []
     for domain in blocked:
-        adblock_rules.append(f"DOMAIN-SUFFIX,{domain},REJECT")
+        adblock_rules.append(f"DOMAIN-SUFFIX,{domain},⛔ 广告拦截")
 
     print("正在写出 Clash 订阅...")
     with open("config.yml", encoding="utf-8") as f:
