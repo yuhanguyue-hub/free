@@ -163,7 +163,7 @@ class Node:
                         else:
                             self.data['alpn'] = [v]
                     elif k == 'type':
-                        self.data['network'] == v
+                        self.data['network'] = v
                     elif k == 'serviceName':
                         if 'grpc-opts' not in self.data:
                             self.data['grpc-opts'] = {}
