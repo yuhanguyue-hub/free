@@ -312,13 +312,18 @@ unknown = set()
 names = set()
 def merge(text):
     global merged, unknown, names
-    if "proxies:" in text:
-        # Clash config
-        config = yaml.full_load(text.replace("!<str>","!!str"))
-        sub = config['proxies']
-    else:
-        # V2ray Sub
-        sub = b64decodes(text.strip()).strip().split('\n')
+    if isinstance(text, str):
+        if "proxies:" in text:
+            # Clash config
+            config = yaml.full_load(text.replace("!<str>","!!str"))
+            sub = config['proxies']
+        elif '://' in text:
+            # V2Ray raw list
+            sub = text.strip().split('\n')
+        else:
+            # V2Ray Sub
+            sub = b64decodes(text.strip()).strip().split('\n')
+    else: sub = text # 动态节点抓取后直接传入列表
     if not sub: return
     for p in sub:
         try: n = Node(p)
@@ -410,11 +415,7 @@ if __name__ == '__main__':
                 else: print("完成！")
     print("正在抓取动态节点...")
     for auto_fun in AUTOFETCH:
-        try:
-            for p in auto_fun():
-                try: merged.add(Node(p))
-                except KeyboardInterrupt: raise
-                except: traceback.print_exc()
+        try: merge(auto_fun())
         except KeyboardInterrupt: print("正在退出...");break
         except: traceback.print_exc()
 
@@ -472,5 +473,5 @@ if __name__ == '__main__':
     conf['rules'] = adblock_rules + rules2
     conf['proxies'] = [_.clash_data for _ in merged if _.supports_clash()]
     with open("list.yml", 'w', encoding="utf-8") as f:
-        yaml.dump(conf, f, allow_unicode=True)
+        f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     print("写出完成！")
