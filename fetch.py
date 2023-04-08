@@ -86,12 +86,13 @@ class Node:
             v = VMESS_EXAMPLE.copy()
             try: v.update(json.loads(b64decodes(url[8:])))
             except Exception:
-                raise UnsupportedType("vmess2")
+                raise UnsupportedType('vmess', 'SP')
             self.data = {}
             for key, val in v.items():
                 if key in VMESS2CLASH:
                     self.data[VMESS2CLASH[key]] = val
             self.data['tls'] = (v['tls'] == 'tls')
+            self.data['alterId'] = int(self.data['alterId'])
             if v['net'] == 'ws':
                 opts = {}
                 if 'path' in v:
@@ -109,6 +110,8 @@ class Node:
                 srv = srvname
                 name = ''
             server, port = srv.split(':')
+            if not port.isdigit():
+                raise UnsupportedType('ss', 'SP')
             info = '@'.join(info)
             if not ':' in info:
                 info = b64decodes_safe(info)
@@ -307,11 +310,12 @@ def merge(text):
     else:
         # V2ray Sub
         sub = b64decodes(text.strip()).strip().split('\n')
+    if not sub: return
     for p in sub:
         try: n = Node(p)
         except KeyboardInterrupt: raise
         except UnsupportedType as e:
-            if e.args[0] != 'vmess2':
+            if len(e.args) == 1:
                 print(f"不支持的类型：{e}")
             unknown.add(p)
         except: traceback.print_exc()
