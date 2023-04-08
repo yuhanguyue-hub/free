@@ -180,7 +180,7 @@ class Node:
                         self.data['ws-opts']['path'] = v
         
         else: raise UnsupportedType(self.type)
-        self.data['type'] == self.type
+        self.data['type'] = self.type
 
     @property
     def url(self):
