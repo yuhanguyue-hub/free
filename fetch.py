@@ -110,7 +110,9 @@ class Node:
                 srv = srvname
                 name = ''
             server, port = srv.split(':')
-            if not port.isdigit():
+            try:
+                port = int(port)
+            except ValueError:
                 raise UnsupportedType('ss', 'SP')
             info = '@'.join(info)
             if not ':' in info:
@@ -245,7 +247,14 @@ class Node:
             return ret
 
         raise UnsupportedType(self.type)
-    
+
+    @property
+    def clash_data(self):
+        ret = self.data.copy()
+        if ret['password'].isdigit():
+            ret['password'] = '!!str '+ret['password']
+        return ret
+
     def supports_clash(self):
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
@@ -320,12 +329,13 @@ def merge(text):
             unknown.add(p)
         except: traceback.print_exc()
         else:
-            if len(n.data['name']) > 30:
-                n.data['name'] = n.data['name'][:27]+'...'
-            while n.data['name'] in names:
-                n.data['name'] += '_'
-            names.add(n.data['name'])
-            merged.add(n)
+            if n not in merged:
+                if len(n.data['name']) > 30:
+                    n.data['name'] = n.data['name'][:27]+'...'
+                while n.data['name'] in names:
+                    n.data['name'] += '_'
+                names.add(n.data['name'])
+                merged.add(n)
 
 def raw2fastly(url):
     url = url[34:].split('/')
@@ -460,7 +470,7 @@ if __name__ == '__main__':
     rules2 = list(set(rules))
     rules2.sort(key=rules.index)
     conf['rules'] = adblock_rules + rules2
-    conf['proxies'] = [_.data for _ in merged if _.supports_clash()]
+    conf['proxies'] = [_.clash_data for _ in merged if _.supports_clash()]
     with open("list.yml", 'w', encoding="utf-8") as f:
         yaml.dump(conf, f, allow_unicode=True)
     print("写出完成！")
