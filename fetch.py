@@ -251,7 +251,7 @@ class Node:
     @property
     def clash_data(self):
         ret = self.data.copy()
-        if ret['password'].isdigit():
+        if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
         return ret
 
