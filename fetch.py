@@ -33,6 +33,8 @@ def b64decodes_safe(s):
     except UnicodeDecodeError: raise
     except binascii.Error: raise
 
+DEFAULT_UUID = '8'*8+'-8888'*3+'-'+'8'*12
+
 CLASH2VMESS = {'name': 'ps', 'server': 'add', 'port': 'port', 'uuid': 'id', 
               'alterId': 'aid', 'cipher': 'scy', 'network': 'net', 'servername': 'sni'}
 VMESS2CLASH = {}
@@ -40,7 +42,7 @@ for k,v in CLASH2VMESS.items(): VMESS2CLASH[v] = k
 
 VMESS_EXAMPLE = {
     "v": "2", "ps": "", "add": "0.0.0.0", "port": "0", "aid": "0", "scy": "auto",
-    "net": "tcp", "type": "none", "tls": "", "id": '8'*8+'-8888'*3+'-'+'8'*12
+    "net": "tcp", "type": "none", "tls": "", "id": DEFAULT_UUID
 }
 
 CLASH_CIPHER_VMESS = "auto aes-128-gcm chacha20-poly1305 none"
@@ -253,6 +255,8 @@ class Node:
         ret = self.data.copy()
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
+        if len(ret['uuid']) != len(DEFAULT_UUID):
+            ret['uuid'] = DEFAULT_UUID
         return ret
 
     def supports_clash(self):
