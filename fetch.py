@@ -297,8 +297,9 @@ def get_sub(url):
 
 merged = set()
 unknown = set()
+names = set()
 def merge(text):
-    global merged, unknown
+    global merged, unknown, names
     if "proxies:" in text:
         # Clash config
         config = yaml.full_load(text.replace("!<str>","!!str"))
@@ -317,6 +318,9 @@ def merge(text):
         else:
             if len(n.data['name']) > 30:
                 n.data['name'] = n.data['name'][:27]+'...'
+            while n.data['name'] in names:
+                n.data['name'] += '_'
+            names.add(n.data['name'])
             merged.add(n)
 
 def raw2fastly(url):
