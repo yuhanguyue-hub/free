@@ -43,6 +43,11 @@ VMESS_EXAMPLE = {
     "net": "tcp", "type": "none", "tls": "", "id": '8'*8+'-8888'*3+'-'+'8'*12
 }
 
+CLASH_CIPHER_VMESS = "auto aes-128-gcm chacha20-poly1305 none"
+CLASH_CIPHER_SS = "aes-128-gcm aes-192-gcm aes-256-gcm aes-128-cfb aes-192-cfb aes-256-cfb aes-128-ctr aes-192-ctr aes-256-ctr rc4-md5 chacha20-ietf xchacha20 chacha20-ietf-poly1305 xchacha20-ietf-poly1305"
+CLASH_SSR_OBFS = "plain http_simple http_post random_head tls1.2_ticket_auth tls1.2_ticket_fastauth"
+CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_chain_a auth_chain_b"
+
 class UnsupportedType(Exception): pass
 
 class Node:
@@ -63,6 +68,12 @@ class Node:
 
     def __hash__(self):
         return hash(f"{self.data['server']}:{self.data['port']}")
+    
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return hash(self) == hash(other)
+        else:
+            return False  
 
     def load_url(self, url):
         self.type = url.split("://")[0]
@@ -190,6 +201,22 @@ class Node:
             ret = ret.rstrip('&')+'#'+name
             return ret
         raise UnsupportedType(self.type)
+    
+    def supports_clash(self):
+        if 'cipher' not in self.data: return True
+        if not self.data['cipher']: return True
+        if self.type == 'vmess':
+            supported = CLASH_CIPHER_VMESS
+        elif self.type == 'ss' or self.type == 'ssr':
+            supported = CLASH_CIPHER_SS
+        elif self.type == 'trojan': return True
+        if self.data['cipher'] not in supported: return False
+        if self.type == 'ssr':
+            if 'obfs' in self.data and self.data['obfs'] not in CLASH_SSR_OBFS:
+                return False
+            if 'protocol' in self.data and self.data['protocol'] not in CLASH_SSR_PROTOCOL:
+                return False
+        return True
 
 
 def get_sub(url):
