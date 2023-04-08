@@ -4,19 +4,23 @@
 
 自动抓取合并互联网上的公开节点。
 
-## 注意
+## 公告
 
-我们对本项目进行了较大升级，使其可以抓取全网节点，使节点数增加到了 5000+，有效节点数增加到了 20+。
+我们对本项目进行了较大升级，使其可以抓取全网节点，使节点数增加到了 2000+，有效节点数增加到了 10+。全新版本可能会出现故障，请耐心等待修复。
 
 ## 使用方法
 
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [加速链接](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+- [加速链接 1](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+- [加速链接 2](https://cdn.staticaly.com/gh/peasoft/NoMoreWalls/master/list.txt)
+- [加速链接 3](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 
 或添加 Clash 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-- [加速链接](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
+- [加速链接 1](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
+- [加速链接 2](https://cdn.staticaly.com/gh/peasoft/NoMoreWalls/master/list.yml)
+- [加速链接 3](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 
 ## 免责声明
 

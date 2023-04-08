@@ -73,7 +73,7 @@ class Node:
         if isinstance(other, self.__class__):
             return hash(self) == hash(other)
         else:
-            return False  
+            return False
 
     def load_url(self, url):
         self.type = url.split("://")[0]
@@ -157,6 +157,27 @@ class Node:
                     if k == 'allowInsecure':
                         self.data['skip-cert-verify'] = (v != 0)
                     elif k == 'sni': self.data['sni'] = v
+                    elif k == 'alpn':
+                        if '%2C' in v:
+                            self.data['alpn'] = ["h2", "http/1.1"]
+                        else:
+                            self.data['alpn'] = [v]
+                    elif k == 'type':
+                        self.data['network'] == v
+                    elif k == 'serviceName':
+                        if 'grpc-opts' not in self.data:
+                            self.data['grpc-opts'] = {}
+                        self.data['grpc-opts']['grpc-service-name'] = v
+                    elif k == 'host':
+                        if 'ws-opts' not in self.data:
+                            self.data['ws-opts'] = {}
+                        if 'headers' not in self.data['ws-opts']:
+                            self.data['ws-opts']['headers'] = {}
+                        self.data['ws-opts']['headers']['Host'] = v
+                    elif k == 'path':
+                        if 'ws-opts' not in self.data:
+                            self.data['ws-opts'] = {}
+                        self.data['ws-opts']['path'] = v
         
         else: raise UnsupportedType(self.type)
 
@@ -178,6 +199,7 @@ class Node:
             if ('tls' in data) and data['tls']:
                 v['tls'] = 'tls'
             return 'vmess://'+b64encodes(json.dumps(v, ensure_ascii=False))
+
         if self.type == 'ss':
             passwd = b64encodes_safe(data['cipher']+':'+data['password'])
             return f"ss://{passwd}@{data['server']}:{data['port']}#{quote(data['name'])}"
@@ -190,6 +212,7 @@ class Node:
                 if k in self.data:
                     ret += '&'+urlk+'='+b64encodes_safe(self.data[k])
             return "ssr://"+ret
+
         if self.type == 'trojan':
             passwd = quote(data['password'])
             name = quote(data['name'])
@@ -197,9 +220,26 @@ class Node:
             if 'skip-cert-verify' in data:
                 ret += f"allowInsecure={int(data['skip-cert-verify'])}&"
             if 'sni' in data:
-                ret += f"sni={data['sni']}"
+                ret += f"sni={data['sni']}&"
+            if 'alpn' in data:
+                if len(data['alpn']) >= 2:
+                    ret += "alpn=h2%2Chttp%2F1.1&"
+                else:
+                    ret += f"alpn={quote(data['alpn'][0])}&"
+            if 'network' in data:
+                if data['network'] == 'grpc':
+                    ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+                elif data['network'] == 'ws':
+                    ret += f"type=ws&"
+                    if 'ws-opts' in data:
+                        try:
+                            ret += f"host={data['ws-opts']['headers']['Host']}&"
+                        except KeyError: pass
+                        if 'path' in data['ws-opts']:
+                            ret += f"path={data['ws-opts']['path']}"
             ret = ret.rstrip('&')+'#'+name
             return ret
+
         raise UnsupportedType(self.type)
     
     def supports_clash(self):
@@ -216,6 +256,13 @@ class Node:
                 return False
             if 'protocol' in self.data and self.data['protocol'] not in CLASH_SSR_PROTOCOL:
                 return False
+        return True
+
+    def supports_ray(self):
+        if self.type == 'ss':
+            if 'plugin' in self.data and self.data['plugin']: return False
+        elif self.type == 'ssr':
+            return False
         return True
 
 
@@ -262,10 +309,9 @@ def merge(text):
         try: n = Node(p)
         except KeyboardInterrupt: raise
         except UnsupportedType as e:
-            if e.args[0] == 'vmess2':
-                unknown.add(p)
-            else:
+            if e.args[0] != 'vmess2':
                 print(f"不支持的类型：{e}")
+            unknown.add(p)
         except: traceback.print_exc()
         else:
             if len(n.data['name']) > 30:
@@ -355,14 +401,17 @@ if __name__ == '__main__':
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
-    err = 0
+    unsupports = 0
     for p in merged:
-        try: txt += p.url + '\n'
+        try:
+            if p.supports_ray():
+                txt += p.url + '\n'
+            else: unsupports += 1
         except: traceback.print_exc()
     for p in unknown:
         txt += p+'\n'
-    print(f"共有 {len(merged)} 个正常节点，{len(unknown)} 个无法解析的节点，共",
-            len(merged)+len(unknown),"个。")
+    print(f"共有 {len(merged)-unsupports} 个正常节点，{len(unknown)} 个无法解析的节点，共",
+            len(merged)+len(unknown),f"个。{unsupports} 个节点不被 V2Ray 支持。")
 
     with open("list_raw.txt",'w') as f:
         f.write(txt)
@@ -402,7 +451,7 @@ if __name__ == '__main__':
     rules2 = list(set(rules))
     rules2.sort(key=rules.index)
     conf['rules'] = adblock_rules + rules2
-    conf['proxies'] = [_.data for _ in merged]
+    conf['proxies'] = [_.data for _ in merged if _.supports_clash()]
     with open("list.yml", 'w', encoding="utf-8") as f:
-        yaml.dump(conf, f)
+        yaml.dump(conf, f, allow_unicode=True)
     print("写出完成！")
