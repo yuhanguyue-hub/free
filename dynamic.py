@@ -32,10 +32,7 @@ def mux2sub():
     for line in res.text.strip().split('\n'):
         if line.startswith("http"):
             ret.add(line)
-
-def mux2sub2():
-    res = session.get("https://api.github.com/repos/RenaLio/Mux2sub/contents/free?ref=main").json()
-    return [_['download_url'] for _ in res]
+    return ret
 
 def sharkdoor():
     res_json = session.get(datetime.datetime.now().strftime(
@@ -82,7 +79,7 @@ def tolinkshare():
     return urls
 
 
-AUTOURLS = (kkzui, mux2sub, mux2sub2, changfengoss, rxsweet)
+AUTOURLS = (kkzui, mux2sub, changfengoss, rxsweet)
 AUTOFETCH = (sharkdoor, mianfeifq, vpn_fail, tolinkshare)
 
 if __name__ == '__main__':
