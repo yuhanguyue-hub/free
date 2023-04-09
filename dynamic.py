@@ -61,7 +61,7 @@ def vpn_fail():
         try:
             response = session.get(f"https://vpn.fail/free-proxy/ip/{ip}").text
             link = response.split('class="form-control text-center" id="pp2" value="')[1].split('"')[0]
-            links.append(link)
+            links.add(link)
         except requests.exceptions.RequestException: pass
     return links
 
