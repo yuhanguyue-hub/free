@@ -67,6 +67,7 @@ class Node:
             self.data['name'] = "未命名"
         if 'password' in self.data:
             self.data['password'] = str(self.data['password'])
+        self.data['type'] = self.type
 
     def __str__(self):
         return self.url
@@ -201,7 +202,6 @@ class Node:
                         self.data['ws-opts']['path'] = v
         
         else: raise UnsupportedType(self.type)
-        self.data['type'] = self.type
 
     @property
     def url(self):
