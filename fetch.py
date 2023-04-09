@@ -299,6 +299,8 @@ class Node:
                 return False
             if 'protocol' in self.data and self.data['protocol'] not in CLASH_SSR_PROTOCOL:
                 return False
+        if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
+                and not self.data['plugin-opts']['mode']: return False
         return True
 
     def supports_ray(self):
