@@ -46,11 +46,14 @@ VMESS_EXAMPLE = {
 }
 
 CLASH_CIPHER_VMESS = "auto aes-128-gcm chacha20-poly1305 none"
-CLASH_CIPHER_SS = "aes-128-gcm aes-192-gcm aes-256-gcm aes-128-cfb aes-192-cfb aes-256-cfb aes-128-ctr aes-192-ctr aes-256-ctr rc4-md5 chacha20-ietf xchacha20 chacha20-ietf-poly1305 xchacha20-ietf-poly1305"
+CLASH_CIPHER_SS = "aes-128-gcm aes-192-gcm aes-256-gcm aes-128-cfb aes-192-cfb \
+        aes-256-cfb aes-128-ctr aes-192-ctr aes-256-ctr rc4-md5 chacha20-ietf \
+        xchacha20 chacha20-ietf-poly1305 xchacha20-ietf-poly1305".split()
 CLASH_SSR_OBFS = "plain http_simple http_post random_head tls1.2_ticket_auth tls1.2_ticket_fastauth"
 CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_chain_a auth_chain_b"
 
 class UnsupportedType(Exception): pass
+class NotANode(Exception): pass
 
 class Node:
     def __init__(self, data):
@@ -79,7 +82,8 @@ class Node:
             return False
 
     def load_url(self, url):
-        self.type = url.split("://")[0]
+        try: self.type, dt = url.split("://")
+        except ValueError: raise NotANode(url)
         # === Fix begin ===
         if not self.type.isascii():
             self.type = ''.join([_ for _ in self.type if _.isascii()])
@@ -87,7 +91,7 @@ class Node:
         # === Fix end ===
         if self.type == 'vmess':
             v = VMESS_EXAMPLE.copy()
-            try: v.update(json.loads(b64decodes(url[8:])))
+            try: v.update(json.loads(b64decodes(dt)))
             except Exception:
                 raise UnsupportedType('vmess', 'SP')
             self.data = {}
@@ -139,9 +143,9 @@ class Node:
 
         elif self.type == 'ssr':
             if '?' in url:
-                parts = url[6:].split(':')
+                parts = dt.split(':')
             else:
-                parts = b64decodes_safe(url[6:]).split(':')
+                parts = b64decodes_safe(dt).split(':')
             try:
                 passwd, info = parts[-1].split('/?')
             except: raise
@@ -345,15 +349,13 @@ def merge(text):
         elif '://' in text:
             # V2Ray raw list
             sub = text.strip().split('\n')
-        elif '<html' in text:
-            print("不是订阅，跳过！", end='', flush=True)
-            return
         else:
             # V2Ray Sub
             sub = b64decodes(text.strip()).strip().split('\n')
     else: sub = text # 动态节点抓取后直接传入列表
     if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
+        if isinstance(p, str) and '://' not in p: continue
         try: n = Node(p)
         except KeyboardInterrupt: raise
         except UnsupportedType as e:
