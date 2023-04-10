@@ -394,7 +394,7 @@ if __name__ == '__main__':
     for auto_fun in AUTOURLS:
         try: url = auto_fun()
         except requests.exceptions.RequestException: pass
-        except: traceback.print_exc();raise
+        except: traceback.print_exc()
         else:
             if url:
                 if isinstance(url, str):
