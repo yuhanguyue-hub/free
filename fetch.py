@@ -341,10 +341,10 @@ def get_sub(url):
 
 def extract(url):
     global session
-    res = session.get(url).text
+    res = session.get(url)
     if res.status_code != 200: return res.status_code
     urls = set()
-    for line in res:
+    for line in res.text:
         if line.startswith("http"):
             urls.add(line)
     return urls
