@@ -26,14 +26,6 @@ def mianfeifq():
     res = session.get("https://raw.githubusercontent.com/mianfeifq/share/main/README.md").text
     return res.split("```")[1].strip().split('\n')
 
-def mux2sub():
-    res = session.get("https://raw.githubusercontent.com/RenaLio/Mux2sub/main/sub_list")
-    ret = set()
-    for line in res.text.strip().split('\n'):
-        if line.startswith("http"):
-            ret.add(line)
-    return ret
-
 def sharkdoor():
     res_json = session.get(datetime.datetime.now().strftime(
         'https://api.github.com/repos/sharkDoor/vpn-free-nodes/contents/node-list/%Y-%m?ref=master')).json()
@@ -62,14 +54,6 @@ def vpn_fail():
         except requests.exceptions.RequestException: pass
     return links
 
-def rxsweet():
-    res = session.get("https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/sublist_mining.txt").text
-    urls = set()
-    for line in res:
-        if line.startswith("http"):
-            urls.add(line)
-    return urls
-
 def tolinkshare():
     res = session.get("https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md").text
     urls = set()
@@ -79,7 +63,7 @@ def tolinkshare():
     return urls
 
 
-AUTOURLS = (kkzui, mux2sub, changfengoss, rxsweet)
+AUTOURLS = (kkzui, changfengoss)
 AUTOFETCH = (sharkdoor, mianfeifq, vpn_fail, tolinkshare)
 
 if __name__ == '__main__':

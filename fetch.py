@@ -339,6 +339,16 @@ def get_sub(url):
                 content += line+'\n'
     return content
 
+def extract(url):
+    global session
+    res = session.get(url).text
+    if res.status_code != 200: return res.status_code
+    urls = set()
+    for line in res:
+        if line.startswith("http"):
+            urls.add(line)
+    return urls
+
 merged = set()
 unknown = set()
 names = set()
@@ -402,14 +412,19 @@ if __name__ == '__main__':
                 elif isinstance(url, (list, tuple, set)):
                     [sources.append(_) for _ in url]
     print("正在整理链接...")
-    sources_final = []
+    sources_final = set()
+    airports = set()
     for source in sources:
         if not source: continue
         if source[0] == '#': continue
         sub = source
-        if source[0] == '!':
+        if sub[0] == '!':
             if LOCAL: continue
-            sub = source[1:]
+            sub = sub[1:]
+        if sub[0] == '*':
+            isairport = True
+            sub = sub[1:]
+        else: isairport = False
         if sub[0] == '+':
             tags = sub.split()
             sub = tags.pop()
@@ -420,7 +435,31 @@ if __name__ == '__main__':
                     sub = datetime.datetime.now().strftime(sub)
         if LOCAL and "raw.githubusercontent.com" in sub:
             sub = raw2fastly(sub)
-        sources_final.append(sub)
+        if isairport: airports.add(sub)
+        else: sources_final.add(sub)
+
+    if airports:
+        print("正在抓取机场列表...")
+        for sub in airports:
+            print("合并 '"+url+"'", end='', flush=True)
+            try:
+                res = extract(sub)
+            except KeyboardInterrupt:
+                print("正在退出...")
+                break
+            except requests.exceptions.RequestException:
+                print("合并失败！")
+            except: traceback.print_exc()
+            else:
+                if isinstance(res, int):
+                    print(res)
+                else:
+                    for url in res:
+                        sources_final.add(url)
+                    print("完成！")
+
+    print("正在整理链接...")
+    sources_final = list(sources_final)
     sources_final.sort()
 
     print("开始抓取！")
