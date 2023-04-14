@@ -441,7 +441,7 @@ if __name__ == '__main__':
     if airports:
         print("正在抓取机场列表...")
         for sub in airports:
-            print("合并 '"+url+"'", end='', flush=True)
+            print("合并 '"+sub+"'", end='', flush=True)
             try:
                 res = extract(sub)
             except KeyboardInterrupt:
