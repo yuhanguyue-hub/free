@@ -4,6 +4,8 @@ import datetime
 import requests
 
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53"}
+session: requests.Session
+LOCAL: bool
 
 def set_dynamic_globals(_session, _LOCAL):
     global session, LOCAL
@@ -46,8 +48,18 @@ def vpn_fail():
         except requests.exceptions.RequestException: pass
     return links
 
+def w1770946466():
+    res = session.get("https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/README.md").text
+    subs = set()
+    for line in res.strip().split('\n'):
+        if line.startswith("`http"):
+            sub = line.split('`')[1]
+            if not sub.startswith("https://raw.githubusercontent.com"):
+                subs.add(sub)
+    return sub
 
-AUTOURLS = (kkzui, changfengoss)
+
+AUTOURLS = (kkzui, changfengoss, w1770946466)
 AUTOFETCH = (sharkdoor, vpn_fail)
 
 if __name__ == '__main__':

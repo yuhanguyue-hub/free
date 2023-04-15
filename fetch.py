@@ -55,6 +55,8 @@ CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
 
+session: requests.Session
+
 class Node:
     def __init__(self, data):
         if isinstance(data, dict):
@@ -516,17 +518,17 @@ if __name__ == '__main__':
     with open("config.yml", encoding="utf-8") as f:
         conf = yaml.full_load(f)
     print("正在解析 Adblock 列表...")
-    abfbase = "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/"
-    if LOCAL: abfbase = raw2fastly(abfbase)
     abfurls = (
-        "filter_2_Base/filter.txt",
-        "filter_224_Chinese/filter.txt",
-        "filter_15_DnsFilter/filter.txt"
+        "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+        "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+        "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
+        "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt"
     )
     blocked = set()
     for url in abfurls:
+        if LOCAL: url = raw2fastly(url)
         try:
-            res = session.get(abfbase+url)
+            res = session.get(url)
         except requests.exceptions.RequestException:
             print(url, "下载失败！")
         if res.status_code != 200:
@@ -534,8 +536,9 @@ if __name__ == '__main__':
             continue
         for line in res.text.strip().split('\n'):
             line = line.strip()
-            if line[:2] == '||' and line[-1] == '^':
-                blocked.add(line[2:-1])
+            if line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
+                            (line[-1] == '^' or line.endswith("$all")):
+                blocked.add(line.strip('al').strip('|^$'))
     adblock_rules = []
     for domain in blocked:
         adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
