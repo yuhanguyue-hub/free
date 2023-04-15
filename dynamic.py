@@ -18,14 +18,6 @@ def kkzui():
     sub_url = re.search(r'<p><strong>这是v2订阅地址</strong>：(.*?)</p>',res.text).groups()[0]
     return sub_url
 
-def mianfeifq():
-    # res_json = session.get('https://api.github.com/repos/mianfeifq/share/contents/').json()
-    # for file in res_json:
-    #     if file['name'].startswith('data'):
-    #         return file['download_url']
-    res = session.get("https://raw.githubusercontent.com/mianfeifq/share/main/README.md").text
-    return res.split("```")[1].strip().split('\n')
-
 def sharkdoor():
     res_json = session.get(datetime.datetime.now().strftime(
         'https://api.github.com/repos/sharkDoor/vpn-free-nodes/contents/node-list/%Y-%m?ref=master')).json()
@@ -54,17 +46,9 @@ def vpn_fail():
         except requests.exceptions.RequestException: pass
     return links
 
-def tolinkshare():
-    res = session.get("https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md").text
-    urls = set()
-    for line in res:
-        if line.startswith("ssr://") or line.startswith("vmess://"):
-            urls.add(line)
-    return urls
-
 
 AUTOURLS = (kkzui, changfengoss)
-AUTOFETCH = (sharkdoor, mianfeifq, vpn_fail, tolinkshare)
+AUTOFETCH = (sharkdoor, vpn_fail)
 
 if __name__ == '__main__':
     import requests
