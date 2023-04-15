@@ -368,7 +368,7 @@ def merge(text):
     else: sub = text # 动态节点抓取后直接传入列表
     if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
-        if isinstance(p, str) and '://' not in p: continue
+        if isinstance(p, str) and (not p.isascii() or '://' not in p): continue
         try: n = Node(p)
         except KeyboardInterrupt: raise
         except UnsupportedType as e:
