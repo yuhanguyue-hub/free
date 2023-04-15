@@ -412,7 +412,7 @@ if __name__ == '__main__':
                 if isinstance(url, str):
                     sources.append(url)
                 elif isinstance(url, (list, tuple, set)):
-                    [sources.append(_) for _ in url]
+                    sources.extend(url)
     print("正在整理链接...")
     sources_final = set()
     airports = set()

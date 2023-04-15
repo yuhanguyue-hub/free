@@ -15,10 +15,11 @@ def set_dynamic_globals(_session, _LOCAL):
 
 def kkzui():
     res = session.get("https://kkzui.com/jd?orderby=modified",headers=headers)
-    article_url = re.search(r'<h2 class="item-heading"><a href="(https://kkzui.com/(.*?)\.html)">20(.*?)号(.*?)个高速免费节点(.*?)免费代理</a></h2>',res.text).groups()[0]
+    article_url = re.search(r'<h2 class="item-heading"><a href="(https://kkzui.com/(.*?)\.html)">20(.*?)节点(.*?)</a></h2>',res.text).groups()[0]
     res = session.get(article_url,headers=headers)
-    sub_url = re.search(r'<p><strong>这是v2订阅地址</strong>：(.*?)</p>',res.text).groups()[0]
-    return sub_url
+    sub = re.search(r'<p><strong>这是v2订阅地址</strong>：(.*?)</p>',res.text).groups()[0]
+    clash = re.search(r'<p><strong>这是小猫咪Clash订阅地址</strong>：(.*?)</p>',res.text).groups()[0]
+    return (sub, clash)
 
 def sharkdoor():
     res_json = session.get(datetime.datetime.now().strftime(
