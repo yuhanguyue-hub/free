@@ -58,7 +58,7 @@ class NotANode(Exception): pass
 session: requests.Session
 
 class Node:
-    def __init__(self, data):
+    def __init__(self, data) -> None:
         if isinstance(data, dict):
             self.data = data
             self.type = data['type']
@@ -84,7 +84,7 @@ class Node:
         else:
             return False
 
-    def load_url(self, url):
+    def load_url(self, url: str) -> None:
         try: self.type, dt = url.split("://")
         except ValueError: raise NotANode(url)
         # === Fix begin ===
@@ -206,7 +206,7 @@ class Node:
         else: raise UnsupportedType(self.type)
 
     @property
-    def url(self):
+    def url(self) -> str:
         data = self.data
         if self.type == 'vmess':
             v = VMESS_EXAMPLE.copy()
@@ -312,34 +312,43 @@ class Node:
             return False
         return True
 
+class Sub():
+    def __init__(self, url: str) -> None:
+        self.url = url
+        self.content = ""
 
-def get_sub(url):
-    global session
-    content = ""
-    first_line = True
-    tp = None
-    with session.get(url, stream=True) as r:
-        if r.status_code != 200: return r.status_code
-        for lineb in r.iter_lines():
-            if not lineb: continue
-            line = lineb.decode("utf-8").rstrip().replace('\\r','')
-            if not line: continue
-            if first_line:
-                if ': ' in line:
-                    tp = 'yaml'
-                elif '://' in line:
-                    tp = 'sub'#raw
-                else: tp = 'sub'
-                first_line = False
-            if tp == 'yaml':
-                if content:
-                    if line == "proxy-groups:": break
-                    content += line+'\n'
-                elif line == "proxies:":
-                    content = line+'\n'
-            elif tp == 'sub':
-                content += line+'\n'
-    return content
+    def get(self):
+        global session
+        if self.content: return self.content
+        content = ""
+        first_line = True
+        tp = None
+        try:
+            with session.get(self.url, stream=True) as r:
+                if r.status_code != 200: return r.status_code
+                for lineb in r.iter_lines():
+                    if not lineb: continue
+                    line = lineb.decode("utf-8").rstrip().replace('\\r','')
+                    if not line: continue
+                    if first_line:
+                        if ': ' in line:
+                            tp = 'yaml'
+                        elif '://' in line:
+                            tp = 'sub'#raw
+                        else: tp = 'sub'
+                        first_line = False
+                    if tp == 'yaml':
+                        if content:
+                            if line == "proxy-groups:": break
+                            content += line+'\n'
+                        elif line == "proxies:":
+                            content = line+'\n'
+                    elif tp == 'sub':
+                        content += line+'\n'
+        except requests.exceptions.RequestException:
+            return -1
+        self.content = content
+        return content
 
 def extract(url):
     global session
@@ -467,17 +476,17 @@ if __name__ == '__main__':
     print("开始抓取！")
     for source in sources_final:
         print("抓取 '"+source+"'... ", end='', flush=True)
+        sub_obj = Sub(source)
         try:
-            res = get_sub(source)
+            res = sub_obj.get()
         except KeyboardInterrupt:
             print("正在退出...")
             break
-        except requests.exceptions.RequestException:
-            print("抓取失败！")
         except: traceback.print_exc()
         else:
             if isinstance(res, int):
-                print(res)
+                if res < 0: print("抓取失败！")
+                else: print(res)
             else:
                 print("正在合并... ", end='', flush=True)
                 try:
