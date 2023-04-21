@@ -7,6 +7,7 @@ import requests
 import datetime
 import traceback
 import binascii
+import threading
 from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
 
 try: PROXY = open("local_proxy.conf").read().strip()
@@ -56,6 +57,7 @@ class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
 
 session: requests.Session
+lock = threading.Lock()
 
 class Node:
     def __init__(self, data) -> None:
@@ -312,20 +314,23 @@ class Node:
             return False
         return True
 
-class Sub():
+class Source():
     def __init__(self, url: str) -> None:
         self.url = url
-        self.content = ""
+        self.content = None
+        self.exception = None
 
-    def get(self):
+    def get(self) -> None:
+        if self.content: return
         global session
-        if self.content: return self.content
         content = ""
         first_line = True
         tp = None
         try:
             with session.get(self.url, stream=True) as r:
-                if r.status_code != 200: return r.status_code
+                if r.status_code != 200:
+                    self.content = r.status_code
+                    return
                 for lineb in r.iter_lines():
                     if not lineb: continue
                     line = lineb.decode("utf-8").rstrip().replace('\\r','')
@@ -346,9 +351,17 @@ class Sub():
                     elif tp == 'sub':
                         content += line+'\n'
         except requests.exceptions.RequestException:
-            return -1
-        self.content = content
-        return content
+            self.content = -1
+        except:
+            self.content = -2
+            self.exception = traceback.format_exc()
+            threading.Thread(self.print_exc).start()
+        else: self.content = content
+
+    def print_exc(self):
+        with lock:
+            print("在抓取 '"+self.url+"' 时发生错误：")
+            print(self.exception)
 
 def extract(url):
     global session
@@ -379,7 +392,13 @@ def merge(text):
     else: sub = text # 动态节点抓取后直接传入列表
     if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
-        if isinstance(p, str) and (not p.isascii() or '://' not in p): continue
+        if isinstance(p, str):
+            if not p.isascii() or '://' not in p: continue
+            ok = True
+            for ch in '!|@#`~()[]{} ':
+                if ch in p:
+                    ok = False; break
+            if not ok: continue
         try: n = Node(p)
         except KeyboardInterrupt: raise
         except UnsupportedType as e:
@@ -452,7 +471,7 @@ if __name__ == '__main__':
     if airports:
         print("正在抓取机场列表...")
         for sub in airports:
-            print("合并 '"+sub+"'", end='', flush=True)
+            print("合并 '"+sub+"'... ", end='', flush=True)
             try:
                 res = extract(sub)
             except KeyboardInterrupt:
@@ -474,16 +493,17 @@ if __name__ == '__main__':
     sources_final.sort()
 
     print("开始抓取！")
-    for source in sources_final:
-        print("抓取 '"+source+"'... ", end='', flush=True)
-        sub_obj = Sub(source)
-        try:
-            res = sub_obj.get()
-        except KeyboardInterrupt:
-            print("正在退出...")
-            break
-        except: traceback.print_exc()
-        else:
+    sources_obj = [Source(url) for url in sources_final]
+    threads = [threading.Thread(target=_.get) for _ in sources_obj]
+    [_.start() for _ in threads]
+    for i in range(len(sources_obj)):
+        with lock:
+            print("抓取 '"+sources_final[i]+"'... ", end='', flush=True)
+            try: threads[i].join()
+            except KeyboardInterrupt:
+                print("正在退出...")
+                break
+            res = sources_obj[i].content
             if isinstance(res, int):
                 if res < 0: print("抓取失败！")
                 else: print(res)
@@ -500,6 +520,7 @@ if __name__ == '__main__':
                 else: print("完成！")
     print("正在抓取动态节点...")
     for auto_fun in AUTOFETCH:
+        print("正在抓取 '"+auto_fun.__name__+"'...")
         try: merge(auto_fun())
         except KeyboardInterrupt: print("正在退出...");break
         except: traceback.print_exc()
