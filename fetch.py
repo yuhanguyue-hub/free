@@ -9,7 +9,6 @@ import traceback
 import binascii
 import threading
 import sys
-from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
@@ -317,9 +316,10 @@ class Node:
 
 class Source():
     def __init__(self, url: str) -> None:
-        self.url = url
-        self.content = None
-        self.exception = None
+        self.url: str = url
+        self.content: str = None
+        self.sub: list = None
+        self.exception: str = None
 
     def get(self) -> None:
         if self.content: return
@@ -351,19 +351,29 @@ class Source():
                             content = line+'\n'
                     elif tp == 'sub':
                         content += line+'\n'
+        except KeyboardInterrupt: raise
         except requests.exceptions.RequestException:
             self.content = -1
         except:
             self.content = -2
             self.exception = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
             threading.Thread(self.print_exc).start()
-        else: self.content = content
+        else:
+            self.content = content
+            self.parse()
+
+    def parse(self) -> None:
+        try:
+            self.sub = parse(self.content)
+        except KeyboardInterrupt: raise
+        except: self.exception = \
+                "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
 
     def print_exc(self) -> None:
         with io_lock:
             print(self.exception, file=sys.stderr, flush=True)
 
-def extract(url):
+def extract(url: str) -> set:
     global session
     res = session.get(url)
     if res.status_code != 200: return res.status_code
@@ -373,11 +383,7 @@ def extract(url):
             urls.add(line)
     return urls
 
-merged = set()
-unknown = set()
-names = set()
-def merge(text):
-    global merged, unknown, names
+def parse(text) -> list:
     if isinstance(text, str):
         if "proxies:" in text:
             # Clash config
@@ -390,6 +396,15 @@ def merge(text):
             # V2Ray Sub
             sub = b64decodes(text.strip()).strip().split('\n')
     else: sub = text # 动态节点抓取后直接传入列表
+    return sub
+
+merged = set()
+unknown = set()
+names = set()
+def merge(text, parsed=False) -> None:
+    global merged, unknown, names
+    if parsed: sub = text
+    else: sub = parse(text)
     if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
         if isinstance(p, str):
@@ -415,16 +430,19 @@ def merge(text):
                 names.add(n.data['name'])
                 merged.add(n)
 
-def raw2fastly(url):
+def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
     # url = url[34:].split('/')
     # url[1] += '@'+url[2]
     # del url[2]
     # url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
     # return url
-    return "https://ghproxy.net/"+url
+    if url.startswith("https://raw.githubusercontent.com/"):
+        return "https://ghproxy.net/"+url
+    return url
 
 if __name__ == '__main__':
+    from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
     sources = open("sources.list").read().strip().split('\n')
     session = requests.Session()
     if PROXY:
@@ -496,7 +514,7 @@ if __name__ == '__main__':
     print("开始抓取！")
     sources_obj = [Source(url) for url in sources_final]
     threads = [threading.Thread(target=_.get) for _ in sources_obj]
-    [_.start() for _ in threads]
+    for thread in threads: thread.start()
     for i in range(len(sources_obj)):
         with io_lock:
             print("抓取 '"+sources_final[i]+"'... ", end='', flush=True)
@@ -511,7 +529,7 @@ if __name__ == '__main__':
             else:
                 print("正在合并... ", end='', flush=True)
                 try:
-                    merge(res)
+                    merge(sources_obj[i].sub, parsed=True)
                 except KeyboardInterrupt:
                     print("正在退出...")
                     break
@@ -591,4 +609,15 @@ if __name__ == '__main__':
             group['proxies'] = names_clash
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
+
+    print("正在写出统计信息...")
+    out = "序号,链接,节点数\n"
+    for i, source in enumerate(sources_obj):
+        out += f"{i},{source.url},"
+        try: out += f"{len(source.sub)}"
+        except: out += '0'
+        out += '\n'
+    out += f"\n总计,,{len(merged)}\n"
+    open("list_result.csv",'w').write(out)
+
     print("写出完成！")
