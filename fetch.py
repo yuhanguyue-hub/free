@@ -8,6 +8,7 @@ import datetime
 import traceback
 import binascii
 import threading
+import sys
 from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
 
 try: PROXY = open("local_proxy.conf").read().strip()
@@ -57,7 +58,7 @@ class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
 
 session: requests.Session
-lock = threading.Lock()
+io_lock = threading.Lock()
 
 class Node:
     def __init__(self, data) -> None:
@@ -354,14 +355,13 @@ class Source():
             self.content = -1
         except:
             self.content = -2
-            self.exception = traceback.format_exc()
+            self.exception = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
             threading.Thread(self.print_exc).start()
         else: self.content = content
 
-    def print_exc(self):
-        with lock:
-            print("在抓取 '"+self.url+"' 时发生错误：")
-            print(self.exception)
+    def print_exc(self) -> None:
+        with io_lock:
+            print(self.exception, file=sys.stderr, flush=True)
 
 def extract(url):
     global session
@@ -432,6 +432,7 @@ if __name__ == '__main__':
     print("正在生成动态链接...")
     set_dynamic_globals(session, LOCAL)
     for auto_fun in AUTOURLS:
+        print("正在生成 '"+auto_fun.__name__+"'...")
         try: url = auto_fun()
         except requests.exceptions.RequestException: pass
         except: traceback.print_exc()
@@ -497,7 +498,7 @@ if __name__ == '__main__':
     threads = [threading.Thread(target=_.get) for _ in sources_obj]
     [_.start() for _ in threads]
     for i in range(len(sources_obj)):
-        with lock:
+        with io_lock:
             print("抓取 '"+sources_final[i]+"'... ", end='', flush=True)
             try: threads[i].join()
             except KeyboardInterrupt:
