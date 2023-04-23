@@ -58,10 +58,10 @@ def w1770946466():
     subs = set()
     for line in res.strip().split('\n'):
         if line.startswith("`http"):
-            sub = line.split('`')[1]
+            sub = line.strip().strip('`')
             if not sub.startswith("https://raw.githubusercontent.com"):
                 subs.add(sub)
-    return sub
+    return subs
 
 
 AUTOURLS = (kkzui, w1770946466)
