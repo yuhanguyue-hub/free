@@ -437,6 +437,7 @@ def raw2fastly(url: str) -> str:
     # del url[2]
     # url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
     # return url
+    if not LOCAL: return url
     if url.startswith("https://raw.githubusercontent.com/"):
         return "https://ghproxy.net/"+url
     return url
@@ -482,8 +483,7 @@ if __name__ == '__main__':
                 if tag[0] != '+': break
                 if tag == '+date':
                     sub = datetime.datetime.now().strftime(sub)
-        if LOCAL and "raw.githubusercontent.com" in sub:
-            sub = raw2fastly(sub)
+        sub = raw2fastly(sub)
         if isairport: airports.add(sub)
         else: sources_final.add(sub)
 
@@ -575,7 +575,7 @@ if __name__ == '__main__':
     )
     blocked = set()
     for url in abfurls:
-        if LOCAL: url = raw2fastly(url)
+        url = raw2fastly(url)
         try:
             res = session.get(url)
         except requests.exceptions.RequestException:
