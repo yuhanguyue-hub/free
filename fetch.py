@@ -541,7 +541,7 @@ if __name__ == '__main__':
             else:
                 print("正在合并... ", end='', flush=True)
                 try:
-                    merge(sources_obj[i].sub, parsed=True)
+                    merge(sources_obj[i].sub, parsed=True, sourceId=i)
                 except KeyboardInterrupt:
                     print("正在退出...")
                     break
