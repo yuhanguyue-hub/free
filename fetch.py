@@ -563,7 +563,7 @@ if __name__ == '__main__':
         try:
             if hash(p) in used:
                 # 注意：这一步也会影响到下方的 Clash 订阅，不用再执行一遍！
-                p.data['name'] = ','.join(used[hash(p)])+'|'+p.data['name']
+                p.data['name'] = ','.join([str(_) for _ in sorted(used[hash(p)])])+'|'+p.data['name']
             if p.supports_ray():
                 txt += p.url + '\n'
             else: unsupports += 1
