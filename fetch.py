@@ -437,10 +437,10 @@ def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
                 while n.data['name'] in names:
                     n.data['name'] += '_'
                 names.add(n.data['name'])
-                if hash(n) not in used:
-                    used[hash(n)] = []
-                used[hash(n)].append(sourceId)
                 merged.add(n)
+            if hash(n) not in used:
+                used[hash(n)] = []
+            used[hash(n)].append(sourceId)
 
 def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
