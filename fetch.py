@@ -9,6 +9,7 @@ import traceback
 import binascii
 import threading
 import sys
+from typing import Set, List, Dict, Union, Any
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
@@ -46,12 +47,19 @@ VMESS_EXAMPLE = {
     "net": "tcp", "type": "none", "tls": "", "id": DEFAULT_UUID
 }
 
-CLASH_CIPHER_VMESS = "auto aes-128-gcm chacha20-poly1305 none"
+CLASH_CIPHER_VMESS = "auto aes-128-gcm chacha20-poly1305 none".split()
 CLASH_CIPHER_SS = "aes-128-gcm aes-192-gcm aes-256-gcm aes-128-cfb aes-192-cfb \
         aes-256-cfb aes-128-ctr aes-192-ctr aes-256-ctr rc4-md5 chacha20-ietf \
         xchacha20 chacha20-ietf-poly1305 xchacha20-ietf-poly1305".split()
-CLASH_SSR_OBFS = "plain http_simple http_post random_head tls1.2_ticket_auth tls1.2_ticket_fastauth"
-CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_chain_a auth_chain_b"
+CLASH_SSR_OBFS = "plain http_simple http_post random_head tls1.2_ticket_auth tls1.2_ticket_fastauth".split()
+CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_chain_a auth_chain_b".split()
+
+ABFURLS = (
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
+    "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt"
+)
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
@@ -288,7 +296,7 @@ class Node:
         if 'group' in ret: del ret['group']
         return ret
 
-    def supports_clash(self):
+    def supports_clash(self) -> bool:
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
         if self.type == 'vless': return False
@@ -307,7 +315,7 @@ class Node:
                 and not self.data['plugin-opts']['mode']: return False
         return True
 
-    def supports_ray(self):
+    def supports_ray(self) -> bool:
         if self.type == 'ss':
             if 'plugin' in self.data and self.data['plugin']: return False
         elif self.type == 'ssr':
@@ -373,7 +381,7 @@ class Source():
         with io_lock:
             print(self.exception, file=sys.stderr, flush=True)
 
-def extract(url: str) -> set:
+def extract(url: str) -> Set[str]:
     global session
     res = session.get(url)
     if res.status_code != 200: return res.status_code
@@ -383,12 +391,12 @@ def extract(url: str) -> set:
             urls.add(line)
     return urls
 
-def parse(text) -> list:
+def parse(text: Union[str, List[str]]) -> List[str]:
     if isinstance(text, str):
         if "proxies:" in text:
             # Clash config
             config = yaml.full_load(text.replace("!<str>","!!str"))
-            sub = config['proxies']
+            sub: List[str] = config['proxies']
         elif '://' in text:
             # V2Ray raw list
             sub = text.strip().split('\n')
@@ -398,12 +406,13 @@ def parse(text) -> list:
     else: sub = text # 动态节点抓取后直接传入列表
     return sub
 
-merged = set()
-unknown = set()
-names = set()
-def merge(text, parsed=False) -> None:
+merged: Set[Node] = set()
+unknown: Set[str] = set()
+names: Set[str] = set()
+used: Dict[int, List[int]] = {}
+def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
     global merged, unknown, names
-    if parsed: sub = text
+    if parsed: sub:list = text
     else: sub = parse(text)
     if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
@@ -423,11 +432,14 @@ def merge(text, parsed=False) -> None:
         except: traceback.print_exc()
         else:
             if n not in merged:
-                if len(n.data['name']) > 25:
-                    n.data['name'] = n.data['name'][:22]+'...'
+                if len(n.data['name']) > 30:
+                    n.data['name'] = n.data['name'][:30]+'...'
                 while n.data['name'] in names:
                     n.data['name'] += '_'
                 names.add(n.data['name'])
+                if hash(n) not in used:
+                    used[hash(n)] = []
+                used[hash(n)].append(sourceId)
                 merged.add(n)
 
 def raw2fastly(url: str) -> str:
@@ -549,6 +561,9 @@ if __name__ == '__main__':
     unsupports = 0
     for p in merged:
         try:
+            if hash(p) in used:
+                # 注意：这一步也会影响到下方的 Clash 订阅，不用再执行一遍！
+                p.data['name'] = ','.join(used[hash(p)])+'|'+p.data['name']
             if p.supports_ray():
                 txt += p.url + '\n'
             else: unsupports += 1
@@ -565,21 +580,16 @@ if __name__ == '__main__':
     print("写出完成！")
 
     with open("config.yml", encoding="utf-8") as f:
-        conf = yaml.full_load(f)
+        conf: Dict[str, Any] = yaml.full_load(f)
     print("正在解析 Adblock 列表...")
-    abfurls = (
-        "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
-        "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
-        "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
-        "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt"
-    )
-    blocked = set()
-    for url in abfurls:
+    blocked: Set[str] = set()
+    for url in ABFURLS:
         url = raw2fastly(url)
         try:
             res = session.get(url)
         except requests.exceptions.RequestException:
             print(url, "下载失败！")
+            continue
         if res.status_code != 200:
             print(url, res.status_code)
             continue
@@ -588,7 +598,7 @@ if __name__ == '__main__':
             if line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
                             (line[-1] == '^' or line.endswith("$all")):
                 blocked.add(line.strip('al').strip('|^$'))
-    adblock_rules = []
+    adblock_rules: List[str] = []
     for domain in blocked:
         adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
 
@@ -598,7 +608,7 @@ if __name__ == '__main__':
     rules2.sort(key=rules.index)
     conf['rules'] = adblock_rules + rules2
     conf['proxies'] = []
-    names_clash = set()
+    names_clash: Set[str] = set()
     for p in merged:
         if p.supports_clash():
             conf['proxies'].append(p.clash_data)
