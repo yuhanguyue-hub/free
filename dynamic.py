@@ -2,6 +2,7 @@
 import re
 import datetime
 import requests
+import threading
 from fetch import raw2fastly
 
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53"}
@@ -39,17 +40,24 @@ def changfengoss():
     return [_['download_url'] for _ in res]
 
 def vpn_fail():
-    if LOCAL: return
-    # From https://github.com/mahdibland/get_v2/blob/main/get_clash.py
+    # if LOCAL: return
     response = session.get("https://vpn.fail/free-proxy/type/v2ray").text
-    ips = re.findall(r'<a href=\"https://vpn\.fail/free-proxy/ip/(.*?)\" style=', response)
+    lines = re.findall(r'<article(.*?)</article', response, re.DOTALL)
     links = set()
-    for ip in ips:
+    ips = set()
+    for line in lines:
+        result = re.search(r'<span>(\d+)%</span>', line)
+        if result and result.group(1) == '100':
+            ips.add(re.search(r'<a href=\"https://vpn\.fail/free-proxy/ip/(.*?)\" style=', line).group(1))
+    def get_link(ip: str) -> None:
         try:
             response = session.get(f"https://vpn.fail/free-proxy/ip/{ip}").text
             link = response.split('class="form-control text-center" id="pp2" value="')[1].split('"')[0]
             links.add(link)
         except requests.exceptions.RequestException: pass
+    threads = [threading.Thread(target=get_link, args=(ip,)) for ip in ips]
+    for thread in threads: thread.start()
+    for thread in threads: thread.join()
     return links
 
 def w1770946466():
