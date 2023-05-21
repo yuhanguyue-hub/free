@@ -297,10 +297,9 @@ class Node:
         return ret
 
     def supports_clash(self) -> bool:
+        if self.type == 'vless': return False
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
-        if self.type == 'vless': return False
-        if self.data['type'] == 'vless': return False
         elif self.type == 'vmess':
             supported = CLASH_CIPHER_VMESS
         elif self.type == 'ss' or self.type == 'ssr':
