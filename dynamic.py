@@ -16,7 +16,7 @@ def set_dynamic_globals(_session, _LOCAL):
 
 
 def kkzui():
-    # if LOCAL: return
+    if LOCAL: return
     res = session.get("https://kkzui.com/jd?orderby=modified",headers=headers)
     article_url = re.search(r'<h2 class="item-heading"><a href="(https://kkzui.com/(.*?)\.html)">20(.*?)节点(.*?)</a></h2>',res.text).groups()[0]
     res = session.get(article_url,headers=headers)
@@ -72,8 +72,8 @@ def w1770946466():
     return subs
 
 
-AUTOURLS = (kkzui, )
-AUTOFETCH = (sharkdoor, vpn_fail)
+AUTOURLS = (kkzui, w1770946466)
+AUTOFETCH = (sharkdoor, )
 
 if __name__ == '__main__':
     import requests
