@@ -72,7 +72,7 @@ def w1770946466():
     return subs
 
 
-AUTOURLS = (kkzui, w1770946466)
+AUTOURLS = (kkzui, )
 AUTOFETCH = (sharkdoor, vpn_fail)
 
 if __name__ == '__main__':
