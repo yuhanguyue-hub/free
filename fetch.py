@@ -314,6 +314,9 @@ class Node:
                 return False
         if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
                 and not self.data['plugin-opts']['mode']: return False
+        if 'network' in self.data and self.data['network'] in ('h2','grpc'):
+            # A quick fix for #2
+            self.data['tls'] = True
         return True
 
     def supports_ray(self) -> bool:
