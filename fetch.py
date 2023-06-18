@@ -297,6 +297,9 @@ class Node:
         return ret
 
     def supports_clash(self) -> bool:
+        if 'network' in self.data and self.data['network'] in ('h2','grpc'):
+            # A quick fix for #2
+            self.data['tls'] = True
         if self.type == 'vless': return False
         if self.data['type'] == 'vless': return False
         if 'cipher' not in self.data: return True
@@ -314,9 +317,6 @@ class Node:
                 return False
         if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
                 and not self.data['plugin-opts']['mode']: return False
-        if 'network' in self.data and self.data['network'] in ('h2','grpc'):
-            # A quick fix for #2
-            self.data['tls'] = True
         return True
 
     def supports_ray(self) -> bool:
@@ -460,7 +460,7 @@ def raw2fastly(url: str) -> str:
 
 if __name__ == '__main__':
     from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
-    sources = open("sources.list").read().strip().split('\n')
+    sources = open("sources.list", encoding="utf-8").read().strip().split('\n')
     session = requests.Session()
     if PROXY:
         session.proxies = {'http': PROXY, 'https': PROXY}
@@ -529,7 +529,7 @@ if __name__ == '__main__':
 
     print("开始抓取！")
     sources_obj = [Source(url) for url in sources_final]
-    threads = [threading.Thread(target=_.get) for _ in sources_obj]
+    threads = [threading.Thread(target=_.get, daemon=True) for _ in sources_obj]
     for thread in threads: thread.start()
     for i in range(len(sources_obj)):
         with io_lock:

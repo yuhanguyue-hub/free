@@ -16,13 +16,11 @@ def set_dynamic_globals(_session, _LOCAL):
 
 
 def kkzui():
-    if LOCAL: return
     res = session.get("https://kkzui.com/jd?orderby=modified",headers=headers)
-    article_url = re.search(r'<h2 class="item-heading"><a href="(https://kkzui.com/(.*?)\.html)">20(.*?)节点(.*?)</a></h2>',res.text).groups()[0]
+    article_url = re.search(r'<a href="(https://kkzui.com/(.*?)\.html)" title="20(.*?)节点(.*?)</a>',res.text).groups()[0]
     res = session.get(article_url,headers=headers)
-    sub = re.search(r'<p><strong>这是v2订阅地址</strong>：(.*?)</p>',res.text).groups()[0]
-    clash = re.search(r'<p><strong>这是小猫咪Clash订阅地址</strong>：(.*?)</p>',res.text).groups()[0]
-    return (sub, clash)
+    sub = res.text.split('<pre><code class="language-json line-numbers">')[1].split('</code></pre>')[0]
+    return sub
 
 def sharkdoor():
     res_json = session.get(datetime.datetime.now().strftime(
@@ -35,11 +33,13 @@ def sharkdoor():
     return nodes
 
 def changfengoss():
+    # Unused
     res = session.get(datetime.datetime.now().strftime(
         "https://api.github.com/repos/changfengoss/pub/contents/data/%Y_%m_%d?ref=main")).json()
     return [_['download_url'] for _ in res]
 
 def vpn_fail():
+    # The site has been closed
     # if LOCAL: return
     response = session.get("https://vpn.fail/free-proxy/type/v2ray").text
     lines = re.findall(r'<article(.*?)</article', response, re.DOTALL)
@@ -72,8 +72,8 @@ def w1770946466():
     return subs
 
 
-AUTOURLS = (kkzui, w1770946466)
-AUTOFETCH = (sharkdoor, )
+AUTOURLS = (w1770946466, )
+AUTOFETCH = (kkzui, sharkdoor)
 
 if __name__ == '__main__':
     import requests
