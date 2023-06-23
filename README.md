@@ -6,7 +6,7 @@
 
 ## 公告
 
-### 注意：我们建议您将订阅链接改为新的加速链接 1。其它两个加速链接含有缓存，可能不是最新，且访问速度没有链接 1 快。
+### 注意：原有的链接 1 似乎已经挂掉了，我们修改了这个链接。我们建议您将订阅链接改为新的加速链接 1。其它两个加速链接含有缓存，可能不是最新，且访问速度没有链接 1 快。
 
 此项目现已添加“反 996 许可证”，请各位使用者**不要违法违规要求别人加班，自觉遵守《中华人民共和国劳动法》及其它法律法规**！
 
@@ -14,13 +14,13 @@
 
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [加速链接 1](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
+- [加速链接 1](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - [加速链接 2](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [加速链接 3](https://cdn.staticaly.com/gh/peasoft/NoMoreWalls/master/list.txt)
 
 或添加 Clash 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-- [加速链接 1](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
+- [加速链接 1](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 - [加速链接 2](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 - [加速链接 3](https://cdn.staticaly.com/gh/peasoft/NoMoreWalls/master/list.yml)
 
