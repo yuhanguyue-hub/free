@@ -403,7 +403,7 @@ def parse(text: Union[str, List[str]]) -> List[str]:
             sub: List[str] = config['proxies']
         elif '://' in text:
             # V2Ray raw list
-            sub = text.strip().split('\n')
+            sub = text.strip().replace('\r','').split('\n')
         else:
             # V2Ray Sub
             sub = b64decodes(text.strip()).strip().split('\n')

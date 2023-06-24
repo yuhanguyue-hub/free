@@ -19,7 +19,9 @@ def kkzui():
     res = session.get("https://kkzui.com/jd?orderby=modified",headers=headers)
     article_url = re.search(r'<a href="(https://kkzui.com/(.*?)\.html)" title="20(.*?)节点(.*?)</a>',res.text).groups()[0]
     res = session.get(article_url,headers=headers)
-    sub = res.text.split('<pre><code class="language-json line-numbers">')[1].split('</code></pre>')[0]
+    sub = res.text.split('<pre>')[1].split('</pre>')[0]
+    if '>' in sub:
+        sub = sub.split('>')[1].split('<')[0]
     return sub
 
 def sharkdoor():
