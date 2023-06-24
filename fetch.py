@@ -85,8 +85,8 @@ class Node:
         return self.url
 
     def __hash__(self):
-        # return hash(f"{self.data['server']}:{self.data['port']}")
-        return hash(self.data['server'])
+        return hash(f"{self.type}:{self.data['server']}:{self.data['port']}")
+        # return hash(self.data['server'])
     
     def __eq__(self, other):
         if isinstance(other, self.__class__):
