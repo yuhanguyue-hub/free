@@ -57,6 +57,12 @@ proxy-groups:
     type: select
     proxies:
 
+  - name: 🌐 突破锁区
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 选择代理
+
   - name: ⛔ 广告拦截
     type: select
     proxies:
@@ -71,8 +77,10 @@ rules:
   - DOMAIN-KEYWORD,onedrive,🚀 选择代理
   - DOMAIN-SUFFIX,live.com,DIRECT
   - DOMAIN,global.bing.com,🚀 选择代理
-  - DOMAIN-SUFFIX,bing.com,DIRECT
+  - DOMAIN-SUFFIX,bing.com,🌐 突破锁区
   - DOMAIN-KEYWORD,kgithub,DIRECT
+  - DOMAIN-KEYWORD,fastgit,DIRECT
+  - DOMAIN-KEYWORD,ghproxy,DIRECT
 
   # (GlobalTV)
   # > ABC

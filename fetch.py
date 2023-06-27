@@ -9,6 +9,7 @@ import traceback
 import binascii
 import threading
 import sys
+from types import FunctionType as function
 from typing import Set, List, Dict, Union, Any
 
 try: PROXY = open("local_proxy.conf").read().strip()
@@ -55,11 +56,16 @@ CLASH_SSR_OBFS = "plain http_simple http_post random_head tls1.2_ticket_auth tls
 CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_chain_a auth_chain_b".split()
 
 ABFURLS = (
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
     "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt"
 )
+
+NAME_MAX_LEN = 30
+
+FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114".split('; ')
+FAKE_DOMAINS = ".google.com .github.com .sb".split()
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
@@ -68,6 +74,8 @@ session: requests.Session
 io_lock = threading.Lock()
 
 class Node:
+    names: Set[str] = set()
+
     def __init__(self, data) -> None:
         if isinstance(data, dict):
             self.data = data
@@ -80,6 +88,7 @@ class Node:
         if 'password' in self.data:
             self.data['password'] = str(self.data['password'])
         self.data['type'] = self.type
+        self.name = self.data['name']
 
     def __str__(self):
         return self.url
@@ -215,6 +224,28 @@ class Node:
         
         else: raise UnsupportedType(self.type)
 
+    def format_name(self) -> None:
+        if len(self.data['name']) > NAME_MAX_LEN:
+            self.data['name'] = self.data['name'][:NAME_MAX_LEN]+'...'
+        if self.data['name'] in Node.names:
+            i = 0
+            new: str = self.data['name']
+            while new in Node.names:
+                i += 1
+                new = f"{self.data['name']} #{i}"
+            self.data['name'] = new
+        Node.names.add(self.data['name'])
+        
+    @property
+    def isfake(self) -> bool:
+        if '.' not in self.data['server']: return True
+        if self.data['server'] in FAKE_IPS: return True
+        for domain in FAKE_DOMAINS:
+            if self.data['server'] == domain.lstrip('.'): return True
+            if self.data['server'].endswith(domain): return True
+        # TODO: Fake alterId/UUID
+        return False
+
     @property
     def url(self) -> str:
         data = self.data
@@ -297,6 +328,7 @@ class Node:
         return ret
 
     def supports_clash(self) -> bool:
+        if self.isfake: return False
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
             # A quick fix for #2
             self.data['tls'] = True
@@ -320,56 +352,64 @@ class Node:
         return True
 
     def supports_ray(self) -> bool:
-        if self.type == 'ss':
-            if 'plugin' in self.data and self.data['plugin']: return False
-        elif self.type == 'ssr':
-            return False
+        if self.isfake: return False
+        # if self.type == 'ss':
+        #     if 'plugin' in self.data and self.data['plugin']: return False
+        # elif self.type == 'ssr':
+        #     return False
         return True
 
 class Source():
-    def __init__(self, url: str) -> None:
-        self.url: str = url
+    def __init__(self, url: Union[str, function]) -> None:
+        if isinstance(url, function):
+            self.url: str = "dynamic://"+url.__name__
+            self.func: function = url
+        else:
+            self.url: str = url
         self.content: str = None
         self.sub: list = None
         self.exception: str = None
 
     def get(self) -> None:
         if self.content: return
-        global session
-        content = ""
-        first_line = True
-        tp = None
         try:
-            with session.get(self.url, stream=True) as r:
-                if r.status_code != 200:
-                    self.content = r.status_code
-                    return
-                for lineb in r.iter_lines():
-                    if not lineb: continue
-                    line = lineb.decode("utf-8").rstrip().replace('\\r','')
-                    if not line: continue
-                    if first_line:
-                        if ': ' in line:
-                            tp = 'yaml'
-                        elif '://' in line:
-                            tp = 'sub'#raw
-                        else: tp = 'sub'
-                        first_line = False
-                    if tp == 'yaml':
-                        if content:
-                            if line == "proxy-groups:": break
+            if self.url.startswith("dynamic:"):
+                content = self.func()
+            else:
+                global session
+                content = ""
+                first_line = True
+                tp = None
+                with session.get(self.url, stream=True) as r:
+                    if r.status_code != 200:
+                        self.content = r.status_code
+                        return
+                    for lineb in r.iter_lines():
+                        if not lineb: continue
+                        line = lineb.decode("utf-8").rstrip().replace('\\r','')
+                        if not line: continue
+                        if first_line:
+                            if ': ' in line:
+                                tp = 'yaml'
+                            elif '://' in line:
+                                tp = 'sub'#raw
+                            else: tp = 'sub'
+                            first_line = False
+                        if tp == 'yaml':
+                            if content:
+                                if line == "proxy-groups:": break
+                                content += line+'\n'
+                            elif line == "proxies:":
+                                content = line+'\n'
+                        elif tp == 'sub':
                             content += line+'\n'
-                        elif line == "proxies:":
-                            content = line+'\n'
-                    elif tp == 'sub':
-                        content += line+'\n'
         except KeyboardInterrupt: raise
         except requests.exceptions.RequestException:
             self.content = -1
         except:
             self.content = -2
             self.exception = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
-            threading.Thread(self.print_exc).start()
+            threading.Thread(target=self.print_exc).start()
         else:
             self.content = content
             self.parse()
@@ -412,10 +452,9 @@ def parse(text: Union[str, List[str]]) -> List[str]:
 
 merged: Set[Node] = set()
 unknown: Set[str] = set()
-names: Set[str] = set()
 used: Dict[int, List[int]] = {}
 def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
-    global merged, unknown, names
+    global merged, unknown#, names
     if parsed: sub:list = text
     else: sub = parse(text)
     if not sub: print("空订阅，跳过！", end='', flush=True); return
@@ -436,11 +475,7 @@ def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
         except: traceback.print_exc()
         else:
             if n not in merged:
-                if len(n.data['name']) > 30:
-                    n.data['name'] = n.data['name'][:30]+'...'
-                while n.data['name'] in names:
-                    n.data['name'] += '_'
-                names.add(n.data['name'])
+                n.format_name()
                 merged.add(n)
             if hash(n) not in used:
                 used[hash(n)] = []
@@ -448,6 +483,7 @@ def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
 
 def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
+    # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
     # url = url[34:].split('/')
     # url[1] += '@'+url[2]
     # del url[2]
@@ -455,7 +491,7 @@ def raw2fastly(url: str) -> str:
     # return url
     if not LOCAL: return url
     if url.startswith("https://raw.githubusercontent.com/"):
-        return "https://ghproxy.net/"+url
+        return "https://ghproxy.com/"+url
     return url
 
 if __name__ == '__main__':
@@ -467,16 +503,18 @@ if __name__ == '__main__':
     print("正在生成动态链接...")
     set_dynamic_globals(session, LOCAL)
     for auto_fun in AUTOURLS:
-        print("正在生成 '"+auto_fun.__name__+"'...")
+        print("正在生成 '"+auto_fun.__name__+"'... ", end='', flush=True)
         try: url = auto_fun()
-        except requests.exceptions.RequestException: pass
-        except: traceback.print_exc()
+        except requests.exceptions.RequestException: print("失败！")
+        except: print("错误：");traceback.print_exc()
         else:
             if url:
                 if isinstance(url, str):
                     sources.append(url)
                 elif isinstance(url, (list, tuple, set)):
                     sources.extend(url)
+                print("成功！")
+            else: print("跳过！")
     print("正在整理链接...")
     sources_final = set()
     airports = set()
@@ -526,15 +564,15 @@ if __name__ == '__main__':
     print("正在整理链接...")
     sources_final = list(sources_final)
     sources_final.sort()
+    sources_obj = [Source(url) for url in (sources_final + AUTOFETCH)]
 
     print("开始抓取！")
-    sources_obj = [Source(url) for url in sources_final]
     threads = [threading.Thread(target=_.get, daemon=True) for _ in sources_obj]
     for thread in threads: thread.start()
     for i in range(len(sources_obj)):
         with io_lock:
-            print("抓取 '"+sources_final[i]+"'... ", end='', flush=True)
-            try: threads[i].join()
+            print("抓取 '"+sources_obj[i].url+"'... ", end='', flush=True)
+            try: threads[i].join(timeout=60)
             except KeyboardInterrupt:
                 print("正在退出...")
                 break
@@ -543,6 +581,9 @@ if __name__ == '__main__':
                 if res < 0: print("抓取失败！")
                 else: print(res)
             else:
+                if threads[i].is_alive():
+                    print("超时！")
+                    continue
                 print("正在合并... ", end='', flush=True)
                 try:
                     merge(sources_obj[i].sub, parsed=True, sourceId=i)
@@ -553,12 +594,12 @@ if __name__ == '__main__':
                     print("失败！")
                     traceback.print_exc()
                 else: print("完成！")
-    print("正在抓取动态节点...")
-    for auto_fun in AUTOFETCH:
-        print("正在抓取 '"+auto_fun.__name__+"'...")
-        try: merge(auto_fun())
-        except KeyboardInterrupt: print("正在退出...");break
-        except: traceback.print_exc()
+    # print("正在抓取动态节点...")
+    # for auto_fun in AUTOFETCH:
+    #     print("正在抓取 '"+auto_fun.__name__+"'...")
+    #     try: merge(auto_fun())
+    #     except KeyboardInterrupt: print("正在退出...");break
+    #     except: traceback.print_exc()
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
@@ -604,7 +645,10 @@ if __name__ == '__main__':
                 blocked.add(line.strip('al').strip('|^$'))
     adblock_rules: List[str] = []
     for domain in blocked:
-        adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
+        if domain.count('.') == 4 and domain.replace('.','').isdigit(): # IP
+            adblock_rules.append(f"IP-CIDR,{domain}/32,{conf['proxy-groups'][-1]['name']}")
+        else:
+            adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
 
     print("正在写出 Clash 订阅...")
     rules = conf['rules']

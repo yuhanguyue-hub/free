@@ -19,9 +19,11 @@ def kkzui():
     res = session.get("https://kkzui.com/jd?orderby=modified",headers=headers)
     article_url = re.search(r'<a href="(https://kkzui.com/(.*?)\.html)" title="20(.*?)节点(.*?)</a>',res.text).groups()[0]
     res = session.get(article_url,headers=headers)
-    sub = res.text.split('<pre>')[1].split('</pre>')[0]
+    sub = res.text.split('<pre')[1].split('</pre>')[0]
+    if '</' in sub:
+        sub = sub.split('</')[-2]
     if '>' in sub:
-        sub = sub.split('>')[1].split('<')[0]
+        sub = sub.split('>')[-1]
     return sub
 
 def sharkdoor():
@@ -74,8 +76,8 @@ def w1770946466():
     return subs
 
 
-AUTOURLS = (w1770946466, )
-AUTOFETCH = (kkzui, sharkdoor)
+AUTOURLS = [w1770946466]
+AUTOFETCH = [kkzui, sharkdoor]
 
 if __name__ == '__main__':
     import requests
