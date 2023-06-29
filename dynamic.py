@@ -5,7 +5,6 @@ import requests
 import threading
 from fetch import raw2fastly
 
-headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53"}
 session: requests.Session
 LOCAL: bool
 
@@ -16,9 +15,9 @@ def set_dynamic_globals(_session, _LOCAL):
 
 
 def kkzui():
-    res = session.get("https://kkzui.com/jd?orderby=modified",headers=headers)
+    res = session.get("https://kkzui.com/jd?orderby=modified")
     article_url = re.search(r'<a href="(https://kkzui.com/(.*?)\.html)" title="20(.*?)节点(.*?)</a>',res.text).groups()[0]
-    res = session.get(article_url,headers=headers)
+    res = session.get(article_url)
     sub = res.text.split('<pre')[1].split('</pre>')[0]
     if '</' in sub:
         sub = sub.split('</')[-2]

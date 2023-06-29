@@ -62,16 +62,16 @@ ABFURLS = (
     "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt"
 )
 
-NAME_MAX_LEN = 30
-
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114".split('; ')
 FAKE_DOMAINS = ".google.com .github.com .sb".split()
+
+FETCH_TIMEOUT = (6, 5)
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
 
-session: requests.Session
-io_lock = threading.Lock()
+session = requests.Session()
+exc_queue: List[str] = []
 
 class Node:
     names: Set[str] = set()
@@ -94,8 +94,9 @@ class Node:
         return self.url
 
     def __hash__(self):
-        return hash(f"{self.type}:{self.data['server']}:{self.data['port']}")
-        # return hash(self.data['server'])
+        try:
+            return hash(f"{self.type}:{self.data['server']}:{self.data['port']}")
+        except Exception: return hash('__ERROR__')
     
     def __eq__(self, other):
         if isinstance(other, self.__class__):
@@ -224,9 +225,10 @@ class Node:
         
         else: raise UnsupportedType(self.type)
 
-    def format_name(self) -> None:
-        if len(self.data['name']) > NAME_MAX_LEN:
-            self.data['name'] = self.data['name'][:NAME_MAX_LEN]+'...'
+    def format_name(self, max_len=30) -> None:
+        self.data['name'] = self.name
+        if len(self.data['name']) > max_len:
+            self.data['name'] = self.data['name'][:max_len]+'...'
         if self.data['name'] in Node.names:
             i = 0
             new: str = self.data['name']
@@ -234,16 +236,18 @@ class Node:
                 i += 1
                 new = f"{self.data['name']} #{i}"
             self.data['name'] = new
-        Node.names.add(self.data['name'])
         
     @property
     def isfake(self) -> bool:
+        if 'server' not in self.data: return True
         if '.' not in self.data['server']: return True
         if self.data['server'] in FAKE_IPS: return True
         for domain in FAKE_DOMAINS:
             if self.data['server'] == domain.lstrip('.'): return True
             if self.data['server'].endswith(domain): return True
-        # TODO: Fake alterId/UUID
+        # TODO: Fake UUID
+        if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
+            return True
         return False
 
     @property
@@ -363,67 +367,113 @@ class Source():
     def __init__(self, url: Union[str, function]) -> None:
         if isinstance(url, function):
             self.url: str = "dynamic://"+url.__name__
-            self.func: function = url
+            self.url_source: function = url
+        elif url.startswith('+'):
+            self.url_source: str = url
+            self.date = datetime.datetime.now()# + datetime.timedelta(days=1)
+            self.gen_url()
         else:
             self.url: str = url
-        self.content: str = None
+            self.url_source: None = None
+        self.content: Union[str, List[str], int] = None
         self.sub: list = None
-        self.exception: str = None
 
-    def get(self) -> None:
+    def gen_url(self) -> None:
+        self.url_source: str
+        tags = self.url_source.split()
+        url = tags.pop()
+        while tags:
+            tag = tags.pop(0)
+            if tag[0] != '+': break
+            if tag == '+date':
+                url = self.date.strftime(url)
+                self.date -= datetime.timedelta(days=1)
+        self.url = url
+
+    def get(self, depth=2) -> None:
+        global exc_queue
         if self.content: return
         try:
             if self.url.startswith("dynamic:"):
-                content = self.func()
+                content: Union[str, List[str]] = self.url_source()
             else:
                 global session
-                content = ""
-                first_line = True
-                tp = None
+                content: str = ""
                 with session.get(self.url, stream=True) as r:
                     if r.status_code != 200:
-                        self.content = r.status_code
+                        if depth > 0 and isinstance(self.url_source, str):
+                            exc = f"'{self.url}' 抓取时 {r.status_code}"
+                            self.gen_url()
+                            exc += "，重新生成链接：\n\t"+self.url
+                            exc_queue.append(exc)
+                            self.get(depth-1)
+                        else:
+                            self.content = r.status_code
                         return
-                    for lineb in r.iter_lines():
-                        if not lineb: continue
-                        line = lineb.decode("utf-8").rstrip().replace('\\r','')
-                        if not line: continue
-                        if first_line:
-                            if ': ' in line:
-                                tp = 'yaml'
-                            elif '://' in line:
-                                tp = 'sub'#raw
-                            else: tp = 'sub'
-                            first_line = False
-                        if tp == 'yaml':
-                            if content:
-                                if line == "proxy-groups:": break
-                                content += line+'\n'
-                            elif line == "proxies:":
-                                content = line+'\n'
-                        elif tp == 'sub':
-                            content += line+'\n'
+                    # for lineb in r.iter_lines():
+                    tp = None
+                    pending = None
+                    for chunk in r.iter_content(decode_unicode=True):
+                        chunk: str
+                        if pending is not None:
+                            chunk = pending + chunk
+                            pending = None
+                        if tp == 'sub':
+                            content += chunk
+                            continue
+                        lines: List[str] = chunk.splitlines()
+                        if lines and lines[-1] and chunk and lines[-1][-1] == chunk[-1]:
+                            pending = lines.pop()
+                        while lines:
+                            line = lines.pop(0).rstrip().replace('\\r','')
+                            if not line: continue
+                            if not tp:
+                                if ': ' in line:
+                                    kv = line.split(': ')
+                                    if len(kv) == 2 and kv[0].isalpha():
+                                        tp = 'yaml'
+                                elif line[0] == '#': pass
+                                else: tp = 'sub'
+                            if tp == 'yaml':
+                                if content:
+                                    if line == "proxy-groups:": break
+                                    content += line+'\n'
+                                elif line == "proxies:":
+                                    content = line+'\n'
+                            elif tp == 'sub':
+                                content = chunk
+                    if pending is not None: content += pending
         except KeyboardInterrupt: raise
         except requests.exceptions.RequestException:
             self.content = -1
         except:
             self.content = -2
-            self.exception = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
-            threading.Thread(target=self.print_exc).start()
+            exc = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
+            exc_queue.append(exc)
         else:
-            self.content = content
+            self.content: Union[str, List[str]] = content
             self.parse()
 
     def parse(self) -> None:
+        global exc_queue
         try:
-            self.sub = parse(self.content)
+            text = self.content
+            if isinstance(text, str):
+                if "proxies:" in text:
+                    # Clash config
+                    config = yaml.full_load(text.replace("!<str>","!!str"))
+                    sub: List[str] = config['proxies']
+                elif '://' in text:
+                    # V2Ray raw list
+                    sub = text.strip().splitlines()
+                else:
+                    # V2Ray Sub
+                    sub = b64decodes(text.strip()).strip().splitlines()
+            else: sub = text # 动态节点抓取后直接传入列表
+            self.sub = sub
         except KeyboardInterrupt: raise
-        except: self.exception = \
-                "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
-
-    def print_exc(self) -> None:
-        with io_lock:
-            print(self.exception, file=sys.stderr, flush=True)
+        except: exc_queue.append(
+                "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc())
 
 def extract(url: str) -> Set[str]:
     global session
@@ -435,28 +485,12 @@ def extract(url: str) -> Set[str]:
             urls.add(line)
     return urls
 
-def parse(text: Union[str, List[str]]) -> List[str]:
-    if isinstance(text, str):
-        if "proxies:" in text:
-            # Clash config
-            config = yaml.full_load(text.replace("!<str>","!!str"))
-            sub: List[str] = config['proxies']
-        elif '://' in text:
-            # V2Ray raw list
-            sub = text.strip().replace('\r','').split('\n')
-        else:
-            # V2Ray Sub
-            sub = b64decodes(text.strip()).strip().split('\n')
-    else: sub = text # 动态节点抓取后直接传入列表
-    return sub
-
 merged: Set[Node] = set()
 unknown: Set[str] = set()
 used: Dict[int, List[int]] = {}
-def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
-    global merged, unknown#, names
-    if parsed: sub:list = text
-    else: sub = parse(text)
+def merge(source_obj: Source, sourceId=-1) -> None:
+    global merged, unknown
+    sub = source_obj.sub
     if not sub: print("空订阅，跳过！", end='', flush=True); return
     for p in sub:
         if isinstance(p, str):
@@ -476,6 +510,7 @@ def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
         else:
             if n not in merged:
                 n.format_name()
+                Node.names.add(n.data['name'])
                 merged.add(n)
             if hash(n) not in used:
                 used[hash(n)] = []
@@ -484,6 +519,7 @@ def merge(text: Union[str, List[str]], parsed=False, sourceId=-1) -> None:
 def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
     # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
+    # 2023/06/28: ghproxy.com 似乎有速率限制，改回原来的镜像
     # url = url[34:].split('/')
     # url[1] += '@'+url[2]
     # del url[2]
@@ -491,15 +527,15 @@ def raw2fastly(url: str) -> str:
     # return url
     if not LOCAL: return url
     if url.startswith("https://raw.githubusercontent.com/"):
-        return "https://ghproxy.com/"+url
+        return "https://ghproxy.net/"+url
     return url
 
-if __name__ == '__main__':
+def main():
+    global exc_queue, FETCH_TIMEOUT
     from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
-    sources = open("sources.list", encoding="utf-8").read().strip().split('\n')
-    session = requests.Session()
-    if PROXY:
-        session.proxies = {'http': PROXY, 'https': PROXY}
+    sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
+    if PROXY: session.proxies = {'http': PROXY, 'https': PROXY}
+    session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
     print("正在生成动态链接...")
     set_dynamic_globals(session, LOCAL)
     for auto_fun in AUTOURLS:
@@ -532,12 +568,9 @@ if __name__ == '__main__':
         if sub[0] == '+':
             tags = sub.split()
             sub = tags.pop()
-            while tags:
-                tag = tags.pop(0)
-                if tag[0] != '+': break
-                if tag == '+date':
-                    sub = datetime.datetime.now().strftime(sub)
-        sub = raw2fastly(sub)
+            sub = ' '.join(tags) + ' ' +raw2fastly(sub)
+        else:
+            sub = raw2fastly(sub)
         if isairport: airports.add(sub)
         else: sources_final.add(sub)
 
@@ -570,23 +603,27 @@ if __name__ == '__main__':
     threads = [threading.Thread(target=_.get, daemon=True) for _ in sources_obj]
     for thread in threads: thread.start()
     for i in range(len(sources_obj)):
-        with io_lock:
-            print("抓取 '"+sources_obj[i].url+"'... ", end='', flush=True)
-            try: threads[i].join(timeout=60)
-            except KeyboardInterrupt:
-                print("正在退出...")
-                break
+        try:
+            for t in range(1, FETCH_TIMEOUT[0]+1):
+                print("抓取 '"+sources_obj[i].url+"'... ", end='', flush=True)
+                try: threads[i].join(timeout=FETCH_TIMEOUT[1])
+                except KeyboardInterrupt:
+                    print("正在退出...")
+                    FETCH_TIMEOUT = (1, 0)
+                    break
+                if not threads[i].is_alive(): break
+                print(f"{5*t}s")
+            if threads[i].is_alive():
+                print("超时！")
+                continue
             res = sources_obj[i].content
             if isinstance(res, int):
                 if res < 0: print("抓取失败！")
                 else: print(res)
             else:
-                if threads[i].is_alive():
-                    print("超时！")
-                    continue
                 print("正在合并... ", end='', flush=True)
                 try:
-                    merge(sources_obj[i].sub, parsed=True, sourceId=i)
+                    merge(sources_obj[i], sourceId=i)
                 except KeyboardInterrupt:
                     print("正在退出...")
                     break
@@ -594,12 +631,11 @@ if __name__ == '__main__':
                     print("失败！")
                     traceback.print_exc()
                 else: print("完成！")
-    # print("正在抓取动态节点...")
-    # for auto_fun in AUTOFETCH:
-    #     print("正在抓取 '"+auto_fun.__name__+"'...")
-    #     try: merge(auto_fun())
-    #     except KeyboardInterrupt: print("正在退出...");break
-    #     except: traceback.print_exc()
+        except KeyboardInterrupt:
+            print("正在退出...")
+            break
+        while exc_queue:
+            print(exc_queue.pop(0), file=sys.stderr, flush=True)
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
@@ -626,7 +662,7 @@ if __name__ == '__main__':
 
     with open("config.yml", encoding="utf-8") as f:
         conf: Dict[str, Any] = yaml.full_load(f)
-    print("正在解析 Adblock 列表...")
+    print("正在解析 Adblock 列表... ", end='', flush=True)
     blocked: Set[str] = set()
     for url in ABFURLS:
         url = raw2fastly(url)
@@ -638,17 +674,18 @@ if __name__ == '__main__':
         if res.status_code != 200:
             print(url, res.status_code)
             continue
-        for line in res.text.strip().split('\n'):
+        for line in res.text.strip().splitlines():
             line = line.strip()
             if line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
                             (line[-1] == '^' or line.endswith("$all")):
                 blocked.add(line.strip('al').strip('|^$'))
     adblock_rules: List[str] = []
     for domain in blocked:
-        if domain.count('.') == 4 and domain.replace('.','').isdigit(): # IP
+        if domain.count('.') == 3 and domain.replace('.','').isdigit(): # IP
             adblock_rules.append(f"IP-CIDR,{domain}/32,{conf['proxy-groups'][-1]['name']}")
         else:
             adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
+    print(f"共有 {len(adblock_rules)} 条规则")
 
     print("正在写出 Clash 订阅...")
     rules = conf['rules']
@@ -679,3 +716,6 @@ if __name__ == '__main__':
     open("list_result.csv",'w').write(out)
 
     print("写出完成！")
+
+if __name__ == '__main__':
+    main()
