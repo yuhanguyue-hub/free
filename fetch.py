@@ -9,6 +9,7 @@ import traceback
 import binascii
 import threading
 import sys
+import os
 from types import FunctionType as function
 from typing import Set, List, Dict, Union, Any
 
@@ -66,6 +67,8 @@ FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.11
 FAKE_DOMAINS = ".google.com .github.com .sb".split()
 
 FETCH_TIMEOUT = (6, 5)
+
+DEBUG_NO_NODES = os.path.exists("local_NO_NODES")   # !!! JUST FOR DEBUGING !!!
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
@@ -519,7 +522,7 @@ def merge(source_obj: Source, sourceId=-1) -> None:
 def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
     # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
-    # 2023/06/28: ghproxy.com 似乎有速率限制，改回原来的镜像
+    # 2023/06/28: ghproxy.com 似乎有速率或并发限制，改回原来的镜像
     # url = url[34:].split('/')
     # url[1] += '@'+url[2]
     # del url[2]
@@ -534,6 +537,10 @@ def main():
     global exc_queue, FETCH_TIMEOUT
     from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
+    if DEBUG_NO_NODES:
+        # !!! JUST FOR DEBUGING !!!
+        print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
+        AUTOURLS = AUTOFETCH = sources = []
     if PROXY: session.proxies = {'http': PROXY, 'https': PROXY}
     session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
     print("正在生成动态链接...")
@@ -681,17 +688,37 @@ def main():
                 blocked.add(line.strip('al').strip('|^$'))
     adblock_rules: List[str] = []
     for domain in blocked:
-        if domain.count('.') == 3 and domain.replace('.','').isdigit(): # IP
-            adblock_rules.append(f"IP-CIDR,{domain}/32,{conf['proxy-groups'][-1]['name']}")
+        segs = domain.split('.')
+        if len(segs) == 4 and domain.replace('.','').isdigit(): # IP
+            for seg in segs: # '223.73.212.020' is not valid
+                if not seg: break
+                if seg[0] == '0' and seg != '0': break
+            else:
+                adblock_rules.append(f"IP-CIDR,{domain}/32,{conf['proxy-groups'][-1]['name']}")
         else:
             adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
     print(f"共有 {len(adblock_rules)} 条规则")
 
     print("正在写出 Clash 订阅...")
     rules = conf['rules']
-    rules2 = list(set(rules))
-    rules2.sort(key=rules.index)
-    conf['rules'] = adblock_rules + rules2
+    rules2 = {}
+    match_rule = None
+    for rule in rules:
+        tmp = rule.strip().split(',')
+        if len(tmp) == 2 and tmp[0] == 'MATCH':
+            match_rule = rule
+            break
+        if len(tmp) == 3:
+            rtype, rargument, rpolicy = tmp
+        elif len(tmp) == 4:
+            rtype, rargument, rpolicy, rresolve = tmp
+            rpolicy += ','+rresolve
+        else: print("规则 '"+rule+"' 无法被解析！")
+        k = rtype+','+rargument
+        if k not in rules2:
+            rules2[k] = rpolicy
+    rules3 = [','.join(_) for _ in rules2.items()]+[match_rule]
+    conf['rules'] = adblock_rules + rules3
     conf['proxies'] = []
     names_clash: Set[str] = set()
     for p in merged:
@@ -704,6 +731,8 @@ def main():
             group['proxies'] = names_clash
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
+
+    # print("正在写出配置片段...")
 
     print("正在写出统计信息...")
     out = "序号,链接,节点数\n"
