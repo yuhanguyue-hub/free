@@ -68,7 +68,9 @@ FAKE_DOMAINS = ".google.com .github.com .sb".split()
 
 FETCH_TIMEOUT = (6, 5)
 
-DEBUG_NO_NODES = os.path.exists("local_NO_NODES")   # !!! JUST FOR DEBUGING !!!
+# !!! JUST FOR DEBUGING !!!
+DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
+DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
@@ -534,7 +536,7 @@ def raw2fastly(url: str) -> str:
     return url
 
 def main():
-    global exc_queue, FETCH_TIMEOUT
+    global exc_queue, FETCH_TIMEOUT, ABFURLS
     from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
@@ -669,6 +671,10 @@ def main():
 
     with open("config.yml", encoding="utf-8") as f:
         conf: Dict[str, Any] = yaml.full_load(f)
+    if DEBUG_NO_ADBLOCK:
+        # !!! JUST FOR DEBUGING !!!
+        print("!!! 警告：您已关闭对 Adblock 规则的抓取 !!!")
+        ABFURLS = ()
     print("正在解析 Adblock 列表... ", end='', flush=True)
     blocked: Set[str] = set()
     for url in ABFURLS:
@@ -700,10 +706,9 @@ def main():
     print(f"共有 {len(adblock_rules)} 条规则")
 
     print("正在写出 Clash 订阅...")
-    rules = conf['rules']
-    rules2 = {}
+    rules2: Dict[str, str] = {}
     match_rule = None
-    for rule in rules:
+    for rule in conf['rules']:
         tmp = rule.strip().split(',')
         if len(tmp) == 2 and tmp[0] == 'MATCH':
             match_rule = rule
@@ -717,8 +722,8 @@ def main():
         k = rtype+','+rargument
         if k not in rules2:
             rules2[k] = rpolicy
-    rules3 = [','.join(_) for _ in rules2.items()]+[match_rule]
-    conf['rules'] = adblock_rules + rules3
+    rules = [','.join(_) for _ in rules2.items()]+[match_rule]
+    conf['rules'] = adblock_rules + rules
     conf['proxies'] = []
     names_clash: Set[str] = set()
     for p in merged:
@@ -732,7 +737,27 @@ def main():
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
 
-    # print("正在写出配置片段...")
+    print("正在写出配置片段...")
+    with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
+        yaml.dump({'proxies': conf['proxies']}, f, allow_unicode=True)
+    try:
+        with open("snippets/_config.yml", encoding="utf-8") as f:
+            snip_conf: Dict[Any] = yaml.full_load(f)
+    except (OSError, yaml.error.YAMLError):
+        print("配置文件读取失败：")
+        traceback.print_exc()
+    else:
+        name_map: Dict[str, str] = snip_conf['name-map']
+        snippets: Dict[str, List[str]] = {}
+        for rpolicy in name_map.values(): snippets[rpolicy] = []
+        for rule, rpolicy in rules2.items():
+            if ',' in rpolicy: rpolicy = rpolicy.split(',')[0]
+            if rpolicy in name_map:
+                snippets[name_map[rpolicy]].append(rule)
+        snippets['ADBLOCK'] = [','.join(_.split(',')[:-1]) for _ in adblock_rules]
+        for name, payload in snippets.items():
+            with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
+                yaml.dump({'payload': payload}, f, allow_unicode=True)
 
     print("正在写出统计信息...")
     out = "序号,链接,节点数\n"
