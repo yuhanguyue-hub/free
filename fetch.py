@@ -754,7 +754,7 @@ def main():
             if ',' in rpolicy: rpolicy = rpolicy.split(',')[0]
             if rpolicy in name_map:
                 snippets[name_map[rpolicy]].append(rule)
-        snippets['ADBLOCK'] = [','.join(_.split(',')[:-1]) for _ in adblock_rules]
+        snippets['adblock'] = [','.join(_.split(',')[:-1]) for _ in adblock_rules]
         for name, payload in snippets.items():
             with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'payload': payload}, f, allow_unicode=True)
