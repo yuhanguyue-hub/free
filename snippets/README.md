@@ -64,5 +64,6 @@ rules:
   - RULE-SET,region,🌐 突破锁区
   - RULE-SET,direct,DIRECT
   - RULE-SET,proxy,🚀 选择代理
+  - GEOIP,CN,DIRECT
   - MATCH,🚀 选择代理
 ```
