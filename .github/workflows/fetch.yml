@@ -11,17 +11,19 @@ on:
       - 'config.yml'
       - '.github/workflows/**'
       - '**.py'
+      - 'snippets/_*'
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
     - name: 迁出代码
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: 安装 Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
+        cache: 'pip'
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: 安装依赖
