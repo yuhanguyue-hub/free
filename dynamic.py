@@ -5,14 +5,6 @@ import requests
 import threading
 from fetch import raw2fastly, session, LOCAL
 
-# session: requests.Session
-# LOCAL: bool
-
-def set_dynamic_globals(_session, _LOCAL):
-    global session, LOCAL
-    session = _session
-    LOCAL = _LOCAL
-
 
 def kkzui():
     res = session.get("https://kkzui.com/jd?orderby=modified")

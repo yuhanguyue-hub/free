@@ -149,7 +149,7 @@ class Node:
                 if 'path' in v:
                     opts['path'] = v['path']
                 if 'host' in v:
-                    opts['host'] = v.split(',')
+                    opts['host'] = v['host'].split(',')
                 self.data['h2-opts'] = opts
             elif v['net'] == 'grpc' and 'path' in v:
                 self.data['grpc-opts'] = {'grpc-service-name': v['path']}
@@ -208,7 +208,7 @@ class Node:
         elif self.type == 'trojan':
             parsed = urlparse(url)
             self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname, 
-                    'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)}
+                    'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)} # type: ignore
             if parsed.query:
                 for kv in parsed.query.split('&'):
                     k,v = kv.split('=')
@@ -424,26 +424,23 @@ class Source():
                         else:
                             self.content = r.status_code
                         return
-                    # for lineb in r.iter_lines():
                     tp = None
                     pending = None
                     early_stop = False
-                    for chunk in r.iter_content(decode_unicode=True):
+                    for chunk in r.iter_content():
                         if early_stop: pending = None; break
-                        chunk: str
+                        chunk: bytes
                         if pending is not None:
                             chunk = pending + chunk
                             pending = None
                         if tp == 'sub':
-                            content += chunk
+                            content += chunk.decode(errors='ignore')
                             continue
-                        lines: List[str] = chunk.splitlines()
+                        lines: List[bytes] = chunk.splitlines()
                         if lines and lines[-1] and chunk and lines[-1][-1] == chunk[-1]:
                             pending = lines.pop()
                         while lines:
-                            line = lines.pop(0)
-                            line = line.rstrip()
-                            line = str(line).replace('\\r','')
+                            line = lines.pop(0).rstrip().decode(errors='ignore').replace('\\r','')
                             if not line: continue
                             if not tp:
                                 if ': ' in line:
@@ -460,8 +457,8 @@ class Source():
                                 elif line == "proxies:":
                                     content = line+'\n'
                             elif tp == 'sub':
-                                content = chunk
-                    if pending is not None: content += pending
+                                content = chunk.decode(errors='ignore')
+                    if pending is not None: content += pending.decode(errors='ignore')
         except KeyboardInterrupt: raise
         except requests.exceptions.RequestException:
             self.content = -1
@@ -494,7 +491,7 @@ class Source():
         except: exc_queue.append(
                 "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc())
 
-def extract(url: str) -> Set[str]:
+def extract(url: str) -> Union[Set[str], int]:
     global session
     res = session.get(url)
     if res.status_code != 200: return res.status_code
@@ -551,14 +548,12 @@ def raw2fastly(url: str) -> str:
 
 def main():
     global exc_queue, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
-    # from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
         AUTOURLS = AUTOFETCH = sources = []
     print("正在生成动态链接...")
-    # set_dynamic_globals(session, LOCAL)
     for auto_fun in AUTOURLS:
         print("正在生成 '"+auto_fun.__name__+"'... ", end='', flush=True)
         try: url = auto_fun()
@@ -735,7 +730,7 @@ def main():
         elif len(tmp) == 4:
             rtype, rargument, rpolicy, rresolve = tmp
             rpolicy += ','+rresolve
-        else: print("规则 '"+rule+"' 无法被解析！")
+        else: print("规则 '"+rule+"' 无法被解析！"); continue
         k = rtype+','+rargument
         if k not in rules2:
             rules2[k] = rpolicy
@@ -758,7 +753,7 @@ def main():
         yaml.dump({'proxies': conf['proxies']}, f, allow_unicode=True)
     try:
         with open("snippets/_config.yml", encoding="utf-8") as f:
-            snip_conf: Dict[Any] = yaml.full_load(f)
+            snip_conf: Dict[str, Dict[str, str]] = yaml.full_load(f)
     except (OSError, yaml.error.YAMLError):
         print("配置文件读取失败：")
         traceback.print_exc()
