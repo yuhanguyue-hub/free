@@ -3,10 +3,10 @@ import re
 import datetime
 import requests
 import threading
-from fetch import raw2fastly
+from fetch import raw2fastly, session, LOCAL
 
-session: requests.Session
-LOCAL: bool
+# session: requests.Session
+# LOCAL: bool
 
 def set_dynamic_globals(_session, _LOCAL):
     global session, LOCAL
@@ -79,5 +79,7 @@ AUTOURLS = [w1770946466]
 AUTOFETCH = [kkzui, sharkdoor]
 
 if __name__ == '__main__':
-    import requests
-    set_dynamic_globals(requests.Session(), True)
+    print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
+    print("内容抓取："+', '.join([_.__name__ for _ in AUTOFETCH]))
+    import code
+    code.interact(banner='', exitmsg='', local=globals())

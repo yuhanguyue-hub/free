@@ -239,12 +239,12 @@ rules:
   - DOMAIN-SUFFIX,battle.net,DIRECT
   - DOMAIN,blzddist1-a.akamaihd.net,DIRECT
   # > Steam
-  - DOMAIN-SUFFIX,steampowered.com,DIRECT
-  - DOMAIN-SUFFIX,steam-chat.com,DIRECT
-  - DOMAIN-KEYWORD,steamcdn,DIRECT
-  - DOMAIN-KEYWORD,steamstore,DIRECT
-  - DOMAIN-KEYWORD,steamuserimages,DIRECT
-  - DOMAIN-KEYWORD,steambroadcast,DIRECT
+  - DOMAIN-SUFFIX,steampowered.com,🌐 突破锁区
+  - DOMAIN-SUFFIX,steam-chat.com,🌐 突破锁区
+  - DOMAIN-KEYWORD,steamcdn,🌐 突破锁区
+  - DOMAIN-KEYWORD,steamstore,🌐 突破锁区
+  - DOMAIN-KEYWORD,steamuserimages,🌐 突破锁区
+  - DOMAIN-KEYWORD,steambroadcast,🌐 突破锁区
   # > Tencent
   #USER-AGENT,MicroMessenger%20Client,DIRECT
   #USER-AGENT,WeChat*,DIRECT
@@ -637,7 +637,7 @@ rules:
   - DOMAIN-KEYWORD,github,🚀 选择代理
   - DOMAIN-KEYWORD,jav,🚀 选择代理
   - DOMAIN-KEYWORD,pinterest,🚀 选择代理
-  - DOMAIN-KEYWORD,porn,🚀 选择代理
+  # - DOMAIN-KEYWORD,porn,🚀 选择代理
   - DOMAIN-KEYWORD,wikileaks,🚀 选择代理
 
   # (Region-Restricted Access Denied)

@@ -15,7 +15,9 @@ from typing import Set, List, Dict, Union, Any
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
-else: LOCAL = not PROXY
+else:
+    if not PROXY: PROXY = None
+    LOCAL = not PROXY
 
 def b64encodes(s):
     return base64.b64encode(s.encode('utf-8')).decode('utf-8')
@@ -60,7 +62,10 @@ ABFURLS = (
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
-    "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt"
+    "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
+    "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
+    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "https://anti-ad.net/adguard.txt"
 )
 
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114".split('; ')
@@ -76,6 +81,10 @@ class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
 
 session = requests.Session()
+session.trust_env = False
+session.proxies = {'http': PROXY, 'https': PROXY}
+session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
+
 exc_queue: List[str] = []
 
 class Node:
@@ -418,7 +427,9 @@ class Source():
                     # for lineb in r.iter_lines():
                     tp = None
                     pending = None
+                    early_stop = False
                     for chunk in r.iter_content(decode_unicode=True):
+                        if early_stop: pending = None; break
                         chunk: str
                         if pending is not None:
                             chunk = pending + chunk
@@ -430,7 +441,9 @@ class Source():
                         if lines and lines[-1] and chunk and lines[-1][-1] == chunk[-1]:
                             pending = lines.pop()
                         while lines:
-                            line = lines.pop(0).rstrip().replace('\\r','')
+                            line = lines.pop(0)
+                            line = line.rstrip()
+                            line = str(line).replace('\\r','')
                             if not line: continue
                             if not tp:
                                 if ': ' in line:
@@ -441,7 +454,8 @@ class Source():
                                 else: tp = 'sub'
                             if tp == 'yaml':
                                 if content:
-                                    if line == "proxy-groups:": break
+                                    if line in ("proxy-groups:", "rules:", "script:"):
+                                        early_stop=True; break
                                     content += line+'\n'
                                 elif line == "proxies:":
                                     content = line+'\n'
@@ -536,17 +550,15 @@ def raw2fastly(url: str) -> str:
     return url
 
 def main():
-    global exc_queue, FETCH_TIMEOUT, ABFURLS
-    from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
+    global exc_queue, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
+    # from dynamic import AUTOURLS, AUTOFETCH, set_dynamic_globals
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
         AUTOURLS = AUTOFETCH = sources = []
-    if PROXY: session.proxies = {'http': PROXY, 'https': PROXY}
-    session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
     print("正在生成动态链接...")
-    set_dynamic_globals(session, LOCAL)
+    # set_dynamic_globals(session, LOCAL)
     for auto_fun in AUTOURLS:
         print("正在生成 '"+auto_fun.__name__+"'... ", end='', flush=True)
         try: url = auto_fun()
@@ -681,8 +693,8 @@ def main():
         url = raw2fastly(url)
         try:
             res = session.get(url)
-        except requests.exceptions.RequestException:
-            print(url, "下载失败！")
+        except requests.exceptions.RequestException as e:
+            print(f"{url} 下载失败：{e.args[0].reason}")
             continue
         if res.status_code != 200:
             print(url, res.status_code)
@@ -694,19 +706,24 @@ def main():
                 blocked.add(line.strip('al').strip('|^$'))
     adblock_rules: List[str] = []
     for domain in blocked:
+        if '*' in domain: continue
+        if '/' in domain: continue
         segs = domain.split('.')
         if len(segs) == 4 and domain.replace('.','').isdigit(): # IP
             for seg in segs: # '223.73.212.020' is not valid
                 if not seg: break
                 if seg[0] == '0' and seg != '0': break
             else:
-                adblock_rules.append(f"IP-CIDR,{domain}/32,{conf['proxy-groups'][-1]['name']}")
+                adblock_rules.append(f"IP-CIDR,{domain}/32")
         else:
-            adblock_rules.append(f"DOMAIN-SUFFIX,{domain},{conf['proxy-groups'][-1]['name']}")
+            adblock_rules.append(f"DOMAIN-SUFFIX,{domain}")
     print(f"共有 {len(adblock_rules)} 条规则")
 
     print("正在写出 Clash 订阅...")
     rules2: Dict[str, str] = {}
+    adblock_name: str = conf['proxy-groups'][-1]['name']
+    for k in adblock_rules:
+        rules2[k] = adblock_name
     match_rule = None
     for rule in conf['rules']:
         tmp = rule.strip().split(',')
@@ -722,8 +739,7 @@ def main():
         k = rtype+','+rargument
         if k not in rules2:
             rules2[k] = rpolicy
-    rules = [','.join(_) for _ in rules2.items()]+[match_rule]
-    conf['rules'] = adblock_rules + rules
+    conf['rules'] = [','.join(_) for _ in rules2.items()]+[match_rule]
     conf['proxies'] = []
     names_clash: Set[str] = set()
     for p in merged:
@@ -754,7 +770,6 @@ def main():
             if ',' in rpolicy: rpolicy = rpolicy.split(',')[0]
             if rpolicy in name_map:
                 snippets[name_map[rpolicy]].append(rule)
-        snippets['adblock'] = [','.join(_.split(',')[:-1]) for _ in adblock_rules]
         for name, payload in snippets.items():
             with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'payload': payload}, f, allow_unicode=True)
@@ -772,4 +787,5 @@ def main():
     print("写出完成！")
 
 if __name__ == '__main__':
+    from dynamic import AUTOURLS, AUTOFETCH
     main()
