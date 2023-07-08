@@ -65,7 +65,8 @@ ABFURLS = (
     "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
     "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://anti-ad.net/adguard.txt"
+    "https://anti-ad.net/adguard.txt",
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt"
 )
 
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114".split('; ')
