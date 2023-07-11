@@ -43,6 +43,7 @@
 - **[「 深蓝洞察 」2022 年度最“不可赦”漏洞](https://mp.weixin.qq.com/s/P_EYQxOEupqdU0BJMRqWsw)：知名互联网厂商(TMD并夕夕)持续挖掘新的安卓 OEM 相关漏洞，在其公开发布的 App 中实现对目前市场主流手机系统的漏洞攻击**（[具体分析](https://mp.weixin.qq.com/s/kiLvnJSDZpYRHI_XiUx9gg)）现已被工信部提名！
 - **[暑假学校敢补课？举报！](https://www.bilibili.com/video/BV1Vk4y1K79B)**
 - **[逃离戒网瘾学校？我们找到办法了](https://www.bilibili.com/video/BV1Mg4y1A7bE)**：希望你永远用不到。
+- **[一学校扔掉学生百余份外卖](https://www.bilibili.com/video/BV1a14y1S7n6)**：涉嫌违法！
 - 未完待续……
 
 ## Star History
