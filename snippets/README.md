@@ -61,9 +61,11 @@ rule-providers:
 
 rules:
   - RULE-SET,adblock,⛔ 广告拦截
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-KEYWORD,-cn,DIRECT
   - RULE-SET,region,🌐 突破锁区
   - RULE-SET,direct,DIRECT
-  - RULE-SET,proxy,🚀 选择代理
   - GEOIP,CN,DIRECT
-  - MATCH,🚀 选择代理
+  - RULE-SET,proxy,🚀 选择代理
+  - MATCH,🐟 漏网之鱼
 ```
