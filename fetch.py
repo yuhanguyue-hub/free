@@ -700,7 +700,9 @@ def main():
             if line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
                             (line[-1] == '^' or line.endswith("$all")):
                 blocked.add(line.strip('al').strip('|^$'))
-    adblock_rules: List[str] = []
+
+    rules: Dict[str, str] = {}
+    adblock_name: str = conf['proxy-groups'][-1]['name']
     for domain in blocked:
         if '*' in domain: continue
         if '/' in domain: continue
@@ -710,16 +712,29 @@ def main():
                 if not seg: break
                 if seg[0] == '0' and seg != '0': break
             else:
-                adblock_rules.append(f"IP-CIDR,{domain}/32")
+                rules[f'IP-CIDR,{domain}/32'] = adblock_name
         else:
-            adblock_rules.append(f"DOMAIN-SUFFIX,{domain}")
-    print(f"共有 {len(adblock_rules)} 条规则")
+            rules[f'DOMAIN-SUFFIX,{domain}'] = adblock_name
+    print(f"共有 {len(rules)} 条规则")
+
+    print("正在抓取 Google IP 列表... ", end='', flush=True)
+    proxy_name: str = conf['proxy-groups'][0]['name']
+    try:
+        prefixes: List[Dict[str,str]] = session.get("https://www.gstatic.com/ipranges/goog.json").json()['prefixes']
+        for prefix in prefixes:
+            for tp, ip in prefix.items():
+                if tp.startswith('ipv4'):
+                    rules['IP-CIDR,'+ip] = proxy_name
+                elif tp.startswith('ipv6'):
+                    rules['IP-CIDR6,'+ip] = proxy_name
+    except requests.exceptions.RequestException:
+        print("抓取失败！")
+    except Exception:
+        print("解析失败！")
+        traceback.print_exc()
+    else: print("解析成功！")
 
     print("正在写出 Clash 订阅...")
-    rules2: Dict[str, str] = {}
-    adblock_name: str = conf['proxy-groups'][-1]['name']
-    for k in adblock_rules:
-        rules2[k] = adblock_name
     match_rule = None
     for rule in conf['rules']:
         tmp = rule.strip().split(',')
@@ -733,9 +748,9 @@ def main():
             rpolicy += ','+rresolve
         else: print("规则 '"+rule+"' 无法被解析！"); continue
         k = rtype+','+rargument
-        if k not in rules2:
-            rules2[k] = rpolicy
-    conf['rules'] = [','.join(_) for _ in rules2.items()]+[match_rule]
+        if k not in rules:
+            rules[k] = rpolicy
+    conf['rules'] = [','.join(_) for _ in rules.items()]+[match_rule]
     conf['proxies'] = []
     names_clash: Set[str] = set()
     for p in merged:
@@ -762,7 +777,7 @@ def main():
         name_map: Dict[str, str] = snip_conf['name-map']
         snippets: Dict[str, List[str]] = {}
         for rpolicy in name_map.values(): snippets[rpolicy] = []
-        for rule, rpolicy in rules2.items():
+        for rule, rpolicy in rules.items():
             if ',' in rpolicy: rpolicy = rpolicy.split(',')[0]
             if rpolicy in name_map:
                 snippets[name_map[rpolicy]].append(rule)
