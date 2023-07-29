@@ -717,22 +717,22 @@ def main():
             rules[f'DOMAIN-SUFFIX,{domain}'] = adblock_name
     print(f"共有 {len(rules)} 条规则")
 
-    print("正在抓取 Google IP 列表... ", end='', flush=True)
-    proxy_name: str = conf['proxy-groups'][0]['name']
-    try:
-        prefixes: List[Dict[str,str]] = session.get("https://www.gstatic.com/ipranges/goog.json").json()['prefixes']
-        for prefix in prefixes:
-            for tp, ip in prefix.items():
-                if tp.startswith('ipv4'):
-                    rules['IP-CIDR,'+ip] = proxy_name
-                elif tp.startswith('ipv6'):
-                    rules['IP-CIDR6,'+ip] = proxy_name
-    except requests.exceptions.RequestException:
-        print("抓取失败！")
-    except Exception:
-        print("解析失败！")
-        traceback.print_exc()
-    else: print("解析成功！")
+    # print("正在抓取 Google IP 列表... ", end='', flush=True)
+    # proxy_name: str = conf['proxy-groups'][0]['name']
+    # try:
+    #     prefixes: List[Dict[str,str]] = session.get("https://www.gstatic.com/ipranges/goog.json").json()['prefixes']
+    #     for prefix in prefixes:
+    #         for tp, ip in prefix.items():
+    #             if tp.startswith('ipv4'):
+    #                 rules['IP-CIDR,'+ip] = proxy_name
+    #             elif tp.startswith('ipv6'):
+    #                 rules['IP-CIDR6,'+ip] = proxy_name
+    # except requests.exceptions.RequestException:
+    #     print("抓取失败！")
+    # except Exception:
+    #     print("解析失败！")
+    #     traceback.print_exc()
+    # else: print("解析成功！")
 
     print("正在写出 Clash 订阅...")
     match_rule = None

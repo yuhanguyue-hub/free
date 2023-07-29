@@ -86,16 +86,16 @@ rules:
   - DOMAIN-SUFFIX,live.com,DIRECT
   - DOMAIN,global.bing.com,🚀 选择代理
   - DOMAIN-SUFFIX,bing.com,🌐 突破锁区
+  - DOMAIN-SUFFIX,bing.net,🌐 突破锁区
   - DOMAIN-KEYWORD,kgithub,DIRECT
   - DOMAIN-KEYWORD,fastgit,DIRECT
   - DOMAIN-KEYWORD,ghproxy,DIRECT
   - DOMAIN-KEYWORD,clash,🚀 选择代理
   - DOMAIN-KEYWORD,v2ray,🚀 选择代理
-  - DOMAIN-KEYWORD,cnblogs,DIRECT
   - DOMAIN-SUFFIX,trafficmanager.net,DIRECT
   - DOMAIN-SUFFIX,star-history.com,🚀 选择代理
   - DOMAIN-SUFFIX,ivonblog.com,🚀 选择代理 # 视情况而定
-  - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理 # 已经停服了，代理会自动切到国外
+  # - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理 # 已经停服了，代理会自动切到国外
 
   # 国内网站（优先，避免 google.cn 走代理）
   - DOMAIN-SUFFIX,cn,DIRECT
@@ -411,7 +411,7 @@ rules:
   - DOMAIN-SUFFIX,gvt0.com,🚀 选择代理
   - DOMAIN-SUFFIX,gvt1.com,🚀 选择代理
   - DOMAIN-SUFFIX,gvt3.com,🚀 选择代理
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 选择代理
+  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 选择代理
   - DOMAIN-KEYWORD,google,🚀 选择代理
   - DOMAIN-KEYWORD,blogspot,🚀 选择代理
   # > Facebook
@@ -750,8 +750,8 @@ rules:
   - DOMAIN-SUFFIX,madewithcode.com,🚀 选择代理
   - DOMAIN-SUFFIX,material.io,🚀 选择代理
   - DOMAIN-SUFFIX,polymer-project.org,🚀 选择代理
-  - DOMAIN-SUFFIX,admin.recaptcha.net,🚀 选择代理
-  - DOMAIN-SUFFIX,recaptcha.net,🚀 选择代理
+  # - DOMAIN-SUFFIX,admin.recaptcha.net,🚀 选择代理
+  # - DOMAIN-SUFFIX,recaptcha.net,🚀 选择代理
   - DOMAIN-SUFFIX,shattered.io,🚀 选择代理
   - DOMAIN-SUFFIX,synergyse.com,🚀 选择代理
   - DOMAIN-SUFFIX,tensorflow.org,🚀 选择代理
