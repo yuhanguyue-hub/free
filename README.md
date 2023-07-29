@@ -6,9 +6,24 @@
 
 ## 公告
 
-### 注意：原有的链接 1 出现过问题，我们在它前面添加了新的链接 1 并下移了原有链接。我们建议您将订阅链接改为新的加速链接 1。加速链接 3/4 含有缓存，可能不是最新，且访问速度没有链接 1 快。
+## 关于 Google Play 等服务在国内无法使用的解决方法
+
+由于 Google 调整了服务器安排，将原有的国外服务器的**域名**调整到了国内专版，但是**服务器**还没跟上，导致 Google Play 等服务在国内连上的是**空域名**，直接不能用了。当前的解决办法有：
+
+1. **正常更新本项目的 Clash 订阅**，我们将 `googleapis.cn` 强制走了代理，让 Google Play 继续使用国外服务器，部分网络架构（如本机运行 Clash For Android）下服务能够恢复正常。如果您使用的是本项目提供的规则片段，请在 `rules` 第一行加上：
+```
+- DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理
+```
+2. **如果方案 1 无效，且你的手机已 ROOT，请解除 GMS 锁区**，安装 Magisk 模块 [Unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)（[zip 下载](https://github.com/fei-ke/unlock-cn-gms/suites/14659926659/artifacts/831954457)），这不一定适合所有手机，请先关注您手机中相关锁区文件的位置。
+3. **如果你的手机未 ROOT，请使用 Clash For Android 试一试**，有概率正常。
+4. 实在不行就等等吧，但愿 Google 能尽快修复此问题。
+
+**无论使用哪种方法，都要将 `🐟 漏网之鱼` 选择为 DIRECT！** 如果此问题有进展，我们会在此更新，请及时关注。
+
+注意：原有的链接 1 出现过问题，我们在它前面添加了新的链接 1 并下移了原有链接。我们建议您将订阅链接改为新的加速链接 1。加速链接 3/4 含有缓存，可能不是最新，且访问速度没有链接 1 快。
 
 我们新增了 `snippets` 文件夹来存放从 `list.yml` 中拆分出的配置片段，用于将本项目提供的一些配置整合到你自己的配置中。
+
 此项目现已添加“反 996 许可证”，请各位使用者**不要违法违规要求别人加班，自觉遵守《中华人民共和国劳动法》及其它法律法规**！
 
 ## 使用方法
@@ -42,8 +57,8 @@
 - **[《满江红》的行为艺术](https://www.bilibili.com/video/BV11v4y1t7Gw/)：秦桧竟是我自己？**
 - **[「 深蓝洞察 」2022 年度最“不可赦”漏洞](https://mp.weixin.qq.com/s/P_EYQxOEupqdU0BJMRqWsw)：知名互联网厂商(TMD并夕夕)持续挖掘新的安卓 OEM 相关漏洞，在其公开发布的 App 中实现对目前市场主流手机系统的漏洞攻击**（[具体分析](https://mp.weixin.qq.com/s/kiLvnJSDZpYRHI_XiUx9gg)）现已被工信部提名！
 - **[暑假学校敢补课？举报！](https://www.bilibili.com/video/BV1Vk4y1K79B)**
-- **[逃离戒网瘾学校？我们找到办法了](https://www.bilibili.com/video/BV1Mg4y1A7bE)**：希望你永远用不到。
-- **[一学校扔掉学生百余份外卖](https://www.bilibili.com/video/BV1a14y1S7n6)**：涉嫌违法！
+- **[逃离戒网瘾学校？我们找到办法了](https://www.bilibili.com/video/BV1Mg4y1A7bE)：希望你永远用不到。**
+- **[一学校扔掉学生百余份外卖](https://www.bilibili.com/video/BV1a14y1S7n6)：涉嫌违法！**
 - 未完待续……
 
 ## Star History

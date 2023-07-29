@@ -60,6 +60,10 @@ rule-providers:
     format: yaml
 
 rules:
+  - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理 # 代理会自动切到国外，详情请见 README
+  - DOMAIN-KEYWORD,kgithub,DIRECT
+  - DOMAIN-KEYWORD,fastgit,DIRECT
+  - DOMAIN-KEYWORD,ghproxy,DIRECT
   - RULE-SET,adblock,⛔ 广告拦截
   - DOMAIN-SUFFIX,cn,DIRECT
   - DOMAIN-KEYWORD,-cn,DIRECT
