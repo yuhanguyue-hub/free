@@ -14,7 +14,7 @@
 ```
 - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理
 ```
-2. **如果方案 1 无效，且你的手机已 ROOT，请解除 GMS 锁区**，安装 Magisk 模块 [Unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)（[zip 下载](https://github.com/fei-ke/unlock-cn-gms/suites/14659926659/artifacts/831954457)），这不一定适合所有手机，请先关注您手机中相关锁区文件的位置。
+2. **如果方案 1 无效，且你的手机已 ROOT，请解除 GMS 锁区**，安装 Magisk 模块 [Unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)（[zip 下载](https://github.com/fei-ke/unlock-cn-gms/releases/download/v3.4/unlock-cn-gms-v3.4.zip)），这不一定适合所有手机，请先关注您手机中相关锁区文件的位置。
 3. **如果你的手机未 ROOT，请使用 Clash For Android 试一试**，有概率正常。
 4. 实在不行就等等吧，但愿 Google 能尽快修复此问题。
 
