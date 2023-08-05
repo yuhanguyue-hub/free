@@ -27,7 +27,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 600
-      url: http://www.gstatic.com/generate_204
+      url: https://www.google.com/
 
 rule-providers:
   adblock:
@@ -61,6 +61,8 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理 # 代理会自动切到国外，详情请见 README
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器
+  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，尚未完成部署
   - DOMAIN-KEYWORD,kgithub,DIRECT
   - DOMAIN-KEYWORD,fastgit,DIRECT
   - DOMAIN-KEYWORD,ghproxy,DIRECT

@@ -10,15 +10,17 @@
 
 由于 Google 调整了服务器安排，将原有的国外服务器的**域名**调整到了国内专版，但是**服务器**还没跟上，导致 Google Play 等服务在国内连上的是**空域名**，直接不能用了。当前的解决办法有：
 
-1. **正常更新本项目的 Clash 订阅**，我们将 `googleapis.cn` 强制走了代理，让 Google Play 继续使用国外服务器，部分网络架构（如本机运行 Clash For Android）下服务能够恢复正常。如果您使用的是本项目提供的规则片段，请在 `rules` 第一行加上：
-```
-- DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理
+1. **正常更新本项目的 Clash 订阅**，我们将 `googleapis.cn` 强制走了代理，让 Google Play 继续使用国外服务器，部分网络架构（如本机运行 Clash For Android）下服务能够恢复正常。如果您使用的是本项目提供的规则片段，请在 `rules` 开头加上：
+```yaml
+  - DOMAIN-SUFFIX,googleapis.cn,🚀 选择代理
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器
+  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，尚未完成部署
 ```
 2. **如果方案 1 无效，且你的手机已 ROOT，请解除 GMS 锁区**，安装 Magisk 模块 [Unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)（[zip 下载](https://github.com/fei-ke/unlock-cn-gms/releases/download/v3.4/unlock-cn-gms-v3.4.zip)），这不一定适合所有手机，请先关注您手机中相关锁区文件的位置。
 3. **如果你的手机未 ROOT，请使用 Clash For Android 试一试**，有概率正常。
 4. 实在不行就等等吧，但愿 Google 能尽快修复此问题。
 
-**无论使用哪种方法，都要将 `🐟 漏网之鱼` 选择为 DIRECT！** 如果此问题有进展，我们会在此更新，请及时关注。
+如果此问题有进展，我们会在此更新，请及时关注。
 
 注意：原有的链接 1 出现过问题，我们在它前面添加了新的链接 1 并下移了原有链接。我们建议您将订阅链接改为新的加速链接 1。加速链接 3/4 含有缓存，可能不是最新，且访问速度没有链接 1 快。
 
