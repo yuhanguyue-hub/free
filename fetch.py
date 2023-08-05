@@ -690,7 +690,11 @@ def main():
         try:
             res = session.get(url)
         except requests.exceptions.RequestException as e:
-            print(f"{url} 下载失败：{e.args[0].reason}")
+            try:
+                print(f"{url} 下载失败：{e.args[0].reason}")
+            except Exception:
+                print(f"{url} 下载失败：无法解析的错误！")
+                traceback.print_exc()
             continue
         if res.status_code != 200:
             print(url, res.status_code)
