@@ -100,6 +100,8 @@ rules:
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，尚未完成部署
   - DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
   - DOMAIN-KEYWORD,js96110,⛔ 广告拦截 # 以权谋私，一边反诈一边推广，恶意封禁正常网站
+  - DOMAIN-KEYWORD,wiki.arch,DIRECT
+  - DOMAIN-KEYWORD,archlinuxcn,DIRECT
 
   # 国内网站（优先，避免 google.cn 走代理）
   - DOMAIN-SUFFIX,cn,DIRECT
