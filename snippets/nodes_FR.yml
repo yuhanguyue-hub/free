@@ -1,11 +1,35 @@
 payload:
 - alterId: 0
   cipher: auto
-  name: 12|法国 1|**
+  name: 12,12|法国 1|**
   network: tcp
-  port: 25938
+  port: '25938'
   server: 210.3.205.180
   servername: ''
   tls: false
   type: vmess
-  uuid: fe1d091c-f10b-3f7b-a434-c15d9e0c57cd
+  uuid: 3f158fd9-9e88-34bd-a0fa-c5e5b83ee7fb
+- alterId: 64
+  cipher: auto
+  name: 12|FR_speednode_0003
+  network: ws
+  port: 443
+  server: 156.249.18.21
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
+  ws-opts:
+    headers:
+      Host: www.20163322.xyz
+    path: /path/1692203343673
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
+  network: tcp
+  port: '44169'
+  server: 156.245.8.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
