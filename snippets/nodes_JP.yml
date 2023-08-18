@@ -1,16 +1,44 @@
 payload:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本测试|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@ripaojiedian)df1fab2:16569
-    mode: tls
-  port: 2377
-  server: 117.50.106.86
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-061
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 13079e4f-d9b0-4c75-8034-308af7543d16
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 13079e4f-d9b0-4c75-8034-308af7543d16
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本 319
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 360
@@ -21,6 +49,53 @@ payload:
   tls: false
   type: vmess
   uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本|tg频道:@ripaojiedian
+  password: Zi7egRIUKdgyh1ChIAEOnHH9OhcUk4KQVqgUtXvlj132
+  port: 31215
+  server: play.awa.im
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本 330
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本 350
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 14|🇯🇵 日本B|@ripaojiedian
+  password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7
+  port: 443
+  server: gsawsjp1.aiopen.cfd
+  skip-cert-verify: false
+  sni: 20-212-60-88.nhost.00cdn.com
+  tfo: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b5910a9e-191e-4dfb-babb-ed0e42fb18a4
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -37,22 +112,47 @@ payload:
   server: 183.232.170.32
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本|tg频道:@ripaojiedian
-  password: Zi7egRIUKdgyh1ChIAEOnHH9OhcUk4KQVqgUtXvlj132
-  port: 31215
-  server: play.awa.im
+- client-fingerprint: chrome
+  name: 1|_JP_日本
+  password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7
+  port: 443
+  server: gsawsjp2.aiopen.cfd
+  skip-cert-verify: true
+  sni: 20-212-60-88.nhost.00cdn.com
   tfo: false
-  type: ss
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本A|@ripaojiedian
-  password: b102cfbf-182e-4562-afc2-e6c35d9fc495
-  port: 38999
-  server: ctjp1.createmofa.xyz
+  name: 14|🇯🇵 日本测试|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@ripaojiedian)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 117.50.106.86
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 13079e4f-d9b0-4c75-8034-308af7543d16
+- alterId: 64
+  cipher: auto
+  name: 7|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+  network: tcp
+  port: '46002'
+  server: 45.88.43.239
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -62,37 +162,15 @@ payload:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50f11feb-c414-4273-bf58-85278f70ee2c
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d847d1b5-d3bb-4038-a053-6a6b15b47df2
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 50f11feb-c414-4273-bf58-85278f70ee2c
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d847d1b5-d3bb-4038-a053-6a6b15b47df2
+  uuid: b5910a9e-191e-4dfb-babb-ed0e42fb18a4
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本A|@ripaojiedian
+  password: b102cfbf-182e-4562-afc2-e6c35d9fc495
+  port: 38999
+  server: ctjp1.createmofa.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|日本 东京阿里云
@@ -107,26 +185,6 @@ payload:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本 319
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本 350
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP
@@ -136,7 +194,7 @@ payload:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50f11feb-c414-4273-bf58-85278f70ee2c
+  uuid: b5910a9e-191e-4dfb-babb-ed0e42fb18a4
 - alterId: 2
   cipher: auto
   name: 7|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
@@ -146,61 +204,3 @@ payload:
   tls: false
   type: vmess
   uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
-- alterId: 64
-  cipher: auto
-  name: 7|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
-  network: tcp
-  port: '46002'
-  server: 45.88.43.239
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 14|🇯🇵 日本B|@ripaojiedian
-  password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7
-  port: 443
-  server: gsawsjp1.aiopen.cfd
-  skip-cert-verify: false
-  sni: 20-212-60-88.nhost.00cdn.com
-  tfo: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d847d1b5-d3bb-4038-a053-6a6b15b47df2
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本 330
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- client-fingerprint: chrome
-  name: 1|_JP_日本
-  password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7
-  port: 443
-  server: gsawsjp2.aiopen.cfd
-  skip-cert-verify: true
-  sni: 20-212-60-88.nhost.00cdn.com
-  tfo: false
-  type: trojan
-  udp: true

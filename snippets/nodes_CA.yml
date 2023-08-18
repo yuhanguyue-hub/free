@@ -1,6 +1,46 @@
 payload:
 - alterId: 0
   cipher: auto
+  name: '0,20|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: 23.227.39.81
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,9,10,14,15,20|_CA_加拿大
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 8|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 13079e4f-d9b0-4c75-8034-308af7543d16
+- alterId: 0
+  cipher: auto
   name: 0,12|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
@@ -21,20 +61,7 @@ payload:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50f11feb-c414-4273-bf58-85278f70ee2c
-- alterId: 0
-  cipher: auto
-  name: '0,20|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: '443'
-  server: 23.227.39.81
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: b5910a9e-191e-4dfb-babb-ed0e42fb18a4
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 CA(AzadNet.t.me)_004
@@ -49,16 +76,6 @@ payload:
     headers:
       Host: ca1-vmess.greenssh.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d847d1b5-d3bb-4038-a053-6a6b15b47df2
 - alterId: 64
   cipher: auto
   name: 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
@@ -69,20 +86,3 @@ payload:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,9,10,14,15,20|_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
