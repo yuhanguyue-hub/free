@@ -1,4 +1,17 @@
 payload:
+- alterId: 0
+  cipher: auto
+  name: 0|_CN_中国
+  network: ws
+  port: '80'
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: db8d12d5-1968-4125-b775-77d50aa65923
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   name: 7|🇨🇳 China 01 TG:@nodpai
@@ -21,16 +34,3 @@ payload:
     headers:
       Host: ecc.vtcss.top
     path: /blue
-- alterId: 0
-  cipher: auto
-  name: 0|_CN_中国
-  network: ws
-  port: '80'
-  server: 36.150.27.31
-  tls: false
-  type: vmess
-  uuid: db8d12d5-1968-4125-b775-77d50aa65923
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
