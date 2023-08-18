@@ -75,6 +75,8 @@ FAKE_DOMAINS = ".google.com .github.com .sb".split()
 
 FETCH_TIMEOUT = (6, 5)
 
+BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8=').split()
+
 # !!! JUST FOR DEBUGING !!!
 DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
 DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
@@ -104,7 +106,7 @@ class Node:
         if 'password' in self.data:
             self.data['password'] = str(self.data['password'])
         self.data['type'] = self.type
-        self.name = self.data['name']
+        self.name: str = self.data['name']
 
     def __str__(self):
         return self.url
@@ -243,6 +245,8 @@ class Node:
 
     def format_name(self, max_len=30) -> None:
         self.data['name'] = self.name
+        for word in BANNED_WORDS:
+            self.data['name'] = self.data['name'].replace(word, '*'*len(word))
         if len(self.data['name']) > max_len:
             self.data['name'] = self.data['name'][:max_len]+'...'
         if self.data['name'] in Node.names:
@@ -788,6 +792,25 @@ def main():
                 snippets[name_map[rpolicy]].append(rule)
         for name, payload in snippets.items():
             with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
+                yaml.dump({'payload': payload}, f, allow_unicode=True)
+        
+        categories: Dict[str, List[str]] = snip_conf['categories']
+        ctg_nodes: Dict[str, List[Node]] = {}
+        for ctg in categories: ctg_nodes[ctg] = []
+        for node in merged:
+            if node.supports_clash():
+                ctgs = []
+                for ctg, keys in categories.items():
+                    for key in keys:
+                        if key in node.name:
+                            ctgs.append(ctg)
+                            break
+                    if ctgs and keys[-1] == 'OVERALL':
+                        break
+                if len(ctgs) == 1:
+                    ctg_nodes[ctgs[0]].append(node.clash_data)
+        for ctg, payload in ctg_nodes.items():
+            with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'payload': payload}, f, allow_unicode=True)
 
     print("正在写出统计信息...")
