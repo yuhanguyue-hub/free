@@ -18,19 +18,6 @@ payload:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,12,20|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 23.227.39.81
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
   name: '0,1,2,3,4|🇨🇦 _CA_加拿大 #2'
   network: ws
   port: '443'
@@ -44,14 +31,14 @@ payload:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 8|🇨🇦加拿大04
+  name: 13|加拿大 02 | 1x CA
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4482717a-1be2-4fa8-af91-cbf9ba5cb671
+  uuid: 9a917b09-b78d-47d6-bd26-2c489523ba04
 - alterId: 0
   cipher: auto
   name: '0,14,15,20|🇨🇦 _CA_加拿大 #3'
@@ -80,11 +67,24 @@ payload:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 0,1,2,3,4,12,20|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.39.81
   tls: true
   type: vmess
-  uuid: f8d9f183-3a11-4adb-86f0-17ee133d29e0
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 8|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a3f0bdeb-fd7d-41e5-b01c-8bf1ad6c7305
