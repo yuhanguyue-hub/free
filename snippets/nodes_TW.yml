@@ -1,14 +1,57 @@
 payload:
 - alterId: 0
   cipher: auto
-  name: 8|🇹🇼台湾04
+  name: 8|🇹🇼台湾06
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 715f2922-2eb0-4790-82e6-d18071a48c61
+  uuid: a3cc5619-485a-4e74-bd0d-a6d7a9002ca9
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 03【vip1】
+  network: ws
+  port: '59393'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: effab3b6-2eda-4b1a-8fc0-9ad820b1ca4b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d8112f71-7ef5-4e49-8da8-fdcd557297f1
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d8112f71-7ef5-4e49-8da8-fdcd557297f1
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d8112f71-7ef5-4e49-8da8-fdcd557297f1
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -25,84 +68,12 @@ payload:
   server: 103.177.33.180
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 14|🇹🇼 台湾1|@ripaojiedian
-  password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7
-  port: 443
-  server: gshinet1.aiopen.cfd
-  skip-cert-verify: false
-  sni: 20-212-60-88.nhost.00cdn.com
-  tfo: false
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 17|JCBB_ 台湾 04【vip1】
   network: ws
   port: '59486'
   server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: effab3b6-2eda-4b1a-8fc0-9ad820b1ca4b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2a103af4-0e81-46c2-b8af-d5ebfb2b0a30
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2a103af4-0e81-46c2-b8af-d5ebfb2b0a30
-- client-fingerprint: chrome
-  name: 1|_TW_台湾
-  password: a9aad274-e226-4716-a8d2-7f6516d880d1
-  port: 10025
-  server: tw4.yihaobao.xyz
-  skip-cert-verify: true
-  sni: tls.yihaobao.xyz
-  tfo: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 715f2922-2eb0-4790-82e6-d18071a48c61
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2a103af4-0e81-46c2-b8af-d5ebfb2b0a30
-- alterId: 0
-  cipher: auto
-  name: 17|JCBB_ 台湾 03【vip1】
-  network: ws
-  port: '59393'
-  server: gzyd.jcnode.top
   tls: false
   type: vmess
   uuid: effab3b6-2eda-4b1a-8fc0-9ad820b1ca4b
@@ -119,7 +90,17 @@ payload:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 715f2922-2eb0-4790-82e6-d18071a48c61
+  uuid: a3cc5619-485a-4e74-bd0d-a6d7a9002ca9
+- client-fingerprint: chrome
+  name: 1|_TW_台湾
+  password: a9aad274-e226-4716-a8d2-7f6516d880d1
+  port: 10025
+  server: tw4.yihaobao.xyz
+  skip-cert-verify: true
+  sni: tls.yihaobao.xyz
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 17|JCBB_ 台湾 03_1【vip1】
@@ -133,3 +114,13 @@ payload:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a3cc5619-485a-4e74-bd0d-a6d7a9002ca9
