@@ -1,14 +1,4 @@
-payload:
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b5502490-f9e6-4fc5-84cd-c59356f25a50
+proxies:
 - alterId: 0
   cipher: auto
   name: 17|JCBB_ 台湾 03_1【vip1】
@@ -24,14 +14,14 @@ payload:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 8|🇹🇼台湾04
+  name: 13|台湾 06  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b5502490-f9e6-4fc5-84cd-c59356f25a50
+  uuid: f8c9b687-f888-4d77-9e4f-91db73676e39
 - alterId: 1
   cipher: auto
   name: 12|[直连]台北-Hinet01
@@ -47,24 +37,17 @@ payload:
     path: /clientarea
 - alterId: 0
   cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
+  name: 17|JCBB_ 台湾 04【vip1】
+  network: ws
+  port: '59486'
+  server: gzdx.jcnode.top
+  tls: false
   type: vmess
-  uuid: f74cee0d-1576-4109-b46b-a63cf3eecf20
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f74cee0d-1576-4109-b46b-a63cf3eecf20
+  uuid: d0880d1a-9679-42fb-9d16-82af4ac8ca3d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 8|🇹🇼台湾05
@@ -74,7 +57,7 @@ payload:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b5502490-f9e6-4fc5-84cd-c59356f25a50
+  uuid: 46351926-8e90-4201-8c7c-2c48548252c0
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -93,6 +76,36 @@ payload:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f8c9b687-f888-4d77-9e4f-91db73676e39
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 46351926-8e90-4201-8c7c-2c48548252c0
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f8c9b687-f888-4d77-9e4f-91db73676e39
+- alterId: 0
+  cipher: auto
   name: 17|JCBB_ 台湾 03【vip1】
   network: ws
   port: '59393'
@@ -106,24 +119,11 @@ payload:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 17|JCBB_ 台湾 04【vip1】
-  network: ws
-  port: '59486'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: d0880d1a-9679-42fb-9d16-82af4ac8ca3d
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
+  name: 8|🇹🇼台湾06
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f74cee0d-1576-4109-b46b-a63cf3eecf20
+  uuid: 46351926-8e90-4201-8c7c-2c48548252c0

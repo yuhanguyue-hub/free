@@ -1,14 +1,4 @@
-payload:
-- alterId: 0
-  cipher: auto
-  name: '12|Channel id: @ShadowProxy66🇫🇷'
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+proxies:
 - alterId: 1
   cipher: auto
   name: 12|直连-法兰克福02
@@ -22,3 +12,13 @@ payload:
     headers:
       Host: de-ls03.cn2api.com
     path: /clientarea
+- alterId: 0
+  cipher: auto
+  name: '12|Channel id: @ShadowProxy66🇫🇷'
+  network: tcp
+  port: '443'
+  server: 51.158.238.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae

@@ -1,4 +1,30 @@
-payload:
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4|🇨🇦 _CA_加拿大 #2'
+  network: ws
+  port: '443'
+  server: 23.227.38.81
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,12,20|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.39.81
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -11,29 +37,6 @@ payload:
   tls: true
   type: vmess
   udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b5502490-f9e6-4fc5-84cd-c59356f25a50
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,12,20|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 23.227.39.81
-  tls: true
-  type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
@@ -54,14 +57,14 @@ payload:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
+  name: 8|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f74cee0d-1576-4109-b46b-a63cf3eecf20
+  uuid: 46351926-8e90-4201-8c7c-2c48548252c0
 - alterId: 0
   cipher: auto
   name: '0,1,2,3,4|🇨🇦 _CA_加拿大 #1'
@@ -77,14 +80,11 @@ payload:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,4|🇨🇦 _CA_加拿大 #2'
-  network: ws
-  port: '443'
-  server: 23.227.38.81
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: f8c9b687-f888-4d77-9e4f-91db73676e39
