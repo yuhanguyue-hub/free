@@ -1,14 +1,4 @@
 payload:
-- client-fingerprint: chrome
-  name: 1|_FR_法国
-  password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d
-  port: 443
-  server: 57.128.173.6
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  tfo: false
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '12|Channel id: @ShadowProxy66🇫🇷'
@@ -19,3 +9,16 @@ payload:
   tls: false
   type: vmess
   uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- alterId: 1
+  cipher: auto
+  name: 12|直连-法兰克福02
+  network: ws
+  port: 65443
+  server: de-ls03.cn2api.com
+  tls: true
+  type: vmess
+  uuid: 81ea43a1-7a93-485f-afc8-7496a203b18c
+  ws-opts:
+    headers:
+      Host: de-ls03.cn2api.com
+    path: /clientarea
