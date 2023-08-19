@@ -71,7 +71,7 @@ ABFURLS = (
 )
 
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114".split('; ')
-FAKE_DOMAINS = ".google.com .github.com .sb".split()
+FAKE_DOMAINS = ".google.com .github.com".split()
 
 FETCH_TIMEOUT = (6, 5)
 
@@ -112,8 +112,50 @@ class Node:
         return self.url
 
     def __hash__(self):
+        data = self.data
         try:
-            return hash(f"{self.type}:{self.data['server']}:{self.data['port']}")
+            path = ""
+            if self.type == 'vmess':
+                path = data['network']+':'
+                if data['network'] == 'ws':
+                    if 'ws-opts' in data:
+                        try:
+                            path += data['ws-opts']['headers']['Host']
+                        except KeyError: pass
+                        if 'path' in data['ws-opts']:
+                            path += '/'+data['ws-opts']['path']
+                elif data['network'] == 'h2':
+                    if 'h2-opts' in data:
+                        if 'host' in data['h2-opts']:
+                            path += ','.join(data['h2-opts']['host'])
+                        if 'path' in data['h2-opts']:
+                            path += '/'+data['h2-opts']['path']
+                elif data['network'] == 'grpc':
+                    if 'grpc-opts' in data:
+                        if 'grpc-service-name' in data['grpc-opts']:
+                            path += data['grpc-opts']['grpc-service-name']
+            elif self.type == 'ss':
+                if 'plugin-opts' in data:
+                    opts = data['plugin-opts']
+                    if 'host' in opts:
+                        path = opts['host']
+                    if 'path' in opts:
+                        path += '/'+opts['path']
+            elif self.type == 'ssr':
+                if 'obfs-param' in data:
+                    path = data['obfs-param']
+            elif self.type == 'trojan':
+                if 'sni' in data:
+                    path = data['sni']+':'
+                if data['network'] == 'ws':
+                    if 'ws-opts' in data:
+                        try:
+                            path += data['ws-opts']['headers']['Host']
+                        except KeyError: pass
+                        if 'path' in data['ws-opts']:
+                            path += '/'+data['ws-opts']['path']
+            hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
+            return hash(hashstr)
         except Exception: return hash('__ERROR__')
     
     def __eq__(self, other):

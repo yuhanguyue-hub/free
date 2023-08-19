@@ -53,6 +53,7 @@ proxy-groups:
     type: url-test
     url: https://www.google.com/
     interval: 300
+    tolerance: 50
     proxies:
 
   - name: ✅ 手动选择
@@ -87,11 +88,13 @@ rules:
   - DOMAIN,global.bing.com,🚀 选择代理
   - DOMAIN-SUFFIX,bing.com,🌐 突破锁区
   - DOMAIN-SUFFIX,bing.net,🌐 突破锁区
+  - DOMAIN-KEYWORD,bingapi,🌐 突破锁区
   - DOMAIN-KEYWORD,kgithub,DIRECT
   - DOMAIN-KEYWORD,fastgit,DIRECT
   - DOMAIN-KEYWORD,ghproxy,DIRECT
   - DOMAIN-KEYWORD,clash,🚀 选择代理
   - DOMAIN-KEYWORD,v2ray,🚀 选择代理
+  - DOMAIN-KEYWORD,v2fly,🚀 选择代理
   - DOMAIN-SUFFIX,trafficmanager.net,DIRECT
   - DOMAIN-SUFFIX,star-history.com,🚀 选择代理
   - DOMAIN-SUFFIX,ivonblog.com,🚀 选择代理 # 视情况而定
@@ -102,6 +105,8 @@ rules:
   - DOMAIN-KEYWORD,js96110,⛔ 广告拦截 # 以权谋私，一边反诈一边推广，恶意封禁正常网站
   - DOMAIN-KEYWORD,wiki.arch,DIRECT
   - DOMAIN-KEYWORD,archlinuxcn,DIRECT
+  - DOMAIN-SUFFIX,996.icu,DIRECT
+  - DOMAIN-SUFFIX,chinadigitaltimes.net,🚀 选择代理
 
   # 国内网站（优先，避免 google.cn 走代理）
   - DOMAIN-SUFFIX,cn,DIRECT
