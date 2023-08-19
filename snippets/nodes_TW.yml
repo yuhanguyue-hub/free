@@ -1,16 +1,6 @@
 payload:
 - alterId: 0
   cipher: auto
-  name: 10,12|github.com/freefq - 台湾省中华电信 6
-  network: tcp
-  port: 11872
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
-- alterId: 0
-  cipher: auto
   name: 8|🇹🇼台湾04
   network: tcp
   port: '36301'
@@ -18,7 +8,65 @@ payload:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 13079e4f-d9b0-4c75-8034-308af7543d16
+  uuid: 715f2922-2eb0-4790-82e6-d18071a48c61
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇹🇼 台湾独家|@ripaojiedian
+  password: 9e44e9ffe5c2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline004.chilines.club
+    mode: websocket
+    mux: true
+    path: /isaifqaagpi
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.177.33.180
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 14|🇹🇼 台湾1|@ripaojiedian
+  password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7
+  port: 443
+  server: gshinet1.aiopen.cfd
+  skip-cert-verify: false
+  sni: 20-212-60-88.nhost.00cdn.com
+  tfo: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 04【vip1】
+  network: ws
+  port: '59486'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: effab3b6-2eda-4b1a-8fc0-9ad820b1ca4b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2a103af4-0e81-46c2-b8af-d5ebfb2b0a30
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2a103af4-0e81-46c2-b8af-d5ebfb2b0a30
 - client-fingerprint: chrome
   name: 1|_TW_台湾
   password: a9aad274-e226-4716-a8d2-7f6516d880d1
@@ -38,29 +86,7 @@ payload:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 13079e4f-d9b0-4c75-8034-308af7543d16
-- client-fingerprint: chrome
-  name: 14|🇹🇼 台湾1|@ripaojiedian
-  password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7
-  port: 443
-  server: gshinet1.aiopen.cfd
-  skip-cert-verify: false
-  sni: 20-212-60-88.nhost.00cdn.com
-  tfo: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 17|JCBB_ 台湾 03_1【vip1】
-  network: ws
-  port: '16680'
-  server: gzdx01.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 43c69b2e-dfe4-4362-8cc0-cb130c5a5724
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 715f2922-2eb0-4790-82e6-d18071a48c61
 - alterId: 0
   cipher: auto
   name: 13|台湾 05  | 1x TWN
@@ -70,56 +96,7 @@ payload:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b5910a9e-191e-4dfb-babb-ed0e42fb18a4
-- alterId: 0
-  cipher: auto
-  name: 17|JCBB_ 台湾 04【vip1】
-  network: ws
-  port: '59486'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 43c69b2e-dfe4-4362-8cc0-cb130c5a5724
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇹🇼 台湾独家|@ripaojiedian
-  password: 9e44e9ffe5c2
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline004.chilines.club
-    mode: websocket
-    mux: true
-    path: /isaifqaagpi
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 103.177.33.180
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b5910a9e-191e-4dfb-babb-ed0e42fb18a4
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b5910a9e-191e-4dfb-babb-ed0e42fb18a4
+  uuid: 2a103af4-0e81-46c2-b8af-d5ebfb2b0a30
 - alterId: 0
   cipher: auto
   name: 17|JCBB_ 台湾 03【vip1】
@@ -128,7 +105,7 @@ payload:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 43c69b2e-dfe4-4362-8cc0-cb130c5a5724
+  uuid: effab3b6-2eda-4b1a-8fc0-9ad820b1ca4b
   ws-opts:
     headers:
       Host: ''
@@ -142,4 +119,17 @@ payload:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 13079e4f-d9b0-4c75-8034-308af7543d16
+  uuid: 715f2922-2eb0-4790-82e6-d18071a48c61
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 03_1【vip1】
+  network: ws
+  port: '16680'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: effab3b6-2eda-4b1a-8fc0-9ad820b1ca4b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
