@@ -1,17 +1,41 @@
 proxies:
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 9,12|法国国际航空电讯集团公司(SITA) 31
+  name: 9|法国巴黎Amazon数据中心 15
   network: ws
-  port: '80'
-  server: uk2-vmess.greenssh.xyz
-  tls: false
+  port: 65443
+  server: fr-ls03.cn2api.com
+  tls: true
   type: vmess
-  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  uuid: 81ea43a1-7a93-485f-afc8-7496a203b18c
   ws-opts:
     headers:
-      Host: uk2-vmess.greenssh.xyz
-    path: /
+      Host: fr-ls03.cn2api.com
+    path: /clientarea
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_科网_116
+  network: tcp
+  port: '47865'
+  server: 156.249.18.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 10,12|github.com/freefq - 法国格拉沃利讷OVH...
+  network: ws
+  port: '80'
+  server: fr2.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
+  ws-opts:
+    headers:
+      Host: fr2.09vpn.com
+    path: /vmess/
 - alterId: 1
   cipher: auto
   name: 9|德国黑森州法兰克福Amazon数据中心 12
@@ -27,66 +51,14 @@ proxies:
     path: /clientarea
 - alterId: 0
   cipher: auto
-  name: '12|🇫🇷FR法国(youtube阿伟科技) #1'
+  name: 9,10,12|法国国际航空电讯集团公司(SITA) 31
   network: ws
   port: '80'
-  server: fr2.09vpn.com
-  servername: ''
+  server: uk2-vmess.greenssh.xyz
   tls: false
   type: vmess
-  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
   ws-opts:
     headers:
-      Host: fr2.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 12|🇫🇷FR法国(youtube阿伟科技)
-  network: ws
-  port: '80'
-  server: ge1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 930e8882-169c-4d14-84e1-0aa671611325
-  ws-opts:
-    headers:
-      Host: ge1.09vpn.com
-    path: /vmess/
-- alterId: 64
-  cipher: auto
-  name: 12|🇫🇷_FR_法国_科网_116
-  network: tcp
-  port: '47865'
-  server: 156.249.18.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 1
-  cipher: auto
-  name: 9|法国巴黎Amazon数据中心 15
-  network: ws
-  port: 65443
-  server: fr-ls03.cn2api.com
-  tls: true
-  type: vmess
-  uuid: 81ea43a1-7a93-485f-afc8-7496a203b18c
-  ws-opts:
-    headers:
-      Host: fr-ls03.cn2api.com
-    path: /clientarea
-- alterId: 0
-  cipher: auto
-  name: '12|🇫🇷FR法国(youtube阿伟科技) #2'
-  network: ws
-  port: '80'
-  server: fr1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 29806bf6-c530-4959-9263-50e97c2a1c61
-  ws-opts:
-    headers:
-      Host: fr1.09vpn.com
-    path: /vmess/
+      Host: uk2-vmess.greenssh.xyz
+    path: /
