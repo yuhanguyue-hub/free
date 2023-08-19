@@ -853,7 +853,7 @@ def main():
                     ctg_nodes[ctgs[0]].append(node.clash_data)
         for ctg, payload in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
-                yaml.dump({'payload': payload}, f, allow_unicode=True)
+                yaml.dump({'proxies': payload}, f, allow_unicode=True)
 
     print("正在写出统计信息...")
     out = "序号,链接,节点数\n"
