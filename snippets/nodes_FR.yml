@@ -1,15 +1,34 @@
 payload:
 - alterId: 0
   cipher: auto
-  name: 12|🇫🇷FR法国(youtube阿伟科技)
+  name: 10,12|github.com/freefq - 法国国际航空电讯集团...
   network: ws
-  port: '2082'
-  server: fr-01.cloudlion.me
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 1|_FR_法国
+  password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d
+  port: 443
+  server: 57.128.173.6
+  skip-cert-verify: true
+  sni: www.speedtest.net
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '12|Channel id: @ShadowProxy66🇫🇷'
+  network: tcp
+  port: '443'
+  server: 51.158.238.229
   servername: ''
   tls: false
   type: vmess
-  uuid: e32ef032-28aa-4c59-bcdf-18b1a6270f34
-  ws-opts:
-    headers:
-      Host: fr-01.cloudlion.me
-    path: /
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
