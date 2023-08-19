@@ -1,7 +1,33 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 10,12|github.com/freefq - 法国国际航空电讯集团...
+  network: ws
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
+    path: /
 - alterId: 1
   cipher: auto
-  name: 12|直连-法兰克福02
+  name: 10,12|github.com/freefq - 法国巴黎Amazon...
+  network: ws
+  port: 65443
+  server: fr-ls03.cn2api.com
+  tls: true
+  type: vmess
+  uuid: 81ea43a1-7a93-485f-afc8-7496a203b18c
+  ws-opts:
+    headers:
+      Host: fr-ls03.cn2api.com
+    path: /clientarea
+- alterId: 1
+  cipher: auto
+  name: 10,12|github.com/freefq - 德国黑森州法兰克福A...
   network: ws
   port: 65443
   server: de-ls03.cn2api.com

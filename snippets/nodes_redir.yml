@@ -1,43 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,10,20|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  name: '0,1,2,3,4,9,19|🇺🇸 _CA_加拿大->🇺🇸_US_美国 #1'
   network: ws
   port: '443'
-  server: zfc.windowsupdate1.com
+  server: dongtaiwang2.com
   tls: true
   type: vmess
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-  ws-opts:
-    headers:
-      Host: us-1.acyun.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,12|_CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: 443
-  server: 23.227.39.110
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
   uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
   ws-opts:
     headers:
       Host: 2.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 64
-  cipher: auto
-  name: 20|🇺🇸_US_美国->🇳🇱_NL_荷兰_27
-  network: tcp
-  port: 43370
-  server: 156.225.67.242
-  tls: false
-  type: vmess
-  uuid: 990006bd-cb20-482f-9c97-f5fc65359605
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -57,177 +31,12 @@ proxies:
     path: a7ee85f4
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,9|🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: '80'
-  server: 104.18.1.196
-  tls: false
-  type: vmess
-  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
-  ws-opts:
-    headers:
-      Host: sg2-mlb.securev2ray.com
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 0,9,10|🇸🇬 _SG_新加坡->🇺🇸_US_美国
-  network: ws
-  port: '80'
-  server: 129.150.35.145
-  tls: false
-  type: vmess
-  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
-  ws-opts:
-    headers:
-      Host: dd2.1808.cf
-    path: a7ee85f4
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_US_美国->🇦🇺_AU_澳大利亚
-  network: ws
-  port: 2082
-  server: au-01.cloudlion.me
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e32ef032-28aa-4c59-bcdf-18b1a6270f34
-  ws-opts:
-    headers:
-      Host: au-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '443'
-  server: cdnjs.com
-  tls: true
-  type: vmess
-  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
-  ws-opts:
-    headers:
-      Host: Amsterdam.kotick.site
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '0,9,20|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
-  network: ws
-  port: '80'
-  server: 172.67.196.139
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 0,16|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: fr.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,9,20|🇺🇸 _CA_加拿大->🇺🇸_US_美国 #1'
-  network: ws
-  port: '443'
-  server: dongtaiwang2.com
-  tls: true
-  type: vmess
-  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-  ws-opts:
-    headers:
-      Host: 2.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6|_US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: 2082
-  server: sg-01.cloudlion.me
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e32ef032-28aa-4c59-bcdf-18b1a6270f34
-  ws-opts:
-    headers:
-      Host: sg-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,12|🇺🇸 _CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: '443'
-  server: 23.227.38.109
-  tls: true
-  type: vmess
-  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-  ws-opts:
-    headers:
-      Host: 2.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 20|🇭🇰_HK_香港->🇺🇸_US_美国_2_22
-  network: ws
-  port: 2082
-  server: 103.160.204.154
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
   name: '0,1,2,3,4,12|🇺🇸 _CA_加拿大->🇺🇸_US_美国 #2'
   network: ws
   port: '443'
   server: 23.227.38.111
   tls: true
   type: vmess
-  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-  ws-opts:
-    headers:
-      Host: 2.freek1.xyz
-    path: /dongtaiwang.com
-- client-fingerprint: chrome
-  name: 1,1,1,1,1,1,1,1,1,1,1,1,1,14,14,14,14,14,14|_CN_中国->🇸🇬_SG_新加坡
-  password: 8e7a723b-3eb8-3c32-83cf-2148d5765de1
-  port: 19228
-  server: 19228tj.matrixxx888.com
-  skip-cert-verify: true
-  sni: eplcgame.com
-  tfo: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,9,10|_CA_加拿大->🇺🇸_US_美国 3
-  network: ws
-  port: 443
-  server: 23.227.39.111
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
   uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
   ws-opts:
     headers:
@@ -248,6 +57,228 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
+  name: 6,9,10,10|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 80
+  server: 141.193.213.20
+  tls: false
+  type: vmess
+  uuid: 25759dd1-d083-438d-95ce-4b120114fd91
+  ws-opts:
+    headers:
+      Host: france-1vm.mr-radwan-daoud.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 0,16|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: fr.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 0,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '443'
+  server: cdnjs.com
+  tls: true
+  type: vmess
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  ws-opts:
+    headers:
+      Host: Amsterdam.kotick.site
+    path: /speedtest
+- client-fingerprint: chrome
+  name: 1,1,1,1,1,1,1,1,1,1,1,1,1,14,14,14,14,14,14|_CN_中国->🇸🇬_SG_新加坡
+  password: 8e7a723b-3eb8-3c32-83cf-2148d5765de1
+  port: 19228
+  server: 19228tj.matrixxx888.com
+  skip-cert-verify: true
+  sni: eplcgame.com
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,6|_US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: 2082
+  server: sg-01.cloudlion.me
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e32ef032-28aa-4c59-bcdf-18b1a6270f34
+  ws-opts:
+    headers:
+      Host: sg-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,9,10|_CA_加拿大->🇺🇸_US_美国 3
+  network: ws
+  port: 443
+  server: 23.227.39.111
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+  ws-opts:
+    headers:
+      Host: 2.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 64
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇳🇱_NL_荷兰_27
+  network: tcp
+  port: 43370
+  server: 156.225.67.242
+  tls: false
+  type: vmess
+  uuid: 990006bd-cb20-482f-9c97-f5fc65359605
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_US_美国->🇦🇺_AU_澳大利亚
+  network: ws
+  port: 2082
+  server: au-01.cloudlion.me
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e32ef032-28aa-4c59-bcdf-18b1a6270f34
+  ws-opts:
+    headers:
+      Host: au-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰_HK_香港->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2082
+  server: 103.160.204.242
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- alterId: 0
+  cipher: auto
+  name: 0,9|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 129.150.35.145
+  tls: false
+  type: vmess
+  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+  ws-opts:
+    headers:
+      Host: dd2.1808.cf
+    path: a7ee85f4
+- alterId: 0
+  cipher: auto
+  name: '0,9,19|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
+  network: ws
+  port: '80'
+  server: 172.67.196.139
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,9|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: '80'
+  server: 104.18.1.196
+  tls: false
+  type: vmess
+  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
+  ws-opts:
+    headers:
+      Host: sg2-mlb.securev2ray.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 0,19|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '443'
+  server: zfc.windowsupdate1.com
+  tls: true
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  ws-opts:
+    headers:
+      Host: us-1.acyun.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|🇸🇬_SG_新加坡->🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: 143.198.89.123
+  tls: false
+  type: vmess
+  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+  ws-opts:
+    headers:
+      Host: dd2.1808.cf
+    path: a7ee85f4
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰_HK_香港->🇺🇸_US_美国_2_22
+  network: ws
+  port: 2082
+  server: 103.160.204.154
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- alterId: 64
+  cipher: auto
+  name: '0,2,3,4,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: tcp
+  port: '38651'
+  server: 156.225.67.198
+  tls: false
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,12|🇺🇸 _CA_加拿大->🇺🇸_US_美国
+  network: ws
+  port: '443'
+  server: 23.227.38.109
+  tls: true
+  type: vmess
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+  ws-opts:
+    headers:
+      Host: 2.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 1,2,3,4|_US_美国->🇨🇳_CN_中国
   network: ws
@@ -265,49 +296,18 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 6,9,10,10|🇺🇸_US_美国->🇫🇷_FR_法国
+  client-fingerprint: chrome
+  name: 1,2,3,4,12|_CA_加拿大->🇺🇸_US_美国
   network: ws
-  port: 80
-  server: 141.193.213.20
-  tls: false
+  port: 443
+  server: 23.227.39.110
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 25759dd1-d083-438d-95ce-4b120114fd91
+  udp: true
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
   ws-opts:
     headers:
-      Host: france-1vm.mr-radwan-daoud.de
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 20|🇭🇰_HK_香港->🇺🇸_US_美国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2082
-  server: 103.160.204.242
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: 6|🇸🇬_SG_新加坡->🇺🇸_US_美国
-  network: ws
-  port: 80
-  server: 143.198.89.123
-  tls: false
-  type: vmess
-  uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
-  ws-opts:
-    headers:
-      Host: dd2.1808.cf
-    path: a7ee85f4
-- alterId: 64
-  cipher: auto
-  name: '0,2,3,4,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: tcp
-  port: '38651'
-  server: 156.225.67.198
-  tls: false
-  type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+      Host: 2.freek1.xyz
+    path: /dongtaiwang.com
