@@ -1,27 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a1e769f5-ecc9-41ce-b305-81a70c897d99
-- alterId: 0
-  cipher: auto
-  name: 17|JCBB_ 台湾 03_1【vip1】
-  network: ws
-  port: '16680'
-  server: gzdx01.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 64726a13-9ff2-4e0a-aaf3-27629bd9518b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -40,19 +17,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 17|JCBB_ 台湾 03【vip1】
-  network: ws
-  port: '59393'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 64726a13-9ff2-4e0a-aaf3-27629bd9518b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 8|🇹🇼台湾04
   network: tcp
   port: '36301'
@@ -60,50 +24,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a1e769f5-ecc9-41ce-b305-81a70c897d99
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 349b7d87-c1c3-48a5-82b6-42b07a9de84e
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 349b7d87-c1c3-48a5-82b6-42b07a9de84e
-- alterId: 0
-  cipher: auto
-  name: 17|JCBB_ 台湾 04【vip1】
-  network: ws
-  port: '59486'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 64726a13-9ff2-4e0a-aaf3-27629bd9518b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 349b7d87-c1c3-48a5-82b6-42b07a9de84e
+  uuid: 740c4b13-a542-488e-8da1-a0a2cf269c3f
 - alterId: 0
   cipher: auto
   name: 8|🇹🇼台湾06
@@ -113,4 +34,93 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a1e769f5-ecc9-41ce-b305-81a70c897d99
+  uuid: 740c4b13-a542-488e-8da1-a0a2cf269c3f
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b7f25096-153e-4ee3-aa42-55a26365aae8
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b7f25096-153e-4ee3-aa42-55a26365aae8
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 740c4b13-a542-488e-8da1-a0a2cf269c3f
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b7f25096-153e-4ee3-aa42-55a26365aae8
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 03_1【vip1】
+  network: ws
+  port: '16680'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c69b7d26-1888-4242-8d99-24d43c4924d9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 10,12|github.com/freefq - 台湾省中华电信 1
+  network: tcp
+  port: 11872
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 03【vip1】
+  network: ws
+  port: '59393'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c69b7d26-1888-4242-8d99-24d43c4924d9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 04【vip1】
+  network: ws
+  port: '59486'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c69b7d26-1888-4242-8d99-24d43c4924d9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
