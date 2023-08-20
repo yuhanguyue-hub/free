@@ -1,52 +1,5 @@
 proxies:
 - alterId: 0
-  cipher: aes-128-gcm
-  name: '12|Channel id: @ShadowProxy66🇫🇷'
-  network: tcp
-  port: '1950'
-  server: 51.159.183.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
-- alterId: 0
-  cipher: auto
-  name: 6|🇫🇷_FR_法国
-  network: ws
-  port: 80
-  server: fr2.09vpn.com
-  tls: false
-  type: vmess
-  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
-  ws-opts:
-    path: /vmess/
-- alterId: 1
-  cipher: auto
-  name: 9|法国巴黎Amazon数据中心 15
-  network: ws
-  port: 65443
-  server: fr-ls03.cn2api.com
-  tls: true
-  type: vmess
-  uuid: 81ea43a1-7a93-485f-afc8-7496a203b18c
-  ws-opts:
-    headers:
-      Host: fr-ls03.cn2api.com
-    path: /clientarea
-- alterId: 1
-  cipher: auto
-  name: 9|德国黑森州法兰克福Amazon数据中心 12
-  network: ws
-  port: 65443
-  server: de-ls03.cn2api.com
-  tls: true
-  type: vmess
-  uuid: 81ea43a1-7a93-485f-afc8-7496a203b18c
-  ws-opts:
-    headers:
-      Host: de-ls03.cn2api.com
-    path: /clientarea
-- alterId: 0
   cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
@@ -59,9 +12,49 @@ proxies:
     headers:
       Host: fr.ilovescp.com
     path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_科网_116
+  network: tcp
+  port: '47865'
+  server: 156.249.18.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '12|Channel id: @ShadowProxy66🇫🇷 #2'
+  network: tcp
+  port: '443'
+  server: 51.158.238.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '12|Channel id: @ShadowProxy66🇫🇷 #1'
+  network: tcp
+  port: '1950'
+  server: 163.172.160.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '12|Channel id: @ShadowProxy66🇫🇷'
+  network: tcp
+  port: '1950'
+  server: 51.159.183.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
 - alterId: 0
   cipher: auto
-  name: '6,10,12|🇫🇷_FR_法国 #1'
+  name: '6,9,10,12|🇫🇷_FR_法国 #1'
   network: ws
   port: 80
   server: ge1.09vpn.com
@@ -71,6 +64,19 @@ proxies:
   ws-opts:
     headers:
       Host: ge1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 9|法国 格拉沃利讷OVH数据中心
+  network: ws
+  port: 80
+  server: fr2.09vpn.com
+  tls: false
+  type: vmess
+  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
+  ws-opts:
+    headers:
+      Host: fr2.09vpn.com
     path: /vmess/
 - alterId: 64
   cipher: auto
@@ -84,44 +90,12 @@ proxies:
   uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
 - alterId: 0
   cipher: auto
-  name: 9,12|法国国际航空电讯集团公司(SITA) 31
+  name: 6|🇫🇷_FR_法国
   network: ws
-  port: '80'
-  server: uk2-vmess.greenssh.xyz
+  port: 80
+  server: fr2.09vpn.com
   tls: false
   type: vmess
-  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
   ws-opts:
-    headers:
-      Host: uk2-vmess.greenssh.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 12|🇫🇷_FR_法国_科网_116
-  network: tcp
-  port: '47865'
-  server: 156.249.18.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '12|Channel id: @ShadowProxy66🇫🇷 #1'
-  network: tcp
-  port: '1950'
-  server: 163.172.160.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '12|Channel id: @ShadowProxy66🇫🇷 #2'
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+    path: /vmess/
