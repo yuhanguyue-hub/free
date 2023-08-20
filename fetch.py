@@ -11,7 +11,7 @@ import threading
 import sys
 import os
 from types import FunctionType as function
-from typing import Set, List, Dict, Union, Any
+from typing import Set, List, Dict, Union, Any, Optional
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
@@ -753,7 +753,7 @@ def main():
                 blocked.add(line.strip('al').strip('|^$'))
 
     rules: Dict[str, str] = {}
-    adblock_name: str = conf['proxy-groups'][-1]['name']
+    adblock_name: str = conf['proxy-groups'][-2]['name']
     for domain in blocked:
         if '*' in domain: continue
         if '/' in domain: continue
@@ -767,6 +767,36 @@ def main():
         else:
             rules[f'DOMAIN-SUFFIX,{domain}'] = adblock_name
     print(f"共有 {len(rules)} 条规则")
+
+    snip_conf: Optional[Dict[str, Dict[str, str]]] = None
+    try:
+        with open("snippets/_config.yml", encoding="utf-8") as f:
+            snip_conf = yaml.full_load(f)
+    except (OSError, yaml.error.YAMLError):
+        print("片段配置读取失败：")
+        traceback.print_exc()
+        categories = {}
+        ctg_nodes = {}
+    else:
+        print("正在按地区分类节点...")
+        categories: Dict[str, List[str]] = snip_conf['categories']
+        ctg_nodes: Dict[str, List[Node]] = {}
+        for ctg in categories: ctg_nodes[ctg] = []
+        for node in merged:
+            if node.supports_clash():
+                ctgs = []
+                for ctg, keys in categories.items():
+                    for key in keys:
+                        if key in node.name:
+                            ctgs.append(ctg)
+                            break
+                    if ctgs and keys[-1] == 'OVERALL':
+                        break
+                if len(ctgs) == 1:
+                    ctg_nodes[ctgs[0]].append(node.clash_data)
+        for ctg, proxies in ctg_nodes.items():
+            with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
+                yaml.dump({'proxies': proxies}, f, allow_unicode=True)
 
     # print("正在抓取 Google IP 列表... ", end='', flush=True)
     # proxy_name: str = conf['proxy-groups'][0]['name']
@@ -803,6 +833,7 @@ def main():
             rules[k] = rpolicy
     conf['rules'] = [','.join(_) for _ in rules.items()]+[match_rule]
     conf['proxies'] = []
+    ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
     names_clash: Set[str] = set()
     for p in merged:
         if p.supports_clash():
@@ -812,19 +843,22 @@ def main():
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash
+    if snip_conf:
+        conf['proxy-groups'][-1]['proxies'] = []
+        ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
+        ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        for ctg, payload in ctg_nodes.items():
+            if ctg in ctg_disp:
+                disp = ctg_base.copy()
+                disp['name'] = ctg_disp[ctg]
+                disp['proxies'] = [_['name'] for _ in payload]
+                conf['proxy-groups'].append(disp)
+                ctg_selects.append(disp['name'])
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
 
-    print("正在写出配置片段...")
-    with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
-        yaml.dump({'proxies': conf['proxies']}, f, allow_unicode=True)
-    try:
-        with open("snippets/_config.yml", encoding="utf-8") as f:
-            snip_conf: Dict[str, Dict[str, str]] = yaml.full_load(f)
-    except (OSError, yaml.error.YAMLError):
-        print("配置文件读取失败：")
-        traceback.print_exc()
-    else:
+    if snip_conf:
+        print("正在写出配置片段...")
         name_map: Dict[str, str] = snip_conf['name-map']
         snippets: Dict[str, List[str]] = {}
         for rpolicy in name_map.values(): snippets[rpolicy] = []
@@ -835,25 +869,6 @@ def main():
         for name, payload in snippets.items():
             with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'payload': payload}, f, allow_unicode=True)
-        
-        categories: Dict[str, List[str]] = snip_conf['categories']
-        ctg_nodes: Dict[str, List[Node]] = {}
-        for ctg in categories: ctg_nodes[ctg] = []
-        for node in merged:
-            if node.supports_clash():
-                ctgs = []
-                for ctg, keys in categories.items():
-                    for key in keys:
-                        if key in node.name:
-                            ctgs.append(ctg)
-                            break
-                    if ctgs and keys[-1] == 'OVERALL':
-                        break
-                if len(ctgs) == 1:
-                    ctg_nodes[ctgs[0]].append(node.clash_data)
-        for ctg, payload in ctg_nodes.items():
-            with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
-                yaml.dump({'proxies': payload}, f, allow_unicode=True)
 
     print("正在写出统计信息...")
     out = "序号,链接,节点数\n"
