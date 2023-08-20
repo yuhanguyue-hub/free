@@ -1,30 +1,7 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: fr.ilovescp.com
-    path: /shirker
-- alterId: 64
-  cipher: auto
-  name: 12|🇫🇷_FR_法国_科网_116
-  network: tcp
-  port: '47865'
-  server: 156.249.18.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
   cipher: aes-128-gcm
-  name: '12|Channel id: @ShadowProxy66🇫🇷 #2'
+  name: '12|Channel id: @ShadowProxy66🇫🇷 #1'
   network: tcp
   port: '443'
   server: 51.158.238.229
@@ -33,51 +10,19 @@ proxies:
   type: vmess
   uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
 - alterId: 0
-  cipher: aes-128-gcm
-  name: '12|Channel id: @ShadowProxy66🇫🇷 #1'
-  network: tcp
-  port: '1950'
-  server: 163.172.160.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '12|Channel id: @ShadowProxy66🇫🇷'
-  network: tcp
-  port: '1950'
-  server: 51.159.183.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
-- alterId: 0
   cipher: auto
-  name: '6,9,10,12|🇫🇷_FR_法国 #1'
+  name: 10|github.com/freefq - 德国黑森州法兰克福L...
   network: ws
-  port: 80
-  server: ge1.09vpn.com
-  tls: false
+  port: '443'
+  server: vde2.0bad.com
+  servername: vde2.0bad.com
+  tls: true
   type: vmess
-  uuid: 930e8882-169c-4d14-84e1-0aa671611325
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
     headers:
-      Host: ge1.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 9|法国 格拉沃利讷OVH数据中心
-  network: ws
-  port: 80
-  server: fr2.09vpn.com
-  tls: false
-  type: vmess
-  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
-  ws-opts:
-    headers:
-      Host: fr2.09vpn.com
-    path: /vmess/
+      Host: vde2.0bad.com
+    path: /chat
 - alterId: 64
   cipher: auto
   name: 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
@@ -90,7 +35,7 @@ proxies:
   uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
 - alterId: 0
   cipher: auto
-  name: 6|🇫🇷_FR_法国
+  name: 6,12|🇫🇷_FR_法国
   network: ws
   port: 80
   server: fr2.09vpn.com
@@ -98,4 +43,77 @@ proxies:
   type: vmess
   uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
   ws-opts:
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: fr.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '12|Channel id: @ShadowProxy66🇫🇷'
+  network: tcp
+  port: '1950'
+  server: 51.159.183.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
+- alterId: 0
+  cipher: auto
+  name: '6,9|🇫🇷_FR_法国 #1'
+  network: ws
+  port: 80
+  server: ge1.09vpn.com
+  tls: false
+  type: vmess
+  uuid: 930e8882-169c-4d14-84e1-0aa671611325
+  ws-opts:
+    headers:
+      Host: ge1.09vpn.com
+    path: /vmess/
+- alterId: 64
+  cipher: auto
+  name: 12|法国 | Telegram@kxswa
+  network: tcp
+  port: '47865'
+  server: 156.249.18.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '12|法国 | Telegram@kxswa #1'
+  network: ws
+  port: '80'
+  server: 173.245.49.168
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue06
+- alterId: 0
+  cipher: auto
+  name: 9,10|法国 格拉沃利讷OVH数据中心
+  network: ws
+  port: 80
+  server: fr2.09vpn.com
+  tls: false
+  type: vmess
+  uuid: eec5cc5c-8c16-44f1-8f75-8c1d5766eab2
+  ws-opts:
+    headers:
+      Host: fr2.09vpn.com
     path: /vmess/
