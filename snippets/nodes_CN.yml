@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9,10|广东省深圳市移动 19
+  name: 9|广东省深圳市移动 19
   network: tcp
   port: '50020'
   server: 20.kccic2pa.xyz
@@ -15,6 +15,16 @@ proxies:
   network: tcp
   port: '55005'
   server: 108.186.116.177
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12,15,20|CN_youtube@资源分享师_86
+  network: tcp
+  port: '44002'
+  server: 120.241.47.99
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
