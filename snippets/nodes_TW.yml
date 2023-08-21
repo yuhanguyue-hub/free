@@ -1,18 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,12,14|github.com/freefq - 台湾省新北市中华电信...
-  network: ws
-  port: '443'
-  server: tw1-vds1.anyhk.co
-  servername: ''
-  tls: false
+  name: 8|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275
-  ws-opts:
-    headers:
-      Host: tw1-vds1.anyhk.co
-    path: /
+  uuid: 2f52e33e-ed93-4176-9761-fefafe5fbbfe
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c888050f-4725-4896-8082-76c5b0f89a9d
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c888050f-4725-4896-8082-76c5b0f89a9d
 - alterId: 0
   cipher: auto
   name: 17|JCBB_ 台湾 03【vip1】
@@ -26,6 +42,39 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2f52e33e-ed93-4176-9761-fefafe5fbbfe
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 03_1【vip1】
+  network: ws
+  port: '16680'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 42af63b6-6254-40da-95a4-8839299b9cce
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c888050f-4725-4896-8082-76c5b0f89a9d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -44,27 +93,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ea535e60-37ec-4b6e-93b2-6d7200012117
-- alterId: 0
-  cipher: auto
-  name: 17|JCBB_ 台湾 03_1【vip1】
+  name: 10,12,14|github.com/freefq - 台湾省新竹市中华电信...
   network: ws
-  port: '16680'
-  server: gzdx01.jcnode.top
+  port: '443'
+  server: tw1-vds1.anyhk.co
+  servername: ''
   tls: false
   type: vmess
-  uuid: 42af63b6-6254-40da-95a4-8839299b9cce
+  uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: tw1-vds1.anyhk.co
+    path: /
 - alterId: 0
   cipher: auto
   name: 17|JCBB_ 台湾 04【vip1】
@@ -78,46 +118,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0e8a130d-fc1e-4a37-af3e-1bc669e1a54c
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0e8a130d-fc1e-4a37-af3e-1bc669e1a54c
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0e8a130d-fc1e-4a37-af3e-1bc669e1a54c
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ea535e60-37ec-4b6e-93b2-6d7200012117
 - alterId: 0
   cipher: auto
   name: 15|台湾|tg频道:@ripaojiedian
@@ -134,11 +134,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|台湾 06  | 1x TWN
+  name: 8|🇹🇼台湾04
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ea535e60-37ec-4b6e-93b2-6d7200012117
+  uuid: 2f52e33e-ed93-4176-9761-fefafe5fbbfe
