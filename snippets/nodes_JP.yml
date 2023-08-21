@@ -1,18 +1,43 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,12|github.com/freefq - 日本东京都品川区Li...
-  network: ws
-  port: '80'
-  server: 139.162.67.133
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
+- alterId: 2
+  cipher: auto
+  name: 7|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
+  network: tcp
+  port: '23608'
+  server: 8.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
   servername: ''
   tls: false
   type: vmess
-  uuid: 0cf24b67-1ac7-427d-9d40-33ff3cb16418
-  ws-opts:
-    headers:
-      Host: v.qq.com
-    path: /videos
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 360
@@ -23,6 +48,63 @@ proxies:
   tls: false
   type: vmess
   uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.199.30.212
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵🌏 @customv2ray کانفیگ های بی...
+  network: tcp
+  port: '32519'
+  server: 156.225.67.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30016
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '0|🇯🇵 _JP_日本 #1'
+  network: ws
+  port: '80'
+  server: 139.162.67.133
+  tls: false
+  type: vmess
+  uuid: 0cf24b67-1ac7-427d-9d40-33ff3cb16418
+  ws-opts:
+    headers:
+      Host: v.qq.com
+    path: /videos
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本 319
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇯🇵 日本测试|@ripaojiedian
@@ -44,17 +126,69 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2e7084e8-731a-4b63-b3f7-99fa3134691d
+  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵白嫖-053
+  name: 12|🇯🇵 日本 210
   network: tcp
-  port: 1069
-  server: 152.69.197.60
+  port: 26297
+  server: 131.186.41.192
   servername: ''
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
+- alterId: 64
+  cipher: auto
+  name: 7|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+  network: tcp
+  port: '46002'
+  server: 45.88.43.239
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 JP日本(youtube阿伟科技)
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- alterId: 0
+  cipher: auto
+  name: 0,10,12|🇯🇵 _JP_日本
+  network: ws
+  port: '80'
+  server: 172.105.206.236
+  tls: false
+  type: vmess
+  uuid: 0cf24b67-1ac7-427d-9d40-33ff3cb16418
+  ws-opts:
+    headers:
+      Host: v.qq.com
+    path: /videos
 - alterId: 0
   cipher: auto
   name: 7|🇯🇵 Japan(ChatGPT) 02 TG:@nodpa...
@@ -70,26 +204,6 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 8|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2e7084e8-731a-4b63-b3f7-99fa3134691d
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6ba19e09-d0bc-47d8-bf91-cd043f3bffc8
-- alterId: 0
-  cipher: auto
   name: 8|🇯🇵日本05
   network: tcp
   port: '36106'
@@ -97,79 +211,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2e7084e8-731a-4b63-b3f7-99fa3134691d
-- alterId: 64
-  cipher: auto
-  name: 7|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
-  network: tcp
-  port: '46002'
-  server: 45.88.43.239
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 7|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6ba19e09-d0bc-47d8-bf91-cd043f3bffc8
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本 210
-  network: tcp
-  port: 26297
-  server: 131.186.41.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6ba19e09-d0bc-47d8-bf91-cd043f3bffc8
-- alterId: 0
-  cipher: auto
-  name: 10,12|github.com/freefq - 日本东京Linode...
-  network: ws
-  port: '80'
-  server: 172.105.206.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0cf24b67-1ac7-427d-9d40-33ff3cb16418
-  ws-opts:
-    headers:
-      Host: v.qq.com
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本 350
@@ -180,47 +222,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本 319
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30016
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 东京特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.199.30.212
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵🌏 @customv2ray کانفیگ های بی...
-  network: tcp
-  port: '45886'
-  server: 45.199.138.152
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
