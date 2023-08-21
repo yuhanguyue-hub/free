@@ -1,20 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,18|🇹🇼 台湾|tg频道:@ripaojiedian
-  network: ws
-  port: 443
-  server: tw1-vds1.anyhk.co
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275
-  ws-opts:
-    headers:
-      Host: tw1-vds1.anyhk.co
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -33,14 +17,28 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
+  name: 8|🇹🇼台湾05
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c00d9d0e-1042-485e-942b-c50cdeb32ff1
+  uuid: 9667bae9-c123-4215-93e5-eaf4c8258af5
+- alterId: 0
+  cipher: auto
+  name: 10,15|github.com/freefq - 台湾省新竹市中华电信...
+  network: ws
+  port: '443'
+  server: tw1-vds1.anyhk.co
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|台湾 06  | 1x TWN
@@ -50,17 +48,7 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c00d9d0e-1042-485e-942b-c50cdeb32ff1
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0a10c4df-7609-4b2c-ac36-b55b2512a5ad
+  uuid: 09c454b7-3438-4bb0-ada8-f11a54d4ded2
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -70,7 +58,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c00d9d0e-1042-485e-942b-c50cdeb32ff1
+  uuid: 09c454b7-3438-4bb0-ada8-f11a54d4ded2
 - alterId: 0
   cipher: auto
   name: 8|🇹🇼台湾06
@@ -80,14 +68,40 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0a10c4df-7609-4b2c-ac36-b55b2512a5ad
+  uuid: 9667bae9-c123-4215-93e5-eaf4c8258af5
 - alterId: 0
   cipher: auto
-  name: 8|🇹🇼台湾05
+  client-fingerprint: chrome
+  name: 14,18|🇹🇼 台湾|tg频道:@ripaojiedian
+  network: ws
+  port: 443
+  server: tw1-vds1.anyhk.co
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275
+  ws-opts:
+    headers:
+      Host: tw1-vds1.anyhk.co
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾04
   network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0a10c4df-7609-4b2c-ac36-b55b2512a5ad
+  uuid: 9667bae9-c123-4215-93e5-eaf4c8258af5
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 09c454b7-3438-4bb0-ada8-f11a54d4ded2
