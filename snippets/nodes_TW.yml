@@ -1,34 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
+  name: 15|台湾|tg频道:@ripaojiedian
+  network: ws
+  port: '443'
+  server: tw1-vds1.anyhk.co
+  servername: ''
+  tls: false
   type: vmess
-  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
+  uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
+  client-fingerprint: chrome
+  name: 14|🇹🇼 台湾|tg频道:@ripaojiedian
+  network: ws
+  port: 443
+  server: tw1-vds1.anyhk.co
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
+  uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275
+  ws-opts:
+    headers:
+      Host: tw1-vds1.anyhk.co
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -47,14 +47,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|台湾 04  | 1x TWN
+  name: 13|台湾 05  | 1x TWN
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
+  uuid: 8bf1d752-27f4-476a-8899-542ae02e00f4
 - alterId: 0
   cipher: auto
   name: 8|🇹🇼台湾06
@@ -64,17 +64,7 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
-- alterId: 0
-  cipher: auto
-  name: 9,12|台湾省中华电信 1
-  network: tcp
-  port: 11872
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+  uuid: 28b14fa8-48e2-4fa8-a412-b493434c7a76
 - alterId: 0
   cipher: auto
   name: 8|🇹🇼台湾05
@@ -84,4 +74,34 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
+  uuid: 28b14fa8-48e2-4fa8-a412-b493434c7a76
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8bf1d752-27f4-476a-8899-542ae02e00f4
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8bf1d752-27f4-476a-8899-542ae02e00f4
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 28b14fa8-48e2-4fa8-a412-b493434c7a76

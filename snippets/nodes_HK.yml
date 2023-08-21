@@ -1,176 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0|🇭🇰 _HK_香港 #2'
-  network: ws
-  port: '2052'
-  server: 103.160.204.31
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 64
-  cipher: auto
-  name: 15,19|香港|@ripaojiedian
-  network: tcp
-  port: '44002'
-  server: 120.241.47.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 18|香港 1
-  network: tcp
-  port: '29996'
-  server: hk.untilmu.com
-  tls: false
-  type: vmess
-  uuid: 4e805d04-f185-40a8-acc8-c5e997e0f5d3
-- alterId: 0
-  cipher: auto
-  name: 0,10|🇭🇰 _HK_香港
+  name: 0,1,2,3,4,9,10|🇭🇰 _HK_香港
   network: ws
   port: '8080'
   server: 103.160.204.223
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue03
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
-- alterId: 0
-  cipher: auto
-  name: 7|🇭🇰 Hong Kong 01 TG:@nodpai
-  network: ws
-  port: '443'
-  server: wasanbi.ga
-  tls: true
-  type: vmess
-  uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401
-  ws-opts:
-    headers:
-      Host: wasanbi.ga
-    path: /94448b9f-7d5d-4f7a-9c68-d4978878d401
-- alterId: 0
-  cipher: auto
-  name: 8|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 50805
-  protocol: auth_aes128_md5
-  protocol-param: 281528:hU0nbdC1T3
-  server: ieplszhk-03.telescopes.work
-  tfo: false
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇭🇰 香港A|@ripaojiedian
-  network: ws
-  port: 80
-  server: 192.203.230.146
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 966ab6f3-147a-499c-dc86-c58b5605b438
-  ws-opts:
-    headers:
-      Host: mvirtua_hk.343478.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 6|🇭🇰_HK_香港
-  network: ws
-  port: 2052
-  server: 103.160.204.63
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: 7|🇭🇰 Hong Kong 04 TG:@nodpai
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  ws-opts:
-    headers:
-      Host: hk-hytron.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 8|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 _HK_香港 2
-  network: ws
-  port: 8080
-  server: 103.160.204.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue03
-- alterId: 0
-  cipher: auto
-  name: '0,9,9|🇭🇰 _HK_香港 #3'
-  network: ws
-  port: '8080'
-  server: 103.160.204.22
   tls: false
   type: vmess
   uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
@@ -187,30 +21,20 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9770cae-4ee1-4acb-965f-6f85e52bb5c7
+  uuid: 28b14fa8-48e2-4fa8-a412-b493434c7a76
 - alterId: 0
   cipher: auto
-  name: 16|「SCP」HK-vv-HTTP
+  name: '0,1,2,3,4|🇭🇰 _HK_香港 #2'
   network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
+  port: '2052'
+  server: 103.160.204.31
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
   ws-opts:
     headers:
-      Host: hk.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d07485e1-090f-4fee-9c16-438f19f16c28
+      Host: ecc.vtcss.top
+    path: /blue99
 - alterId: 64
   cipher: auto
   name: 7|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
@@ -220,6 +44,201 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 01 TG:@nodpai
+  network: ws
+  port: '443'
+  server: wasanbi.ga
+  tls: true
+  type: vmess
+  uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401
+  ws-opts:
+    headers:
+      Host: wasanbi.ga
+    path: /94448b9f-7d5d-4f7a-9c68-d4978878d401
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8bf1d752-27f4-476a-8899-542ae02e00f4
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8bf1d752-27f4-476a-8899-542ae02e00f4
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4|🇭🇰 _HK_香港 #3'
+  network: ws
+  port: '8080'
+  server: 103.160.204.22
+  tls: false
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue03
+- alterId: 0
+  cipher: auto
+  name: 18|香港 1
+  network: tcp
+  port: '29996'
+  server: hk.untilmu.com
+  tls: false
+  type: vmess
+  uuid: 4e805d04-f185-40a8-acc8-c5e997e0f5d3
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 04 TG:@nodpai
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: hk-hytron.ilovescp.com
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 15|香港A|@ripaojiedian
+  network: tcp
+  port: '34214'
+  server: 120.241.46.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 50805
+  protocol: auth_aes128_md5
+  protocol-param: 281528:hU0nbdC1T3
+  server: ieplszhk-03.telescopes.work
+  tfo: false
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 8|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 28b14fa8-48e2-4fa8-a412-b493434c7a76
+- alterId: 0
+  cipher: auto
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8bf1d752-27f4-476a-8899-542ae02e00f4
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 _HK_香港 2
+  network: ws
+  port: 8080
+  server: 103.160.204.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue03
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰_HK_香港
+  network: ws
+  port: 2052
+  server: 103.160.204.63
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- alterId: 0
+  cipher: auto
+  name: '0|🇭🇰 _HK_香港 #1'
+  network: ws
+  port: '80'
+  server: 103.160.204.37
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue06
+- alterId: 0
+  cipher: auto
+  name: 8|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 28b14fa8-48e2-4fa8-a412-b493434c7a76
+- alterId: 64
+  cipher: auto
+  name: 15|香港B|@ripaojiedian
+  network: tcp
+  port: '40702'
+  server: 120.226.50.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4|🇭🇰 _HK_香港 #4'
+  network: ws
+  port: '2052'
+  server: 103.160.204.65
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港特殊|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (tg频道:@ripaojiedian)c27821f:16708
+    mode: tls
+  port: 2377
+  server: fd7fe5d.h1.gladns.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 香港_0820010
@@ -236,27 +255,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0|🇭🇰 _HK_香港 #4'
-  network: ws
-  port: '2052'
-  server: 103.160.204.65
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: '0,9|🇭🇰 _HK_香港 #1'
+  name: 16|「SCP」HK-vv-HTTP
   network: ws
   port: '80'
-  server: 103.160.204.37
+  server: cf-lt.sharecentre.online
   tls: false
   type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: ecc.vtcss.top
-    path: /blue06
+      Host: hk.ilovescp.com
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 15,19|香港|@ripaojiedian
+  network: tcp
+  port: '44002'
+  server: 120.241.47.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
