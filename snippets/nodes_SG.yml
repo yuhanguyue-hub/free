@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 8|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: dd704494-c0f5-4e6d-a19c-0546cda04cd0
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -8,30 +18,35 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c888050f-4725-4896-8082-76c5b0f89a9d
-- alterId: 0
+  uuid: a25482d6-50bf-4f1d-85fd-53e33181fb34
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.193.27
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 8|🇸🇬新加坡05
+  name: 12|🇸🇬🌏 @customv2ray کانفیگ های بی...
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
+  port: '47865'
+  server: 156.249.18.23
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 2f52e33e-ed93-4176-9761-fefafe5fbbfe
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7|🇸🇬 Singapore(ChatGPT) 02 TG:@n...
-  network: ws
-  port: '443'
-  server: zendesk1.grab.com
+  name: 8|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e
-  ws-opts:
-    headers:
-      Host: v2ray3.udpgw.com
-    path: /worryfree
+  uuid: dd704494-c0f5-4e6d-a19c-0546cda04cd0
 - alterId: 0
   cipher: auto
   name: 7|🇸🇬 Singapore(ChatGPT) 01 TG:@n...
@@ -45,16 +60,40 @@ proxies:
     headers:
       Host: do.sharecentrepro.com
     path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 12|🇸🇬 SG(AzadNet.t.me)_022
+  network: tcp
+  port: 55264
+  server: 202.79.174.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡06
+  name: 8|🇸🇬新加坡05
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f52e33e-ed93-4176-9761-fefafe5fbbfe
+  uuid: dd704494-c0f5-4e6d-a19c-0546cda04cd0
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_0820081
+  network: ws
+  port: 8880
+  server: 103.172.116.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 640ea6e0-3d92-11ee-b134-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -72,26 +111,6 @@ proxies:
     headers:
       Host: vsg1.0bad.com
     path: /chat
-- alterId: 64
-  cipher: auto
-  name: 12|🇸🇬 SG(AzadNet.t.me)_022
-  network: tcp
-  port: 55264
-  server: 202.79.174.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c888050f-4725-4896-8082-76c5b0f89a9d
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -101,32 +120,41 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c888050f-4725-4896-8082-76c5b0f89a9d
-- alterId: 64
+  uuid: a25482d6-50bf-4f1d-85fd-53e33181fb34
+- alterId: 0
   cipher: auto
-  name: 12|🇸🇬🌏 @customv2ray کانفیگ های بی...
-  network: tcp
-  port: '47865'
-  server: 156.249.18.23
+  name: 12|🇸🇬 新加坡_0820043
+  network: ws
+  port: 80
+  server: si4co.09vpn.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  ws-opts:
+    headers:
+      Host: si4co.09vpn.com
+    path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  name: 7|🇸🇬 Singapore(ChatGPT) 02 TG:@n...
+  network: ws
+  port: '443'
+  server: zendesk1.grab.com
   tls: true
   type: vmess
-  uuid: 2f52e33e-ed93-4176-9761-fefafe5fbbfe
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.193.27
-  tfo: false
-  type: ss
+  uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e
+  ws-opts:
+    headers:
+      Host: v2ray3.udpgw.com
+    path: /worryfree
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a25482d6-50bf-4f1d-85fd-53e33181fb34
