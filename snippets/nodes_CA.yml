@@ -1,22 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|加拿大 009
-  network: ws
-  port: 443
-  server: ru1.mianfenyun012.eu.org
-  servername: ru1.mianfenyun012.eu.org
-  tls: true
-  type: vmess
-  uuid: c5964a63-d67c-4668-cdae-6443a1581e76
-  ws-opts:
-    headers:
-      Host: ''
-    path: /jdbp606
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,12|_CA_加拿大 2
+  name: 1,2,3,4|_CA_加拿大 2
   network: ws
   port: 443
   server: 23.227.38.81
@@ -32,28 +18,22 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 12|加拿大2
+  network: ws
+  port: '443'
+  server: time.cloudflare.com
+  servername: jnd1.531131.xyz
   tls: true
   type: vmess
-  uuid: 6337f707-bf27-4576-a6a2-ddaadba5b30f
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 7f0b5914-20f5-4e44-9b5d-c90c70101376
+  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
+  ws-opts:
+    headers:
+      Host: jnd1.531131.xyz
+    path: /jnd1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CA_加拿大 3
+  name: 1,2,3,4,12|_CA_加拿大 3
   network: ws
   port: 443
   server: 23.227.39.82
@@ -69,21 +49,35 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|加拿大=tg频道:@bpjzx2=5
+  name: 12|加拿大3
   network: ws
   port: '443'
-  server: 23.227.39.111
-  servername: ''
+  server: shopify.com
+  servername: jnd1.531131.xyz
   tls: true
   type: vmess
-  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
   ws-opts:
     headers:
-      Host: 2.freek1.xyz
-    path: /dongtaiwang.com
+      Host: jnd1.531131.xyz
+    path: /jnd1
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,9,10,12,14,15|🇨🇦 _CA_加拿大
+  name: 12|加拿大1
+  network: ws
+  port: '443'
+  server: jnd1.531131.xyz
+  servername: jnd1.531131.xyz
+  tls: true
+  type: vmess
+  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
+  ws-opts:
+    headers:
+      Host: jnd1.531131.xyz
+    path: /jnd1
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,9,10,14,15|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
   server: dongtaiwang3.com
@@ -94,3 +88,23 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f9ce2630-baf5-4726-925a-ea274c689c74
+- alterId: 0
+  cipher: auto
+  name: 8|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d244222e-b517-432c-ac0a-e8929ab1d4a0
