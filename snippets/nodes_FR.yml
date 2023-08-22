@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇫🇷 France 02 @nodpai
-  network: ws
-  port: '51022'
-  server: nn2a.tntbooms.com
-  tls: false
-  type: vmess
-  uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920
-  ws-opts:
-    headers:
-      Host: nn2a.tntbooms.com
-    path: /ttf
-- alterId: 0
-  cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
   port: '80'
@@ -27,7 +14,16 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7|🇫🇷 France 05 @nodpai
+  name: 7|中转 🇫🇷 France 04 @nodpai
+  network: tcp
+  port: '19892'
+  server: cm1-xg.go001.buzz
+  tls: false
+  type: vmess
+  uuid: 3e3fd92a-fa63-34c3-b664-950c0447332f
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇫🇷 France 05 @nodpai
   network: ws
   port: '2082'
   server: fr-01.cloudlion.me
