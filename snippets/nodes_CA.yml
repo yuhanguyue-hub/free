@@ -1,12 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,12|🇨🇦 _CA_加拿大
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CA_加拿大
   network: ws
-  port: '443'
-  server: 23.227.38.81
+  port: 443
+  server: 23.227.39.82
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
+  udp: true
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
@@ -21,31 +25,28 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e4829811-d221-423b-a612-078ba5ab3279
+  uuid: 77e86e89-38fd-433c-9060-cf6619bdf911
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,9,9,10,12,14,15|_CA_加拿大 2
+  name: 12|加拿大 009
   network: ws
   port: 443
-  server: dongtaiwang3.com
-  skip-cert-verify: true
-  tfo: false
+  server: ru1.mianfenyun012.eu.org
+  servername: ru1.mianfenyun012.eu.org
   tls: true
   type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: c5964a63-d67c-4668-cdae-6443a1581e76
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: ''
+    path: /jdbp606
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CA_加拿大
+  name: 1,2,3,4,12|_CA_加拿大 3
   network: ws
   port: 443
-  server: 23.227.39.82
+  server: 23.227.38.81
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -65,4 +66,31 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f96f30f0-9836-41d7-b941-30ba72b7f8a9
+  uuid: 6dad8788-9b37-4782-a4b3-cd662fa1dc59
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,9,9,10,12,14,15|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 12|加拿大=tg频道:@bpjzx2=5
+  network: ws
+  port: '443'
+  server: 23.227.39.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+  ws-opts:
+    headers:
+      Host: 2.freek1.xyz
+    path: /dongtaiwang.com
