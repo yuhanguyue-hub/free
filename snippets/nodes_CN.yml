@@ -1,10 +1,32 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 01 TG:@nodpai
+  name: 7|中转 🇨🇳 China 01 @nodpai
   network: tcp
-  port: '55005'
-  server: 108.186.116.177
+  port: '50002'
+  server: 111.230.252.149
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 03 @nodpai
+  network: tcp
+  port: '50002'
+  server: 175.27.154.61
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 02 @nodpai
+  network: ws
+  port: '80'
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: db8d12d5-1968-4125-b775-77d50aa65923
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

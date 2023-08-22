@@ -1,26 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f9ce2630-baf5-4726-925a-ea274c689c74
-- alterId: 64
-  cipher: auto
-  name: 7|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
-  network: tcp
-  port: '46002'
-  server: 45.88.43.239
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本_0822053 2 2
+  name: 10,12|github.com/freefq - 日本阿里云 36
   network: ws
   port: 2082
   server: jpcdn.bh8189.eu.org
@@ -32,32 +13,28 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 JP日本(youtube阿伟科技)
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f9ce2630-baf5-4726-925a-ea274c689c74
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20013
+  server: 183.232.170.32
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 12|🇯🇵 日本 319
+  name: 12|🇯🇵 日本 350
   network: tcp
   port: 51801
-  server: 45.88.43.163
+  server: 45.88.43.143
   servername: ''
   tls: false
   type: vmess
@@ -80,14 +57,78 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 12|🇯🇵 日本 350
+  name: 12|🇯🇵 日本 319
   network: tcp
   port: 51801
-  server: 45.88.43.143
+  server: 45.88.43.163
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2d78c1a9-6f21-4cce-b1d4-70f7b082fb1c
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2d78c1a9-6f21-4cce-b1d4-70f7b082fb1c
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本_0822088
+  network: ws
+  port: 20083
+  server: 138.91.26.234
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
+  ws-opts:
+    headers:
+      Host: ''
+    path: /azjp1
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cd4b68eb-1aab-4f70-b076-7d3a4e93fc55
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2d78c1a9-6f21-4cce-b1d4-70f7b082fb1c
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 JP日本(youtube阿伟科技)
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 210
@@ -107,16 +148,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d244222e-b517-432c-ac0a-e8929ab1d4a0
-- alterId: 2
-  cipher: auto
-  name: 7|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
+  uuid: cd4b68eb-1aab-4f70-b076-7d3a4e93fc55
 - alterId: 0
   cipher: auto
   name: 8|🇯🇵日本06
@@ -126,67 +158,4 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d244222e-b517-432c-ac0a-e8929ab1d4a0
-- alterId: 0
-  cipher: auto
-  name: 7|🇯🇵 Japan(ChatGPT) 02 TG:@nodpa...
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  ws-opts:
-    headers:
-      Host: jp.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f9ce2630-baf5-4726-925a-ea274c689c74
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20013
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d244222e-b517-432c-ac0a-e8929ab1d4a0
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本_0822088
-  network: ws
-  port: 20083
-  server: 138.91.26.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
-  ws-opts:
-    headers:
-      Host: ''
-    path: /azjp1
+  uuid: cd4b68eb-1aab-4f70-b076-7d3a4e93fc55
