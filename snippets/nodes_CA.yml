@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: cd4b68eb-1aab-4f70-b076-7d3a4e93fc55
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 1,2,3,4|_CA_加拿大 2
   network: ws
@@ -28,18 +18,36 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|加拿大2
+  name: 0,1,2,3,4,9,12,14,15|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
-  server: time.cloudflare.com
-  servername: jnd1.531131.xyz
+  server: dongtaiwang3.com
   tls: true
   type: vmess
-  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
-      Host: jnd1.531131.xyz
-    path: /jnd1
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 7,10|中转 🇨🇦 Canada 01 @nodpai
+  network: tcp
+  port: '14809'
+  server: gdcn2.pmxu.link
+  tls: false
+  type: vmess
+  uuid: f73ecfde-2bd2-3438-b328-10cf900d1610
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cf7c54b6-c8d0-413a-a475-ec32b0b8709d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -59,52 +67,47 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|加拿大3
+  name: 7|🇨🇦 Canada 02 @nodpai
   network: ws
-  port: '443'
-  server: shopify.com
-  servername: jnd1.531131.xyz
-  tls: true
+  port: '2082'
+  server: ca-01.cloudlion.me
+  tls: false
   type: vmess
-  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
+  uuid: 476165e4-8862-4c50-a0f3-6a544017df09
   ws-opts:
     headers:
-      Host: jnd1.531131.xyz
-    path: /jnd1
+      Host: ca-01.cloudlion.me
+    path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,9,10,14,15|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
+  name: 8|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2d78c1a9-6f21-4cce-b1d4-70f7b082fb1c
+  uuid: 2b989fbe-4a3a-4f16-b1ac-4c84d6c6c12c
 - alterId: 0
   cipher: auto
-  name: 12|加拿大1
-  network: ws
-  port: '443'
-  server: jnd1.531131.xyz
-  servername: jnd1.531131.xyz
+  name: 7|中转 🇨🇦 Canada 06 @nodpai
+  network: tcp
+  port: '25016'
+  server: piscium.verdens.xyz
   tls: true
   type: vmess
-  uuid: d9930cd0-7c10-480a-aaad-8f57febcf378
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦_CA_加拿大_15222
+  network: ws
+  port: '80'
+  server: 104.31.16.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     headers:
-      Host: jnd1.531131.xyz
-    path: /jnd1
+      Host: ca5.tehme2.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2

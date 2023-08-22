@@ -1,17 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 01 @nodpai
+  name: 7|中转 🇸🇬 Singapore 42 @nodpai
   network: ws
-  port: '23612'
-  server: 12.v2-ray.cyou
+  port: '15002'
+  server: gz-2.jdweblink.lol
   tls: false
   type: vmess
-  uuid: 03a4074d-a8b4-323a-846f-8a08a1c1bf20
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
   ws-opts:
     headers:
-      Host: 12.v2-ray.cyou
-    path: /
+      Host: gz-2.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 48 @nodpai
+  network: tcp
+  port: '25356'
+  server: zjcu-imey1r.zzcloud.top
+  tls: false
+  type: vmess
+  uuid: 036bd6ad-2f0b-3185-9b4e-f16b7875a24c
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 47 @nodpai
+  network: tcp
+  port: '14513'
+  server: zjcu-imey1r.zzcloud.top
+  tls: false
+  type: vmess
+  uuid: 036bd6ad-2f0b-3185-9b4e-f16b7875a24c
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
@@ -22,6 +40,218 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 7|中转 🇸🇬 Singapore 46 @nodpai
+  network: tcp
+  port: '36415'
+  server: zjcu-imey1r.zzcloud.top
+  tls: false
+  type: vmess
+  uuid: 036bd6ad-2f0b-3185-9b4e-f16b7875a24c
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城测试|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (tg@ripaojiedian)c27821f:16708
+    mode: tls
+  port: 2377
+  server: 0bee9ed.s1.gladns.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 37 @nodpai
+  network: ws
+  port: '16618'
+  server: m.lwvzmdu.cn
+  tls: false
+  type: vmess
+  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  ws-opts:
+    headers:
+      Host: m.lwvzmdu.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇸🇬 Singapore 03 @nodpai
+  network: tcp
+  port: '34322'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: f73ecfde-2bd2-3438-b328-10cf900d1610
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 45 @nodpai
+  network: ws
+  port: '15006'
+  server: gz-2.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-2.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 40 @nodpai
+  network: ws
+  port: '15003'
+  server: gz-4.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-4.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 17 @nodpai
+  network: tcp
+  port: '11130'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 41 @nodpai
+  network: ws
+  port: '15006'
+  server: gz-1.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-1.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 69 @nodpai
+  network: tcp
+  port: '30007'
+  server: andromedae.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cf7c54b6-c8d0-413a-a475-ec32b0b8709d
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cf7c54b6-c8d0-413a-a475-ec32b0b8709d
+- alterId: 0
+  cipher: auto
+  name: 7,7|🇸🇬 Singapore 72 @nodpai
+  network: ws
+  port: '443'
+  server: b3.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1
+  ws-opts:
+    headers:
+      Host: b3.wuxianliulianng.xyz
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 55 @nodpai
+  network: tcp
+  port: '24861'
+  server: gd2-cm.topmusicworld.com
+  tls: false
+  type: vmess
+  uuid: 036bd6ad-2f0b-3185-9b4e-f16b7875a24c
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 52 @nodpai
+  network: tcp
+  port: '38152'
+  server: zjcu-imey1r.zzcloud.top
+  tls: false
+  type: vmess
+  uuid: 036bd6ad-2f0b-3185-9b4e-f16b7875a24c
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 04 @nodpai
+  network: ws
+  port: '443'
+  server: jdsin01.websitea.xyz
+  tls: true
+  type: vmess
+  uuid: 1ac31ff4-e3a7-4db0-bcbc-ea1207b6d5f8
+  ws-opts:
+    headers:
+      Host: jdsin01.websitea.xyz
+    path: /upload
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 67 @nodpai
+  network: tcp
+  port: '25013'
+  server: ophiuchi.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 38 @nodpai
+  network: ws
+  port: '15004'
+  server: gz-1.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-1.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 11 @nodpai
+  network: ws
+  port: '80'
+  server: sqaws.azzhuangaping.tw
+  tls: false
+  type: vmess
+  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
+  ws-opts:
+    headers:
+      Host: sqaws.azzhuangaping.tw
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 75 @nodpai
+  network: ws
+  port: '80'
+  server: sg02.vipnode.online
+  tls: false
+  type: vmess
+  uuid: 95d58891-4ff4-403b-b120-e656169621cb
+  ws-opts:
+    headers:
+      Host: sg02.vipnode.online
+    path: /
+- alterId: 0
+  cipher: auto
   name: 8|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -29,21 +259,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cd4b68eb-1aab-4f70-b076-7d3a4e93fc55
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_0820081
-  network: ws
-  port: 8880
-  server: 103.172.116.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 640ea6e0-3d92-11ee-b134-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 2b989fbe-4a3a-4f16-b1ac-4c84d6c6c12c
 - alterId: 0
   cipher: auto
   name: 0,9|🇸🇬 _SG_新加坡
@@ -59,56 +275,76 @@ proxies:
     path: /aebfc5ae-ffeb-48ee-b319-f318b6ce92d8
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
+  name: 8|🇸🇬新加坡06
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2d78c1a9-6f21-4cce-b1d4-70f7b082fb1c
+  uuid: 2b989fbe-4a3a-4f16-b1ac-4c84d6c6c12c
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡04
+  name: 7|中转 🇸🇬 Singapore 14 @nodpai
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: cd4b68eb-1aab-4f70-b076-7d3a4e93fc55
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2d78c1a9-6f21-4cce-b1d4-70f7b082fb1c
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城测试|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (tg@ripaojiedian)c27821f:16708
-    mode: tls
-  port: 2377
-  server: 0bee9ed.s1.gladns.com
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 12|🇸🇬 SG(AzadNet.t.me)_015
-  network: tcp
-  port: 50002
-  server: 27.124.47.64
-  servername: ''
+  port: '11233'
+  server: www.zhongxin1.xyz
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 02 @nodpai
+  network: tcp
+  port: '39037'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: f73ecfde-2bd2-3438-b328-10cf900d1610
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 33 @nodpai
+  network: tcp
+  port: '22002'
+  server: nnip.tntbooms.com
+  tls: false
+  type: vmess
+  uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 13 @nodpai
+  network: tcp
+  port: '11136'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 73 @nodpai
+  network: ws
+  port: '443'
+  server: 162.159.152.57
+  tls: true
+  type: vmess
+  uuid: e62db6f7-88ea-425d-90de-a9ba7770b1d6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /yfjc/sg1?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 34 @nodpai
+  network: ws
+  port: '16618'
+  server: yes.iamagoodman.net
+  tls: false
+  type: vmess
+  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  ws-opts:
+    headers:
+      Host: yes.iamagoodman.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -118,11 +354,126 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d78c1a9-6f21-4cce-b1d4-70f7b082fb1c
+  uuid: cf7c54b6-c8d0-413a-a475-ec32b0b8709d
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 09 @nodpai
+  network: ws
+  port: '80'
+  server: sqaws3.azzhuangaping.tw
+  tls: false
+  type: vmess
+  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
+  ws-opts:
+    headers:
+      Host: sqaws3.azzhuangaping.tw
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 70 @nodpai
+  network: tcp
+  port: '30008'
+  server: monocerotis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 43 @nodpai
+  network: ws
+  port: '15004'
+  server: gz-2.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-2.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 19 @nodpai
+  network: tcp
+  port: '11131'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 71 @nodpai
+  network: ws
+  port: '80'
+  server: 172.67.74.240
+  tls: false
+  type: vmess
+  uuid: 3f34b7b5-e33d-49e0-8562-08117b9a3400
+  ws-opts:
+    headers:
+      Host: ''
+    path: /videos
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 62 @nodpai
+  network: tcp
+  port: '50001'
+  server: agroup.node3.v.nodelist-gfwairport1.download
+  tls: false
+  type: vmess
+  uuid: 8736a0f1-67a6-4057-aa3a-46b2fd2bdbae
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 51 @nodpai
+  network: tcp
+  port: '38162'
+  server: zjcu-imey1r.zzcloud.top
+  tls: false
+  type: vmess
+  uuid: 036bd6ad-2f0b-3185-9b4e-f16b7875a24c
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 49 @nodpai
+  network: tcp
+  port: '35815'
+  server: zjcu-imey1r.zzcloud.top
+  tls: false
+  type: vmess
+  uuid: 036bd6ad-2f0b-3185-9b4e-f16b7875a24c
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 20 @nodpai
+  network: tcp
+  port: '11132'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 68 @nodpai
+  network: tcp
+  port: '25012'
+  server: leonis.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 44 @nodpai
+  network: ws
+  port: '80'
+  server: sg01.vipnode.online
+  tls: false
+  type: vmess
+  uuid: 95d58891-4ff4-403b-b120-e656169621cb
+  ws-opts:
+    headers:
+      Host: sg01.vipnode.online
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_SG_新加坡
+  name: 1,2,3,4,12|_SG_新加坡
   network: ws
   port: 443
   server: vsg1.0bad.com
@@ -138,11 +489,24 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡06
+  name: 7|中转 🇸🇬 Singapore 39 @nodpai
+  network: ws
+  port: '15002'
+  server: gz-1.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-1.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬新加坡04
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cd4b68eb-1aab-4f70-b076-7d3a4e93fc55
+  uuid: 2b989fbe-4a3a-4f16-b1ac-4c84d6c6c12c
