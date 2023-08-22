@@ -1,50 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 50 @nodpai
-  network: tcp
-  port: '25013'
-  server: ophiuchi.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,7,7|中转 🇸🇬 Singapore 02 @nodpai
-  network: tcp
-  port: '34322'
-  server: zjxc.pmxu.link
+  name: 7|中转 🇸🇬 Singapore 58 @nodpai
+  network: ws
+  port: '13561'
+  server: r97q.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: 1446b80f-f68a-3f2a-b4b5-118c3ae4f25a
-- alterId: 0
-  cipher: auto
-  name: '12|🇸🇬 Singapore 35 @nodpai #1'
-  network: ws
-  port: '443'
-  server: sg1.594888.xyz
-  tls: true
-  type: vmess
-  uuid: 582dc929-ccc4-3050-8b25-c3329b158ef6
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
   ws-opts:
     headers:
-      Host: sg1.594888.xyz
-    path: /hls/us8.m3u8
+      Host: r97q.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 65 @nodpai
+  name: 7|中转 🇸🇬 Singapore 38 @nodpai
   network: ws
-  port: '13361'
+  port: '13362'
   server: wzfla.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -55,97 +27,17 @@ proxies:
     path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 11 @nodpai
+  name: 7|中转 🇸🇬 Singapore 46 @nodpai
   network: ws
-  port: '15002'
-  server: gz-1.jdweblink.lol
+  port: '40334'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: gz-1.jdweblink.lol
-    path: /zh-cn/news
-- alterId: 0
-  cipher: auto
-  name: 8|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 436d3d75-3855-4860-8b66-5452093b07f7
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 47 @nodpai
-  network: ws
-  port: '23612'
-  server: 12.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 85f83741-c92e-397d-aa40-a853569c7042
-  ws-opts:
-    headers:
-      Host: 12.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇸🇬 Singapore 34 @nodpai
-  network: ws
-  port: '2082'
-  server: sg-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 476165e4-8862-4c50-a0f3-6a544017df09
-  ws-opts:
-    headers:
-      Host: sg-01.cloudlion.me
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.193.27
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 8|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 436d3d75-3855-4860-8b66-5452093b07f7
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 28 @nodpai
-  network: ws
-  port: '80'
-  server: sg03.vipnode.online
-  tls: false
-  type: vmess
-  uuid: 95d58891-4ff4-403b-b120-e656169621cb
-  ws-opts:
-    headers:
-      Host: sg03.vipnode.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 66 @nodpai
-  network: ws
-  port: '13563'
-  server: aawdsc.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: aawdsc.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8
 - alterId: 0
   cipher: auto
   name: 0|🇸🇬 _SG_新加坡
@@ -161,117 +53,78 @@ proxies:
     path: /aebfc5ae-ffeb-48ee-b319-f318b6ce92d8
 - alterId: 0
   cipher: auto
-  name: 7,7|🇸🇬 Singapore 49 @nodpai
+  name: 7|中转 🇸🇬 Singapore 13 @nodpai
   network: ws
-  port: '443'
-  server: 162.159.152.57
-  tls: true
-  type: vmess
-  uuid: e62db6f7-88ea-425d-90de-a9ba7770b1d6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /yfjc/sg1?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 7,7|中转 🇸🇬 Singapore 04 @nodpai
-  network: tcp
-  port: '39037'
-  server: zjxc.pmxu.link
+  port: '15002'
+  server: gz-2.jdweblink.lol
   tls: false
   type: vmess
-  uuid: 73dd8139-91f2-377e-9aed-658727dacefc
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-2.jdweblink.lol
+    path: /zh-cn/news
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 36 @nodpai
+  name: 7|中转 🇸🇬 Singapore 51 @nodpai
   network: ws
-  port: '13364'
-  server: r97q.cdn.node.a.tddns-ounk.com
+  port: '40049'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: r97q.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 38 @nodpai
+  name: 7|中转 🇸🇬 Singapore 50 @nodpai
   network: ws
-  port: '13688'
-  server: wzfla.cdn.node.a.tddns-ounk.com
+  port: '40261'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: wzfla.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 64 @nodpai
-  network: ws
-  port: '13577'
-  server: r97q.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: r97q.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 60 @nodpai
-  network: ws
-  port: '443'
-  server: a5.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: c0949fdc-f58e-4b02-8c6c-54c5f2e1d848
-  ws-opts:
-    headers:
-      Host: a5.wuxianliulianng.xyz
-    path: /sometimesnaive
-- alterId: 0
-  cipher: auto
-  name: 7,7|🇸🇬 Singapore 01 @nodpai
+  name: 7|🇸🇬 Singapore 64 @nodpai
   network: ws
   port: '2052'
   server: cfcdn3.sanfencdn.net
   tls: false
   type: vmess
-  uuid: 16582759-3d20-4804-9c9c-a58ad7b260a8
+  uuid: be9b404e-6574-4244-a1ae-b13894fccbce
   ws-opts:
     headers:
       Host: cfcdn3.sanfencdn.net
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 05 @nodpai
-  network: ws
-  port: '15003'
-  server: gz-4.jdweblink.lol
-  tls: false
+  name: 7|中转 🇸🇬 Singapore 65 @nodpai
+  network: tcp
+  port: '30007'
+  server: andromedae.weltknoten.xyz
+  tls: true
   type: vmess
-  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
-  ws-opts:
-    headers:
-      Host: gz-4.jdweblink.lol
-    path: /zh-cn/news
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7,12|🇸🇬 Singapore 32 @nodpai
+  name: 7|中转 🇸🇬 Singapore 53 @nodpai
   network: ws
-  port: '80'
-  server: xjp.azzhuangaping.tw
+  port: '40071'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: xjp.azzhuangaping.tw
-    path: /adobe
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG
@@ -282,145 +135,6 @@ proxies:
   tls: true
   type: vmess
   uuid: b0985194-d387-464f-a146-342dec26f056
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 53 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.129.99
-  tls: false
-  type: vmess
-  uuid: 7570fb5b-83ca-4c47-b8f9-1123f04aa6c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 43 @nodpai
-  network: ws
-  port: '80'
-  server: sg02.vipnode.online
-  tls: false
-  type: vmess
-  uuid: 95d58891-4ff4-403b-b120-e656169621cb
-  ws-opts:
-    headers:
-      Host: sg02.vipnode.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 33 @nodpai
-  network: ws
-  port: '80'
-  server: sqaws.azzhuangaping.tw
-  tls: false
-  type: vmess
-  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
-  ws-opts:
-    headers:
-      Host: sqaws.azzhuangaping.tw
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 Singapore 48 @nodpai
-  network: ws
-  port: '80'
-  server: sqaws2.azzhuangaping.tw
-  tls: false
-  type: vmess
-  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
-  ws-opts:
-    headers:
-      Host: sqaws2.azzhuangaping.tw
-    path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 16 @nodpai
-  network: tcp
-  port: '12318'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 57 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.129.44
-  tls: false
-  type: vmess
-  uuid: 7570fb5b-83ca-4c47-b8f9-1123f04aa6c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 55 @nodpai
-  network: ws
-  port: '80'
-  server: 172.67.74.240
-  tls: false
-  type: vmess
-  uuid: 7570fb5b-83ca-4c47-b8f9-1123f04aa6c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 54 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.152.0
-  tls: false
-  type: vmess
-  uuid: 7570fb5b-83ca-4c47-b8f9-1123f04aa6c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 39 @nodpai
-  network: ws
-  port: '13376'
-  server: wzfla.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: wzfla.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|🇸🇬 Singapore 58 @nodpai
-  network: ws
-  port: '443'
-  server: b3.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1
-  ws-opts:
-    headers:
-      Host: b3.wuxianliulianng.xyz
-    path: /sometimesnaive
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 42 @nodpai
-  network: ws
-  port: '13362'
-  server: wzfla.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: wzfla.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城测试|@ripaojiedian
@@ -435,6 +149,438 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 7|🇸🇬 Singapore 26 @nodpai
+  network: ws
+  port: '80'
+  server: sg02.vipnode.online
+  tls: false
+  type: vmess
+  uuid: 95d58891-4ff4-403b-b120-e656169621cb
+  ws-opts:
+    headers:
+      Host: sg02.vipnode.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 37 @nodpai
+  network: ws
+  port: '13376'
+  server: wzfla.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wzfla.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 47 @nodpai
+  network: ws
+  port: '40045'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 57 @nodpai
+  network: ws
+  port: '40258'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 61 @nodpai
+  network: ws
+  port: '13364'
+  server: r97q.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: r97q.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 39 @nodpai
+  network: ws
+  port: '13361'
+  server: wzfla.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wzfla.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 43 @nodpai
+  network: ws
+  port: '40351'
+  server: dtbv9a56r.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: dtbv9a56r.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 42 @nodpai
+  network: ws
+  port: '13379'
+  server: qgd6.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: qgd6.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 12 @nodpai
+  network: ws
+  port: '15002'
+  server: gz-1.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-1.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7,7,7|中转 🇸🇬 Singapore 05 @nodpai
+  network: tcp
+  port: '34322'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 36 @nodpai
+  network: ws
+  port: '13688'
+  server: wzfla.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wzfla.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 66 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.129.99
+  tls: false
+  type: vmess
+  uuid: fba4085a-57ef-4381-98a2-6e3062be585f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /videos
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 67 @nodpai
+  network: ws
+  port: '443'
+  server: a5.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1
+  ws-opts:
+    headers:
+      Host: a5.wuxianliulianng.xyz
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 35 @nodpai
+  network: ws
+  port: '13377'
+  server: wzfla.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wzfla.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇸🇬 Singapore 20 @nodpai
+  network: ws
+  port: '80'
+  server: wxxjp.e5outllok.me
+  tls: false
+  type: vmess
+  uuid: c44ec7ca-fd87-4c44-b68c-1e8c4d7855ce
+  ws-opts:
+    headers:
+      Host: wxxjp.e5outllok.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 40 @nodpai
+  network: ws
+  port: '13571'
+  server: qgd6.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: qgd6.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 Singapore 35 @nodpai
+  network: ws
+  port: '443'
+  server: sg1.594888.xyz
+  tls: true
+  type: vmess
+  uuid: 582dc929-ccc4-3050-8b25-c3329b158ef6
+  ws-opts:
+    headers:
+      Host: sg1.594888.xyz
+    path: /hls/us8.m3u8
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.193.27
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 44 @nodpai
+  network: ws
+  port: '40073'
+  server: dtbv9a56r.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: dtbv9a56r.cdn.node.a.tddns-ounk.com
+    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇸🇬 Singapore 04 @nodpai
+  network: tcp
+  port: '39037'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 60 @nodpai
+  network: ws
+  port: '40370'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 52 @nodpai
+  network: ws
+  port: '40141'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 372637ba-8aca-488c-a24b-97e98c0a4d76
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 54 @nodpai
+  network: ws
+  port: '40368'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 55 @nodpai
+  network: ws
+  port: '40047'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 33 @nodpai
+  network: ws
+  port: '13375'
+  server: wzfla.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wzfla.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 56 @nodpai
+  network: ws
+  port: '40369'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 48 @nodpai
+  network: ws
+  port: '40105'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 03 @nodpai
+  network: tcp
+  port: '12318'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 32 @nodpai
+  network: ws
+  port: '13360'
+  server: wzfla.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wzfla.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 49 @nodpai
+  network: ws
+  port: '40051'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 06 @nodpai
+  network: ws
+  port: '23612'
+  server: 12.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 85f83741-c92e-397d-aa40-a853569c7042
+  ws-opts:
+    headers:
+      Host: 12.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 62 @nodpai
+  network: ws
+  port: '13577'
+  server: r97q.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: r97q.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 45 @nodpai
+  network: ws
+  port: '13563'
+  server: aawdsc.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: aawdsc.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -445,14 +591,14 @@ proxies:
   uuid: b0985194-d387-464f-a146-342dec26f056
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡06
+  name: 8|🇸🇬新加坡05
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 436d3d75-3855-4860-8b66-5452093b07f7
+  uuid: 372637ba-8aca-488c-a24b-97e98c0a4d76
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -472,61 +618,84 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 7,12|🇸🇬 Singapore 35 @nodpai
+  name: 7,12|🇸🇬 Singapore 19 @nodpai
   network: ws
-  port: '80'
-  server: wxxjp.e5outllok.me
+  port: '2082'
+  server: sg-01.cloudlion.me
   tls: false
   type: vmess
-  uuid: c44ec7ca-fd87-4c44-b68c-1e8c4d7855ce
+  uuid: 476165e4-8862-4c50-a0f3-6a544017df09
   ws-opts:
     headers:
-      Host: wxxjp.e5outllok.me
+      Host: sg-01.cloudlion.me
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|🇸🇬 Singapore 56 @nodpai
+  name: 7|中转 🇸🇬 Singapore 59 @nodpai
   network: ws
-  port: '80'
-  server: 162.159.128.0
+  port: '40173'
+  server: asdzxc.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: 7570fb5b-83ca-4c47-b8f9-1123f04aa6c2
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: ''
-    path: /videos
+      Host: asdzxc.cdn.node.a.tddns-ounk.com
+    path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 30 @nodpai
+  name: 7|中转 🇸🇬 Singapore 16 @nodpai
   network: ws
-  port: '15002'
-  server: gz-2.jdweblink.lol
+  port: '15003'
+  server: gz-4.jdweblink.lol
   tls: false
   type: vmess
   uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
   ws-opts:
     headers:
-      Host: gz-2.jdweblink.lol
+      Host: gz-4.jdweblink.lol
     path: /zh-cn/news
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 40 @nodpai
+  name: 8|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 372637ba-8aca-488c-a24b-97e98c0a4d76
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 41 @nodpai
   network: ws
-  port: '13375'
-  server: wzfla.cdn.node.a.tddns-ounk.com
+  port: '13378'
+  server: qgd6.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
   ws-opts:
     headers:
-      Host: wzfla.cdn.node.a.tddns-ounk.com
+      Host: qgd6.cdn.node.a.tddns-ounk.com
     path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 37 @nodpai
+  name: 12|🇸🇬 Singapore 48 @nodpai
   network: ws
-  port: '13377'
+  port: '80'
+  server: sqaws2.azzhuangaping.tw
+  tls: false
+  type: vmess
+  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
+  ws-opts:
+    headers:
+      Host: sqaws2.azzhuangaping.tw
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 34 @nodpai
+  network: ws
+  port: '13559'
   server: wzfla.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -534,4 +703,13 @@ proxies:
   ws-opts:
     headers:
       Host: wzfla.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 31 @nodpai
+  network: tcp
+  port: '22002'
+  server: nnip.tntbooms.com
+  tls: false
+  type: vmess
+  uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920
