@@ -70,7 +70,7 @@ ABFURLS = (
     "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
     "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
-    "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt",
+    # "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt",
 )
 
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114".split('; ')
