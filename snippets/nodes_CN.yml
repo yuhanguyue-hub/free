@@ -1,53 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|中国 024
+  name: 7|中转 🇨🇳 China 03 @nodpai
   network: ws
-  port: 36788
-  server: 8.210.128.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af
-  ws-opts:
-    headers:
-      Host: 8.210.128.146
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,19|中转 🇨🇳 China 02 @nodpai
-  network: ws
-  port: '80'
-  server: 36.150.27.31
-  tls: false
-  type: vmess
-  uuid: db8d12d5-1968-4125-b775-77d50aa65923
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 01 @nodpai
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 19|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com1
-  network: tcp
-  port: 44002
-  server: 120.241.47.99
-  tls: false
+  port: '443'
+  server: 198.2.208.81
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1691232948890
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -65,12 +29,74 @@ proxies:
     headers:
       Host: gz-1.jdweblink.lol
     path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7,19|中转 🇨🇳 China 02 @nodpai
+  network: ws
+  port: '80'
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: db8d12d5-1968-4125-b775-77d50aa65923
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 04 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.109.6
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/252617081903
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 05 @nodpai
+  network: ws
+  port: '443'
+  server: 142.0.134.73
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/252617081903
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 01 @nodpai
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|中国 037
   network: tcp
   port: 59902
   server: 183.232.249.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12,19|🇨🇳_CN_中国
+  network: tcp
+  port: 44002
+  server: 120.241.47.99
   servername: ''
   tls: false
   type: vmess
