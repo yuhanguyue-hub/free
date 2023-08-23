@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇫🇷 France 03 @nodpai
-  network: ws
-  port: '443'
-  server: lille.kotick.site
-  tls: true
-  type: vmess
-  uuid: 6147f065-9ac0-4081-a5a3-a2eb4ebb8958
-  ws-opts:
-    headers:
-      Host: lille.kotick.site
-    path: /speedtest
-- alterId: 0
-  cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
   port: '80'
@@ -25,3 +12,16 @@ proxies:
     headers:
       Host: fr.ilovescp.com
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 12|🇫🇷 France 03 @nodpai
+  network: ws
+  port: '443'
+  server: lille.kotick.site
+  tls: true
+  type: vmess
+  uuid: 6147f065-9ac0-4081-a5a3-a2eb4ebb8958
+  ws-opts:
+    headers:
+      Host: lille.kotick.site
+    path: /speedtest
