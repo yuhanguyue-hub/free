@@ -1,33 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 04 @nodpai
-  network: ws
-  port: '443'
-  server: 142.4.127.16
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1691985329194
-- alterId: 0
-  cipher: auto
   name: 7|中转 🇨🇳 China 02 @nodpai
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 03 @nodpai
   network: ws
   port: '80'
   server: 36.150.27.31
@@ -40,21 +14,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 05 @nodpai
+  name: 7|中转 🇨🇳 China 01 @nodpai
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 03 @nodpai
   network: ws
   port: '443'
-  server: 107.148.202.179
+  server: 142.4.115.173
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /path/350418043005
+    path: /path/1692005985685
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,7|_CN_中国
+  name: 1,2,3,4|_CN_中国
   network: ws
   port: 15007
   server: gz-1.jdweblink.lol
