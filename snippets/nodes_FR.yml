@@ -15,32 +15,6 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 7|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: cf-lt.sharecentre.online
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 7|🇫🇷 France 05 @nodpai
-  network: ws
-  port: '2095'
-  server: frsadubidd.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
-  ws-opts:
-    headers:
-      Host: frsadubidd.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
   name: 7|🇫🇷 France 06 @nodpai
   network: ws
   port: '2095'
@@ -64,4 +38,30 @@ proxies:
   ws-opts:
     headers:
       Host: fr.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7|🇫🇷 France 05 @nodpai
+  network: ws
+  port: '2095'
+  server: frsadubidd.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
+  ws-opts:
+    headers:
+      Host: frsadubidd.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  name: 7|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: cf-lt.sharecentre.online
     path: /shirker

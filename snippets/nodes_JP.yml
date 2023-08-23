@@ -1,35 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇯🇵 Japan 109 @nodpai
+  name: 7|中转 🇯🇵 Japan 37 @nodpai
   network: ws
-  port: '443'
-  server: a10.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: c0949fdc-f58e-4b02-8c6c-54c5f2e1d848
-  ws-opts:
-    headers:
-      Host: a10.wuxianliulianng.xyz
-    path: /mp4
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇯🇵 Japan 105 @nodpai
-  network: ws
-  port: '443'
-  server: vfly3.win
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: vfly3.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 43 @nodpai
-  network: ws
-  port: '40371'
+  port: '40292'
   server: xrbjz1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -37,7 +11,16 @@ proxies:
   ws-opts:
     headers:
       Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 11 @nodpai
+  network: tcp
+  port: '43524'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
 - alterId: 0
   cipher: auto
   name: 7|中转 🇯🇵 Japan 26 @nodpai
@@ -53,45 +36,9 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 113 @nodpai
+  name: 7|中转 🇯🇵 Japan 106 @nodpai
   network: ws
-  port: '13738'
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9256514c-5a4b-44f4-920b-0239e5f07d01
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 38 @nodpai
-  network: ws
-  port: '13609'
-  server: ahqls.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: ahqls.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 45 @nodpai
-  network: ws
-  port: '40409'
+  port: '40412'
   server: jzrbjp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -102,9 +49,9 @@ proxies:
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 39 @nodpai
+  name: 7|中转 🇯🇵 Japan 48 @nodpai
   network: ws
-  port: '40366'
+  port: '40296'
   server: xrbjz1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -115,48 +62,22 @@ proxies:
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 76 @nodpai
+  name: 7|中转 🇯🇵 Japan 95 @nodpai
   network: ws
-  port: '13713'
-  server: weace1.cdn.node.a.tddns-ounk.com
+  port: '12999'
+  server: zdf1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
   ws-opts:
     headers:
-      Host: weace1.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20013
-  server: 183.232.170.32
-  tfo: false
-  type: ss
+      Host: zdf1.cdn.node.a.tddns-ounk.com
+    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵 日本 360
-  network: tcp
-  port: 41545
-  server: 141.147.153.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 51 @nodpai
+  name: 7|中转 🇯🇵 Japan 46 @nodpai
   network: ws
-  port: '40415'
+  port: '40402'
   server: jzrbjp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -165,45 +86,6 @@ proxies:
     headers:
       Host: jzrbjp.cdn.node.a.tddns-ounk.com
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 74 @nodpai
-  network: ws
-  port: '13692'
-  server: weace1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: weace1.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 27 @nodpai
-  network: ws
-  port: '13737'
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 42 @nodpai
-  network: ws
-  port: '13600'
-  server: q8eq.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
 - alterId: 0
   cipher: auto
   name: 7|中转 🇯🇵 Japan 25 @nodpai
@@ -219,26 +101,129 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 13|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
+  name: 7|中转 🇯🇵 Japan 56 @nodpai
+  network: ws
+  port: '40356'
+  server: xrbjz1.cdn.node.a.tddns-ounk.com
+  tls: false
   type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: xrbjz1.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 72 @nodpai
+  name: 7|中转 🇯🇵 Japan 55 @nodpai
   network: ws
-  port: '13694'
-  server: weace1.cdn.node.a.tddns-ounk.com
+  port: '40405'
+  server: jzrbjp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: jzrbjp.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 52 @nodpai
+  network: ws
+  port: '40406'
+  server: jzrbjp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: jzrbjp.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 12 @nodpai
+  network: tcp
+  port: '19278'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 97 @nodpai
+  network: ws
+  port: '13074'
+  server: q8eq.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
   ws-opts:
     headers:
-      Host: weace1.cdn.node.a.tddns-ounk.com
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 14 @nodpai
+  network: ws
+  port: '15004'
+  server: gz-1.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-1.jdweblink.lol
+    path: /zh-cn/news
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 89 @nodpai
+  network: ws
+  port: '13596'
+  server: q8eq.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 31 @nodpai
+  network: ws
+  port: '13744'
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 21 @nodpai
+  network: ws
+  port: '13743'
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 24 @nodpai
+  network: ws
+  port: '13731'
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
@@ -255,32 +240,9 @@ proxies:
     path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
 - alterId: 0
   cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 87 @nodpai
+  name: 7|中转 🇯🇵 Japan 28 @nodpai
   network: ws
-  port: '12960'
-  server: q8eq.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 111 @nodpai
-  network: ws
-  port: '13733'
+  port: '13740'
   server: syrbp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -291,141 +253,30 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 70 @nodpai
+  name: 7|中转 🇯🇵 Japan 39 @nodpai
   network: ws
-  port: '13697'
-  server: wbgsba.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: wbgsba.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 32 @nodpai
-  network: ws
-  port: '13732'
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 46 @nodpai
-  network: ws
-  port: '40402'
-  server: jzrbjp.cdn.node.a.tddns-ounk.com
+  port: '40366'
+  server: xrbjz1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: jzrbjp.cdn.node.a.tddns-ounk.com
+      Host: xrbjz1.cdn.node.a.tddns-ounk.com
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 0,7,12|🇯🇵 _JP_日本
+  name: 7|中转 🇯🇵 Japan 64 @nodpai
   network: ws
-  port: '80'
-  server: jp02.vipnode.online
-  tls: false
-  type: vmess
-  uuid: 95d58891-4ff4-403b-b120-e656169621cb
-  ws-opts:
-    headers:
-      Host: jp02.vipnode.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 34 @nodpai
-  network: ws
-  port: '13597'
-  server: q8eq.cdn.node.a.tddns-ounk.com
+  port: '13608'
+  server: ahqls.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
   ws-opts:
     headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 78 @nodpai
-  network: ws
-  port: '13604'
-  server: q8eq.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9256514c-5a4b-44f4-920b-0239e5f07d01
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本 319
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 89 @nodpai
-  network: ws
-  port: '13596'
-  server: q8eq.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 104 @nodpai
-  network: ws
-  port: '13270'
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: xrbsy1.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 90 @nodpai
-  network: ws
-  port: '40410'
-  server: jzrbjp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: jzrbjp.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+      Host: ahqls.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 0
   cipher: auto
   name: 7|中转 🇯🇵 Japan 35 @nodpai
@@ -441,30 +292,66 @@ proxies:
     path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|🇯🇵 Japan 107 @nodpai
+  name: 7|中转 🇯🇵 Japan 50 @nodpai
   network: ws
-  port: '2052'
-  server: jpaa.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
-  ws-opts:
-    headers:
-      Host: jpaa.76898102.xyz
-    path: /vuesshtgk
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 58 @nodpai
-  network: ws
-  port: '40297'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
+  port: '40401'
+  server: jzrbjp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
+      Host: jzrbjp.cdn.node.a.tddns-ounk.com
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7fe34e74-448c-46a1-af73-2d759dbb4849
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 54 @nodpai
+  network: ws
+  port: '40408'
+  server: jzrbjp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: jzrbjp.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 71 @nodpai
+  network: ws
+  port: '13695'
+  server: weace1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: weace1.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 29 @nodpai
+  network: ws
+  port: '13736'
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
   name: 7|中转 🇯🇵 Japan 23 @nodpai
@@ -480,113 +367,37 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 80 @nodpai
-  network: ws
-  port: '40367'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
+  name: 12|🇯🇵 JP日本(youtube阿伟科技)
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
   tls: false
   type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.114.170.208
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 40 @nodpai
-  network: ws
-  port: '40352'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
-  tls: false
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+  uuid: b0985194-d387-464f-a146-342dec26f056
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 62 @nodpai
+  name: 7|中转 🇯🇵 Japan 33 @nodpai
   network: ws
-  port: '13607'
-  server: ahqls.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: ahqls.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 91 @nodpai
-  network: ws
-  port: '40189'
-  server: 7a6rs.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: 7a6rs.cdn.node.a.tddns-ounk.com
-    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 22 @nodpai
-  network: ws
-  port: '13730'
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 117 @nodpai
-  network: ws
-  port: '13094'
-  server: ahqls.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: ahqls.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 48 @nodpai
-  network: ws
-  port: '40296'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 102 @nodpai
-  network: ws
-  port: '13512'
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: xrbsy1.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 63 @nodpai
-  network: ws
-  port: '13605'
+  port: '13599'
   server: q8eq.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -610,96 +421,9 @@ proxies:
     path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 73 @nodpai
+  name: 7|中转 🇯🇵 Japan 38 @nodpai
   network: ws
-  port: '13691'
-  server: weace1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: weace1.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 11 @nodpai
-  network: tcp
-  port: '43524'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 114 @nodpai
-  network: ws
-  port: '13704'
-  server: weace1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: weace1.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 14 @nodpai
-  network: ws
-  port: '15004'
-  server: gz-1.jdweblink.lol
-  tls: false
-  type: vmess
-  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
-  ws-opts:
-    headers:
-      Host: gz-1.jdweblink.lol
-    path: /zh-cn/news
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 41 @nodpai
-  network: ws
-  port: '40348'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 60 @nodpai
-  network: ws
-  port: '40289'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 29 @nodpai
-  network: ws
-  port: '13736'
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 64 @nodpai
-  network: ws
-  port: '13608'
+  port: '13609'
   server: ahqls.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -710,9 +434,9 @@ proxies:
     path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 31 @nodpai
+  name: 7|中转 🇯🇵 Japan 112 @nodpai
   network: ws
-  port: '13744'
+  port: '13739'
   server: syrbp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -723,22 +447,9 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 61 @nodpai
+  name: 7|中转 🇯🇵 Japan 51 @nodpai
   network: ws
-  port: '13606'
-  server: q8eq.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 106 @nodpai
-  network: ws
-  port: '40412'
+  port: '40415'
   server: jzrbjp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -746,84 +457,6 @@ proxies:
   ws-opts:
     headers:
       Host: jzrbjp.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 49 @nodpai
-  network: ws
-  port: '40411'
-  server: jzrbjp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: jzrbjp.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9256514c-5a4b-44f4-920b-0239e5f07d01
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 56 @nodpai
-  network: ws
-  port: '40356'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30016
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 50 @nodpai
-  network: ws
-  port: '40401'
-  server: jzrbjp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: jzrbjp.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 93 @nodpai
-  network: ws
-  port: '40041'
-  server: 7a6rs.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: 7a6rs.cdn.node.a.tddns-ounk.com
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
@@ -840,9 +473,9 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 54 @nodpai
+  name: 7|中转 🇯🇵 Japan 57 @nodpai
   network: ws
-  port: '40408'
+  port: '40414'
   server: jzrbjp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -853,152 +486,9 @@ proxies:
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 68 @nodpai
+  name: 7|中转 🇯🇵 Japan 90 @nodpai
   network: ws
-  port: '13701'
-  server: wbgsba.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: wbgsba.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 81 @nodpai
-  network: ws
-  port: '40075'
-  server: 7a6rs.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: 7a6rs.cdn.node.a.tddns-ounk.com
-    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 99 @nodpai
-  network: ws
-  port: '13477'
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: xrbsy1.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 JP日本(youtube阿伟科技)
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 94 @nodpai
-  network: ws
-  port: '13603'
-  server: zdf1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: zdf1.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇯🇵 Japan 100 @nodpai
-  network: ws
-  port: '2082'
-  server: jp-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 476165e4-8862-4c50-a0f3-6a544017df09
-  ws-opts:
-    headers:
-      Host: jp-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 86 @nodpai
-  network: ws
-  port: '40039'
-  server: 7a6rs.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: 7a6rs.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 69 @nodpai
-  network: ws
-  port: '13696'
-  server: wbgsba.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: wbgsba.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 52 @nodpai
-  network: ws
-  port: '40406'
-  server: jzrbjp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: jzrbjp.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本 350
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 12 @nodpai
-  network: tcp
-  port: '19278'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 55 @nodpai
-  network: ws
-  port: '40405'
+  port: '40410'
   server: jzrbjp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -1009,35 +499,9 @@ proxies:
     path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 79 @nodpai
+  name: 7|中转 🇯🇵 Japan 60 @nodpai
   network: ws
-  port: '40077'
-  server: 7a6rs.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: 7a6rs.cdn.node.a.tddns-ounk.com
-    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 95 @nodpai
-  network: ws
-  port: '12999'
-  server: zdf1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: zdf1.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 66 @nodpai
-  network: ws
-  port: '40027'
+  port: '40289'
   server: xrbjz1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -1045,38 +509,38 @@ proxies:
   ws-opts:
     headers:
       Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 85 @nodpai
-  network: ws
-  port: '40109'
-  server: 7a6rs.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: 7a6rs.cdn.node.a.tddns-ounk.com
     path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 71 @nodpai
+  name: 7|中转 🇯🇵 Japan 91 @nodpai
   network: ws
-  port: '13695'
-  server: weace1.cdn.node.a.tddns-ounk.com
+  port: '40189'
+  server: 7a6rs.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
   ws-opts:
     headers:
-      Host: weace1.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+      Host: 7a6rs.cdn.node.a.tddns-ounk.com
+    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 98 @nodpai
+  name: 7,12|🇯🇵 Japan 105 @nodpai
   network: ws
-  port: '13508'
+  port: '443'
+  server: vfly3.win
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: vfly3.win
+    path: /myblog
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 104 @nodpai
+  network: ws
+  port: '13270'
   server: xrbsy1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -1084,12 +548,25 @@ proxies:
   ws-opts:
     headers:
       Host: xrbsy1.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 37 @nodpai
+  name: 7|中转 🇯🇵 Japan 63 @nodpai
   network: ws
-  port: '40292'
+  port: '13605'
+  server: q8eq.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 80 @nodpai
+  network: ws
+  port: '40367'
   server: xrbjz1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -1097,35 +574,12 @@ proxies:
   ws-opts:
     headers:
       Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵 日本 210
-  network: tcp
-  port: 26297
-  server: 131.186.41.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 24 @nodpai
+  name: 7|中转 🇯🇵 Japan 87 @nodpai
   network: ws
-  port: '13731'
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 97 @nodpai
-  network: ws
-  port: '13074'
+  port: '12960'
   server: q8eq.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -1147,146 +601,135 @@ proxies:
     headers:
       Host: q8eq.cdn.node.a.tddns-ounk.com
     path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 53 @nodpai
-  network: ws
-  port: '40413'
-  server: jzrbjp.cdn.node.a.tddns-ounk.com
+  name: 12|🇯🇵 日本 350
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  servername: ''
   tls: false
   type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: jzrbjp.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 77 @nodpai
-  network: ws
-  port: '13001'
-  server: zdf1.cdn.node.a.tddns-ounk.com
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本 319
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
   tls: false
   type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: zdf1.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 59 @nodpai
-  network: ws
-  port: '40037'
-  server: xrbjz1.cdn.node.a.tddns-ounk.com
-  tls: false
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: xrbjz1.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+  uuid: b0985194-d387-464f-a146-342dec26f056
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本|tg频道:@ripaojiedian
+  password: ce757f0b-1ecb-4657-b52e-27d4183f23c0
+  port: 7904
+  server: am.rainplay.cn
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 33 @nodpai
+  name: 7|中转 🇯🇵 Japan 69 @nodpai
   network: ws
-  port: '13599'
-  server: q8eq.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 21 @nodpai
-  network: ws
-  port: '13743'
-  server: syrbp.cdn.node.a.tddns-ounk.com
+  port: '13696'
+  server: wbgsba.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
   ws-opts:
     headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
+      Host: wbgsba.cdn.node.a.tddns-ounk.com
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵_JP_日本_2
+  client-fingerprint: chrome
+  name: 1,2,3,4|_JP_日本
   network: ws
   port: 80
   server: jp01.vipnode.online
-  servername: ''
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 95d58891-4ff4-403b-b120-e656169621cb
+  ws-opts:
+    headers:
+      Host: jp01.vipnode.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 62 @nodpai
+  network: ws
+  port: '13607'
+  server: ahqls.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: ahqls.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 93 @nodpai
+  network: ws
+  port: '40041'
+  server: 7a6rs.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: 7a6rs.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 0,7,12|🇯🇵 _JP_日本
+  network: ws
+  port: '80'
+  server: jp02.vipnode.online
   tls: false
   type: vmess
   uuid: 95d58891-4ff4-403b-b120-e656169621cb
   ws-opts:
     headers:
-      Host: ''
+      Host: jp02.vipnode.online
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 88 @nodpai
+  name: 7|中转 🇯🇵 Japan 72 @nodpai
   network: ws
-  port: '13598'
-  server: q8eq.cdn.node.a.tddns-ounk.com
+  port: '13694'
+  server: weace1.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
   ws-opts:
     headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 57 @nodpai
-  network: ws
-  port: '40414'
-  server: jzrbjp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: jzrbjp.cdn.node.a.tddns-ounk.com
-    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 96 @nodpai
-  network: ws
-  port: '13003'
-  server: zdf1.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: zdf1.cdn.node.a.tddns-ounk.com
-    path: /9974f731e8cb457b17143895.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 112 @nodpai
-  network: ws
-  port: '13739'
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
+      Host: weace1.cdn.node.a.tddns-ounk.com
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
@@ -1303,6 +746,250 @@ proxies:
     path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8
 - alterId: 0
   cipher: auto
+  name: 7|中转 🇯🇵 Japan 66 @nodpai
+  network: ws
+  port: '40027'
+  server: xrbjz1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: xrbjz1.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 42 @nodpai
+  network: ws
+  port: '13600'
+  server: q8eq.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本 210
+  network: tcp
+  port: 26297
+  server: 131.186.41.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 32 @nodpai
+  network: ws
+  port: '13732'
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 74 @nodpai
+  network: ws
+  port: '13692'
+  server: weace1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: weace1.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 77 @nodpai
+  network: ws
+  port: '13001'
+  server: zdf1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: zdf1.cdn.node.a.tddns-ounk.com
+    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵_JP_日本_2
+  network: ws
+  port: 80
+  server: jp01.vipnode.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95d58891-4ff4-403b-b120-e656169621cb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 73 @nodpai
+  network: ws
+  port: '13691'
+  server: weace1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: weace1.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.113.213.130
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-061
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本测试
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 12a00c4:82897
+    mode: tls
+  port: 2377
+  server: 078761b.j6.gladns.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 78 @nodpai
+  network: ws
+  port: '13604'
+  server: q8eq.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 59 @nodpai
+  network: ws
+  port: '40037'
+  server: xrbjz1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: xrbjz1.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 86 @nodpai
+  network: ws
+  port: '40039'
+  server: 7a6rs.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: 7a6rs.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 53 @nodpai
+  network: ws
+  port: '40413'
+  server: jzrbjp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: jzrbjp.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 34 @nodpai
+  network: ws
+  port: '13597'
+  server: q8eq.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  port: 30004
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 45 @nodpai
+  network: ws
+  port: '40409'
+  server: jzrbjp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: jzrbjp.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 22 @nodpai
+  network: ws
+  port: '13730'
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 68 @nodpai
+  network: ws
+  port: '13701'
+  server: wbgsba.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wbgsba.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
   name: 7|中转 🇯🇵 Japan 82 @nodpai
   network: ws
   port: '13602'
@@ -1316,9 +1003,48 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 28 @nodpai
+  name: 7|🇯🇵 Japan 107 @nodpai
   network: ws
-  port: '13740'
+  port: '2052'
+  server: jpaa.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
+  ws-opts:
+    headers:
+      Host: jpaa.76898102.xyz
+    path: /vuesshtgk
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20012
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7fe34e74-448c-46a1-af73-2d759dbb4849
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 111 @nodpai
+  network: ws
+  port: '13733'
   server: syrbp.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -1327,3 +1053,166 @@ proxies:
     headers:
       Host: syrbp.cdn.node.a.tddns-ounk.com
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 88 @nodpai
+  network: ws
+  port: '13598'
+  server: q8eq.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 102 @nodpai
+  network: ws
+  port: '13512'
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: xrbsy1.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 85 @nodpai
+  network: ws
+  port: '40109'
+  server: 7a6rs.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: 7a6rs.cdn.node.a.tddns-ounk.com
+    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7fe34e74-448c-46a1-af73-2d759dbb4849
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 76 @nodpai
+  network: ws
+  port: '13713'
+  server: weace1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: weace1.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 117 @nodpai
+  network: ws
+  port: '13094'
+  server: ahqls.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: ahqls.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本 360
+  network: tcp
+  port: 41545
+  server: 141.147.153.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 58 @nodpai
+  network: ws
+  port: '40297'
+  server: xrbjz1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  ws-opts:
+    headers:
+      Host: xrbjz1.cdn.node.a.tddns-ounk.com
+    path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 114 @nodpai
+  network: ws
+  port: '13704'
+  server: weace1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: weace1.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|🇯🇵 Japan 109 @nodpai
+  network: ws
+  port: '443'
+  server: a10.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: c0949fdc-f58e-4b02-8c6c-54c5f2e1d848
+  ws-opts:
+    headers:
+      Host: a10.wuxianliulianng.xyz
+    path: /mp4
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 96 @nodpai
+  network: ws
+  port: '13003'
+  server: zdf1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: zdf1.cdn.node.a.tddns-ounk.com
+    path: /9974f731e8cb457b17143895.v1.live.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 70 @nodpai
+  network: ws
+  port: '13697'
+  server: wbgsba.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: wbgsba.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 99 @nodpai
+  network: ws
+  port: '13477'
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  ws-opts:
+    headers:
+      Host: xrbsy1.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
