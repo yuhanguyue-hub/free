@@ -1,31 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇫🇷FR法国(youtube阿伟科技)
+  name: 12|🇫🇷 France 03 @nodpai
   network: ws
   port: '443'
-  server: kianoosh.ddns.net
-  servername: fn.mostafago.tk
+  server: lille.kotick.site
   tls: true
   type: vmess
-  uuid: E97A1F83-B0C6-48E5-82E1-556292153FA7
+  uuid: 6147f065-9ac0-4081-a5a3-a2eb4ebb8958
   ws-opts:
     headers:
-      Host: fn.mostafago.tk
+      Host: lille.kotick.site
     path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 7|🇫🇷 France 06 @nodpai
-  network: ws
-  port: '2095'
-  server: frsadubicc.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
-  ws-opts:
-    headers:
-      Host: frsadubicc.76898102.xyz
-    path: /funsdfrh
 - alterId: 0
   cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
@@ -38,30 +24,4 @@ proxies:
   ws-opts:
     headers:
       Host: fr.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 7|🇫🇷 France 05 @nodpai
-  network: ws
-  port: '2095'
-  server: frsadubidd.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
-  ws-opts:
-    headers:
-      Host: frsadubidd.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 7|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: cf-lt.sharecentre.online
     path: /shirker
