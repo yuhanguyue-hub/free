@@ -1,26 +1,73 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 05 @nodpai
+  name: 7|中转 🇹🇼 Taiwan 24 @nodpai
   network: tcp
-  port: '56268'
-  server: cn-guangzhou.applebench.tech
+  port: '26633'
+  server: www.zhongxin1.xyz
   tls: false
   type: vmess
-  uuid: 7e319f7a-4c47-4606-8008-ce6c92634dd8
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 10 @nodpai
-  network: ws
-  port: '13658'
-  server: dr64.cdn.node.a.tddns-ounk.com
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 0
+  cipher: auto
+  name: 9,12|台湾省 中华电信
+  network: tcp
+  port: 11872
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 7|🇹🇼 Taiwan 12 @nodpai
+  network: ws
+  port: '443'
+  server: twtw.henyo.us
+  tls: true
+  type: vmess
+  uuid: 98593209-37ff-3f6f-81f4-0f96b56a183d
   ws-opts:
     headers:
-      Host: dr64.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+      Host: twtw.henyo.us
+    path: /hls/us8.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 18 @nodpai
+  network: tcp
+  port: '11000'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 21 @nodpai
+  network: tcp
+  port: '26644'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 20 @nodpai
+  network: tcp
+  port: '26611'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -39,159 +86,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7,7,7|中转 🇹🇼 Taiwan 11 @nodpai
+  name: 7|中转 🇹🇼 Taiwan 22 @nodpai
   network: tcp
-  port: '25014'
-  server: piscium.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6caea6e8-baa7-4204-9c4e-76830ecef7f0
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 04 @nodpai
-  network: ws
-  port: '13338'
-  server: fpxs9.cdn.node.a.tddns-ounk.com
+  port: '26622'
+  server: www.zhongxin1.xyz
   tls: false
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: fpxs9.cdn.node.a.tddns-ounk.com
-    path: /9974f731e8cb457b17143895.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 02 @nodpai
-  network: tcp
-  port: '44207'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: 0b4cba85-4791-3879-9f66-5e232c8184e9
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 06 @nodpai
-  network: ws
-  port: '13307'
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: mjk6.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇹🇼 Taiwan 07 @nodpai
-  network: tcp
-  port: '56568'
-  server: hinettw1.applebench.tech
-  tls: false
-  type: vmess
-  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-- alterId: 0
-  cipher: auto
-  name: 7,7|中转 🇹🇼 Taiwan 14 @nodpai
-  network: tcp
-  port: '30010'
-  server: orionis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6caea6e8-baa7-4204-9c4e-76830ecef7f0
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6caea6e8-baa7-4204-9c4e-76830ecef7f0
-- alterId: 0
-  cipher: auto
-  name: 7,7|中转 🇹🇼 Taiwan 13 @nodpai
-  network: tcp
-  port: '30009'
-  server: orionis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 9,12|台湾省 中华电信
-  network: tcp
-  port: 11872
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 03 @nodpai
-  network: ws
-  port: '13311'
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: mjk6.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 08 @nodpai
-  network: ws
-  port: '13313'
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: mjk6.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇹🇼 台湾|@ripaojiedian
-  password: 21ba495a-97b9-4f6a-8a2d-209adf4ce25c
-  port: 32302
-  server: a.52forest.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -204,11 +105,181 @@ proxies:
   uuid: b0985194-d387-464f-a146-342dec26f056
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
+  name: 8|🇹🇼台湾04
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 71581eb6-3bcd-46f4-94a4-f858115984b4
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 71581eb6-3bcd-46f4-94a4-f858115984b4
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
   uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 25 @nodpai
+  network: ws
+  port: '13527'
+  server: dr64.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: dr64.cdn.node.a.tddns-ounk.com
+    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 03_1【vip1】
+  network: ws
+  port: '16680'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0b5b087a-9508-404e-b814-fc687f2536d3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 08 @nodpai
+  network: tcp
+  port: '36020'
+  server: 120.195.181.54
+  tls: false
+  type: vmess
+  uuid: 98593209-37ff-3f6f-81f4-0f96b56a183d
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 19 @nodpai
+  network: tcp
+  port: '11888'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 71581eb6-3bcd-46f4-94a4-f858115984b4
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 04【vip1】
+  network: ws
+  port: '59486'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0b5b087a-9508-404e-b814-fc687f2536d3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇹🇼 Taiwan 01 @nodpai
+  network: tcp
+  port: '56568'
+  server: hinettw1.applebench.tech
+  tls: false
+  type: vmess
+  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 07 @nodpai
+  network: tcp
+  port: '44207'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: a1a85124-6a4d-3a42-a6be-0183fa2df4a4
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇹🇼 台湾|@ripaojiedian
+  password: 21ba495a-97b9-4f6a-8a2d-209adf4ce25c
+  port: 32302
+  server: a.52forest.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|JCBB_ 台湾 03【vip1】
+  network: ws
+  port: '59393'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 0b5b087a-9508-404e-b814-fc687f2536d3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 09 @nodpai
+  network: tcp
+  port: '36018'
+  server: 120.195.181.54
+  tls: false
+  type: vmess
+  uuid: 98593209-37ff-3f6f-81f4-0f96b56a183d
+- alterId: 0
+  cipher: auto
+  name: 7|🇹🇼 Taiwan 13 @nodpai
+  network: ws
+  port: '21443'
+  server: tw.henyo.us
+  tls: true
+  type: vmess
+  uuid: 98593209-37ff-3f6f-81f4-0f96b56a183d
+  ws-opts:
+    headers:
+      Host: tw.henyo.us
+    path: /hls/us8.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 23 @nodpai
+  network: tcp
+  port: '11999'
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 7|🇹🇼 Taiwan 11 @nodpai
+  network: ws
+  port: '1443'
+  server: newtw.henyo.us
+  tls: true
+  type: vmess
+  uuid: 98593209-37ff-3f6f-81f4-0f96b56a183d
+  ws-opts:
+    headers:
+      Host: newtw.henyo.us
+    path: /hls/us8.m3u8
