@@ -1,26 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK
+  name: 7|中转 🇭🇰 Hong Kong 15 @nodpai
   network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
+  port: '25023'
+  server: piscium.verdens.xyz
   tls: true
   type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 50805
-  protocol: auth_aes128_md5
-  protocol-param: 281528:hU0nbdC1T3
-  server: ieplszhk-03.telescopes.work
-  tfo: false
-  type: ssr
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 14 @nodpai
+  network: tcp
+  port: '25026'
+  server: ophiuchi.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 Hong Kong 01 @nodpai
@@ -36,158 +32,32 @@ proxies:
     path: /cctv3/h2d.m3u8
 - alterId: 0
   cipher: auto
-  name: 8|🇭🇰香港04
+  name: 13|香港 04 | 1x HK
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86deddd5-b072-4635-988e-ba07fcec75f6
-- alterId: 0
-  cipher: auto
-  name: 7,12,18|中转 🇭🇰 Hong Kong 06 @nodpai
-  network: tcp
-  port: '59902'
-  server: 183.232.249.189
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|「SCP」HK-vv-HTTP
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: hk.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰_HK_香港_由零_19
-  network: ws
-  port: '2052'
-  server: 103.160.204.242
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: 8|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86deddd5-b072-4635-988e-ba07fcec75f6
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港|@ripaojiedian
-  password: 21ba495a-97b9-4f6a-8a2d-209adf4ce25c
-  port: 32301
-  server: 112.91.141.109
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
   tls: true
   type: vmess
   uuid: b0985194-d387-464f-a146-342dec26f056
 - alterId: 0
   cipher: auto
-  name: 7,15|🇭🇰 Hong Kong 02 @nodpai
+  name: 7|中转 🇭🇰 Hong Kong 17 @nodpai
   network: tcp
-  port: '995'
-  server: 206.237.18.23
+  port: '30003'
+  server: orionis.weltknoten.xyz
   tls: true
   type: vmess
-  uuid: ce757f0b-1ecb-4657-b52e-27d4183f23c0
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: c7793d1a-5a07-40b5-9a78-560c6590c507
-  port: 13306
-  server: gzhk.iqiyi.club
-  tfo: false
-  type: ss
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 8|🇭🇰香港06
+  name: 7|中转 🇭🇰 Hong Kong 19 @nodpai
   network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: '30021'
+  server: andromedae.weltknoten.xyz
   tls: true
   type: vmess
-  uuid: 86deddd5-b072-4635-988e-ba07fcec75f6
-- alterId: 0
-  cipher: auto
-  name: '0|🇭🇰 _HK_香港 #1'
-  network: ws
-  port: '8080'
-  server: 103.160.204.27
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港 051
-  network: ws
-  port: 2052
-  server: 103.160.204.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 22 @nodpai
-  network: ws
-  port: '13665'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: 9b661386-8076-3f13-8fe4-c0a333375984
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 0,12|🇭🇰 _HK_香港
-  network: ws
-  port: '8080'
-  server: 103.160.204.155
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 Hong Kong 22 @nodpai
@@ -203,23 +73,60 @@ proxies:
     path: /c2c3tv3/h2sdfd.m3u8
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 21 @nodpai
+  name: 15|香港直连|@ripaojiedian
   network: tcp
-  port: '30020'
-  server: scorpii.weltknoten.xyz
+  port: '995'
+  server: 206.237.18.23
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ce757f0b-1ecb-4657-b52e-27d4183f23c0
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 20 @nodpai
+  network: tcp
+  port: '30001'
+  server: andromedae.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
+  name: 7|中转 🇭🇰 Hong Kong 21 @nodpai
   network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  port: '30004'
+  server: phoenicis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
   tls: true
   type: vmess
   uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 0
+  cipher: auto
+  name: 8|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: faf730f9-44be-4d0d-b52e-3aa9f0dc197b
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: c7793d1a-5a07-40b5-9a78-560c6590c507
+  port: 13306
+  server: gzhk.iqiyi.club
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 12|HK_speednode_0012
@@ -236,6 +143,54 @@ proxies:
     path: /path/142731261014
 - alterId: 0
   cipher: auto
+  name: 7|🇭🇰 Hong Kong 05 @nodpai
+  network: ws
+  port: '40001'
+  server: 123.202.233.79
+  tls: false
+  type: vmess
+  uuid: dc99eede-d0f9-40b2-aaa5-180cae8f7c0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /qwe123321ewq
+- client-fingerprint: chrome
+  name: 1,1,1,1,14,14,14,14,14|_HK_香港
+  password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
+  port: 443
+  server: 18.163.249.175
+  skip-cert-verify: true
+  sni: golang.protocolbuffer.com
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 09 @nodpai
+  network: ws
+  port: '80'
+  server: 16.163.94.161
+  tls: false
+  type: vmess
+  uuid: 38d7c031-fd2b-48f8-a017-90fe94c700f6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 50805
+  protocol: auth_aes128_md5
+  protocol-param: 281528:hU0nbdC1T3
+  server: ieplszhk-03.telescopes.work
+  tfo: false
+  type: ssr
+- alterId: 0
+  cipher: auto
   name: 6|🇭🇰_HK_香港
   network: ws
   port: 80
@@ -249,20 +204,123 @@ proxies:
     path: /blue06
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 20 @nodpai
+  name: 0,10,12|🇭🇰 _HK_香港
+  network: ws
+  port: '8080'
+  server: 103.160.204.155
+  tls: false
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 16 @nodpai
   network: tcp
-  port: '30002'
-  server: monocerotis.weltknoten.xyz
+  port: '25025'
+  server: centauri.verdens.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- client-fingerprint: chrome
-  name: 1,1,1,1,14,14,14,14,14|_HK_香港
-  password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
-  port: 443
-  server: 18.163.249.175
-  skip-cert-verify: true
-  sni: golang.protocolbuffer.com
+- alterId: 0
+  cipher: auto
+  name: '0|🇭🇰 _HK_香港 #1'
+  network: ws
+  port: '8080'
+  server: 103.160.204.27
+  tls: false
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港|@ripaojiedian
+  password: 21ba495a-97b9-4f6a-8a2d-209adf4ce25c
+  port: 32301
+  server: 112.91.141.109
   tfo: false
-  type: trojan
-  udp: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 0
+  cipher: auto
+  name: 8|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: faf730f9-44be-4d0d-b52e-3aa9f0dc197b
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 06 @nodpai
+  network: ws
+  port: '40003'
+  server: 61.244.57.71
+  tls: false
+  type: vmess
+  uuid: dc99eede-d0f9-40b2-aaa5-180cae8f7c0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /qwe123321ewq
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 香港 051
+  network: ws
+  port: 2052
+  server: 103.160.204.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 18 @nodpai
+  network: tcp
+  port: '30023'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 8|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: faf730f9-44be-4d0d-b52e-3aa9f0dc197b
+- alterId: 0
+  cipher: auto
+  name: 16|「SCP」HK-vv-HTTP
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: hk.ilovescp.com
+    path: /shirker
