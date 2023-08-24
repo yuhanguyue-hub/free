@@ -1,42 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇫🇷 France 08 @nodpai
-  network: ws
-  port: '2082'
-  server: tokyo.mfa.ee
-  tls: false
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  ws-opts:
-    headers:
-      Host: tokyo.mfa.ee
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 10,12|github.com/freefq - 德国法尔肯施泰因HE...
-  network: tcp
-  port: '42000'
-  server: 116.202.30.76
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
-- alterId: 0
-  cipher: auto
-  name: 7,19|🇫🇷 France 09 @nodpai
-  network: ws
-  port: '2082'
-  server: scw-fr.iiio.wiki
-  tls: false
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  ws-opts:
-    headers:
-      Host: scw-fr.iiio.wiki
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
   port: '80'
@@ -48,3 +12,36 @@ proxies:
     headers:
       Host: fr.ilovescp.com
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7,18|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '2082'
+  server: scw-fr.iiio.wiki
+  tls: false
+  type: vmess
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  ws-opts:
+    headers:
+      Host: scw-fr.iiio.wiki
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '12|Channel id: @ShadowProxy66🇫🇷 #1'
+  network: tcp
+  port: '443'
+  server: 51.158.238.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '12|Channel id: @ShadowProxy66🇫🇷'
+  network: tcp
+  port: '1950'
+  server: 51.159.183.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
