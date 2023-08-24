@@ -1,13 +1,174 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 03 @nodpai
-  network: tcp
-  port: '36010'
-  server: 120.195.181.54
+  name: 7|中转 🇭🇰 Hong Kong 04 @nodpai
+  network: ws
+  port: '10942'
+  server: ahq9.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
-  uuid: 00ce0e7f-7517-358f-9062-748e9632ca16
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: ahq9.cdn.node.a.tddns-ounk.com
+    path: /80080f42e36c6478a808050e.v1.live.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 67 @nodpai
+  network: ws
+  port: '44885'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a2a2a6d6-f2a3-4737-b71d-f6dcb97386c5
+  ws-opts:
+    headers:
+      Host: gzdx.jcnode.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 Hong Kong 30 @nodpai
+  network: ws
+  port: '443'
+  server: hk02a.anyco.vip
+  tls: false
+  type: vmess
+  uuid: 89f61f49-5cd1-45ef-b126-9d01acfa6604
+  ws-opts:
+    headers:
+      Host: hk02a.anyco.vip
+    path: /cctv3/h2d.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 03 @nodpai
+  network: ws
+  port: '13502'
+  server: sjgysy.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: sjgysy.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 05 @nodpai
+  network: ws
+  port: '13504'
+  server: cd69.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: cd69.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇭🇰 Hong Kong 32 @nodpai
+  network: tcp
+  port: '30020'
+  server: scorpii.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 14 @nodpai
+  network: ws
+  port: '13617'
+  server: ahq9.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: ahq9.cdn.node.a.tddns-ounk.com
+    path: /4f0b20139350376867c2f59f.v1.live.m3u8
+- alterId: 0
+  cipher: auto
+  name: 8|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6caea6e8-baa7-4204-9c4e-76830ecef7f0
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 11 @nodpai
+  network: ws
+  port: '13542'
+  server: cd69.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: cd69.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇭🇰 Hong Kong 20 @nodpai
+  network: tcp
+  port: '25023'
+  server: piscium.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 42 @nodpai
+  network: tcp
+  port: '30003'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 64e4e80c-d929-390e-aa08-9ad23a633511
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 07 @nodpai
+  network: ws
+  port: '13668'
+  server: sjgysy.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: sjgysy.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 74 @nodpai
+  network: ws
+  port: '80'
+  server: 172.64.203.224
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /shirker
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: c7793d1a-5a07-40b5-9a78-560c6590c507
+  port: 13306
+  server: gzhk.iqiyi.club
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港|@ripaojiedian
+  password: 21ba495a-97b9-4f6a-8a2d-209adf4ce25c
+  port: 32301
+  server: 112.91.141.109
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '0|🇭🇰 _HK_香港 #1'
@@ -23,35 +184,18 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 75 @nodpai
-  network: ws
-  port: '13687'
-  server: z5sa6is.cdn.node.a.tddns-ounk.com
-  tls: false
+  name: 7,7|中转 🇭🇰 Hong Kong 29 @nodpai
+  network: tcp
+  port: '30023'
+  server: orionis.weltknoten.xyz
+  tls: true
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: z5sa6is.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 52 @nodpai
+  name: 7|中转 🇭🇰 Hong Kong 17 @nodpai
   network: ws
-  port: '13504'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 42 @nodpai
-  network: ws
-  port: '13417'
+  port: '13524'
   server: aaf8.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -62,309 +206,51 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 34 @nodpai
+  name: 7|🇭🇰 Hong Kong 73 @nodpai
   network: ws
-  port: '13418'
-  server: x321.cdn.node.a.tddns-ounk.com
+  port: '80'
+  server: 172.67.198.78
   tls: false
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: x321.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 44 @nodpai
-  network: ws
-  port: '30024'
-  server: v02.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
-  ws-opts:
-    headers:
-      Host: v02.gutingting.com
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 24 @nodpai
-  network: ws
-  port: '13684'
-  server: z5sa6is.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: z5sa6is.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 39 @nodpai
-  network: ws
-  port: '13268'
-  server: bbq886.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: bbq886.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 26 @nodpai
-  network: ws
-  port: '13273'
-  server: aaf8.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: aaf8.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 32 @nodpai
-  network: ws
-  port: '13666'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇭🇰 Hong Kong 33 @nodpai
-  network: ws
-  port: '443'
-  server: hk01a.anyco.vip
-  tls: false
-  type: vmess
-  uuid: 89f61f49-5cd1-45ef-b126-9d01acfa6604
-  ws-opts:
-    headers:
-      Host: hk01a.anyco.vip
-    path: /c2c3tv3/h2sdfd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|🇭🇰 Hong Kong 80 @nodpai
-  network: tcp
-  port: '52356'
-  server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win
-  tls: false
-  type: vmess
-  uuid: a82e7a29-8cc8-45fa-bb3c-2f321f9e2cd5
-- alterId: 0
-  cipher: auto
-  name: 7|🇭🇰 Hong Kong 13 @nodpai
-  network: ws
-  port: '443'
-  server: hk2.594888.xyz
-  tls: true
-  type: vmess
-  uuid: 00ce0e7f-7517-358f-9062-748e9632ca16
-  ws-opts:
-    headers:
-      Host: hk2.594888.xyz
-    path: /hls/us8.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 54 @nodpai
-  network: ws
-  port: '13617'
-  server: ahq9.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: ahq9.cdn.node.a.tddns-ounk.com
-    path: /4f0b20139350376867c2f59f.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 05 @nodpai
-  network: tcp
-  port: '36021'
-  server: 120.195.181.54
-  tls: false
-  type: vmess
-  uuid: 00ce0e7f-7517-358f-9062-748e9632ca16
-- alterId: 0
-  cipher: auto
-  name: 8|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d4e9d5df-62df-41f1-92e8-d9b184d4eccc
-- alterId: 0
-  cipher: auto
-  name: 8|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d4e9d5df-62df-41f1-92e8-d9b184d4eccc
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 48 @nodpai
-  network: ws
-  port: '13671'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 46 @nodpai
-  network: ws
-  port: '13502'
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: sjgysy.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: ws
-  port: '13269'
-  server: bbq886.cdn.node.a.tddns-ounk.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
       Host: ''
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    path: /shirker
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 50805
+  protocol: auth_aes128_md5
+  protocol-param: 281528:hU0nbdC1T3
+  server: ieplszhk-03.telescopes.work
+  tfo: false
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 28 @nodpai
+  name: 7|🇭🇰 Hong Kong 68 @nodpai
   network: ws
-  port: '13271'
-  server: aaf8.cdn.node.a.tddns-ounk.com
+  port: '80'
+  server: 172.67.77.9
   tls: false
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: aaf8.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+      Host: ''
+    path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7,15|🇭🇰 Hong Kong 01 @nodpai
+  name: 7,7|中转 🇭🇰 Hong Kong 27 @nodpai
   network: tcp
-  port: '995'
-  server: 206.237.18.23
+  port: '30021'
+  server: andromedae.weltknoten.xyz
   tls: true
   type: vmess
-  uuid: ce757f0b-1ecb-4657-b52e-27d4183f23c0
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 57 @nodpai
-  network: ws
-  port: '13685'
-  server: z5sa6is.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: z5sa6is.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰 _HK_香港
-  network: ws
-  port: '8080'
-  server: 103.160.204.155
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 45 @nodpai
-  network: ws
-  port: '30008'
-  server: v02.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
-  ws-opts:
-    headers:
-      Host: v02.gutingting.com
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 04 @nodpai
-  network: tcp
-  port: '36009'
-  server: 120.195.181.54
-  tls: false
-  type: vmess
-  uuid: 00ce0e7f-7517-358f-9062-748e9632ca16
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 51 @nodpai
-  network: ws
-  port: '30015'
-  server: v01.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
-  ws-opts:
-    headers:
-      Host: v01.gutingting.com
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_HK_香港
-  network: ws
-  port: 2052
-  server: 103.160.204.63
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
   name: 6|🇭🇰_HK_香港
@@ -380,78 +266,97 @@ proxies:
     path: /blue06
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 47 @nodpai
+  name: 0|🇭🇰 _HK_香港
   network: ws
-  port: '13474'
-  server: sjgysy.cdn.node.a.tddns-ounk.com
+  port: '8080'
+  server: 103.160.204.155
+  tls: false
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,9|_HK_香港
+  network: ws
+  port: 2052
+  server: 103.160.204.63
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 08 @nodpai
+  network: ws
+  port: '13515'
+  server: tata12.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
   ws-opts:
     headers:
-      Host: sjgysy.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+      Host: tata12.cdn.node.a.tddns-ounk.com
+    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
 - alterId: 0
   cipher: auto
-  name: 7,12|🇭🇰 Hong Kong 53 @nodpai
-  network: ws
-  port: '443'
-  server: hk02a.anyco.vip
-  tls: false
-  type: vmess
-  uuid: 89f61f49-5cd1-45ef-b126-9d01acfa6604
-  ws-opts:
-    headers:
-      Host: hk02a.anyco.vip
-    path: /cctv3/h2d.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 81 @nodpai
+  name: 7,15|🇭🇰 Hong Kong 01 @nodpai
   network: tcp
-  port: '25023'
-  server: piscium.verdens.xyz
+  port: '995'
+  server: 206.237.18.23
   tls: true
   type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+  uuid: ce757f0b-1ecb-4657-b52e-27d4183f23c0
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 49 @nodpai
-  network: ws
-  port: '13542'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
+  name: 7,7,7|中转 🇭🇰 Hong Kong 23 @nodpai
+  network: tcp
+  port: '25022'
+  server: leonis.verdens.xyz
+  tls: true
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 60 @nodpai
-  network: ws
-  port: '13513'
-  server: x321.cdn.node.a.tddns-ounk.com
-  tls: false
+  name: 8|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: x321.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  uuid: 6caea6e8-baa7-4204-9c4e-76830ecef7f0
 - alterId: 0
   cipher: auto
-  name: 7,14|中转 🇭🇰 Hong Kong 35 @nodpai
+  name: 7|🇭🇰 Hong Kong 70 @nodpai
   network: ws
-  port: '13269'
-  server: bbq886.cdn.node.a.tddns-ounk.com
+  port: '80'
+  server: 172.67.170.38
   tls: false
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: bbq886.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+      Host: ''
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇭🇰 Hong Kong 19 @nodpai
+  network: tcp
+  port: '25025'
+  server: centauri.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -464,53 +369,30 @@ proxies:
   uuid: b0985194-d387-464f-a146-342dec26f056
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 36 @nodpai
+  name: 7|中转 🇭🇰 Hong Kong 10 @nodpai
   network: ws
-  port: '30007'
-  server: v01.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
-  ws-opts:
-    headers:
-      Host: v01.gutingting.com
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 30 @nodpai
-  network: ws
-  port: '13343'
-  server: cd69.cdn.node.a.tddns-ounk.com
+  port: '13513'
+  server: x321.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
   uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
   ws-opts:
     headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
+      Host: x321.cdn.node.a.tddns-ounk.com
     path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
 - alterId: 0
   cipher: auto
-  name: 8|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d4e9d5df-62df-41f1-92e8-d9b184d4eccc
-- alterId: 0
-  cipher: auto
-  name: 7,7|中转 🇭🇰 Hong Kong 31 @nodpai
+  name: 7|🇭🇰 Hong Kong 69 @nodpai
   network: ws
-  port: '13665'
-  server: cd69.cdn.node.a.tddns-ounk.com
+  port: '80'
+  server: 172.67.255.133
   tls: false
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+      Host: ''
+    path: /shirker
 - alterId: 0
   cipher: auto
   name: 16|「SCP」HK-vv-HTTP
@@ -526,112 +408,9 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 40 @nodpai
+  name: 7|中转 🇭🇰 Hong Kong 13 @nodpai
   network: ws
-  port: '13476'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|🇭🇰 Hong Kong 83 @nodpai
-  network: ws
-  port: '80'
-  server: 172.64.130.161
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 41 @nodpai
-  network: ws
-  port: '13509'
-  server: x321.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: x321.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 73 @nodpai
-  network: ws
-  port: '13194'
-  server: z5is.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: z5is.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 50805
-  protocol: auth_aes128_md5
-  protocol-param: 281528:hU0nbdC1T3
-  server: ieplszhk-03.telescopes.work
-  tfo: false
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 77 @nodpai
-  network: ws
-  port: '13686'
-  server: z5is.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: z5is.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 55 @nodpai
-  network: ws
-  port: '10942'
-  server: ahq9.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: ahq9.cdn.node.a.tddns-ounk.com
-    path: /80080f42e36c6478a808050e.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 59 @nodpai
-  network: ws
-  port: '13503'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 25 @nodpai
-  network: ws
-  port: '13524'
+  port: '13273'
   server: aaf8.cdn.node.a.tddns-ounk.com
   tls: false
   type: vmess
@@ -642,161 +421,68 @@ proxies:
     path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
-  name: 15|香港2|@ripaojiedian
+  name: 7,7|中转 🇭🇰 Hong Kong 30 @nodpai
+  network: tcp
+  port: '30002'
+  server: monocerotis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇭🇰 Hong Kong 28 @nodpai
+  network: tcp
+  port: '30001'
+  server: andromedae.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 72 @nodpai
   network: ws
-  port: '40269'
-  server: mhfv46.cdn.node.a.tddns-ounk.com
-  servername: ''
+  port: '80'
+  server: 172.67.156.202
   tls: false
   type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
       Host: ''
-    path: /05664702-ab4f-4f7e-8a09-2cf41f1cdc67.j.live004.m3u8
+    path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 38 @nodpai
-  network: ws
-  port: '13668'
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: sjgysy.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 43 @nodpai
-  network: ws
-  port: '13546'
-  server: tata12.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: tata12.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 27 @nodpai
-  network: ws
-  port: '13471'
-  server: x321.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: x321.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 56 @nodpai
-  network: ws
-  port: '13019'
-  server: ahq9.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: ahq9.cdn.node.a.tddns-ounk.com
-    path: /5534757c8f76f4deb8e17d1b.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: 15|香港B|@ripaojiedian
+  name: 13|香港 05 | 1x HK
   network: tcp
-  port: '51962'
-  server: 45.89.233.222
-  servername: ''
-  tls: false
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: e82b58a9-e912-450e-85f6-703b1a09190f
+  uuid: b0985194-d387-464f-a146-342dec26f056
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 74 @nodpai
-  network: ws
-  port: '13537'
-  server: z5sa6is.cdn.node.a.tddns-ounk.com
-  tls: false
+  name: 8|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: z5sa6is.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  uuid: 6caea6e8-baa7-4204-9c4e-76830ecef7f0
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 23 @nodpai
+  name: 12|🇭🇰 Hong Kong 15 @nodpai
   network: ws
-  port: '30023'
-  server: v02.gutingting.com
+  port: '443'
+  server: hk01a.anyco.vip
   tls: false
   type: vmess
-  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
+  uuid: 89f61f49-5cd1-45ef-b126-9d01acfa6604
   ws-opts:
     headers:
-      Host: v02.gutingting.com
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 29 @nodpai
-  network: ws
-  port: '13531'
-  server: cd69.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|🇭🇰 Hong Kong 08 @nodpai
-  network: ws
-  port: '2443'
-  server: hk1.594888.xyz
-  tls: false
-  type: vmess
-  uuid: 00ce0e7f-7517-358f-9062-748e9632ca16
-  ws-opts:
-    headers:
-      Host: hk1.594888.xyz
-    path: /maohk3
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 40269
-  server: mhfv46.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b5247d82-9f56-3978-a202-80fae30331c7
-  ws-opts:
-    headers:
-      Host: mhfv46.cdn.node.a.tddns-ounk.com
-    path: /05664702-ab4f-4f7e-8a09-2cf41f1cdc67.j.live004.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 37 @nodpai
-  network: ws
-  port: '13515'
-  server: tata12.cdn.node.a.tddns-ounk.com
-  tls: false
-  type: vmess
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: tata12.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+      Host: hk01a.anyco.vip
+    path: /c2c3tv3/h2sdfd.m3u8
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -807,3 +493,69 @@ proxies:
   tls: true
   type: vmess
   uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 0
+  cipher: auto
+  name: 7,7,7|中转 🇭🇰 Hong Kong 22 @nodpai
+  network: tcp
+  port: '25026'
+  server: ophiuchi.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 09 @nodpai
+  network: ws
+  port: '13474'
+  server: sjgysy.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: sjgysy.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,7,7|中转 🇭🇰 Hong Kong 21 @nodpai
+  network: tcp
+  port: '25021'
+  server: aquaril.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇭🇰 Hong Kong 31 @nodpai
+  network: tcp
+  port: '30004'
+  server: phoenicis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 75 @nodpai
+  network: ws
+  port: '80'
+  server: 172.64.100.24
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 71 @nodpai
+  network: ws
+  port: '80'
+  server: 172.64.109.210
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /shirker
