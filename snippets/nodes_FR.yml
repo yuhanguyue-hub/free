@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '2082'
-  server: fr-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 55e15a5f-0a15-44fb-b872-0c91b84e7049
-  ws-opts:
-    headers:
-      Host: fr-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
   port: '80'
@@ -25,3 +12,42 @@ proxies:
     headers:
       Host: fr.ilovescp.com
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7|🇫🇷 France 03 @nodpai
+  network: ws
+  port: '443'
+  server: 199.212.90.14
+  tls: true
+  type: vmess
+  uuid: 6147f065-9ac0-4081-a5a3-a2eb4ebb8958
+  ws-opts:
+    headers:
+      Host: ''
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 7|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '443'
+  server: 141.193.213.31
+  tls: true
+  type: vmess
+  uuid: 6147f065-9ac0-4081-a5a3-a2eb4ebb8958
+  ws-opts:
+    headers:
+      Host: ''
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 7|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '2082'
+  server: fr-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: 55e15a5f-0a15-44fb-b872-0c91b84e7049
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
