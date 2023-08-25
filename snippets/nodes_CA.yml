@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7|中转 🇨🇦 Canada 02 @nodpai
+  network: tcp
+  port: '15037'
+  server: 15037.kuaiyin.win
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -18,38 +27,20 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4c8088dc-78e0-4c77-8613-254e0c33c2d2
+  uuid: 42f44ce0-1ab2-4b80-aea9-77a5be6aa638
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇨🇦 Canada 03 @nodpai
-  network: tcp
-  port: '30018'
-  server: orionis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,7|中转 🇨🇦 Canada 04 @nodpai
-  network: tcp
-  port: '25016'
-  server: piscium.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇨🇦 Canada 01 @nodpai
+  name: 7|🇨🇦 Canada 03 @nodpai
   network: ws
-  port: '2082'
-  server: ca-01.cloudlion.me
+  port: '2095'
+  server: camtlebb.76898102.xyz
   tls: false
   type: vmess
-  uuid: a0a1a61f-0134-4221-9b6c-2c00ce709238
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
   ws-opts:
     headers:
-      Host: ca-01.cloudlion.me
-    path: /
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
 - alterId: 0
   cipher: auto
   name: 12|@hkaa0||加拿大
