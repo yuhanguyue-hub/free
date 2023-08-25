@@ -1,29 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,12|🇨🇦 Canada 02 @nodpai
-  network: ws
-  port: '2082'
-  server: ca-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 55e15a5f-0a15-44fb-b872-0c91b84e7049
-  ws-opts:
-    headers:
-      Host: ca-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bc51faa4-9e40-4d6b-a9b1-2bea528bf191
-- alterId: 0
-  cipher: auto
   name: 18|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com4
   network: ws
   port: 443
@@ -37,13 +14,46 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b0985194-d387-464f-a146-342dec26f056
+- alterId: 0
+  cipher: auto
   name: 7|中转 🇨🇦 Canada 03 @nodpai
   network: tcp
   port: '25016'
   server: piscium.verdens.xyz
   tls: true
   type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
+- alterId: 0
+  cipher: auto
+  name: 8|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a19d27de-70aa-4005-80be-9fc219dc7910
+- alterId: 0
+  cipher: auto
+  name: 7,10,12|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '2082'
+  server: ca-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: 55e15a5f-0a15-44fb-b872-0c91b84e7049
+  ws-opts:
+    headers:
+      Host: ca-01.cloudlion.me
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|@hkaa0||加拿大
@@ -58,13 +68,3 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0985194-d387-464f-a146-342dec26f056

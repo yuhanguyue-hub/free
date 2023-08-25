@@ -1,41 +1,54 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 04 @nodpai
+  name: 7,12|🇨🇳 China 03 @nodpai
   network: tcp
-  port: '32307'
-  server: 142.4.114.116
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 12,18|CN 14 → tg@nicevpn123
-  network: tcp
-  port: '44002'
-  server: 120.241.47.99
+  port: '51715'
+  server: 142.4.126.24
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 08 @nodpai
+  name: 7|中转 🇨🇳 China 11 @nodpai
+  network: tcp
+  port: '50002'
+  server: 111.230.252.149
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 14 @nodpai
   network: ws
   port: '443'
-  server: 142.4.115.152
+  server: 192.74.234.210
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /path/121016071014
+    path: /path/1692789157600
 - alterId: 0
   cipher: auto
-  name: 7,12|🇨🇳 China 05 @nodpai
+  name: 7|🇨🇳 China 05 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.115.173
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692005985685
+- alterId: 64
+  cipher: auto
+  name: 12|CN 349 → tg@nicevpn123
   network: tcp
-  port: '43427'
-  server: 198.2.195.195
+  port: '51009'
+  server: 198.200.37.229
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -54,6 +67,63 @@ proxies:
     path: /blue99
 - alterId: 0
   cipher: auto
+  name: 7|🇨🇳 China 07 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.127.18
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692184906954
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 04 @nodpai
+  network: ws
+  port: '443'
+  server: 108.186.4.27
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692873927587
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 12 @nodpai
+  network: tcp
+  port: '50002'
+  server: 175.27.154.61
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 13 @nodpai
+  network: tcp
+  port: '50002'
+  server: 112.132.212.112
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 06 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.115.162
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692873927587
+- alterId: 0
+  cipher: auto
   name: 7|中转 🇨🇳 China 02 @nodpai
   network: ws
   port: '19709'
@@ -67,71 +137,49 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 07 @nodpai
+  name: 7|🇨🇳 China 08 @nodpai
   network: ws
   port: '443'
-  server: 107.148.202.182
+  server: 108.186.116.187
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /path/142731261014
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳 China 06 @nodpai
-  network: ws
-  port: '443'
-  server: 142.0.129.245
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/124016071014
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇨🇳 China 03 @nodpai
-  network: tcp
-  port: '48101'
-  server: 137.175.9.203
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    path: /path/1692184906954
 - alterId: 64
   cipher: auto
-  name: 12|CN 349 → tg@nicevpn123
+  name: 12,18|CN 14 → tg@nicevpn123
   network: tcp
-  port: '51009'
-  server: 198.200.37.229
+  port: '44002'
+  server: 120.241.47.99
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳 China 09 @nodpai
-  network: ws
-  port: '443'
-  server: 142.4.115.162
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/146731261014
 - alterId: 0
   cipher: auto
   name: 7|中转 🇨🇳 China 10 @nodpai
   network: ws
+  port: '80'
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: db8d12d5-1968-4125-b775-77d50aa65923
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 09 @nodpai
+  network: ws
   port: '443'
-  server: 198.2.208.85
+  server: 198.2.208.83
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /path/146731261014
+    path: /path/1692270323396
