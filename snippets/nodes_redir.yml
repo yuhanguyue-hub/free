@@ -1,147 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_2_24
-  network: tcp
-  port: 26633
-  server: www.zhongxin1.xyz
-  tls: false
-  type: vmess
-  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: '80'
-  server: wxxjp.e5outllok.me
-  tls: false
-  type: vmess
-  uuid: 0654b45f-6a7a-4862-92f8-cf9e8b12f7ea
-  ws-opts:
-    headers:
-      Host: wxxjp.e5outllok.me
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 5
+  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港
   network: ws
-  port: 13367
-  server: r97q.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: r97q.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 11
-  network: ws
-  port: 13457
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: hfa1.cdn.node.a.tddns-ounk.com
-    path: /80080f42e36c6478a808050e.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 14
-  network: ws
-  port: 13455
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: hfa1.cdn.node.a.tddns-ounk.com
-    path: /80080f42e36c6478a808050e.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: '0,16,16|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: nl.sharecentrepro.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,7|_US_美国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 80
-  server: ru1.mianfenyun012.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5964a63-d67c-4668-cdae-6443a1581e76
-  ws-opts:
-    headers:
-      Host: ru1.mianfenyun012.eu.org
-    path: /jdbp606
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇫🇷_FR_法国
-  network: ws
-  port: 16645
-  server: m.lwvzmdu.cn
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95
-  ws-opts:
-    headers:
-      Host: m.lwvzmdu.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 16
-  network: ws
-  port: 13732
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港 4
-  network: ws
-  port: 13685
+  port: 13684
   server: z5sa6is.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
   tfo: false
@@ -153,149 +16,6 @@ proxies:
     headers:
       Host: z5sa6is.cdn.node.a.tddns-ounk.com
     path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 8880
-  server: ns1.v2-vip.fun
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-  network: ws
-  port: '2082'
-  server: au-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: c6a00fb6-7cf9-43ad-b699-6c334b4a7611
-  ws-opts:
-    headers:
-      Host: au-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,7,10,18|🇺🇸 _US_美国->🇨🇱_CL_智利
-  network: ws
-  port: '80'
-  server: sdygarm.e5outllok.me
-  tls: false
-  type: vmess
-  uuid: 0654b45f-6a7a-4862-92f8-cf9e8b12f7ea
-  ws-opts:
-    headers:
-      Host: sdygarm.e5outllok.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇸🇬_SG_新加坡_由快嘴科技提供：kk...
-  network: tcp
-  port: 11136
-  server: www.zhongxin1.xyz
-  tls: false
-  type: vmess
-  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_3_39
-  network: tcp
-  port: 26644
-  server: www.zhongxin1.xyz
-  tls: false
-  type: vmess
-  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,7|_CN_中国->🇺🇸_US_美国 15
-  network: ws
-  port: 13003
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 0,7|🇭🇰 _US_美国->🇭🇰_HK_香港
-  network: ws
-  port: '8080'
-  server: hk1.mianfenyun012.eu.org
-  tls: false
-  type: vmess
-  uuid: 7dccf399-a5e9-4696-d2c9-a831dd5fb1af
-  ws-opts:
-    headers:
-      Host: hk1.mianfenyun012.eu.org
-    path: /dhjks
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: '2082'
-  server: ca-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: c6a00fb6-7cf9-43ad-b699-6c334b4a7611
-  ws-opts:
-    headers:
-      Host: ca-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
-  network: ws
-  port: 13477
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: xrbsy1.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇪🇸_ES_西班牙_6
-  network: ws
-  port: 80
-  server: 172.64.130.176
-  tls: false
-  type: vmess
-  uuid: f2982db2-23e3-430b-af54-e83ba84205fd
-  ws-opts:
-    headers:
-      Host: xby.daozhang.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: 443
-  server: dongtaiwang2.com
-  tls: true
-  type: vmess
-  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-  ws-opts:
-    headers:
-      Host: 2.freek1.xyz
-    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -315,225 +35,7 @@ proxies:
     path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本
-  network: ws
-  port: 13598
-  server: q8eq.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: q8eq.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '443'
-  server: bobbykotick.rip
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  ws-opts:
-    headers:
-      Host: Lille.bobbykotick.rip
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港 2
-  network: ws
-  port: 13019
-  server: ahq9.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: ahq9.cdn.node.a.tddns-ounk.com
-    path: /5534757c8f76f4deb8e17d1b.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_4由快嘴科技提供...
-  network: tcp
-  port: 11233
-  server: www.zhongxin1.xyz
-  tls: false
-  type: vmess
-  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇹🇼_TW_台湾 2
-  network: ws
-  port: 13320
-  server: lld9k6.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: lld9k6.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 6
-  network: ws
-  port: 13648
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: hfa1.cdn.node.a.tddns-ounk.com
-    path: /80080f42e36c6478a808050e.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 3
-  network: ws
-  port: 13405
-  server: syhkv2.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: syhkv2.cdn.node.a.tddns-ounk.com
-    path: /9974f731e8cb457b17143895.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 4
-  network: ws
-  port: 13345
-  server: syhkv2.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: syhkv2.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港 3
-  network: ws
-  port: 13476
-  server: cd69.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: cd69.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 12
-  network: ws
-  port: 13743
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇹🇼_TW_台湾 3
-  network: ws
-  port: 13321
-  server: lld9k6.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: lld9k6.cdn.node.a.tddns-ounk.com
-    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
-- alterId: 64
-  cipher: auto
-  name: 18|🇫🇷_FR_法国->🇳🇱_NL_荷兰_4
-  network: tcp
-  port: 47865
-  server: 156.249.18.24
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 2
-  network: ws
-  port: 13736
-  server: syrbp.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: syrbp.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇹🇼_TW_台湾
-  network: ws
-  port: 13339
-  server: fpxs9.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
-  ws-opts:
-    headers:
-      Host: fpxs9.cdn.node.a.tddns-ounk.com
-    path: /9974f731e8cb457b17143895.v1.live.m3u8
-- alterId: 0
-  cipher: auto
-  name: 0,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  name: 0,19|🇺🇸 _US_美国->🇳🇱_NL_荷兰
   network: ws
   port: '80'
   server: 162.159.253.39
@@ -544,6 +46,58 @@ proxies:
     headers:
       Host: nl.sharecentrepro.com
     path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_26
+  network: tcp
+  port: 48909
+  server: 156.225.67.73
+  tls: false
+  type: vmess
+  uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+  network: ws
+  port: 13023
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: xrbsy1.cdn.node.a.tddns-ounk.com
+    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+- alterId: 0
+  cipher: auto
+  name: 0,7|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+  network: tcp
+  port: '34322'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 517b3e38-1bd1-3bb9-b7a3-25999da34844
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 13
+  network: ws
+  port: 13472
+  server: syhkv2.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: syhkv2.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -564,10 +118,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 3
   network: ws
-  port: 13023
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  port: 13405
+  server: syhkv2.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -576,15 +130,15 @@ proxies:
   uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
   ws-opts:
     headers:
-      Host: xrbsy1.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+      Host: syhkv2.cdn.node.a.tddns-ounk.com
+    path: /9974f731e8cb457b17143895.v1.live.m3u8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+  name: 1,2,3,4|_CN_中国->🇹🇼_TW_台湾
   network: ws
-  port: 13696
-  server: wbgsba.cdn.node.a.tddns-ounk.com
+  port: 13339
+  server: fpxs9.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -593,14 +147,14 @@ proxies:
   uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
   ws-opts:
     headers:
-      Host: wbgsba.cdn.node.a.tddns-ounk.com
-    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+      Host: fpxs9.cdn.node.a.tddns-ounk.com
+    path: /9974f731e8cb457b17143895.v1.live.m3u8
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇨🇳_CN_中国
+  name: '0,16,19|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
   network: ws
   port: '80'
-  server: 162.159.253.16
+  server: cf-lt.sharecentre.online
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -608,28 +162,84 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 6|🇭🇰_HK_香港->🇺🇸_US_美国
-  network: ws
-  port: 2082
-  server: 103.160.204.71
-  tls: false
-  type: vmess
-  uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606
-  ws-opts:
-    headers:
-      Host: tui.vtcss.top
-    path: /blue
 - alterId: 64
   cipher: auto
-  name: 0,7,15|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  name: 19|🇫🇷_FR_法国->🇳🇱_NL_荷兰_4
   network: tcp
-  port: '47009'
-  server: 120.226.50.91
+  port: 47865
+  server: 156.249.18.24
   tls: false
   type: vmess
-  uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇹🇼_TW_台湾 2
+  network: ws
+  port: 13320
+  server: lld9k6.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: lld9k6.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 0,6,7|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+  network: tcp
+  port: '30839'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 517b3e38-1bd1-3bb9-b7a3-25999da34844
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港 4
+  network: ws
+  port: 13685
+  server: z5sa6is.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: z5sa6is.cdn.node.a.tddns-ounk.com
+    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+  network: tcp
+  port: 44207
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: a1a85124-6a4d-3a42-a6be-0183fa2df4a4
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 5
+  network: ws
+  port: 13367
+  server: r97q.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: r97q.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -649,7 +259,118 @@ proxies:
     path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇭🇰_HK_香港_45
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇸🇬_SG_新加坡
+  network: ws
+  port: 16618
+  server: m.lwvzmdu.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95
+  ws-opts:
+    headers:
+      Host: m.lwvzmdu.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港 3
+  network: ws
+  port: 13476
+  server: cd69.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: cd69.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 14
+  network: ws
+  port: 13455
+  server: hfa1.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: hfa1.cdn.node.a.tddns-ounk.com
+    path: /80080f42e36c6478a808050e.v1.live.m3u8
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸_US_美国->🇯🇵_JP_日本
+  network: ws
+  port: 443
+  server: 172.67.132.15
+  tls: true
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-opts:
+    headers:
+      Host: ming2.kiwireich.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 6
+  network: ws
+  port: 13648
+  server: hfa1.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: hfa1.cdn.node.a.tddns-ounk.com
+    path: /80080f42e36c6478a808050e.v1.live.m3u8
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇨🇳_CN_中国
+  network: ws
+  port: '80'
+  server: 162.159.243.53
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇹🇼_TW_台湾 3
+  network: ws
+  port: 13321
+  server: lld9k6.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: lld9k6.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇭🇰_HK_香港_45
   network: ws
   port: 51013
   server: nn3p.tntbooms.com
@@ -660,6 +381,70 @@ proxies:
     headers:
       Host: nn3p.tntbooms.com
     path: /ttf
+- alterId: 0
+  cipher: auto
+  name: 0,6,7|🇯🇵 _CN_中国->🇯🇵_JP_日本
+  network: ws
+  port: '40013'
+  server: 153.101.64.221
+  tls: false
+  type: vmess
+  uuid: dc99eede-d0f9-40b2-aaa5-180cae8f7c0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /qwe123321ewq
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+  network: ws
+  port: 13598
+  server: q8eq.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: q8eq.cdn.node.a.tddns-ounk.com
+    path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 13368
+  server: r97q.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: r97q.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 16
+  network: ws
+  port: 13732
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -680,62 +465,27 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 10
+  name: 1,2,3,4|_CN_中国->🇫🇷_FR_法国
   network: ws
-  port: 13364
-  server: r97q.cdn.node.a.tddns-ounk.com
+  port: 16645
+  server: m.lwvzmdu.cn
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95
   ws-opts:
     headers:
-      Host: r97q.cdn.node.a.tddns-ounk.com
-    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- alterId: 0
-  cipher: auto
-  name: 0,7,18|🇺🇸 _US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: '80'
-  server: sblarm.kaolll.tech
-  tls: false
-  type: vmess
-  uuid: fa0d5fc1-ad87-4126-b997-1ea3624442a1
-  ws-opts:
-    headers:
-      Host: sblarm.kaolll.tech
+      Host: m.lwvzmdu.cn
     path: /
 - alterId: 0
   cipher: auto
-  name: '0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
-  network: ws
-  port: '80'
-  server: 162.159.243.53
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 64
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_26
-  network: tcp
-  port: 48909
-  server: 156.225.67.73
-  tls: false
-  type: vmess
-  uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港
+  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
   network: ws
-  port: 13684
-  server: z5sa6is.cdn.node.a.tddns-ounk.com
+  port: 13477
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -744,14 +494,14 @@ proxies:
   uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
   ws-opts:
     headers:
-      Host: z5sa6is.cdn.node.a.tddns-ounk.com
-    path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+      Host: xrbsy1.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 64
   cipher: auto
-  name: 0,7,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国
+  name: 0,12,19|🇺🇸 _CN_中国->🇺🇸_US_美国
   network: tcp
-  port: '58002'
-  server: 120.241.47.99
+  port: '59902'
+  server: 183.232.249.189
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -775,26 +525,43 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇸🇬_SG_新加坡
+  name: 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
   network: ws
-  port: 16618
-  server: m.lwvzmdu.cn
+  port: 13696
+  server: wbgsba.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
   ws-opts:
     headers:
-      Host: m.lwvzmdu.cn
-    path: /
+      Host: wbgsba.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 11
   network: ws
-  port: 13368
+  port: 13457
+  server: hfa1.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: hfa1.cdn.node.a.tddns-ounk.com
+    path: /80080f42e36c6478a808050e.v1.live.m3u8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 10
+  network: ws
+  port: 13364
   server: r97q.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
   tfo: false
@@ -808,10 +575,112 @@ proxies:
     path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 13
+  name: 6|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
-  port: 13472
+  port: 8880
+  server: ns1.v2-vip.fun
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: 6,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: 443
+  server: 104.31.16.196
+  tls: true
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  ws-opts:
+    headers:
+      Host: us-1.acyun.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 12
+  network: ws
+  port: 13743
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: scw-fr.iiio.wiki
+  tls: false
+  type: vmess
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  ws-opts:
+    headers:
+      Host: scw-fr.iiio.wiki
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 6,12|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 8880
+  server: dx1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf
+  ws-opts:
+    headers:
+      Host: euserv2.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '443'
+  server: 104.31.16.65
+  tls: true
+  type: vmess
+  uuid: ea0259d7-9d3c-45ba-9230-3895ad34034c
+  ws-opts:
+    headers:
+      Host: de2vm.cdn-03.live
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇹🇼_TW_台湾_2_24
+  network: tcp
+  port: 26633
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  name: 6,7,10,14,15|🇨🇳_CN_中国->🇯🇵_JP_日本
+  network: ws
+  port: 40011
+  server: 153.101.64.221
+  tls: false
+  type: vmess
+  uuid: dc99eede-d0f9-40b2-aaa5-180cae8f7c0e
+  ws-opts:
+    path: /qwe123321ewq
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 4
+  network: ws
+  port: 13345
   server: syhkv2.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
   tfo: false
@@ -823,3 +692,155 @@ proxies:
     headers:
       Host: syhkv2.cdn.node.a.tddns-ounk.com
     path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,7|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
+  network: ws
+  port: '13003'
+  server: cdn.node.user-sub.pddns-usersdk.com
+  tls: false
+  type: vmess
+  uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
+  ws-opts:
+    headers:
+      Host: cdn.node.user-sub.pddns-usersdk.com
+    path: /ef483582-6269-468c-93af-c511eccb8a69
+- alterId: 0
+  cipher: auto
+  name: 6,7|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  network: tcp
+  port: 39037
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 517b3e38-1bd1-3bb9-b7a3-25999da34844
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇪🇸_ES_西班牙_6
+  network: ws
+  port: 80
+  server: 172.64.130.176
+  tls: false
+  type: vmess
+  uuid: f2982db2-23e3-430b-af54-e83ba84205fd
+  ws-opts:
+    headers:
+      Host: xby.daozhang.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _NL_荷兰->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 188.114.97.152
+  tls: false
+  type: vmess
+  uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79
+  ws-opts:
+    headers:
+      Host: tui.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_4由快嘴科技提供...
+  network: tcp
+  port: 11233
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇭🇰_HK_香港 2
+  network: ws
+  port: 13019
+  server: ahq9.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: ahq9.cdn.node.a.tddns-ounk.com
+    path: /5534757c8f76f4deb8e17d1b.v1.live.m3u8
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: '80'
+  server: xjp.azzhuangaping.tw
+  tls: false
+  type: vmess
+  uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
+  ws-opts:
+    headers:
+      Host: xjp.azzhuangaping.tw
+    path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇸🇬_SG_新加坡_由快嘴科技提供：kk...
+  network: tcp
+  port: 11136
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4|_CN_中国->🇺🇸_US_美国 2
+  network: ws
+  port: 13736
+  server: syrbp.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc
+  ws-opts:
+    headers:
+      Host: syrbp.cdn.node.a.tddns-ounk.com
+    path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+- alterId: 0
+  cipher: auto
+  name: '0,6,10|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: '80'
+  server: 172.67.142.186
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: nl2.sharecentrepro.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,10,12|_US_美国->🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: 80
+  server: ru1.mianfenyun012.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c5964a63-d67c-4668-cdae-6443a1581e76
+  ws-opts:
+    headers:
+      Host: ru1.mianfenyun012.eu.org
+    path: /jdbp606
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇹🇼_TW_台湾_3_39
+  network: tcp
+  port: 26644
+  server: www.zhongxin1.xyz
+  tls: false
+  type: vmess
+  uuid: c474529d-f452-388d-b0e2-ed77b4ebef42
