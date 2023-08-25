@@ -11,19 +11,6 @@ proxies:
   uuid: b0985194-d387-464f-a146-342dec26f056
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '2082'
-  server: ca-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 55e15a5f-0a15-44fb-b872-0c91b84e7049
-  ws-opts:
-    headers:
-      Host: ca-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
   name: 8|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -31,4 +18,49 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 35c03bc2-1365-4d0e-bd53-95fd48b43e0f
+  uuid: 4c8088dc-78e0-4c77-8613-254e0c33c2d2
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇦 Canada 03 @nodpai
+  network: tcp
+  port: '30018'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇨🇦 Canada 04 @nodpai
+  network: tcp
+  port: '25016'
+  server: piscium.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '2082'
+  server: ca-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: a0a1a61f-0134-4221-9b6c-2c00ce709238
+  ws-opts:
+    headers:
+      Host: ca-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|@hkaa0||加拿大
+  network: ws
+  port: '443'
+  server: 23.227.38.81
+  servername: d.freeh1.xyz
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com

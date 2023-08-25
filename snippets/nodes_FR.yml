@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7,18|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '2082'
+  server: fr-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: a0a1a61f-0134-4221-9b6c-2c00ce709238
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
   port: '80'

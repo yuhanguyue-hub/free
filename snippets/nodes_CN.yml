@@ -1,59 +1,126 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇨🇳 China 05 @nodpai
-  network: tcp
-  port: '50002'
-  server: 112.132.212.112
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 04 @nodpai
-  network: tcp
-  port: '50002'
-  server: 175.27.154.61
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 03 @nodpai
-  network: tcp
-  port: '50002'
-  server: 111.230.252.149
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,18|中转 🇨🇳 China 01 @nodpai
+  name: 18|🇨🇳_CN_中国_9
   network: ws
-  port: '80'
+  port: 80
   server: 36.150.27.31
   tls: false
   type: vmess
   uuid: db8d12d5-1968-4125-b775-77d50aa65923
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,12|🇨🇳 China 02 @nodpai
+  name: 7|🇨🇳 China 05 @nodpai
+  network: ws
+  port: '443'
+  server: 142.0.134.73
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/252617081903
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 01 @nodpai
+  network: ws
+  port: '443'
+  server: 108.186.116.187
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692184906954
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 03 @nodpai
+  network: ws
+  port: '443'
+  server: 198.2.208.83
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692270323396
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 08 @nodpai
   network: tcp
-  port: '51715'
-  server: 142.4.126.24
+  port: '46500'
+  server: 199.188.111.248
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇨🇳 China 06 @nodpai
+  name: 7|🇨🇳 China 09 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.115.152
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/121016071014
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 07 @nodpai
   network: tcp
-  port: '56002'
-  server: 39.103.165.178
+  port: '42372'
+  server: 142.4.111.76
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 04 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.127.23
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692270323396
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 06 @nodpai
+  network: tcp
+  port: '32307'
+  server: 142.4.114.116
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 02 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.127.18
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1692184906954
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇳 China 10 @nodpai
+  network: tcp
+  port: '50002'
+  server: 114.117.234.12
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
