@@ -1,40 +1,53 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 04 @nodpai
+  password: dad81c22-947e-4fab-bec8-313d57ebc9a6
+  port: 27258
+  server: lt.ktmwan.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7|🇫🇷 France 02 @nodpai
+  name: '8|🇫🇷 France 01 @nodpai #1'
   network: ws
-  port: '443'
-  server: bobbykotick.rip
-  tls: true
-  type: vmess
-  uuid: 691c16ee-d3a5-4ba6-ae8b-59c12b278d86
-  ws-opts:
-    headers:
-      Host: bobbykotick.rip
-    path: /speedtest
-- alterId: 64
-  cipher: auto
-  name: 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
-  network: tcp
-  port: '30358'
-  server: 45.199.138.195
-  servername: ''
+  port: 2082
+  server: fr-01.cloudlion.me
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
+  udp: true
+  uuid: 4c03971a-6f10-48bb-beab-956806b868dd
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 02 @nodpai
+  password: 2c93e192-3810-4217-9413-c71502416cac
+  port: 35672
+  server: sh-zz-xx.newbluecloud.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
+  name: 7|🇫🇷 France 01 @nodpai
   network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
+  port: '2082'
+  server: fr-01.cloudlion.me
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 4c03971a-6f10-48bb-beab-956806b868dd
   ws-opts:
     headers:
-      Host: fr.ilovescp.com
-    path: /shirker
+      Host: fr-01.cloudlion.me
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 05 @nodpai
+  password: dad81c22-947e-4fab-bec8-313d57ebc9a6
+  port: 27258
+  server: yd.ktmwan.top
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: 12|FR_speednode_0007
@@ -45,3 +58,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
+  network: tcp
+  port: '30358'
+  server: 45.199.138.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 03 @nodpai
+  password: dad81c22-947e-4fab-bec8-313d57ebc9a6
+  port: 27258
+  server: dx.ktmwan.top
+  type: ss
+  udp: true
