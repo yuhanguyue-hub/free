@@ -1,54 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|CA_youtube@资源分享师_14
-  network: ws
-  port: '443'
-  server: 23.227.39.82
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12|CA_youtube@资源分享师_19
-  network: ws
-  port: '443'
-  server: 23.227.38.81
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2f47c452-f007-4dd7-8569-f1883fc7c62c
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 75f45083-83d7-4282-8bbc-48f690fc0502
-- alterId: 0
-  cipher: auto
   name: 12|🇨🇦 加拿大 256
   network: ws
   port: 8443
@@ -61,3 +13,41 @@ proxies:
     headers:
       Host: us.freebaipiao.tk
     path: /freebaipiao
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇦 Canada 02 @nodpai
+  network: tcp
+  port: '30018'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 8|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 51d4cdf5-8fcd-4e9a-aa82-f47a4f44b98f
+- alterId: 0
+  cipher: auto
+  name: 7,7|中转 🇨🇦 Canada 01 @nodpai
+  network: tcp
+  port: '25016'
+  server: piscium.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 85c5915d-f7a7-4bb1-825f-c1e33001181b
