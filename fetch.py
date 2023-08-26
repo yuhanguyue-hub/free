@@ -119,7 +119,6 @@ class Node:
 
     def __hash__(self):
         data = self.data
-        return hash(str(data))
         try:
             path = ""
             if self.type == 'vmess':
@@ -587,7 +586,7 @@ def extract(url: str) -> Union[Set[str], int]:
 
 merged: Set[Node] = set()
 unknown: Set[str] = set()
-used: Dict[int, List[int]] = {}
+used: Dict[int, Dict[int, str]] = {}
 def merge(source_obj: Source, sourceId=-1) -> None:
     global merged, unknown
     sub = source_obj.sub
@@ -613,8 +612,8 @@ def merge(source_obj: Source, sourceId=-1) -> None:
                 Node.names.add(n.data['name'])
                 merged.add(n)
             if hash(n) not in used:
-                used[hash(n)] = []
-            used[hash(n)].append(sourceId)
+                used[hash(n)] = {}
+            used[hash(n)][sourceId] = n.name
 
 def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
@@ -796,7 +795,7 @@ def main():
         try:
             if hash(p) in used:
                 # 注意：这一步也会影响到下方的 Clash 订阅，不用再执行一遍！
-                p.data['name'] = ','.join([str(_) for _ in sorted(used[hash(p)])])+'|'+p.data['name']
+                p.data['name'] = ','.join([str(_) for _ in sorted(list(used[hash(p)]))])+'|'+p.data['name']
             if p.supports_ray():
                 txt += p.url + '\n'
             else: unsupports += 1
