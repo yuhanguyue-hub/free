@@ -1,4 +1,14 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 12|FR_speednode_0007
+  network: tcp
+  port: 42165
+  server: 156.249.18.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|「宇宙机场.com 低价套餐」FR-CF-HTTP
@@ -14,13 +24,13 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 12,12,18|🇫🇷 France 01 @nodpai
+  name: 7,10,19|🇫🇷 France 01 @nodpai
   network: ws
   port: '2082'
   server: fr-01.cloudlion.me
   tls: false
   type: vmess
-  uuid: 26fd6ace-63ca-4dc1-b395-9362d2e10fe1
+  uuid: 4c03971a-6f10-48bb-beab-956806b868dd
   ws-opts:
     headers:
       Host: fr-01.cloudlion.me
