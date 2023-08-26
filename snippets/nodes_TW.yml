@@ -1,62 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾 06  | 1x TWN
+  name: 7|中转 🇹🇼 Taiwan 05 @nodpai
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '30009'
+  server: orionis.weltknoten.xyz
   tls: true
   type: vmess
-  uuid: 75f45083-83d7-4282-8bbc-48f690fc0502
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 75f45083-83d7-4282-8bbc-48f690fc0502
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2f47c452-f007-4dd7-8569-f1883fc7c62c
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇹🇼 台湾|@ripaojiedian
-  password: 6b9e7c1f-3f7a-4831-9761-be4cac614b2b
-  port: 32302
-  server: a.52forest.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 8|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2f47c452-f007-4dd7-8569-f1883fc7c62c
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 75f45083-83d7-4282-8bbc-48f690fc0502
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
   name: 8|🇹🇼台湾04
@@ -66,7 +17,25 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f47c452-f007-4dd7-8569-f1883fc7c62c
+  uuid: 51d4cdf5-8fcd-4e9a-aa82-f47a4f44b98f
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 85c5915d-f7a7-4bb1-825f-c1e33001181b
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇹🇼 台湾|@ripaojiedian
+  password: 6b9e7c1f-3f7a-4831-9761-be4cac614b2b
+  port: 32302
+  server: a.52forest.com
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -83,3 +52,61 @@ proxies:
   server: 103.177.33.188
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 03 @nodpai
+  network: tcp
+  port: '25014'
+  server: piscium.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 51d4cdf5-8fcd-4e9a-aa82-f47a4f44b98f
+- alterId: 0
+  cipher: auto
+  name: 8|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 51d4cdf5-8fcd-4e9a-aa82-f47a4f44b98f
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 04 @nodpai
+  network: tcp
+  port: '30010'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 85c5915d-f7a7-4bb1-825f-c1e33001181b
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 85c5915d-f7a7-4bb1-825f-c1e33001181b
