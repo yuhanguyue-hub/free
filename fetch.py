@@ -69,11 +69,13 @@ ABFURLS = (
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt",
     "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
     "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
+    "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt",
+    "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
     # "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt",
 )
 
-FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114".split('; ')
+FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1".split('; ')
 FAKE_DOMAINS = ".google.com .github.com".split()
 
 FETCH_TIMEOUT = (6, 5)
@@ -89,17 +91,18 @@ class NotANode(Exception): pass
 
 session = requests.Session()
 session.trust_env = False
-session.proxies = {'http': PROXY, 'https': PROXY}
+if PROXY: session.proxies = {'http': PROXY, 'https': PROXY}
 session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
 
 exc_queue: List[str] = []
 
 class Node:
     names: Set[str] = set()
+    DATA_TYPE = Dict[str, Any]
 
-    def __init__(self, data) -> None:
+    def __init__(self, data: Union[DATA_TYPE, str]) -> None:
         if isinstance(data, dict):
-            self.data = data
+            self.data: __class__.DATA_TYPE = data
             self.type = data['type']
         elif isinstance(data, str):
             self.load_url(data)
@@ -116,6 +119,7 @@ class Node:
 
     def __hash__(self):
         data = self.data
+        return hash(str(data))
         try:
             path = ""
             if self.type == 'vmess':
@@ -387,7 +391,7 @@ class Node:
         raise UnsupportedType(self.type)
 
     @property
-    def clash_data(self):
+    def clash_data(self) -> DATA_TYPE:
         ret = self.data.copy()
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
@@ -410,6 +414,7 @@ class Node:
         elif self.type == 'ss' or self.type == 'ssr':
             supported = CLASH_CIPHER_SS
         elif self.type == 'trojan': return True
+        else: supported = []
         if self.data['cipher'] not in supported: return False
         if self.type == 'ssr':
             if 'obfs' in self.data and self.data['obfs'] not in CLASH_SSR_OBFS:
@@ -542,6 +547,34 @@ class Source():
         except: exc_queue.append(
                 "在解析 '"+self.url+"' 时发生错误：\n"+traceback.format_exc())
 
+class DomainTree:
+    def __init__(self) -> None:
+        self.children: Dict[str, __class__] = {}
+        self.here: bool = False
+
+    def insert(self, domain: str) -> None:
+        segs = domain.split('.')
+        segs.reverse()
+        self._insert(segs)
+
+    def _insert(self, segs: List[str]) -> None:
+        if not segs:
+            self.here = True
+            return
+        if self.here: return
+        if segs[0] not in self.children:
+            self.children[segs[0]] = __class__()
+        child = self.children[segs[0]]
+        del segs[0]
+        child._insert(segs)
+
+    def get(self) -> List[str]:
+        ret: List[str] = []
+        for name, child in self.children.items():
+            if child.here: ret.append(name)
+            else: ret.extend([_+'.'+name for _ in child.get()])
+        return ret
+
 def extract(url: str) -> Union[Set[str], int]:
     global session
     res = session.get(url)
@@ -596,6 +629,58 @@ def raw2fastly(url: str) -> str:
     if url.startswith("https://raw.githubusercontent.com/"):
         return "https://ghproxy.net/"+url
     return url
+
+def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
+    print("正在解析 Adblock 列表... ", end='', flush=True)
+    blocked: Set[str] = set()
+    for url in ABFURLS:
+        url = raw2fastly(url)
+        try:
+            res = session.get(url)
+        except requests.exceptions.RequestException as e:
+            try:
+                print(f"{url} 下载失败：{e.args[0].reason}")
+            except Exception:
+                print(f"{url} 下载失败：无法解析的错误！")
+                traceback.print_exc()
+            continue
+        if res.status_code != 200:
+            print(url, res.status_code)
+            continue
+        for line in res.text.strip().splitlines():
+            line = line.strip()
+            if line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
+                            (line[-1] == '^' or line.endswith("$all")):
+                blocked.add(line.strip('al').strip('|^$'))
+
+    domain_root = DomainTree()
+    domain_keys = set()
+    for domain in blocked:
+        if '/' in domain: continue
+        if '*' in domain:
+            domain = domain.strip('*')
+            if '*' not in domain:
+                domain_keys.add(domain)
+            continue
+        segs = domain.split('.')
+        if len(segs) == 4 and domain.replace('.','').isdigit(): # IP
+            for seg in segs: # '223.73.212.020' is not valid
+                if not seg: break
+                if seg[0] == '0' and seg != '0': break
+            else:
+                rules[f'IP-CIDR,{domain}/32'] = adblock_name
+        else:
+            domain_root.insert(domain)
+
+    for domain in domain_keys:
+        rules[f'DOMAIN-KEYWORD,{domain}'] = adblock_name
+
+    for domain in domain_root.get():
+        for key in domain_keys:
+            if key in domain: break
+        else: rules[f'DOMAIN-SUFFIX,{domain}'] = adblock_name
+
+    print(f"共有 {len(rules)} 条规则")
 
 def main():
     global exc_queue, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
@@ -729,61 +814,26 @@ def main():
 
     with open("config.yml", encoding="utf-8") as f:
         conf: Dict[str, Any] = yaml.full_load(f)
+    
+    rules: Dict[str, str] = {}
     if DEBUG_NO_ADBLOCK:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已关闭对 Adblock 规则的抓取 !!!")
-        ABFURLS = ()
-    print("正在解析 Adblock 列表... ", end='', flush=True)
-    blocked: Set[str] = set()
-    for url in ABFURLS:
-        url = raw2fastly(url)
-        try:
-            res = session.get(url)
-        except requests.exceptions.RequestException as e:
-            try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
-                print(f"{url} 下载失败：无法解析的错误！")
-                traceback.print_exc()
-            continue
-        if res.status_code != 200:
-            print(url, res.status_code)
-            continue
-        for line in res.text.strip().splitlines():
-            line = line.strip()
-            if line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
-                            (line[-1] == '^' or line.endswith("$all")):
-                blocked.add(line.strip('al').strip('|^$'))
+    else:
+        merge_adblock(conf['proxy-groups'][-2]['name'], rules)
 
-    rules: Dict[str, str] = {}
-    adblock_name: str = conf['proxy-groups'][-2]['name']
-    for domain in blocked:
-        if '*' in domain: continue
-        if '/' in domain: continue
-        segs = domain.split('.')
-        if len(segs) == 4 and domain.replace('.','').isdigit(): # IP
-            for seg in segs: # '223.73.212.020' is not valid
-                if not seg: break
-                if seg[0] == '0' and seg != '0': break
-            else:
-                rules[f'IP-CIDR,{domain}/32'] = adblock_name
-        else:
-            rules[f'DOMAIN-SUFFIX,{domain}'] = adblock_name
-    print(f"共有 {len(rules)} 条规则")
-
-    snip_conf: Optional[Dict[str, Dict[str, str]]] = None
+    snip_conf: Dict[str, Dict[str, Any]] = {}
+    ctg_nodes: Dict[str, List[Node.DATA_TYPE]] = {}
+    categories: Dict[str, List[str]] = {}
     try:
         with open("snippets/_config.yml", encoding="utf-8") as f:
             snip_conf = yaml.full_load(f)
     except (OSError, yaml.error.YAMLError):
         print("片段配置读取失败：")
         traceback.print_exc()
-        categories = {}
-        ctg_nodes = {}
     else:
         print("正在按地区分类节点...")
-        categories: Dict[str, List[str]] = snip_conf['categories']
-        ctg_nodes: Dict[str, List[Node]] = {}
+        categories = snip_conf['categories']
         for ctg in categories: ctg_nodes[ctg] = []
         for node in merged:
             if node.supports_clash():
@@ -837,7 +887,7 @@ def main():
     conf['rules'] = [','.join(_) for _ in rules.items()]+[match_rule]
     conf['proxies'] = []
     ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
-    names_clash: Set[str] = set()
+    names_clash: Union[Set[str], List[str]] = set()
     for p in merged:
         if p.supports_clash():
             conf['proxies'].append(p.clash_data)
@@ -859,6 +909,8 @@ def main():
                 ctg_selects.append(disp['name'])
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
+    with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
+        f.write(yaml.dump({'proxies': conf['proxies']}, allow_unicode=True).replace('!!str ',''))
 
     if snip_conf:
         print("正在写出配置片段...")
