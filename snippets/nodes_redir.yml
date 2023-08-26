@@ -1,80 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
-  network: ws
-  port: 443
-  server: bobbykotick.rip
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  ws-opts:
-    headers:
-      Host: Lille.bobbykotick.rip
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '8880'
-  server: dx1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf
-  ws-opts:
-    headers:
-      Host: euserv2.vpn66.eu.org
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 2,4,15,19|_CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '47009'
-  server: 120.226.50.91
-  tls: false
-  type: vmess
-  uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,19|_US_美国->🇨🇳_CN_中国 3
-  network: ws
-  port: 80
-  server: 172.67.196.139
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,10|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '8880'
-  server: ns1.v2-vip.fun
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-  network: tcp
-  port: '30839'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
-- alterId: 0
-  cipher: auto
   name: 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国
   network: ws
   port: '80'
@@ -88,46 +14,46 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,6,19|_US_美国->🇨🇳_CN_中国 7
+  name: 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
-  port: 80
-  server: 172.67.16.130
+  port: '8880'
+  server: ns1.v2-vip.fun
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,10,19|_US_美国->🇩🇪_DE_德国 2
+  network: ws
+  port: 8080
+  server: yd1.992688.xyz
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: eu2.992688.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 19|🇨🇳_CN_中国->🇹🇼_TW_台湾_3由快嘴科技提供：kk...
-  network: tcp
-  port: 44207
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: ae288f4f-316b-3c10-b666-eb9bbe3e2876
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,19|_US_美国->🇧🇷_BR_巴西
+  name: 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
-  port: 80
-  server: sblarm.kaolll.tech
-  skip-cert-verify: true
-  tfo: false
+  port: '8880'
+  server: dx1.992688.xyz
   tls: false
   type: vmess
-  udp: true
-  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf
   ws-opts:
     headers:
-      Host: sblarm.kaolll.tech
+      Host: euserv2.vpn66.eu.org
     path: /
 - alterId: 0
   cipher: auto
@@ -144,226 +70,11 @@ proxies:
     path: /zh-cn/news
 - alterId: 0
   cipher: auto
-  name: 6,19|🇺🇸_US_美国->🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 172.67.120.174
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 6,19|🇫🇷_FR_法国->🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 173.245.49.236
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,4,6|_US_美国->🇨🇳_CN_中国 6
+  name: 1,2,4,6,19|_US_美国->🇨🇳_CN_中国 7
   network: ws
   port: 80
-  server: 172.67.10.151
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,7,19|🇺🇸 _US_美国->🇨🇱_CL_智利
-  network: ws
-  port: '80'
-  server: sdygarm.e5outllok.me
-  tls: false
-  type: vmess
-  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
-  ws-opts:
-    headers:
-      Host: sdygarm.e5outllok.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,10,12|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '443'
-  server: 104.31.16.196
-  tls: true
-  type: vmess
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-  ws-opts:
-    headers:
-      Host: us-1.acyun.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇸🇬_SG_新加坡_32
-  network: ws
-  port: 80
-  server: wxxjp.e5outllok.me
-  tls: false
-  type: vmess
-  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
-  ws-opts:
-    headers:
-      Host: wxxjp.e5outllok.me
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,19|_US_美国->🇩🇪_DE_德国 2
-  network: ws
-  port: 8080
-  server: yd1.992688.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc
-  ws-opts:
-    headers:
-      Host: eu2.992688.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4|_US_美国->🇨🇳_CN_中国 10
-  network: ws
-  port: 80
-  server: 162.159.253.16
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,6,19|_US_美国->🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 172.67.59.39
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,6,19|_US_美国->🇨🇳_CN_中国 9
-  network: ws
-  port: 80
-  server: 172.64.90.186
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,7,12,19|_US_美国->🇮🇳_IN_印度
-  network: ws
-  port: 80
-  server: ydarm.e5outllok.me
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
-  ws-opts:
-    headers:
-      Host: ydarm.e5outllok.me
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4|_US_美国->🇨🇳_CN_中国 5
-  network: ws
-  port: 80
-  server: 172.67.149.100
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '0,3,7|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1'
-  network: tcp
-  port: '19278'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-  network: ws
-  port: 8080
-  server: dx1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc
-  ws-opts:
-    headers:
-      Host: eu2.992688.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,7,19|🇯🇵 _CN_中国->🇯🇵_JP_日本
-  network: tcp
-  port: '25153'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,6|_US_美国->🇨🇳_CN_中国 2
-  network: ws
-  port: 80
-  server: 172.67.211.253
+  server: 172.67.16.130
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -393,13 +104,121 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '0,3,7|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1'
-  network: tcp
-  port: '39037'
-  server: zjxc.pmxu.link
+  name: 0,1,2,3,4,19|🇺🇸 _US_美国->🇨🇱_CL_智利
+  network: ws
+  port: '80'
+  server: sdygarm.e5outllok.me
   tls: false
   type: vmess
-  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  ws-opts:
+    headers:
+      Host: sdygarm.e5outllok.me
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4|_US_美国->🇨🇳_CN_中国 10
+  network: ws
+  port: 80
+  server: 162.159.253.16
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,19|_US_美国->🇨🇳_CN_中国 3
+  network: ws
+  port: 80
+  server: 172.67.196.139
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,6,19|_US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 172.67.59.39
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 2,4,15,19|_CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '47009'
+  server: 120.226.50.91
+  tls: false
+  type: vmess
+  uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
+- alterId: 0
+  cipher: auto
+  name: '12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: 443
+  server: 104.31.16.65
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ea0259d7-9d3c-45ba-9230-3895ad34034c
+  ws-opts:
+    headers:
+      Host: de2vm.cdn-03.live
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,7,12,19|_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 80
+  server: ydarm.e5outllok.me
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  ws-opts:
+    headers:
+      Host: ydarm.e5outllok.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,7|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 15006
+  server: gz-2.jdweblink.lol
+  tls: false
+  type: vmess
+  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  ws-opts:
+    headers:
+      Host: gz-2.jdweblink.lol
+    path: /zh-cn/news
 - alterId: 0
   cipher: auto
   name: 0,3,7,19|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
@@ -411,17 +230,43 @@ proxies:
   uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
 - alterId: 0
   cipher: auto
-  name: 6|🇨🇳_CN_中国->🇺🇸_US_美国
+  name: 19|🇺🇸_US_美国->🇸🇬_SG_新加坡_32
   network: ws
-  port: 15006
-  server: gz-2.jdweblink.lol
+  port: 80
+  server: wxxjp.e5outllok.me
   tls: false
   type: vmess
-  uuid: be55ddb3-d7b9-3472-aa60-fb34442ddf92
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
   ws-opts:
     headers:
-      Host: gz-2.jdweblink.lol
-    path: /zh-cn/news
+      Host: wxxjp.e5outllok.me
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,19|_US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: 80
+  server: sblarm.kaolll.tech
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  ws-opts:
+    headers:
+      Host: sblarm.kaolll.tech
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,3,7|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1'
+  network: tcp
+  port: '39037'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
 - alterId: 0
   cipher: auto
   name: 0,3,16|🇨🇷 _CR_哥斯达黎加->🇨🇳_CN_中国
@@ -435,3 +280,172 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 443
+  server: bobbykotick.rip
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: Lille.bobbykotick.rip
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 0,3,7,19|🇯🇵 _CN_中国->🇯🇵_JP_日本
+  network: tcp
+  port: '25153'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇹🇼_TW_台湾_3由快嘴科技提供：kk...
+  network: tcp
+  port: 44207
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: ae288f4f-316b-3c10-b666-eb9bbe3e2876
+- alterId: 0
+  cipher: auto
+  name: 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+  network: tcp
+  port: '30839'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
+- alterId: 0
+  cipher: auto
+  name: '0,3,7|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1'
+  network: tcp
+  port: '19278'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd
+- alterId: 0
+  cipher: auto
+  name: 6,10,19|🇫🇷_FR_法国->🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 173.245.49.236
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,6|_US_美国->🇨🇳_CN_中国 2
+  network: ws
+  port: 80
+  server: 172.67.211.253
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,6|_US_美国->🇨🇳_CN_中国 6
+  network: ws
+  port: 80
+  server: 172.67.10.151
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
+  network: ws
+  port: 8080
+  server: dx1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc
+  ws-opts:
+    headers:
+      Host: eu2.992688.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4|_US_美国->🇨🇳_CN_中国 5
+  network: ws
+  port: 80
+  server: 172.67.149.100
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 6,19|🇺🇸_US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 172.67.120.174
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,4,6,19|_US_美国->🇨🇳_CN_中国 9
+  network: ws
+  port: 80
+  server: 172.64.90.186
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 0,3,12|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '443'
+  server: 104.31.16.196
+  tls: true
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  ws-opts:
+    headers:
+      Host: us-1.acyun.tk
+    path: /
