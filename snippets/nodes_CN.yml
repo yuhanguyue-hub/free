@@ -1,37 +1,14 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 10,15|广东省深圳市 移动
-  network: tcp
-  port: '59902'
-  server: 183.232.249.189
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇳 China 04 @nodpai
-  network: ws
-  port: '443'
-  server: 198.2.208.165
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693018744512
 - alterId: 0
   cipher: auto
   name: 7,8|🇨🇳 China 03 @nodpai
   network: ws
   port: '443'
-  server: 108.186.116.187
+  server: 142.4.100.201
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /path/1692184906954
+    path: /path/123131091323

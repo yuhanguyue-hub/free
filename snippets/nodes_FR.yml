@@ -1,21 +1,7 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 12|FR_speednode_0011
-  network: ws
-  port: 443
-  server: 156.249.18.10
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
-  ws-opts:
-    headers:
-      Host: www.48643700.xyz
-    path: /path/1693047590862
 - alterId: 0
   cipher: auto
-  name: 7,8,10,11|🇫🇷 France 04 @nodpai
+  name: 7,8,10|🇫🇷 France 05 @nodpai
   network: ws
   port: '2082'
   server: fr-01.cloudlion.me
@@ -26,3 +12,26 @@ proxies:
     headers:
       Host: fr-01.cloudlion.me
     path: /
+- alterId: 64
+  cipher: auto
+  name: 12|FR_speednode_0013
+  network: tcp
+  port: 42165
+  server: 156.249.18.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: cf-lt.sharecentre.online
+    path: /shirker
