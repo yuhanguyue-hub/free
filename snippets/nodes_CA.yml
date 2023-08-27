@@ -1,33 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e0b13dbb-ac05-4164-97a7-9f71566949b7
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 06 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,12,17|🇨🇦 _CA_加拿大
+  name: 12|加拿大_Telegram@kxswa
   network: ws
   port: '443'
-  server: 23.227.39.82
+  server: 23.227.38.81
+  servername: ''
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -44,4 +22,27 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6a448a3c-2914-4327-b04d-288852889145
+  uuid: e2327add-65ce-4d3c-85eb-0a898393a666
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9f1143bd-8f67-4113-9a78-401dc0549dfc
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,12,18|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.39.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
