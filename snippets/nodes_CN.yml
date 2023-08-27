@@ -1,17 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇳 China 07 @nodpai
-  network: ws
-  port: '443'
-  server: 142.4.127.15
-  tls: true
+  name: 7,12|🇨🇳 China 03 @nodpai
+  network: tcp
+  port: '48101'
+  server: 137.175.9.204
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693047593862
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 06 @nodpai
+  network: tcp
+  port: '43427'
+  server: 198.2.195.196
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇨🇳 China 05 @nodpai
+  network: tcp
+  port: '42372'
+  server: 142.4.111.76
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|CN 366 → tg@nicevpn123
+  network: tcp
+  port: '51002'
+  server: 36.141.40.34
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -31,10 +54,10 @@ proxies:
     path: /ef483582-6269-468c-93af-c511eccb8a69
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇳 China 09 @nodpai
+  name: 7,8|🇨🇳 China 07 @nodpai
   network: ws
   port: '443'
-  server: 192.74.234.211
+  server: 192.74.243.52
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -42,52 +65,12 @@ proxies:
     headers:
       Host: ''
     path: /path/1693047590862
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳 China 04 @nodpai
-  network: tcp
-  port: '53297'
-  server: 192.74.243.52
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇳 China 03 @nodpai
-  network: ws
-  port: '443'
-  server: 142.0.134.73
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/252617081903
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳 China 05 @nodpai
-  network: tcp
-  port: '53999'
-  server: 137.175.22.187
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 12|CN 479 → tg@nicevpn123
   network: tcp
   port: '51009'
   server: 198.200.37.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳 China 06 @nodpai
-  network: tcp
-  port: '51715'
-  server: 142.4.126.25
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
