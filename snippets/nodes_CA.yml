@@ -1,43 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 589202c0-da2a-44cc-babb-2f9e94bcdd2b
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,12|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 23.227.39.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 256
-  network: ws
-  port: 8443
-  server: us.freebaipiao.tk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03221b25-1a6a-4501-e519-1745b25f6c1f
-  ws-opts:
-    headers:
-      Host: us.freebaipiao.tk
-    path: /freebaipiao
-- alterId: 0
-  cipher: auto
   name: 12|CA_youtube@资源分享师_19
   network: ws
   port: '443'
@@ -62,11 +25,10 @@ proxies:
   uuid: eaf04413-b9c9-48bf-9bd4-82ea1781bb44
 - alterId: 0
   cipher: auto
-  name: 12,14,15|CA_youtube@资源分享师_12
+  name: 0,3,6|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
-  server: dongtaiwang3.com
-  servername: ''
+  server: 23.227.39.82
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -74,3 +36,13 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: adcfe40f-3db6-48eb-9653-9dd0bcdca6f0

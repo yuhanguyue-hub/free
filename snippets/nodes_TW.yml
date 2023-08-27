@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾05
+  name: 13|台湾 05  | 1x TWN
   network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 589202c0-da2a-44cc-babb-2f9e94bcdd2b
+  uuid: eaf04413-b9c9-48bf-9bd4-82ea1781bb44
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾04
@@ -18,17 +18,33 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 589202c0-da2a-44cc-babb-2f9e94bcdd2b
+  uuid: adcfe40f-3db6-48eb-9653-9dd0bcdca6f0
 - alterId: 0
   cipher: auto
-  name: 13|台湾 04  | 1x TWN
+  name: 9|🇹🇼台湾05
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: eaf04413-b9c9-48bf-9bd4-82ea1781bb44
+  uuid: adcfe40f-3db6-48eb-9653-9dd0bcdca6f0
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇹🇼 台湾独家|@ripaojiedian
+  password: b0f52ff5be5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline005.chilines.club
+    mode: websocket
+    mux: true
+    path: /smabwqyo
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.177.33.188
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|台湾 06  | 1x TWN
@@ -48,30 +64,14 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 589202c0-da2a-44cc-babb-2f9e94bcdd2b
+  uuid: adcfe40f-3db6-48eb-9653-9dd0bcdca6f0
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
+  name: 13|台湾 04  | 1x TWN
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
   uuid: eaf04413-b9c9-48bf-9bd4-82ea1781bb44
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇹🇼 台湾独家|@ripaojiedian
-  password: b0f52ff5be5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline005.chilines.club
-    mode: websocket
-    mux: true
-    path: /smabwqyo
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 103.177.33.188
-  tfo: false
-  type: ss
