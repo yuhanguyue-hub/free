@@ -1,6 +1,43 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 82a934c7-d98d-4e08-b63f-827b132d42ac
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 92a16420-9b5a-4533-9a76-a0c7b3213207
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,6|_CA_加拿大
+  network: ws
+  port: 443
+  server: 23.227.38.81
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
   name: 0,1,2,3,4,10,12,17|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
@@ -14,29 +51,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5f3fabdc-d5b6-4ceb-b22a-6aca484f3181
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 04 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
   name: 12,14,15|🇨🇦 加拿大 9
   network: ws
   port: 443
@@ -44,33 +58,6 @@ proxies:
   servername: ''
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 761012da-3bc2-4f87-a09d-86848380e96c
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6|_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.81
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
