@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '2082'
+  server: fr-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: 09e0674a-e558-468f-892c-098699aba31c
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /

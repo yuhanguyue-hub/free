@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 0,3,10,11,12,17|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.39.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
   name: 12,14,15|🇨🇦 加拿大 9
   network: ws
   port: 443
@@ -15,33 +28,10 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4aee78c5-b934-4e8a-9d18-3146bda78bc5
-- alterId: 0
-  cipher: auto
-  name: 6,12|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.81
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 0,3,11,12,17|🇨🇦 _CA_加拿大
+  name: '3,6,12|🇨🇦 _CA_加拿大 #1'
   network: ws
   port: '443'
-  server: 23.227.39.82
+  server: 23.227.38.81
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -58,17 +48,14 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fab22494-2ea6-41e6-b11c-4375a43bd2c8
+  uuid: f73ccdff-d672-4d93-b6dd-7e047bf9c751
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 05 @nodpai
-  network: ws
-  port: '2052'
-  server: 52.ddzdd.top
-  tls: false
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92
-  ws-opts:
-    headers:
-      Host: 52.ddzdd.top
-    path: /v2ray
+  uuid: c1f3c0d1-f7d2-4037-aea7-d26d02000477
