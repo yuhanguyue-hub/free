@@ -1,7 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|YouTube面具人哈乐_中国_17
+  name: 7|🇨🇳 China 06 @nodpai
+  network: tcp
+  port: '32307'
+  server: 142.4.114.117
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 04 @nodpai
+  network: tcp
+  port: '43427'
+  server: 198.2.195.196
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 05 @nodpai
+  network: tcp
+  port: '37351'
+  server: 137.175.86.189
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 广东省移动 1
   network: ws
   port: '8858'
   server: 120.233.27.138
@@ -15,15 +42,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,7,8|🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 36.150.27.31
+  name: 7,12,17|🇨🇳 China 02 @nodpai
+  network: tcp
+  port: '53999'
+  server: 137.175.22.187
   tls: false
   type: vmess
-  uuid: db8d12d5-1968-4125-b775-77d50aa65923
-  ws-opts:
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|YouTube面具人哈乐_中国_8
@@ -38,3 +63,36 @@ proxies:
     headers:
       Host: 120.233.27.138
     path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 07 @nodpai
+  network: tcp
+  port: '46500'
+  server: 199.188.111.249
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 6,7,8|🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: db8d12d5-1968-4125-b775-77d50aa65923
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇳 China 08 @nodpai
+  network: ws
+  port: '443'
+  server: 192.74.234.211
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1693121358558
