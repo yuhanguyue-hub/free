@@ -1,37 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,10,11,12,17|🇨🇦 _CA_加拿大
+  name: 0,1,2,3,4,10,12,17|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
   server: 23.227.39.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12,14,15|🇨🇦 加拿大 9
-  network: ws
-  port: 443
-  server: dongtaiwang3.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: '3,6,12|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: '443'
-  server: 23.227.38.81
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -48,7 +21,34 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f73ccdff-d672-4d93-b6dd-7e047bf9c751
+  uuid: 5f3fabdc-d5b6-4ceb-b22a-6aca484f3181
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 04 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  name: 12,14,15|🇨🇦 加拿大 9
+  network: ws
+  port: 443
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -58,4 +58,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1f3c0d1-f7d2-4037-aea7-d26d02000477
+  uuid: 761012da-3bc2-4f87-a09d-86848380e96c
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,6|_CA_加拿大
+  network: ws
+  port: 443
+  server: 23.227.38.81
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com

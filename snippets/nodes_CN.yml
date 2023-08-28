@@ -1,45 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 12 @nodpai
+  name: 7|🇨🇳 China 04 @nodpai
   network: tcp
-  port: '51715'
-  server: 142.4.126.25
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇨🇳 China 05 @nodpai
-  network: tcp
-  port: '48101'
-  server: 137.175.9.204
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4|_CN_中国
-  network: ws
-  port: 13003
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳 China 06 @nodpai
-  network: tcp
-  port: '53297'
-  server: 192.74.243.52
+  port: '53999'
+  server: 137.175.22.187
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -56,10 +21,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,12|🇨🇳 China 04 @nodpai
-  network: tcp
-  port: '42372'
-  server: 142.4.111.76
-  tls: false
+  name: 7,8|🇨🇳 China 05 @nodpai
+  network: ws
+  port: '443'
+  server: 142.0.134.73
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/252617081903
