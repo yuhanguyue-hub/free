@@ -1,10 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 01 @nodpai
+  name: 7,8|🇨🇳 China 05 @nodpai
+  network: ws
+  port: '443'
+  server: 192.74.234.211
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1693047590862
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳 China 04 @nodpai
   network: tcp
-  port: '32307'
-  server: 142.4.114.117
+  port: '37351'
+  server: 137.175.86.189
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -21,13 +34,12 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,12,15|github.com/freefq - 广东省移动 1
+  name: 7,12|🇨🇳 China 03 @nodpai
   network: tcp
-  port: 49673
-  server: 120.233.43.75
-  servername: ''
+  port: '43427'
+  server: 198.2.195.196
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
