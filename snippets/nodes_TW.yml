@@ -1,34 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
+  name: 13|台湾 04  | 1x TWN
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b2b38035-023a-4882-9541-bede78f9ea38
+  uuid: 14a0602a-402f-4bcd-9046-d49cff4d1d1b
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
+  name: 6,14|🇹🇼_TW_台湾
+  network: ws
+  port: 36555
+  server: hinet.guguyun.pw
+  tls: false
   type: vmess
-  uuid: 3d0e4702-d2da-4759-b27a-b3643339cca3
+  uuid: b223ac7e-4f14-4ec7-bd9d-7aaedecda32b
+  ws-opts:
+    headers:
+      Host: hinet.guguyun.pw
+    path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾06
+  name: 9|🇹🇼台湾04
   network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3d0e4702-d2da-4759-b27a-b3643339cca3
+  uuid: e38d91a8-99fa-4d1a-99d3-3fac921bd130
 - alterId: 0
   cipher: auto
   name: 15|台湾|tg频道:@ripaojiedian
@@ -45,27 +48,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|台湾 06  | 1x TWN
+  name: 13|台湾 05  | 1x TWN
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b2b38035-023a-4882-9541-bede78f9ea38
+  uuid: 14a0602a-402f-4bcd-9046-d49cff4d1d1b
 - alterId: 0
   cipher: auto
-  name: 6,14|🇹🇼_TW_台湾
-  network: ws
-  port: 36555
-  server: hinet.guguyun.pw
-  tls: false
+  name: 9|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: b223ac7e-4f14-4ec7-bd9d-7aaedecda32b
-  ws-opts:
-    headers:
-      Host: hinet.guguyun.pw
-    path: /
+  uuid: e38d91a8-99fa-4d1a-99d3-3fac921bd130
 - alterId: 0
   cipher: auto
   name: 0,3|🇹🇼 _TW_台湾
@@ -81,21 +81,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
+  name: 13|台湾 06  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d0e4702-d2da-4759-b27a-b3643339cca3
+  uuid: 14a0602a-402f-4bcd-9046-d49cff4d1d1b
 - alterId: 0
   cipher: auto
-  name: 13|台湾 04  | 1x TWN
+  name: 9|🇹🇼台湾06
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b2b38035-023a-4882-9541-bede78f9ea38
+  uuid: e38d91a8-99fa-4d1a-99d3-3fac921bd130
