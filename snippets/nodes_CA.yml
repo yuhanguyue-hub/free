@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7,8|🇨🇦 Canada 03 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
   name: 12|🇨🇦 CA(AzadNet.t.me)_004
   network: ws
   port: 80
@@ -13,16 +26,6 @@ proxies:
     headers:
       Host: ca1-vmess.greenssh.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bb9a7c59-4e03-4592-9272-b11968533bd2
 - alterId: 0
   cipher: auto
   name: 12,14,15|🇨🇦 _CA_加拿大_45
@@ -39,7 +42,17 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 6,10,12|🇨🇦_CA_加拿大
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8ae8f6b3-a034-460c-a739-3635aac27f47
+- alterId: 0
+  cipher: auto
+  name: 6,10,11|🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: 23.227.38.81
@@ -52,17 +65,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6b44f520-e38f-484a-b3aa-c67c283099a0
-- alterId: 0
-  cipher: auto
-  name: '6,18|🇨🇦_CA_加拿大 #1'
+  name: '6,17|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 443
   server: 23.227.39.82
@@ -73,3 +76,13 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 94d20fc3-40dd-4438-beb5-9a18395932d4
