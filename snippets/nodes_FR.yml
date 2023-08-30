@@ -1,4 +1,30 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,10,11,18|🇫🇷 _FR_法国
+  network: ws
+  port: '80'
+  server: 173.245.49.236
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '443'
+  server: franc.digires.shop
+  tls: true
+  type: vmess
+  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+  ws-opts:
+    headers:
+      Host: franc.digires.shop
+    path: /11201
 - alterId: 64
   cipher: auto
   name: 12|FR_speednode_0020
@@ -13,16 +39,16 @@ proxies:
     headers:
       Host: www.48643700.xyz
     path: /path/1693018744512
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 0,3,6,10,11,18|🇫🇷 _FR_法国
+  name: 18|🇫🇷_FR_法国_由快嘴科技提供：kkzui.com_1
   network: ws
-  port: '80'
-  server: 173.245.49.236
-  tls: false
+  port: 443
+  server: 156.249.18.217
+  tls: true
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: www.11649769.xyz
+    path: /path/1693018744512
