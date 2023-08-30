@@ -1,44 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾 06  | 1x TWN
+  name: 13|台湾 04  | 1x TWN
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d830a234-384b-4f4e-92b4-5d7f1a08ec36
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c2da53e9-bc64-4deb-a4d2-1c201accbbbf
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c2da53e9-bc64-4deb-a4d2-1c201accbbbf
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d830a234-384b-4f4e-92b4-5d7f1a08ec36
+  uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -57,27 +27,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|台湾 04  | 1x TWN
+  name: 13|台湾 06  | 1x TWN
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d830a234-384b-4f4e-92b4-5d7f1a08ec36
+  uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62
 - alterId: 0
   cipher: auto
-  name: 12|🇹🇼 Taiwan 02 @nodpai
-  network: ws
-  port: '443'
-  server: tw98-1g-hinet.mytls888.com
-  tls: false
+  name: 9|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 49caece5-2a9f-32a0-a02d-f55d966a9155
-  ws-opts:
-    headers:
-      Host: tw98-1g-hinet.mytls888.com
-    path: /
+  uuid: 890baecd-2f1b-4466-a8c3-c77981d0275a
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -87,4 +54,37 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c2da53e9-bc64-4deb-a4d2-1c201accbbbf
+  uuid: 890baecd-2f1b-4466-a8c3-c77981d0275a
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 890baecd-2f1b-4466-a8c3-c77981d0275a
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62
+- alterId: 0
+  cipher: auto
+  name: 12|台湾 01 | ws
+  network: ws
+  port: '80'
+  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
+  tls: false
+  type: vmess
+  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /

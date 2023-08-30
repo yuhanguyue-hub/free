@@ -1,46 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港R|@ripaojiedian
-  obfs: plain
-  obfs-param: b78b115230.cloudfront.com,cloudflare.com,itunes.apple.com,www.icloud.com,ajax.microsoft.com,apps.bdimg.com,www.bing.com
-  password: touj#oker3
-  port: 8677
-  protocol: auth_aes128_md5
-  protocol-param: 15230:2XLKgi
-  server: big-users.c.cdn01.tomatooo.xyz
-  tfo: false
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK
+  name: 13|香港 05 | 1x HK
   network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d830a234-384b-4f4e-92b4-5d7f1a08ec36
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c2da53e9-bc64-4deb-a4d2-1c201accbbbf
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港_0830193
-  network: tcp
-  port: 553
-  server: v2nodep-hk5.hkss.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 611d6f50-56c6-3a24-af24-faf2037dec59
+  uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -50,26 +18,17 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c2da53e9-bc64-4deb-a4d2-1c201accbbbf
+  uuid: 890baecd-2f1b-4466-a8c3-c77981d0275a
 - alterId: 0
   cipher: auto
-  name: 7|🇭🇰 Hong Kong 06 @nodpai
+  name: 9|🇭🇰香港04
   network: tcp
-  port: '553'
-  server: v2nodep-hk4.hkss.online
-  tls: false
-  type: vmess
-  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d830a234-384b-4f4e-92b4-5d7f1a08ec36
+  uuid: 890baecd-2f1b-4466-a8c3-c77981d0275a
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇭🇰 香港小火箭|@ripaojiedian
@@ -84,21 +43,76 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
+  name: 13|香港 04 | 1x HK
   network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d830a234-384b-4f4e-92b4-5d7f1a08ec36
+  uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04
+  name: 7,12|🇭🇰 Hong Kong 04 @nodpai
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '553'
+  server: v2nodep-hk4.hkss.online
+  tls: false
+  type: vmess
+  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 香港_0830193
+  network: tcp
+  port: 553
+  server: v2nodep-hk5.hkss.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 611d6f50-56c6-3a24-af24-faf2037dec59
+- alterId: 64
+  cipher: auto
+  name: 12|HK_speednode_0015
+  network: ws
+  port: 443
+  server: 156.245.8.93
+  servername: ''
   tls: true
   type: vmess
-  uuid: c2da53e9-bc64-4deb-a4d2-1c201accbbbf
+  uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1690282577532
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 890baecd-2f1b-4466-a8c3-c77981d0275a
+- alterId: 0
+  cipher: auto
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港R|@ripaojiedian
+  obfs: plain
+  obfs-param: b78b115230.cloudfront.com,cloudflare.com,itunes.apple.com,www.icloud.com,ajax.microsoft.com,apps.bdimg.com,www.bing.com
+  password: touj#oker3
+  port: 8677
+  protocol: auth_aes128_md5
+  protocol-param: 15230:2XLKgi
+  server: big-users.c.cdn01.tomatooo.xyz
+  tfo: false
+  type: ssr
