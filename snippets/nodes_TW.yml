@@ -1,6 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10,12|台湾省彰化县 中华电信
+  network: ws
+  port: '8443'
+  server: tw1.kidcc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 666c4a01-fac8-46b8-8df1-f16abdbd4d4d
+  ws-opts:
+    headers:
+      Host: tw1.kidcc.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2d2d5494-927d-4050-abb7-b69e08e7b1a6
+- alterId: 0
+  cipher: auto
   name: 13|台湾 04  | 1x TWN
   network: tcp
   port: '31301'
@@ -8,9 +32,39 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: de553ad7-8ed6-4b06-9aed-e4f8a72ee865
+  uuid: 2d2d5494-927d-4050-abb7-b69e08e7b1a6
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8546403c-7a13-4f24-bfc6-396821f2090a
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8546403c-7a13-4f24-bfc6-396821f2090a
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2d2d5494-927d-4050-abb7-b69e08e7b1a6
 - cipher: chacha20-ietf-poly1305
-  name: 8,14|🇹🇼 Taiwan 02 @nodpai
+  name: 8,14|🇹🇼 Taiwan 01 @nodpai
   password: 6e2234367999
   plugin: v2ray-plugin
   plugin-opts:
@@ -33,58 +87,4 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0db822fc-d2a8-4751-b019-fa1960034126
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0db822fc-d2a8-4751-b019-fa1960034126
-- alterId: 0
-  cipher: auto
-  name: 10,12|台湾省彰化县 中华电信
-  network: ws
-  port: '8443'
-  server: tw1.kidcc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 666c4a01-fac8-46b8-8df1-f16abdbd4d4d
-  ws-opts:
-    headers:
-      Host: tw1.kidcc.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: de553ad7-8ed6-4b06-9aed-e4f8a72ee865
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0db822fc-d2a8-4751-b019-fa1960034126
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: de553ad7-8ed6-4b06-9aed-e4f8a72ee865
+  uuid: 8546403c-7a13-4f24-bfc6-396821f2090a
