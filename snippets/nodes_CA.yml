@@ -1,6 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12|🇨🇦 CA(AzadNet.t.me)_004
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 04 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -8,21 +35,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6dcd0770-2a67-4fc5-9de2-e77386716e7f
-- alterId: 0
-  cipher: auto
-  name: 12|CA_youtube@资源分享师_21
-  network: ws
-  port: '443'
-  server: 23.227.39.82
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: 25d0f564-5bcc-4bc1-abcb-30612835c620
 - alterId: 0
   cipher: auto
   name: 7,8|🇨🇦 Canada 01 @nodpai
@@ -45,31 +58,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c186856-bd7e-459b-90c7-818b8e02bb52
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 04 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 CA(AzadNet.t.me)_004
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
+  uuid: 5ce23e96-21fd-4ac9-8762-969b103dcaf1
