@@ -1,11 +1,15 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|FR_speednode_0053
-  network: tcp
-  port: 47965
-  server: 156.249.18.10
+  name: 11|FR-51.210.101.254-8853
+  network: ws
+  port: '80'
+  server: fr2-vmess.greenssh.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
+  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
+  ws-opts:
+    headers:
+      Host: fr2-vmess.greenssh.xyz
+    path: /
