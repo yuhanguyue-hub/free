@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 17|🇨🇳_CN_中国_2由快嘴科技提供：kkzui.com
+  network: tcp
+  port: 50031
+  server: 31.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇳 China 01 @nodpai
+  network: ws
+  port: '443'
+  server: 142.4.115.173
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1693390440063

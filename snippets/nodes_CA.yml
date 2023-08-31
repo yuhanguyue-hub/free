@@ -1,6 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 6b00fe6c-2454-4804-aa56-c9c67fcdcab4
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ca63decd-a45c-451e-a788-e9fe21a9eedd
+- alterId: 0
+  cipher: auto
   name: 12|🇨🇦 CA(AzadNet.t.me)_004
   network: ws
   port: 80
@@ -13,23 +33,3 @@ proxies:
     headers:
       Host: ca1-vmess.greenssh.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 37f3d9d5-7b19-4c87-a31a-b8ecada41618
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: dd7a89ba-a033-4b71-b93a-2fa3819b7924
