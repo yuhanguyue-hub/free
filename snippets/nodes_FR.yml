@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,6,10,11|🇫🇷 _FR_法国
+  name: 3,10,11|🇫🇷 _FR_法国
   network: ws
   port: '80'
   server: 173.245.49.236
@@ -12,3 +12,37 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 12|FR_speednode_0052
+  network: tcp
+  port: 44265
+  server: 156.249.18.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|FR_speednode_0053
+  network: tcp
+  port: 47965
+  server: 156.249.18.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
+- alterId: 64
+  cipher: auto
+  name: 12|FR_speednode_0059
+  network: ws
+  port: 443
+  server: 156.249.18.48
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69414502.xyz
+    path: /path/1693390440063
