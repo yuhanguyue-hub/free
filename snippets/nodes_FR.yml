@@ -1,17 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|FR-51.210.101.254-8853
+  name: 12|FR_speednode_0018
   network: ws
-  port: '80'
-  server: fr2-vmess.greenssh.xyz
+  port: 443
+  server: pl2-vmess.greenssh.xyz
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
+  uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
   ws-opts:
     headers:
-      Host: fr2-vmess.greenssh.xyz
+      Host: pl2-vmess.greenssh.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,12|法国国际航空电讯集团公司(SITA) 22
+  network: ws
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
     path: /
 - alterId: 64
   cipher: auto
@@ -29,19 +42,6 @@ proxies:
     path: /path/1693219483885
 - alterId: 0
   cipher: auto
-  name: 10,11,12|法国国际航空电讯集团公司(SITA) 22
-  network: ws
-  port: '80'
-  server: uk2-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
-  ws-opts:
-    headers:
-      Host: uk2-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 12|FR_speednode_0017
   network: ws
   port: 443
@@ -54,17 +54,3 @@ proxies:
     headers:
       Host: pl2-vmess.greenssh.xyz
     path: pl2-vmess.greenssh.xyz
-- alterId: 0
-  cipher: auto
-  name: 12|FR_speednode_0018
-  network: ws
-  port: 443
-  server: pl2-vmess.greenssh.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
-  ws-opts:
-    headers:
-      Host: pl2-vmess.greenssh.xyz
-    path: /
