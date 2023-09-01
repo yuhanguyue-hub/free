@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|CA_youtube@资源分享师_157
+  name: 0,6,10,11,12,14,15|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
-  server: 23.227.38.81
-  servername: ''
+  server: dongtaiwang3.com
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -13,6 +12,29 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: 172.67.136.102
+  tls: false
+  type: vmess
+  uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d49526f6-031b-4970-ad2e-c68ae5ea07c5
 - alterId: 0
   cipher: auto
   name: 7,8|🇨🇦 Canada 04 @nodpai
@@ -28,16 +50,6 @@ proxies:
     path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d290a6bb-daf8-4199-a1c4-88a7eca92537
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -45,17 +57,17 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7decc7e9-2476-43bb-97e2-228c34e4de72
+  uuid: 6af0b758-2478-45cb-ad2f-a5b8a5250b5d
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
+  name: 6,10,11,12|🇨🇦_CA_加拿大
   network: ws
-  port: '80'
-  server: 172.67.136.102
-  tls: false
+  port: 443
+  server: 23.227.39.109
+  tls: true
   type: vmess
-  uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com

@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,12|github.com/freefq - 法国国际航空电讯集团...
+  network: ws
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|FR-51.210.101.254-8853
   network: ws
   port: '80'
