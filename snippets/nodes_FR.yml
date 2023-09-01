@@ -1,45 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 12|FR_speednode_0016
-  network: ws
-  port: 443
-  server: 156.249.18.48
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.69414502.xyz
-    path: /path/1693219483885
-- alterId: 0
-  cipher: auto
-  name: 10,12|法国国际航空电讯集团公司(SITA) 22
-  network: ws
-  port: '80'
-  server: uk2-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
-  ws-opts:
-    headers:
-      Host: uk2-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|FR_speednode_0018
-  network: ws
-  port: 443
-  server: pl2-vmess.greenssh.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
-  ws-opts:
-    headers:
-      Host: pl2-vmess.greenssh.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 12|FR-51.210.101.254-8853
@@ -56,18 +15,31 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 12|FR_speednode_0012
+  name: 12|FR_speednode_0016
   network: ws
   port: 443
-  server: 156.249.18.218
+  server: 156.249.18.48
   servername: ''
   tls: true
   type: vmess
-  uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.11649769.xyz
-    path: /path/1693480232784
+      Host: www.69414502.xyz
+    path: /path/1693219483885
+- alterId: 0
+  cipher: auto
+  name: 10,11,12|法国国际航空电讯集团公司(SITA) 22
+  network: ws
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|FR_speednode_0017
@@ -82,3 +54,17 @@ proxies:
     headers:
       Host: pl2-vmess.greenssh.xyz
     path: pl2-vmess.greenssh.xyz
+- alterId: 0
+  cipher: auto
+  name: 12|FR_speednode_0018
+  network: ws
+  port: 443
+  server: pl2-vmess.greenssh.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
+  ws-opts:
+    headers:
+      Host: pl2-vmess.greenssh.xyz
+    path: /

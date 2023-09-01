@@ -1,37 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c2d11268-d703-4bad-b145-b12d3f2dac7c
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 山东省烟台市联通 8
-  network: tcp
-  port: '45908'
-  server: pkl173131369.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 76e7cc86-8a8f-461d-e956-a48d251b609c
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c2d11268-d703-4bad-b145-b12d3f2dac7c
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 台湾省中华电信 4
+  name: 12|Relay_🇹🇼TW-🇹🇼TW_141
   network: tcp
   port: '11872'
   server: gamespeed-gateway-1.numastergame.com
@@ -41,14 +11,24 @@ proxies:
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
+  name: 9|🇹🇼台湾05
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 93944718-2d9e-435a-b8af-5ccf82e9b787
+  uuid: 2cb56038-556b-47a3-a351-7a566a00ca1d
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7248ee6e-5a07-4a5d-a6cc-b5919c050522
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -82,26 +62,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c2d11268-d703-4bad-b145-b12d3f2dac7c
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 93944718-2d9e-435a-b8af-5ccf82e9b787
-- alterId: 0
-  cipher: auto
   name: 9|🇹🇼台湾06
   network: tcp
   port: '36311'
@@ -109,4 +69,34 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 93944718-2d9e-435a-b8af-5ccf82e9b787
+  uuid: 2cb56038-556b-47a3-a351-7a566a00ca1d
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7248ee6e-5a07-4a5d-a6cc-b5919c050522
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2cb56038-556b-47a3-a351-7a566a00ca1d
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7248ee6e-5a07-4a5d-a6cc-b5919c050522
