@@ -1,14 +1,59 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
+  name: 13|台湾 06  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d49526f6-031b-4970-ad2e-c68ae5ea07c5
+  uuid: e4179487-997e-46b5-b896-3043e689e90c
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b3acb6a5-f6ec-471c-84ed-ed27d0565e19
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b3acb6a5-f6ec-471c-84ed-ed27d0565e19
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e4179487-997e-46b5-b896-3043e689e90c
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇹🇼 Taiwan 01 @nodpai
+  password: 6e2234367999
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: twd1000tw001.fengchijisu.com
+    mode: websocket
+    mux: true
+    path: /yhmlcjyfpd
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: 103.177.32.148
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|台湾 05  | 1x TWN
@@ -18,7 +63,17 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6af0b758-2478-45cb-ad2f-a5b8a5250b5d
+  uuid: e4179487-997e-46b5-b896-3043e689e90c
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b3acb6a5-f6ec-471c-84ed-ed27d0565e19
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -37,46 +92,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6af0b758-2478-45cb-ad2f-a5b8a5250b5d
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d49526f6-031b-4970-ad2e-c68ae5ea07c5
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d49526f6-031b-4970-ad2e-c68ae5ea07c5
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6af0b758-2478-45cb-ad2f-a5b8a5250b5d
-- alterId: 0
-  cipher: auto
   name: 12|Relay_🇹🇼TW-🇹🇼TW_141
   network: tcp
   port: '11872'
@@ -85,18 +100,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇹🇼 Taiwan 01 @nodpai
-  password: 6e2234367999
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: twd1000tw001.fengchijisu.com
-    mode: websocket
-    mux: true
-    path: /yhmlcjyfpd
-    skip-cert-verify: true
-    tls: true
-  port: 443
-  server: 103.177.32.148
-  type: ss
-  udp: true
