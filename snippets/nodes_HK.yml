@@ -8,20 +8,35 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f0fa750-b465-44ac-a168-2058e497c8b8
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇭🇰 Hong Kong 33 @nodpai
-  network: ws
-  port: '80'
-  server: zhuanfa.baiduvideos.online
-  tls: false
-  type: vmess
-  uuid: 95252c48-c73b-4a1f-94d0-d351de9c50c8
-  ws-opts:
-    headers:
-      Host: zhuanfa.baiduvideos.online
-    path: /11451
+  uuid: cc279313-481b-423e-8aa6-c8e70118228f
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.112.68
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 11803
+  protocol: auth_aes128_md5
+  protocol-param: 285687:f0Lp5Kiqg4
+  server: iepl-zh.safetelescope.cc
+  tfo: false
+  type: ssr
 - alterId: 64
   cipher: auto
   name: 12|HK_speednode_0012
@@ -48,14 +63,16 @@ proxies:
   server: pr1.jymzffbquawl.com
   tfo: false
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港B|@ripaojiedian
-  password: 1036e487-9102-4e09-81fd-01b0f832b972
-  port: 51013
-  server: apsc52dp7cj6bnhd.anrida715.me
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4103d32f-bd5e-4f4e-b9f1-81c28cdee581
 - alterId: 64
   cipher: auto
   name: 12|HK_speednode_0031
@@ -70,18 +87,14 @@ proxies:
     headers:
       Host: www.32159877.xyz
     path: /path/1693480232784
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 11803
-  protocol: auth_aes128_md5
-  protocol-param: 285687:f0Lp5Kiqg4
-  server: iepl-zh.safetelescope.cc
+  name: 14|🇭🇰 香港B|@ripaojiedian
+  password: 1036e487-9102-4e09-81fd-01b0f832b972
+  port: 51013
+  server: apsc52dp7cj6bnhd.anrida715.me
   tfo: false
-  type: ssr
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -91,27 +104,20 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4e50f077-128a-4212-86d0-b764f3001fa8
+  uuid: 4103d32f-bd5e-4f4e-b9f1-81c28cdee581
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
+  name: 7,8|🇭🇰 Hong Kong 24 @nodpai
+  network: ws
+  port: '80'
+  server: zhuanfa.baiduvideos.online
+  tls: false
   type: vmess
-  uuid: 4e50f077-128a-4212-86d0-b764f3001fa8
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5f0fa750-b465-44ac-a168-2058e497c8b8
+  uuid: d64eca38-adf2-43b2-ac10-84acf65f50b9
+  ws-opts:
+    headers:
+      Host: zhuanfa.baiduvideos.online
+    path: /11451
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -121,32 +127,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f0fa750-b465-44ac-a168-2058e497c8b8
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.112.68
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 18|🇭🇰_HK_香港_34
-  network: tcp
-  port: 50609
-  server: 156.245.8.151
-  tls: false
-  type: vmess
-  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  uuid: cc279313-481b-423e-8aa6-c8e70118228f
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -156,4 +137,14 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4e50f077-128a-4212-86d0-b764f3001fa8
+  uuid: 4103d32f-bd5e-4f4e-b9f1-81c28cdee581
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cc279313-481b-423e-8aa6-c8e70118228f
