@@ -1,66 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 4
+  name: 0,12|🇨🇦 _CA_加拿大
   network: ws
-  port: 443
-  server: 23.227.38.81
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 6,10,11,12,17|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇦 Canada 22 @nodpai
-  network: ws
-  port: 2082
-  server: ca-01.cloudlion.me
-  skip-cert-verify: true
+  port: '33760'
+  server: 23.26.239.111
   tls: false
   type: vmess
-  udp: true
-  uuid: a0a1a61f-0134-4221-9b6c-2c00ce709238
+  uuid: c0d89f6c-b8ca-4450-967c-39f5a84925f4
   ws-opts:
     headers:
-      Host: ca-01.cloudlion.me
-    path: /
+      Host: ''
+    path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 54
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 0,6,10,11,14,15|🇨🇦 _CA_加拿大
+  name: 12|CA_youtube@资源分享师_17
   network: ws
   port: '443'
-  server: dongtaiwang3.com
+  server: 23.227.38.81
+  servername: ''
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -77,7 +35,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d600c590-f539-4682-81d3-12b63989d43b
+  uuid: 71bb659e-ef77-41fd-adbd-db61e3a98232
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -87,4 +45,17 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c97decd4-f9e4-4d26-8ea4-d48b107da98b
+  uuid: b0b55bf9-1fc2-4d31-acfb-6a8e8ddc181c
+- alterId: 0
+  cipher: auto
+  name: 6,10,11,12,14,15|🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: dongtaiwang3.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com

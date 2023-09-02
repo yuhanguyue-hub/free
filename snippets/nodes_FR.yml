@@ -1,49 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|FR_speednode_0017
+  name: 11,12|github.com/freefq - 法国国际航空电讯集团...
   network: ws
-  port: 443
-  server: 217.182.76.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
-  ws-opts:
-    headers:
-      Host: pl2-vmess.greenssh.xyz
-    path: pl2-vmess.greenssh.xyz
-- alterId: 0
-  cipher: auto
-  name: 8|🇫🇷 France 52 @nodpai
-  network: ws
-  port: 2082
-  server: scw-fr.iiio.wiki
-  skip-cert-verify: true
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
   tls: false
   type: vmess
-  udp: true
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
+  network: tcp
+  port: '49982'
+  server: 37.120.209.125
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
+- alterId: 0
+  cipher: auto
+  name: 12|🇫🇷 France 10 @nodpai
+  network: ws
+  port: '2082'
+  server: scw-fr.iiio.wiki
+  tls: false
+  type: vmess
   uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
   ws-opts:
     headers:
       Host: scw-fr.iiio.wiki
     path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8|🇫🇷 France 127 @nodpai
-  network: ws
-  port: 443
-  server: bobbykotick.rip
-  servername: lille.bobbykotick.rip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 691c16ee-d3a5-4ba6-ae8b-59c12b278d86
-  ws-opts:
-    headers:
-      Host: bobbykotick.rip
-    path: /speedtest
 - alterId: 0
   cipher: auto
   name: 12|FR_speednode_0018
