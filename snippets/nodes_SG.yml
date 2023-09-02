@@ -1,48 +1,7 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 40 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 13.229.123.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 02 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 8d242c5.dl.nintendo.net:123597
-    mode: tls
-  port: 2377
-  server: 103.172.116.43
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 601d308d-7081-4482-8a4a-a3d7e2dd58d1
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 21 @nodpai
-  network: ws
-  port: '80'
-  server: cfyd.starsea.vip
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      Host: cfyd.starsea.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 19 @nodpai
+  name: 7,8|🇸🇬 Singapore 02 @nodpai
   network: ws
   port: '443'
   server: free2.node.kk-proxy.pro
@@ -55,16 +14,6 @@ proxies:
     path: /ec3a017507e0/
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 601d308d-7081-4482-8a4a-a3d7e2dd58d1
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -72,95 +21,41 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bd74f048-7e53-4682-8dbe-02c7e57d41b1
-- alterId: 64
-  cipher: auto
-  name: 12|🇸🇬 SG(AzadNet.t.me)_022
-  network: tcp
-  port: 55264
-  server: 202.79.174.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
+  uuid: 5f0fa750-b465-44ac-a168-2058e497c8b8
 - cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 41 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 3.0.148.0
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 601d308d-7081-4482-8a4a-a3d7e2dd58d1
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 22 @nodpai
-  network: ws
-  port: '80'
-  server: cfyd.starsea.vip
-  tls: false
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  ws-opts:
-    headers:
-      Host: cfyd.starsea.vip
-    path: /sshkit/1736960111/64ee26041efcc/
-- cipher: aes-256-cfb
-  name: 8,14|🇸🇬 Singapore 38 @nodpai
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.65.26
+  tfo: false
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 7,8|🇸🇬 Singapore 33 @nodpai
+  network: ws
+  port: '443'
+  server: a5.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
+  ws-opts:
+    headers:
+      Host: a5.wuxianliulianng.xyz
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bd74f048-7e53-4682-8dbe-02c7e57d41b1
+  uuid: 4e50f077-128a-4212-86d0-b764f3001fa8
 - alterId: 0
   cipher: auto
-  name: 12|🆔@LuxyNet💎❖🇸🇬❖SG❖41
-  network: ws
-  port: 443
-  server: vsg1.0bad.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: ''
-    path: /chat
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 @LuxyNet💎❖🇸🇬❖SG❖215
-  network: ws
-  port: 443
-  server: mir.mir222.eu.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1d4379ed-27c2-4f12-9f69-25b8ca8b084c
-  ws-opts:
-    headers:
-      Host: mir.mir222.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8,10,11|🇸🇬 Singapore 01 @nodpai
+  name: 7,8,10,11|🇸🇬 Singapore 03 @nodpai
   network: ws
   port: '80'
   server: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
@@ -171,6 +66,17 @@ proxies:
     headers:
       Host: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 01 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 8d242c5.dl.nintendo.net:123597
+    mode: tls
+  port: 2377
+  server: 103.172.116.43
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -180,10 +86,30 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bd74f048-7e53-4682-8dbe-02c7e57d41b1
+  uuid: 5f0fa750-b465-44ac-a168-2058e497c8b8
 - alterId: 0
   cipher: auto
-  name: 7,8|🇸🇬 Singapore 63 @nodpai
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5f0fa750-b465-44ac-a168-2058e497c8b8
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4e50f077-128a-4212-86d0-b764f3001fa8
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 23 @nodpai
   network: ws
   port: '80'
   server: stock.hostmonit.com
@@ -194,3 +120,39 @@ proxies:
     headers:
       Host: stock.hostmonit.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4e50f077-128a-4212-86d0-b764f3001fa8
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 09 @nodpai
+  network: ws
+  port: '80'
+  server: cfyd.starsea.vip
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: cfyd.starsea.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 21 @nodpai
+  network: ws
+  port: '80'
+  server: cfyd.starsea.vip
+  tls: false
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-opts:
+    headers:
+      Host: cfyd.starsea.vip
+    path: /sshkit/1736960111/64ee26041efcc/
