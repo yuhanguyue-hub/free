@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 法国国际航空电讯集团...
-  network: ws
-  port: '80'
-  server: uk2-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
-  ws-opts:
-    headers:
-      Host: uk2-vmess.greenssh.xyz
-    path: /
 - alterId: 64
   cipher: auto
   name: 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
@@ -22,19 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
-- alterId: 0
-  cipher: auto
-  name: 12|🇫🇷 France 10 @nodpai
-  network: ws
-  port: '2082'
-  server: scw-fr.iiio.wiki
-  tls: false
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  ws-opts:
-    headers:
-      Host: scw-fr.iiio.wiki
-    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: 12|FR_speednode_0018
@@ -48,4 +22,30 @@ proxies:
   ws-opts:
     headers:
       Host: pl2-vmess.greenssh.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8,12|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '2082'
+  server: scw-fr.iiio.wiki
+  tls: false
+  type: vmess
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  ws-opts:
+    headers:
+      Host: scw-fr.iiio.wiki
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 10,11,12|法国国际航空电讯集团公司(SITA) 8
+  network: ws
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
     path: /
