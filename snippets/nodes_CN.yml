@@ -1,7 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,10,18|_CN_中国
+  name: 7|🇨🇳 China 07 @nodpai
+  network: tcp
+  port: '51715'
+  server: 142.4.126.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 6|🇨🇳_CN_中国
+  network: ws
+  port: 19106
+  server: 221.131.165.175
+  tls: false
+  type: vmess
+  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
+  ws-opts:
+    path: /soda
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,10,11,17|_CN_中国
   network: ws
   port: '13003'
   server: cdn.node.user-sub.pddns-usersdk.com
@@ -14,19 +34,19 @@ proxies:
     path: /ef483582-6269-468c-93af-c511eccb8a69
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 07 @nodpai
+  name: 7|🇨🇳 China 06 @nodpai
   network: tcp
-  port: '51715'
-  server: 142.4.126.27
+  port: '53999'
+  server: 137.175.58.138
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳 China 06 @nodpai
+  name: 7|🇨🇳 China 16 @nodpai
   network: tcp
-  port: '53999'
-  server: 137.175.58.138
+  port: '42002'
+  server: 142.4.111.77
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -43,23 +63,3 @@ proxies:
     headers:
       Host: ''
     path: /path/173300203323
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇳_CN_中国
-  network: ws
-  port: 19106
-  server: 221.131.165.175
-  tls: false
-  type: vmess
-  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
-  ws-opts:
-    path: /soda
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳 China 16 @nodpai
-  network: tcp
-  port: '42002'
-  server: 142.4.111.77
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
