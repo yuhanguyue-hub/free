@@ -1,64 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6a1c97a5-94d2-40b5-a75f-5f3a6921da75
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e456603a-80d9-46b5-b9b3-e5c392045e9b
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6a1c97a5-94d2-40b5-a75f-5f3a6921da75
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.97.26
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e456603a-80d9-46b5-b9b3-e5c392045e9b
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e456603a-80d9-46b5-b9b3-e5c392045e9b
-- alterId: 0
-  cipher: auto
   name: 7,8|🇸🇬 Singapore 44 @nodpai
   network: ws
   port: '80'
@@ -70,6 +12,77 @@ proxies:
     headers:
       Host: cfyd.starsea.vip
     path: /sshkit/1736960111/64ee26041efcc/
+- alterId: 0
+  cipher: auto
+  name: 12|-SG-006
+  network: ws
+  port: 22239
+  server: 0933.763352.top
+  tls: true
+  type: vmess
+  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
+  ws-opts:
+    headers:
+      Host: 0933.763352.top
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1c9868f1-d815-4db4-93ab-a638e94607cc
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1c9868f1-d815-4db4-93ab-a638e94607cc
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 402a794b-225c-424a-be44-25669237f68b
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.97.26
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|🇸🇬 SG(AzadNet.t.me)_022
+  network: tcp
+  port: 55264
+  server: 202.79.174.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1c9868f1-d815-4db4-93ab-a638e94607cc
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡特殊|@ripaojiedian
@@ -80,11 +93,48 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6a1c97a5-94d2-40b5-a75f-5f3a6921da75
+  uuid: 402a794b-225c-424a-be44-25669237f68b
+- alterId: 0
+  cipher: auto
+  name: 12|-SG-005
+  network: ws
+  port: 20322
+  server: 0233.763352.top
+  tls: true
+  type: vmess
+  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
+  ws-opts:
+    headers:
+      Host: 0233.763352.top
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 402a794b-225c-424a-be44-25669237f68b
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 SG(AzadNet.t.me)_009
+  network: ws
+  port: 443
+  server: vsg1.0bad.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vsg1.0bad.com
+    path: /chat
