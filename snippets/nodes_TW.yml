@@ -1,4 +1,42 @@
 proxies:
+- name: 8|🇹🇼 Taiwan 02 @nodpai
+  password: 43b48c1412
+  port: 20443
+  server: pqs-tw-11444.strongpipe.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: c0b15b8aea
+- name: 8|🇹🇼 Taiwan 01 @nodpai
+  password: 26bae9b023
+  port: 20443
+  server: h3816tw.strongpipe.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dcf12c7e7d
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 49b3c448-415f-432b-8700-f07fd7ead11b
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5cc93725-4774-4686-8787-c0366ad816ad
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -17,14 +55,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
+  name: 13|台湾 05  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b114ac8f-d7d2-49dd-bd69-4788bf2531bf
+  uuid: 5cc93725-4774-4686-8787-c0366ad816ad
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -34,47 +72,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b114ac8f-d7d2-49dd-bd69-4788bf2531bf
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 779ea543-06f7-44b0-8852-359999d31d29
-- alterId: 0
-  cipher: auto
-  name: 10,12|台湾省 中华电信
-  network: tcp
-  port: 11872
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 779ea543-06f7-44b0-8852-359999d31d29
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 779ea543-06f7-44b0-8852-359999d31d29
+  uuid: 49b3c448-415f-432b-8700-f07fd7ead11b
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -84,4 +82,24 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b114ac8f-d7d2-49dd-bd69-4788bf2531bf
+  uuid: 49b3c448-415f-432b-8700-f07fd7ead11b
+- alterId: 0
+  cipher: auto
+  name: 10,11|台湾省 中华电信
+  network: tcp
+  port: 11872
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5cc93725-4774-4686-8787-c0366ad816ad
