@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7,8|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 1,2,3,4,14,15|_CA_加拿大
   network: ws
@@ -18,17 +31,14 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
+  uuid: cc14a702-887a-407c-934d-6cfaa616f887
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -38,14 +48,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43398467-216d-4c27-94b0-8274646408a4
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c8a8f550-6cc2-4129-ba74-4e46fb6c0701
+  uuid: 7ee4be3e-d056-48b9-9d33-9d00420c31ba
