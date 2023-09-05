@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|🇫🇷 France 10 @nodpai
+  name: 7,8|🇫🇷 France 14 @nodpai
   network: ws
   port: '80'
   server: 162.159.58.164
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|🇫🇷 France 03 @nodpai
+  name: 7,8|🇫🇷 France 01 @nodpai
   network: ws
   port: '80'
   server: cloudqwq.cf
@@ -24,32 +24,6 @@ proxies:
   ws-opts:
     headers:
       Host: cloudqwq.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 02 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.58.218
-  tls: false
-  type: vmess
-  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 13 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.58.231
-  tls: false
-  type: vmess
-  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -64,3 +38,42 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.58.231
+  tls: false
+  type: vmess
+  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 06 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.58.218
+  tls: false
+  type: vmess
+  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 45 @nodpai
+  network: ws
+  port: '2095'
+  server: frsadubidd.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 4896559c-c94e-342a-b208-6107ec292652
+  ws-opts:
+    headers:
+      Host: frsadubidd.76898102.xyz
+    path: /funsdfrh
