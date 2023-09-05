@@ -8,7 +8,30 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 303d1fb2-ae06-4166-b991-ca1e24fb821d
+  uuid: 45e85bc2-a246-4f39-b8c9-503199125245
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 3b49cf7d-b389-4c68-962a-12ea0437c3ab
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '2095'
+  server: speedip.tuyoyo.link
+  tls: false
+  type: vmess
+  uuid: f37827de-199b-474a-847e-1da4f28fedcc
+  ws-opts:
+    headers:
+      Host: speedip.tuyoyo.link
+    path: /tuyoyoloveeveryone
 - alterId: 0
   cipher: auto
   name: 0,12,14,15|🇨🇦 _CA_加拿大
@@ -35,13 +58,3 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f03dc3df-9229-49fd-a41d-00d1db7079cf
