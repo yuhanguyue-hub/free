@@ -1,5 +1,5 @@
 proxies:
-- name: 8|🇭🇰 Hong Kong 19 @nodpai
+- name: 8|🇭🇰 Hong Kong 12 @nodpai
   password: 40c48aa16d
   port: 20443
   server: home-hk-5.strongpipe.live
@@ -8,37 +8,55 @@ proxies:
   type: http
   udp: true
   username: bbeb1fa344
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港B|@ripaojiedian
-  password: c312f949-5c82-45bc-8cfd-541ab842cfa1
-  port: 10817
-  server: yd.qianggewangluo.buzz
+  name: 14|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.112.68
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8|🇭🇰 Hong Kong 30 @nodpai
-  network: ws
-  port: '80'
-  server: 172.67.188.127
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: ''
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK
+  name: 13|香港 06 | 1x HK
   network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
+  uuid: 5e4ed19c-009c-4238-bc7d-6873264c2873
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0d30cc27-bd35-4cdb-aa6a-b66f8537f38b
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4|🇭🇰 _HK_香港 #1'
+  network: ws
+  port: '80'
+  server: 103.160.204.36
+  tls: false
+  type: vmess
+  uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096
+  ws-opts:
+    headers:
+      Host: 12.wyhkaa0.gq
+    path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
   name: 17|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com_25
@@ -69,6 +87,19 @@ proxies:
     path: /mp4
 - alterId: 0
   cipher: auto
+  name: 7,8|🇭🇰 Hong Kong 39 @nodpai
+  network: ws
+  port: '80'
+  server: zhuanfa.baiduvideos.online
+  tls: false
+  type: vmess
+  uuid: 95252c48-c73b-4a1f-94d0-d351de9c50c8
+  ws-opts:
+    headers:
+      Host: zhuanfa.baiduvideos.online
+    path: /11451
+- alterId: 0
+  cipher: auto
   name: 9|🇭🇰香港05
   network: tcp
   port: '36606'
@@ -76,18 +107,36 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
+  uuid: 0d30cc27-bd35-4cdb-aa6a-b66f8537f38b
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04
+  name: 13|香港 05 | 1x HK
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
-- name: 8|🇭🇰 Hong Kong 22 @nodpai
+  uuid: 5e4ed19c-009c-4238-bc7d-6873264c2873
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5e4ed19c-009c-4238-bc7d-6873264c2873
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港B|@ripaojiedian
+  password: c312f949-5c82-45bc-8cfd-541ab842cfa1
+  port: 10817
+  server: yd.qianggewangluo.buzz
+  tfo: false
+  type: ss
+- name: 8|🇭🇰 Hong Kong 11 @nodpai
   password: 40c48aa16d
   port: 20443
   server: pqs-hk-1.strongpipe.live
@@ -98,76 +147,14 @@ proxies:
   username: bbeb1fa344
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
+  name: 9|🇭🇰香港04
   network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇭🇰 Hong Kong 145 @nodpai
-  network: ws
-  port: '80'
-  server: zhuanfa.baiduvideos.online
-  tls: false
-  type: vmess
-  uuid: e5bbdf0b-43a7-4018-819e-dbff32985582
-  ws-opts:
-    headers:
-      Host: zhuanfa.baiduvideos.online
-    path: /11451
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.112.68
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4|🇭🇰 _HK_香港 #1'
-  network: ws
-  port: '80'
-  server: 103.160.204.36
-  tls: false
-  type: vmess
-  uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096
-  ws-opts:
-    headers:
-      Host: 12.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
+  uuid: 0d30cc27-bd35-4cdb-aa6a-b66f8537f38b
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4|🇭🇰 _HK_香港
