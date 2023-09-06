@@ -1,8 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12|CA 3 → tg@nicevpn123
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 42ae7325-16e2-4eb8-8549-1e365f9aa971
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 1,3,4,12,14,15|_CA_加拿大
+  name: 1,3,4,11,14,15|_CA_加拿大
   network: ws
   port: 443
   server: dongtaiwang3.com
@@ -18,21 +37,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 _CA_加拿大_147
-  network: ws
-  port: 443
-  server: dongtaiwang2.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 10 @nodpai
+  name: 7,8|🇨🇦 Canada 20 @nodpai
   network: ws
   port: '2095'
   server: camtlebb.76898102.xyz
@@ -43,25 +48,6 @@ proxies:
     headers:
       Host: camtlebb.76898102.xyz
     path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f51518cd-81e5-437a-8a98-a3c77a0349f8
-- alterId: 0
-  cipher: auto
-  name: 12|CA 3 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -81,11 +67,11 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
+  name: 9|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc8c0de3-8fb5-4ac3-82a9-00cca51e1594
+  uuid: b48a700c-7908-42e3-b2da-6c511b0383b7
