@@ -1,27 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
+  name: 9|🇹🇼台湾05
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d4b31eeb-0e91-4cf7-925c-d49ff21af25c
+  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
 - alterId: 0
   cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d4b31eeb-0e91-4cf7-925c-d49ff21af25c
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇼 _TW_台湾
+  name: 0,2|🇹🇼 _TW_台湾
   network: ws
   port: '8443'
   server: tw1.kidcc.xyz
@@ -34,14 +24,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|台湾bgp|@ripaojiedian
+  name: 13|台湾 05  | 1x TWN
   network: tcp
-  port: '36674'
-  server: 1.sg.zz.xxxxx.x-t-fuckword.network
-  servername: ''
-  tls: false
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
+  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -51,7 +41,17 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 386a90ce-b8af-4553-aa8f-4d89dcdbf413
+  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾04
@@ -61,17 +61,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 386a90ce-b8af-4553-aa8f-4d89dcdbf413
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 386a90ce-b8af-4553-aa8f-4d89dcdbf413
+  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -81,4 +71,4 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d4b31eeb-0e91-4cf7-925c-d49ff21af25c
+  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
