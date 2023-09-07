@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇯🇵 Japan 23 @nodpai
+  password: 876e3bc0-ee6e-4af5-8f8b-e0435053e7d4
+  port: 10104
+  server: jp-04.feitucloud.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 8|🇯🇵 Japan 03 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 52.194.185.11
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -8,69 +22,14 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4c4428fd-344b-4799-8e0f-03c224ce3fee
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 48dbbca3-953e-4727-be49-7ad5df8f2495
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本 319
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 48dbbca3-953e-4727-be49-7ad5df8f2495
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵白嫖-053
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 48dbbca3-953e-4727-be49-7ad5df8f2495
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 11554
-  protocol: auth_aes128_md5
-  protocol-param: 285687:f0Lp5Kiqg4
-  server: iepl-zh.safetelescope.cc
-  tfo: false
-  type: ssr
+  uuid: 44e3430b-6abe-407a-9afe-49fc62ddb94c
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇯🇵 Japan 22 @nodpai
+  password: 876e3bc0-ee6e-4af5-8f8b-e0435053e7d4
+  port: 10113
+  server: jp-03.feitucloud.com
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -83,6 +42,40 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本 350
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇯🇵 Japan 24 @nodpai
+  password: 876e3bc0-ee6e-4af5-8f8b-e0435053e7d4
+  port: 10102
+  server: jp-02.feitucloud.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇯🇵 Japan 21 @nodpai
+  password: 876e3bc0-ee6e-4af5-8f8b-e0435053e7d4
+  port: 10101
+  server: jp-01.feitucloud.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5c2c9b20-60f8-4e91-9bdc-52e073f112f5
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -92,17 +85,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4c4428fd-344b-4799-8e0f-03c224ce3fee
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4c4428fd-344b-4799-8e0f-03c224ce3fee
+  uuid: 44e3430b-6abe-407a-9afe-49fc62ddb94c
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -119,6 +102,25 @@ proxies:
     headers:
       Host: tyo-v38.q5wrff7jtkdg23.top
     path: /
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本 319
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 8|🇯🇵 Japan 05 @nodpai
+  password: 8286412be9
+  port: 20443
+  server: bwg-jp-1823862.strongpipe.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 16d3e1c5f1
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT2|@ripaojiedian
@@ -137,6 +139,49 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5c2c9b20-60f8-4e91-9bdc-52e073f112f5
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 20 @nodpai
+  network: ws
+  port: '8443'
+  server: tyo-v38.q5wrff7jtkdg23.top
+  tls: true
+  type: vmess
+  uuid: 444602db-698c-49bd-b3b1-b171fb0543b9
+  ws-opts:
+    headers:
+      Host: tyo-v38.q5wrff7jtkdg23.top
+    path: /tyov38
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 44e3430b-6abe-407a-9afe-49fc62ddb94c
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5c2c9b20-60f8-4e91-9bdc-52e073f112f5
+- alterId: 0
+  cipher: auto
   name: 12|🇯🇵白嫖-061
   network: tcp
   port: 20081
@@ -145,13 +190,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 64
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 11554
+  protocol: auth_aes128_md5
+  protocol-param: 285687:f0Lp5Kiqg4
+  server: iepl-zh.safetelescope.cc
+  tfo: false
+  type: ssr
+- alterId: 0
   cipher: auto
-  name: 12|🇯🇵 日本 350
+  name: 12|🇯🇵白嫖-053
   network: tcp
-  port: 51801
-  server: 45.88.43.143
+  port: 1069
+  server: 152.69.197.60
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
