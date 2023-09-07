@@ -1,38 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com3
+  name: 7,8|🇭🇰 Hong Kong 21 @nodpai
   network: ws
-  port: 443
-  server: 219.76.13.183
-  tls: true
-  type: vmess
-  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
-  ws-opts:
-    path: /mp4
-- alterId: 0
-  cipher: auto
-  name: 6,18|🇭🇰_HK_香港
-  network: ws
-  port: 80
-  server: 103.160.204.12
+  port: '80'
+  server: zhuanfa.baiduvideos.online
   tls: false
   type: vmess
-  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+  uuid: 95252c48-c73b-4a1f-94d0-d351de9c50c8
   ws-opts:
     headers:
-      Host: 10.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e1caeaf4-fe80-4f77-a8dc-eeaa916d316d
+      Host: zhuanfa.baiduvideos.online
+    path: /11451
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -42,37 +21,17 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5e036a96-9b7c-46ec-a307-a0bcadd6f85c
+  uuid: f3f4f113-ef14-4831-b135-a18bedc76e3f
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港06
+  name: 9|🇭🇰香港04
   network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e1caeaf4-fe80-4f77-a8dc-eeaa916d316d
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5e036a96-9b7c-46ec-a307-a0bcadd6f85c
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5e036a96-9b7c-46ec-a307-a0bcadd6f85c
+  uuid: 28094404-5aa2-429f-b07a-0ad67197f362
 - alterId: 64
   cipher: auto
   name: 12|HK_speednode_0013
@@ -87,25 +46,6 @@ proxies:
     headers:
       Host: ''
     path: /path/1693908422941
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e1caeaf4-fe80-4f77-a8dc-eeaa916d316d
-- name: 8|🇭🇰 Hong Kong 01 @nodpai
-  password: 43b48c1412
-  port: 20443
-  server: pqs-hk-1.strongpipe.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: c0b15b8aea
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -124,14 +64,63 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8|🇭🇰 Hong Kong 33 @nodpai
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 28094404-5aa2-429f-b07a-0ad67197f362
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f3f4f113-ef14-4831-b135-a18bedc76e3f
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 28094404-5aa2-429f-b07a-0ad67197f362
+- name: 8|🇭🇰 Hong Kong 06 @nodpai
+  password: 43b48c1412
+  port: 20443
+  server: pqs-hk-1.strongpipe.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: c0b15b8aea
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f3f4f113-ef14-4831-b135-a18bedc76e3f
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰_HK_香港
   network: ws
-  port: '80'
-  server: zhuanfa.baiduvideos.online
+  port: 80
+  server: 103.160.204.12
   tls: false
   type: vmess
-  uuid: 13ddc7a0-869f-43cc-857e-cdf29cfbdd2a
+  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
   ws-opts:
     headers:
-      Host: zhuanfa.baiduvideos.online
-    path: /11451
+      Host: 10.wyhkaa0.gq
+    path: /TG:@hkaa0

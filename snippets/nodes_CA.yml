@@ -1,23 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e1caeaf4-fe80-4f77-a8dc-eeaa916d316d
-- alterId: 0
-  cipher: auto
-  name: '6,12|🇨🇦_CA_加拿大 #1'
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
+  name: 7,8|🇨🇦 Canada 90 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.212
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
 - alterId: 0
   cipher: auto
   name: 6,12|🇨🇦_CA_加拿大
@@ -33,6 +27,119 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
+  name: 7,8|🇨🇦 Canada 86 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.214
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 91 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.216
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: '6,12|🇨🇦_CA_加拿大 #1'
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 89 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.215
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 92 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.213
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 88 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.218
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 93 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.217
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 94 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.219
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 87 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.211
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -40,4 +147,14 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5e036a96-9b7c-46ec-a307-a0bcadd6f85c
+  uuid: f3f4f113-ef14-4831-b135-a18bedc76e3f
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 28094404-5aa2-429f-b07a-0ad67197f362
