@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '80'
+  server: ms.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  ws-opts:
+    headers:
+      Host: ms.shabijichang.com
+    path: /
