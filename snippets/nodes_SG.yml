@@ -1,53 +1,17 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.184.15
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ef40f028-01d5-4a0c-bc9a-aa382e2a9adf
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.255.178.208
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 42 @nodpai
+  name: 7,8|🇸🇬 Singapore 100 @nodpai
   network: ws
   port: '443'
-  server: free2.node.kk-proxy.pro
+  server: dashboard.autoly.ir
   tls: true
   type: vmess
-  uuid: 3614f053-0354-44df-8dc6-32dde2452c6f
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
     headers:
-      Host: free2.node.kk-proxy.pro
-    path: /ec3a017507e0/
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ef40f028-01d5-4a0c-bc9a-aa382e2a9adf
+      Host: dashboard.autoly.ir
+    path: /vsg1.0bad.com/chat
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
@@ -65,20 +29,30 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 882d3709-9225-4b5b-adbc-64ae6f777988
+  uuid: 91a2d966-7376-4f61-a1a7-2ccac0eeaac3
 - alterId: 0
   cipher: auto
-  name: 7,8|🇸🇬 Singapore 120 @nodpai
+  name: 7,8|🇸🇬 Singapore 189 @nodpai
   network: ws
   port: '443'
-  server: dashboard.autoly.ir
+  server: 172.67.181.226
   tls: true
   type: vmess
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
     headers:
-      Host: dashboard.autoly.ir
+      Host: ''
     path: /vsg1.0bad.com/chat
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: abebcf5a-13b6-4c68-92e4-5b191e05721e
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -97,6 +71,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 7,8|🇸🇬 Singapore 98 @nodpai
+  network: ws
+  port: '443'
+  server: 162.159.142.115
+  tls: true
+  type: vmess
+  uuid: 3614f053-0354-44df-8dc6-32dde2452c6f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ec3a017507e0/
+- alterId: 0
+  cipher: auto
   name: 12|SG_50 |42.06Mb
   network: ws
   port: 36788
@@ -109,32 +96,13 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 114 @nodpai
-  network: ws
-  port: '443'
-  server: 162.159.58.137
-  tls: true
-  type: vmess
-  uuid: 3614f053-0354-44df-8dc6-32dde2452c6f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ec3a017507e0/
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 233 @nodpai
-  network: ws
-  port: '443'
-  server: 5b2806f4-3361-4674-9acb-5574e54d3dec.xn--9kq12xdq7a.com
-  tls: true
-  type: vmess
-  uuid: caa995ed-86a9-4968-a332-9c11e7e13107
-  ws-opts:
-    headers:
-      Host: 5b2806f4-3361-4674-9acb-5574e54d3dec.xn--9kq12xdq7a.com
-    path: /
+- cipher: aes-256-cfb
+  name: 8,14|🇸🇬 Singapore 01 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 13.215.184.15
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -144,30 +112,15 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 882d3709-9225-4b5b-adbc-64ae6f777988
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 111 @nodpai
-  network: ws
-  port: '443'
-  server: 172.67.181.226
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vsg1.0bad.com/chat
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ef40f028-01d5-4a0c-bc9a-aa382e2a9adf
+  uuid: 91a2d966-7376-4f61-a1a7-2ccac0eeaac3
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡1|@ripaojiedian
+  password: 4712117e-ca95-411a-98e9-abd57667754e
+  port: 27101
+  server: foshan.chiguayun.cc
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG
@@ -177,4 +130,71 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 882d3709-9225-4b5b-adbc-64ae6f777988
+  uuid: 91a2d966-7376-4f61-a1a7-2ccac0eeaac3
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: abebcf5a-13b6-4c68-92e4-5b191e05721e
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: abebcf5a-13b6-4c68-92e4-5b191e05721e
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 185 @nodpai
+  network: ws
+  port: '443'
+  server: 172.64.229.129
+  tls: true
+  type: vmess
+  uuid: 3614f053-0354-44df-8dc6-32dde2452c6f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ec3a017507e0/
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 186 @nodpai
+  network: ws
+  port: '443'
+  server: 104.21.31.254
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vsg1.0bad.com/chat
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 32 @nodpai
+  network: ws
+  port: '443'
+  server: free2.node.kk-proxy.pro
+  tls: true
+  type: vmess
+  uuid: 3614f053-0354-44df-8dc6-32dde2452c6f
+  ws-opts:
+    headers:
+      Host: free2.node.kk-proxy.pro
+    path: /ec3a017507e0/
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.255.178.208
+  tfo: false
+  type: ss
