@@ -1,4 +1,129 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.171.191
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2be10db5-9b11-413d-a866-f5675d687bfb
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 141 @nodpai
+  network: ws
+  port: '80'
+  server: 172.67.45.210
+  tls: false
+  type: vmess
+  uuid: 59806dd4-c92e-424a-8713-9700e109edfb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2be10db5-9b11-413d-a866-f5675d687bfb
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 03 @nodpai
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708
+  ws-opts:
+    headers:
+      Host: fd.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇯🇵 Japan 81 @nodpai
+  network: tcp
+  port: '10080'
+  server: 172.105.222.161
+  tls: false
+  type: vmess
+  uuid: a82e7a29-8cc8-45fa-bb3c-2f321f9e2cd5
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 02 @nodpai
+  network: ws
+  port: '2082'
+  server: cf-test.q5wrff7jtkdg23.top
+  tls: false
+  type: vmess
+  uuid: 444602db-698c-49bd-b3b1-b171fb0543b9
+  ws-opts:
+    headers:
+      Host: cf-test.q5wrff7jtkdg23.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8aad14d4-c1cb-4f28-a631-cd4137d8e810
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 139 @nodpai
+  network: ws
+  port: '80'
+  server: 172.64.174.78
+  tls: false
+  type: vmess
+  uuid: 59806dd4-c92e-424a-8713-9700e109edfb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20014
+  server: 183.232.170.32
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -15,26 +140,6 @@ proxies:
     headers:
       Host: tyo-v38.q5wrff7jtkdg23.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ca198da2-1305-4674-91b3-ac0aea3bd92a
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cc5522c2-571e-4798-a6c2-5185a0c72342
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本 319
@@ -57,6 +162,53 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 12|🇯🇵白嫖-072
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 0
+  cipher: auto
+  name: 7,8,12,18|🇯🇵 Japan 14 @nodpai
+  network: ws
+  port: '8443'
+  server: tyo-v38.q5wrff7jtkdg23.top
+  tls: true
+  type: vmess
+  uuid: 444602db-698c-49bd-b3b1-b171fb0543b9
+  ws-opts:
+    headers:
+      Host: tyo-v38.q5wrff7jtkdg23.top
+    path: /tyov38
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8aad14d4-c1cb-4f28-a631-cd4137d8e810
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇯🇵 日本A|@ripaojiedian
+  network: ws
+  port: 20001
+  server: 221.131.165.180
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
+  ws-opts:
+    path: /soda
+- alterId: 0
+  cipher: auto
   name: 12|🇯🇵 _JP_日本_2_11@9
   network: tcp
   port: 41545
@@ -67,17 +219,26 @@ proxies:
   uuid: d47d7135-0954-46ab-a190-17b6c8630a85
 - alterId: 0
   cipher: auto
-  name: 7,8|🇯🇵 Japan 03 @nodpai
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  tls: false
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708
-  ws-opts:
-    headers:
-      Host: fd.shabijichang.com
-    path: /
+  uuid: 8aad14d4-c1cb-4f28-a631-cd4137d8e810
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 30005
+  server: 183.232.170.32
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本_0908006
@@ -106,130 +267,11 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 13|日本 05  | 1x JP
+  name: 9|🇯🇵日本06
   network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc5522c2-571e-4798-a6c2-5185a0c72342
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20014
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵白嫖-053
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: aes-256-cfb
-  name: 8|🇯🇵 Japan 01 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 52.194.185.11
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8,12,18|🇯🇵 Japan 10 @nodpai
-  network: ws
-  port: '8443'
-  server: tyo-v38.q5wrff7jtkdg23.top
-  tls: true
-  type: vmess
-  uuid: 444602db-698c-49bd-b3b1-b171fb0543b9
-  ws-opts:
-    headers:
-      Host: tyo-v38.q5wrff7jtkdg23.top
-    path: /tyov38
-- cipher: aes-256-cfb
-  name: 8,14|🇯🇵 Japan 05 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 43.207.171.191
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 30005
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇯🇵 日本A|@ripaojiedian
-  network: ws
-  port: 20001
-  server: 221.131.165.180
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
-  ws-opts:
-    path: /soda
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵白嫖-072
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ca198da2-1305-4674-91b3-ac0aea3bd92a
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ca198da2-1305-4674-91b3-ac0aea3bd92a
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cc5522c2-571e-4798-a6c2-5185a0c72342
+  uuid: 2be10db5-9b11-413d-a866-f5675d687bfb
