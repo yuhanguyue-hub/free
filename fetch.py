@@ -903,7 +903,8 @@ def main():
             if ctg in ctg_disp:
                 disp = ctg_base.copy()
                 disp['name'] = ctg_disp[ctg]
-                disp['proxies'] = [_['name'] for _ in payload]
+                if not payload: disp['proxies'] = ['REJECT']
+                else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
     with open("list.yml", 'w', encoding="utf-8") as f:
