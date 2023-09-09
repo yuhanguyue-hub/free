@@ -1,43 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦加拿大7丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.142.217
-  tls: false
-  type: vmess
-  uuid: 65b2cf63-a998-417f-88df-8e1c4ff27a98
-  ws-opts:
-    headers:
-      Host: ca3.mybestjj.com
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦_CA_加拿大_2_43
+  name: 6|🇨🇦_CA_加拿大
   network: ws
   port: 443
-  server: dongtaiwang3.com
+  server: 23.227.38.82
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
       Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 60
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
@@ -51,36 +24,17 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 40fb3c13-aa71-4322-b894-e621f4176406
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8639ba21-674a-452b-9816-c151ae14ee93
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇦_CA_加拿大
+  name: 12|🇨🇦 加拿大 60
   network: ws
   port: 443
-  server: 23.227.38.82
+  server: 23.227.39.109
+  servername: ''
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
+      Host: 3.freek1.xyz
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
@@ -98,14 +52,34 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_41
+  name: 12|🇨🇦加拿大7丨电报群@bp520
   network: ws
-  port: 443
-  server: 23.227.39.82
-  tls: true
+  port: '80'
+  server: 162.159.142.217
+  tls: false
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 65b2cf63-a998-417f-88df-8e1c4ff27a98
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: ca3.mybestjj.com
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ab85a799-9bd0-4acc-8aec-502761a14038
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c0df7c15-3efa-47cc-ad23-b74b2ea589f8
