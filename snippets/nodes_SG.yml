@@ -1,14 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 12|🇸🇬 SG(AzadNet.t.me)_022
-  network: tcp
-  port: 55264
-  server: 202.79.174.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG
@@ -18,7 +8,15 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee
+  uuid: 6460b9ef-31ce-4258-8a16-d4e121e1e14d
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.169.127.65
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -28,17 +26,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8
+  uuid: 6460b9ef-31ce-4258-8a16-d4e121e1e14d
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -48,21 +36,13 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee
+  uuid: 6460b9ef-31ce-4258-8a16-d4e121e1e14d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
+  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.215.184.15
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.169.127.65
+  server: 54.255.178.208
   tfo: false
   type: ss
 - alterId: 0
@@ -81,16 +61,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -98,20 +68,42 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡1|@ripaojiedian
-  password: 4712117e-ca95-411a-98e9-abd57667754e
-  port: 27101
-  server: foshan.chiguayun.cc
-  tfo: false
-  type: ss
+  uuid: 678758d1-8fce-4dd0-a970-36052a3f092d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.255.178.208
+  server: 13.215.184.15
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 678758d1-8fce-4dd0-a970-36052a3f092d
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 678758d1-8fce-4dd0-a970-36052a3f092d
+- alterId: 64
+  cipher: auto
+  name: 12|🇸🇬 SG(AzadNet.t.me)_022
+  network: tcp
+  port: 55264
+  server: 202.79.174.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
