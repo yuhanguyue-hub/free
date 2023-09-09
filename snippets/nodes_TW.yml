@@ -8,7 +8,50 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 33dc70a7-d2e0-4bd8-ac3c-8fb738da2152
+  uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8
+- alterId: 0
+  cipher: auto
+  name: 12|🇹🇼 Taiwan 18 @nodpai
+  network: ws
+  port: '18804'
+  server: xiongda006.daxiongda.top
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: xiongda006.daxiongda.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾独家|@ripaojiedian
@@ -27,16 +70,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 33dc70a7-d2e0-4bd8-ac3c-8fb738da2152
-- alterId: 0
-  cipher: auto
   name: 13|台湾 04  | 1x TWN
   network: tcp
   port: '31301'
@@ -44,17 +77,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1b2fb5bb-18b2-4fe3-9932-bb38b5b2d8a9
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1b2fb5bb-18b2-4fe3-9932-bb38b5b2d8a9
+  uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -64,14 +87,4 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 33dc70a7-d2e0-4bd8-ac3c-8fb738da2152
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1b2fb5bb-18b2-4fe3-9932-bb38b5b2d8a9
+  uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8
