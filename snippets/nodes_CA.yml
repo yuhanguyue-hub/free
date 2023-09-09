@@ -1,80 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_CA_加拿大_nodpai
+  name: 12,18|🇨🇦加拿大【YouTube-由零開始】
   network: ws
-  port: '80'
-  server: mtlr.shabijichang.com
+  port: '443'
+  server: 23.227.39.82
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦_CA_加拿大_2_2@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
-  ws-opts:
-    headers:
-      Host: mtlr.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 Canada 02 @nodpai
-  network: ws
-  port: '80'
-  server: dld.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: dld.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6460b9ef-31ce-4258-8a16-d4e121e1e14d
-- alterId: 0
-  cipher: auto
-  name: '12,18|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12,14,15,18|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -84,17 +32,59 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 678758d1-8fce-4dd0-a970-36052a3f092d
+  uuid: 6ff7e42f-5342-44f8-8a19-1c992a29eb8b
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_1@11
+  name: 13|加拿大 02 | 1x CA
   network: tcp
-  port: 22324
-  server: 198.57.27.212
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e2ac97d0-fbfa-46a1-b454-9f148bc48570
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大_0908004 2
+  network: ws
+  port: 80
+  server: cloudqwq.cf
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
+  ws-opts:
+    headers:
+      Host: nl10gbps.6577617.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦_CA_加拿大_kxswa
+  network: ws
+  port: '443'
+  server: 23.227.39.109
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 12,14,15,18|🇨🇦 加拿大 20
+  network: ws
+  port: 443
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 54
@@ -111,15 +101,14 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大_0908004 2
+  name: 6,12|🇨🇦_CA_加拿大
   network: ws
-  port: 80
-  server: cloudqwq.cf
-  servername: ''
-  tls: false
+  port: 443
+  server: 23.227.38.82
+  tls: true
   type: vmess
-  uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
-      Host: nl10gbps.6577617.xyz
-    path: /
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
