@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|FR_speednode_0004
+  name: 11|FR_speednode_0004
   network: ws
   port: 80
   server: 57.128.173.208
@@ -12,4 +12,32 @@ proxies:
   ws-opts:
     headers:
       Host: uk2-vmess.greenssh.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '11|🇫🇷_FR_法国_ConfigsHub #1'
+  network: ws
+  port: '443'
+  server: 104.16.224.68
+  servername: rodican08vm.mr-radwan-daoud.de
+  tls: true
+  type: vmess
+  uuid: 5d0565b2-1af2-406a-92cd-da3575374958
+  ws-opts:
+    headers:
+      Host: rodican08vm.mr-radwan-daoud.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 11|🇫🇷_FR_法国_ConfigsHub
+  network: ws
+  port: '80'
+  server: 104.31.16.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9b66f5c7-cc71-4b72-8ad7-d136c1e95f71
+  ws-opts:
+    headers:
+      Host: fr1vm.cdn-03.live
     path: /vmess
