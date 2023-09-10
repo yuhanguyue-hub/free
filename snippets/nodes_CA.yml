@@ -1,6 +1,70 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 6,12|🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦_CA_加拿大_09
+  network: ws
+  port: '443'
+  server: 23.227.39.82
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: mtlr.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  ws-opts:
+    headers:
+      Host: mtlr.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|CA_youtube@资源分享师_69
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b0485cb2-9437-4358-a8d1-2fa2ba3db09d
+- alterId: 0
+  cipher: auto
   name: 12|CA_youtube@资源分享师_55
   network: ws
   port: '443'
@@ -15,34 +79,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 60
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12|CA 5 → tg@nicevpn123
+  name: 12|CA 16 → tg@nicevpn123
   network: tcp
   port: '22324'
   server: 198.57.27.212
@@ -51,14 +88,17 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 12|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '80'
+  server: dld.shabijichang.com
+  tls: false
   type: vmess
-  uuid: 357093f4-d2af-4a28-bc3b-ac031d29b4f6
+  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  ws-opts:
+    headers:
+      Host: dld.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -68,4 +108,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fad98b87-3ef9-4a33-9674-a61f24e139e0
+  uuid: e381352b-257d-4b52-992a-478320c15680
