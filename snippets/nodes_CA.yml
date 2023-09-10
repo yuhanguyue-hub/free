@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5,9,11|🇨🇦_CA_加拿大
+  name: 6,10,11,12|🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: dongtaiwang2.com
@@ -14,26 +14,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 66e354b3-4642-410c-b7ad-22fd43230c39
-- alterId: 0
-  cipher: auto
-  name: 11|CA 8 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 11|🇨🇦_CA_加拿大_ConfigsHub
+  name: 12|🇨🇦_CA_加拿大_ConfigsHub
   network: ws
   port: '80'
   server: us01.runba.gq
@@ -47,8 +28,18 @@ proxies:
     path: /v1893298323Py
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,5,11|_CA_加拿大
+  name: 1,2,3,4,6,12|_CA_加拿大
   network: ws
   port: 443
   server: 23.227.38.82
@@ -64,17 +55,17 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 8|🇨🇦加拿大04
+  name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
   server: 5c1a04.abzoones.xyz
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9c7092c-d331-489b-958f-1ca239db74d9
+  uuid: a3ad26fd-df1f-4c4f-9f8c-44aa559b3fa5
 - alterId: 0
   cipher: auto
-  name: 11|🇨🇦 _CA_加拿大
+  name: 12|🇨🇦 _CA_加拿大
   network: ws
   port: 443
   server: 23.227.38.81
@@ -86,3 +77,12 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 12|CA 8 → tg@nicevpn123
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
