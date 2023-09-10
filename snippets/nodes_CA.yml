@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 6,10,11,12|🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: dongtaiwang2.com
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 1,2,3,4,6|_CA_加拿大
   network: ws
@@ -18,10 +31,10 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 12|CA_youtube@资源分享师_55
+  name: 12|🇨🇦加拿大【YouTube-由零開始】
   network: ws
   port: '443'
-  server: 23.227.38.81
+  server: 23.227.39.82
   servername: ''
   tls: true
   type: vmess
@@ -39,48 +52,16 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d4ceb8a0-4de4-4584-90d0-9800c7594550
+  uuid: 5d65f60f-844b-449d-9a63-584b26c7f2f6
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_CA_加拿大_09
-  network: ws
-  port: '443'
-  server: 23.227.39.82
-  servername: ''
-  tls: true
+  name: 12|CA 4 → tg@nicevpn123
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大_Telegram@kxswa
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 6,10,11,12|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: dongtaiwang2.com
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -90,13 +71,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f86adf8f-3ab6-446b-bd65-d496b674fea5
-- alterId: 0
-  cipher: auto
-  name: 12|CA 17 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 0ad8084e-8b76-44bb-b28a-4cc8514c9200
