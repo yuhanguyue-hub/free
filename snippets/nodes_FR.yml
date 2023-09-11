@@ -1,6 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7|🇫🇷 France 01 @nodpai
+  network: tcp
+  port: '2096'
+  server: 185.226.118.142
+  tls: true
+  type: vmess
+  uuid: b0c73ff3-7986-46a9-868c-2a5936c9d8df
+- alterId: 0
+  cipher: auto
+  name: 7|🇫🇷 France 02 @nodpai
+  network: tcp
+  port: '2096'
+  server: dr3.drnet.pw
+  tls: true
+  type: vmess
+  uuid: b0c73ff3-7986-46a9-868c-2a5936c9d8df
+- alterId: 0
+  cipher: auto
   name: 12|FR_speednode_0004
   network: ws
   port: 80
@@ -13,30 +31,3 @@ proxies:
     headers:
       Host: uk2-vmess.greenssh.xyz
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 12|🇫🇷_FR_法国_ConfigsHub
-  network: ws
-  port: '80'
-  server: v101.runba.gq
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: v101.runba.gq
-    path: /frfrxxx0fk832v101N
-- alterId: 0
-  cipher: auto
-  name: 7,8,12|🇫🇷 France 03 @nodpai
-  network: ws
-  port: '994'
-  server: 87.107.105.161
-  tls: false
-  type: vmess
-  uuid: ccc32f92-0509-46ff-bbed-e5d03b0c496d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
