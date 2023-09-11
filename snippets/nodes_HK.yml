@@ -1,40 +1,50 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6,10|🇭🇰_HK_香港
+  name: 6|🇭🇰_HK_香港
   network: ws
-  port: 2052
-  server: 103.160.204.63
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰 _HK_香港
-  network: ws
-  port: '80'
-  server: 103.160.204.8
-  tls: false
-  type: vmess
-  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
-  ws-opts:
-    headers:
-      Host: 10.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: 443
+  server: hk01.isddns.tk
   tls: true
   type: vmess
-  uuid: a3ad26fd-df1f-4c4f-9f8c-44aa559b3fa5
+  uuid: 2a898bd8-c0d1-4f7d-a88e-831d5682a9b9
+  ws-opts:
+    headers:
+      Host: hk01.isddns.tk
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇭🇰 Hong Kong 03 @nodpai
+  network: ws
+  port: '80'
+  server: hongkong1145141.baiduvideos.online
+  tls: false
+  type: vmess
+  uuid: 95252c48-c73b-4a1f-94d0-d351de9c50c8
+  ws-opts:
+    headers:
+      Host: hongkong1145141.baiduvideos.online
+    path: /11451
+- alterId: 0
+  cipher: auto
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 89671ff5-e3fb-47cd-9cf4-7460c72306aa
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e54f07a1-ae69-4039-83f9-9c7137fcd828
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -53,29 +63,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
-- alterId: 0
-  cipher: auto
-  name: 7,8,18|🇭🇰 Hong Kong 01 @nodpai
-  network: ws
-  port: '8080'
-  server: hk2.mianfenyun012.eu.org
-  tls: false
-  type: vmess
-  uuid: a04922f6-5766-49ba-d9fb-8aba40f49277
-  ws-opts:
-    headers:
-      Host: hk2.mianfenyun012.eu.org
-    path: /jdbp606
-- alterId: 0
-  cipher: auto
   name: 9|🇭🇰香港05
   network: tcp
   port: '36606'
@@ -83,27 +70,17 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a3ad26fd-df1f-4c4f-9f8c-44aa559b3fa5
+  uuid: e54f07a1-ae69-4039-83f9-9c7137fcd828
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04
+  name: 13|香港 04 | 1x HK
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a3ad26fd-df1f-4c4f-9f8c-44aa559b3fa5
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
+  uuid: 89671ff5-e3fb-47cd-9cf4-7460c72306aa
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -113,4 +90,28 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
+  uuid: 89671ff5-e3fb-47cd-9cf4-7460c72306aa
+- alterId: 0
+  cipher: auto
+  name: 12|HK_speednode_0057
+  network: ws
+  port: 888
+  server: wnnsu-1095-v2-1.d-hkt.ddll.bond
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e54f07a1-ae69-4039-83f9-9c7137fcd828
