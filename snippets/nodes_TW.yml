@@ -1,14 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
+  name: 9|🇹🇼台湾05
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 62d7da88-0c9f-44a8-a9e8-ed4211c16085
+  uuid: 5bdd5432-eb28-4de9-a72e-60e96973607f
+- alterId: 0
+  cipher: auto
+  name: 12|TG@mfbpn-🇹🇼 台湾A 流媒体
+  network: tcp
+  port: 10004
+  server: tg_mfbpn_g1.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -18,17 +28,7 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 62d7da88-0c9f-44a8-a9e8-ed4211c16085
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9987eb10-68ce-450f-91f3-190087a7ec49
+  uuid: 5bdd5432-eb28-4de9-a72e-60e96973607f
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -38,7 +38,63 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9987eb10-68ce-450f-91f3-190087a7ec49
+  uuid: 7263de0f-a12c-4b99-a0f6-0b7b70c6edae
+- alterId: 0
+  cipher: auto
+  name: 12|TG@mfbpn-🇹🇼 台湾B 流媒体
+  network: tcp
+  port: 30105
+  server: tg_mfbpn_g1.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7263de0f-a12c-4b99-a0f6-0b7b70c6edae
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5bdd5432-eb28-4de9-a72e-60e96973607f
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇹🇼 Taiwan 01 @nodpai
+  network: ws
+  port: '443'
+  server: tw99-hinet.mynodes001.one
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: tw99-hinet.mynodes001.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇹🇼 Taiwan 03 @nodpai
+  network: ws
+  port: '443'
+  server: tw98-1g-hinet.mytls888.com
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: tw98-1g-hinet.mytls888.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|台湾 05  | 1x TWN
@@ -48,14 +104,4 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9987eb10-68ce-450f-91f3-190087a7ec49
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 62d7da88-0c9f-44a8-a9e8-ed4211c16085
+  uuid: 7263de0f-a12c-4b99-a0f6-0b7b70c6edae
