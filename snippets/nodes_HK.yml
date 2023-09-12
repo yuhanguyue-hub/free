@@ -1,38 +1,72 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 8|「蛋挞云,超低价格,超高体验」🇭🇰 HK 02
-  password: 9fd64577-a47a-4a3d-aecb-bff065d3949f
-  port: 42291
-  server: zfhk.magicby.top
+- cipher: aes-128-gcm
+  name: 8|「蛋挞云,超低价格,超高体验」🇭🇰 HK 04
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55108
+  server: 36.137.19.45
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇭...
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55104
+  server: 36.137.19.45
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,11|🇭🇰 _HK_香港
+  name: 15|香港B|@ripaojiedian
   network: ws
-  port: '80'
-  server: 103.160.204.8
-  tls: false
+  port: '55455'
+  server: hkt.123ddns.xyz
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
   ws-opts:
     headers:
-      Host: 10.wyhkaa0.gq
-    path: /TG:@hkaa0
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9987eb10-68ce-450f-91f3-190087a7ec49
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 62d7da88-0c9f-44a8-a9e8-ed4211c16085
 - cipher: aes-128-gcm
-  name: 8|🇭🇰 Hong Kong 20 @nodpai
-  password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa
-  port: 32602
-  server: zzzz.meiyiss.club
+  name: 8|「蛋挞云,流媒体全解锁」🇭🇰 HK 02
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55107
+  server: 36.137.19.45
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 8|🇭🇰 Hong Kong 13 @nodpai
-  password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa
-  port: 32603
-  server: zzzz.meiyiss.club
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇭🇰 Hong Kong 11 @nodpai
+  network: ws
+  port: '55455'
+  server: 42.3.68.39
+  tls: true
+  type: vmess
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -42,41 +76,20 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 195accdb-4d21-4101-8330-fd2370787f6e
+  uuid: 62d7da88-0c9f-44a8-a9e8-ed4211c16085
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  name: 7,8,14|🇭🇰 Hong Kong 13 @nodpai
+  network: ws
+  port: '55455'
+  server: hkt.123ddns.xyz
   tls: true
   type: vmess
-  uuid: ee8e6f05-721f-4587-9bc5-26f993f1433b
-- cipher: aes-128-gcm
-  name: 8|🇭🇰 Hong Kong 19 @nodpai
-  password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa
-  port: 32601
-  server: zzzz.meiyiss.club
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 195accdb-4d21-4101-8330-fd2370787f6e
-- cipher: chacha20-ietf-poly1305
-  name: 8|「节点冠名招商 @nodpai」🇭🇰 HK 01
-  password: 9fd64577-a47a-4a3d-aecb-bff065d3949f
-  port: 29148
-  server: zfhk.magicby.top
-  type: ss
-  udp: true
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: hkt.123ddns.xyz
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -90,19 +103,29 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 8.210.112.68
+  server: 8.210.119.75
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
+  name: 0,1,2,3,4,10,11|🇭🇰 _HK_香港
+  network: ws
+  port: '80'
+  server: 103.160.204.8
+  tls: false
   type: vmess
-  uuid: ee8e6f05-721f-4587-9bc5-26f993f1433b
+  uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+  ws-opts:
+    headers:
+      Host: 10.wyhkaa0.gq
+    path: /TG:@hkaa0
+- cipher: aes-128-gcm
+  name: 8|「节点冠名招商 @nodpai」🇭🇰 HK 01
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55101
+  server: 36.137.19.45
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -112,14 +135,34 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee8e6f05-721f-4587-9bc5-26f993f1433b
+  uuid: 9987eb10-68ce-450f-91f3-190087a7ec49
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港06
+  name: 9|🇭🇰香港04
   network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 195accdb-4d21-4101-8330-fd2370787f6e
+  uuid: 62d7da88-0c9f-44a8-a9e8-ed4211c16085
+- client-fingerprint: chrome
+  name: 1,8,14|_HK_香港
+  password: 3febb05ea76a940f
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9987eb10-68ce-450f-91f3-190087a7ec49
