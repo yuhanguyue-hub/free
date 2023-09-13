@@ -1,30 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a4465820-155a-4472-8e46-2bf2e1421c5c
-- alterId: 0
-  cipher: auto
-  name: '6|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: '0,6|🇨🇦 _CA_加拿大 #1'
+  name: '0,6,10|🇨🇦 _CA_加拿大 #1'
   network: ws
   port: '443'
   server: 23.227.38.81
@@ -35,6 +12,26 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4071a76e-bbef-44b6-ae42-d12d36ffbafa
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 12|Canada OVH
+  network: tcp
+  port: '443'
+  server: sw-15.235.45.203.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb713638-ec89-49e5-8358-b00a472f788e
 - alterId: 0
   cipher: auto
   name: 0|🇨🇦 _CA_加拿大
@@ -60,30 +57,33 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f5e58bc1-fe51-4560-8cf7-1a37fb573302
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 12|Canada OVH
-  network: tcp
-  port: '443'
-  server: sw-15.235.45.203.nip.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eb713638-ec89-49e5-8358-b00a472f788e
-- alterId: 0
-  cipher: auto
   name: 6|🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ba09c242-9cbb-4dc6-821e-8004ed2ca151
+- alterId: 0
+  cipher: auto
+  name: '6|🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 443
+  server: 23.227.39.82
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
