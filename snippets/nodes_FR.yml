@@ -1,18 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11,12|法国国际航空电讯集团公司(SITA) 8
+  name: 7,8,12|🇫🇷 France 03 @nodpai
   network: ws
   port: '80'
-  server: 57.128.173.208
-  servername: ''
+  server: bl.shabijichang.com
   tls: false
   type: vmess
-  uuid: 4e66e7d6-bab0-403d-8ab2-6397090d3612
+  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
   ws-opts:
     headers:
-      Host: uk2-vmess.greenssh.xyz
-    path: /vmess
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_180
@@ -26,16 +25,24 @@ proxies:
     headers:
       Host: www.16046626.xyz
     path: /path/1694341232847
+- cipher: aes-128-gcm
+  name: 8|🇫🇷 France 01 @nodpai
+  password: bd635d43-a7a0-45c9-9495-1fae813f96b7
+  port: 32807
+  server: zzzz.meiyiss.club
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|🇫🇷 France 01 @nodpai
+  name: 10,12|法国国际航空电讯集团公司(SITA) 8
   network: ws
   port: '80'
-  server: bl.shabijichang.com
+  server: 57.128.173.208
+  servername: ''
   tls: false
   type: vmess
-  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  uuid: 4e66e7d6-bab0-403d-8ab2-6397090d3612
   ws-opts:
     headers:
-      Host: bl.shabijichang.com
-    path: /
+      Host: uk2-vmess.greenssh.xyz
+    path: /vmess
