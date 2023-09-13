@@ -1,38 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04
+  name: 9|🇭🇰香港06
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e2d8cb1f-5632-4e20-b571-de46c6d18287
-- client-fingerprint: chrome
-  name: 1,8,14|_HK_香港
-  password: 3febb05ea76a940f
-  port: 3306
-  server: 45.11.104.94
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  tfo: false
-  type: trojan
-  udp: true
+  uuid: a4465820-155a-4472-8e46-2bf2e1421c5c
 - alterId: 0
   cipher: auto
-  name: 12,14|🇭🇰 15|香港B|@ripaojiedian
-  network: ws
-  port: 55455
-  server: hkt.123ddns.xyz
-  servername: ''
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  ws-opts:
-    headers:
-      Host: hkt.123ddns.xyz
-    path: /
+  uuid: f5e58bc1-fe51-4560-8cf7-1a37fb573302
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f5e58bc1-fe51-4560-8cf7-1a37fb573302
 - alterId: 0
   cipher: auto
   name: 15|香港B|@ripaojiedian
@@ -47,24 +43,28 @@ proxies:
     headers:
       Host: ''
     path: /
+- client-fingerprint: chrome
+  name: 1,8,14|_HK_香港
+  password: 3febb05ea76a940f
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c7862205-1e8b-470b-8d36-29f575f5dcac
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,10|🇭🇰 _HK_香港
+  client-fingerprint: chrome
+  name: 1,2,3,4,10|_HK_香港 2
   network: ws
-  port: '80'
+  port: 80
   server: 103.160.204.8
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
   ws-opts:
     headers:
@@ -72,33 +72,28 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 7|「节点冠名招商 @nodpai」🇭🇰 HK 01
+  name: 9|🇭🇰香港05
   network: tcp
-  port: '64099'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e2d8cb1f-5632-4e20-b571-de46c6d18287
+  uuid: a4465820-155a-4472-8e46-2bf2e1421c5c
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
+  name: 12,14|🇭🇰 15|香港B|@ripaojiedian
+  network: ws
+  port: 55455
+  server: hkt.123ddns.xyz
+  servername: ''
   tls: true
   type: vmess
-  uuid: c7862205-1e8b-470b-8d36-29f575f5dcac
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: hkt.123ddns.xyz
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -117,6 +112,16 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 12|TG@mfbpn-🇭🇰 1香港D
+  network: tcp
+  port: 30104
+  server: tg_mfbpn_g1.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f
+- alterId: 0
+  cipher: auto
   name: 13|香港 06 | 1x HK
   network: tcp
   port: '31611'
@@ -124,14 +129,14 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c7862205-1e8b-470b-8d36-29f575f5dcac
+  uuid: f5e58bc1-fe51-4560-8cf7-1a37fb573302
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港05
+  name: 9|🇭🇰香港04
   network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e2d8cb1f-5632-4e20-b571-de46c6d18287
+  uuid: a4465820-155a-4472-8e46-2bf2e1421c5c
