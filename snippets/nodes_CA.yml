@@ -1,9 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,6,11,12|🇨🇦 _CA_加拿大 #1'
+  name: 0,12|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
+  server: 23.227.38.80
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 6,11,12|🇨🇦_CA_加拿大
+  network: ws
+  port: 443
   server: 23.227.38.81
   tls: true
   type: vmess
@@ -12,6 +25,29 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 7,8,12|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '80'
+  server: dld.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  ws-opts:
+    headers:
+      Host: dld.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2c8aaf4b-8206-4ec2-97ab-08b981663b3b
 - alterId: 0
   cipher: aes-128-gcm
   name: 12|Canada OVH
@@ -24,16 +60,54 @@ proxies:
   uuid: eb713638-ec89-49e5-8358-b00a472f788e
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 02 @nodpai
+  name: '12|Channel id: @ShadowProxy66🇨🇦'
   network: ws
-  port: '80'
-  server: dld.shabijichang.com
+  port: '2052'
+  server: 104.27.19.105
+  servername: ''
   tls: false
   type: vmess
-  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  uuid: 345d8dde-084b-478e-aa8d-5fb062652889
   ws-opts:
     headers:
-      Host: dld.shabijichang.com
+      Host: de2.biqibao.site
+    path: /public?ed=4096
+- alterId: 0
+  cipher: auto
+  name: '0,12|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e5f177f2-e0f1-488c-a126-115f54a367e8
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 CA(AzadNet.t.me)_004
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -51,84 +125,10 @@ proxies:
     path: /myblog
 - alterId: 0
   cipher: auto
-  name: 0|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 23.227.38.80
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: '6,12|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
+  name: 12|CA 14 → tg@nicevpn123
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ad9ff442-39f8-43f5-a043-af3bfce01123
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_6@11
-  network: tcp
-  port: 22324
+  port: '22324'
   server: 198.57.27.212
-  servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bce41b48-9688-4fbd-8579-11c220eb7cd3
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 CA(AzadNet.t.me)_004
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
