@@ -1,20 +1,6 @@
 proxies:
 - alterId: 1
   cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
-  network: ws
-  port: 443
-  server: ophelia.mom
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- alterId: 1
-  cipher: auto
   name: 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
   network: ws
   port: 443
@@ -29,10 +15,10 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 0,12|🇨🇦 _CA_加拿大
+  name: 6,12,18|🇨🇦_CA_加拿大
   network: ws
-  port: '443'
-  server: 23.227.38.80
+  port: 443
+  server: 23.227.38.81
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -40,30 +26,6 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
-  network: ws
-  port: 443
-  server: waynn.makeup
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1027c0ee-9e80-4312-ae51-e624c85f321a
 - alterId: 0
   cipher: auto
   name: '0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1'
@@ -77,6 +39,16 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 92aa7bc2-9fe6-4670-a6dd-e523e7997dfa
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -107,6 +79,32 @@ proxies:
     headers:
       Host: 108.181.10.17
     path: /
+- alterId: 0
+  cipher: auto
+  name: 0,12|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.38.80
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦_加拿大_fd_232
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
+    path: /
 - alterId: 1
   cipher: auto
   name: 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
@@ -133,37 +131,39 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 425e6b48-b7da-4d3a-9ae2-ab7e89e7db21
-- alterId: 0
-  cipher: auto
-  name: 6,10,12|🇨🇦_CA_加拿大
+  name: 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
   network: ws
   port: 443
-  server: 23.227.38.81
+  server: waynn.makeup
+  servername: ''
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: ''
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+  network: ws
+  port: 443
+  server: ophelia.mom
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_加拿大_fd_232
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  tls: false
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
+  uuid: f79f25de-f837-4ea4-9f39-625cf67cfc13
