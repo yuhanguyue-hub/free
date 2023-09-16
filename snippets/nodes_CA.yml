@@ -1,27 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 336e3fed-6ca7-4d99-bf3e-d1519d55d4d9
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: dd3c4bcf-21c4-48ec-8aae-0c814c1ae5ac
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦_CA_加拿大_fd_127
+  name: 12|🇨🇦_CA_fd_169
   network: ws
   port: 80
   server: ca1-vmess.greenssh.xyz
@@ -34,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 17|🇨🇦_CA_加拿大_2_24
+  name: 18|🇨🇦_CA_加拿大_2_24
   network: ws
   port: 443
   server: dongtaiwang3.com
@@ -47,7 +27,27 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 17|🇨🇦_CA_加拿大_3_3由快嘴科技提供：kkzui.com
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 6d519343-2e11-4ca9-acd3-3dcd1d00548c
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 87a9a4a5-dbfc-4d2c-a531-1d47927d6019
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦_CA_加拿大_3_3由快嘴科技提供：kkzui.com
   network: ws
   port: 443
   server: 23.227.39.82
@@ -60,7 +60,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 17|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_15
+  name: 18|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_15
   network: ws
   port: 443
   server: 23.227.38.82
