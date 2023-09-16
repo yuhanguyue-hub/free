@@ -1,26 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4ffcb000-b6fb-4ac4-a741-9bd76cd9d779
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4ffcb000-b6fb-4ac4-a741-9bd76cd9d779
-- alterId: 0
-  cipher: auto
   name: 9|🇹🇼台湾04
   network: tcp
   port: '36301'
@@ -28,27 +8,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4ffcb000-b6fb-4ac4-a741-9bd76cd9d779
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8018eea8-deda-4787-b2a1-622bd0b7fafc
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8018eea8-deda-4787-b2a1-622bd0b7fafc
+  uuid: 2d24daaa-8417-4688-9ec1-46fb02648aa7
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -58,4 +18,53 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8018eea8-deda-4787-b2a1-622bd0b7fafc
+  uuid: 638e8108-cc12-446c-a676-d91f290565cc
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2d24daaa-8417-4688-9ec1-46fb02648aa7
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 638e8108-cc12-446c-a676-d91f290565cc
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2d24daaa-8417-4688-9ec1-46fb02648aa7
+- client-fingerprint: chrome
+  name: 1,8,14|🇹🇼 _TW_台湾
+  password: d02058f4f819dced
+  port: 3306
+  server: 60.248.114.188
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 638e8108-cc12-446c-a676-d91f290565cc
