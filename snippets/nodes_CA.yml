@@ -8,7 +8,16 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87853f11-6ace-43ff-bbc1-2996265c86b1
+  uuid: 4b4dd89a-4f32-4cc4-b47d-8e863ae1036f
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇨🇦 Canada 02 @nodpai
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -18,28 +27,11 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 893aa400-df12-4a1c-9566-f6c53720f56b
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_10@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 12|CA_speednode_0001
-  network: ws
-  port: 18424
-  server: 192.18.158.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 241bc445-af22-490f-d68b-5d92ebf295f8
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /ONHIT
+  uuid: b886af4e-1ca8-4a65-922d-6db70825f50a
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇨🇦 Canada 01 @nodpai
+  password: xkud5hn
+  port: 80
+  server: 158.69.122.231
+  type: ss
+  udp: true
