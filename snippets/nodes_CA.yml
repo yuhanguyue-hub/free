@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b2ca16bb-9c63-4245-9e28-60c675c6f082
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -18,28 +8,50 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: aa758d52-d296-4559-bd4c-927698017063
+  uuid: 340647a6-bd30-441b-aa98-daf9be5bf8bc
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_10@11
+  name: 13|加拿大 02 | 1x CA
   network: tcp
-  port: 22324
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f2b2dee7-6b90-4582-9821-67b852794990
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇨🇦 Canada 01 @nodpai
+  password: xkud5hn
+  port: 80
+  server: 158.69.122.231
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇨🇦 Canada 03 @nodpai
+  network: tcp
+  port: '22324'
   server: 198.57.27.212
-  servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 12|CA_speednode_0001
+  name: 12|CA 4 → tg@nicevpn123
   network: ws
-  port: 18424
-  server: 192.18.158.46
-  servername: ''
+  port: '80'
+  server: ca1-vmess.greenssh.xyz
   tls: false
   type: vmess
-  uuid: 241bc445-af22-490f-d68b-5d92ebf295f8
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
   ws-opts:
     headers:
-      Host: media-exp1.licdn.com
-    path: /ONHIT
+      Host: ca1-vmess.greenssh.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇨🇦 Canada 02 @nodpai
+  password: xkud5hn
+  port: 80
+  server: ak1819.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+  udp: true
