@@ -1,26 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b886af4e-1ca8-4a65-922d-6db70825f50a
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4b4dd89a-4f32-4cc4-b47d-8e863ae1036f
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
   network: ws
@@ -35,34 +15,14 @@ proxies:
     path: /b12
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
+  name: 9|🇹🇼台湾05
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4b4dd89a-4f32-4cc4-b47d-8e863ae1036f
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b886af4e-1ca8-4a65-922d-6db70825f50a
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b886af4e-1ca8-4a65-922d-6db70825f50a
+  uuid: f8858942-57bf-4ac2-b9c1-389f7b2aecd3
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -72,4 +32,58 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4b4dd89a-4f32-4cc4-b47d-8e863ae1036f
+  uuid: f8858942-57bf-4ac2-b9c1-389f7b2aecd3
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f8858942-57bf-4ac2-b9c1-389f7b2aecd3
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b52805d7-c62c-49dc-96fd-25f80d4ac8d9
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b52805d7-c62c-49dc-96fd-25f80d4ac8d9
+- alterId: 0
+  cipher: auto
+  name: 12|🇹🇼_TW_台湾_2_4@30
+  network: ws
+  port: 888
+  server: wqryo-1075-v2-0.d-hinet-02.ddll.bond
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-opts:
+    headers:
+      Host: ''
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b52805d7-c62c-49dc-96fd-25f80d4ac8d9

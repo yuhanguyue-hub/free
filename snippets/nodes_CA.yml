@@ -8,16 +8,35 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4b4dd89a-4f32-4cc4-b47d-8e863ae1036f
+  uuid: f8858942-57bf-4ac2-b9c1-389f7b2aecd3
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇨🇦 Canada 02 @nodpai
+  password: xkud5hn
+  port: 80
+  server: 158.69.122.231
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇨🇦 Canada 03 @nodpai
+  password: xkud5hn
+  port: 80
+  server: ak1819.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,12|🇨🇦 Canada 02 @nodpai
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: 12|CA_speednode_0001
+  network: ws
+  port: 18424
+  server: 192.18.158.46
+  servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 241bc445-af22-490f-d68b-5d92ebf295f8
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /ONHIT
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -27,11 +46,13 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b886af4e-1ca8-4a65-922d-6db70825f50a
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇨🇦 Canada 01 @nodpai
-  password: xkud5hn
-  port: 80
-  server: 158.69.122.231
-  type: ss
-  udp: true
+  uuid: b52805d7-c62c-49dc-96fd-25f80d4ac8d9
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇨🇦 Canada 01 @nodpai
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
