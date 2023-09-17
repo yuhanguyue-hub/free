@@ -1,6 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 9|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: aa758d52-d296-4559-bd4c-927698017063
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: aa758d52-d296-4559-bd4c-927698017063
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: aa758d52-d296-4559-bd4c-927698017063
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
   network: ws
@@ -15,36 +45,6 @@ proxies:
     path: /b12
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f8858942-57bf-4ac2-b9c1-389f7b2aecd3
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f8858942-57bf-4ac2-b9c1-389f7b2aecd3
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f8858942-57bf-4ac2-b9c1-389f7b2aecd3
-- alterId: 0
-  cipher: auto
   name: 13|台湾 06  | 1x TWN
   network: tcp
   port: '31311'
@@ -52,7 +52,7 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b52805d7-c62c-49dc-96fd-25f80d4ac8d9
+  uuid: b2ca16bb-9c63-4245-9e28-60c675c6f082
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -62,7 +62,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b52805d7-c62c-49dc-96fd-25f80d4ac8d9
+  uuid: b2ca16bb-9c63-4245-9e28-60c675c6f082
 - alterId: 0
   cipher: auto
   name: 12|🇹🇼_TW_台湾_2_4@30
@@ -86,4 +86,4 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b52805d7-c62c-49dc-96fd-25f80d4ac8d9
+  uuid: b2ca16bb-9c63-4245-9e28-60c675c6f082
