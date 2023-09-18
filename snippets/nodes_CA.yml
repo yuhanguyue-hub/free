@@ -8,7 +8,21 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b8dd14de-511e-4d2b-8551-ba7025f2ad96
+  uuid: c52aea71-342d-4eaf-9564-748af3e87018
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇨🇦 Canada 03 @nodpai
+  password: xkud5hn
+  port: 80
+  server: ak1819.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇨🇦 Canada 01 @nodpai
+  password: xkud5hn
+  port: 80
+  server: 158.69.122.231
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|CA_speednode_0001
@@ -25,15 +39,6 @@ proxies:
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
-  name: 7,12|🇨🇦 Canada 02 @nodpai
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -41,18 +46,13 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 131c3c8f-88a9-48ad-898a-d6048a6b079c
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇨🇦 Canada 01 @nodpai
-  password: xkud5hn
-  port: 80
-  server: 158.69.122.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇨🇦 Canada 03 @nodpai
-  password: xkud5hn
-  port: 80
-  server: ak1819.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-  udp: true
+  uuid: 445c8f9c-0326-4d68-81a0-579490f5dacd
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇨🇦 Canada 02 @nodpai
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
