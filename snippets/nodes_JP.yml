@@ -1,67 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20014
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78
-- cipher: aes-256-cfb
-  name: 8|🇯🇵 Japan 07 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 54.168.100.224
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇯🇵 Japan 10 @nodpai
-  network: ws
-  port: '443'
-  server: vfly3.win
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: vfly3.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78
-- cipher: aes-256-cfb
-  name: 8|🇯🇵 Japan 06 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 18.181.147.110
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP
@@ -71,70 +8,52 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45
+  uuid: b8dd14de-511e-4d2b-8551-ba7025f2ad96
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇯🇵 日本B|@ripaojiedian
-  network: ws
-  port: 443
-  server: 107.148.6.53
-  servername: www.56628205.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 12|🇯🇵 JP(AzadNet.t.me)_023
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.56628205.xyz
-    path: /path/143534141104
-- cipher: aes-256-cfb
-  name: 8|🇯🇵 Japan 08 @nodpai
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 30005
+  server: 183.232.170.32
+  tfo: false
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|🇯🇵 Japan 05 @nodpai
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 131c3c8f-88a9-48ad-898a-d6048a6b079c
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 11 @nodpai
   network: ws
   port: '30866'
-  server: v29.heduian.online
+  server: v4.heduian.online
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: v29.heduian.online
+      Host: v4.heduian.online
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇯🇵 Japan 13 @nodpai
-  network: tcp
-  port: '20081'
-  server: 138.2.44.211
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- cipher: aes-256-cfb
-  name: 8,14|「eggtartcloud.shop 自选入口,速度保证」🇯...
-  password: amazonskr05
-  port: 443
-  server: 18.179.196.104
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本 350
@@ -157,39 +76,118 @@ proxies:
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
-  name: 7,12|🇯🇵 Japan 04 @nodpai
+  name: 12|🇯🇵_JP_日本
   network: tcp
-  port: '41545'
-  server: 141.147.153.244
+  port: 23234
+  server: jp6.lianpi.xyz
   tls: false
   type: vmess
-  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+  uuid: a0043275-5033-4923-9f22-b2f466a8794a
+- cipher: aes-256-cfb
+  name: 8|🇯🇵 Japan 08 @nodpai
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|🇯🇵 Japan 11 @nodpai
+  name: 7,8|🇯🇵 Japan 05 @nodpai
   network: ws
   port: '30866'
-  server: v4.heduian.online
+  server: v29.heduian.online
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: v4.heduian.online
+      Host: v29.heduian.online
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 7,8|🇯🇵 Japan 14 @nodpai
-  network: ws
-  port: '21053'
-  server: 0781.763998.top
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
+  uuid: b8dd14de-511e-4d2b-8551-ba7025f2ad96
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇯🇵 日本B|@ripaojiedian
+  network: ws
+  port: 443
+  server: 107.148.6.53
+  servername: www.56628205.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: 0781.763998.top
-    path: /sometime
+      Host: www.56628205.xyz
+    path: /path/143534141104
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇯🇵 Japan 13 @nodpai
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- cipher: aes-256-cfb
+  name: 8|🇯🇵 Japan 07 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 54.168.100.224
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 131c3c8f-88a9-48ad-898a-d6048a6b079c
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20014
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 8|🇯🇵 Japan 06 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 18.181.147.110
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇯🇵 Japan 02 @nodpai
+  network: tcp
+  port: '24445'
+  server: 140.83.63.38
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 7|🇯🇵 Japan 09 @nodpai
@@ -208,36 +206,14 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇯🇵 Japan 02 @nodpai
-  network: tcp
-  port: '24445'
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 JP(AzadNet.t.me)_023
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b8dd14de-511e-4d2b-8551-ba7025f2ad96
+- cipher: aes-256-cfb
+  name: 8,14|「eggtartcloud.shop 自选入口,速度保证」🇯...
+  password: amazonskr05
+  port: 443
+  server: 18.179.196.104
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 8|🇯🇵 Japan 03 @nodpai
   password: amazonskr05
@@ -245,6 +221,19 @@ proxies:
   server: 18.181.96.120
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 14 @nodpai
+  network: ws
+  port: '21053'
+  server: 0781.763998.top
+  tls: true
+  type: vmess
+  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
+  ws-opts:
+    headers:
+      Host: 0781.763998.top
+    path: /sometime
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵_JP_日本_欢迎订阅yui科技_86
@@ -256,15 +245,35 @@ proxies:
   uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
   ws-opts:
     path: /sometime
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 30005
-  server: 183.232.170.32
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 10 @nodpai
+  network: ws
+  port: '443'
+  server: vfly3.win
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: vfly3.win
+    path: /myblog
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 131c3c8f-88a9-48ad-898a-d6048a6b079c
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇯🇵 Japan 04 @nodpai
+  network: tcp
+  port: '41545'
+  server: 141.147.153.244
+  tls: false
+  type: vmess
+  uuid: d47d7135-0954-46ab-a190-17b6c8630a85

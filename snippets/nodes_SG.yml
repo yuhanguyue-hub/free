@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -18,12 +8,112 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78
+  uuid: 131c3c8f-88a9-48ad-898a-d6048a6b079c
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 131c3c8f-88a9-48ad-898a-d6048a6b079c
+- name: 8,14|「蛋挞云,流媒体全解锁」🇸🇬 SG 02
+  network: ws
+  password: d02058f4f819dced
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - cipher: aes-256-cfb
-  name: 8,14|🇸🇬 Singapore 04 @nodpai
+  name: 8|🇸🇬 Singapore 14 @nodpai
   password: amazonskr05
   port: 443
-  server: 54.255.178.208
+  server: 54.151.184.34
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 11 @nodpai
+  password: 6b95fbcf-2e3e-472e-b3ad-b7ff33b7afce
+  port: 55928
+  server: free.node.kk-proxy.pro
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b8dd14de-511e-4d2b-8551-ba7025f2ad96
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 131c3c8f-88a9-48ad-898a-d6048a6b079c
+- cipher: aes-256-cfb
+  name: 8|🇸🇬 Singapore 07 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 13.212.81.249
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b8dd14de-511e-4d2b-8551-ba7025f2ad96
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 08 @nodpai
+  network: http
+  port: '80'
+  server: 152.69.211.235
+  tls: false
+  type: vmess
+  uuid: d345916f-1673-4a98-f37d-49357c84ce03
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b8dd14de-511e-4d2b-8551-ba7025f2ad96
+- cipher: aes-256-cfb
+  name: 8|🇸🇬 Singapore 12 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 13.213.53.160
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 8|🇸🇬 Singapore 13 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 18.142.254.33
   type: ss
   udp: true
 - alterId: 0
@@ -40,77 +130,20 @@ proxies:
     headers:
       Host: ''
     path: /SHALANA
-- name: 8,14|「蛋挞云,流媒体全解锁」🇸🇬 SG 02
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 _SG_新加坡_18
   network: ws
-  password: d02058f4f819dced
-  port: 3306
-  server: 45.11.104.94
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
+  port: 80
+  server: cdn.chigua.tk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
   ws-opts:
     headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 15 @nodpai
-  password: 6b95fbcf-2e3e-472e-b3ad-b7ff33b7afce
-  port: 54455
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 11 @nodpai
-  password: 6b95fbcf-2e3e-472e-b3ad-b7ff33b7afce
-  port: 55928
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 14 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 54.151.184.34
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 8,14|「节点冠名招商 @nodpai」🇸🇬 SG 01
-  password: amazonskr05
-  port: 443
-  server: 13.229.182.222
-  type: ss
-  udp: true
+      Host: us6.cachexy.cf
+    path: /2TokGE9A/
 - cipher: aes-256-cfb
   name: 8|🇸🇬 Singapore 06 @nodpai
   password: amazonskr05
@@ -118,22 +151,6 @@ proxies:
   server: 13.215.175.74
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 09 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 18.136.126.26
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 08 @nodpai
-  network: http
-  port: '80'
-  server: 152.69.211.235
-  tls: false
-  type: vmess
-  uuid: d345916f-1673-4a98-f37d-49357c84ce03
 - name: 8,14|🇸🇬 Singapore 05 @nodpai
   network: ws
   password: 36fe28a331638747
@@ -147,34 +164,31 @@ proxies:
     headers:
       Host: n2.gladns.com
     path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78
 - cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 07 @nodpai
+  name: 8,14|🇸🇬 Singapore 04 @nodpai
   password: amazonskr05
   port: 443
-  server: 13.212.81.249
+  server: 54.255.178.208
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 12 @nodpai
+  name: 8|🇸🇬 Singapore 09 @nodpai
   password: amazonskr05
   port: 443
-  server: 13.213.53.160
+  server: 18.136.126.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 15 @nodpai
+  password: 6b95fbcf-2e3e-472e-b3ad-b7ff33b7afce
+  port: 54455
+  server: free.node.kk-proxy.pro
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 13 @nodpai
+  name: 8,14|「节点冠名招商 @nodpai」🇸🇬 SG 01
   password: amazonskr05
   port: 443
-  server: 18.142.254.33
+  server: 13.229.182.222
   type: ss
   udp: true
