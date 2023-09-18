@@ -1,26 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4bd7b90f-1078-4e25-95ba-e2264d6fe50c
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d17c1f1b-316a-4fb0-8a84-b6f0c1d7faf9
-- alterId: 0
-  cipher: auto
   name: 12|CA_youtube@资源分享师_149
   network: ws
   port: '2052'
@@ -35,15 +15,21 @@ proxies:
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
-  name: 12|CA_youtube@资源分享师_150
-  network: ws
-  port: '80'
-  server: 108.181.10.17
-  servername: ''
-  tls: false
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: us-21.0rd.net
-    path: /
+  uuid: 6a5b3227-90f2-4ffb-8b21-82bbc8ee0375
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6ca36be5-d469-4911-8dba-831995dedfca
