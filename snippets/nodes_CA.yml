@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|CA_speednode_0001
-  network: ws
-  port: 2052
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /V2RayyNGvpn
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -22,7 +8,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7eabf453-2d5c-4c01-8759-4fb53aa99954
+  uuid: 0d2caa78-6cca-4756-aec9-24f3d7d20cb3
+- alterId: 0
+  cipher: auto
+  name: 12|CA_youtube@资源分享师_150
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: us-21.0rd.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -32,13 +32,18 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a2d80a70-a9b9-450f-aa19-2594734de748
+  uuid: 8efedc37-0038-4d2a-ba5a-4ea6ab2171dd
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 Canada 02 @nodpai
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: 12|CA_youtube@资源分享师_149
+  network: ws
+  port: '2052'
+  server: 108.181.10.17
+  servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /V2RayyNGvpn
