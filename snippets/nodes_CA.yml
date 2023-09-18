@@ -8,24 +8,20 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c52aea71-342d-4eaf-9564-748af3e87018
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇨🇦 Canada 03 @nodpai
-  password: xkud5hn
-  port: 80
-  server: ak1819.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇨🇦 Canada 01 @nodpai
-  password: xkud5hn
-  port: 80
-  server: 158.69.122.231
-  type: ss
-  udp: true
+  uuid: 8abcf8c8-930c-4ef4-a125-565575c8452d
 - alterId: 0
   cipher: auto
-  name: 12|CA_speednode_0001
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a62b7108-b3e2-495e-b50f-0bc361909c36
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 加拿大  2
   network: ws
   port: 2052
   server: 108.181.10.17
@@ -39,17 +35,7 @@ proxies:
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 445c8f9c-0326-4d68-81a0-579490f5dacd
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇨🇦 Canada 02 @nodpai
+  name: 12|🇨🇦 Canada 02 @nodpai
   network: tcp
   port: '22324'
   server: 198.57.27.212
