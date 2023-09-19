@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  client-fingerprint: chrome
+  name: 1,2,3,4,6,10,11,17|_CN_中国
   network: ws
-  port: '19709'
-  server: 123.249.101.15
+  port: 40261
+  server: 6q59.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: 6q59.cdn.node.a.tddns-ounk.com
+    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
