@@ -1,151 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 12|HK 2 → tg@nicevpn123
-  network: tcp
-  port: '55264'
-  server: 202.79.174.157
-  tls: false
-  type: vmess
-  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 25421cce-ca49-4bdd-9a37-49fa3513d0ce
-- alterId: 64
-  cipher: auto
-  name: 18|🇭🇰_HK_香港_30
-  network: tcp
-  port: 42914
-  server: 156.245.8.144
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 11808
-  protocol: auth_aes128_md5
-  protocol-param: 291971:xPmH40B1go
-  server: iepl-zh.safetelescope.cc
-  tfo: false
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 25421cce-ca49-4bdd-9a37-49fa3513d0ce
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: db510773-44b1-43f3-a7b9-997b282e0817
-- alterId: 64
-  cipher: auto
-  name: 12|🇭🇰_HK_香港_欢迎订阅yui科技_53
-  network: ws
-  port: '443'
-  server: 156.245.8.174
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.49291261.xyz
-    path: /path/1695032909164
-- alterId: 32
-  cipher: auto
-  name: 12|🇭🇰 014+10—🇭🇰—HK
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: ''
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: db510773-44b1-43f3-a7b9-997b282e0817
-- client-fingerprint: chrome
-  name: 14|🇭🇰 香港T|@ripaojiedian
-  network: ws
-  password: d02058f4f819dced
-  port: 3306
-  server: 45.11.104.94
-  skip-cert-verify: false
-  sni: n2.gladns.com
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 64
-  cipher: auto
-  name: 12|🇭🇰_HK_香港_欢迎订阅yui科技_83
-  network: ws
-  port: '443'
-  server: 156.245.8.152
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
-  ws-opts:
-    headers:
-      Host: www.57424349.xyz
-    path: /path/1695032909164
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: db510773-44b1-43f3-a7b9-997b282e0817
-- alterId: 64
-  cipher: auto
-  name: 12|🇭🇰_HK_香港_欢迎订阅yui科技_118
-  network: tcp
-  port: '42952'
-  server: 156.245.8.144
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - alterId: 0
   cipher: auto
   name: 12|HK 1 → tg@nicevpn123
@@ -168,7 +21,27 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 25421cce-ca49-4bdd-9a37-49fa3513d0ce
+  uuid: 4c9ee814-5407-46c4-992b-a4f189566c11
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1ba59d72-113f-4c19-9379-cdee216625cc
+- alterId: 64
+  cipher: auto
+  name: 12|🇭🇰_HK_香港_欢迎订阅yui科技_118
+  network: tcp
+  port: '42952'
+  server: 156.245.8.144
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -195,6 +68,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+- alterId: 64
+  cipher: auto
+  name: 15,17|香港2|@ripaojiedian
+  network: tcp
+  port: '58271'
+  server: 183.240.232.81
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点...
@@ -209,3 +92,121 @@ proxies:
     headers:
       Host: hkbn1.411api-snisajdnjkndd.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 12|🇭🇰_HK_香港_欢迎订阅yui科技_83
+  network: ws
+  port: '443'
+  server: 156.245.8.152
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  ws-opts:
+    headers:
+      Host: www.57424349.xyz
+    path: /path/1695032909164
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4c9ee814-5407-46c4-992b-a4f189566c11
+- client-fingerprint: chrome
+  name: 14|🇭🇰 香港T|@ripaojiedian
+  network: ws
+  password: d02058f4f819dced
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 32
+  cipher: auto
+  name: 12|🇭🇰 014+10—🇭🇰—HK
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: ''
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1ba59d72-113f-4c19-9379-cdee216625cc
+- alterId: 64
+  cipher: auto
+  name: 12|🇭🇰_HK_香港_欢迎订阅yui科技_53
+  network: ws
+  port: '443'
+  server: 156.245.8.174
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.49291261.xyz
+    path: /path/1695032909164
+- alterId: 64
+  cipher: auto
+  name: 12|HK 2 → tg@nicevpn123
+  network: tcp
+  port: '55264'
+  server: 202.79.174.157
+  tls: false
+  type: vmess
+  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1ba59d72-113f-4c19-9379-cdee216625cc
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4c9ee814-5407-46c4-992b-a4f189566c11
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 11808
+  protocol: auth_aes128_md5
+  protocol-param: 291971:xPmH40B1go
+  server: iepl-zh.safetelescope.cc
+  tfo: false
+  type: ssr
