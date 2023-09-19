@@ -16,7 +16,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,10,11,17|🇫🇷 _FR_法国
+  name: 1,2,3,4,10,17|🇫🇷 _FR_法国
   network: ws
   port: 80
   server: 173.245.49.236
@@ -29,19 +29,6 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '80'
-  server: 104.18.12.192
-  tls: false
-  type: vmess
-  uuid: 60492148-7815-4259-acdc-92bd15afa81c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
 - alterId: 64
   cipher: auto
   name: 12|🇫🇷_FR_法国_3_3@14
