@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|CN 225 → tg@nicevpn123
+  network: ws
+  port: '4443'
+  server: jp02.celerlink.one
+  tls: true
+  type: vmess
+  uuid: c2313bb2-53d0-4566-9c27-c86245c73de6
+  ws-opts:
+    headers:
+      Host: jp02.celerlink.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,15|「蛋挞云,超低价格,超高体验」🇨🇳 CN 02
+  network: tcp
+  port: '34214'
+  server: 183.240.232.85
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,8|「eggtartcloud.shop 自选入口,速度保证」🇨...
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
