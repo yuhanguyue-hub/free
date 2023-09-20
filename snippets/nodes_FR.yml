@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '443'
+  server: bobbykotick.rip
+  tls: true
+  type: vmess
+  uuid: 691c16ee-d3a5-4ba6-ae8b-59c12b278d86
+  ws-opts:
+    headers:
+      Host: bobbykotick.rip
+    path: /speedtest
