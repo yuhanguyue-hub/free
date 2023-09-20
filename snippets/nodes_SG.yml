@@ -1,48 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 8,14|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
-  password: 11ac3cf9-e29e-4532-9cb1-08f2934f62b4
-  port: 13929
-  server: sg.relay-idc.top
-  type: ss
-  udp: true
-- name: 8|🇸🇬 Singapore 03 @nodpai
-  network: ws
-  password: 3febb05ea76a940f
-  port: 3306
-  server: 103.168.155.69
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
-- alterId: 0
-  cipher: auto
-  name: 12|SG_40 |35.53Mb
-  network: ws
-  port: 36788
-  server: 8.210.128.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - client-fingerprint: chrome
   name: 14|🇸🇬 新加坡T|@ripaojiedian
   network: ws
@@ -58,16 +14,19 @@ proxies:
     headers:
       Host: n2.gladns.com
     path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 781720ba-0bdd-4589-8529-4a80de3a0ecc
+- name: 8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
+  network: ws
+  password: 7b06d22a8a7c764f
+  port: 3306
+  server: 211.72.35.154
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -78,14 +37,24 @@ proxies:
   tls: true
   type: vmess
   uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|频道:@ripaojiedian
-  password: 9ba99e47-307b-4420-b3d8-ddd76b349c38
-  port: 10124
-  server: 116.148.226.212
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.221.194.131
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡ND03-【ccbaohe.com〗 永久免费节...
@@ -109,14 +78,42 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 781720ba-0bdd-4589-8529-4a80de3a0ecc
+  uuid: df560e15-ae56-4020-a976-cbaee9b8c30f
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 13|新加坡 05 | 1x SG
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: df560e15-ae56-4020-a976-cbaee9b8c30f
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城|频道:@ripaojiedian
+  password: 11ac3cf9-e29e-4532-9cb1-08f2934f62b4
+  port: 13929
+  server: sg.relay-idc.top
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|🇸🇬 SG(AzadNet.t.me)_022
+  network: tcp
+  port: 55264
+  server: 202.79.174.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
@@ -129,12 +126,12 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 781720ba-0bdd-4589-8529-4a80de3a0ecc
-- cipher: aes-256-cfb
+  uuid: df560e15-ae56-4020-a976-cbaee9b8c30f
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.221.194.131
+  name: 14|🇸🇬 新加坡|频道:@ripaojiedian
+  password: 9ba99e47-307b-4420-b3d8-ddd76b349c38
+  port: 10124
+  server: 116.148.226.212
   tfo: false
   type: ss

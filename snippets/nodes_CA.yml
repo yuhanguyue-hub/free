@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 781720ba-0bdd-4589-8529-4a80de3a0ecc
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -21,20 +11,31 @@ proxies:
   uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
+  name: 12|🇨🇦 加拿大 105
   network: ws
-  port: '443'
-  server: api.jquery.com
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
   ws-opts:
     headers:
-      Host: api.jquery.com
-    path: /oliv.beauty:443/linkvws
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_12@11
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: df560e15-ae56-4020-a976-cbaee9b8c30f
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦_CA_加拿大_2_13@11
   network: tcp
   port: 22324
   server: 198.57.27.212
@@ -42,3 +43,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 CA 11
+  network: ws
+  port: 2052
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 108.181.10.17
+    path: /
