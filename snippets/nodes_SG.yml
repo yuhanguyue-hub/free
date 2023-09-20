@@ -1,38 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 13|新加坡 05 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ebc1230b-b4b0-48cc-b929-bbd288f11138
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
 - alterId: 0
   cipher: auto
-  name: 12|SG_36 |35.53Mb
+  name: 12|🇸🇬 新加坡ND03-【ccbaohe.com〗 永久免费节...
   network: ws
-  port: 36788
-  server: 8.210.128.146
+  port: 4443
+  server: sgp02.celerlink.one
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf0233ef-e57b-478f-a598-13521469e3b4
+  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
+  ws-opts:
+    headers:
+      Host: sgp02.celerlink.one
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -51,11 +51,11 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
@@ -71,18 +71,28 @@ proxies:
   uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬 新加坡ND03-【ccbaohe.com〗 永久免费节...
+  name: 12|SG_36 |35.53Mb
   network: ws
-  port: 4443
-  server: sgp02.celerlink.one
+  port: 36788
+  server: 8.210.128.146
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
+  uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af
   ws-opts:
     headers:
-      Host: sgp02.celerlink.one
+      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ebc1230b-b4b0-48cc-b929-bbd288f11138
 - alterId: 0
   cipher: auto
   name: 15|新加坡|tg频道:@ripaojiedian
@@ -99,24 +109,14 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
+  name: 13|新加坡 06 | 1x SG
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf0233ef-e57b-478f-a598-13521469e3b4
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cf0233ef-e57b-478f-a598-13521469e3b4
+  uuid: ebc1230b-b4b0-48cc-b929-bbd288f11138
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -127,3 +127,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
+- name: 8|🇸🇬 Singapore 07 @nodpai
+  network: ws
+  password: 3febb05ea76a940f
+  port: 3306
+  server: 103.168.155.69
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
