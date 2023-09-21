@@ -1,28 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 CA 11
-  network: ws
-  port: 2052
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 108.181.10.17
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 _CA_加拿大_2_13@11
+  name: 9|🇨🇦加拿大04
   network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: fd906836-f7d7-468b-8e04-517e595ede88
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -32,21 +18,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5de7020f-cefc-4d98-8a61-3724d12edf4c
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 105 2
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
+  uuid: 0f4c0501-40f1-42ed-abfc-9d9d58b801a3
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4|🇨🇦 _CA_加拿大
@@ -62,11 +34,11 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
+  name: 12|🇨🇦 _CA_加拿大_2_13@11
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 2262e5dd-e5f7-4955-a559-de6f1f36726b
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002

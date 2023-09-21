@@ -1,16 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_142
+  name: 12|FR_speednode_0009
   network: tcp
   port: 54885
   server: 156.249.18.204
+  servername: ''
   tls: false
   type: vmess
   uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
 - alterId: 64
   cipher: auto
-  name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_43
+  name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_175
   network: ws
   port: 443
   server: 156.249.18.50
@@ -20,4 +21,17 @@ proxies:
   ws-opts:
     headers:
       Host: www.69414502.xyz
-    path: /path/1695118717355
+    path: /path/1695204567237
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '80'
+  server: bl.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
