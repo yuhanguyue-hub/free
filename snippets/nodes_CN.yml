@@ -1,16 +1,7 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 12,15,18|CN 2 → tg@nicevpn123
-  network: tcp
-  port: '54573'
-  server: 36.141.40.34
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省深圳市移动 17
+  name: 10,11|广东省深圳市移动 10
   network: ws
   port: 39908
   server: upghr-1082-v2-6.r-kcd-a.tuil.xyz
@@ -23,7 +14,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: 7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 02
+  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
   network: ws
   port: '19709'
   server: 123.249.101.15
@@ -36,10 +27,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,15|「节点冠名招商 @nodpai」🇨🇳 CN 01
-  network: tcp
-  port: '34214'
-  server: 183.240.232.85
-  tls: false
+  name: 10,11|广东省深圳市移动 11
+  network: ws
+  port: 39918
+  server: aobre-1092-v2-7.r-kcd-b.iote.bond
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
