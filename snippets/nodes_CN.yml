@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省深圳市移动 10
-  network: ws
-  port: 39908
-  server: upghr-1082-v2-6.r-kcd-a.tuil.xyz
-  tls: true
-  type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-opts:
-    headers:
-      Host: s3.cjhh.beauty
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
   name: 10,11|广东省深圳市移动 11
   network: ws
   port: 39918
@@ -24,4 +11,17 @@ proxies:
   ws-opts:
     headers:
       Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 10,11|广东省深圳市移动 10
+  network: ws
+  port: 39908
+  server: upghr-1082-v2-6.r-kcd-a.tuil.xyz
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-opts:
+    headers:
+      Host: s3.cjhh.beauty
     path: /je5x3pBN1vez3NQudNkB
