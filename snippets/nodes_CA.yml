@@ -1,26 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fd906836-f7d7-468b-8e04-517e595ede88
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0f4c0501-40f1-42ed-abfc-9d9d58b801a3
-- alterId: 0
-  cipher: auto
   name: 0,1,2,3,4|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
@@ -34,6 +14,16 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a0d9fd9b-987a-430d-8b6b-025458b4201b
+- alterId: 0
+  cipher: auto
   name: 12|🇨🇦 _CA_加拿大_2_13@11
   network: tcp
   port: 22324
@@ -42,3 +32,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '443'
+  server: laravel.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: laravel.com
+    path: /octavi.cfd:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d6198844-7ccf-4ee4-9c3c-15108af89749
