@@ -1,6 +1,54 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12|🇨🇦 加拿大 105 2
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 _CA_加拿大_2_13@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2915036e-c394-4ba4-a2a4-b75318324368
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 CA 11
+  network: ws
+  port: 2052
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 108.181.10.17
+    path: /
+- alterId: 0
+  cipher: auto
   name: 0,1,2,3,4|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
@@ -14,39 +62,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a0d9fd9b-987a-430d-8b6b-025458b4201b
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 _CA_加拿大_2_13@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '443'
-  server: laravel.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: laravel.com
-    path: /octavi.cfd:443/linkvws
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -54,4 +69,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d6198844-7ccf-4ee4-9c3c-15108af89749
+  uuid: 576d0139-860b-4616-a6e8-ac260ee305ed
