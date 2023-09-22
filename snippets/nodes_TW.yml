@@ -1,6 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 17f9cb83-3bae-4dda-b17a-3db6c28e4c35
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇹🇼 Taiwan 02 @nodpai
+  network: ws
+  port: '18804'
+  server: xiongda006.daxiongda.top
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: xiongda006.daxiongda.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,15|「蛋挞云,超低价格,超高体验」🇹🇼 TW 01
+  network: tcp
+  port: '32002'
+  server: tw1549.131jsq.one
+  tls: false
+  type: vmess
+  uuid: 47d31242-26c7-42ab-8647-8c36e32cadcb
+- alterId: 0
+  cipher: auto
   name: 9|🇹🇼台湾05
   network: tcp
   port: '36306'
@@ -8,7 +40,17 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 837fb8ac-160f-4c7e-aa84-2c821c8bbadc
+  uuid: 82adcd09-5651-472e-b820-5ba7884e9dfa
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 82adcd09-5651-472e-b820-5ba7884e9dfa
 - alterId: 0
   cipher: auto
   name: 12|🇹🇼_TW_台湾_2_9@30
@@ -25,14 +67,14 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: 15|台湾|tg频道:@ripaojiedian
+  name: 13|台湾 05  | 1x TWN
   network: tcp
-  port: '32002'
-  server: tw1549.131jsq.one
-  servername: ''
-  tls: false
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 47d31242-26c7-42ab-8647-8c36e32cadcb
+  uuid: 17f9cb83-3bae-4dda-b17a-3db6c28e4c35
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -42,7 +84,7 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 837fb8ac-160f-4c7e-aa84-2c821c8bbadc
+  uuid: 82adcd09-5651-472e-b820-5ba7884e9dfa
 - alterId: 0
   cipher: auto
   name: 13|台湾 06  | 1x TWN
@@ -52,34 +94,4 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 18f2e3ad-ffe5-43a0-9cb9-9e8ecc21a00f
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 837fb8ac-160f-4c7e-aa84-2c821c8bbadc
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 18f2e3ad-ffe5-43a0-9cb9-9e8ecc21a00f
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 18f2e3ad-ffe5-43a0-9cb9-9e8ecc21a00f
+  uuid: 17f9cb83-3bae-4dda-b17a-3db6c28e4c35
