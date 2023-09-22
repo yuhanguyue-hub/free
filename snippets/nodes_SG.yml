@@ -1,14 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 63537500-84d8-47e8-a0c8-ca55453e8d11
+  uuid: 96a96026-b8c7-4a37-8f4c-a7f0fa82505a
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 51d9abf2-a3b0-4586-a47c-22bd20685f07
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -18,17 +28,25 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dfc8b1a3-20b1-442f-af22-c353d249265d
+  uuid: 96a96026-b8c7-4a37-8f4c-a7f0fa82505a
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 13|新加坡 05 | 1x SG
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dfc8b1a3-20b1-442f-af22-c353d249265d
+  uuid: 51d9abf2-a3b0-4586-a47c-22bd20685f07
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡|@ripaojiedian
+  password: f149711f-19fd-4af5-92ea-524b1c4efcac
+  port: 54455
+  server: free.node.kk-proxy.pro
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|SG_36 |35.53Mb
@@ -45,14 +63,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
+  name: 13|新加坡 04 | 1x SG
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 63537500-84d8-47e8-a0c8-ca55453e8d11
+  uuid: 51d9abf2-a3b0-4586-a47c-22bd20685f07
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡04
@@ -62,31 +80,4 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dfc8b1a3-20b1-442f-af22-c353d249265d
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|@ripaojiedian
-  password: f149711f-19fd-4af5-92ea-524b1c4efcac
-  port: 54455
-  server: free.node.kk-proxy.pro
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7|「eggtartcloud.shop 自选入口,速度保证」🇸...
-  network: tcp
-  port: '26768'
-  server: sg-gy.115cloud.link
-  tls: false
-  type: vmess
-  uuid: b3afb2b3-f312-3083-a8b0-e440b3157e7a
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 63537500-84d8-47e8-a0c8-ca55453e8d11
+  uuid: 96a96026-b8c7-4a37-8f4c-a7f0fa82505a
