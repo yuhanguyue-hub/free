@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
+  name: 13|新加坡 04 | 1x SG
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8f72f116-30d4-45f8-b5c3-1ad542ee8462
+  uuid: 63537500-84d8-47e8-a0c8-ca55453e8d11
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -18,7 +18,17 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f50a9b4-b61d-4cc4-ba23-0a4caf62079e
+  uuid: dfc8b1a3-20b1-442f-af22-c353d249265d
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: dfc8b1a3-20b1-442f-af22-c353d249265d
 - alterId: 0
   cipher: auto
   name: 12|SG_36 |35.53Mb
@@ -35,16 +45,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8f72f116-30d4-45f8-b5c3-1ad542ee8462
-- alterId: 0
-  cipher: auto
   name: 13|新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -52,17 +52,17 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8f72f116-30d4-45f8-b5c3-1ad542ee8462
+  uuid: 63537500-84d8-47e8-a0c8-ca55453e8d11
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f50a9b4-b61d-4cc4-ba23-0a4caf62079e
+  uuid: dfc8b1a3-20b1-442f-af22-c353d249265d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡|@ripaojiedian
@@ -73,11 +73,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 7|「eggtartcloud.shop 自选入口,速度保证」🇸...
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '26768'
+  server: sg-gy.115cloud.link
+  tls: false
+  type: vmess
+  uuid: b3afb2b3-f312-3083-a8b0-e440b3157e7a
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2f50a9b4-b61d-4cc4-ba23-0a4caf62079e
+  uuid: 63537500-84d8-47e8-a0c8-ca55453e8d11
