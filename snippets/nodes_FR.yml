@@ -1,4 +1,26 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_142
+  network: tcp
+  port: 54885
+  server: 156.249.18.204
+  tls: false
+  type: vmess
+  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: ms.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: ms.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|FR_speednode_0007
@@ -13,15 +35,6 @@ proxies:
     headers:
       Host: teams.microsoft.com
     path: /1904chgs
-- alterId: 64
-  cipher: auto
-  name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_142
-  network: tcp
-  port: 54885
-  server: 156.249.18.204
-  tls: false
-  type: vmess
-  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
 - name: 1|_FR_
   network: tcp
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
