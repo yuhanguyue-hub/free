@@ -1,6 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10|加拿大  9
+  network: ws
+  port: '8080'
+  server: fx4-108.181.10.17.nip.io
+  tls: false
+  type: vmess
+  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: fx4-108.181.10.17.nip.io
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: fab043fd-5e27-4a43-a644-5a621744b84f
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1635efb7-e171-4367-a55f-55cc1565ad48
+- alterId: 0
+  cipher: auto
   name: 12|🇨🇦 加拿大 150
   network: ws
   port: 2096
@@ -15,6 +48,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12|🇨🇦_CA_加拿大_2_16@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 12|🇨🇦 加拿大 25
   network: ws
   port: 8080
@@ -27,46 +70,3 @@ proxies:
     headers:
       Host: dongtaiwang.freek1.xyz
     path: /NZpcJvwS/
-- alterId: 0
-  cipher: auto
-  name: 10,11|加拿大  9
-  network: ws
-  port: '8080'
-  server: fx4-108.181.10.17.nip.io
-  tls: false
-  type: vmess
-  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: fx4-108.181.10.17.nip.io
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_16@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d4e4e876-f785-4742-ac5c-f7efdde86c87
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4969ddc5-60d1-4460-b167-83ccd77498d8
