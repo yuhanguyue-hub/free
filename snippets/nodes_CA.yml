@@ -1,18 +1,41 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 114
+  name: 11,12|github.com/freefq - 加拿大  9
   network: ws
-  port: 8880
-  server: 172.67.221.18
+  port: '8080'
+  server: fx4-108.181.10.17.nip.io
+  tls: false
+  type: vmess
+  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: fx4-108.181.10.17.nip.io
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 25
+  network: ws
+  port: 8080
+  server: dongtaiwang3.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
   ws-opts:
     headers:
-      Host: vcus1.vpn66.eu.org
-    path: /
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 3f032c1d-99a7-4bd0-8e75-4eb95b70f162
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 150
@@ -29,16 +52,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_16@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -46,14 +59,18 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 58047752-1ce3-425d-be95-7747ec6765cb
+  uuid: e21f1695-13b8-4f95-9a71-f8543312c0c4
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 12|🇨🇦 加拿大 114
+  network: ws
+  port: 8880
+  server: 172.67.221.18
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 650e86b1-9181-4a75-a1dd-00d8fd275411
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  ws-opts:
+    headers:
+      Host: vcus1.vpn66.eu.org
+    path: /
