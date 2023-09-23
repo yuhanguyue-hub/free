@@ -1,17 +1,17 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 12|🇫🇷_FR_法国_fd_59
+  name: 7,8|🇫🇷 France 02 @nodpai
   network: ws
-  port: 443
-  server: 156.249.18.50
+  port: '443'
+  server: bobbykotick.rip
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2f094845-e2bd-ebf7-deb7-995992436faf
   ws-opts:
     headers:
-      Host: www.69414502.xyz
-    path: /path/1695380351751
+      Host: bobbykotick.rip
+    path: /speedtest
 - name: 1|_FR_
   network: tcp
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
@@ -20,17 +20,3 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 12|FR_speednode_0007
-  network: ws
-  port: 8880
-  server: 54.38.79.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bf55f0b0-592c-11ee-b339-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /1904chgs
