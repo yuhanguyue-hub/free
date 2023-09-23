@@ -1,27 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 12|🇨🇦 加拿大 114
+  network: ws
+  port: 8880
+  server: 172.67.221.18
+  servername: ''
+  tls: false
   type: vmess
-  uuid: f50d5a24-9282-41ec-b38f-6021fafd4f23
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  ws-opts:
+    headers:
+      Host: vcus1.vpn66.eu.org
+    path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 12|🇨🇦 加拿大 150
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
   tls: true
   type: vmess
-  uuid: 46de69ea-0669-4596-b55f-7d07c4205785
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
-  name: 12|CA_speednode_0002
+  name: 12|🇨🇦_CA_加拿大_2_16@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 加拿大  2
   network: ws
   port: 8080
   server: fx4-108.181.10.17.nip.io
@@ -33,3 +51,23 @@ proxies:
     headers:
       Host: internet.life.com.by
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 01c0eb1c-18a6-4cb5-ab6f-db691403312d
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 94bd6179-5eae-42bf-a161-3ba436bf7b0f

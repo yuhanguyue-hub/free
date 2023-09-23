@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 10,11|广东省深圳市移动 6
-  network: ws
-  port: 39918
-  server: aobre-1092-v2-7.r-kcd-b.iote.bond
-  tls: true
-  type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
 - alterId: 2
   cipher: auto
   name: 3|_CN_中国
@@ -25,6 +12,33 @@ proxies:
     headers:
       Host: v29.heduian.online
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 10|广东省深圳市移动 6
+  network: ws
+  port: 39918
+  server: aobre-1092-v2-7.r-kcd-b.iote.bond
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 中国阿里云 8
+  network: ws
+  port: '80'
+  server: cdn.anycast.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: trip-criteria-banner-lodge.trycloudflare.com
+    path: ''
 - alterId: 2
   cipher: auto
   name: '3|_CN_中国 #1'
