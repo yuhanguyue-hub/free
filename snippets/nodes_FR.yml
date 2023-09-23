@@ -1,12 +1,4 @@
 proxies:
-- name: 1|_FR_
-  network: tcp
-  password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
-  port: 80
-  server: 51.91.11.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: 12|🇫🇷_FR_法国_fd_59
@@ -20,6 +12,14 @@ proxies:
     headers:
       Host: www.69414502.xyz
     path: /path/1695380351751
+- name: 1|_FR_
+  network: tcp
+  password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
+  port: 80
+  server: 51.91.11.29
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|FR_speednode_0007
