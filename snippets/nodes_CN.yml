@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10,11|广东省深圳市移动 23
+  network: ws
+  port: 39918
+  server: aobre-1092-v2-7.r-kcd-b.iote.bond
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
   name: 10,11|广东省深圳市移动 14
   network: ws
   port: '39928'
@@ -15,32 +28,6 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 2
   cipher: auto
-  name: '3|_CN_中国 #1'
-  network: ws
-  port: '30866'
-  server: v4.heduian.online
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v4.heduian.online
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 10,11|广东省深圳市移动 23
-  network: ws
-  port: 39918
-  server: aobre-1092-v2-7.r-kcd-b.iote.bond
-  tls: true
-  type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 2
-  cipher: auto
   name: 3|_CN_中国
   network: ws
   port: '30866'
@@ -51,4 +38,17 @@ proxies:
   ws-opts:
     headers:
       Host: v29.heduian.online
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: '3|_CN_中国 #1'
+  network: ws
+  port: '30866'
+  server: v4.heduian.online
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v4.heduian.online
     path: /oooo
