@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省深圳市移动 6
+  name: 10,11|广东省深圳市移动 20
   network: ws
   port: '39928'
   server: vxyfa-1080-v2-2.d-kcd.tuil.xyz
@@ -15,7 +15,16 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省深圳市 移动
+  name: 0,17|_CN_中国
+  network: tcp
+  port: '19821'
+  server: cm1-xg.go001.buzz
+  tls: false
+  type: vmess
+  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
+- alterId: 0
+  cipher: auto
+  name: 10,11|广东省深圳市移动 22
   network: ws
   port: 39918
   server: aobre-1092-v2-7.r-kcd-b.iote.bond
@@ -28,10 +37,14 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: 0|_CN_中国
-  network: tcp
-  port: '19821'
-  server: cm1-xg.go001.buzz
+  name: 10|中国 阿里云
+  network: ws
+  port: 80
+  server: cdn.chigua.tk
   tls: false
   type: vmess
-  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  ws-opts:
+    headers:
+      Host: us6.cachexy.cf
+    path: /2TokGE9A/
