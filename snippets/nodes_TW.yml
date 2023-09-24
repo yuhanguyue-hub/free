@@ -1,53 +1,4 @@
 proxies:
-- name: 1|_TW_
-  network: tcp
-  password: ad45a324-03ab-4c71-ba4f-d1479b8ccdce
-  port: 443
-  server: tw1.yihaobao.xyz
-  skip-cert-verify: true
-  sni: tls.yihaobao.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8ffc0513-a967-41fe-9286-f621b88fb45e
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 26b5e7d5-8f6e-4b31-ba66-dbf5e13bae4e
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8ffc0513-a967-41fe-9286-f621b88fb45e
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8ffc0513-a967-41fe-9286-f621b88fb45e
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -57,7 +8,37 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 26b5e7d5-8f6e-4b31-ba66-dbf5e13bae4e
+  uuid: abf40355-e56c-4fd5-a556-3150bc204326
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 26139fba-80d0-4336-9738-3d118f53e303
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 26139fba-80d0-4336-9738-3d118f53e303
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: abf40355-e56c-4fd5-a556-3150bc204326
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾04
@@ -67,4 +48,23 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 26b5e7d5-8f6e-4b31-ba66-dbf5e13bae4e
+  uuid: abf40355-e56c-4fd5-a556-3150bc204326
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 26139fba-80d0-4336-9738-3d118f53e303
+- name: 1|_TW_
+  network: tcp
+  password: ad45a324-03ab-4c71-ba4f-d1479b8ccdce
+  port: 443
+  server: tw1.yihaobao.xyz
+  skip-cert-verify: true
+  sni: tls.yihaobao.xyz
+  type: trojan
+  udp: true
