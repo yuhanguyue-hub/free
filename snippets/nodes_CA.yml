@@ -1,4 +1,13 @@
 proxies:
+- name: 1|_CA__2
+  network: tcp
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 108.181.23.71
+  skip-cert-verify: true
+  sni: 4-193-163-88.nhost.00cdn.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦_CA_加拿大_2_17@11
@@ -9,30 +18,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 839dc331-7fe7-4a64-a986-40864075bfc1
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 25
-  network: ws
-  port: 8080
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
 - name: 1|_CA__1
   network: tcp
   password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
@@ -51,13 +36,28 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 67bd5d85-2e5b-44b8-b846-56b318f3deac
-- name: 1|_CA__2
+  uuid: c1019e5e-8a8a-421d-b628-4a7949d1ef51
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 25
+  network: ws
+  port: 8080
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
   network: tcp
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
-  port: 443
-  server: 108.181.23.71
-  skip-cert-verify: true
-  sni: 4-193-163-88.nhost.00cdn.com
-  type: trojan
-  udp: true
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 162e2882-72db-43bc-99ce-533734d9fc7a

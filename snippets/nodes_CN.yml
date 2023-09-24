@@ -1,28 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,18|_CN_中国
-  network: tcp
-  port: '19821'
-  server: cm1-xg.go001.buzz
-  tls: false
-  type: vmess
-  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
-- alterId: 0
-  cipher: auto
   name: 10,11|广东省深圳市移动 22
   network: ws
   port: 39918
@@ -36,7 +14,29 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: 10|中国 阿里云
+  name: 0,17|_CN_中国
+  network: tcp
+  port: '19821'
+  server: cm1-xg.go001.buzz
+  tls: false
+  type: vmess
+  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇳 China 01 @nodpai
+  network: ws
+  port: '443'
+  server: 198.2.213.153
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/211826353201
+- alterId: 0
+  cipher: auto
+  name: 10,11|中国 阿里云
   network: ws
   port: 80
   server: cdn.chigua.tk
