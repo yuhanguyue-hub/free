@@ -1,21 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省深圳市移动 20
+  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
   network: ws
-  port: '39928'
-  server: vxyfa-1080-v2-2.d-kcd.tuil.xyz
-  servername: ''
-  tls: true
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
   type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
   ws-opts:
     headers:
-      Host: edge.cjhh.mom
-    path: /je5x3pBN1vez3NQudNkB
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: 0,17|_CN_中国
+  name: 0,18|_CN_中国
   network: tcp
   port: '19821'
   server: cm1-xg.go001.buzz
@@ -48,3 +47,17 @@ proxies:
     headers:
       Host: us6.cachexy.cf
     path: /2TokGE9A/
+- alterId: 0
+  cipher: auto
+  name: 10,11|广东省深圳市移动 20
+  network: ws
+  port: '39928'
+  server: vxyfa-1080-v2-2.d-kcd.tuil.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-opts:
+    headers:
+      Host: edge.cjhh.mom
+    path: /je5x3pBN1vez3NQudNkB
