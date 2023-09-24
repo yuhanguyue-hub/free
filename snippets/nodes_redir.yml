@@ -1,51 +1,67 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 06 @nodpai
+  name: '0,6,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
   network: tcp
-  port: '50008'
-  server: 36.140.102.11
+  port: '33271'
+  server: 183.240.232.81
   tls: false
   type: vmess
-  uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 08 @nodpai
-  password: 2a23c437-de2c-47e3-b779-fb1d2289578f
-  port: 27201
-  server: fs.xianyuwangluo.cyou
+  name: 8|中转 🇸🇬 Singapore 03 @nodpai
+  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
+  port: 24961
+  server: free.node.kk-proxy.pro
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,6,7,12,15|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+  network: tcp
+  port: '40702'
+  server: 120.226.50.94
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,8,14|中转 🇺🇸 United States 12 @nodpai
+  network: ws
+  port: '46033'
+  server: mf33fx.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: d6478e8c-11ab-4bed-99bc-0ab1e8e83051
+  ws-opts:
+    headers:
+      Host: mf33fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇨🇱_CL_智利_由快嘴科技提供：kkz...
+  network: ws
+  port: 80
+  server: sdyg2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: sdyg2.shabijichang.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 04 @nodpai
+  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
+  port: 55928
+  server: free.node.kk-proxy.pro
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇯🇵 Japan 07 @nodpai
+  name: 18|🇺🇸_US_美国->🇻🇳_VN_越南_23
   network: ws
-  port: '62001'
-  server: 183.249.20.150
-  tls: false
-  type: vmess
-  uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390
-  ws-opts:
-    headers:
-      Host: ''
-    path: /db
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇺🇸 United States 17 @nodpai
-  network: ws
-  port: '23614'
-  server: 14.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
-  ws-opts:
-    headers:
-      Host: 14.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇺🇸 _US_美国->🇻🇳_VN_越南
-  network: ws
-  port: '2052'
+  port: 2052
   server: Tokyo.mfa.ee
   tls: false
   type: vmess
@@ -53,19 +69,6 @@ proxies:
   ws-opts:
     headers:
       Host: vnpt.iiio.wiki
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇯🇵 Japan 04 @nodpai
-  network: ws
-  port: '23619'
-  server: 19.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
-  ws-opts:
-    headers:
-      Host: 19.v2-ray.cyou
     path: /
 - name: 1|_CN_->_HK__1
   network: tcp
@@ -78,92 +81,33 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
-  network: ws
-  port: '23613'
-  server: 13.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
-  ws-opts:
-    headers:
-      Host: 13.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '8080'
-  server: dx1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: cafbdf1c-5812-492f-92ac-330650c6ecf0
-  ws-opts:
-    headers:
-      Host: eu1.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,10,11|🇭🇰 _HK_香港->🇺🇸_US_美国
-  network: ws
-  port: '80'
-  server: cdn.chigua.tk
-  tls: false
-  type: vmess
-  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-  ws-opts:
-    headers:
-      Host: us6.cachexy.cf
-    path: /2TokGE9A/
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇺🇸 _US_美国->🇨🇱_CL_智利
-  network: ws
-  port: '80'
-  server: sdyg2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: sdyg2.shabijichang.com
-    path: /
-- name: 1|_JP_->_SG_
+  name: 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
   network: tcp
-  password: 98bae868-4f00-40e0-9603-8d848644ec44
-  port: 37905
-  server: 1gzdx2.156786.xyz
-  skip-cert-verify: true
-  sni: hkmax06.170203.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 06 @nodpai
-  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
-  port: 54455
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇺🇸 United States 16 @nodpai
-  network: ws
-  port: '23615'
-  server: 15.v2-ray.cyou
+  port: 50009
+  server: 09.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
-  ws-opts:
-    headers:
-      Host: 15.v2-ray.cyou
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 03 @nodpai
-  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
-  port: 24962
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
+  uuid: 3814af1d-9358-46d5-824d-567d4532e66e
+- alterId: 64
+  cipher: auto
+  name: 1,2,3,4,12|_US_->_NL__3
+  network: tcp
+  port: 36471
+  server: 45.199.138.185
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+- alterId: 0
+  cipher: auto
+  name: 1,2,3,4|_CN_->_US__1
+  network: tcp
+  port: 50020
+  server: 36.140.102.11
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f
 - alterId: 0
   cipher: auto
   name: 7|中转 🇦🇹 Austria 01 @nodpai
@@ -173,41 +117,32 @@ proxies:
   tls: false
   type: vmess
   uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f
-- alterId: 64
-  cipher: auto
-  name: 0,1,2,3,4,6,7,10,15,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: '53300'
-  server: 120.226.50.94
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇸🇬 Singapore 01 @nodpai
+  name: 7,8|中转 🇰🇷 South Korea 02 @nodpai
   network: ws
-  port: '23612'
-  server: 12.v2-ray.cyou
+  port: '23611'
+  server: 11.v2-ray.cyou
   tls: false
   type: vmess
   uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
   ws-opts:
     headers:
-      Host: 12.v2-ray.cyou
+      Host: 11.v2-ray.cyou
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇩🇪 Germany 01 @nodpai
+  name: 7,8|中转 🇯🇵 Japan 05 @nodpai
   network: ws
-  port: '23616'
-  server: 16.v2-ray.cyou
+  port: '64002'
+  server: 183.249.20.150
   tls: false
   type: vmess
-  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
+  uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390
   ws-opts:
     headers:
-      Host: 16.v2-ray.cyou
-    path: /
+      Host: ''
+    path: /db
 - alterId: 64
   cipher: auto
   name: 0,1,2,3,4,6,7,12,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
@@ -219,132 +154,53 @@ proxies:
   uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 02 @nodpai
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
-- alterId: 64
-  cipher: auto
-  name: '0,1,2,3,4,6,7,10,11,12,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
-  network: tcp
-  port: '49553'
-  server: 183.233.187.233
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇫🇷_FR_法国_29
+  name: 0,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
-  port: 443
-  server: 104.31.16.14
-  tls: true
-  type: vmess
-  uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276
-  ws-opts:
-    headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
-  network: tcp
-  port: 50041
-  server: 41.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 3814af1d-9358-46d5-824d-567d4532e66e
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇷 Turkey 01 @nodpai
-  network: tcp
-  port: '19881'
-  server: cm1-xg.go001.buzz
-  tls: false
-  type: vmess
-  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇫🇷 France 01 @nodpai
-  network: tcp
-  port: '19892'
-  server: cm1-xg.go001.buzz
-  tls: false
-  type: vmess
-  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
-  network: ws
-  port: 443
-  server: 172.67.135.195
-  tls: true
-  type: vmess
-  uuid: AB135628-07F6-4F78-AF4D-E9CD8715143C
-  ws-opts:
-    headers:
-      Host: Amsterdam.bobbykotick.rip
-    path: /speedtest?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_AU_
-  network: ws
-  port: 80
-  server: fd.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      host: xn3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇩🇪 Germany 02 @nodpai
-  network: ws
-  port: '23618'
-  server: 18.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
-  ws-opts:
-    headers:
-      Host: 18.v2-ray.cyou
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 05 @nodpai
-  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
-  port: 24961
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 18 @nodpai
-  network: tcp
-  port: '50020'
-  server: 36.140.102.11
-  tls: false
-  type: vmess
-  uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE_
-  network: ws
-  port: 8080
+  port: '8080'
   server: dx1.992688.xyz
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cafbdf1c-5812-492f-92ac-330650c6ecf0
   ws-opts:
     headers:
-      host: eu1.vpn66.eu.org
+      Host: eu1.vpn66.eu.org
     path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 1,2,3,4,7,12|_US_->_NL__4
+  network: tcp
+  port: 40833
+  server: 45.199.138.218
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
+- alterId: 0
+  cipher: auto
+  name: 0,6,18|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: xn3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8,14|中转 🇯🇵 Japan 03 @nodpai
+  network: ws
+  port: '46011'
+  server: mf11fx.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: d6478e8c-11ab-4bed-99bc-0ab1e8e83051
+  ws-opts:
+    headers:
+      Host: mf11fx.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国->🇰🇷_KR_韩国_30
@@ -358,40 +214,41 @@ proxies:
     headers:
       Host: se2.shabijichang.com
     path: /
-- name: 1|_CN_->_US__5
-  network: tcp
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 41929
-  server: 14.18.108.108
-  skip-cert-verify: true
-  sni: nl01.lovehjq.xyz
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 07 @nodpai
-  password: ad45a324-03ab-4c71-ba4f-d1479b8ccdce
-  port: 17179
-  server: sh-zz-xx.newbluecloud.top
+  name: 8|中转 🇸🇬 Singapore 06 @nodpai
+  password: 2a23c437-de2c-47e3-b779-fb1d2289578f
+  port: 27201
+  server: fs.xianyuwangluo.cyou
   type: ss
   udp: true
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  name: 1,7,8|_US_->_NL__2
   network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  tls: false
+  port: 443
+  server: 156.225.67.55
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: xn3.shabijichang.com
-    path: /
+      host: www.52326732.xyz
+    path: /path/1695344553049
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇯🇵 Japan 06 @nodpai
+  name: 18|🇨🇳_CN_中国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: tcp
+  port: 50041
+  server: 41.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 3814af1d-9358-46d5-824d-567d4532e66e
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇯🇵 Japan 08 @nodpai
   network: ws
-  port: '63013'
+  port: '62009'
   server: 183.249.20.150
   tls: false
   type: vmess
@@ -402,10 +259,23 @@ proxies:
     path: /db
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇯🇵 Japan 05 @nodpai
+  name: 0,6,10,11|🇭🇰 _HK_香港->🇺🇸_US_美国
   network: ws
-  port: '50247'
-  server: 14.116.192.24
+  port: '80'
+  server: cdn.chigua.tk
+  tls: false
+  type: vmess
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  ws-opts:
+    headers:
+      Host: us6.cachexy.cf
+    path: /2TokGE9A/
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇯🇵 Japan 07 @nodpai
+  network: ws
+  port: '61006'
+  server: 183.249.20.151
   tls: false
   type: vmess
   uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390
@@ -415,22 +285,30 @@ proxies:
     path: /db
 - alterId: 64
   cipher: auto
-  name: 0,1,2,3,4,6,7,12,15|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-  network: tcp
-  port: '40702'
-  server: 120.226.50.94
-  tls: false
+  name: 2,3,4,12|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 443
+  server: 156.225.67.55
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.52326732.xyz
+    path: /path/1695344553049
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-  network: tcp
-  port: 50009
-  server: 09.kccic2pa.xyz
+  name: 7,8|中转 🇯🇵 Japan 09 @nodpai
+  network: ws
+  port: '61091'
+  server: 183.249.20.150
   tls: false
   type: vmess
-  uuid: 3814af1d-9358-46d5-824d-567d4532e66e
+  uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390
+  ws-opts:
+    headers:
+      Host: ''
+    path: /db
 - alterId: 64
   cipher: auto
   name: 0,1,2,3,4,6,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国
@@ -440,6 +318,90 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇬🇧 United Kingdom 01 @nodpa...
+  network: ws
+  port: '23605'
+  server: 5.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 3446456b-fde6-321b-bc9f-b0241907ce46
+  ws-opts:
+    headers:
+      Host: 5.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇫🇷_FR_法国_29
+  network: ws
+  port: 443
+  server: 104.31.16.14
+  tls: true
+  type: vmess
+  uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276
+  ws-opts:
+    headers:
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,6,7,15,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
+  network: tcp
+  port: '53300'
+  server: 120.226.50.94
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 05 @nodpai
+  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
+  port: 24962
+  server: free.node.kk-proxy.pro
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 02 @nodpai
+  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
+  port: 54455
+  server: free.node.kk-proxy.pro
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,8,14|中转 🇸🇬 Singapore 01 @nodpai
+  network: ws
+  port: '46016'
+  server: mf16fx.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: d6478e8c-11ab-4bed-99bc-0ab1e8e83051
+  ws-opts:
+    headers:
+      Host: mf16fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
+  network: ws
+  port: 443
+  server: 172.67.135.195
+  tls: true
+  type: vmess
+  uuid: AB135628-07F6-4F78-AF4D-E9CD8715143C
+  ws-opts:
+    headers:
+      Host: Amsterdam.bobbykotick.rip
+    path: /speedtest?ed=2048
+- alterId: 64
+  cipher: auto
+  name: '0,1,2,3,4,6,10,11,12,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
+  network: tcp
+  port: '49553'
+  server: 183.233.187.233
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
@@ -453,49 +415,16 @@ proxies:
     headers:
       Host: flkf2.shabijichang.com
     path: /
-- name: 1|_CN_->_US__4
-  network: tcp
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 41929
-  server: 14.18.106.137
-  skip-cert-verify: true
-  sni: nl01.lovehjq.xyz
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: '0,1,2,3,4,6,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: '33271'
-  server: 183.240.232.81
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 1|_HK_->_US_
+  name: 7,8,14|中转 🇭🇰 Hong Kong 01 @nodpai
   network: ws
-  port: 80
-  server: cdn.chigua.tk
-  skip-cert-verify: true
+  port: '46001'
+  server: mf01fx.micloud.buzz
   tls: false
   type: vmess
-  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  uuid: d6478e8c-11ab-4bed-99bc-0ab1e8e83051
   ws-opts:
     headers:
-      host: us6.cachexy.cf
-    path: /2TokGE9A/
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 02 @nodpai
-  password: d2258ec0-2c7b-4dbc-9355-4dade1943e84
-  port: 55928
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 06 @nodpai
-  password: ad45a324-03ab-4c71-ba4f-d1479b8ccdce
-  port: 47572
-  server: sh-zz-xx.newbluecloud.top
-  type: ss
-  udp: true
+      Host: mf01fx.micloud.buzz
+    path: /zh-cn

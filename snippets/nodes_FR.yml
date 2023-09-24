@@ -1,9 +1,14 @@
 proxies:
-- name: 1|_FR_
-  network: tcp
-  password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
-  port: 80
-  server: 51.91.11.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: all.gv2ray.sbs
+  tls: false
+  type: vmess
+  uuid: 03e5dd72-5e9d-4e55-9504-ff8c2131b225
+  ws-opts:
+    headers:
+      Host: all.gv2ray.sbs
+    path: /
