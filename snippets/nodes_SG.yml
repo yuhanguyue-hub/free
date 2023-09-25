@@ -1,24 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
+  name: 13|新加坡 05 | 1x SG
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 242d0bcd-0632-4b4d-b7e6-b3e561900a75
+  uuid: 34b3b20d-fe6c-42a5-b358-172e0855e746
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 7|🇸🇬 Singapore 01 @nodpai
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '41140'
+  server: tg_mfbpn_m3.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: e6d740aa-ebaf-3058-83a8-75d154ad7685
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 21b97019-1254-4f00-97ba-0c685176f57f
+  uuid: 9f4132b3-6c00-414c-a89f-83254b208b4a
 - alterId: 0
   cipher: auto
   name: 12|SG_36 |35.53Mb
@@ -42,17 +51,27 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 242d0bcd-0632-4b4d-b7e6-b3e561900a75
+  uuid: 34b3b20d-fe6c-42a5-b358-172e0855e746
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 21b97019-1254-4f00-97ba-0c685176f57f
+  uuid: 9f4132b3-6c00-414c-a89f-83254b208b4a
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 34b3b20d-fe6c-42a5-b358-172e0855e746
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -62,14 +81,11 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 21b97019-1254-4f00-97ba-0c685176f57f
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 242d0bcd-0632-4b4d-b7e6-b3e561900a75
+  uuid: 9f4132b3-6c00-414c-a89f-83254b208b4a
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 09 @nodpai
+  password: f42fe7b9-13c9-4025-8e0e-dcf9338c4b07
+  port: 26963
+  server: starspeed.tbh.iosds.com
+  type: ss
+  udp: true

@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12|🇨🇦 加拿大 163
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8be7c80-592d-11ee-b832-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: lu.0rd.net
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -8,7 +22,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 242d0bcd-0632-4b4d-b7e6-b3e561900a75
+  uuid: 34b3b20d-fe6c-42a5-b358-172e0855e746
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦_CA_加拿大_2_18@11
@@ -28,7 +42,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 21b97019-1254-4f00-97ba-0c685176f57f
+  uuid: 9f4132b3-6c00-414c-a89f-83254b208b4a
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 29
@@ -57,17 +71,3 @@ proxies:
     headers:
       Host: mci1.amo2023.club
     path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 163
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8be7c80-592d-11ee-b832-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: lu.0rd.net
-    path: /@hopev2ray
