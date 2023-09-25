@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b323fdda-f070-4e33-bb7b-e7fc91762adc
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -8,7 +18,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 348a23ff-8901-4088-919b-83bb4faa2147
+  uuid: 9e1fcab8-d870-464c-abb6-2d4772c47459
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 156
@@ -23,13 +33,3 @@ proxies:
     headers:
       Host: mci1.amo2023.club
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: cedca505-133c-4126-a7e9-d6397b8ff956
