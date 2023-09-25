@@ -1,7 +1,20 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: all.gv2ray.sbs
+  tls: false
+  type: vmess
+  uuid: 03e5dd72-5e9d-4e55-9504-ff8c2131b225
+  ws-opts:
+    headers:
+      Host: all.gv2ray.sbs
+    path: /
 - alterId: 64
   cipher: auto
-  name: 12|🇫🇷_FR_法国_yui_148
+  name: 12|🇫🇷_FR_法国_yui_13
   network: ws
   port: 443
   server: 156.249.18.50
@@ -11,17 +24,4 @@ proxies:
   ws-opts:
     headers:
       Host: www.69414502.xyz
-    path: /path/1695466421619
-- alterId: 64
-  cipher: auto
-  name: 12|🇫🇷_FR_法国_yui_139
-  network: ws
-  port: 443
-  server: 156.249.18.2
-  tls: true
-  type: vmess
-  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
-  ws-opts:
-    headers:
-      Host: www.57424349.xyz
     path: /path/1695552397318
