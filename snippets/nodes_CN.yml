@@ -1,42 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,11|广东省深圳市移动 22
-  network: ws
-  port: 39918
-  server: aobre-1092-v2-7.r-kcd-b.iote.bond
-  tls: true
-  type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 0,17|_CN_中国
-  network: tcp
-  port: '19821'
-  server: cm1-xg.go001.buzz
-  tls: false
-  type: vmess
-  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
-- alterId: 0
-  cipher: auto
-  name: 10,11|中国 阿里云
+  name: 10,11|中国阿里云 18
   network: ws
   port: 80
   server: cdn.chigua.tk
@@ -49,7 +14,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省深圳市移动 20
+  name: 10,11|广东省深圳市移动 26
   network: ws
   port: '39928'
   server: vxyfa-1080-v2-2.d-kcd.tuil.xyz
@@ -61,3 +26,25 @@ proxies:
     headers:
       Host: edge.cjhh.mom
     path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 10,11|广东省深圳市移动 25
+  network: ws
+  port: 39918
+  server: aobre-1092-v2-7.r-kcd-b.iote.bond
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 17|🇨🇳_CN_中国_28
+  network: tcp
+  port: 19821
+  server: cm1-xg.go001.buzz
+  tls: false
+  type: vmess
+  uuid: 3d530091-7113-3df4-aab3-a53cec94e991
