@@ -1,20 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 7,8,12|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '80'
-  server: bl.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - alterId: 64
   cipher: auto
-  name: 6,12|🇫🇷_FR_法国
+  name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_41
+  network: ws
+  port: 443
+  server: 156.249.18.50
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69414502.xyz
+    path: /path/1695652618025
+- alterId: 64
+  cipher: auto
+  name: 6|🇫🇷_FR_法国
   network: ws
   port: 443
   server: 156.249.18.50
@@ -25,3 +25,29 @@ proxies:
     headers:
       Host: www.69414502.xyz
     path: /path/1695552397318
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '80'
+  server: hkgsdz.66666654.xyz
+  tls: false
+  type: vmess
+  uuid: 3097b7b7-e43f-4ee9-976d-ba17c6981d1e
+  ws-opts:
+    headers:
+      Host: hkgsdz.66666654.xyz
+    path: /xingsuyun
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_欢迎订阅yui科技_10
+  network: ws
+  port: 443
+  server: 156.249.18.2
+  tls: true
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  ws-opts:
+    headers:
+      Host: www.57424349.xyz
+    path: /path/1695652618025

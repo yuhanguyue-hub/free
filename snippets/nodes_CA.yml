@@ -1,28 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 163
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8be7c80-592d-11ee-b832-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: lu.0rd.net
-    path: /@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_19@11
+  name: 9|🇨🇦加拿大04
   network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 36177bb2-894f-4aa2-a8de-1c5b32981695
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -32,10 +18,10 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b23e02b3-1ff6-459f-9982-737ed8479b14
+  uuid: 7cc4c154-91b0-4680-8cc3-732adafd07f3
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 156
+  name: 12|🇨🇦 12|🇨🇦 加拿大 156
   network: ws
   port: 2096
   server: mci1.amo2023.club
@@ -49,11 +35,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
+  name: 12|🇨🇦_CA_加拿大_2_19@11
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 856f735c-45ca-4115-8657-a07dee95ae1e
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
