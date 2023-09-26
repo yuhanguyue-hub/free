@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇨🇦 Canada 01 @nodpai
-  password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4
-  port: 443
-  server: 20.220.190.161
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -15,7 +8,21 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 39721792-1d34-4370-8408-566625517080
+  uuid: d7e3ed63-2349-47e0-8d39-2742a12d2874
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 156
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦_CA_加拿大_2_19@11
@@ -35,18 +42,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e5691ac-c52f-45a4-8793-e7ffdfdb3c4a
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 156
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
+  uuid: a5f50cca-2a06-44ef-adc0-c292bc536c60
