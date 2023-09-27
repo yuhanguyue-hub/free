@@ -1,32 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|「eggtartcloud.shop 自选入口,速度保证」🇨...
-  network: tcp
-  port: '37399'
-  server: 137.175.86.189
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,15|_CN_中国
+  name: 0,1,2,3,4,7,15|_CN_中国
   network: tcp
   port: '44361'
   server: zjxc.pmxu.link
   tls: false
   type: vmess
   uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com2
+  network: ws
+  port: 64004
+  server: 183.249.20.153
+  tls: false
+  type: vmess
+  uuid: e433833f-77e3-32d6-9613-32320f530e5e
+  ws-opts:
+    headers:
+      Host: hkt2-cdn.tencent.best
+    path: /
