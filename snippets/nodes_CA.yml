@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12|🇨🇦_CA_加拿大_2_20@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -8,7 +18,21 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cc6dd8c8-bf4f-4ac1-a83f-9af6609cfb10
+  uuid: 0bd5edab-6018-40fd-b225-612b688e8422
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 156
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -18,14 +42,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5056f7d3-a83c-469e-a6ba-b3b07f05f2ab
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_20@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 688dddd5-aa5f-4d6f-831a-00b130b76d07
