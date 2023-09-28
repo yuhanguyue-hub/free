@@ -1,46 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9e461591-2999-47b6-945f-894ebb5d52f3
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f1df9e74-90ff-4173-b29e-cda5d9d8a07e
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f1df9e74-90ff-4173-b29e-cda5d9d8a07e
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9e461591-2999-47b6-945f-894ebb5d52f3
-- alterId: 0
-  cipher: auto
   name: 12|SG_36 |35.53Mb
   network: ws
   port: 36788
@@ -53,29 +13,33 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
+  password: 30e169b0-90d9-4ef9-826c-229603cfa69f
+  port: 26963
+  server: starspeed.tbh.iosds.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
+  name: 9|🇸🇬新加坡06
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9e461591-2999-47b6-945f-894ebb5d52f3
+  uuid: e06d5c05-38b4-4d6e-89fd-fa6b0bf77f50
 - alterId: 0
   cipher: auto
-  name: 6,11|🇸🇬_SG_新加坡
-  network: ws
-  port: 80
-  server: cdn.chigua.tk
-  tls: false
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-  ws-opts:
-    headers:
-      Host: us6.cachexy.cf
-    path: /2TokGE9A/
+  uuid: b73b4d67-923c-4f44-b2ce-d2d3fd3323d6
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -85,4 +49,56 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f1df9e74-90ff-4173-b29e-cda5d9d8a07e
+  uuid: e06d5c05-38b4-4d6e-89fd-fa6b0bf77f50
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b73b4d67-923c-4f44-b2ce-d2d3fd3323d6
+- alterId: 0
+  cipher: auto
+  name: 7,8,12|🇸🇬 Singapore 03 @nodpai
+  network: ws
+  port: '80'
+  server: gw03.ipv6wifi.com
+  tls: false
+  type: vmess
+  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
+  ws-opts:
+    headers:
+      Host: gw03.ipv6wifi.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b73b4d67-923c-4f44-b2ce-d2d3fd3323d6
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e06d5c05-38b4-4d6e-89fd-fa6b0bf77f50
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,超低价格,超高体验」🇸🇬 SG 02
+  network: tcp
+  port: '26768'
+  server: sg-gy.115cloud.link
+  tls: false
+  type: vmess
+  uuid: 83e35009-b84d-3ccf-be57-2b10980a37a8
