@@ -1,59 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 8|「蛋挞云,超低价格,超高体验」🇸🇬 SG 02
-  password: 9f37ff25-99f3-4e3f-bd7b-a0ed6638246e
-  port: 26963
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0bd5edab-6018-40fd-b225-612b688e8422
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.6.181
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 688dddd5-aa5f-4d6f-831a-00b130b76d07
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 688dddd5-aa5f-4d6f-831a-00b130b76d07
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 688dddd5-aa5f-4d6f-831a-00b130b76d07
 - alterId: 0
   cipher: auto
   name: 6,11|🇸🇬_SG_新加坡
@@ -69,6 +14,43 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1db17c57-3261-4bfc-90ba-1fd651a254b3
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1db17c57-3261-4bfc-90ba-1fd651a254b3
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 11445054-e05c-4ff0-bb3e-17cc742a2b67
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,超低价格,超高体验」🇸🇬 SG 01
+  password: 9f37ff25-99f3-4e3f-bd7b-a0ed6638246e
+  port: 26963
+  server: starspeed.tbh.iosds.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -76,22 +58,25 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0bd5edab-6018-40fd-b225-612b688e8422
+  uuid: 11445054-e05c-4ff0-bb3e-17cc742a2b67
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1db17c57-3261-4bfc-90ba-1fd651a254b3
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.68.10
+  server: 13.212.6.181
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇸...
-  password: 11a5b423-14cc-4699-89f0-81ea43ad9625
-  port: 24962
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 12|SG_36 |35.53Mb
@@ -106,6 +91,14 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.169.68.10
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -115,4 +108,4 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0bd5edab-6018-40fd-b225-612b688e8422
+  uuid: 11445054-e05c-4ff0-bb3e-17cc742a2b67

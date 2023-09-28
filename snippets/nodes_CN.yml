@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,15|_CN_中国
-  network: tcp
-  port: '44361'
-  server: zjxc.pmxu.link
-  tls: false
-  type: vmess
-  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
-- alterId: 0
-  cipher: auto
   name: 18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com2
   network: ws
   port: 64004
@@ -21,3 +12,12 @@ proxies:
     headers:
       Host: hkt2-cdn.tencent.best
     path: /
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,15|_CN_中国
+  network: tcp
+  port: '44361'
+  server: zjxc.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
