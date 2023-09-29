@@ -1,4 +1,23 @@
 proxies:
+- name: 1|_CA_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 899509ce-6243-4139-9fae-beccb08c15db
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦_CA_加拿大_2_22@11
@@ -18,26 +37,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dbf80ca2-696a-4fc6-bd50-2b36713135b4
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5358eb0e-f344-47fc-bfbc-a54f0e61b61d
-- name: 1|_CA_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: 108.181.22.161
-  skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
+  uuid: 859d8e13-b765-4b65-ba85-406b693d7c77
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 177
