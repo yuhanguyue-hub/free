@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 12|🇨🇦 加拿大 156
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
+  name: 12|🇨🇦_CA_加拿大_2_22@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -22,7 +18,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
+  uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -32,7 +28,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 75112311-1c72-4818-a510-9c150bb44351
+  uuid: f06631c7-ee66-4c95-b181-99f036489048
 - name: 1|_CA_
   network: tcp
   password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
@@ -44,41 +40,18 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
+  name: 12|🇨🇦 加拿大 153
   network: ws
-  port: '80'
-  server: dld.shabijichang.com
-  tls: false
+  port: 443
+  server: auth0.openai.com
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: dld.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_22@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 24
-  network: ws
-  port: 8080
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c5f81634-cd34-47fa-ace6-69300539e051
-  ws-opts:
-    headers:
-      Host: dongtaiwang.dtku47.xyz
-    path: /oX7MJ0Fj/
+      Host: sub.yifenjichang.top
+    path: /odelia.autos:443/linkvws
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 177

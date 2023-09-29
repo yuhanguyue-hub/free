@@ -1,91 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.108.170
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 05 @nodpai
-  network: ws
-  port: '44295'
-  server: 146.190.93.191
-  tls: false
-  type: vmess
-  uuid: 0a2b1652-dc16-471a-f7ef-f11e2bf54793
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 75112311-1c72-4818-a510-9c150bb44351
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡(油管破解资源君2.0) 8
-  network: ws
-  port: 80
-  server: sg-v.sshmax.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
-  ws-opts:
-    headers:
-      Host: sg-v.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 75112311-1c72-4818-a510-9c150bb44351
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 75112311-1c72-4818-a510-9c150bb44351
-- alterId: 0
-  cipher: auto
   name: 12|SG_36 |35.53Mb
   network: ws
   port: 36788
@@ -100,14 +15,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,14|「蛋挞云,超低价格,超高体验」🇸🇬 SG 01
-  port: 44361
-  server: zjxc.pmxu.link
-  skip-cert-verify: true
-  tls: false
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
   type: vmess
+  uuid: f06631c7-ee66-4c95-b181-99f036489048
+- cipher: chacha20-ietf-poly1305
+  name: 8|「节点冠名招商 @nodpai」🇸🇬 SG 01
+  password: 6632e674-7ff0-43e0-9873-8041d726fa29
+  port: 36896
+  server: sgs1.zzjq.xyz
+  type: ss
   udp: true
-  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -117,4 +39,52 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
+  uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.108.170
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f06631c7-ee66-4c95-b181-99f036489048
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f06631c7-ee66-4c95-b181-99f036489048
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
