@@ -1,1 +1,40 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_yui科技_43
+  network: ws
+  port: 443
+  server: 156.249.18.2
+  tls: true
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  ws-opts:
+    headers:
+      Host: www.57424349.xyz
+    path: /path/1695993071029
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '80'
+  server: 941.outline-vpn.cloud
+  tls: false
+  type: vmess
+  uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2
+  ws-opts:
+    headers:
+      Host: 941.outline-vpn.cloud
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
