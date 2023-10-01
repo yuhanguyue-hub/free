@@ -584,7 +584,7 @@ def extract(url: str) -> Union[Set[str], int]:
             urls.add(line)
     return urls
 
-merged: Set[Node] = set()
+merged: Dict[str, Node] = {}
 unknown: Set[str] = set()
 used: Dict[int, Dict[int, str]] = {}
 def merge(source_obj: Source, sourceId=-1) -> None:
@@ -607,10 +607,12 @@ def merge(source_obj: Source, sourceId=-1) -> None:
             unknown.add(p)
         except: traceback.print_exc()
         else:
-            if n not in merged:
-                n.format_name()
-                Node.names.add(n.data['name'])
-                merged.add(n)
+            n.format_name()
+            Node.names.add(n.data['name'])
+            if hash(n) not in merged:
+                merged[hash(n)] = n
+            else:
+                merged[hash(n)].data.update(n.data)
             if hash(n) not in used:
                 used[hash(n)] = {}
             used[hash(n)][sourceId] = n.name
@@ -619,6 +621,7 @@ def raw2fastly(url: str) -> str:
     # 由于 Fastly CDN 不好用，因此换成 ghproxy.net，见 README。
     # 2023/06/27: ghproxy.com 比 ghproxy.net 稳定性更好，为避免日后代码失效，进行修改
     # 2023/06/28: ghproxy.com 似乎有速率或并发限制，改回原来的镜像
+    # 2023/10/01: ghproxy.net tcping 有大量丢包，且之前出现过证书未续期的问题，改掉
     # url = url[34:].split('/')
     # url[1] += '@'+url[2]
     # del url[2]
@@ -626,7 +629,7 @@ def raw2fastly(url: str) -> str:
     # return url
     if not LOCAL: return url
     if url.startswith("https://raw.githubusercontent.com/"):
-        return "https://ghproxy.net/"+url
+        return "https://ghproxy.com/"+url
     return url
 
 def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
@@ -791,9 +794,9 @@ def main():
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
     unsupports = 0
-    for p in merged:
+    for hashp, p in merged.items():
         try:
-            if hash(p) in used:
+            if hashp in used:
                 # 注意：这一步也会影响到下方的 Clash 订阅，不用再执行一遍！
                 p.data['name'] = ','.join([str(_) for _ in sorted(list(used[hash(p)]))])+'|'+p.data['name']
             if p.supports_ray():
@@ -834,7 +837,7 @@ def main():
         print("正在按地区分类节点...")
         categories = snip_conf['categories']
         for ctg in categories: ctg_nodes[ctg] = []
-        for node in merged:
+        for node in merged.values():
             if node.supports_clash():
                 ctgs = []
                 for ctg, keys in categories.items():
@@ -887,7 +890,7 @@ def main():
     conf['proxies'] = []
     ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
     names_clash: Union[Set[str], List[str]] = set()
-    for p in merged:
+    for p in merged.values():
         if p.supports_clash():
             conf['proxies'].append(p.clash_data)
             names_clash.add(p.data['name'])
