@@ -22,7 +22,17 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e275bdc3-bf9d-40de-a22a-bd5fa15adb12
+  uuid: ba748333-7fca-4d3f-8b1d-97cd51ca63bf
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: dbd8bdcc-6e13-484d-912f-cb20e646d7a3
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 190
@@ -51,13 +61,3 @@ proxies:
     headers:
       Host: vcus1.vpn66.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 76842998-1ef3-4245-acc0-070e245098a5
