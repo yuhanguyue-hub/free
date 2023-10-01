@@ -1,27 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8,12|🇫🇷 France 01 @nodpai
+  name: 12|FR_speednode_0024
   network: ws
-  port: '2082'
-  server: fr-01.cloudlion.me
+  port: 80
+  server: 146.59.15.243
+  servername: ''
   tls: false
   type: vmess
-  uuid: 87646364-c074-4b95-81cf-4bded967ca02
+  uuid: 2b3ec40f-1dfc-4893-b739-c94e2fe46015
   ws-opts:
     headers:
-      Host: fr-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 02 @nodpai
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: ''
+      Host: pl1-vmess.greenssh.xyz
     path: /
