@@ -163,7 +163,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2,3,4,6,14,15|卢森堡|频道:@ripaojiedian
+  name: 2,3,4,6,11,14,15|卢森堡|频道:@ripaojiedian
   network: ws
   port: '2052'
   server: cf.yx.alue.link
@@ -179,7 +179,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #7'
+  name: '2,3,4,6,11|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 2052
   server: 162.159.152.6
@@ -205,7 +205,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 2,3,4,6,11|github.com/freefq - 美国CloudFla...
+  name: '2,3,4,6,11|github.com/freefq - 美国CloudFla... #7'
   network: ws
   port: '80'
   server: fd.shabijichang.com
@@ -245,11 +245,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 01 @nodpai #1'
+  name: '7,8|中转 🇨🇳 China 03 @nodpai #1'
   network: ws
-  port: 41402
-  server: 101.91.240.29
-  servername: a.db-link.in
+  port: 443
+  server: 36.150.27.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇨🇳 China 04 @nodpai #1'
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 03 @nodpai
+  network: tcp
+  port: '16666'
+  server: cn-guangzhou.applebench.tech
+  tls: false
+  type: vmess
+  uuid: 666d382c-d614-4129-aedb-06c63982820a
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇺🇸 United States 04 @nodpai #1'
+  network: ws
+  port: 50247
+  server: 120.241.47.18
+  servername: a.cn-db.top
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -259,20 +294,20 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 01 @nodpai
+  name: 7|中转 🇱🇺 Luxembourg 01 @nodpai
   network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
+  port: '18353'
+  server: cn-guangzhou.applebench.tech
   tls: false
   type: vmess
-  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
+  uuid: a0043275-5033-4923-9f22-b2f466a8794a
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇺🇸 United States 10 @nodpai #1'
+  name: '7,8|中转 🇺🇸 United States 08 @nodpai #1'
   network: ws
-  port: 19322
-  server: 101.91.240.29
-  servername: a.cn-db.top
+  port: 50247
+  server: 112.8.204.170
+  servername: b.cn-db.top
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -290,15 +325,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 7|中转 🇱🇺 Luxembourg 01 @nodpai
+  name: 7,12,15|香港A|@ripaojiedian
   network: tcp
-  port: '18353'
-  server: cn-guangzhou.applebench.tech
+  port: '51165'
+  server: 183.233.187.214
+  servername: ''
   tls: false
   type: vmess
-  uuid: 666d382c-d614-4129-aedb-06c63982820a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 7,8,12|🇺🇸_US_美国_12
@@ -315,75 +351,48 @@ proxies:
     headers:
       Host: ''
     path: /path/1694859605321
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇩🇪 Germany 01 @nodpai #1'
-  network: ws
-  port: 23616
-  server: 16.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇯🇵 Japan 02 @nodpai
+  password: 2c132199-006a-4bc1-958c-d1bffe978fcb
+  port: 27202
+  server: 120.195.184.63
+  type: ss
   udp: true
-  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
-  ws-opts:
-    headers:
-      Host: 16.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1'
-  network: ws
-  port: 23605
-  server: 5.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇦🇺 Australia 01 @nodpai
+  password: 3884b06d-610f-438f-8610-c8690511616e
+  port: 27254
+  server: dx.ktmwan.top
+  type: ss
   udp: true
-  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
-  ws-opts:
-    headers:
-      Host: 5.v2-ray.cyou
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 7,12,15|香港A|@ripaojiedian
-  network: tcp
-  port: '51165'
-  server: 183.233.187.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 22 @nodpai #1'
-  network: ws
-  port: 23615
-  server: 15.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇹🇼 Taiwan 01 @nodpai
+  password: 2c132199-006a-4bc1-958c-d1bffe978fcb
+  port: 27206
+  server: 120.195.184.63
+  type: ss
   udp: true
-  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
-  ws-opts:
-    headers:
-      Host: 15.v2-ray.cyou
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇯🇵 日本2|@ripaojiedian
-  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
-  port: 40350
-  server: zz.chaosu999.com
-  skip-cert-verify: false
-  sni: chaosujp.ccoo520.xyz
-  tfo: false
-  tls: false
-  type: trojan
+- cipher: aes-128-gcm
+  name: 8|中转 🇺🇸 United States 05 @nodpai
+  password: 9a5823ab-2b22-4684-bb42-f103d1e1e439
+  port: 23648
+  server: sh.aikun.online
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 30470
+  server: p1.bxy-fun1.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇩🇪 Germany 02 @nodpai
+  password: 3884b06d-610f-438f-8610-c8690511616e
+  port: 27257
+  server: lt.ktmwan.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸_US_美国->🇸🇬_SG_新加坡_18@34

@@ -1,14 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 7,12|🇯🇵 日本 57
-  network: tcp
-  port: 46222
-  server: 141.147.146.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 8,14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.119.130
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇯🇵 Japan 06 @nodpai
+  password: 666d382c-d614-4129-aedb-06c63982820a
+  port: 34234
+  server: jp3.lianpi.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04
@@ -18,7 +24,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1502f2ac-3244-4d55-ab55-12df5378475f
+  uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -28,7 +34,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1502f2ac-3244-4d55-ab55-12df5378475f
+  uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -38,7 +44,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1502f2ac-3244-4d55-ab55-12df5378475f
+  uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 JP 59
@@ -102,7 +108,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1a1a4dc9-6cf7-4643-92f0-6894c316b6ee
+  uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -112,7 +118,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1a1a4dc9-6cf7-4643-92f0-6894c316b6ee
+  uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -122,7 +128,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1a1a4dc9-6cf7-4643-92f0-6894c316b6ee
+  uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -172,11 +178,3 @@ proxies:
     headers:
       Host: xg1.justcn2.top
     path: /JJkuv3?ed=2122
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.119.130
-  tfo: false
-  type: ss
