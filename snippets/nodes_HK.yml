@@ -1,18 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: '1,2,3,4,6,12|🇭🇰 _HK_香港 #2'
+  name: '1,2,3,4,6|🇭🇰_HK_香港 #5'
   network: tcp
   port: 42952
   server: 156.245.8.145
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - alterId: 64
   cipher: auto
-  name: 1,2,3,4,6,11,12,17|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com_42
+  name: 1,2,3,4,6,11,18|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com_42
   network: tcp
   port: 42952
   server: 156.245.8.146
@@ -21,44 +20,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- alterId: 64
-  cipher: auto
-  name: 7,15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 05 @nodpai #1'
-  network: ws
-  port: 443
-  server: 118.107.245.19
-  servername: www.50918290.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/143534141104
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇺🇸 美国B|@ripaojiedian
-  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
-  port: 52792
-  server: 156.225.67.102
-  skip-cert-verify: false
-  sni: chaosujp.ccoo520.xyz
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -68,7 +29,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 17f95700-628b-49d5-8904-6f47c5d36d36
+  uuid: 8a67054b-49ed-48a9-aed2-177050a6a16a
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -78,7 +39,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 17f95700-628b-49d5-8904-6f47c5d36d36
+  uuid: 8a67054b-49ed-48a9-aed2-177050a6a16a
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -88,11 +49,11 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 17f95700-628b-49d5-8904-6f47c5d36d36
+  uuid: 8a67054b-49ed-48a9-aed2-177050a6a16a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12,14|🇭🇰 香港中转|@ripaojiedian
+  name: 11,14|🇭🇰 香港中转|@ripaojiedian
   network: ws
   port: 55455
   server: hkt.123ddns.xyz
@@ -105,16 +66,6 @@ proxies:
     headers:
       Host: hkt.123ddns.xyz
     path: /
-- alterId: 64
-  cipher: auto
-  name: 12,17|🇭🇰_HK_香港_2_48
-  network: tcp
-  port: 42952
-  server: 156.245.8.144
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -124,7 +75,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 888ea678-0b4a-49b5-ad4c-e25a447046cd
+  uuid: 72366b7b-c809-4499-8c17-5c0499401109
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -134,7 +85,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 888ea678-0b4a-49b5-ad4c-e25a447046cd
+  uuid: 72366b7b-c809-4499-8c17-5c0499401109
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -144,7 +95,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 888ea678-0b4a-49b5-ad4c-e25a447046cd
+  uuid: 72366b7b-c809-4499-8c17-5c0499401109
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -181,7 +132,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,17|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+  name: 14,18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
   network: ws
   port: 46001
   server: mf01fx.micloud.buzz
@@ -244,7 +195,7 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  name: 15,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  name: 15,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
   network: tcp
   port: 51165
   server: 183.233.187.214
@@ -252,3 +203,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 18|🇭🇰_HK_香港_2_48
+  network: tcp
+  port: 42952
+  server: 156.245.8.144
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
