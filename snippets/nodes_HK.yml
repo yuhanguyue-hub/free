@@ -1,49 +1,66 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 6,7,11,12,17|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com_42
+  network: tcp
+  port: 42952
+  server: 156.245.8.146
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 64
+  cipher: auto
+  name: 6,7,12|🇭🇰 _HK_香港
+  network: tcp
+  port: 42952
+  server: 156.245.8.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - alterId: 0
+  cipher: auto
+  name: '7,8|「节点冠名招商 @nodpai」🇭🇰 HK 01 #1'
+  network: ws
+  port: 50247
+  server: 183.56.227.156
+  servername: a.db-link.in
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: '7,8|🇭🇰 Hong Kong 07 @nodpai #1'
+  network: ws
+  port: 443
+  server: 162.159.134.55
+  servername: b.db-link.in
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    path: /db00
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 7,8,11,12,14|🇭🇰 香港中转|@ripaojiedian
-  network: ws
-  port: 55455
-  server: hkt.123ddns.xyz
+  name: 8,14|🇭🇰 香港B|@ripaojiedian
+  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
+  port: 52792
+  server: 156.225.67.102
   skip-cert-verify: false
+  sni: chaosujp.ccoo520.xyz
   tfo: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  ws-opts:
-    headers:
-      Host: hkt.123ddns.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 05 @nodpai #1'
-  network: ws
-  port: 4443
-  server: 183.178.194.228
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 06 @nodpai #1'
-  network: ws
-  port: 4443
-  server: hkbn1.411api-snisajdnjkndd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
-  ws-opts:
-    headers:
-      Host: hkbn1.411api-snisajdnjkndd.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -53,7 +70,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 586009bb-b993-4c5c-8f32-c523040fdf34
+  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -63,7 +80,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 586009bb-b993-4c5c-8f32-c523040fdf34
+  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -73,17 +90,23 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 586009bb-b993-4c5c-8f32-c523040fdf34
-- alterId: 64
+  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b
+- alterId: 0
   cipher: auto
-  name: 11,12,18|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com_42
-  network: tcp
-  port: 42952
-  server: 156.245.8.146
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 11,12,14|🇭🇰 香港中转|@ripaojiedian
+  network: ws
+  port: 55455
+  server: hkt.123ddns.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: hkt.123ddns.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -93,7 +116,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9
+  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -103,7 +126,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9
+  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -113,7 +136,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9
+  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -133,7 +156,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+  name: 14,17|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
   network: ws
   port: 46001
   server: mf01fx.micloud.buzz
@@ -160,12 +183,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 64
-  cipher: auto
-  name: 18|🇭🇰_HK_香港_2_48
-  network: tcp
-  port: 42952
-  server: 156.245.8.144
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
