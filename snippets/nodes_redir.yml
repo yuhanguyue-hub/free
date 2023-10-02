@@ -123,7 +123,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #6'
+  name: 2,3,4,6,18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
   network: ws
   port: 2052
   server: 104.16.68.38
@@ -219,7 +219,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,17|🇺🇸_US_美国->🇩🇪_DE_德国_9
+  name: 2,3,4,18|🇺🇸_US_美国->🇩🇪_DE_德国_8
   network: ws
   port: 8880
   server: yd1.992688.xyz
@@ -245,59 +245,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 04 @nodpai
-  network: tcp
-  port: '16666'
-  server: cn-guangzhou.applebench.tech
-  tls: false
-  type: vmess
-  uuid: a0043275-5033-4923-9f22-b2f466a8794a
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 01 @nodpai #1'
-  network: ws
-  port: 50247
-  server: 120.241.47.18
-  servername: a.cn-db.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
-  ws-opts:
-    path: /db00
-- alterId: 64
-  cipher: auto
-  name: 7,15|香港直连|@ripaojiedian
-  network: tcp
-  port: '39971'
-  server: 183.240.232.82
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇨🇳 China 01 @nodpai #1'
-  network: ws
-  port: 19709
-  server: 123.249.101.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇯🇵 Japan 03 @nodpai
-  password: 5fbc5eac-1bda-4c83-ad98-3c982bacc090
-  port: 25854
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 15|香港中转|@ripaojiedian
   network: ws
   port: '55455'
@@ -312,38 +259,104 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 17|🇨🇳_CN_中国->🇺🇸_US_美国_2_6
-  network: ws
-  port: 46033
-  server: mf33fx.micloud.buzz
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: tcp
+  port: 50016
+  server: 16.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c
-  ws-opts:
-    headers:
-      Host: mf33fx.micloud.buzz
-    path: /zh-cn
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
 - alterId: 0
   cipher: auto
-  name: 17|🇨🇳_CN_中国->🇺🇸_US_美国_3_28
+  name: 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  network: tcp
+  port: 16682
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e7565bb-2a3f-37dc-8528-6c47cd88e01b
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_7
+  network: tcp
+  port: 50020
+  server: 20.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_9
+  network: tcp
+  port: 50016
+  server: 36.140.102.11
+  tls: false
+  type: vmess
+  uuid: 9712f569-aa6b-4b75-a993-5eb7c1dd288d
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇦🇹_AT_奥地利_由快嘴科技提供：kk...
+  network: tcp
+  port: 50007
+  server: 07.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  network: tcp
+  port: 50009
+  server: 09.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_2由快嘴科技提供：...
   network: ws
   port: 46034
   server: mf34fx.micloud.buzz
   tls: false
   type: vmess
-  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
+  uuid: 81fbdd06-6aa2-42f7-b71a-2f71253d8bd3
   ws-opts:
+    headers:
+      Host: mf34fx.micloud.buzz
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 17|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-  network: ws
-  port: 46001
-  server: mf01fx.micloud.buzz
+  name: 18|🇨🇳_CN_中国->🇫🇷_FR_法国_23
+  network: tcp
+  port: 50041
+  server: 41.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c
-  ws-opts:
-    headers:
-      Host: mf01fx.micloud.buzz
-    path: /zh-cn
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇮🇳_IN_印度_2_24
+  network: tcp
+  port: 40887
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e7565bb-2a3f-37dc-8528-6c47cd88e01b
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_26
+  network: tcp
+  port: 50017
+  server: 17.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_6_27
+  network: tcp
+  port: 50001
+  server: 01.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
