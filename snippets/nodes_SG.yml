@@ -1,30 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01 #1'
-  network: ws
-  port: 80
-  server: 54.169.79.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0a2163ae-7e05-3de8-9946-180c01a2f490
-  ws-opts:
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: '7,8|🇸🇬 Singapore 03 @nodpai #1'
   network: ws
-  port: 80
-  server: 8.222.242.136
+  port: 443
+  server: welfare.kk-proxy.pro
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 0a2163ae-7e05-3de8-9946-180c01a2f490
+  uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91
   ws-opts:
-    path: /?ed=2050
+    headers:
+      Host: welfare.kk-proxy.pro
+    path: /ec3a017507e0/
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡04
@@ -34,7 +23,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
+  uuid: d776c36e-ad49-49f6-9875-ff02789b298a
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -44,7 +33,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
+  uuid: d776c36e-ad49-49f6-9875-ff02789b298a
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -54,7 +43,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
+  uuid: d776c36e-ad49-49f6-9875-ff02789b298a
 - alterId: 0
   cipher: auto
   name: 12|SG_36 |35.53Mb
@@ -69,6 +58,19 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 Singapore 04 @nodpai
+  network: ws
+  port: '80'
+  server: 54.169.79.3
+  tls: false
+  type: vmess
+  uuid: 0a2163ae-7e05-3de8-9946-180c01a2f490
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 12,17|🇺🇸_US_美国_由快嘴科技提供：kkzui.com7_30
@@ -90,7 +92,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
+  uuid: e887a564-c237-4c56-b4cc-dabcd6a50cc1
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -100,7 +102,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
+  uuid: e887a564-c237-4c56-b4cc-dabcd6a50cc1
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -110,4 +112,4 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
+  uuid: e887a564-c237-4c56-b4cc-dabcd6a50cc1
