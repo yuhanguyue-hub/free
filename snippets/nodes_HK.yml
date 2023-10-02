@@ -11,15 +11,28 @@ proxies:
   uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - alterId: 64
   cipher: auto
-  name: 1,2,3,4,6,11,18|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com_42
+  name: 1,2,3,4,6,17|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com_42
   network: tcp
   port: 42952
   server: 156.245.8.146
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇯🇵 日本2|@ripaojiedian
+  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
+  port: 40350
+  server: zz.chaosu999.com
+  skip-cert-verify: false
+  sni: chaosujp.ccoo520.xyz
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -29,7 +42,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8a67054b-49ed-48a9-aed2-177050a6a16a
+  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -39,7 +52,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8a67054b-49ed-48a9-aed2-177050a6a16a
+  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -49,7 +62,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8a67054b-49ed-48a9-aed2-177050a6a16a
+  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -75,7 +88,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72366b7b-c809-4499-8c17-5c0499401109
+  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -85,7 +98,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72366b7b-c809-4499-8c17-5c0499401109
+  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -95,7 +108,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 72366b7b-c809-4499-8c17-5c0499401109
+  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -129,73 +142,19 @@ proxies:
     headers:
       Host: hkt.123ddns.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-  network: ws
-  port: 46001
-  server: mf01fx.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c
-  ws-opts:
-    headers:
-      Host: mf01fx.micloud.buzz
-    path: /zh-cn
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|香港X|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 27.124.6.148
-  servername: www.65210162.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.65210162.xyz
-    path: /path/143534141104
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|香港T|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 118.107.245.19
-  servername: www.50918290.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.50918290.xyz
-    path: /path/143534141104
-- alterId: 0
-  cipher: auto
-  name: 15|香港|@ripaojiedian
-  network: ws
-  port: '46001'
-  server: mf01fx.micloud.buzz
+  name: 15|香港直连|@ripaojiedian
+  network: tcp
+  port: '39971'
+  server: 183.240.232.82
   servername: ''
   tls: false
   type: vmess
-  uuid: 81fbdd06-6aa2-42f7-b71a-2f71253d8bd3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 15,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  name: 15,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
   network: tcp
   port: 51165
   server: 183.233.187.214
@@ -205,7 +164,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 18|🇭🇰_HK_香港_2_48
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '40158'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 17|🇭🇰_HK_香港_2_48
   network: tcp
   port: 42952
   server: 156.245.8.144
