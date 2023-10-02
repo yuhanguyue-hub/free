@@ -163,7 +163,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2,3,4,6,11,14,15|卢森堡|频道:@ripaojiedian
+  name: 2,3,4,6,14,15|卢森堡|频道:@ripaojiedian
   network: ws
   port: '2052'
   server: cf.yx.alue.link
@@ -205,7 +205,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6,11|github.com/freefq - 美国CloudFla... #10'
+  name: 2,3,4,6,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: '80'
   server: fd.shabijichang.com
@@ -242,6 +242,191 @@ proxies:
   ws-opts:
     headers:
       Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇭🇰 Hong Kong 01 @nodpai #1'
+  network: ws
+  port: 41402
+  server: 101.91.240.29
+  servername: a.db-link.in
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 01 @nodpai
+  network: tcp
+  port: '23608'
+  server: 8.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇺🇸 United States 10 @nodpai #1'
+  network: ws
+  port: 19322
+  server: 101.91.240.29
+  servername: a.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    path: /db00
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港直连|@ripaojiedian
+  network: tcp
+  port: '39971'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇱🇺 Luxembourg 01 @nodpai
+  network: tcp
+  port: '18353'
+  server: cn-guangzhou.applebench.tech
+  tls: false
+  type: vmess
+  uuid: 666d382c-d614-4129-aedb-06c63982820a
+- alterId: 64
+  cipher: auto
+  name: 7,8,12|🇺🇸_US_美国_12
+  network: ws
+  port: 443
+  server: 198.2.202.84
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1694859605321
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇩🇪 Germany 01 @nodpai #1'
+  network: ws
+  port: 23616
+  server: 16.v2-ray.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
+  ws-opts:
+    headers:
+      Host: 16.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1'
+  network: ws
+  port: 23605
+  server: 5.v2-ray.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
+  ws-opts:
+    headers:
+      Host: 5.v2-ray.cyou
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 7,12,15|香港A|@ripaojiedian
+  network: tcp
+  port: '51165'
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇺🇸 United States 22 @nodpai #1'
+  network: ws
+  port: 23615
+  server: 15.v2-ray.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b01b799e-ab18-3a59-87e3-d2d33c4e14ca
+  ws-opts:
+    headers:
+      Host: 15.v2-ray.cyou
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇯🇵 日本2|@ripaojiedian
+  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
+  port: 40350
+  server: zz.chaosu999.com
+  skip-cert-verify: false
+  sni: chaosujp.ccoo520.xyz
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国->🇸🇬_SG_新加坡_18@34
+  network: ws
+  port: 80
+  server: sg2.wyhkaa0.cf
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国->🇸🇬_SG_新加坡_2_10@35
+  network: ws
+  port: 80
+  server: sg.wyhkaa0.cf
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港中转|@ripaojiedian
+  network: ws
+  port: 55455
+  server: hkt.123ddns.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: hkt.123ddns.xyz
     path: /
 - alterId: 0
   cipher: auto
