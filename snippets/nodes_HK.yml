@@ -42,7 +42,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e
+  uuid: 8ce16082-5718-4907-888b-00aa1e2e126e
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -52,7 +52,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e
+  uuid: 8ce16082-5718-4907-888b-00aa1e2e126e
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -62,7 +62,35 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e
+  uuid: 8ce16082-5718-4907-888b-00aa1e2e126e
+- alterId: 0
+  cipher: auto
+  name: 12,15|香港中转|@ripaojiedian
+  network: ws
+  port: '55455'
+  server: hkt.123ddns.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|香港ND02_CelerLink
+  network: ws
+  port: 4443
+  server: hkbn1.411api-snisajdnjkndd.com
+  servername: hkbn1.411api-snisajdnjkndd.com
+  tls: true
+  type: vmess
+  uuid: f8be07e9-4455-463f-ab36-770c5c5a39bb
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -72,7 +100,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907
+  uuid: fc0ee219-e82c-41a2-ac80-aeb71b4a8bb1
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -82,7 +110,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907
+  uuid: fc0ee219-e82c-41a2-ac80-aeb71b4a8bb1
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -92,7 +120,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907
+  uuid: fc0ee219-e82c-41a2-ac80-aeb71b4a8bb1
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
