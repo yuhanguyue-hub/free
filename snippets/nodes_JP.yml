@@ -29,16 +29,15 @@ proxies:
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 12|🇯🇵 日本_1004044
+  name: 11|github.com/freefq - 日本  1
   network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
+  port: '23234'
+  server: jp6.lianpi.xyz
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 57
@@ -55,6 +54,16 @@ proxies:
   network: tcp
   port: 51801
   server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本_1004044
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
   servername: ''
   tls: false
   type: vmess
