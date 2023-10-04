@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 0,17|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 2082
   server: 104.17.62.27
@@ -14,7 +14,7 @@ proxies:
     path: /asdas
 - alterId: 0
   cipher: auto
-  name: 0,18|🇺🇸_US_美国->🇫🇷_FR_法国_4
+  name: 0,17|🇺🇸_US_美国->🇫🇷_FR_法国_4
   network: ws
   port: 80
   server: 104.18.12.192
@@ -27,7 +27,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: yd1.992688.xyz
@@ -120,17 +120,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_DE__1
+  name: '1,7,8|🇩🇪 Germany 05 @nodpai #1'
   network: ws
   port: 8080
   server: 162.159.129.245
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3
   ws-opts:
-    headers:
-      host: eu5.vpn66.eu.org
     path: /?ed=2048
 - alterId: 0
   cipher: auto
@@ -179,7 +178,7 @@ proxies:
     path: /scp比赛专用节点
 - alterId: 0
   cipher: auto
-  name: 4|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  name: '4,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #3'
   network: ws
   port: 2052
   server: 104.16.68.38
@@ -206,7 +205,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 4,14,15|卢森堡|频道:@ripaojiedian
+  name: 4,12,14,15|卢森堡|频道:@ripaojiedian
   network: ws
   port: '2052'
   server: cf.yx.alue.link
@@ -222,7 +221,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #2'
+  name: '4,12|🇺🇸_US_美国 #52'
   network: ws
   port: 2052
   server: 162.159.152.6
@@ -235,11 +234,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #3'
+  name: '4,12|🇺🇸_US_美国->🇩🇪_DE_德国 #4'
   network: ws
   port: 8080
   server: 162.159.129.245
-  servername: ''
   tls: false
   type: vmess
   uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3
@@ -262,24 +260,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1'
+  name: '7,8|中转 🇨🇳 China 05 @nodpai #1'
   network: ws
-  port: 50247
-  server: 112.8.204.169
-  servername: b.db-link.in
+  port: 8886
+  server: 39.164.141.100
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
   ws-opts:
-    path: /dabai.in
+    path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 04 @nodpai #1'
+  name: '7,8|中转 🇭🇰 Hong Kong 01 @nodpai #1'
   network: ws
-  port: 50247
-  server: 112.8.204.174
+  port: 41402
+  server: 101.91.240.29
   servername: a.db-link.in
   skip-cert-verify: true
   tls: false
@@ -290,31 +287,30 @@ proxies:
     path: /dabai.in
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 02 @nodpai
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 78c362b8-62cf-352c-b310-2ef92dd0f4fe
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 13 @nodpai #1'
+  name: '7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1'
   network: ws
-  port: 46034
-  server: mf34fx.micloud.buzz
+  port: 50080
+  server: 39.164.141.70
+  servername: b.db-link.in
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
   ws-opts:
-    headers:
-      Host: mf34fx.micloud.buzz
-    path: /zh-cn
+    path: /dabai.in
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇺🇸 United States 16 @nodpai #1'
+  name: 7|中转 🇸🇬 Singapore 05 @nodpai
+  network: tcp
+  port: '26768'
+  server: sg-gy.115cloud.link
+  tls: false
+  type: vmess
+  uuid: e8a9a4b8-22da-3a5d-8689-b5b02f054702
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇺🇸 United States 06 @nodpai #1'
   network: ws
   port: 46033
   server: mf33fx.micloud.buzz
@@ -329,60 +325,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇺🇸 United States 11 @nodpai #1'
-  network: ws
-  port: 63005
-  server: 183.249.20.149
-  servername: b.cn-db.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
-  ws-opts:
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇸🇬 Singapore 04 @nodpai #1'
-  network: ws
-  port: 23612
-  server: 12.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 78c362b8-62cf-352c-b310-2ef92dd0f4fe
-  ws-opts:
-    headers:
-      Host: 12.v2-ray.cyou
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 7,15|香港直连|@ripaojiedian
-  network: tcp
-  port: '39971'
-  server: 183.240.232.82
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 15 @nodpai #1'
-  network: ws
-  port: 50247
-  server: 112.8.204.170
-  servername: a.cn-db.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
-  ws-opts:
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 08 @nodpai #1'
+  name: '7,8|中转 🇭🇰 Hong Kong 12 @nodpai #1'
   network: ws
   port: 46001
   server: mf01fx.micloud.buzz
@@ -395,25 +338,95 @@ proxies:
     headers:
       Host: mf01fx.micloud.buzz
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇺🇸 United States 05 @nodpai #1'
+  network: ws
+  port: 62005
+  server: 112.29.156.248
+  servername: a.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    path: /dabai.in
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇺🇸 United States 09 @nodpai #1'
+  network: ws
+  port: 50247
+  server: 112.8.204.173
+  servername: b.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    path: /dabai.in
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇩🇪 Germany 04 @nodpai #1'
+  network: ws
+  port: 23616
+  server: 16.v2-ray.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 78c362b8-62cf-352c-b310-2ef92dd0f4fe
+  ws-opts:
+    headers:
+      Host: 16.v2-ray.cyou
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港直连|@ripaojiedian
+  network: tcp
+  port: '39971'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港2|@ripaojiedian
+  network: tcp
+  port: '40158'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 01 @nodpai
-  password: 9955aa47-c3d4-4f11-b8a2-a7c7a20aadc0
+  name: 8|中转 🇭🇰 Hong Kong 02 @nodpai
+  password: 371e55dc-0549-4d75-b7c3-6ce9e44ef989
   port: 47120
   server: starspeed.tbh.iosds.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 01 @nodpai
+  password: 371e55dc-0549-4d75-b7c3-6ce9e44ef989
+  port: 26963
+  server: starspeed.tbh.iosds.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 8|中转 🇯🇵 Japan 01 @nodpai
-  password: 9955aa47-c3d4-4f11-b8a2-a7c7a20aadc0
+  password: 371e55dc-0549-4d75-b7c3-6ce9e44ef989
   port: 25854
   server: starspeed.tbh.iosds.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 01 @nodpai
-  password: 9955aa47-c3d4-4f11-b8a2-a7c7a20aadc0
-  port: 26963
-  server: starspeed.tbh.iosds.com
+  name: 8|中转 🇸🇬 Singapore 02 @nodpai
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 24101
+  server: p1.bxy-fun2.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -424,10 +437,45 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇹🇼 Taiwan 02 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41021
-  server: jscm01.celerlink.one
+  name: 8|中转 🇻🇳 Viet Nam 01 @nodpai
+  password: 89805270-c3ab-4d75-9ad5-9448aff5d3c8
+  port: 27110
+  server: foshan.chiguayun.cc
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港A|@ripaojiedian
+  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
+  port: 51165
+  server: 183.233.187.214
+  skip-cert-verify: false
+  sni: chaosujp.ccoo520.xyz
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇪🇸 Spain 01 @nodpai
+  password: 977a1372-18fe-4bae-8616-9a59497b810a
+  port: 26007
+  server: as.al19.cf
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇦🇺 Australia 01 @nodpai
+  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
+  port: 26903
+  server: ydyh.nanbei.info
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇹🇷 Turkey 01 @nodpai
+  password: 89805270-c3ab-4d75-9ad5-9448aff5d3c8
+  port: 27130
+  server: hefei.chiguayun.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -438,13 +486,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 08 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41027
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 8|中转 🇬🇧 United Kingdom 01 @nodpa...
   password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
   port: 26905
@@ -452,45 +493,24 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇪🇸 Spain 01 @nodpai
+  name: 8|中转 🇫🇷 France 01 @nodpai
   password: 977a1372-18fe-4bae-8616-9a59497b810a
-  port: 26007
+  port: 42018
   server: as.al19.cf
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇦🇺 Australia 02 @nodpai
-  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
-  port: 26903
-  server: ydyh.nanbei.info
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇻🇳 Viet Nam 01 @nodpai
-  password: 89805270-c3ab-4d75-9ad5-9448aff5d3c8
-  port: 27110
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 03 @nodpai
-  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
-  port: 26906
-  server: ydyh.nanbei.info
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 12 @nodpai
-  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
-  port: 26904
-  server: ydyh.nanbei.info
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 17 @nodpai
+  name: 8|中转 🇺🇸 United States 08 @nodpai
   password: 2739ce85d3b9e145
-  port: 41026
+  port: 41027
   server: jscm01.celerlink.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇮🇳 India 01 @nodpai
+  password: 89805270-c3ab-4d75-9ad5-9448aff5d3c8
+  port: 27103
+  server: hefei.chiguayun.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -501,10 +521,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 02 @nodpai
-  password: 977a1372-18fe-4bae-8616-9a59497b810a
-  port: 42018
-  server: as.al19.cf
+  name: 8|中转 🇺🇸 United States 10 @nodpai
+  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
+  port: 26904
+  server: ydyh.nanbei.info
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -515,9 +535,30 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 18 @nodpai
-  password: 9955aa47-c3d4-4f11-b8a2-a7c7a20aadc0
+  name: 8|中转 🇸🇬 Singapore 09 @nodpai
+  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
+  port: 26906
+  server: ydyh.nanbei.info
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇹🇼 Taiwan 03 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41021
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 12 @nodpai
+  password: 371e55dc-0549-4d75-b7c3-6ce9e44ef989
   port: 19290
   server: starspeed.tbh.iosds.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 13 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41026
+  server: jscm01.celerlink.one
   type: ss
   udp: true
