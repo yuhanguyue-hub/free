@@ -273,19 +273,58 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇮🇳 India 01 @nodpai
+  name: 7|中转 🇭🇰 Hong Kong 01 @nodpai
   network: tcp
-  port: '15086'
-  server: 15086.kuaiyin.win
+  port: '50010'
+  server: 10.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇺🇸 United States 03 @nodpai #1'
+  name: '7,8|中转 🇸🇬 Singapore 02 @nodpai #1'
   network: ws
-  port: 61051
-  server: 183.249.20.146
+  port: 23612
+  server: 12.v2-ray.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 111c43a1-bf58-3794-923b-c0b5f353623e
+  ws-opts:
+    headers:
+      Host: 12.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇭🇰 Hong Kong 02 @nodpai #1'
+  network: ws
+  port: 61004
+  server: 112.29.156.251
+  servername: a.db-link.in
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
+  ws-opts:
+    path: /dabai.in
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港直连|@ripaojiedian
+  network: tcp
+  port: '39971'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '7,8|中转 🇺🇸 United States 10 @nodpai #1'
+  network: ws
+  port: 62014
+  server: 112.29.156.248
   servername: b.cn-db.top
   skip-cert-verify: true
   tls: false
@@ -303,45 +342,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 05 @nodpai
-  network: tcp
-  port: '50017'
-  server: 17.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 06 @nodpai #1'
-  network: ws
-  port: 23614
-  server: 14.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 111c43a1-bf58-3794-923b-c0b5f353623e
-  ws-opts:
-    headers:
-      Host: 14.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇩🇪 Germany 02 @nodpai #1'
-  network: ws
-  port: 23618
-  server: 18.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 111c43a1-bf58-3794-923b-c0b5f353623e
-  ws-opts:
-    headers:
-      Host: 18.v2-ray.cyou
-    path: /
 - alterId: 64
   cipher: auto
   name: 7,15|香港A|@ripaojiedian
@@ -352,63 +352,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇺🇸 United States 12 @nodpai
+  network: tcp
+  port: '50017'
+  server: 17.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
 - alterId: 64
   cipher: auto
-  name: 7,15|香港直连|@ripaojiedian
+  name: 7,15|香港2|@ripaojiedian
   network: tcp
-  port: '39971'
+  port: '40158'
   server: 183.240.232.82
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 02 @nodpai
-  password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3
-  port: 27207
-  server: fs.xianyuwangluo.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 03 @nodpai
-  password: 8f03a18c-31ee-4e8c-8e23-f3af0964a543
-  port: 47120
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇮🇪 Ireland 01 @nodpai
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27140
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
-  password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b
-  port: 10721
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇯🇵 Japan 01 @nodpai
-  password: 8f03a18c-31ee-4e8c-8e23-f3af0964a543
-  port: 25854
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇪 Sweden 01 @nodpai
-  password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b
-  port: 10719
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇮🇹 Italy 02 @nodpai
-  password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b
-  port: 10718
-  server: yidong.liulangdiqiu.cyou
+  name: 8|中转 🇹🇼 Taiwan 01 @nodpai
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 23102
+  server: p1.bxy-fun1.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -419,9 +386,93 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 07 @nodpai
+  password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3
+  port: 27207
+  server: fs.xianyuwangluo.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇩🇪 Germany 01 @nodpai
+  password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3
+  port: 27208
+  server: fs.xianyuwangluo.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 08 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41026
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
+  password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b
+  port: 10721
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇮🇹 Italy 01 @nodpai
+  password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b
+  port: 10718
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 8|中转 🇳🇱 Netherlands 01 @nodpai
   password: 4cf75408-967d-41c4-bf89-80517807e26f
   port: 27117
+  server: foshan.chiguayun.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇪 Sweden 01 @nodpai
+  password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b
+  port: 10719
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇪 Sweden 02 @nodpai
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27120
+  server: foshan.chiguayun.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇷🇸 Serbia 01 @nodpai
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27142
+  server: foshan.chiguayun.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇪 Sweden 03 @nodpai
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27120
+  server: hefei.chiguayun.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇩🇪 Germany 02 @nodpai
+  password: 6572a788-28de-4941-a662-c7a2b6009328
+  port: 40172
+  server: cnmbdcm01.kczz2038.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇷🇸 Serbia 02 @nodpai
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27142
+  server: hefei.chiguayun.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇮🇪 Ireland 01 @nodpai
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27140
   server: foshan.chiguayun.cc
   type: ss
   udp: true
@@ -433,17 +484,12 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇷🇸 Serbia 01 @nodpai
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27142
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇷🇸 Serbia 02 @nodpai
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27142
-  server: hefei.chiguayun.cc
+  client-fingerprint: chrome
+  name: 8,14|🇹🇼 台湾|@ripaojiedian
+  password: 2739ce85d3b9e145
+  port: 41021
+  server: jscm01.celerlink.one
+  tfo: false
   type: ss
   udp: true
 - alterId: 0
