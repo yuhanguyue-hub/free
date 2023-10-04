@@ -1,18 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 03 @nodpai #1'
-  network: ws
-  port: 2052
-  server: 162.159.134.54
-  servername: a.db-link.in
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-128-gcm
+  name: 8|中转 🇭🇰 Hong Kong 05 @nodpai
+  password: 46985205-4905-4510-a9af-75eb99861641
+  port: 4220
+  server: 183.240.117.62
+  type: ss
   udp: true
-  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
-  ws-opts:
-    path: /dabai.in
+- cipher: aes-128-gcm
+  name: 8|「蛋挞云,流媒体全解锁」🇭🇰 HK 02
+  password: bd852a26-afb2-4747-b963-4b238a62dec7
+  port: 42191
+  server: 183.240.117.62
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇭...
+  password: 83af7f00-d3e0-49b9-a506-363816deea4e
+  port: 4219
+  server: 183.240.117.62
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -22,7 +29,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 65a41549-cf2c-4557-a2d7-7abafc1c4c6f
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -32,7 +39,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 65a41549-cf2c-4557-a2d7-7abafc1c4c6f
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -42,7 +49,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 65a41549-cf2c-4557-a2d7-7abafc1c4c6f
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 11,15|香港B|@ripaojiedian
@@ -66,7 +73,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6e259cb-0033-48e5-93a9-4911f26a685f
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -76,7 +83,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6e259cb-0033-48e5-93a9-4911f26a685f
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -86,7 +93,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6e259cb-0033-48e5-93a9-4911f26a685f
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -121,6 +128,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港S|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mf01fx.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
+  ws-opts:
+    headers:
+      Host: mf01fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 15|香港S|@ripaojiedian
   network: ws
   port: '46001'
@@ -153,16 +176,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 17|🇭🇰_HK_香港_由快嘴科技提供：kkzui.com6
-  network: ws
-  port: 30000
-  server: 156.245.8.130
-  tls: true
-  type: vmess
-  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
-  ws-opts:
-    headers:
-      Host: www.47523375.xyz
-    path: /path/1696251522438

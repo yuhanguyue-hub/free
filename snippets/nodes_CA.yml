@@ -1,21 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|🇨🇦 Canada 01 @nodpai #1'
-  network: ws
-  port: 80
-  server: dld.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: dld.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -23,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 65a41549-cf2c-4557-a2d7-7abafc1c4c6f
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 150
@@ -61,4 +46,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6e259cb-0033-48e5-93a9-4911f26a685f
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
