@@ -1,4 +1,19 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '7,8|「eggtartcloud.shop 自选入口,速度保证」🇭... #1'
+  network: ws
+  port: 46001
+  server: mf01fx.micloud.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c
+  ws-opts:
+    headers:
+      Host: mf01fx.micloud.buzz
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 7,15|香港Y|@ripaojiedian
@@ -8,49 +23,6 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1'
-  network: ws
-  port: 46001
-  server: mf01fx.micloud.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
-  ws-opts:
-    headers:
-      Host: mf01fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 04 @nodpai #1'
-  network: ws
-  port: 4443
-  server: 183.178.194.228
-  servername: hkbn1.411api-snisajdnjkndd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇭🇰 香港慢|@ripaojiedian
-  password: QHhbhwe6lj
-  port: 33058
-  server: 103.15.217.182
-  skip-cert-verify: false
-  sni: 103.15.217.182
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
