@@ -1,24 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 1,4|🇭🇰_HK_香港
-  network: tcp
-  port: 42952
-  server: 156.245.8.145
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- alterId: 64
-  cipher: auto
-  name: '1,4|🇭🇰_HK_香港 #1'
-  network: tcp
-  port: 42952
-  server: 156.245.8.146
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -112,49 +92,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港B|@ripaojiedian
+  name: 14,15|香港B|@ripaojiedian
   network: ws
-  port: 55455
-  server: hkt.123ddns.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  ws-opts:
-    headers:
-      Host: hkt.123ddns.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港S|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mf01fx.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
-  ws-opts:
-    headers:
-      Host: mf01fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 15|香港S|@ripaojiedian
-  network: ws
-  port: '46001'
-  server: mf01fx.micloud.buzz
+  port: '61004'
+  server: 112.29.156.251
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
+  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
   ws-opts:
     headers:
-      Host: ''
-    path: /zh-cn
+      Host: a.db-link.in
+    path: /dabai.in
 - alterId: 64
   cipher: auto
   name: 15|香港直连|@ripaojiedian
