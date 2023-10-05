@@ -4,15 +4,13 @@ proxies:
   name: '7,8|🇨🇦 Canada 01 @nodpai #1'
   network: ws
   port: 80
-  server: dld.shabijichang.com
+  server: 172.67.98.182
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb
   ws-opts:
-    headers:
-      Host: dld.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -26,18 +24,18 @@ proxies:
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 150
+  name: 12|🇨🇦 加拿大 168
   network: ws
-  port: 80
-  server: 172.67.74.237
+  port: 443
+  server: 51vfly1.win
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
   ws-opts:
     headers:
-      Host: sg.wyhkaa0.cf
-    path: /TG:@hkaa0
+      Host: 51vfly1.win
+    path: /myblog
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA

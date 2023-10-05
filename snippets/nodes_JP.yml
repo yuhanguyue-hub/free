@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,12|🇯🇵 Japan 01 @nodpai
-  network: tcp
-  port: 23234
-  server: jp6.lianpi.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇯🇵 Japan 02 @nodpai #1'
+  name: '7,8|🇯🇵 Japan 12 @nodpai #1'
   network: ws
   port: 45123
   server: jp5.lianpi.xyz
@@ -25,20 +15,13 @@ proxies:
     headers:
       Host: jp5.lianpi.xyz
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇭🇰 香港2|@ripaojiedian
-  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
-  port: 40158
-  server: 183.240.232.82
-  skip-cert-verify: false
-  sni: chaosujp.ccoo520.xyz
-  tfo: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇯...
+  password: 8868d533-e657-48c2-afc9-c219a1ab6135
+  port: 25854
+  server: starspeed.tbh.iosds.com
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04
@@ -69,16 +52,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本 57
-  network: tcp
-  port: 46222
-  server: 141.147.146.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本_1004044
@@ -91,14 +64,28 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
+  name: 12|🇯🇵 JP 58
+  network: ws
+  port: 8080
+  server: 146.56.174.31
   servername: ''
   tls: false
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c
+  ws-opts:
+    headers:
+      Host: 146.56.174.31
+    path: /tg@herhero6
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本 57
+  network: tcp
+  port: 46222
+  server: 141.147.146.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本_1004048
@@ -109,6 +96,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP

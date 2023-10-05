@@ -9,32 +9,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇫🇷 France 02 @nodpai #1'
-  network: ws
-  port: 80
-  server: bl.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🔒FR-🇫🇷-VM-WS-TLS🌎_4
-  network: ws
-  port: 80
-  server: fr2-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess

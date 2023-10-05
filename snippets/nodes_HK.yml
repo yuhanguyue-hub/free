@@ -21,33 +21,6 @@ proxies:
   uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
 - alterId: 0
   cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 04 @nodpai #1'
-  network: ws
-  port: 4443
-  server: 183.178.194.228
-  servername: hkbn1.411api-snisajdnjkndd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 05 @nodpai #1'
-  network: ws
-  port: 55455
-  server: 112.120.244.13
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇭🇰香港04
   network: tcp
   port: '36601'
@@ -78,17 +51,17 @@ proxies:
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
-  name: 11,12,15|香港B|@ripaojiedian
+  name: 11|github.com/freefq - 香港香港城市电讯(香...
   network: ws
-  port: '55455'
-  server: hkt.123ddns.xyz
+  port: '4443'
+  server: hkbn1.411api-snisajdnjkndd.com
   servername: ''
   tls: true
   type: vmess
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  uuid: f8be07e9-4455-463f-ab36-770c5c5a39bb
   ws-opts:
     headers:
-      Host: ''
+      Host: hkbn1.411api-snisajdnjkndd.com
     path: /
 - alterId: 0
   cipher: auto
@@ -184,10 +157,10 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  name: 15|香港Y|@ripaojiedian
+  name: 15|香港直连|@ripaojiedian
   network: tcp
-  port: '53737'
-  server: 112.29.94.22
+  port: '39971'
+  server: 183.240.232.82
   servername: ''
   tls: false
   type: vmess
