@@ -27,7 +27,7 @@ proxies:
     path: /path/1694429908748
 - alterId: 0
   cipher: auto
-  name: 0,2,3,6,18|美国(由快嘴科技提供;kkzui.com)_1_8
+  name: 0,2,3,6,17|美国(由快嘴科技提供;kkzui.com)_1_8
   network: ws
   port: 80
   server: ns1.v2-vip.fun
@@ -341,7 +341,7 @@ proxies:
     path: /video/MNBrTghv
 - alterId: 0
   cipher: auto
-  name: 4,18|美国(由快嘴科技提供;kkzui.com)_21_71
+  name: 4,17|美国(由快嘴科技提供;kkzui.com)_21_71
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
@@ -367,7 +367,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4,12,18|美国(由快嘴科技提供;kkzui.com)_4_29
+  name: 4,11,12,17|美国(由快嘴科技提供;kkzui.com)_4_29
   network: ws
   port: 80
   server: ns1.v2-vip.fun
@@ -436,7 +436,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '6,7,8|「蛋挞云,流媒体全解锁」🇺🇸 US 01 #1'
+  name: '6,7,8|🇺🇸 United States 01 @nodpai #1'
   network: http
   port: 2083
   server: 5.161.191.195
@@ -447,7 +447,7 @@ proxies:
   uuid: 1c5cd450-a5cc-4803-d0ef-1ea424cc4ba2
 - alterId: 0
   cipher: auto
-  name: 6,18|美国(由快嘴科技提供;kkzui.com)_20_70
+  name: 6,17|美国(由快嘴科技提供;kkzui.com)_20_70
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
@@ -460,7 +460,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 6,18|美国(由快嘴科技提供;kkzui.com)_17_66
+  name: 6,17|美国(由快嘴科技提供;kkzui.com)_17_66
   network: ws
   port: 80
   server: singapore.com
@@ -473,7 +473,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 64
   cipher: auto
-  name: 6,11,18|美国(由快嘴科技提供;kkzui.com)_3_18
+  name: 6,11,17|美国(由快嘴科技提供;kkzui.com)_3_18
   network: ws
   port: 30000
   server: 45.199.138.222
@@ -487,7 +487,7 @@ proxies:
     path: /path/1696251693048
 - alterId: 0
   cipher: auto
-  name: '7,8|🇺🇸 United States 03 @nodpai #1'
+  name: '7,8|🇺🇸 United States 05 @nodpai #1'
   network: ws
   port: 80
   server: zjg.shabijichang.com
@@ -500,6 +500,13 @@ proxies:
     headers:
       Host: zjg.shabijichang.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇺🇸 United States 04 @nodpai
+  password: f5d95005-be14-40fc-bedc-e4a1133a5701
+  port: 20800
+  server: 155.248.198.71
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国04
@@ -530,9 +537,19 @@ proxies:
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- alterId: 0
+  cipher: auto
+  name: 11,12|🟩u@oneclickvpnkeys
+  network: tcp
+  port: '21603'
+  server: usshs1.gophers.gay
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 503a9983-b6ec-4c0d-e2de-cbcea5343869
 - alterId: 64
   cipher: auto
-  name: 11|github.com/freefq - 美国加利福尼亚州洛杉...
+  name: '11|github.com/freefq - 美国加利福尼亚州洛杉... #1'
   network: ws
   port: 443
   server: 198.2.202.84
@@ -560,45 +577,18 @@ proxies:
     path: /footers
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 80
-  server: fd.cfcdn.giize.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11111189-0502-48ab-f493-5e0f663a700c
-  ws-opts:
-    headers:
-      Host: us04.cctvvip.tk
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #1'
-  network: ws
-  port: 80
-  server: hdlb.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: hdlb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #2'
   network: ws
-  port: 80
-  server: fd.cfcdn.giize.com
+  port: '80'
+  server: 941.outline-vpn.cloud
   servername: ''
   tls: false
   type: vmess
-  uuid: 2e7a765e-8fc5-4d7d-8dc0-83871b76deff
+  uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2
   ws-opts:
     headers:
-      Host: jp01.cctvvip.tk
-    path: /cctv13.m3u8
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #3'
@@ -616,6 +606,19 @@ proxies:
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #4'
   network: ws
+  port: 80
+  server: hdlb.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: hdlb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #5'
+  network: ws
   port: '80'
   server: 104.16.117.47
   servername: ''
@@ -625,34 +628,6 @@ proxies:
   ws-opts:
     headers:
       Host: jdf.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 美国  14
-  network: ws
-  port: '888'
-  server: ryoza-1088-v2-1.d-kcd.tuil.xyz
-  servername: s3.cjhh.beauty
-  tls: true
-  type: vmess
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  ws-opts:
-    headers:
-      Host: s3.cjhh.beauty
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: '80'
-  server: 941.outline-vpn.cloud
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -668,20 +643,6 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 12|🇺🇸_US_美国_12
-  network: ws
-  port: 443
-  server: 198.2.202.84
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1694859605321
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 US 860
@@ -905,72 +866,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|JCBB_ 美国01【vip1】
-  network: ws
-  port: '38381'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0b800507-c48e-45e7-a181-a51755858ee1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国02_1【vip1】
-  network: ws
-  port: '20153'
-  server: gzdx01.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0b800507-c48e-45e7-a181-a51755858ee1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国02【vip1】
-  network: ws
-  port: '28204'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0b800507-c48e-45e7-a181-a51755858ee1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 03【vip1】
-  network: ws
-  port: '21036'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0b800507-c48e-45e7-a181-a51755858ee1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 04【vip1】
-  network: ws
-  port: '62684'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 0b800507-c48e-45e7-a181-a51755858ee1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_2_13
+  name: 17|美国(由快嘴科技提供;kkzui.com)_2_13
   network: ws
   port: 80
   server: fr2e-20100101.runba.gq
@@ -981,7 +877,7 @@ proxies:
     path: /frfrfffvmn01N
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_5_30
+  name: 17|美国(由快嘴科技提供;kkzui.com)_5_30
   network: ws
   port: 80
   server: 104.16.60.79
@@ -994,7 +890,7 @@ proxies:
     path: /sfsfw
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_6_31
+  name: 17|美国(由快嘴科技提供;kkzui.com)_6_31
   network: ws
   port: 2082
   server: 104.17.88.252
@@ -1007,7 +903,7 @@ proxies:
     path: /phosphorylative.aurorainiceland.com/nimvws
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_8_40
+  name: 17|美国(由快嘴科技提供;kkzui.com)_8_40
   network: tcp
   port: 11620
   server: a20.achenxty.top
@@ -1016,7 +912,7 @@ proxies:
   uuid: 5551e3ef-95f3-3f0a-a9a3-9952233a839f
 - alterId: 64
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_10_45
+  name: 17|美国(由快嘴科技提供;kkzui.com)_10_45
   network: ws
   port: 443
   server: 198.2.202.85
@@ -1029,7 +925,7 @@ proxies:
     path: /path/1695032909164
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_11_46
+  name: 17|美国(由快嘴科技提供;kkzui.com)_11_46
   network: ws
   port: 80
   server: ns1.v2-vip.fun
@@ -1042,7 +938,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_12_54
+  name: 17|美国(由快嘴科技提供;kkzui.com)_12_54
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
@@ -1055,7 +951,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_13_55
+  name: 17|美国(由快嘴科技提供;kkzui.com)_13_55
   network: tcp
   port: 11619
   server: a19.achenxty.top
@@ -1064,7 +960,7 @@ proxies:
   uuid: 5551e3ef-95f3-3f0a-a9a3-9952233a839f
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_14_56
+  name: 17|美国(由快嘴科技提供;kkzui.com)_14_56
   network: tcp
   port: 11622
   server: a22.achenxty.top
@@ -1073,7 +969,7 @@ proxies:
   uuid: 5551e3ef-95f3-3f0a-a9a3-9952233a839f
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_15_63
+  name: 17|美国(由快嘴科技提供;kkzui.com)_15_63
   network: tcp
   port: 11618
   server: a18.achenxty.top
@@ -1082,7 +978,7 @@ proxies:
   uuid: 5551e3ef-95f3-3f0a-a9a3-9952233a839f
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_16_64
+  name: 17|美国(由快嘴科技提供;kkzui.com)_16_64
   network: tcp
   port: 11621
   server: a21.achenxty.top
@@ -1091,7 +987,7 @@ proxies:
   uuid: 5551e3ef-95f3-3f0a-a9a3-9952233a839f
 - alterId: 0
   cipher: auto
-  name: 18|美国(由快嘴科技提供;kkzui.com)_19_69
+  name: 17|美国(由快嘴科技提供;kkzui.com)_19_69
   network: ws
   port: 80
   server: singapore.com
