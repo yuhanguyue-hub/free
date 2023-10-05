@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+  name: 0,2,3,4,6,18|荷兰(由快嘴科技提供;kkzui.com)_44
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -15,9 +15,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,3,4,6,11,12,14,15|美国1|@ripaojiedian
+  name: 0,2,3,4,6,11,12,14,15,18|美国(由快嘴科技提供;kkzui.com)_9_43
   network: ws
-  port: '2052'
+  port: 2052
   server: cf.yx.alue.link
   servername: ''
   skip-cert-verify: false
@@ -77,7 +77,7 @@ proxies:
   uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  name: 0,2,3,4,6,18|美国(由快嘴科技提供;kkzui.com)_7_38
   network: ws
   port: 8880
   server: yd1.992688.xyz
@@ -198,51 +198,3 @@ proxies:
     headers:
       Host: lu.wx.alue.link
     path: /
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 03 @nodpai #1'
-  network: ws
-  port: 46033
-  server: mf33fx.micloud.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c
-  ws-opts:
-    headers:
-      Host: mf33fx.micloud.buzz
-    path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 01 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41026
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 8080
-  server: 162.159.129.245
-  tls: false
-  type: vmess
-  uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3
-  ws-opts:
-    headers:
-      Host: eu5.vpn66.eu.org
-    path: /?ed=2048

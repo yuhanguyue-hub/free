@@ -1,7 +1,17 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港直连|@ripaojiedian
+  network: tcp
+  port: '39971'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '7,8|「eggtartcloud.shop 自选入口,速度保证」🇭... #1'
+  name: '7,8|「蛋挞云,超低价格,超高体验」🇭🇰 HK 03 #1'
   network: ws
   port: 46001
   server: mf01fx.micloud.buzz
@@ -16,13 +26,17 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  name: 7,15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  servername: ''
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港慢|@ripaojiedian
+  password: QHhbhwe6lj
+  port: 33058
+  server: 103.15.217.182
+  skip-cert-verify: false
+  sni: 103.15.217.182
+  tfo: false
   tls: false
-  type: vmess
+  type: trojan
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
@@ -133,20 +147,20 @@ proxies:
     path: /dabai.in
 - alterId: 64
   cipher: auto
-  name: 15|香港直连|@ripaojiedian
+  name: 15|香港A|@ripaojiedian
   network: tcp
-  port: '39971'
-  server: 183.240.232.82
+  port: '51165'
+  server: 183.233.187.214
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 15|香港A|@ripaojiedian
+  name: 15|香港Y|@ripaojiedian
   network: tcp
-  port: '51165'
-  server: 183.233.187.214
+  port: '53737'
+  server: 112.29.94.22
   servername: ''
   tls: false
   type: vmess
