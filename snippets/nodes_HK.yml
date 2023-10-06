@@ -1,4 +1,28 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港Y|@ripaojiedian
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港2|@ripaojiedian
+  password: QHhbhwe6lj
+  port: 40158
+  server: 183.240.232.82
+  skip-cert-verify: false
+  sni: 103.15.217.182
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -126,16 +150,6 @@ proxies:
   network: tcp
   port: '39971'
   server: 183.240.232.82
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
   servername: ''
   tls: false
   type: vmess
