@@ -14,7 +14,7 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,12,18|荷兰(由快嘴科技提供;kkzui.com)_44
+  name: 0,2,3,4,6,18|荷兰(由快嘴科技提供;kkzui.com)_44
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -27,11 +27,10 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 0,3,6,12,18|美国(由快嘴科技提供;kkzui.com)_6_31
+  name: 0,3,6,18|美国(由快嘴科技提供;kkzui.com)_6_31
   network: ws
   port: 2082
   server: 104.17.88.252
-  servername: ''
   tls: false
   type: vmess
   uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
@@ -67,7 +66,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国->🇦🇺_AU_澳大利亚 #2'
+  name: '0,2,3,4,6,11|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -172,7 +171,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,4,6,18|美国(由快嘴科技提供;kkzui.com)_12_54
+  name: 2,4,6,12,18|美国(由快嘴科技提供;kkzui.com)_12_54
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
@@ -184,44 +183,23 @@ proxies:
       Host: ssrsub.v003.ssrsub.com
     path: /api/v3/download.getFile
 - cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇨🇦 Canada 01 @nodpai
+  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
+  port: 10711
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇰🇷 South Korea 01 @nodpai
+  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
+  port: 10702
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
   password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
   port: 10721
   server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇩🇪 Germany 01 @nodpai
-  password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3
-  port: 27208
-  server: fs.xianyuwangluo.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 02 @nodpai
-  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10709
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇪🇸 Spain 01 @nodpai
-  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10720
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇦🇺 Australia 02 @nodpai
-  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10704
-  server: 112.26.46.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇹🇼 Taiwan 01 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41021
-  server: jscm01.celerlink.one
   type: ss
   udp: true

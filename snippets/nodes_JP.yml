@@ -39,30 +39,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本_1004044
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|JP_speednode_0027
-  network: ws
-  port: 80
-  server: fd.cfcdn.giize.com
+  name: 12|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
   servername: ''
   tls: false
   type: vmess
-  uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d
-  ws-opts:
-    headers:
-      Host: us06.cctvvip.tk
-    path: /cctv13.m3u8
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 57
@@ -73,6 +59,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本_1004044
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP
@@ -135,23 +131,6 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|日本CF|tg频道:@ripaojiedian
-  network: ws
-  port: '443'
-  server: speed.cloudflare.com
-  servername: extract-errors-quarters-woods.trycloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4a4e578f-9eba-465a-9930-16c3a9014a9e
-  ws-opts:
-    headers:
-      Host: extract-errors-quarters-woods.trycloudflare.com
-    path: 4a4e578f
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇯🇵 日本特殊|@ripaojiedian
