@@ -206,6 +206,22 @@ proxies:
     headers:
       Host: hu1.xv2ray.net
     path: /
+- alterId: 64
+  cipher: auto
+  name: 7,8,11|github.com/freefq - 美国LeaseWeb...
+  network: ws
+  port: 443
+  server: 23.108.100.103
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /footers
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国04
@@ -252,31 +268,59 @@ proxies:
     path: /path/1694859605321
 - alterId: 0
   cipher: auto
-  name: 11,18|美国(由快嘴科技提供;kkzui.com)_4_29
+  name: 11,12|频道37@wxgqlfx
   network: ws
-  port: 80
-  server: ns1.v2-vip.fun
-  tls: false
+  port: '27025'
+  server: 45.63.106.86
+  servername: nftsunday.xyz
+  tls: true
   type: vmess
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  uuid: b8d663ca-49de-4259-8be8-cbfc26fa27be
   ws-opts:
     headers:
-      Host: ssrsub.v004.ssrsub.com
-    path: /api/v3/download.getFile
+      Host: nftsunday.xyz
+    path: /ws567
 - alterId: 0
   cipher: auto
-  name: 11,12|🇺🇸 Relay_🇺🇸US-🇺🇸US_72 |16.08Mb
+  name: 11,12|频道31@wxgqlfx
   network: ws
-  port: 80
-  server: fd.cfcdn.giize.com
+  port: '80'
+  server: 104.18.40.89
   servername: ''
   tls: false
   type: vmess
-  uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d
+  uuid: 12357ee8-39c0-4256-ad1a-155ea72235d9
   ws-opts:
     headers:
-      Host: us06.cctvvip.tk
-    path: /cctv13.m3u8
+      Host: dk1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|频道24@wxgqlfx
+  network: ws
+  port: '80'
+  server: 104.18.40.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58d7b6e3-2b74-4424-b459-8c3545652c9f
+  ws-opts:
+    headers:
+      Host: ie1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|🇺🇸_US_美国_wmt_32
+  network: ws
+  port: 80
+  server: 172.67.99.73
+  tls: false
+  type: vmess
+  uuid: 03c88715-2d98-41ea-a327-40b56f1288cc
+  ws-opts:
+    headers:
+      Host: sdgrm.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,18|美国(由快嘴科技提供;kkzui.com)_3_18
@@ -291,93 +335,23 @@ proxies:
     headers:
       Host: www.19229362.xyz
     path: /path/1696251693048
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 美国LeaseWeb...
+  name: 11,12|频道34@wxgqlfx
   network: ws
-  port: 443
-  server: 23.108.100.103
-  servername: ''
+  port: '443'
+  server: aidarostami.ddns.net
+  servername: fn.mostafago.tk
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 6B21EBEE-17AD-4B04-B498-561D5B4CA0EB
   ws-opts:
     headers:
-      Host: ''
-    path: /footers
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: '80'
-  server: 172.67.87.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f
-  ws-opts:
-    headers:
-      Host: ylsl.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #5'
-  network: ws
-  port: '80'
-  server: 172.64.199.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b
-  ws-opts:
-    headers:
-      Host: wnd.shabijichang.com
-    path: /
+      Host: fn.mostafago.tk
+    path: /speedtest
 - alterId: 0
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #6'
-  network: ws
-  port: '80'
-  server: 104.16.117.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8cc06f6-0eff-4c07-9038-8c640650a2ce
-  ws-opts:
-    headers:
-      Host: jdf.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 美国  23
-  network: ws
-  port: '888'
-  server: ryoza-1088-v2-1.d-kcd.tuil.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  ws-opts:
-    headers:
-      Host: s3.cjhh.beauty
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: '80'
-  server: 172.67.32.83
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 01754500-e814-447e-967a-5a4045fc388a
-  ws-opts:
-    headers:
-      Host: sls.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #8'
   network: ws
   port: '80'
   server: 941.outline-vpn.cloud
@@ -391,7 +365,62 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #9'
+  name: 11,12|频道21@wxgqlfx
+  network: ws
+  port: '80'
+  server: 162.159.253.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 073360d9-72cb-4ba5-9a40-8ac6cd918356
+  ws-opts:
+    headers:
+      Host: sls.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,12|频道27@wxgqlfx
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4d868558-0166-4083-baf0-720daf24f6e6
+  ws-opts:
+    headers:
+      Host: fi1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 11,18|美国(由快嘴科技提供;kkzui.com)_4_29
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  tls: false
+  type: vmess
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  ws-opts:
+    headers:
+      Host: ssrsub.v004.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #10'
+  network: ws
+  port: '80'
+  server: 172.67.32.83
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 01754500-e814-447e-967a-5a4045fc388a
+  ws-opts:
+    headers:
+      Host: sls.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #11'
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -404,7 +433,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #10'
+  name: '11|github.com/freefq - 美国CloudFla... #12'
+  network: ws
+  port: '80'
+  server: 104.16.117.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8cc06f6-0eff-4c07-9038-8c640650a2ce
+  ws-opts:
+    headers:
+      Host: jdf.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 美国  25
+  network: ws
+  port: '888'
+  server: ryoza-1088-v2-1.d-kcd.tuil.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  ws-opts:
+    headers:
+      Host: s3.cjhh.beauty
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #13'
   network: ws
   port: 80
   server: hdlb.shabijichang.com
@@ -414,6 +471,34 @@ proxies:
   ws-opts:
     headers:
       Host: hdlb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #14'
+  network: ws
+  port: '80'
+  server: 172.64.199.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b
+  ws-opts:
+    headers:
+      Host: wnd.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #15'
+  network: ws
+  port: '80'
+  server: 172.67.87.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f
+  ws-opts:
+    headers:
+      Host: ylsl.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -480,6 +565,20 @@ proxies:
     headers:
       Host: lax.asoul-diana.xyz
     path: /acetaffy
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 Relay_🇺🇸US-🇺🇸US_72 |16.08Mb
+  network: ws
+  port: 80
+  server: fd.cfcdn.giize.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d
+  ws-opts:
+    headers:
+      Host: us06.cctvvip.tk
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 US(AzadNet.t.me)_080
@@ -553,19 +652,6 @@ proxies:
     headers:
       Host: waynn.makeup
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_32
-  network: ws
-  port: 80
-  server: 172.67.99.73
-  tls: false
-  type: vmess
-  uuid: 03c88715-2d98-41ea-a327-40b56f1288cc
-  ws-opts:
-    headers:
-      Host: sdgrm.shabijichang.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸白嫖-041
@@ -690,7 +776,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 1f936df8-ad22-4277-95ec-7e4e65c40b1d
+  uuid: f9a357f2-8d8f-412c-adeb-04d6252775d2
   ws-opts:
     headers:
       Host: ''
@@ -703,7 +789,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: 1f936df8-ad22-4277-95ec-7e4e65c40b1d
+  uuid: f9a357f2-8d8f-412c-adeb-04d6252775d2
   ws-opts:
     headers:
       Host: ''
@@ -716,7 +802,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 1f936df8-ad22-4277-95ec-7e4e65c40b1d
+  uuid: f9a357f2-8d8f-412c-adeb-04d6252775d2
   ws-opts:
     headers:
       Host: ''
@@ -729,7 +815,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 1f936df8-ad22-4277-95ec-7e4e65c40b1d
+  uuid: f9a357f2-8d8f-412c-adeb-04d6252775d2
   ws-opts:
     headers:
       Host: ''
@@ -742,7 +828,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 1f936df8-ad22-4277-95ec-7e4e65c40b1d
+  uuid: f9a357f2-8d8f-412c-adeb-04d6252775d2
   ws-opts:
     headers:
       Host: ''
