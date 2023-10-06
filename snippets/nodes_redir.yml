@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7'
+  network: ws
+  port: 8880
+  server: dx1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 0,2,3,4,6,12,18|荷兰(由快嘴科技提供;kkzui.com)_44
@@ -14,65 +27,18 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,2,3,4,6,12,14,15,18|美国(由快嘴科技提供;kkzui.com)_9_43
+  name: 0,3,6,12,18|美国(由快嘴科技提供;kkzui.com)_6_31
   network: ws
-  port: 2052
-  server: cf.yx.alue.link
+  port: 2082
+  server: 104.17.88.252
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
   ws-opts:
     headers:
-      Host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3|🇺🇸 _US_美国->🇧🇷_BR_巴西 #1'
-  network: ws
-  port: '80'
-  server: sbl4.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国->🇦🇺_AU_澳大利亚 #2'
-  network: ws
-  port: 80
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      Host: mrb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
-  network: tcp
-  port: '50017'
-  server: 17.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
-- alterId: 0
-  cipher: auto
-  name: '0,3|🇬🇧 _CN_中国->🇬🇧_GB_英国 #1'
-  network: tcp
-  port: '50009'
-  server: 09.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /phosphorylative.aurorainiceland.com/nimvws
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,6,18|美国(由快嘴科技提供;kkzui.com)_7_38
@@ -88,17 +54,30 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
+  name: '0,2,3,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #6'
   network: ws
-  port: '2052'
-  server: 104.20.142.55
+  port: 8880
+  server: lt1.992688.xyz
   tls: false
   type: vmess
-  uuid: e37c2a6b-db4d-4ce0-8781-284d1c332134
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      Host: de2.biqibao.site
-    path: /public?ed=2048
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6|🇺🇸_US_美国->🇦🇺_AU_澳大利亚 #2'
+  network: ws
+  port: 80
+  server: fd.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  ws-opts:
+    headers:
+      Host: mrb.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 1|_US_->_DE__1
@@ -193,32 +172,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #6'
-  network: ws
-  port: 8880
-  server: lt1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7'
-  network: ws
-  port: 8880
-  server: dx1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 2,4,6,18|美国(由快嘴科技提供;kkzui.com)_12_54
   network: ws
   port: 80
@@ -230,80 +183,45 @@ proxies:
     headers:
       Host: ssrsub.v003.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 6,12,18|美国(由快嘴科技提供;kkzui.com)_6_31
-  network: ws
-  port: 2082
-  server: 104.17.88.252
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /phosphorylative.aurorainiceland.com/nimvws
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇨🇦 Canada 01 @nodpai
+  name: 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
   password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10711
+  port: 10721
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇮🇳 India 01 @nodpai
+  name: 8|中转 🇩🇪 Germany 01 @nodpai
+  password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3
+  port: 27208
+  server: fs.xianyuwangluo.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 02 @nodpai
   password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10706
+  port: 10709
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 02 @nodpai
-  password: 977a1372-18fe-4bae-8616-9a59497b810a
-  port: 42018
-  server: as.al19.cf
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇰🇷 South Korea 01 @nodpai
-  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10702
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇳🇱 Netherlands 01 @nodpai
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27117
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇭🇰 香港慢|@ripaojiedian
-  password: QHhbhwe6lj
-  port: 33058
-  server: 103.15.217.182
-  skip-cert-verify: false
-  sni: 103.15.217.182
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇪🇸 Spain 02 @nodpai
+  name: 8|中转 🇪🇸 Spain 01 @nodpai
   password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
   port: 10720
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
-  password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b
-  port: 10721
-  server: yidong.liulangdiqiu.cyou
+  name: 8|中转 🇦🇺 Australia 02 @nodpai
+  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
+  port: 10704
+  server: 112.26.46.24
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇹🇼 Taiwan 01 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41021
+  server: jscm01.celerlink.one
   type: ss
   udp: true

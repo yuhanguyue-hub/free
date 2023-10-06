@@ -12,19 +12,32 @@ proxies:
     headers:
       Host: xui2.xuwu996.eu.org
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '0,2,3,4,11,12|关注电报https://t.me/aifenxiang202... #1'
+  name: '0,3,6|🇺🇸_US_美国 #21'
   network: ws
-  port: 443
-  server: 67.21.90.5
-  tls: true
+  port: 80
+  server: singapore.com
+  tls: false
   type: vmess
-  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
   ws-opts:
     headers:
-      Host: www.75409854.xyz
-    path: /path/1694429908748
+      Host: ssrsub.v002.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,12,18|美国(由快嘴科技提供;kkzui.com)_9_43
+  network: ws
+  port: 2052
+  server: cf.yx.alue.link
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,18|美国(由快嘴科技提供;kkzui.com)_1_8
@@ -40,17 +53,42 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '0,3|🇺🇸 _US_美国 #6'
+  name: '0,3,6|🇺🇸_US_美国 #22'
   network: ws
-  port: '443'
-  server: cold-dawn-9246.fly.dev
-  tls: true
+  port: 80
+  server: sbl3.shabijichang.com
+  tls: false
   type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
   ws-opts:
     headers:
-      Host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+      Host: sbl3.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '0,1,2,3,4,6|🇺🇸_US_美国 #18'
+  network: ws
+  port: 30000
+  server: 45.199.138.222
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  ws-opts:
+    path: /path/1696251693048
+- alterId: 0
+  cipher: auto
+  name: '0,3,6,12|🇺🇸_US_美国 #24'
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62
+  ws-opts:
+    headers:
+      Host: hu1.xv2ray.net
+    path: /
 - alterId: 64
   cipher: auto
   name: 1|_US__1
@@ -75,18 +113,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1c5cd450-a5cc-4803-d0ef-1ea424cc4ba2
-- alterId: 64
-  cipher: auto
-  name: '1,2,4,6|🇺🇸_US_美国 #18'
-  network: ws
-  port: 30000
-  server: 45.199.138.222
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  ws-opts:
-    path: /path/1696251693048
 - alterId: 0
   cipher: auto
   name: 1,2,4,12|🟩u@oneclickvpnkeys
@@ -154,6 +180,19 @@ proxies:
     headers:
       host: us.wx.alue.link
     path: /
+- alterId: 64
+  cipher: auto
+  name: '2,4,11,12|关注电报https://t.me/aifenxiang202... #1'
+  network: ws
+  port: 443
+  server: 67.21.90.5
+  tls: true
+  type: vmess
+  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
+  ws-opts:
+    headers:
+      Host: www.75409854.xyz
+    path: /path/1694429908748
 - alterId: 0
   cipher: auto
   name: '2,4|🇺🇸_US_美国 #12'
@@ -169,50 +208,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,12|🇺🇸_US_美国 #24'
+  name: '7,8|🇺🇸 United States 01 @nodpai #1'
   network: ws
   port: 80
-  server: www.speedtest.net
+  server: fhc.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62
-  ws-opts:
-    headers:
-      Host: hu1.xv2ray.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国 #21'
-  network: ws
-  port: 80
-  server: singapore.com
-  tls: false
-  type: vmess
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
-  ws-opts:
-    headers:
-      Host: ssrsub.v002.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国 #22'
-  network: ws
-  port: 80
-  server: sbl3.shabijichang.com
-  tls: false
-  type: vmess
+  udp: true
   uuid: 53701585-591f-48a3-9515-8831ed0524ac
   ws-opts:
     headers:
-      Host: sbl3.shabijichang.com
+      Host: fhc.shabijichang.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇺...
-  password: 2739ce85d3b9e145
-  port: 41026
-  server: jscm01.celerlink.one
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 7,8,11|github.com/freefq - 美国LeaseWeb...
+  network: ws
+  port: 443
+  server: 23.108.100.103
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /footers
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国04
@@ -379,20 +403,6 @@ proxies:
     headers:
       Host: amstd.shabijichang.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 11|github.com/freefq - 美国LeaseWeb...
-  network: ws
-  port: 443
-  server: 23.108.100.103
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /footers
 - alterId: 0
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #8'
@@ -681,6 +691,40 @@ proxies:
   tls: true
   type: vmess
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|美国A|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.26.12.8
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 617b2009-8eb3-4d07-e29c-6be1552875b0
+  ws-opts:
+    headers:
+      Host: airusa.daozhang.link
+    path: /cdn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|美国B|@ripaojiedian
+  network: ws
+  port: '61001'
+  server: 112.29.156.248
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
+  ws-opts:
+    headers:
+      Host: a.cn-db.top
+    path: /dabai.in
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
