@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,17|🇺🇸_US_美国->🇩🇪_DE_德国_1_2_2
+  name: 0,2,3,4,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供;kkz...
   network: ws
   port: 8880
   server: dx1.992688.xyz
@@ -14,7 +14,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_3_7_7
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_2_27
   network: ws
   port: 8880
   server: lt1.992688.xyz
@@ -27,7 +27,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,17|美国(1 由快嘴科技提供;kkzui.com)_7_36_3...
+  name: '0,2,3,4,6,11|github.com/freefq - 美国CloudFla... #3'
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -53,7 +53,7 @@ proxies:
     path: /phosphorylative.aurorainiceland.com/nimvws
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,12,17|美国(1 由快嘴科技提供;kkzui.com)_5_29_2...
+  name: 0,2,3,4,6,11,12,18|🇺🇸_US_美国_4_22
   network: ws
   port: 2052
   server: cf.yx.alue.link
@@ -67,9 +67,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,3,4,6,14,15,17|美国(1 由快嘴科技提供;kkzui.com)_4_27_2...
+  name: 0,2,3,4,6,14,15|美国B|@ripaojiedian
   network: ws
-  port: 61001
+  port: '61001'
   server: 112.29.156.248
   servername: ''
   skip-cert-verify: false
@@ -83,7 +83,7 @@ proxies:
     path: /dabai.in
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,17|美国(1 由快嘴科技提供;kkzui.com)_15_52_...
+  name: 0,2,3,4,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -203,7 +203,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 6,17|美国(1 由快嘴科技提供;kkzui.com)_27_72_...
+  name: 6|🇺🇸_US_美国->🇱🇺_LU_卢森堡
   network: ws
   port: 2052
   server: 104.16.68.38
@@ -217,9 +217,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 6,14,15|香港B|@ripaojiedian
+  name: 6,14,15,18|🇨🇳_CN_中国->🇭🇰_HK_香港_7
   network: ws
-  port: '61004'
+  port: 61004
   server: 112.29.156.251
   servername: ''
   skip-cert-verify: false
@@ -231,3 +231,55 @@ proxies:
     headers:
       Host: a.db-link.in
     path: /dabai.in
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇵🇱_PL_波兰_由快嘴科技提供;kkz...
+  network: ws
+  port: 8880
+  server: cdn.narutos.top
+  tls: false
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      Host: poland.yj2022.gq
+    path: /XQ2WCa29jfDM25GBcbnQ
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰_HK_香港->🇮🇱_IL_以色列_由快嘴科技提供;kk...
+  network: ws
+  port: 57754
+  server: 103.48.169.166
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇵🇱_PL_波兰_2_由快嘴科技提供;k...
+  network: ws
+  port: 8880
+  server: 104.17.84.82
+  tls: false
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      Host: poland.yj2022.gq
+    path: /XQ2WCa29jfDM25GBcbnQ
+- alterId: 64
+  cipher: auto
+  name: 18|🇭🇰_HK_香港->🇳🇱_NL_荷兰_20
+  network: ws
+  port: 30000
+  server: 156.245.8.248
+  tls: true
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+  ws-opts:
+    headers:
+      Host: www.81678034.xyz
+    path: /path/1696598013851
