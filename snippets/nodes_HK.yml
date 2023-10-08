@@ -13,11 +13,11 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 8,14|🇭🇰 香港Y|@ripaojiedian
-  password: telegram-id-directvpn
+  password: c1b7af78-3ca6-4055-9df0-4ede98292a19
   port: 53737
   server: 112.29.94.22
   skip-cert-verify: false
-  sni: trj.rollingnext.co.uk
+  sni: uk2.trojanvpn.de
   tfo: false
   tls: false
   type: vmess
@@ -53,19 +53,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 11,12|关注电报https://t.me/aifenxiang202...
-  network: ws
-  port: 55455
-  server: hkt.123ddns.xyz
-  tls: true
-  type: vmess
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -115,11 +102,11 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 14,15|香港A|@ripaojiedian
+  name: 14,15|香港B|@ripaojiedian
   network: ws
   port: '443'
-  server: 118.107.244.81
-  servername: www.37420790.xyz
+  server: 202.95.8.102
+  servername: www.22589030.xyz
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -127,31 +114,31 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.37420790.xyz
+      Host: www.22589030.xyz
     path: /path/143534141104
 - alterId: 64
   cipher: auto
-  name: 15|香港2|@ripaojiedian
+  name: 15|香港A|@ripaojiedian
   network: tcp
-  port: '51904'
-  server: 183.238.202.173
+  port: '53300'
+  server: 112.29.94.22
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 15|香港直连|@ripaojiedian
+  name: 15|香港3|@ripaojiedian
   network: tcp
-  port: '39971'
-  server: 183.240.232.82
+  port: '50022'
+  server: 22.kccic2pa.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: f8677789-d06f-48bd-abda-d48534c883bf
 - alterId: 64
   cipher: auto
-  name: 17|🇭🇰_HK_香港_8
+  name: 18|🇭🇰_HK_香港_8
   network: ws
   port: 30000
   server: 156.245.8.130

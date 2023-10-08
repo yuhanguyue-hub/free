@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,17|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供;kkz...
+  name: 0,2,3,4,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供;kkz...
   network: ws
   port: 8880
   server: dx1.992688.xyz
@@ -14,7 +14,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_2_27
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_2_27
   network: ws
   port: 8880
   server: lt1.992688.xyz
@@ -27,7 +27,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,11|github.com/freefq - 美国CloudFla... #2'
+  name: '0,2,3,4,6,11|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -53,7 +53,7 @@ proxies:
     path: /phosphorylative.aurorainiceland.com/nimvws
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,12,17|🇺🇸_US_美国_4_22
+  name: 0,2,3,4,6,11,18|🇺🇸_US_美国_4_22
   network: ws
   port: 2052
   server: cf.yx.alue.link
@@ -66,14 +66,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,2,3,4,6,14,15|美国B|@ripaojiedian
+  name: '0,2,3,4,6|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: ws
-  port: '61001'
+  port: 61001
   server: 112.29.156.248
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
@@ -83,7 +79,7 @@ proxies:
     path: /dabai.in
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,17|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
+  name: 0,2,3,4,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -203,9 +199,9 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  name: '6,12|关注电报https://t.me/aifenxiang202... #2'
   network: ws
-  port: 2052
+  port: '2052'
   server: 104.16.68.38
   tls: false
   type: vmess
@@ -216,14 +212,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,14,15,17|🇨🇳_CN_中国->🇭🇰_HK_香港_7
+  name: 6,18|🇨🇳_CN_中国->🇭🇰_HK_香港_7
   network: ws
   port: 61004
   server: 112.29.156.251
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
@@ -231,22 +223,18 @@ proxies:
     headers:
       Host: a.db-link.in
     path: /dabai.in
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 17|🇺🇸_US_美国->🇵🇱_PL_波兰_由快嘴科技提供;kkz...
-  network: ws
-  port: 8880
-  server: cdn.narutos.top
-  tls: false
+  name: 18|🇨🇳_CN_中国->🇮🇳_IN_印度_4
+  network: tcp
+  port: 25018
+  server: leonis.verdens.xyz
+  tls: true
   type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      Host: poland.yj2022.gq
-    path: /XQ2WCa29jfDM25GBcbnQ
+  uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
 - alterId: 0
   cipher: auto
-  name: 17|🇭🇰_HK_香港->🇮🇱_IL_以色列_由快嘴科技提供;kk...
+  name: 18|🇭🇰_HK_香港->🇮🇱_IL_以色列_由快嘴科技提供;kk...
   network: ws
   port: 57754
   server: 103.48.169.166
@@ -257,22 +245,9 @@ proxies:
     headers:
       Host: ylsl.kxking.eu.org
     path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 17|🇺🇸_US_美国->🇵🇱_PL_波兰_2_由快嘴科技提供;k...
-  network: ws
-  port: 8880
-  server: 104.17.84.82
-  tls: false
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      Host: poland.yj2022.gq
-    path: /XQ2WCa29jfDM25GBcbnQ
 - alterId: 64
   cipher: auto
-  name: 17|🇭🇰_HK_香港->🇳🇱_NL_荷兰_20
+  name: 18|🇭🇰_HK_香港->🇳🇱_NL_荷兰_20
   network: ws
   port: 30000
   server: 156.245.8.248
