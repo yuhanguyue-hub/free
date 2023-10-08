@@ -40,20 +40,7 @@ proxies:
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰_HK_香港_yui科技_225
-  network: ws
-  port: 80
-  server: mofaxueyuanhongkong.360ddns.online
-  tls: false
-  type: vmess
-  uuid: 3f34ab32-c38e-4fb2-93b6-8582f1c4797f
-  ws-opts:
-    headers:
-      Host: v9-dy.ixigua.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 12|HK_speednode_0037
+  name: 11,12|HK_speednode_0037
   network: ws
   port: 80
   server: hktddns.aikun.online
@@ -65,6 +52,19 @@ proxies:
     headers:
       Host: sanmao17.hkbn.n.optage.moe
     path: /hkbn
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰_HK_香港_yui科技_225
+  network: ws
+  port: 80
+  server: mofaxueyuanhongkong.360ddns.online
+  tls: false
+  type: vmess
+  uuid: 3f34ab32-c38e-4fb2-93b6-8582f1c4797f
+  ws-opts:
+    headers:
+      Host: v9-dy.ixigua.com
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -160,7 +160,7 @@ proxies:
   uuid: f8677789-d06f-48bd-abda-d48534c883bf
 - alterId: 64
   cipher: auto
-  name: 18|🇭🇰_HK_香港_8
+  name: 17|🇭🇰_HK_香港_8
   network: ws
   port: 30000
   server: 156.245.8.130
