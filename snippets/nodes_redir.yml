@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇭🇰_HK_香港->🇮🇱_IL_以色列_由快嘴科技提供;kk...
+  name: '0,2,3,4,6|🇭🇰_HK_香港->🇮🇱_IL_以色列 #2'
   network: ws
   port: 57754
   server: 103.48.169.166
@@ -14,7 +14,7 @@ proxies:
     path: /vm?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供;kkz...
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: dx1.992688.xyz
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国_2_5
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 8880
   server: yd1.992688.xyz
@@ -53,7 +53,7 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_25
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -66,7 +66,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,11,17|🇺🇸_US_美国_4_22
+  name: '0,2,3,4,11|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: 2052
   server: cf.yx.alue.link
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国->🇦🇺_AU_澳大利亚 #2'
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_4
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -92,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_2_27
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: lt1.992688.xyz
@@ -133,16 +133,17 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '1,7,8|🇱🇺 Luxembourg 06 @nodpai #1'
+  name: 1|_US_->_LU_
   network: ws
   port: 2052
   server: 104.16.68.38
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
+    headers:
+      host: lu.wx.alue.link
     path: /
 - alterId: 0
   cipher: auto
@@ -158,18 +159,19 @@ proxies:
     headers:
       host: vceu3.vpn66.eu.org
     path: /?ed=2048
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '1,7,8|🇳🇱 Netherlands 21 @nodpai #1'
+  name: 1|_US_->_NL_
   network: ws
   port: 30000
   server: 45.199.138.191
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
+    headers:
+      host: www.42077230.xyz
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
@@ -237,7 +239,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6,11|github.com/freefq - 美国加利福尼亚州圣何...
+  name: 6,11,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
   network: ws
   port: 30000
   server: 45.199.138.152
@@ -248,47 +250,6 @@ proxies:
     headers:
       Host: www.32522178.xyz
     path: /path/1696598013851
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇨🇳 China 20 @nodpai #1'
-  network: ws
-  port: 443
-  server: 198.2.202.84
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1694859605321
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 15 @nodpai #1'
-  network: ws
-  port: 46001
-  server: mf01fx.micloud.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
-  ws-opts:
-    headers:
-      Host: mf01fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇨🇳 China 31 @nodpai #1'
-  network: ws
-  port: 19709
-  server: 123.249.101.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    path: /
 - alterId: 64
   cipher: auto
   name: 7,15|香港Y|@ripaojiedian
@@ -301,130 +262,53 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇨🇳 China 29 @nodpai #1'
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_由快嘴科技提供：k...
   network: ws
   port: 80
-  server: 36.150.27.31
-  skip-cert-verify: true
+  server: direct-ca1.xn--pzypc.store
   tls: false
   type: vmess
-  udp: true
-  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 07 @nodpai
-  network: tcp
-  port: '40158'
-  server: 183.240.232.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 26 @nodpai
-  network: tcp
-  port: '50002'
-  server: 112.132.212.112
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 28 @nodpai
-  network: tcp
-  port: '50002'
-  server: 111.230.252.149
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 27 @nodpai
-  network: tcp
-  port: '50002'
-  server: 114.117.234.12
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 25 @nodpai
-  network: tcp
-  port: '50002'
-  server: 175.27.154.61
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇳 China 24 @nodpai
-  network: tcp
-  port: '56002'
-  server: 39.103.165.178
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇭🇰 香港Y|@ripaojiedian
-  password: c1b7af78-3ca6-4055-9df0-4ede98292a19
-  port: 53737
-  server: 112.29.94.22
-  skip-cert-verify: false
-  sni: uk2.trojanvpn.de
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 17|🇨🇳_CN_中国->🇮🇳_IN_印度_4
-  network: tcp
-  port: 25018
-  server: leonis.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
-- alterId: 0
-  cipher: auto
-  name: 17|🇨🇳_CN_中国->🇭🇰_HK_香港_7
-  network: ws
-  port: 61004
-  server: 112.29.156.251
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
     headers:
-      Host: a.db-link.in
-    path: /dabai.in
+      Host: ca1.xn--pzypc.store
+    path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国->🇵🇱_PL_波兰_2_由快嘴科技提供;k...
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_2_由快嘴科技提供...
   network: ws
-  port: 8880
-  server: 104.17.84.82
+  port: 80
+  server: direct-ca4.xn--pzypc.store
   tls: false
   type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
     headers:
-      Host: poland.yj2022.gq
-    path: /XQ2WCa29jfDM25GBcbnQ
-- alterId: 64
+      Host: ca4.xn--pzypc.store
+    path: /akile?ed=2048
+- alterId: 0
   cipher: auto
-  name: 17|🇭🇰_HK_香港->🇳🇱_NL_荷兰_20
+  name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
   network: ws
-  port: 30000
-  server: 156.245.8.248
-  tls: true
+  port: 2052
+  server: 104.18.135.39
+  tls: false
   type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+  uuid: 21d36f86-53ab-4218-a740-9c70511f85d0
   ws-opts:
     headers:
-      Host: www.81678034.xyz
-    path: /path/1696598013851
+      Host: de2.biqibao.site
+    path: /public?ed=4096
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_24
+  network: ws
+  port: 80
+  server: direct-ca3.xn--pzypc.store
+  tls: false
+  type: vmess
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  ws-opts:
+    headers:
+      Host: ca3.xn--pzypc.store
+    path: /akile?ed=2048

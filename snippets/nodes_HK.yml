@@ -1,13 +1,27 @@
 proxies:
-- name: 8|🇭🇰 Hong Kong 12 @nodpai
-  password: 4884c4ed80
-  port: 20443
-  server: home-hk-6.strongpipe.live
-  skip-cert-verify: true
-  tls: true
-  type: http
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,流媒体全解锁」🇭🇰 HK 01
+  network: tcp
+  port: '40158'
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港Y|@ripaojiedian
+  password: c1b7af78-3ca6-4055-9df0-4ede98292a19
+  port: 53737
+  server: 112.29.94.22
+  skip-cert-verify: false
+  sni: uk2.trojanvpn.de
+  tfo: false
+  tls: false
+  type: vmess
   udp: true
-  username: 14c618cbfc
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -127,24 +141,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 15|香港3|@ripaojiedian
+  name: 15,18|🇨🇳_CN_中国->🇺🇸_US_美国_2
   network: tcp
-  port: '50022'
+  port: 50022
   server: 22.kccic2pa.xyz
   servername: ''
   tls: false
   type: vmess
   uuid: f8677789-d06f-48bd-abda-d48534c883bf
-- alterId: 64
-  cipher: auto
-  name: 17|🇭🇰_HK_香港_8
-  network: ws
-  port: 30000
-  server: 156.245.8.130
-  tls: true
-  type: vmess
-  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
-  ws-opts:
-    headers:
-      Host: www.47523375.xyz
-    path: /path/1696598013851
