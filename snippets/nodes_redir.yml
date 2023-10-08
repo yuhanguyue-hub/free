@@ -14,7 +14,7 @@ proxies:
     path: /vm?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: dx1.992688.xyz
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 8880
   server: yd1.992688.xyz
@@ -53,7 +53,7 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_25
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_25
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -66,7 +66,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,11|github.com/freefq - 美国CloudFla... #2'
+  name: 0,2,3,4,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 2052
   server: cf.yx.alue.link
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_4
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_4
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -92,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: lt1.992688.xyz
@@ -239,7 +239,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6,11,17|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
+  name: 6,11,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
   network: ws
   port: 30000
   server: 45.199.138.152
@@ -250,31 +250,26 @@ proxies:
     headers:
       Host: www.32522178.xyz
     path: /path/1696598013851
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '7,8|中转 🇨🇳 China 03 @nodpai #1'
-  network: ws
-  port: 19709
-  server: 123.249.101.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 02 @nodpai
+  name: 7,15|香港Y|@ripaojiedian
   network: tcp
-  port: '40158'
-  server: 183.240.232.82
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 03 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41027
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 17|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_由快嘴科技提供：k...
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_由快嘴科技提供：k...
   network: ws
   port: 80
   server: direct-ca1.xn--pzypc.store
@@ -287,7 +282,7 @@ proxies:
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 17|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_2_由快嘴科技提供...
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_2_由快嘴科技提供...
   network: ws
   port: 80
   server: direct-ca4.xn--pzypc.store
@@ -300,7 +295,7 @@ proxies:
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国->🇩🇪_DE_德国_4_20
+  name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_4_20
   network: ws
   port: 2052
   server: datacenter.ct.01.biqibao.site
@@ -313,7 +308,7 @@ proxies:
     path: /public?ed=4096
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
+  name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
   network: ws
   port: 2052
   server: 104.18.135.39
@@ -326,7 +321,7 @@ proxies:
     path: /public?ed=4096
 - alterId: 0
   cipher: auto
-  name: 17|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_24
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_24
   network: ws
   port: 80
   server: direct-ca3.xn--pzypc.store
