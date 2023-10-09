@@ -1,4 +1,18 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港A|@ripaojiedian
+  password: bf35ecab-8333-4972-aebf-79d43185326e
+  port: 53300
+  server: 112.29.94.22
+  skip-cert-verify: false
+  sni: 13-231-155-134.nhost.00cdn.com
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04
@@ -31,41 +45,17 @@ proxies:
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 4
+  name: 11,12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
   network: tcp
-  port: 41545
-  server: 141.147.153.244
+  port: 12653
+  server: cc1.clare88.tk
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
-- alterId: 0
-  cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 11
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
+  uuid: fce96161-0c58-4ba9-8430-660d84083888
 - alterId: 64
   cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 17
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 5 2
+  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 6
   network: tcp
   port: 51801
   server: 45.88.43.143
@@ -73,6 +63,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-072
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 57
@@ -83,6 +83,46 @@ proxies:
   tls: false
   type: vmess
   uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 64
+  cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 3
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '12|⚡️@DeamNet_🔻 🇯🇵Japan 6 #1'
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- alterId: 0
+  cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 4
+  network: tcp
+  port: 41545
+  server: 141.147.153.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP
