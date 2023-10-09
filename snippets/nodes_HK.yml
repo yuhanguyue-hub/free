@@ -1,11 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 8|「节点冠名招商 @nodpai」🇭🇰 HK 01
-  password: '!!str 123456'
-  port: 31101
-  server: cm1-go.go001.buzz
-  type: ss
-  udp: true
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港Y|@ripaojiedian
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -127,16 +130,6 @@ proxies:
     headers:
       Host: hk1.kxking.eu.org
     path: /vm?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 15|香港A|@ripaojiedian
