@@ -59,14 +59,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 13|🇸🇬 新加坡|@ripaojiedian
-  password: a422702e-d0c3-4fc6-81f5-92e6c77fe24c
-  port: 32103
-  server: free.themars.top
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇸🇬 狮城特殊|@ripaojiedian
@@ -81,5 +73,21 @@ proxies:
   password: amazonskr05
   port: 443
   server: 18.142.229.222
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.179.68.240
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇸🇬 狮城特殊3|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.136.118.84
   tfo: false
   type: ss

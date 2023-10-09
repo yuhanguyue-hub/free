@@ -12,12 +12,12 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 7,13|🇭🇰 香港Y|@ripaojiedian
-  password: c1b7af78-3ca6-4055-9df0-4ede98292a19
-  port: 53737
+  name: 7,13|🇭🇰 香港A|@ripaojiedian
+  password: bf35ecab-8333-4972-aebf-79d43185326e
+  port: 53300
   server: 112.29.94.22
   skip-cert-verify: false
-  sni: uk2.trojanvpn.de
+  sni: 13-231-155-134.nhost.00cdn.com
   tfo: false
   tls: false
   type: vmess
@@ -141,30 +141,20 @@ proxies:
   server: 8.218.3.32
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|香港B|@ripaojiedian
+  name: 13,14|香港B|频道:@ripaojiedian
   network: ws
-  port: '443'
-  server: 202.95.8.102
-  servername: www.22589030.xyz
+  port: '4431'
+  server: 152.32.190.239
+  servername: hk1.kxking.eu.org
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
   ws-opts:
     headers:
-      Host: www.22589030.xyz
-    path: /path/143534141104
-- alterId: 0
-  cipher: auto
-  name: 14,16|🇨🇳_CN_中国->🇺🇸_US_美国_2
-  network: tcp
-  port: 50022
-  server: 22.kccic2pa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8677789-d06f-48bd-abda-d48534c883bf
+      Host: hk1.kxking.eu.org
+    path: /vm?ed=2048

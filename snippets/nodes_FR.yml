@@ -1,7 +1,15 @@
 proxies:
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.37.41.30
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '6,7|🇫🇷 France 01 @nodpai #1'
+  name: '6,7|「蛋挞云,超低价格,超高体验」🇫🇷 FR 01 #1'
   network: ws
   port: 80
   server: ms.shabijichang.com
