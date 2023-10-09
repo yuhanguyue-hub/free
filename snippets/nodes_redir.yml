@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,16|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_由快嘴科技提供：k...
+  name: 0,2,3,4,17|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_由快嘴科技提供：k...
   network: ws
   port: 80
   server: direct-ca1.xn--pzypc.store
@@ -14,7 +14,7 @@ proxies:
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,16|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_2_由快嘴科技提供...
+  name: 0,2,3,4,17|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_2_由快嘴科技提供...
   network: ws
   port: 80
   server: direct-ca4.xn--pzypc.store
@@ -54,17 +54,18 @@ proxies:
     path: /akile?ed=2048
 - alterId: 64
   cipher: auto
-  name: 1|_US_->_NL__1
+  name: 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_1@17
   network: ws
   port: 30000
   server: 45.199.138.152
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
   ws-opts:
     headers:
-      host: www.32522178.xyz
+      Host: ''
     path: /path/1696598013851
 - alterId: 0
   cipher: auto
@@ -110,18 +111,17 @@ proxies:
     path: /akile?ed=2048
 - alterId: 64
   cipher: auto
-  name: 1,11|豌豆分享_4
+  name: 1|_US_->_NL__2
   network: ws
   port: 30000
   server: 45.199.138.191
-  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: ''
+      host: www.42077230.xyz
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
@@ -139,7 +139,7 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: 2,4,10,16|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
+  name: 2,4,11,17|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
   network: ws
   port: 30000
   server: 45.199.138.152
@@ -152,7 +152,7 @@ proxies:
     path: /path/1696598013851
 - alterId: 0
   cipher: auto
-  name: 2,4,16|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_24
+  name: 2,4,17|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_24
   network: ws
   port: 80
   server: direct-ca3.xn--pzypc.store
@@ -165,7 +165,7 @@ proxies:
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 2,4,16|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_4
+  name: 2,4,17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_4
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -178,7 +178,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 2,4,5,16|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_25
+  name: 2,4,6,12,17|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_25
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -191,7 +191,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 2,4,16|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  name: 2,4,17|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: lt1.992688.xyz
@@ -204,7 +204,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 5|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: 6|🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -217,7 +217,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇳_CN_中国->🇺🇸_US_美国_2
+  name: 17|🇨🇳_CN_中国->🇺🇸_US_美国_2
   network: tcp
   port: 50022
   server: 22.kccic2pa.xyz
@@ -226,7 +226,7 @@ proxies:
   uuid: f8677789-d06f-48bd-abda-d48534c883bf
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 17|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 8880
   server: yd1.992688.xyz
@@ -239,7 +239,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  name: 17|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: dx1.992688.xyz
@@ -252,7 +252,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸_US_美国->🇩🇪_DE_德国_4_20
+  name: 17|🇺🇸_US_美国->🇩🇪_DE_德国_4_20
   network: ws
   port: 2052
   server: datacenter.ct.01.biqibao.site
@@ -265,7 +265,7 @@ proxies:
     path: /public?ed=4096
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
+  name: 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
   network: ws
   port: 2052
   server: 104.18.135.39
