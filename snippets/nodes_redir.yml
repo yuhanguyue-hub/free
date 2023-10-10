@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇬🇧_GB_英国->🇺🇸_US_美国 #1'
+  name: '0,2,3,4,6|🇬🇧_GB_英国->🇺🇸_US_美国 #2'
   network: ws
   port: 2096
   server: best.fakeopen.link
@@ -14,11 +14,10 @@ proxies:
     path: /us
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,11,12|🇺🇸 美国(油管破解资源君) 5
+  name: '0,2,3,4,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
   network: ws
   port: 30000
   server: 45.199.138.152
-  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
@@ -28,11 +27,10 @@ proxies:
     path: /path/1696598013851
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_53_53
+  name: 0,2,3,4,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_53_53
   network: ws
   port: 30000
   server: 45.199.138.191
-  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -109,9 +107,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇮🇱 _CN_中国->🇮🇱_IL_以色列
+  name: 3,6|🇨🇳_CN_中国->🇮🇱_IL_以色列
   network: ws
-  port: '10005'
+  port: 10005
   server: 103.235.18.2
   tls: true
   type: vmess
@@ -170,7 +168,7 @@ proxies:
     path: /vm?ed=2048
 - alterId: 0
   cipher: auto
-  name: '3,12|美国 #1'
+  name: '3,6,12|美国 #1'
   network: ws
   port: '2052'
   server: 162.159.152.6
@@ -184,22 +182,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,18|🇺🇸_US_美国->🇮🇳_IN_印度_55_55
+  name: '7,8|中转 🇨🇳 China 02 @nodpai #1'
   network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  tls: false
+  port: 443
+  server: 198.2.202.84
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
+    path: /path/1694859605321
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 02 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41026
-  server: jscm01.celerlink.one
+  name: 8|中转 🇸🇬 Singapore 01 @nodpai
+  password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4
+  port: 17345
+  server: aliyun.ws
   type: ss
   udp: true
 - alterId: 0
@@ -241,3 +239,16 @@ proxies:
     headers:
       Host: ca3.xn--pzypc.store
     path: /akile?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_55_55
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /

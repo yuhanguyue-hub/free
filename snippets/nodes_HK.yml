@@ -1,28 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 7,15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇭🇰 香港A|@ripaojiedian
-  password: a3f221f8-43d6-4363-8624-ce62d3db0202
-  port: 53300
-  server: 112.29.94.22
-  skip-cert-verify: false
-  sni: 13-231-155-134.nhost.00cdn.com
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -32,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dbced936-602a-4fb6-b02f-3e97e1558f22
+  uuid: 3716ad1a-5d35-4c5d-86db-f9f50495a60f
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -42,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dbced936-602a-4fb6-b02f-3e97e1558f22
+  uuid: 3716ad1a-5d35-4c5d-86db-f9f50495a60f
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -52,7 +28,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dbced936-602a-4fb6-b02f-3e97e1558f22
+  uuid: 3716ad1a-5d35-4c5d-86db-f9f50495a60f
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -62,7 +38,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8306081-4a9b-4c83-8e52-a86de22fd401
+  uuid: 7876b000-6da3-4769-8a4b-eef0f2c82a76
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -72,7 +48,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8306081-4a9b-4c83-8e52-a86de22fd401
+  uuid: 7876b000-6da3-4769-8a4b-eef0f2c82a76
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -82,7 +58,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8306081-4a9b-4c83-8e52-a86de22fd401
+  uuid: 7876b000-6da3-4769-8a4b-eef0f2c82a76
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -99,6 +75,16 @@ proxies:
   server: 8.218.3.32
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港Y|@ripaojiedian
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 15|香港A|@ripaojiedian
