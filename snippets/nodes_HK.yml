@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c2ed49e-09c5-4fbe-b3cd-2436364c6de0
+  uuid: 8399f0f7-569d-400b-a33a-b7a9963c67ec
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c2ed49e-09c5-4fbe-b3cd-2436364c6de0
+  uuid: 8399f0f7-569d-400b-a33a-b7a9963c67ec
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +28,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c2ed49e-09c5-4fbe-b3cd-2436364c6de0
+  uuid: 8399f0f7-569d-400b-a33a-b7a9963c67ec
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 香港 024
+  network: ws
+  port: 4431
+  server: 152.32.190.239
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: hk1.kxking.eu.org
+    path: /vm?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -38,7 +52,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab3767fc-748a-45eb-ab3d-b33135895d58
+  uuid: 381c5a2a-17d7-414a-8141-e2168fa234e1
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -48,7 +62,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab3767fc-748a-45eb-ab3d-b33135895d58
+  uuid: 381c5a2a-17d7-414a-8141-e2168fa234e1
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -58,7 +72,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab3767fc-748a-45eb-ab3d-b33135895d58
+  uuid: 381c5a2a-17d7-414a-8141-e2168fa234e1
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -80,16 +94,6 @@ proxies:
   name: 15|香港Y|@ripaojiedian
   network: tcp
   port: '53737'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 15|香港A|@ripaojiedian
-  network: tcp
-  port: '53300'
   server: 112.29.94.22
   servername: ''
   tls: false
