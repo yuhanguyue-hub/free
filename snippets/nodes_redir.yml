@@ -176,10 +176,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 2,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_53_53
+  name: 2,4,6,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_53_53
   network: ws
   port: 30000
   server: 45.199.138.191
+  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -214,9 +215,9 @@ proxies:
       Host: mm3.shabijichang.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇹🇼 Taiwan 01 @nodpai
+  name: 8|中转 🇺🇸 United States 03 @nodpai
   password: 2739ce85d3b9e145
-  port: 41020
+  port: 41026
   server: jscm01.celerlink.one
   type: ss
   udp: true
