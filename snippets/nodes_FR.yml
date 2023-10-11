@@ -28,6 +28,21 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: '7,8|「蛋挞云,超低价格,超高体验」🇫🇷 FR 01 #1'
+  network: ws
+  port: 2082
+  server: fr-01.cloudlion.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87646364-c074-4b95-81cf-4bded967ca02
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|🇫🇷_FR_法国_wmt_203
   network: ws
   port: 80
