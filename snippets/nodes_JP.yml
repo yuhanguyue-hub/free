@@ -28,6 +28,38 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 7|「节点冠名招商 @nodpai」🇯🇵 JP 01
+  network: tcp
+  port: '40792'
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,流媒体全解锁」🇯🇵 JP 02
+  network: tcp
+  port: '55906'
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇹🇼 台湾S|@ripaojiedian
+  password: 241a88fd-aa3f-40c7-8d4e-f04fde87b965
+  port: 443
+  server: gshinet1.aiopen.cfd
+  skip-cert-verify: false
+  sni: 20-212-60-88.nhost.00cdn.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -35,7 +67,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43ac0f61-51d1-47e9-826f-4e92d1346c8d
+  uuid: e2f2e172-d95f-41b1-8f33-7e9755353ebc
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -45,7 +77,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43ac0f61-51d1-47e9-826f-4e92d1346c8d
+  uuid: e2f2e172-d95f-41b1-8f33-7e9755353ebc
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -55,7 +87,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43ac0f61-51d1-47e9-826f-4e92d1346c8d
+  uuid: e2f2e172-d95f-41b1-8f33-7e9755353ebc
 - alterId: 0
   cipher: auto
   name: 11|github.com/freefq - 日本  12
@@ -119,7 +151,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab165a4d-c78d-423a-b519-2b0f60dd5356
+  uuid: 6e6ad6ce-41aa-40d3-a7ab-df1f08cf83ce
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -129,7 +161,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab165a4d-c78d-423a-b519-2b0f60dd5356
+  uuid: 6e6ad6ce-41aa-40d3-a7ab-df1f08cf83ce
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -139,7 +171,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab165a4d-c78d-423a-b519-2b0f60dd5356
+  uuid: 6e6ad6ce-41aa-40d3-a7ab-df1f08cf83ce
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
