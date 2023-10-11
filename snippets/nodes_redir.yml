@@ -162,11 +162,10 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
+  name: 6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
-  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -174,19 +173,6 @@ proxies:
     headers:
       Host: www.42077230.xyz
     path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇨🇳 China 01 @nodpai #1'
-  network: ws
-  port: 80
-  server: 36.150.27.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇨🇳_CN_中国->🇦🇹_AT_奥地利_2
