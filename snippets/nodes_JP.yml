@@ -35,7 +35,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e3e23590-c8b0-4f91-a7e0-9ed2745594e9
+  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -45,7 +45,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e3e23590-c8b0-4f91-a7e0-9ed2745594e9
+  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -55,7 +55,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e3e23590-c8b0-4f91-a7e0-9ed2745594e9
+  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 日本  10
+  network: ws
+  port: '31235'
+  server: kr-cdn-6273819.starnetcn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  ws-opts:
+    headers:
+      Host: jxhoisldy718922.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 57
@@ -115,7 +129,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a266bb5-9b55-4114-a718-877cf2f5af78
+  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -125,7 +139,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a266bb5-9b55-4114-a718-877cf2f5af78
+  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -135,7 +149,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a266bb5-9b55-4114-a718-877cf2f5af78
+  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
