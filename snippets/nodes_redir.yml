@@ -27,7 +27,7 @@ proxies:
     path: /@hopev2ray،@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 0,3,6,12,18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_33
+  name: 0,3,6,11,18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_33
   network: ws
   port: 2052
   server: 162.159.152.6
@@ -162,10 +162,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
+  name: 6,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
+  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -173,57 +174,6 @@ proxies:
     headers:
       Host: www.42077230.xyz
     path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 02 @nodpai
-  network: tcp
-  port: '40158'
-  server: 183.240.232.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇮🇹 Italy 01 @nodpai
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10718
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇦🇪 United Arab Emirates 01 ...
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10722
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇰🇷 South Korea 01 @nodpai
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10703
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10713
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇿🇦 South Africa 01 @nodpai
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10723
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇪 Sweden 01 @nodpai
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10719
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 18|🇨🇳_CN_中国->🇦🇹_AT_奥地利_2
