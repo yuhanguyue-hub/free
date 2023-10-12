@@ -1,4 +1,28 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 7,15|香港Y|@ripaojiedian
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇺🇸 美国M|@ripaojiedian
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 23.227.39.18
+  skip-cert-verify: false
+  sni: pus1.pqjc.buzz
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 448dc61a-e5ad-45b6-a5bf-6583f4fc5c4a
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -8,7 +32,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f4796439-100a-4487-9300-40e0b1b209a5
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +42,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f4796439-100a-4487-9300-40e0b1b209a5
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +52,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f4796439-100a-4487-9300-40e0b1b209a5
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -38,7 +62,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 89d46779-76b3-4de4-a75d-0e5dd88660b8
+  uuid: 3d894ffa-2949-4636-b326-fb5b93322e02
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -48,7 +72,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 89d46779-76b3-4de4-a75d-0e5dd88660b8
+  uuid: 3d894ffa-2949-4636-b326-fb5b93322e02
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -58,7 +82,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 89d46779-76b3-4de4-a75d-0e5dd88660b8
+  uuid: 3d894ffa-2949-4636-b326-fb5b93322e02
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -92,13 +116,3 @@ proxies:
     headers:
       Host: sanmao17.hkbn.n.optage.moe
     path: /hkbn
-- alterId: 64
-  cipher: auto
-  name: 15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
