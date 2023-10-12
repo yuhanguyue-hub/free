@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 36562c8b-f9ef-4fc7-954b-d8b5fd6071a8
+  uuid: e448e73c-4624-437e-9b87-b6257ac1efdd
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
@@ -273,6 +273,20 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇨🇦Canada 197
+  network: ws
+  port: 8443
+  server: v16.583182.xyz
+  servername: v16.583181.xyz
+  tls: true
+  type: vmess
+  uuid: 52e63784-a98f-4de6-bc3b-179cb3793e01
+  ws-opts:
+    headers:
+      Host: v16.583181.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -280,4 +294,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 38c47b0b-ad8f-485b-8444-cb8671ab5f1c
+  uuid: 760a3b24-8d32-4fc1-aad0-37b80afb7125
