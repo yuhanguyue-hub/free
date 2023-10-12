@@ -14,7 +14,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国 #15'
+  name: 0,2,3,4,6,17|🇺🇸_US_美国_7_40
   network: ws
   port: 8080
   server: singapore.com
@@ -53,7 +53,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '0,2,4|🇺🇸_US_美国 #11'
+  name: 0,2,4,17|🇺🇸_US_美国_2_7
   network: ws
   port: 20353
   server: 141.148.149.116
@@ -67,7 +67,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,1,2,3,4,6,14,15,18|🇺🇸_US_美国_5_40
+  name: 0,1,2,3,4,6,14,15,17|🇺🇸_US_美国_8_4由夸嘴科技提供;kkzui.com
   network: ws
   port: 35425
   server: 206.168.240.113
@@ -81,7 +81,7 @@ proxies:
     path: /jdbp606
 - alterId: 64
   cipher: auto
-  name: 0,2,4,11|github.com/freefq - 美国加利福尼亚州圣何...
+  name: 0,2,4,11,17|🇺🇸_US_美国_由夸嘴科技提供;kkzui.com_5
   network: ws
   port: 30000
   server: 45.199.138.222
@@ -201,7 +201,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国_2由快嘴科技提供：kkzui.com
+  name: 3,6,17|🇺🇸_US_美国_6_9
   network: ws
   port: 30000
   server: 156.225.67.104
@@ -227,7 +227,7 @@ proxies:
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国 #17'
+  name: 3,6,17|🇺🇸_US_美国_9_42
   network: ws
   port: 8080
   server: cf-lt.sharecentre.online
@@ -253,6 +253,19 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: '7,8|「蛋挞云,超低价格,超高体验」🇺🇸 US 01 #1'
+  network: ws
+  port: 443
+  server: 67.21.90.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
+  ws-opts:
+    path: /path/1694429908748
+- alterId: 0
+  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -260,7 +273,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c961d0b9-365b-4ac0-931b-6d9ca2fa54d6
+  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -270,7 +283,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c961d0b9-365b-4ac0-931b-6d9ca2fa54d6
+  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -280,7 +293,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c961d0b9-365b-4ac0-931b-6d9ca2fa54d6
+  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
 - alterId: 0
   cipher: auto
   name: 11,12|🔒GB-🇬🇧-VM-WS-TLS🌎_3
@@ -352,9 +365,9 @@ proxies:
     path: /footers
 - alterId: 0
   cipher: auto
-  name: 11,12,18|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: 11,12|频道47@wxgqlfx
   network: ws
-  port: 80
+  port: '80'
   server: www.speedtest.net
   servername: ''
   tls: false
@@ -525,7 +538,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e94d976c-3c1b-4c5a-9925-17a9dc12d99a
+  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -535,7 +548,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e94d976c-3c1b-4c5a-9925-17a9dc12d99a
+  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -545,7 +558,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e94d976c-3c1b-4c5a-9925-17a9dc12d99a
+  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -565,131 +578,12 @@ proxies:
     path: /video/QKEYMfEw/
 - alterId: 0
   cipher: auto
-  name: 16|JCBB_ 美国01【vip1】
-  network: ws
-  port: '38381'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bc98ff24-28d9-40be-b77f-ee35df4a9afb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国02_1【vip1】
-  network: ws
-  port: '20153'
-  server: gzdx01.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bc98ff24-28d9-40be-b77f-ee35df4a9afb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国02【vip1】
-  network: ws
-  port: '28204'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bc98ff24-28d9-40be-b77f-ee35df4a9afb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 03【vip1】
-  network: ws
-  port: '21036'
-  server: gzyd.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bc98ff24-28d9-40be-b77f-ee35df4a9afb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 04_1【vip1】
-  network: ws
-  port: '26611'
-  server: gzdx01.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bc98ff24-28d9-40be-b77f-ee35df4a9afb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 04【vip1】
-  network: ws
-  port: '62684'
-  server: gzdx.jcnode.top
-  tls: false
-  type: vmess
-  uuid: bc98ff24-28d9-40be-b77f-ee35df4a9afb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国_8_52
-  network: ws
-  port: 8080
-  server: ns1.v2-vip.fun
-  tls: false
-  type: vmess
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  ws-opts:
-    headers:
-      Host: ssrsub.v002.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_24
+  name: 17|🇺🇸_US_美国_由夸嘴科技提供;kkzui.com_25
   network: ws
   port: 80
-  server: 80.251.214.235
+  server: 64.64.254.139
   tls: false
   type: vmess
-  uuid: 2048a230-35f8-4940-ea64-02d2375df9cd
+  uuid: ac7d7d4e-bbff-487b-888b-df7b8f43d4f4
   ws-opts:
-    headers:
-      Host: tms.dingtalk.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 18|🇺🇸_US_美国_7_48
-  network: ws
-  port: 30000
-  server: 45.199.138.186
-  tls: true
-  type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  ws-opts:
-    headers:
-      Host: www.19229362.xyz
-    path: /path/1696598013851
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国_9_53
-  network: ws
-  port: 443
-  server: 104.18.35.28
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /odelia.autos:443/linkvws
