@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
+  uuid: f4796439-100a-4487-9300-40e0b1b209a5
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
+  uuid: f4796439-100a-4487-9300-40e0b1b209a5
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,21 +28,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港 023
-  network: ws
-  port: 4431
-  server: 152.32.190.239
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: hk1.kxking.eu.org
-    path: /vm?ed=2048
+  uuid: f4796439-100a-4487-9300-40e0b1b209a5
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -52,7 +38,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
+  uuid: 89d46779-76b3-4de4-a75d-0e5dd88660b8
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -62,7 +48,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
+  uuid: 89d46779-76b3-4de4-a75d-0e5dd88660b8
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -72,7 +58,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
+  uuid: 89d46779-76b3-4de4-a75d-0e5dd88660b8
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -89,19 +75,6 @@ proxies:
   server: 47.243.182.168
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇺🇸 美国M|@ripaojiedian
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
-  port: 443
-  server: 23.227.39.18
-  skip-cert-verify: false
-  sni: pus1.pqjc.buzz
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 448dc61a-e5ad-45b6-a5bf-6583f4fc5c4a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
