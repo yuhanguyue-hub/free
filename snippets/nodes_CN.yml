@@ -116,15 +116,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 12|YouTube面具人哈乐_中国_8
-  network: tcp
-  port: 25010
-  server: b.baozinet.top
-  tls: false
+  name: 12|⚡️@DeamNet_🔻 🇨🇳China 2
+  network: ws
+  port: 443
+  server: 142.0.132.35
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.45022499.xyz
+    path: /path/1695993071029
 - alterId: 0
   cipher: auto
   name: 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7

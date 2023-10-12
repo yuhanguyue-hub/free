@@ -162,10 +162,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_由快嘴科技提供：k...
+  name: 6,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_由快嘴科技提供：k...
   network: ws
   port: 30000
   server: 45.199.138.191
+  servername: www.42077230.xyz
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -173,6 +174,16 @@ proxies:
     headers:
       Host: www.42077230.xyz
     path: /path/1696251522438
+- alterId: 64
+  cipher: auto
+  name: 12,15|香港A|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
