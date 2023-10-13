@@ -28,7 +28,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,4,14,15|美国A|@ripaojiedian
+  name: 0,2,4,12,14,15|美国A|@ripaojiedian
   network: ws
   port: '2052'
   server: cf.yx.alue.link
@@ -44,7 +44,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,12,18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_43
+  name: 0,2,3,4,11,12,18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_43
   network: ws
   port: 2052
   server: 104.16.68.38
@@ -58,9 +58,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #3'
+  name: '0,2,3,4,6,12|关注电报https://t.me/aifenxiang202... #1'
   network: ws
-  port: 2052
+  port: '2052'
   server: 162.159.152.6
   tls: false
   type: vmess
@@ -127,7 +127,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,7,8|🇱🇺 Luxembourg 01 @nodpai #1'
+  name: '1,7,8|「eggtartcloud.shop 自选入口,速度保证」🇱... #1'
   network: ws
   port: 2052
   server: 162.159.152.6
@@ -140,7 +140,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国->🇫🇷_FR_法国_由夸嘴科技提供;kkz...
+  name: 3,18|🇺🇸_US_美国->🇫🇷_FR_法国_由夸嘴科技提供;kkz...
   network: ws
   port: 2082
   server: fr-01.cloudlion.me
@@ -153,7 +153,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由夸嘴科技提供;kkz...
+  name: 3,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由夸嘴科技提供;kkz...
   network: ws
   port: 2096
   server: 162.159.129.71
@@ -166,46 +166,183 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇮🇳 India 01 @nodpai
+  name: 6|🇨🇳_CN_中国->🇬🇧_GB_英国
   network: tcp
-  port: '15086'
-  server: 15086.kuaiyin.win
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 02 @nodpai
-  network: tcp
-  port: '40158'
-  server: 183.240.232.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 03 @nodpai
-  network: tcp
-  port: '50020'
-  server: 20.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-  network: tcp
-  port: '50009'
+  port: 50009
   server: 09.kccic2pa.xyz
   tls: false
   type: vmess
   uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇩🇪 Germany 01 @nodpai
-  network: tcp
-  port: '50041'
-  server: 41.kccic2pa.xyz
+  name: '6,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #6'
+  network: ws
+  port: 2052
+  server: 162.159.128.91
   tls: false
   type: vmess
-  uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇺🇸美国04
+  network: tcp
+  port: '36501'
+  server: 3u1s04.abzoones.xyz
+  servername: us04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇺🇸美国05
+  network: tcp
+  port: '36506'
+  server: 3u1s05.abzoones.xyz
+  servername: us05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇺🇸美国06
+  network: tcp
+  port: '36511'
+  server: 3u1s06.abzoones.xyz
+  servername: us06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇷🇺俄罗斯04
+  network: tcp
+  port: '36851'
+  server: 8r5u04.abzoones.xyz
+  servername: ru04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇮🇳印度04
+  network: tcp
+  port: '36831'
+  server: 7i4n04.abzoones.xyz
+  servername: in04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇧🇷巴西04
+  network: tcp
+  port: '36877'
+  server: 6i2r04.abzoones.xyz
+  servername: br04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇭🇺匈牙利04
+  network: tcp
+  port: '36864'
+  server: 2h4u04.abzoones.xyz
+  servername: hu04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇦🇷阿根廷04
+  network: tcp
+  port: '36861'
+  server: 9a8r04.abzoones.xyz
+  servername: ar04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇹🇷土耳其04
+  network: tcp
+  port: '36868'
+  server: 2t1u04.abzoones.xyz
+  servername: tr04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇺🇦乌克兰04
+  network: tcp
+  port: '36871'
+  server: 8u9a04.abzoones.xyz
+  servername: ua04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇦🇺澳大利亚04
+  network: tcp
+  port: '36821'
+  server: 5a4u04.abzoones.xyz
+  servername: au04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇬🇧英国04
+  network: tcp
+  port: '36811'
+  server: 2u3k04.abzoones.xyz
+  servername: uk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇩🇪德国04
+  network: tcp
+  port: '36841'
+  server: 3d6e04.abzoones.xyz
+  servername: de04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇵🇹葡萄牙04
+  network: tcp
+  port: '36881'
+  server: 4p2t01.abzoones.xyz
+  servername: pt04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇪🇸西班牙04
+  network: tcp
+  port: '36884'
+  server: 6e2s04.abzoones.xyz
+  servername: es04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9
