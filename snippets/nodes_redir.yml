@@ -43,11 +43,10 @@ proxies:
     path: /@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 0,2,4,11,12|频道43@wxgqlfx
+  name: 0,2,4,17|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
   network: ws
-  port: '80'
+  port: 80
   server: 190.93.246.241
-  servername: ''
   tls: false
   type: vmess
   uuid: dd8068db-5cfb-43a9-ba23-b156a70fbb06
@@ -85,7 +84,7 @@ proxies:
     path: /@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
+  name: 0,2,3,4,17|🇰🇷_KR_韩国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
   network: ws
   port: 443
   server: 130.162.154.209
@@ -99,9 +98,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,4,14,15|美国A|@ripaojiedian
+  name: 0,2,4,14,15,17|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供;kkz...
   network: ws
-  port: '2052'
+  port: 2052
   server: cf.yx.alue.link
   servername: ''
   skip-cert-verify: false
@@ -245,7 +244,7 @@ proxies:
   uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
 - alterId: 0
   cipher: auto
-  name: 3,6|🇨🇳_CN_中国->🇬🇧_GB_英国
+  name: 3,6,17|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
   network: tcp
   port: 50009
   server: 09.kccic2pa.xyz
@@ -254,7 +253,7 @@ proxies:
   uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
 - alterId: 0
   cipher: auto
-  name: 3,6|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  name: 3,6,17|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供;kk...
   network: ws
   port: 2052
   server: 162.159.152.6
@@ -267,7 +266,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #1'
+  name: 3,6,17|🇺🇸_US_美国->🇱🇺_LU_卢森堡_2_33
   network: ws
   port: 2052
   server: 162.159.128.91
@@ -280,200 +279,175 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,9|🇺🇸美国04
+  name: 6,9,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
   network: tcp
-  port: '36501'
+  port: 36501
   server: 3u1s04.abzoones.xyz
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇺🇸美国05
+  name: 6,9,17|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供;...
   network: tcp
-  port: '36506'
+  port: 36506
   server: 3u1s05.abzoones.xyz
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇺🇸美国06
+  name: 6,9,17|🇨🇳_CN_中国->🇺🇸_US_美国_3_42
   network: tcp
-  port: '36511'
+  port: 36511
   server: 3u1s06.abzoones.xyz
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇷🇺俄罗斯04
+  name: 6,9,17|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_43
   network: tcp
-  port: '36851'
+  port: 36851
   server: 8r5u04.abzoones.xyz
   servername: ru04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇮🇳印度04
+  name: 6,9,17|🇨🇳_CN_中国->🇮🇳_IN_印度_44
   network: tcp
-  port: '36831'
+  port: 36831
   server: 7i4n04.abzoones.xyz
   servername: in04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇧🇷巴西04
+  name: 6,9,17|🇨🇳_CN_中国->🇧🇷_BR_巴西_45
   network: tcp
-  port: '36877'
+  port: 36877
   server: 6i2r04.abzoones.xyz
   servername: br04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇭🇺匈牙利04
+  name: 6,9,17|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_46
   network: tcp
-  port: '36864'
+  port: 36864
   server: 2h4u04.abzoones.xyz
   servername: hu04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇦🇷阿根廷04
+  name: 6,9,17|🇨🇳_CN_中国->🇦🇷_AR_阿根廷_47
   network: tcp
-  port: '36861'
+  port: 36861
   server: 9a8r04.abzoones.xyz
   servername: ar04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇹🇷土耳其04
+  name: 6,9,17|🇨🇳_CN_中国->🇹🇷_TR_土耳其_48
   network: tcp
-  port: '36868'
+  port: 36868
   server: 2t1u04.abzoones.xyz
   servername: tr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇺🇦乌克兰04
+  name: 6,9,17|🇨🇳_CN_中国->🇺🇦_UA_乌克兰_49
   network: tcp
-  port: '36871'
+  port: 36871
   server: 8u9a04.abzoones.xyz
   servername: ua04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇦🇺澳大利亚04
+  name: 6,9,17|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_50
   network: tcp
-  port: '36821'
+  port: 36821
   server: 5a4u04.abzoones.xyz
   servername: au04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇬🇧英国04
+  name: 6,9,17|🇨🇳_CN_中国->🇬🇧_GB_英国_2_5由快嘴科技提供;...
   network: tcp
-  port: '36811'
+  port: 36811
   server: 2u3k04.abzoones.xyz
   servername: uk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇩🇪德国04
+  name: 6,9,17|🇨🇳_CN_中国->🇩🇪_DE_德国_52
   network: tcp
-  port: '36841'
+  port: 36841
   server: 3d6e04.abzoones.xyz
   servername: de04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇵🇹葡萄牙04
+  name: 6,9,17|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙_53
   network: tcp
-  port: '36881'
+  port: 36881
   server: 4p2t01.abzoones.xyz
   servername: pt04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇨🇦加拿大04
+  name: 6,9,17|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
   network: tcp
-  port: '36701'
+  port: 36701
   server: 5c1a04.abzoones.xyz
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 6,9|🇪🇸西班牙04
+  name: 6,9,17|🇨🇳_CN_中国->🇪🇸_ES_西班牙_55
   network: tcp
-  port: '36884'
+  port: 36884
   server: 6e2s04.abzoones.xyz
   servername: es04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cc7c0f92-0c0a-4dc8-a308-2ce70d1dcafe
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 64
   cipher: auto
-  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_24
+  name: 12|🇺🇸_US_美国->🇳🇱_NL_荷兰_2@21
   network: ws
   port: 30000
   server: 45.199.138.191
+  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.42077230.xyz
+      Host: ''
     path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由夸嘴科技提供;kkz...
-  network: ws
-  port: 2096
-  server: 162.159.129.71
-  tls: true
-  type: vmess
-  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇫🇷_FR_法国_由夸嘴科技提供;kkz...
-  network: ws
-  port: 2082
-  server: fr-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 87646364-c074-4b95-81cf-4bded967ca02
-  ws-opts:
-    headers:
-      Host: fr-01.cloudlion.me
-    path: /

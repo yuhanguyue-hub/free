@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,6,11,18|🇨🇳_CN_中国_26
+  name: 3,6,11,17|🇨🇳_CN_中国_2_35
   network: ws
   port: 80
   server: 175.178.65.137
@@ -14,7 +14,7 @@ proxies:
     path: /neimenggu001
 - alterId: 0
   cipher: auto
-  name: 3,6,18|🇨🇳_CN_中国_2_39
+  name: 3,6,17|🇨🇳_CN_中国_由快嘴科技提供;kkzui.com_29
   network: ws
   port: 80
   server: 1.117.69.235
@@ -35,16 +35,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国_由夸嘴科技提供;kkzui.com_37
-  network: ws
-  port: 10052
-  server: 111.67.201.33
-  tls: false
-  type: vmess
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /neimenggu001
