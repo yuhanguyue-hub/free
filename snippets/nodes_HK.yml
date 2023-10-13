@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6,11,17|🇭🇰_HK_香港_56
+  name: 6,11,18|🇭🇰_HK_香港_56
   network: ws
   port: 80
   server: hktddns.aikun.online
@@ -22,7 +22,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9fb2c02f-29f4-40a1-ad92-87ee4a67a94f
+  uuid: 6511527b-cca3-4e61-b0a1-d0d980b01067
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -32,7 +32,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9fb2c02f-29f4-40a1-ad92-87ee4a67a94f
+  uuid: 6511527b-cca3-4e61-b0a1-d0d980b01067
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -42,21 +42,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9fb2c02f-29f4-40a1-ad92-87ee4a67a94f
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港_1013001
-  network: ws
-  port: 2086
-  server: 8.218.143.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: sr.kxking.eu.org
-    path: /vm?ed=2048
+  uuid: 6511527b-cca3-4e61-b0a1-d0d980b01067
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 香港_1013216
@@ -73,6 +59,20 @@ proxies:
     path: /vm?ed=2048
 - alterId: 0
   cipher: auto
+  name: 12|🇭🇰 香港_1013001
+  network: ws
+  port: 2086
+  server: 8.218.143.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: sr.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|香港 04 | 1x HK
   network: tcp
   port: '31601'
@@ -80,7 +80,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3815292f-05fb-49be-bfad-151f514c8c3f
+  uuid: 9ba6adfb-02a2-4fde-9e58-7825d64f92dd
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -90,7 +90,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3815292f-05fb-49be-bfad-151f514c8c3f
+  uuid: 9ba6adfb-02a2-4fde-9e58-7825d64f92dd
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -100,7 +100,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3815292f-05fb-49be-bfad-151f514c8c3f
+  uuid: 9ba6adfb-02a2-4fde-9e58-7825d64f92dd
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
