@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f9e685d-b51c-48a7-a060-09719eaeb77a
+  uuid: dc278ea0-b2db-444c-ac89-a651eb815022
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f9e685d-b51c-48a7-a060-09719eaeb77a
+  uuid: dc278ea0-b2db-444c-ac89-a651eb815022
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f9e685d-b51c-48a7-a060-09719eaeb77a
+  uuid: dc278ea0-b2db-444c-ac89-a651eb815022
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1011095
@@ -39,20 +39,6 @@ proxies:
   tls: false
   type: vmess
   uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_1012102
-  network: ws
-  port: 80
-  server: 18.142.51.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 484e15da-0666-486d-b138-78622e795fed
   ws-opts:
     headers:
       Host: ''
@@ -73,6 +59,20 @@ proxies:
     path: /footers
 - alterId: 0
   cipher: auto
+  name: 12|🇸🇬 新加坡_1012102
+  network: ws
+  port: 80
+  server: 18.142.51.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 484e15da-0666-486d-b138-78622e795fed
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -80,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
+  uuid: 9c6f2df2-98b9-4bc6-bcf7-7a8c6072f61d
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -90,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
+  uuid: 9c6f2df2-98b9-4bc6-bcf7-7a8c6072f61d
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -100,4 +100,4 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
+  uuid: 9c6f2df2-98b9-4bc6-bcf7-7a8c6072f61d

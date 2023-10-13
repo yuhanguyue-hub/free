@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6,12|🇭🇰 14,15|香港B|@ripaojiedian
+  name: 6,11|github.com/freefq - 香港城市电讯有限公司...
   network: ws
   port: 80
   server: hktddns.aikun.online
@@ -13,6 +13,39 @@ proxies:
     headers:
       Host: sanmao17.hkbn.n.optage.moe
     path: /hkbn
+- alterId: 64
+  cipher: auto
+  name: 7,12,15|香港Y|@ripaojiedian
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,超低价格,超高体验」🇭🇰 HK 02
+  network: tcp
+  port: '40158'
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港1|@ripaojiedian
+  password: 9b9e582b-5755-4ecd-839b-bff55bfd7ab1
+  port: 50002
+  server: 02.kccic2pa.xyz
+  skip-cert-verify: false
+  sni: sg2.ifastcdncache.com
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 90e645b5-2d12-4709-9d58-7c5fa272f21d
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -22,7 +55,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f9e685d-b51c-48a7-a060-09719eaeb77a
+  uuid: dc278ea0-b2db-444c-ac89-a651eb815022
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -32,7 +65,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f9e685d-b51c-48a7-a060-09719eaeb77a
+  uuid: dc278ea0-b2db-444c-ac89-a651eb815022
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -42,20 +75,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f9e685d-b51c-48a7-a060-09719eaeb77a
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港2
-  network: ws
-  port: '2082'
-  server: hk-02.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: d08cf983-754c-410d-b877-aac54ae43ac1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: dc278ea0-b2db-444c-ac89-a651eb815022
 - alterId: 0
   cipher: auto
   name: 12|خصوصی0142♣🇭🇰♣HK♣119
@@ -69,6 +89,20 @@ proxies:
     path: /opt/video/images
 - alterId: 0
   cipher: auto
+  name: 12|🇭🇰 香港_1013001
+  network: ws
+  port: 2086
+  server: 8.218.143.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: sr.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|香港 04 | 1x HK
   network: tcp
   port: '31601'
@@ -76,7 +110,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
+  uuid: 9c6f2df2-98b9-4bc6-bcf7-7a8c6072f61d
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -86,7 +120,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
+  uuid: 9c6f2df2-98b9-4bc6-bcf7-7a8c6072f61d
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -96,7 +130,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
+  uuid: 9c6f2df2-98b9-4bc6-bcf7-7a8c6072f61d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -164,6 +198,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+- alterId: 64
+  cipher: auto
+  name: 15|香港A|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 15|香港1|@ripaojiedian
