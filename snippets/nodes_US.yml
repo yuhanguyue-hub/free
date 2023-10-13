@@ -1,97 +1,85 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,4,12|Channel id: @ShadowProxy66🇺🇸'
+  name: 0|🇺🇸 _US_美国
   network: ws
-  port: '2053'
+  port: '443'
+  server: 104.31.16.181
+  tls: true
+  type: vmess
+  uuid: 270c301a-7db6-4164-a0fd-d124ab6a94da
+  ws-opts:
+    headers:
+      Host: gb2vm.cdn-03.live
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 0,1,12|🇺🇸_US_美国_6
+  network: ws
+  port: 20353
+  server: 141.148.149.116
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '0,6|🇺🇸_US_美国 #17'
+  network: ws
+  port: 2052
+  server: rn.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 5498157b-0dd4-4991-9708-4d58fe7ce79a
+  ws-opts:
+    headers:
+      Host: rn.992688.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,3,11,18|🇺🇸_US_美国_6_9
+  network: ws
+  port: 30000
+  server: 156.225.67.104
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  ws-opts:
+    headers:
+      Host: www.41758112.xyz
+    path: /path/1696944806961
+- alterId: 0
+  cipher: auto
+  name: '0,3,6|🇺🇸_US_美国 #15'
+  network: ws
+  port: 2053
   server: 104.24.208.25
-  servername: b5.iraniancp.click
   tls: true
   type: vmess
   uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
   ws-opts:
     headers:
       Host: b5.iraniancp.click
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国_7_40
-  network: ws
-  port: 8080
-  server: singapore.com
-  tls: false
-  type: vmess
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 0,2,4,12|🇸🇪 瑞典 14
-  network: ws
-  port: 2082
-  server: se1.xv2ray.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd31d195-06f6-4b48-92db-7cb1dc749f66
-  ws-opts:
-    headers:
-      Host: se1.xv2ray.net
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,4|🇺🇸_US_美国 #10'
+  name: '0|🇺🇸 _US_美国 #5'
   network: ws
-  port: 8080
-  server: cf-lt.sharecentre.online
+  port: '2052'
+  server: 192.203.230.245
   tls: false
   type: vmess
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  uuid: 069e3e8b-36ec-4bef-a4da-c423665b56cc
   ws-opts:
     headers:
-      Host: ssrsub.v002.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 0,2,4,18|🇺🇸_US_美国_2_7
-  network: ws
-  port: 20353
-  server: 141.148.149.116
-  tls: false
-  type: vmess
-  uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a
-  ws-opts:
-    headers:
-      Host: microsoft.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,12,15,18|🇺🇸_US_美国_8_4由夸嘴科技提供;kkzui.com
-  network: ws
-  port: 35425
-  server: 206.168.240.113
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 78e34495-c417-48d9-e592-8625f26611c7
-  ws-opts:
-    path: /jdbp606
-- alterId: 64
-  cipher: auto
-  name: 0,2,4,18|🇺🇸_US_美国_由夸嘴科技提供;kkzui.com_5
-  network: ws
-  port: 30000
-  server: 45.199.138.222
-  tls: true
-  type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  ws-opts:
-    headers:
-      Host: www.19229362.xyz
-    path: /path/1696251693048
+      Host: de5.biqibao.site
+    path: /public
 - alterId: 0
   cipher: auto
   name: 1|_US__1
@@ -159,19 +147,17 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 1,12|🇺🇸_US_美国_6
+  name: 1,2,3,4,6,12,18|🇺🇸_US_美国_8_4由夸嘴科技提供;kkzui.com
   network: ws
-  port: 20353
-  server: 141.148.149.116
+  port: 35425
+  server: 206.168.240.113
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a
+  uuid: 78e34495-c417-48d9-e592-8625f26611c7
   ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048
+    path: /jdbp606
 - alterId: 64
   cipher: auto
   name: 1|_US__8
@@ -188,47 +174,48 @@ proxies:
     path: /path/1696251693048
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国 #17'
+  name: '2,4,12|Channel id: @ShadowProxy66🇺🇸'
   network: ws
-  port: 2052
-  server: rn.992688.xyz
+  port: '2053'
+  server: 104.24.208.25
+  servername: b5.iraniancp.click
+  tls: true
+  type: vmess
+  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+  ws-opts:
+    headers:
+      Host: b5.iraniancp.click
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 2,4,18|🇺🇸_US_美国_7_40
+  network: ws
+  port: 8080
+  server: singapore.com
   tls: false
   type: vmess
-  uuid: 5498157b-0dd4-4991-9708-4d58fe7ce79a
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
   ws-opts:
     headers:
-      Host: rn.992688.xyz
-    path: /
-- alterId: 64
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
   cipher: auto
-  name: 3,11,18|🇺🇸_US_美国_6_9
+  name: 2,4,12|🇸🇪 瑞典 14
   network: ws
-  port: 30000
-  server: 156.225.67.104
+  port: 2082
+  server: se1.xv2ray.net
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  uuid: fd31d195-06f6-4b48-92db-7cb1dc749f66
   ws-opts:
     headers:
-      Host: www.41758112.xyz
-    path: /path/1696944806961
+      Host: se1.xv2ray.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸 _US_美国 #10'
-  network: ws
-  port: '443'
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    headers:
-      Host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇺🇸_US_美国_9_42
+  name: '2,4|🇺🇸_US_美国 #10'
   network: ws
   port: 8080
   server: cf-lt.sharecentre.online
@@ -237,37 +224,37 @@ proxies:
   uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
   ws-opts:
     headers:
-      Host: ssrsub.v003.ssrsub.com
+      Host: ssrsub.v002.ssrsub.com
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸 _US_美国 #13'
+  name: 2,4,18|🇺🇸_US_美国_2_7
   network: ws
-  port: '8080'
-  server: ns1.v2-vip.fun
+  port: 20353
+  server: 141.148.149.116
   tls: false
   type: vmess
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a
   ws-opts:
     headers:
-      Host: ssrsub.v001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
+      Host: microsoft.com
+    path: /?ed=2048
+- alterId: 64
   cipher: auto
-  name: '6|🇺🇸_US_美国 #15'
+  name: 2,4,18|🇺🇸_US_美国_由夸嘴科技提供;kkzui.com_5
   network: ws
-  port: 2053
-  server: 104.24.208.25
+  port: 30000
+  server: 45.199.138.222
   tls: true
   type: vmess
-  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
   ws-opts:
     headers:
-      Host: b5.iraniancp.click
-    path: /
+      Host: www.19229362.xyz
+    path: /path/1696251693048
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国 #16'
+  name: '3,6|🇺🇸_US_美国 #16'
   network: ws
   port: 8080
   server: cf-lt.sharecentre.online
@@ -320,6 +307,22 @@ proxies:
     headers:
       Host: ''
     path: /path/1694429908748
+- alterId: 64
+  cipher: auto
+  name: 7,8,11|github.com/freefq - 美国LeaseWeb...
+  network: ws
+  port: 443
+  server: 23.108.100.103
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /footers
 - alterId: 0
   cipher: auto
   name: 11,12|频道47@wxgqlfx
@@ -334,20 +337,6 @@ proxies:
     headers:
       Host: de1vm.cdn-03.live
     path: /@hopev2ray،@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 11,12|🔒GB-🇬🇧-VM-WS-TLS🌎_3
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #2'
@@ -375,20 +364,6 @@ proxies:
     headers:
       Host: www.75409854.xyz
     path: /path/1694429908748
-- alterId: 64
-  cipher: auto
-  name: 11|github.com/freefq - 美国LeaseWeb...
-  network: ws
-  port: 443
-  server: 23.108.100.103
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /footers
 - alterId: 0
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #3'
@@ -943,7 +918,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2a08e5d-ee4a-406a-abef-2d0157d43d69
+  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -953,7 +928,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2a08e5d-ee4a-406a-abef-2d0157d43d69
+  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -963,21 +938,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2a08e5d-ee4a-406a-abef-2d0157d43d69
-- alterId: 0
-  cipher: auto
-  name: 15|美国B|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6d2ae16e-9e18-4235-91fc-981d77aec8ff
-  ws-opts:
-    headers:
-      Host: us12c2ebe9b.vjfvyzfhhf.xyz
-    path: /video/QKEYMfEw/
+  uuid: 517f5646-dc1b-42ee-b3f8-6a4c1c78a701
 - alterId: 0
   cipher: auto
   name: 16|JCBB_ 美国01【vip1】
@@ -1067,3 +1028,16 @@ proxies:
   uuid: ac7d7d4e-bbff-487b-888b-df7b8f43d4f4
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_9_42
+  network: ws
+  port: 8080
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  ws-opts:
+    headers:
+      Host: ssrsub.v003.ssrsub.com
+    path: /api/v3/download.getFile
