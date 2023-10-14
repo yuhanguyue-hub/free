@@ -9,30 +9,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
-- alterId: 0
-  cipher: auto
-  name: 11,12|🔒 VM-TCP-NA 🇨🇦 CA-159.203.40.2...
-  network: tcp
-  port: '53787'
-  server: 159.203.40.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13a41f47-5be2-462b-d86a-27f74ded6e2c
-- alterId: 1
-  cipher: auto
-  name: 12|Channel id @ShadowProxy66🇨🇦
-  network: ws
-  port: 443
-  server: 104.21.4.29
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: oliv.beauty
-    path: linkvws
 - alterId: 1
   cipher: auto
   name: 12|🇨🇦 加拿大 134
@@ -49,6 +25,30 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 1
+  cipher: auto
+  name: 12|Channel id @ShadowProxy66🇨🇦
+  network: ws
+  port: 443
+  server: 104.21.4.29
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -56,4 +56,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f40e1a6-8354-48a5-a9ca-4710c2e4c907
+  uuid: ec25e50a-0ba7-45dc-a41f-c5d3a95700a9
