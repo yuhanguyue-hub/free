@@ -1,6 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '7,8|🇨🇦 Canada 01 @nodpai #1'
+  network: ws
+  port: 80
+  server: ca-one.1234585.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3a32edb0-0066-45d4-bc45-8a886c5580ad
+  ws-opts:
+    headers:
+      Host: ca-one.1234585.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
+  network: tcp
+  port: 36701
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
+- alterId: 1
+  cipher: auto
+  name: 12|Channel id @ShadowProxy66🇨🇦
+  network: ws
+  port: 443
+  server: 104.21.4.29
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
   network: tcp
   port: '22324'
@@ -11,17 +50,17 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 1
   cipher: auto
-  name: '12|Channel id: @ShadowProxy66🇨🇦'
+  name: 12|🇨🇦 加拿大 134
   network: ws
-  port: '443'
-  server: 104.21.4.29
-  servername: oliv.beauty
+  port: 443
+  server: octavi.cfd
+  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: oliv.beauty
+      Host: octavi.cfd
     path: linkvws
 - alterId: 0
   cipher: auto
@@ -32,4 +71,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: af9cda04-fe97-4e6a-b879-f0ca3261dc83
+  uuid: 50d32408-9aa9-4b22-ab86-ef4f820f9833
