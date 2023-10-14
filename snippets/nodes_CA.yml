@@ -1,22 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|🇨🇦 Canada 01 @nodpai #1'
-  network: ws
-  port: 80
-  server: ca-one.1234585.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3a32edb0-0066-45d4-bc45-8a886c5580ad
-  ws-opts:
-    headers:
-      Host: ca-one.1234585.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
+  name: 9,17|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
   network: tcp
   port: 36701
   server: 5c1a04.abzoones.xyz
@@ -71,4 +56,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50d32408-9aa9-4b22-ab86-ef4f820f9833
+  uuid: ee54d824-11ac-40de-9c33-d446e41a4deb
