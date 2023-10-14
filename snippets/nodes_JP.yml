@@ -1,6 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '7,8|🇯🇵 Japan 01 @nodpai #1'
+  network: ws
+  port: 443
+  server: ming2.kiwireich.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-opts:
+    headers:
+      Host: ming2.kiwireich.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '7,8|🇯🇵 Japan 02 @nodpai #1'
+  network: ws
+  port: 53782
+  server: kr-cdn-6273819.starnetcn.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: kr-cdn-6273819.starnetcn.top
+    path: /1c1791euidqihd
+- alterId: 0
+  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -8,7 +38,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
+  uuid: 6363534b-1791-4971-ab40-00dff8c7f2e6
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +48,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
+  uuid: 6363534b-1791-4971-ab40-00dff8c7f2e6
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +58,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
+  uuid: 6363534b-1791-4971-ab40-00dff8c7f2e6
 - alterId: 64
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
@@ -77,7 +107,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
+  uuid: 1f40e1a6-8354-48a5-a9ca-4710c2e4c907
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -87,7 +117,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
+  uuid: 1f40e1a6-8354-48a5-a9ca-4710c2e4c907
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -97,7 +127,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
+  uuid: 1f40e1a6-8354-48a5-a9ca-4710c2e4c907
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
