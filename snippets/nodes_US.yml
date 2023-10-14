@@ -54,7 +54,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,7,8|🇺🇸 United States 07 @nodpai #1'
+  name: '0,2,3,4,6,7,8|🇺🇸 United States 10 @nodpai #1'
   network: ws
   port: 443
   server: www.75409854.xyz
@@ -187,7 +187,7 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: 3,6,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_26
+  name: 3,6,18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_26
   network: ws
   port: 30000
   server: 45.199.138.186
@@ -269,20 +269,18 @@ proxies:
   cipher: auto
   name: '7,8|🇺🇸 United States 06 @nodpai #1'
   network: ws
-  port: 80
-  server: asb2.shabijichang.com
+  port: 443
+  server: 45.61.185.139
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 79ddb02d-fad4-4eee-b620-17a401df85f9
   ws-opts:
-    headers:
-      Host: asb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
+  name: 9,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
   network: tcp
   port: 36501
   server: 3u1s04.abzoones.xyz
@@ -292,7 +290,7 @@ proxies:
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供;...
+  name: 9,18|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供;...
   network: tcp
   port: 36506
   server: 3u1s05.abzoones.xyz
@@ -302,7 +300,7 @@ proxies:
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇺🇸_US_美国_3_42
+  name: 9,18|🇨🇳_CN_中国->🇺🇸_US_美国_3_42
   network: tcp
   port: 36511
   server: 3u1s06.abzoones.xyz
@@ -310,20 +308,43 @@ proxies:
   tls: true
   type: vmess
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|github.com/freefq - 美国  5
-  network: ws
-  port: '21725'
-  server: 146.190.99.55
+  name: 11,12|🇺🇸TG频道 @oeo12 =31
+  network: tcp
+  port: 59614
+  server: 142.4.125.84
   servername: ''
   tls: false
   type: vmess
-  uuid: 0813862e-eff9-4666-cf70-00be81d5cc7f
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,12|🇺🇸_US_美国_wmt10.14_208
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
   ws-opts:
     headers:
-      Host: media-exp1.licdn.com
-    path: /SHALANA
+      Host: 51vfly1.win
+    path: /myblog
+- alterId: 0
+  cipher: auto
+  name: 11,12|🇺🇸_US_美国->🇨🇱_CL_智利_6
+  network: ws
+  port: 80
+  server: sdyg2.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国 328
@@ -427,19 +448,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt10.14_208
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.19...
@@ -612,6 +620,19 @@ proxies:
     path: /acetaffy
 - alterId: 0
   cipher: auto
+  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸18
+  network: ws
+  port: 80
+  server: xjp3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: xjp3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.18...
   network: tcp
   port: '3456'
@@ -620,16 +641,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-- alterId: 64
-  cipher: auto
-  name: 12|🇺🇸TG频道 @oeo12 =31
-  network: tcp
-  port: 59614
-  server: 142.4.125.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国 318
@@ -668,6 +679,19 @@ proxies:
     headers:
       Host: sub.yifenjichang.top
     path: /oliv.beauty:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸20
+  network: ws
+  port: 80
+  server: jd3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: jd3.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸_US_美国_wmt10.14_209
@@ -739,6 +763,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸19
+  network: ws
+  port: 80
+  server: jd2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: jd2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|🇺🇸 美国 240
   network: ws
   port: 8443
@@ -787,7 +824,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ec25e50a-0ba7-45dc-a41f-c5d3a95700a9
+  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -797,7 +834,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ec25e50a-0ba7-45dc-a41f-c5d3a95700a9
+  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -807,7 +844,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ec25e50a-0ba7-45dc-a41f-c5d3a95700a9
+  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国B|@ripaojiedian
@@ -828,17 +865,85 @@ proxies:
   uuid: d7401dfd-371f-4b95-a50d-f2dd4a598e83
 - alterId: 0
   cipher: auto
-  name: 15|美国C|@ripaojiedian
-  network: tcp
-  port: '25006'
-  server: b.baozinet.top
-  servername: ''
+  name: 16|JCBB_ 美国01【vip1】
+  network: ws
+  port: '38381'
+  server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  uuid: bee55ce6-592e-4d01-af70-19efde3d71ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_14
+  name: 16|JCBB_ 美国02_1【vip1】
+  network: ws
+  port: '20153'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: bee55ce6-592e-4d01-af70-19efde3d71ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02【vip1】
+  network: ws
+  port: '28204'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: bee55ce6-592e-4d01-af70-19efde3d71ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 03【vip1】
+  network: ws
+  port: '21036'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: bee55ce6-592e-4d01-af70-19efde3d71ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04_1【vip1】
+  network: ws
+  port: '26611'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: bee55ce6-592e-4d01-af70-19efde3d71ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04【vip1】
+  network: ws
+  port: '62684'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: bee55ce6-592e-4d01-af70-19efde3d71ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_14
   network: ws
   port: 35425
   server: 206.168.240.113
@@ -849,7 +954,7 @@ proxies:
     path: /jdbp606
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国_2_3由快嘴科技提供;kkzui.com
+  name: 18|🇺🇸_US_美国_2_3由快嘴科技提供;kkzui.com
   network: ws
   port: 2053
   server: 104.24.208.25
@@ -862,7 +967,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国_3_34
+  name: 18|🇺🇸_US_美国_3_34
   network: ws
   port: 8080
   server: cf-lt.sharecentre.online
@@ -875,7 +980,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国_4_39
+  name: 18|🇺🇸_US_美国_4_39
   network: ws
   port: 2052
   server: rn.992688.xyz
