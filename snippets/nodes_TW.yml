@@ -1,6 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7,15|台湾B|@ripaojiedian
+  network: tcp
+  port: '25010'
+  server: b.baozinet.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+- alterId: 0
+  cipher: auto
+  name: '7,8|🇹🇼 Taiwan 02 @nodpai #1'
+  network: ws
+  port: 80
+  server: ap-east-cht.lnaspiring.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e1b82442-c4fa-4fce-801e-5f5836c0e866
+  ws-opts:
+    headers:
+      Host: ap-east-cht.lnaspiring.com
+    path: /coco/13
+- alterId: 0
+  cipher: auto
   name: 9|🇹🇼台湾04
   network: tcp
   port: '36301'
@@ -8,7 +33,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+  uuid: b9ec1aed-ce1a-4d47-a8b6-e547b56a073a
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -18,7 +43,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+  uuid: b9ec1aed-ce1a-4d47-a8b6-e547b56a073a
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -28,7 +53,7 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+  uuid: b9ec1aed-ce1a-4d47-a8b6-e547b56a073a
 - alterId: 0
   cipher: auto
   name: 12|🇹🇼TG频道 @oeo12 =6
@@ -52,7 +77,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
+  uuid: af9cda04-fe97-4e6a-b879-f0ca3261dc83
 - alterId: 0
   cipher: auto
   name: 13|台湾 05  | 1x TWN
@@ -62,7 +87,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
+  uuid: af9cda04-fe97-4e6a-b879-f0ca3261dc83
 - alterId: 0
   cipher: auto
   name: 13|台湾 06  | 1x TWN
@@ -72,14 +97,4 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
-- alterId: 0
-  cipher: auto
-  name: 15|台湾A|@ripaojiedian
-  network: tcp
-  port: '50008'
-  server: 08.kccic2pa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 90e645b5-2d12-4709-9d58-7c5fa272f21d
+  uuid: af9cda04-fe97-4e6a-b879-f0ca3261dc83

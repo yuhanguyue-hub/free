@@ -1,11 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 8,14|🇯🇵 日本特殊|@ripaojiedian
+  name: 8|🇯🇵 Japan 01 @nodpai
   password: amazonskr05
   port: 443
   server: 57.180.61.140
-  tfo: false
   type: ss
   udp: true
 - alterId: 0
@@ -17,7 +15,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+  uuid: b9ec1aed-ce1a-4d47-a8b6-e547b56a073a
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -27,7 +25,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+  uuid: b9ec1aed-ce1a-4d47-a8b6-e547b56a073a
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -37,7 +35,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+  uuid: b9ec1aed-ce1a-4d47-a8b6-e547b56a073a
 - alterId: 0
   cipher: auto
   name: 11,12|V1C | 美国 01
@@ -107,14 +105,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 12,14,15|东京|tg频道:@ripaojiedian
+  name: 12|🇯🇵 14,15|东京|tg频道@ripaojiedian
   network: ws
-  port: '8443'
+  port: 8443
   server: 8.217.147.230
-  servername: dj.kxking.eu.org
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: true
   type: vmess
   uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
@@ -145,7 +140,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
+  uuid: af9cda04-fe97-4e6a-b879-f0ca3261dc83
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -155,7 +150,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
+  uuid: af9cda04-fe97-4e6a-b879-f0ca3261dc83
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -165,7 +160,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
+  uuid: af9cda04-fe97-4e6a-b879-f0ca3261dc83
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -200,9 +195,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.112.26.97
+  server: 46.51.233.234
   tfo: false
   type: ss
