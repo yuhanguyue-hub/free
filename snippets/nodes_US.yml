@@ -40,11 +40,10 @@ proxies:
     path: /path/1694429908748
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,12|🟢42@oneclickvpnkeys
+  name: '0,2,3,4|🇺🇸_US_美国 #10'
   network: ws
-  port: '80'
+  port: 80
   server: 104.20.231.210
-  servername: ''
   tls: false
   type: vmess
   uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
@@ -54,7 +53,7 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: '0,2,3,4,6,11|github.com/freefq - 美国加利福尼亚州洛杉... #1'
+  name: 0,2,3,4,6,11|github.com/freefq - 美国加利福尼亚州洛杉...
   network: ws
   port: '443'
   server: www.75409854.xyz
@@ -78,9 +77,9 @@ proxies:
   uuid: 3d1fab6e-3bd6-472b-8d9c-9934c04eaf40
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,12|🟢41@oneclickvpnkeys
+  name: 0,2,3,4,12|🇺🇸 美国 38
   network: ws
-  port: '80'
+  port: 80
   server: 104.17.27.2
   servername: ''
   tls: false
@@ -129,7 +128,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1,11|github.com/freefq - 美国加利福尼亚州洛杉...
+  name: '1,11|github.com/freefq - 美国加利福尼亚州洛杉... #1'
   network: ws
   port: 443
   server: 67.21.90.5
@@ -225,11 +224,11 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 64
   cipher: auto
-  name: '6,11,12|🇺🇸_US_美国 #21'
+  name: 6,11,12|🔒 VM-WS-TLS 🇳🇱 NL-156.225.67.1...
   network: ws
-  port: 30000
+  port: '30000'
   server: 156.225.67.104
-  servername: ''
+  servername: www.41758112.xyz
   tls: true
   type: vmess
   uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
@@ -239,11 +238,10 @@ proxies:
     path: /path/1696944806961
 - alterId: 0
   cipher: auto
-  name: 6,12|🟧46@oneclickvpnkeys
+  name: '6,12|🇺🇸_US_美国 #21'
   network: ws
-  port: '80'
+  port: 80
   server: 104.31.16.14
-  servername: ''
   tls: false
   type: vmess
   uuid: 8d48dab3-cb73-4a92-b575-e9fb0003dfc8
@@ -264,6 +262,63 @@ proxies:
     headers:
       Host: www.19229362.xyz
     path: /path/1696251693048
+- alterId: 0
+  cipher: auto
+  name: '7,8|🇺🇸 United States 03 @nodpai #1'
+  network: ws
+  port: 80
+  server: 104.20.231.210
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7,8|🇺🇸 United States 07 @nodpai #1'
+  network: ws
+  port: 80
+  server: 104.17.27.2
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8,12|🇺🇸🔸اسحاق‌نوروزنژاد🔸26
+  network: ws
+  port: 80
+  server: asb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: asb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8,12|频道54@wxgqlfx
+  network: ws
+  port: '80'
+  server: fhc2.shabijichang.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: fhc2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 9,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
@@ -296,17 +351,14 @@ proxies:
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  tls: false
+  name: 11,12|sg-2
+  network: tcp
+  port: 30633
+  server: vpsnew.berimcafe.com
+  servername: ''
+  tls: true
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
+  uuid: b0cd158e-65ee-41b3-a932-48695eb33ac6
 - alterId: 0
   cipher: auto
   name: 11,12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.55...
@@ -323,14 +375,43 @@ proxies:
     path: /SHALANA
 - alterId: 0
   cipher: auto
-  name: 11,12|sg-2
-  network: tcp
-  port: 30633
-  server: vpsnew.berimcafe.com
+  name: 11,12|🇺🇸 美国_10141310
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: b0cd158e-65ee-41b3-a932-48695eb33ac6
+  uuid: 2cf472d4-71aa-4639-98c9-bd13e1649e13
+  ws-opts:
+    headers:
+      Host: jp17aab72a7.chvsifetrj.xyz
+    path: /video/uubCdJtK
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #1'
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_14
+  network: ws
+  port: 35425
+  server: 206.168.240.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78e34495-c417-48d9-e592-8625f26611c7
+  ws-opts:
+    path: /jdbp606
 - alterId: 0
   cipher: auto
   name: 11,12|🇺🇸_US_美国_wmt_442
@@ -346,84 +427,72 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|频道03@wxgqlfx
-  network: ws
-  port: '80'
-  server: mix.alidns.moe233.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9b722036-298a-49c5-a100-c6cb268baf02
-  ws-opts:
-    headers:
-      Host: sgli.edge.233.tw
-    path: /coco/43
-- alterId: 0
-  cipher: auto
-  name: 11,12,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_14
-  network: ws
-  port: 35425
-  server: 206.168.240.113
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78e34495-c417-48d9-e592-8625f26611c7
-  ws-opts:
-    path: /jdbp606
-- alterId: 0
-  cipher: auto
-  name: 11,12|🇺🇸 美国_10141310
+  name: 12|🇺🇸 美国 24
   network: ws
   port: 80
-  server: cfcdn3.sanfencdn9.com
+  server: 104.26.12.8
   servername: ''
   tls: false
   type: vmess
-  uuid: 2cf472d4-71aa-4639-98c9-bd13e1649e13
+  uuid: 617b2009-8eb3-4d07-e29c-6be1552875b0
   ws-opts:
     headers:
-      Host: jp17aab72a7.chvsifetrj.xyz
-    path: /video/uubCdJtK
+      Host: airusa.daozhang.link
+    path: /cdn
 - alterId: 0
   cipher: auto
-  name: 11,12|频道52@wxgqlfx
+  name: '12,17|🇺🇸_US_美国_2_3由快嘴科技提供;kkzui.com #1'
   network: ws
-  port: '80'
-  server: 104.21.4.30
-  servername: ''
-  tls: false
+  port: 2053
+  server: 104.24.208.25
+  tls: true
   type: vmess
-  uuid: 261a2c59-d037-44c1-98a1-91748ac5dd74
+  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
   ws-opts:
     headers:
-      Host: v1.us1.microsoftdebug.com
-    path: /windows7.ios
-- alterId: 0
-  cipher: auto
-  name: 11,12|🔒 VM-WS-NONE 🇸🇬 SG-146.190.110...
-  network: ws
-  port: 22118
-  server: 146.190.110.92
-  tls: false
-  type: vmess
-  uuid: b800fba6-2835-4b44-83c2-5275fdbb24ba
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
+      Host: b5.iraniancp.click
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|关注电报https://t.me/aifenxiang202...
+  name: 12|🇺🇸_US_美国_wmt_422
   network: ws
-  port: '8080'
-  server: ns1.v2-vip.fun
-  tls: false
+  port: 443
+  server: 172.66.47.84
+  tls: true
   type: vmess
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ssrsub.v002.ssrsub.com
-    path: /api/v3/download.getFile
+      Host: sub.yifenjichang.top
+    path: /oliv.beauty:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 美国 318
+  network: ws
+  port: 443
+  server: api.jquery.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /oliv.beauty:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸TG频道 @oeo12 =US_15
+  network: ws
+  port: 80
+  server: sbl2.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 1
   cipher: auto
   name: 12|🇺🇸 _US_美国_wmt_415
@@ -440,431 +509,28 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸TG频道 @oeo12 =US_14
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
+  name: 12|🇺🇸白嫖-041
+  network: tcp
+  port: 51009
+  server: 129.146.133.157
   servername: ''
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
+  uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+- alterId: 1
   cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_460
+  name: 12|🇺🇸 _US_美国_wmt_429
   network: ws
   port: 443
-  server: 104.18.203.232
-  tls: true
-  type: vmess
-  uuid: 8d48dab3-cb73-4a92-b575-e9fb0003dfc8
-  ws-opts:
-    headers:
-      Host: fr2vm.cdn-03.live
-    path: /@hopev2ray,@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 _US_美国_wmt_422
-  network: ws
-  port: 443
-  server: 172.66.47.84
+  server: speed.cloudflare.com
   servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: sub.yifenjichang.top
-    path: /oliv.beauty:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸12
-  network: ws
-  port: 80
-  server: hdlb3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: hdlb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国 49
-  network: ws
-  port: 443
-  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
-    path: /acetaffy
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.17...
-  network: tcp
-  port: '3456'
-  server: 89.116.38.170
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国 24
-  network: ws
-  port: 80
-  server: 104.26.12.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 617b2009-8eb3-4d07-e29c-6be1552875b0
-  ws-opts:
-    headers:
-      Host: airusa.daozhang.link
-    path: /cdn
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-142.4.125.84...
-  network: tcp
-  port: '59614'
-  server: 142.4.125.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.18...
-  network: tcp
-  port: '3456'
-  server: 89.116.38.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国 328
-  network: ws
-  port: 80
-  server: v118a.ai88888.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-opts:
-    headers:
-      Host: v118a.ai88888.top
-    path: /526-dekDP6Otf
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_417
-  network: ws
-  port: 443
-  server: laravel.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /octavi.cfd:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_424
-  network: ws
-  port: 443
-  server: 104.31.16.120
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: edeen.makeup
+      Host: alvvin.click
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇺🇸 US-66.42.100.214...
-  network: ws
-  port: '60222'
-  server: 66.42.100.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸26
-  network: ws
-  port: 80
-  server: asb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: asb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸18
-  network: ws
-  port: 80
-  server: xjp3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: xjp3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸5
-  network: ws
-  port: 80
-  server: ml2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ml2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国_1013015
-  network: ws
-  port: 2052
-  server: v138a.ai88888.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-opts:
-    headers:
-      Host: v138a.ai88888.top
-    path: /526-ddxDMRvLdlt
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-TLS 🇺🇸 US-172.67.130.5...
-  network: ws
-  port: 443
-  server: 172.67.130.55
-  servername: 51vfly1.win
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸TG频道 @oeo12 =US_2
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.19...
-  network: tcp
-  port: '3456'
-  server: 89.116.38.193
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US(AzadNet.t.me)_131 3
-  network: ws
-  port: 443
-  server: waynn.makeup
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: waynn.makeup
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国_1014392
-  network: ws
-  port: 80
-  server: 135.148.47.240
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: deafc56d-ba76-4ff2-b3b3-a9335b0982e0
-  ws-opts:
-    headers:
-      Host: 135.148.47.240
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸4
-  network: ws
-  port: 80
-  server: flkf2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: flkf2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国 357
-  network: ws
-  port: 443
-  server: lax.asoul-diana.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: lax.asoul-diana.xyz
-    path: /acetaffy
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_428
-  network: ws
-  port: 443
-  server: api.jquery.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /oliv.beauty:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_439
-  network: ws
-  port: 443
-  server: auth0.openai.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /odelia.autos:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 خصوصی0142♣🇺🇸♣US♣190
-  network: ws
-  port: 443
-  server: edeen.makeup
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: edeen.makeup
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_312
-  network: ws
-  port: 80
-  server: 38.54.104.66
-  tls: false
-  type: vmess
-  uuid: 7a7c9e08-b23a-46db-ace1-83f1cbb9afd7
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12,17|🇺🇸_US_美国_2_3由快嘴科技提供;kkzui.com
-  network: ws
-  port: 2053
-  server: 104.24.208.25
-  tls: true
-  type: vmess
-  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
-  ws-opts:
-    headers:
-      Host: b5.iraniancp.click
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国_1014308
-  network: ws
-  port: 8880
-  server: 51.81.201.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1b2c1cb4-55ca-45f0-b667-119e395e1816
-  ws-opts:
-    headers:
-      Host: 51.81.201.148
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸TG频道 @oeo12 =US_3
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸15
-  network: ws
-  port: 80
-  server: sbl4.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国_10141309
@@ -879,56 +545,19 @@ proxies:
     headers:
       Host: sg173528cef.qcryechvqw.xyz
     path: /video/xeXuHoHo
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_wmt_440
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸白嫖-041
-  network: tcp
-  port: 51009
-  server: 129.146.133.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国 348
-  network: ws
-  port: 443
-  server: codepen.io
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /octavi.cfd:443/linkvws
 - alterId: 1
   cipher: auto
-  name: 12|🇺🇸 _US_美国_wmt_278
+  name: 12|🇺🇸 خصوصی0142♣🇺🇸♣US♣187
   network: ws
   port: 443
-  server: odelia.autos
+  server: alvvin.click
   servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: odelia.autos
+      Host: alvvin.click
     path: linkvws
 - alterId: 0
   cipher: auto
@@ -946,6 +575,147 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
+  name: 12|🇺🇸 美国 333
+  network: ws
+  port: 443
+  server: 104.18.212.12
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /oliv.beauty:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.19...
+  network: tcp
+  port: '3456'
+  server: 89.116.38.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+- alterId: 1
+  cipher: auto
+  name: 12|🇺🇸_US_美国_wmt_419
+  network: ws
+  port: 443
+  server: edeen.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国_wmt_430
+  network: ws
+  port: 443
+  server: waynn.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: waynn.makeup
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 12|🇺🇸_US_美国_wmt_414
+  network: ws
+  port: 443
+  server: odelia.autos
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国_wmt_434
+  network: ws
+  port: 443
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-diana.xyz
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-diana.xyz
+    path: /acetaffy
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸TG频道 @oeo12 =US_16
+  network: ws
+  port: 80
+  server: sbl3.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国_wmt_417
+  network: ws
+  port: 443
+  server: laravel.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /octavi.cfd:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 _US_美国_wmt_438
+  network: ws
+  port: 443
+  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+    path: /acetaffy
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国_5_6@5
+  network: ws
+  port: 443
+  server: lax.asoul-diana.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: ''
+    path: /acetaffy
+- alterId: 0
+  cipher: auto
   name: 12|V1C | 美国 01
   network: ws
   port: 31235
@@ -958,30 +728,88 @@ proxies:
     headers:
       Host: jxhoisldy718922.starnetcn.top
     path: /315d825893fc34aca0231ab967157986
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 12|🇺🇸 خصوصی0142♣🇺🇸♣US♣187
+  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸18
+  network: ws
+  port: 80
+  server: xjp3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: xjp3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 美国_1014392
+  network: ws
+  port: 80
+  server: 135.148.47.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: deafc56d-ba76-4ff2-b3b3-a9335b0982e0
+  ws-opts:
+    headers:
+      Host: 135.148.47.240
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 美国 338
   network: ws
   port: 443
-  server: alvvin.click
+  server: auth0.openai.com
   servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: alvvin.click
-    path: linkvws
+      Host: sub.yifenjichang.top
+    path: /odelia.autos:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国_10141108
-  network: tcp
-  port: 23502
-  server: ora-sg4.cou.gay
+  name: 12|🇺🇸TG频道 @oeo12 =US_3
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 12eb03fe-4433-4624-bdfe-b448b7464ebf
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 美国 348
+  network: ws
+  port: 443
+  server: codepen.io
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /octavi.cfd:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸9
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国_1008017
@@ -998,18 +826,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸TG频道 @oeo12 =US_1
+  name: 12|🇺🇸 美国 328
   network: ws
   port: 80
-  server: hdlb2.shabijichang.com
+  server: v118a.ai88888.top
   servername: ''
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: v118a.ai88888.top
+    path: /526-dekDP6Otf
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国 144
@@ -1026,31 +854,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸🔸اسحاق‌نوروزنژاد🔸1
-  network: ws
-  port: 80
-  server: xn3.shabijichang.com
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.17...
+  network: tcp
+  port: '3456'
+  server: 89.116.38.170
+  servername: ''
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: xn3.shabijichang.com
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 12|🇺🇸 _US_美国_wmt_429
-  network: ws
-  port: 443
-  server: speed.cloudflare.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: alvvin.click
-    path: linkvws
+  uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸_US_美国_wmt_457
@@ -1066,6 +877,84 @@ proxies:
     path: /@hopev2ray
 - alterId: 0
   cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.18...
+  network: tcp
+  port: '3456'
+  server: 89.116.38.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 _US_美国_wmt_424
+  network: ws
+  port: 443
+  server: 104.31.16.120
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国_wmt_448
+  network: ws
+  port: 443
+  server: 104.31.16.14
+  tls: true
+  type: vmess
+  uuid: 2379cba4-c394-4123-9aa1-3020f5d716ee
+  ws-opts:
+    headers:
+      Host: fr1vm.cdn-03.live
+    path: /@hopev2ray,@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国_wmt_440
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇺🇸 US-66.42.100.214...
+  network: ws
+  port: '60222'
+  server: 66.42.100.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 美国_1013015
+  network: ws
+  port: 2052
+  server: v138a.ai88888.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-opts:
+    headers:
+      Host: v138a.ai88888.top
+    path: /526-ddxDMRvLdlt
+- alterId: 0
+  cipher: auto
   name: 13|美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -1073,7 +962,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee54d824-11ac-40de-9c33-d446e41a4deb
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -1083,7 +972,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee54d824-11ac-40de-9c33-d446e41a4deb
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -1093,7 +982,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee54d824-11ac-40de-9c33-d446e41a4deb
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国B|@ripaojiedian
@@ -1112,6 +1001,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d7401dfd-371f-4b95-a50d-f2dd4a598e83
+- alterId: 0
+  cipher: auto
+  name: 15|美国C|@ripaojiedian
+  network: tcp
+  port: '25006'
+  server: b.baozinet.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 0
   cipher: auto
   name: 17|🇺🇸_US_美国_3_34

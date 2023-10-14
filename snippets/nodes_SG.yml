@@ -1,17 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '7,8|「蛋挞云,超低价格,超高体验」🇸🇬 SG 01 #1'
-  network: ws
-  port: 11093
-  server: 221.131.165.181
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇸...
+  password: 3525588ee14ea924
+  port: 41009
+  server: gzcm01.celerlink.one
+  type: ss
   udp: true
-  uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be
-  ws-opts:
-    path: /soda
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡04
@@ -21,7 +15,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 27139e32-9255-469e-8f6b-22a3f5842415
+  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -31,7 +25,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 27139e32-9255-469e-8f6b-22a3f5842415
+  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -41,7 +35,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 27139e32-9255-469e-8f6b-22a3f5842415
+  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1012102
@@ -79,7 +73,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee54d824-11ac-40de-9c33-d446e41a4deb
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -89,7 +83,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee54d824-11ac-40de-9c33-d446e41a4deb
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -99,7 +93,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee54d824-11ac-40de-9c33-d446e41a4deb
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡|@ripaojiedian

@@ -1,46 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '6,7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1'
+  name: 6|🇨🇳_CN_中国
   network: ws
   port: 80
   server: 124.220.57.75
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7,8|中转 🇨🇳 China 04 @nodpai #1'
+  name: '6|🇨🇳_CN_中国 #1'
   network: ws
   port: 10052
   server: 111.67.201.33
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
   ws-opts:
     path: /neimenggu001
 - alterId: 0
   cipher: auto
-  name: '7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 02 #1'
-  network: ws
-  port: 80
-  server: 175.178.65.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
-  ws-opts:
-    path: /neimenggu001
-- alterId: 0
-  cipher: auto
-  name: '7,8|「eggtartcloud.shop 自选入口,速度保证」🇨... #1'
+  name: '7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1'
   network: ws
   port: 80
   server: 1.117.69.235
@@ -51,6 +34,48 @@ proxies:
   uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,流媒体全解锁」🇨🇳 CN 02
+  network: tcp
+  port: '50002'
+  server: 175.27.154.61
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,超低价格,超高体验」🇨🇳 CN 03
+  network: tcp
+  port: '50002'
+  server: 111.230.252.149
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港2|@ripaojiedian
+  password: 47d27c60-d159-4e8d-8df5-f698a7a053fa
+  port: 51904
+  server: 183.238.202.173
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,12,15|香港2|@ripaojiedian
+  network: tcp
+  port: '51904'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 17|🇨🇳_CN_中国_由快嘴科技提供;kkzui.com_29
@@ -64,3 +89,16 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 17|🇨🇳_CN_中国_2_35
+  network: ws
+  port: 80
+  server: 175.178.65.137
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /neimenggu001
