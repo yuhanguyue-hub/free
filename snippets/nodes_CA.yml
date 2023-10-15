@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
+  name: 9,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
   network: tcp
   port: 36701
   server: 5c1a04.abzoones.xyz
@@ -39,6 +39,20 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
+  name: 12|🇨🇦 加拿大 302
+  network: ws
+  port: 2087
+  server: x10.mehdimoghaddam.fun
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b4d5538c-3119-478a-b4c5-c59c330eb88b
+  ws-opts:
+    headers:
+      Host: x10.mehdimoghaddam.fun
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -46,4 +60,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4721422f-b770-4171-a006-5769c893372f
+  uuid: 83ee8978-2b69-4769-a3e4-c510f04a32fd
