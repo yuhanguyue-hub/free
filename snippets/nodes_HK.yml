@@ -1,6 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7|「蛋挞云,超低价格,超高体验」🇭🇰 HK 01
+  network: tcp
+  port: '25002'
+  server: b.baozinet.top
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港2|@ripaojiedian
+  password: 47d27c60-d159-4e8d-8df5-f698a7a053fa
+  port: 51904
+  server: 183.238.202.173
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 9|🇭🇰香港04
   network: tcp
   port: '36601'
@@ -8,7 +31,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +41,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +51,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -55,7 +78,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -65,7 +88,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -75,7 +98,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian

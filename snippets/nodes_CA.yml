@@ -9,6 +9,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 1
   cipher: auto
   name: 12|🇨🇦 加拿大 134
@@ -23,16 +33,6 @@ proxies:
     headers:
       Host: octavi.cfd
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 1
   cipher: auto
   name: 12|Channel id @ShadowProxy66🇨🇦
@@ -56,4 +56,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
