@@ -1,21 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|🇯🇵 Japan 03 @nodpai #1'
-  network: ws
-  port: 53782
-  server: kr-cdn-6273819.starnetcn.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: kr-cdn-6273819.starnetcn.top
-    path: /1c1791euidqihd
-- alterId: 0
-  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -23,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+  uuid: 7b9e1bdb-eddf-4e3b-9836-a004ff1c2138
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -33,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+  uuid: 7b9e1bdb-eddf-4e3b-9836-a004ff1c2138
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -43,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+  uuid: 7b9e1bdb-eddf-4e3b-9836-a004ff1c2138
 - alterId: 0
   cipher: auto
   name: 11,12|V1C | 动态 01
@@ -109,7 +94,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
+  uuid: 237c6451-0b95-4b4c-bad3-d011f3672115
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -119,7 +104,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
+  uuid: 237c6451-0b95-4b4c-bad3-d011f3672115
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -129,7 +114,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
+  uuid: 237c6451-0b95-4b4c-bad3-d011f3672115
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -162,11 +147,19 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本B|@ripaojiedian
+  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
+  port: 32412
+  server: sh-zz-xx.newbluecloud.top
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 46.51.233.234
+  server: 54.65.211.149
   tfo: false
   type: ss
