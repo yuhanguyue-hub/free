@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b9e1bdb-eddf-4e3b-9836-a004ff1c2138
+  uuid: 6c293931-78e3-4534-8331-c144229b13d6
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b9e1bdb-eddf-4e3b-9836-a004ff1c2138
+  uuid: 6c293931-78e3-4534-8331-c144229b13d6
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,21 +28,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b9e1bdb-eddf-4e3b-9836-a004ff1c2138
-- alterId: 0
+  uuid: 6c293931-78e3-4534-8331-c144229b13d6
+- alterId: 64
   cipher: auto
-  name: 12|🇭🇰 香港 026
+  name: 12|🇭🇰 香港_1015052
   network: ws
-  port: 1111
-  server: 156.251.226.106
+  port: 80
+  server: 182.16.1.194
   servername: ''
   tls: false
   type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
     headers:
-      Host: chunchuan.kxking.eu.org
-    path: /vm?ed=2048
+      Host: ''
+    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -52,7 +52,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 237c6451-0b95-4b4c-bad3-d011f3672115
+  uuid: 71d67752-314c-4ac5-945b-b9e70407d3b1
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -62,7 +62,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 237c6451-0b95-4b4c-bad3-d011f3672115
+  uuid: 71d67752-314c-4ac5-945b-b9e70407d3b1
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -72,7 +72,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 237c6451-0b95-4b4c-bad3-d011f3672115
+  uuid: 71d67752-314c-4ac5-945b-b9e70407d3b1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -147,6 +147,26 @@ proxies:
     headers:
       Host: ''
     path: /ef483582-6269-468c-93af-c511eccb8a69
+- alterId: 0
+  cipher: auto
+  name: 15|香港D|@ripaojiedian
+  network: tcp
+  port: '50002'
+  server: 02.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045
+- alterId: 64
+  cipher: auto
+  name: 15|香港A|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 18|🇭🇰_HK_香港_56
