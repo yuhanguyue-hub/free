@@ -11,20 +11,6 @@ proxies:
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 138
-  network: ws
-  port: 443
-  server: laravel.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /octavi.cfd:443/linkvws
-- alterId: 0
-  cipher: auto
   name: 12|🇨🇦 加拿大 304
   network: ws
   port: 443
@@ -39,18 +25,32 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 302
+  name: 12|🇨🇦 加拿大 138
   network: ws
-  port: 2087
-  server: x10.mehdimoghaddam.fun
+  port: 443
+  server: laravel.com
   servername: ''
   tls: true
   type: vmess
-  uuid: b4d5538c-3119-478a-b4c5-c59c330eb88b
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: x10.mehdimoghaddam.fun
-    path: /
+      Host: sub.yifenjichang.top
+    path: /octavi.cfd:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 180
+  network: ws
+  port: 443
+  server: main.animelover.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+  ws-opts:
+    headers:
+      Host: main.animelover.ir
+    path: /amstd.digires.shop/12796
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -60,4 +60,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 83ee8978-2b69-4769-a3e4-c510f04a32fd
+  uuid: 7692b5f0-0141-45b8-aac9-fe1d232c41db
