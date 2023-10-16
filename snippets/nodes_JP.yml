@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e23e28ef-88d1-48d1-a675-40f282e0d00e
+  uuid: 91f0aed0-970b-4984-9a67-1011ed0d4f31
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e23e28ef-88d1-48d1-a675-40f282e0d00e
+  uuid: 91f0aed0-970b-4984-9a67-1011ed0d4f31
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e23e28ef-88d1-48d1-a675-40f282e0d00e
+  uuid: 91f0aed0-970b-4984-9a67-1011ed0d4f31
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan
@@ -67,7 +67,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 82c097ad-91b7-403d-bfe7-92b1e2bc1d41
+  uuid: 6580977f-2711-4bb8-ada9-25d5b5814858
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -77,7 +77,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 82c097ad-91b7-403d-bfe7-92b1e2bc1d41
+  uuid: 6580977f-2711-4bb8-ada9-25d5b5814858
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -87,7 +87,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 82c097ad-91b7-403d-bfe7-92b1e2bc1d41
+  uuid: 6580977f-2711-4bb8-ada9-25d5b5814858
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -120,22 +120,31 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本B|@ripaojiedian
-  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
-  port: 32412
-  server: sh-zz-xx.newbluecloud.top
+  name: 14|🇯🇵 日本A|@ripaojiedian
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 14|🇯🇵 东京|频道:@ripaojiedian
-  password: 6cc1b03a-2eab-4f13-ab25-32e7622f0a56
-  port: 25854
-  server: starspeed.tbh.iosds.com
+  name: 14,15|日本B|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: 37.123.199.134
+  servername: dj.kxking.eu.org
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: dj.kxking.eu.org
+    path: /vm?ed=2048
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇯🇵 日本特殊|@ripaojiedian
