@@ -1,21 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|🇯🇵 Japan 01 @nodpai #1'
-  network: ws
-  port: 53782
-  server: kr-cdn-6273819.starnetcn.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: kr-cdn-6273819.starnetcn.top
-    path: /1c1791euidqihd
-- alterId: 0
-  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -46,7 +31,7 @@ proxies:
   uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
 - alterId: 0
   cipher: auto
-  name: 11,12|V1C | 美国 01
+  name: 11|github.com/freefq - 日本东京都东京Ama...
   network: ws
   port: '31235'
   server: kr-cdn-6273819.starnetcn.top
@@ -57,12 +42,36 @@ proxies:
     headers:
       Host: jxhoisldy718922.starnetcn.top
     path: /315d825893fc34aca0231ab967157986
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 JP 58
+  network: ws
+  port: 8080
+  server: 146.56.174.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c
+  ws-opts:
+    headers:
+      Host: 146.56.174.31
+    path: /tg@herhero6
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本_1016151
   network: tcp
   port: 51801
   server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 VM-TCP-NA 🇯🇵 JP-45.88.43.14...
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
   servername: ''
   tls: false
   type: vmess
@@ -77,16 +86,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 VM-TCP-NA 🇯🇵 JP-45.88.43.14...
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP
