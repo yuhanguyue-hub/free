@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,11,12|关注电报https://t.me/aifenxiang202...
+  name: 0,12|关注电报https://t.me/aifenxiang202...
   network: ws
   port: 443
   server: 107.167.16.85
@@ -79,7 +79,7 @@ proxies:
     path: /path/080822272914
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,11|github.com/freefq - 南非  9
+  name: 0,2,3,4,6,11|github.com/freefq - 南非  3
   network: ws
   port: '30000'
   server: 156.225.67.104
@@ -258,9 +258,9 @@ proxies:
     path: /video/xwjorKTk
 - alterId: 0
   cipher: auto
-  name: '1,2,3,4|🇺🇸_US_美国 #20'
+  name: 1,2,3,4,7|🇧🇷 Brazil 01 @nodpai
   network: tcp
-  port: 20492
+  port: '20492'
   server: 168.75.76.226
   skip-cert-verify: true
   tls: false
@@ -390,7 +390,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 2,3,4,11|github.com/freefq - 美国CloudFla...
+  name: '2,3,4,11|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: 80
   server: sbl2.shabijichang.com
@@ -429,31 +429,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,15|美国C|@ripaojiedian
-  network: tcp
-  port: '25006'
-  server: b.baozinet.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇭🇰 香港A|@ripaojiedian
-  password: QHhbhwe6lj
-  port: 53300
-  server: 112.29.94.22
-  skip-cert-verify: false
-  sni: 103.15.217.182
-  tfo: false
-  tls: false
+  name: '7,8|🇺🇸 United States 01 @nodpai #1'
+  network: ws
+  port: 443
+  server: 142.4.99.85
+  skip-cert-verify: true
+  tls: true
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  ws-opts:
+    path: /path/1697376782879
 - alterId: 0
   cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
+  name: 7,8,18|🇬🇧_GB_英国_4
+  network: ws
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 9,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
   network: tcp
   port: 36501
   server: 3u1s04.abzoones.xyz
@@ -463,7 +465,7 @@ proxies:
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供;...
+  name: 9,18|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供;...
   network: tcp
   port: 36506
   server: 3u1s05.abzoones.xyz
@@ -473,7 +475,7 @@ proxies:
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 0
   cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇺🇸_US_美国_3_42
+  name: 9,18|🇨🇳_CN_中国->🇺🇸_US_美国_3_42
   network: tcp
   port: 36511
   server: 3u1s06.abzoones.xyz
@@ -483,43 +485,43 @@ proxies:
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
 - alterId: 64
   cipher: auto
-  name: 11,12|🇺🇸_US_美国_yui科技_95
+  name: 11,12|🇺🇸_US_美国_yui科技_127
   network: ws
-  port: 443
-  server: 142.4.99.85
+  port: 30000
+  server: 142.4.110.142
   tls: true
   type: vmess
-  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3
   ws-opts:
     headers:
-      Host: www.73332463.xyz
+      Host: www.28251658.xyz
     path: /path/1697376782879
 - alterId: 64
   cipher: auto
-  name: 11,12|🇺🇸_US_美国_yui科技_27
+  name: 11,12|🇺🇸_US_美国_yui科技_92
   network: ws
   port: 30000
-  server: 45.199.138.205
+  server: 45.199.138.186
   tls: true
   type: vmess
-  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
   ws-opts:
     headers:
-      Host: www.69708272.xyz
-    path: /path/1697288722266
+      Host: www.19229362.xyz
+    path: /path/1697376782879
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #1'
+  name: 11|github.com/freefq - 美国CloudFla...
   network: ws
-  port: 8080
-  server: cf-lt.sharecentre.online
+  port: '2052'
+  server: 162.159.140.6
   tls: false
   type: vmess
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      Host: ssrsub.v003.ssrsub.com
-    path: /api/v3/download.getFile
+      Host: lu.wx.alue.link
+    path: /
 - alterId: 64
   cipher: auto
   name: 11|github.com/freefq - 美国Cloudinn...
@@ -533,19 +535,19 @@ proxies:
     headers:
       Host: www.28115361.xyz
     path: /path/1696944806961
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #3'
+  name: 11,12|🇺🇸_US_美国_yui科技_27
   network: ws
-  port: '2052'
-  server: 162.159.140.6
-  tls: false
+  port: 30000
+  server: 45.199.138.205
+  tls: true
   type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
   ws-opts:
     headers:
-      Host: lu.wx.alue.link
-    path: /
+      Host: www.69708272.xyz
+    path: /path/1697288722266
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸白嫖-041
@@ -662,19 +664,6 @@ proxies:
   ws-opts:
     headers:
       Host: www.71585518.xyz
-    path: /path/1697376782879
-- alterId: 64
-  cipher: auto
-  name: 12|🇺🇸_US_美国_yui科技_127
-  network: ws
-  port: 30000
-  server: 142.4.110.142
-  tls: true
-  type: vmess
-  uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3
-  ws-opts:
-    headers:
-      Host: www.28251658.xyz
     path: /path/1697376782879
 - alterId: 0
   cipher: auto
@@ -871,6 +860,19 @@ proxies:
     headers:
       Host: alvvin.click
     path: linkvws
+- alterId: 64
+  cipher: auto
+  name: 12|🇺🇸_US_美国_yui科技_95
+  network: ws
+  port: 443
+  server: 142.4.99.85
+  tls: true
+  type: vmess
+  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  ws-opts:
+    headers:
+      Host: www.73332463.xyz
+    path: /path/1697376782879
 - alterId: 64
   cipher: auto
   name: 12|🇺🇸_US_美国_yui科技_160
@@ -1201,19 +1203,6 @@ proxies:
     path: /path/1697376782879
 - alterId: 64
   cipher: auto
-  name: 12|🇺🇸_US_美国_yui科技_92
-  network: ws
-  port: 30000
-  server: 45.199.138.186
-  tls: true
-  type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  ws-opts:
-    headers:
-      Host: www.19229362.xyz
-    path: /path/1697376782879
-- alterId: 64
-  cipher: auto
   name: 12|🇺🇸_US_美国_yui科技_136
   network: ws
   port: 443
@@ -1539,7 +1528,85 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_14
+  name: 16|JCBB_ 美国01【vip1】
+  network: ws
+  port: '38381'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c00dfb2a-1b19-4557-bfaf-450a47e1bbc1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02_1【vip1】
+  network: ws
+  port: '20153'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c00dfb2a-1b19-4557-bfaf-450a47e1bbc1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02【vip1】
+  network: ws
+  port: '28204'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c00dfb2a-1b19-4557-bfaf-450a47e1bbc1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 03【vip1】
+  network: ws
+  port: '21036'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c00dfb2a-1b19-4557-bfaf-450a47e1bbc1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04_1【vip1】
+  network: ws
+  port: '26611'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c00dfb2a-1b19-4557-bfaf-450a47e1bbc1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04【vip1】
+  network: ws
+  port: '62684'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: c00dfb2a-1b19-4557-bfaf-450a47e1bbc1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_14
   network: ws
   port: 35425
   server: 206.168.240.113
@@ -1550,7 +1617,7 @@ proxies:
     path: /jdbp606
 - alterId: 64
   cipher: auto
-  name: 17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_26
+  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_26
   network: ws
   port: 30000
   server: 45.199.138.186
@@ -1563,7 +1630,7 @@ proxies:
     path: /path/1696598013851
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国_3_34
+  name: 18|🇺🇸_US_美国_3_34
   network: ws
   port: 8080
   server: cf-lt.sharecentre.online
@@ -1576,7 +1643,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国_4_39
+  name: 18|🇺🇸_US_美国_4_39
   network: ws
   port: 2052
   server: rn.992688.xyz
