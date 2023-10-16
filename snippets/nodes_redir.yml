@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,12|🇺🇸_US_美国->🇫🇷_FR_法国_34
+  name: 0,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 80
   server: 104.18.202.232
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,11|github.com/freefq - 美国CloudFla... #3'
+  name: '0,2,3,4,6,11|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: 80
   server: jd3.shabijichang.com
@@ -40,26 +40,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,12|سروش♣🇺🇸♣US #6'
+  name: '0,2,3,4|🇺🇸_US_美国->🇮🇳_IN_印度 #7'
   network: ws
-  port: '80'
+  port: 80
   server: hdlb2.shabijichang.com
   tls: false
   type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
       Host: hdlb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,12|سروش♣🇺🇸♣US♣2
+  name: '0,2,3,4|🇺🇸_US_美国->🇮🇳_IN_印度 #5'
   network: ws
-  port: '80'
+  port: 80
   server: mm3.shabijichang.com
   tls: false
   type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
       Host: mm3.shabijichang.com
@@ -79,7 +79,7 @@ proxies:
     path: /ef483582-6269-468c-93af-c512ec2b8a61
 - alterId: 0
   cipher: auto
-  name: '0,12|US美国(mibei77.com 米贝节点分享) #3'
+  name: '0,12|US美国(mibei77.com 米贝节点分享) #2'
   network: ws
   port: '80'
   server: xn3.shabijichang.com
@@ -106,17 +106,18 @@ proxies:
     path: /ef483582-6269-468c-93af-c512ec2b8a61
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_GB_
+  name: '1,12|🇺🇸_US_美国->🇬🇧_GB_英国 #3'
   network: ws
   port: 80
   server: mrb2.shabijichang.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mrb2.shabijichang.com
+      Host: ''
     path: /
 - name: 1|_CN_->_US_
   network: tcp
@@ -252,7 +253,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6,12|🇺🇸_US_美国->🇮🇷_IR_伊朗 #4'
+  name: '2,3,4,6|🇺🇸_US_美国->🇮🇷_IR_伊朗 #2'
   network: ws
   port: 2052
   server: 162.159.137.9
@@ -265,7 +266,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6,11|github.com/freefq - 美国CloudFla... #1'
+  name: '2,3,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
   network: ws
   port: 2052
   server: yd1.992688.xyz
@@ -278,13 +279,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,12|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  name: 2,3,4,12|سروش♣🇺🇸♣US♣4
   network: ws
-  port: 80
+  port: '80'
   server: hdlb3.shabijichang.com
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
   ws-opts:
     headers:
       Host: hdlb3.shabijichang.com
@@ -304,7 +305,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,11,12,18|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供;kkz...
+  name: 6,11,17|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供;kkz...
   network: ws
   port: 2052
   server: cf.yx.alue.link
@@ -317,7 +318,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,12,18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_8
+  name: 6,12,17|🇺🇸_US_美国->🇱🇺_LU_卢森堡_8
   network: ws
   port: 2052
   server: 104.16.68.38
@@ -330,110 +331,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,12|سروش♣🇺🇸♣US #1'
+  name: '6|🇺🇸_US_美国->🇬🇧_GB_英国 #2'
   network: ws
-  port: '80'
+  port: 80
   server: ld2.shabijichang.com
   tls: false
   type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
       Host: ld2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇯🇵 Japan 01 @nodpai #1'
-  network: ws
-  port: 20002
-  server: 221.131.165.187
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be
-  ws-opts:
-    path: /soda
-- alterId: 0
-  cipher: auto
-  name: 7,15|美国C|@ripaojiedian
-  network: tcp
-  port: '25006'
-  server: b.baozinet.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 03 @nodpai
-  network: tcp
-  port: '25005'
-  server: a.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 7,15|新加坡C|@ripaojiedian
-  network: tcp
-  port: '26022'
-  server: 120.233.43.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 04 @nodpai
-  network: tcp
-  port: '26020'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 05 @nodpai
-  network: tcp
-  port: '26021'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 06 @nodpai
-  network: tcp
-  port: '26023'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 02 @nodpai
-  password: 3525588ee14ea924
-  port: 41035
-  server: gzcm01.celerlink.one
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  port: 80
-  server: flkf2.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
+  name: 17|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
   network: ws
   port: 80
   server: 190.93.246.241
@@ -446,7 +357,7 @@ proxies:
     path: /@hopev2ray,@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷_KR_韩国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
+  name: 17|🇰🇷_KR_韩国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
   network: ws
   port: 443
   server: 130.162.154.209
@@ -459,10 +370,23 @@ proxies:
     path: /ophelia.mom:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
+  name: 17|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
   network: tcp
   port: 50009
   server: 09.kccic2pa.xyz
   tls: false
   type: vmess
   uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
+- alterId: 0
+  cipher: auto
+  name: 17|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供;kk...
+  network: ws
+  port: 2052
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
