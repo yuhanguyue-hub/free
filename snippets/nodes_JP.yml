@@ -1,6 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '7,8|🇯🇵 Japan 01 @nodpai #1'
+  network: ws
+  port: 53782
+  server: kr-cdn-6273819.starnetcn.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: kr-cdn-6273819.starnetcn.top
+    path: /1c1791euidqihd
+- alterId: 0
+  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -8,7 +23,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5fe1b470-b4f8-4854-9f2c-38df53cf6da4
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +33,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5fe1b470-b4f8-4854-9f2c-38df53cf6da4
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +43,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5fe1b470-b4f8-4854-9f2c-38df53cf6da4
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
 - alterId: 0
   cipher: auto
   name: 11,12|V1C | 美国 01
@@ -81,7 +96,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0321f075-2fae-431c-9d0e-df7a40e6281c
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -91,7 +106,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0321f075-2fae-431c-9d0e-df7a40e6281c
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -101,7 +116,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0321f075-2fae-431c-9d0e-df7a40e6281c
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
