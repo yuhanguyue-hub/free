@@ -21,9 +21,32 @@ proxies:
   uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: '7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 01 #1'
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,17|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
+  network: tcp
+  port: 50009
+  server: 09.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
 - alterId: 64
   cipher: auto
-  name: 11,15|香港2|@ripaojiedian
+  name: 11,12,15|香港2|@ripaojiedian
   network: tcp
   port: '51904'
   server: 183.238.202.173
