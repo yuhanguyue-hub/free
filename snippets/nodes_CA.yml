@@ -1,22 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,12,14|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9,17|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
+  name: 9,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_54
   network: tcp
   port: 36701
   server: 5c1a04.abzoones.xyz
@@ -24,6 +9,20 @@ proxies:
   tls: true
   type: vmess
   uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 _CA_加拿大
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
