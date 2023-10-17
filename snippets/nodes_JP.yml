@@ -1,29 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|「蛋挞云,超低价格,超高体验」🇯🇵 JP 01
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: ab4c699a-3290-3f9e-abbb-feb50a27d176
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇭🇰 香港慢|@ripaojiedian
-  password: QHhbhwe6lj
-  port: 33058
-  server: 103.15.217.182
-  skip-cert-verify: false
-  sni: 103.15.217.182
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -52,19 +29,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
-- alterId: 0
-  cipher: auto
-  name: 11,12|V1C | 美国 01
-  network: ws
-  port: '31235'
-  server: kr-cdn-6273819.starnetcn.top
-  tls: false
-  type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: jxhoisldy718922.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 307
