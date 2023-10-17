@@ -1,11 +1,13 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇯...
-  password: amazonskr05
-  port: 443
-  server: 54.65.211.149
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,超低价格,超高体验」🇯🇵 JP 01
+  network: tcp
+  port: '33213'
+  server: jp.nodegroups.ink
+  tls: false
+  type: vmess
+  uuid: 3c3171fc-ad67-320f-9c0b-b196e0602bd7
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04
@@ -15,7 +17,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: debe99ee-a0fc-4629-aa8b-5982a43ab2aa
+  uuid: f6192502-014a-4d4b-bbe8-87e2b68b44f7
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -25,7 +27,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: debe99ee-a0fc-4629-aa8b-5982a43ab2aa
+  uuid: f6192502-014a-4d4b-bbe8-87e2b68b44f7
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -35,7 +37,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: debe99ee-a0fc-4629-aa8b-5982a43ab2aa
+  uuid: f6192502-014a-4d4b-bbe8-87e2b68b44f7
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 JP 58
@@ -144,7 +146,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 06fa52ca-01c4-46c2-94a7-8f25db9f1a42
+  uuid: 12629401-aa0b-4871-bfe6-9b6ab7a56dce
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -154,7 +156,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 06fa52ca-01c4-46c2-94a7-8f25db9f1a42
+  uuid: 12629401-aa0b-4871-bfe6-9b6ab7a56dce
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -164,7 +166,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 06fa52ca-01c4-46c2-94a7-8f25db9f1a42
+  uuid: 12629401-aa0b-4871-bfe6-9b6ab7a56dce
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian

@@ -342,17 +342,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US__12
+  name: '1,7,8|🇺🇸 United States 14 @nodpai #1'
   network: ws
   port: 80
   server: 104.17.27.2
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
   ws-opts:
-    headers:
-      host: my2.gamedaylion.buzz
     path: /?ed=2048
 - alterId: 0
   cipher: auto
@@ -421,49 +420,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|🇺🇸 United States 02 @nodpai #1'
-  network: ws
-  port: 443
-  server: 172.67.102.159
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ee5d4ca4-cb15-4201-ba4f-4709b5a833d4
-  ws-opts:
-    path: /dfdfddfdf
-- alterId: 0
-  cipher: auto
-  name: 7,8,12,18|🇺🇸_US_美国_4_由快嘴科技提供;kkzui.com4
-  network: ws
-  port: 80
-  server: fhc2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: fhc2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '7,8|🇺🇸 United States 04 @nodpai #1'
-  network: http
-  port: 2083
-  server: 5.78.78.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 90e968f5-58a5-42ce-a2de-c81894054563
-- alterId: 0
-  cipher: auto
   name: 7,8,12,18|🇬🇧_GB_英国_34
   network: ws
   port: 443
@@ -478,6 +434,35 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
+  grpc-opts:
+    grpc-service-name: dous.looooooongnet.lol
+  name: '7,8|🇺🇸 United States 12 @nodpai #1'
+  network: grpc
+  port: 443
+  server: dous.looooooongnet.lol
+  servername: dous.looooooongnet.lol
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b8909e21-6ec6-49ba-abe9-355258507807
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '7,8|🇺🇸 United States 13 @nodpai #1'
+  network: http
+  port: 2083
+  server: 5.78.78.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 90e968f5-58a5-42ce-a2de-c81894054563
+- alterId: 0
+  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -485,7 +470,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: debe99ee-a0fc-4629-aa8b-5982a43ab2aa
+  uuid: f6192502-014a-4d4b-bbe8-87e2b68b44f7
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -495,7 +480,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: debe99ee-a0fc-4629-aa8b-5982a43ab2aa
+  uuid: f6192502-014a-4d4b-bbe8-87e2b68b44f7
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -505,7 +490,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: debe99ee-a0fc-4629-aa8b-5982a43ab2aa
+  uuid: f6192502-014a-4d4b-bbe8-87e2b68b44f7
 - alterId: 0
   cipher: auto
   name: 11,12|🇺🇸 美国 290
@@ -741,6 +726,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+- alterId: 0
+  cipher: auto
+  name: '12|US美国(mibei77.com 米贝节点分享) #3'
+  network: ws
+  port: '80'
+  server: xn3.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: xn3.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|🇺🇸 _US_美国_yui科技_218
@@ -1210,7 +1209,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 06fa52ca-01c4-46c2-94a7-8f25db9f1a42
+  uuid: 12629401-aa0b-4871-bfe6-9b6ab7a56dce
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -1220,7 +1219,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 06fa52ca-01c4-46c2-94a7-8f25db9f1a42
+  uuid: 12629401-aa0b-4871-bfe6-9b6ab7a56dce
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -1230,7 +1229,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 06fa52ca-01c4-46c2-94a7-8f25db9f1a42
+  uuid: 12629401-aa0b-4871-bfe6-9b6ab7a56dce
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国B|@ripaojiedian
