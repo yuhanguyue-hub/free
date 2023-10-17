@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,15|台湾B|@ripaojiedian
-  network: tcp
-  port: '25010'
-  server: b.baozinet.top
-  servername: ''
+  name: 7|🇹🇼 Taiwan 05 @nodpai
+  network: ws
+  port: '80'
+  server: tw-one.1234585.xyz
   tls: false
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  uuid: 2be30da9-3aa1-4d67-8146-a50d4cf14606
+  ws-opts:
+    headers:
+      Host: tw-one.1234585.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾04
@@ -72,17 +75,24 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,15|台湾A|@ripaojiedian
+  name: 14|🇹🇼 台湾A|@ripaojiedian
   network: ws
-  port: '11810'
+  port: 11810
   server: 221.131.165.187
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be
   ws-opts:
-    headers:
-      Host: ''
     path: /soda
+- alterId: 0
+  cipher: auto
+  name: 15|台湾A|@ripaojiedian
+  network: tcp
+  port: '12290'
+  server: 122.121.0.54
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6fe7b624-bd3b-41b2-8ad5-b43961893551

@@ -19,19 +19,21 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-188.165.61...
-  network: tcp
-  port: 26126
-  server: 188.165.61.68
-  tls: false
-  type: vmess
-  uuid: b09b111e-f41c-4145-83c9-029027a5a745
-- alterId: 0
-  cipher: auto
-  name: 12|🇫🇷 FR 𝗙𝗿𝗲𝗲𝗻𝗲𝘁 86
+  name: 12|🇫🇷 法国 17
   network: tcp
   port: 55448
   server: 188.165.194.100
+  servername: ''
   tls: false
   type: vmess
   uuid: 9de32e59-d621-41da-8266-280fe35987b0
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-51.255.49.19...
+  network: tcp
+  port: '8442'
+  server: 51.255.49.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 765fa039-372f-4b04-ae6e-92adef550951
