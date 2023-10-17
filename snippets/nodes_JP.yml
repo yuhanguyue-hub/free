@@ -1,33 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|「eggtartcloud.shop 自选入口,速度保证」🇯... #1'
-  network: ws
-  port: 53782
-  server: kr-cdn-6273819.starnetcn.top
-  skip-cert-verify: true
+  name: 7|「蛋挞云,超低价格,超高体验」🇯🇵 JP 01
+  network: tcp
+  port: '23608'
+  server: 8.v2-ray.cyou
   tls: false
   type: vmess
-  udp: true
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: kr-cdn-6273819.starnetcn.top
-    path: /1c1791euidqihd
+  uuid: ab4c699a-3290-3f9e-abbb-feb50a27d176
 - alterId: 0
   cipher: auto
-  name: '7,8|🇯🇵 Japan 02 @nodpai #1'
-  network: ws
-  port: 443
-  server: 34.96.167.126
-  servername: dj.kxking.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港慢|@ripaojiedian
+  password: QHhbhwe6lj
+  port: 33058
+  server: 103.15.217.182
+  skip-cert-verify: false
+  sni: 103.15.217.182
+  tfo: false
+  tls: false
+  type: trojan
   udp: true
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    path: /vm?ed=2048
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04
@@ -58,26 +52,19 @@ proxies:
   tls: true
   type: vmess
   uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 12|🇯🇵 VM-TCP-NA 🇯🇵 JP-45.88.43.14...
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
+  name: 11,12|V1C | 美国 01
+  network: ws
+  port: '31235'
+  server: kr-cdn-6273819.starnetcn.top
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: jxhoisldy718922.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 307
@@ -92,6 +79,60 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /dsabhdsa
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 VM-TCP-NA 🇯🇵 JP-45.88.43.14...
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 日本_1016151
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-061
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本 001
+  network: ws
+  port: 7654
+  server: 103.140.136.91
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0ab40fda-9186-4eb2-96bc-266fd4cb52d4
+  ws-opts:
+    headers:
+      Host: dengpao.cfd
+    path: /7fe4UmAm
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 JP 58
@@ -106,16 +147,6 @@ proxies:
     headers:
       Host: 146.56.174.31
     path: /tg@herhero6
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 日本_1016151
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP
@@ -195,3 +226,11 @@ proxies:
     headers:
       Host: dj.kxking.eu.org
     path: /vm?ed=2048
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.251.4.65
+  tfo: false
+  type: ss
