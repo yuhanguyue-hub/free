@@ -35,7 +35,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: edb43307-3670-4771-85d0-5a4572d470ae
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
+- alterId: 0
+  cipher: auto
+  name: 11,12|不定期抽奖https://t.me/mftizi
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -69,4 +83,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b

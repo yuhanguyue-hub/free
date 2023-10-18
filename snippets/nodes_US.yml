@@ -131,10 +131,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,19|🇺🇸_US_美国_6_20_20
+  name: 0,2,3,4,11,19|🇺🇸_US_美国_6_20_20
   network: ws
   port: 80
   server: 104.17.27.2
+  servername: ''
   tls: false
   type: vmess
   uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
@@ -494,7 +495,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 2,3,4,6,11|github.com/freefq - 南非  2
+  name: 2,3,4,6,11|github.com/freefq - 南非  5
   network: ws
   port: '30000'
   server: 156.225.67.104
@@ -560,7 +561,7 @@ proxies:
     path: /cfvmess
 - alterId: 0
   cipher: auto
-  name: '7,8|🇺🇸 United States 01 @nodpai #1'
+  name: '7,8|🇺🇸 United States 02 @nodpai #1'
   network: ws
   port: 443
   server: 172.99.190.109
@@ -580,7 +581,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: edb43307-3670-4771-85d0-5a4572d470ae
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -590,7 +591,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: edb43307-3670-4771-85d0-5a4572d470ae
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -600,7 +601,41 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: edb43307-3670-4771-85d0-5a4572d470ae
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
+- alterId: 0
+  cipher: auto
+  name: 11,12|🔒 VM-TCP-NA 🇫🇮 FI-65.109.191.2...
+  network: tcp
+  port: '49017'
+  server: 65.109.191.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11053029-cc94-46b2-bff4-8019a1efaeba
+- alterId: 0
+  cipher: auto
+  name: 11,12|🇺🇸 _US_美国 2 4 2
+  network: tcp
+  port: 20492
+  server: 168.75.76.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 259e1c70-fa0f-4759-b959-1e5630eac8de
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #2'
+  network: ws
+  port: '8080'
+  server: singapore.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  ws-opts:
+    headers:
+      Host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 11,12|🇺🇸 美国 368
@@ -617,7 +652,7 @@ proxies:
     path: /myblog
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #2'
+  name: '11|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: 80
   server: xn3.shabijichang.com
@@ -629,20 +664,34 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 11,12|V1C | 美国 01
+  name: 11,12|🇺🇸 US(AzadNet.t.me)_159 2
   network: ws
-  port: 31235
-  server: kr-cdn-6273819.starnetcn.top
+  port: 443
+  server: octavi.cfd
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: jxhoisldy718922.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 11,12|🇺🇸 美国 337
+  network: ws
+  port: 443
+  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+    path: /acetaffy
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
@@ -691,20 +740,6 @@ proxies:
     headers:
       Host: b5.iraniancp.click
     path: /
-- alterId: 1
-  cipher: auto
-  name: 12|🇺🇸 US(AzadNet.t.me)_159 2
-  network: ws
-  port: 443
-  server: octavi.cfd
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: octavi.cfd
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-89.116.38.18...
@@ -725,20 +760,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国 337
-  network: ws
-  port: 443
-  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
-    path: /acetaffy
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国_1016016
@@ -985,16 +1006,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 _US_美国 2 4 2
-  network: tcp
-  port: 20492
-  server: 168.75.76.226
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 259e1c70-fa0f-4759-b959-1e5630eac8de
-- alterId: 0
-  cipher: auto
   name: 12|🇺🇸 美国_10171147
   network: tcp
   port: 24262
@@ -1078,7 +1089,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -1088,7 +1099,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -1098,7 +1109,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国B|@ripaojiedian
@@ -1115,7 +1126,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 1c152baa-fa6a-4015-bba0-32dee4593ba9
+  uuid: 6c5a9e3e-d6dd-483b-ae5c-f6c102828273
   ws-opts:
     headers:
       Host: ''
@@ -1128,7 +1139,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: 1c152baa-fa6a-4015-bba0-32dee4593ba9
+  uuid: 6c5a9e3e-d6dd-483b-ae5c-f6c102828273
   ws-opts:
     headers:
       Host: ''
@@ -1141,7 +1152,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 1c152baa-fa6a-4015-bba0-32dee4593ba9
+  uuid: 6c5a9e3e-d6dd-483b-ae5c-f6c102828273
   ws-opts:
     headers:
       Host: ''
@@ -1154,7 +1165,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 1c152baa-fa6a-4015-bba0-32dee4593ba9
+  uuid: 6c5a9e3e-d6dd-483b-ae5c-f6c102828273
   ws-opts:
     headers:
       Host: ''
@@ -1167,7 +1178,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: 1c152baa-fa6a-4015-bba0-32dee4593ba9
+  uuid: 6c5a9e3e-d6dd-483b-ae5c-f6c102828273
   ws-opts:
     headers:
       Host: ''
@@ -1180,7 +1191,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 1c152baa-fa6a-4015-bba0-32dee4593ba9
+  uuid: 6c5a9e3e-d6dd-483b-ae5c-f6c102828273
   ws-opts:
     headers:
       Host: ''

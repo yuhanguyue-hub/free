@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇯🇵 东京|@ripaojiedian
-  password: M83a100a
-  port: 26006
-  server: 110.72.101.145
-  skip-cert-verify: false
-  sni: www.icloud.com
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d40d976d-d569-3e7d-9396-132dea60cf28
-- alterId: 0
-  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -22,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: edb43307-3670-4771-85d0-5a4572d470ae
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -32,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: edb43307-3670-4771-85d0-5a4572d470ae
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -42,7 +28,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: edb43307-3670-4771-85d0-5a4572d470ae
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
+- alterId: 0
+  cipher: auto
+  name: 11,12|V1C | 美国 01
+  network: ws
+  port: 31235
+  server: kr-cdn-6273819.starnetcn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: jxhoisldy718922.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本_1016151
@@ -95,7 +95,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -105,7 +105,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -115,7 +115,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
