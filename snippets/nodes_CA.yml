@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,12|🇨🇦_CA_加拿大 #2'
+  name: '0,2,3,4|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
   server: dongtaiwang3.com
@@ -35,18 +35,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6791ce73-e77e-422a-ba93-6689bafcd6ba
-- alterId: 0
-  cipher: auto
-  name: 12|TG频道:@hkaa0||加拿大
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
-  ws-opts:
-    path: /
+  uuid: edb43307-3670-4771-85d0-5a4572d470ae
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -59,18 +48,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦TG频道 @oeo12  =CA
+  name: 12|🇨🇦 V1C | 加拿大 01
   network: ws
-  port: 80
-  server: us-two.1234585.xyz
+  port: 28391
+  server: kr-cdn-6273819.starnetcn.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 4fde6eef-1604-465b-b586-d239d9293ba8
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: xgui2agy3dq8y.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -80,4 +69,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 702c165f-5756-4ec2-bfc0-241726a6103d
+  uuid: 1f915da6-887c-442f-ab4b-29c920052a50
