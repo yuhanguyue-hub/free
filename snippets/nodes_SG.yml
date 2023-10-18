@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 7|「eggtartcloud.shop 自选入口,速度保证」🇸...
   network: tcp
-  port: '43003'
+  port: '23022'
   server: tg_mfbpn_d2.52vpn.eu.org
   tls: false
   type: vmess
@@ -12,7 +12,7 @@ proxies:
   cipher: auto
   name: 7|「蛋挞云,超低价格,超高体验」🇸🇬 SG 02
   network: tcp
-  port: '43006'
+  port: '43020'
   server: tg_mfbpn_d2.52vpn.eu.org
   tls: false
   type: vmess
@@ -26,7 +26,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd2d0dfa-ca6f-43cc-a55b-aa1556e4a146
+  uuid: ad56841e-9c2f-4393-b730-e656306eb974
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -36,7 +36,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd2d0dfa-ca6f-43cc-a55b-aa1556e4a146
+  uuid: ad56841e-9c2f-4393-b730-e656306eb974
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -46,20 +46,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd2d0dfa-ca6f-43cc-a55b-aa1556e4a146
+  uuid: ad56841e-9c2f-4393-b730-e656306eb974
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬 Singapore 07 @nodpai
+  name: 12|🇸🇬 新加坡_1018254
   network: ws
-  port: '80'
-  server: xjp3.shabijichang.com
+  port: 2095
+  server: 103.253.24.44
+  servername: ''
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: e3a3e370-6cb2-11ee-bf3b-1239d0255272
   ws-opts:
     headers:
-      Host: xjp3.shabijichang.com
-    path: /
+      Host: ''
+    path: /vmws
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1012102
@@ -90,6 +91,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12|🇸🇬 Singapore 07 @nodpai
+  network: ws
+  port: '80'
+  server: xjp2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  ws-opts:
+    headers:
+      Host: xjp2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -97,7 +111,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab0dd33b-b742-459a-b934-77d7292a41ee
+  uuid: 20416d70-1643-4ef2-8033-3af351b43ee5
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -107,7 +121,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab0dd33b-b742-459a-b934-77d7292a41ee
+  uuid: 20416d70-1643-4ef2-8033-3af351b43ee5
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -117,7 +131,15 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab0dd33b-b742-459a-b934-77d7292a41ee
+  uuid: 20416d70-1643-4ef2-8033-3af351b43ee5
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡|频道:@ripaojiedian
+  password: 3525588ee14ea924
+  port: 41040
+  server: gzcm01.celerlink.one
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
