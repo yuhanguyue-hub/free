@@ -1,13 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,6,18|🇨🇳_CN_中国_由快嘴科技提供;kkzui.com_7
+  name: '0,6,7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1'
   network: ws
   port: 80
   server: 124.220.57.75
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 02 #1'
+  network: ws
+  port: 80
+  server: 1.117.69.235
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
   ws-opts:
     path: /
 - alterId: 64
@@ -30,14 +45,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国_2_9
-  network: ws
-  port: 80
-  server: 1.117.69.235
-  tls: false
-  type: vmess
-  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
-  ws-opts:
-    path: /

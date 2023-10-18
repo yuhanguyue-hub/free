@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,12|🇺🇸_US_美国 #49'
+  name: 0,2,3,4,6,12,18|🇺🇸_US_美国_9_32_32
   network: ws
   port: 443
   server: 104.21.93.238
@@ -14,7 +14,7 @@ proxies:
     path: /okeyvws
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国 #43'
+  name: 0,2,3,4,6,18|🇺🇸_US_美国_2_8_8
   network: ws
   port: 80
   server: sbl3.shabijichang.com
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸_US_美国_2_由快嘴科技提供;kkzui.com1
+  name: 0,2,3,4,6,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com3_40...
   network: ws
   port: 80
   server: asb2.shabijichang.com
@@ -53,20 +53,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸_US_美国_6_24
+  name: 0,2,3,4,6,18|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com5_...
   network: ws
   port: 80
   server: jd2.shabijichang.com
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
   ws-opts:
     headers:
       Host: jd2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国 #26'
+  name: 0,2,3,4,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_35...
   network: ws
   port: 2052
   server: lt1.992688.xyz
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国_8_35
+  name: 0,2,3,4,18|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com3_...
   network: ws
   port: 80
   server: sbl2.shabijichang.com
@@ -92,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,12,18|🇺🇸_US_美国_5_2由快嘴科技提供;kkzui.com
+  name: 0,2,3,4,12,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_7_7
   network: ws
   port: 80
   server: 104.20.231.210
@@ -132,7 +132,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国 #29'
+  name: 0,2,3,4,18|🇺🇸_US_美国_6_20_20
   network: ws
   port: 80
   server: 104.17.27.2
@@ -145,9 +145,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0|🇺🇸 _US_美国 #11'
+  name: 0,18|🇺🇸_US_美国_7_23_23
   network: ws
-  port: '80'
+  port: 80
   server: 172.67.184.13
   tls: false
   type: vmess
@@ -171,7 +171,7 @@ proxies:
     path: /TG:@dns68
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,11,18|🇺🇸_US_美国_7_25
+  name: 0,2,3,4,11|github.com/freefq - 美国加利福尼亚州圣何...
   network: ws
   port: 30000
   server: 45.199.138.186
@@ -184,7 +184,7 @@ proxies:
     path: /path/1697376782879
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国_4_由快嘴科技提供;kkzui.com4
+  name: '0,2,3,4|🇺🇸_US_美国 #28'
   network: ws
   port: 80
   server: fhc2.shabijichang.com
@@ -484,7 +484,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国 #39'
+  name: 2,3,4,6,18|🇺🇸_US_美国_8_29_29
   network: ws
   port: 80
   server: wnd2.shabijichang.com
@@ -563,56 +563,6 @@ proxies:
     path: /cfvmess
 - alterId: 0
   cipher: auto
-  name: '7,8|🇺🇸 United States 01 @nodpai #1'
-  network: ws
-  port: 80
-  server: 104.20.231.210
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇺🇸 United States 05 @nodpai #1'
-  network: ws
-  port: 31235
-  server: kr-cdn-6273819.starnetcn.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: kr-cdn-6273819.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇺🇸 United States 09 @nodpai #1'
-  network: ws
-  port: 80
-  server: v2.us-c.microsoftdebug.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a3bb3789-9d0c-486d-93d9-fd783192363a
-  ws-opts:
-    headers:
-      Host: v2.us-c.microsoftdebug.com
-    path: /f0uncvgo.ts
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇺🇸 United States 02 @nodpai
-  password: 7adcdf0f-fd83-4fe3-8d1f-931700d4ec58
-  port: 20052
-  server: us2.doushimeng.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -620,7 +570,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
+  uuid: 6791ce73-e77e-422a-ba93-6689bafcd6ba
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -630,7 +580,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
+  uuid: 6791ce73-e77e-422a-ba93-6689bafcd6ba
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -640,7 +590,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
+  uuid: 6791ce73-e77e-422a-ba93-6689bafcd6ba
 - alterId: 0
   cipher: auto
   name: 11,12|🔒 VM-TCP-NONE 🇫🇮 FI-65.109.191...
@@ -867,7 +817,7 @@ proxies:
     path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
-  name: 12,18|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com2
+  name: 12|🇺🇸 美国 23
   network: ws
   port: 80
   server: 104.17.27.2
@@ -937,7 +887,7 @@ proxies:
     path: /octavi.cfd:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 12,18|🇺🇸_US_美国_9_36
+  name: 12|🇺🇸 _US_美国 3 2
   network: ws
   port: 2053
   server: 104.31.16.196
@@ -1219,7 +1169,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a8c58243-0600-43b4-a08d-ba42af092cdd
+  uuid: 702c165f-5756-4ec2-bfc0-241726a6103d
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -1229,7 +1179,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a8c58243-0600-43b4-a08d-ba42af092cdd
+  uuid: 702c165f-5756-4ec2-bfc0-241726a6103d
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -1239,7 +1189,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a8c58243-0600-43b4-a08d-ba42af092cdd
+  uuid: 702c165f-5756-4ec2-bfc0-241726a6103d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国B|@ripaojiedian
@@ -1260,14 +1210,40 @@ proxies:
   uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_6
+  name: 18|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com0_...
   network: ws
-  port: 443
-  server: 172.67.164.98
-  tls: true
+  port: 8080
+  server: ns1.v2-vip.fun
+  tls: false
   type: vmess
-  uuid: ee5d4ca4-cb15-4201-ba4f-4709b5a833d4
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
   ws-opts:
     headers:
-      Host: v26.jsvpn.xyz
-    path: /dfdfddfdf
+      Host: ssrsub.v01.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com由快嘴科...
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_38...
+  network: ws
+  port: 30000
+  server: 45.199.138.186
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  ws-opts:
+    headers:
+      Host: www.19229362.xyz
+    path: /path/1696682720138
