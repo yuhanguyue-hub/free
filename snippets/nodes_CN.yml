@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,15|香港2|@ripaojiedian
+  name: 11,12,15|香港2|@ripaojiedian
   network: tcp
   port: '51904'
   server: 183.238.202.173
@@ -35,6 +35,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 11|github.com/freefq - 浙江省移动 3
+  network: tcp
+  port: '49044'
+  server: tg_mfbpn_d1.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 07981f7e-d4c6-3bcc-93a7-ec0228325236
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 广东省移动 15
+  network: tcp
+  port: '12580'
+  server: www.lp-airdrop.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1296f28f-fbc3-41a0-800d-84e236d33f16
 - alterId: 0
   cipher: auto
   name: 19|🇨🇳_CN_中国_2_9
