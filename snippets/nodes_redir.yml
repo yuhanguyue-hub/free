@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,2,4,7,11|github.com/freefq - 俄罗斯  20
+  name: 0,1,2,4,11|github.com/freefq - 俄罗斯  12
   network: tcp
   port: '11715'
   server: 5.42.77.221
@@ -64,7 +64,7 @@ proxies:
   uuid: fa5c55a5-e50a-427d-b57e-aab199f4cb84
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_3_3
+  name: '0,2,3,4,12,18|🇺🇸_US_美国->🇬🇧_GB_英国_3_3 #1'
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -401,7 +401,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,12|🇺🇸_US_美国_yui科技_120
+  name: 6|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 2052
   server: yd1.992688.xyz
@@ -414,11 +414,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,11,12|🇫🇮_FI_芬兰->🇩🇪_DE_德国 #1'
+  name: '6,12|🇫🇮_FI_芬兰->🇩🇪_DE_德国 #1'
   network: tcp
   port: 49017
   server: 65.109.191.22
-  servername: ''
   tls: false
   type: vmess
   uuid: 11053029-cc94-46b2-bff4-8019a1efaeba
@@ -438,23 +437,18 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 7,15|台湾B|@ripaojiedian
-  network: tcp
-  port: '25010'
-  server: b.baozinet.top
+  name: 12|🇺🇸_US_美国->🇿🇦_ZA_南非
+  network: ws
+  port: 80
+  server: yhnsb2.shabijichang.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 02 @nodpai
-  network: tcp
-  port: '26061'
-  server: 110.72.101.144
-  tls: false
-  type: vmess
-  uuid: d40d976d-d569-3e7d-9396-132dea60cf28
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
