@@ -1,6 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '7,8|「节点冠名招商 @nodpai」🇸🇬 SG 01 #1'
+  network: ws
+  port: 2052
+  server: 8.218.3.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '7,8|🇸🇬 Singapore 02 @nodpai #1'
+  network: ws
+  port: 80
+  server: xjp2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  ws-opts:
+    headers:
+      Host: xjp2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -8,7 +36,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
+  uuid: dcf694eb-5435-415f-8fe2-bf1eb9383c85
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +46,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
+  uuid: dcf694eb-5435-415f-8fe2-bf1eb9383c85
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,39 +56,12 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
+  uuid: dcf694eb-5435-415f-8fe2-bf1eb9383c85
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.108.6...
+  name: 12|🇸🇬 VM-WS-NONE 🇸🇬 SG-146.190.96...
   network: ws
-  port: '26448'
-  server: 146.190.108.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 72cc1029-b304-44ab-d181-5582aea3ab43
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /Shalana
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 Singapore 06 @nodpai
-  network: ws
-  port: '80'
-  server: xjp2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
-  ws-opts:
-    headers:
-      Host: xjp2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-146.190.96....
-  network: ws
-  port: '55599'
+  port: 55599
   server: 146.190.96.141
   servername: ''
   tls: false
@@ -72,27 +73,18 @@ proxies:
     path: /isuru
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬 Singapore 05 @nodpai
-  network: tcp
-  port: '23502'
-  server: ora-sg4.cou.gay
-  tls: false
-  type: vmess
-  uuid: 580330b8-4dfe-47f3-9898-c1a1120c8edd
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_1018254
+  name: 12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
   network: ws
-  port: 2095
-  server: 103.253.24.44
+  port: 26448
+  server: 146.190.108.6
   servername: ''
   tls: false
   type: vmess
-  uuid: e3a3e370-6cb2-11ee-bf3b-1239d0255272
+  uuid: 72cc1029-b304-44ab-d181-5582aea3ab43
   ws-opts:
     headers:
-      Host: ''
-    path: /vmws
+      Host: media-exp1.licdn.com
+    path: /Shalana
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1011095
@@ -116,7 +108,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
+  uuid: 2b1e9a58-2430-442a-8d42-4dbc884a51aa
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -126,7 +118,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
+  uuid: 2b1e9a58-2430-442a-8d42-4dbc884a51aa
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -136,7 +128,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
+  uuid: 2b1e9a58-2430-442a-8d42-4dbc884a51aa
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
