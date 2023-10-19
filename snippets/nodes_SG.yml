@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,12|🇸🇬 Singapore 05 @nodpai
-  network: tcp
-  port: '23502'
-  server: ora-sg4.cou.gay
-  tls: false
-  type: vmess
-  uuid: 580330b8-4dfe-47f3-9898-c1a1120c8edd
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -17,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
+  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -27,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
+  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -37,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
+  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.108.6...
@@ -81,6 +72,15 @@ proxies:
     path: /isuru
 - alterId: 0
   cipher: auto
+  name: 12|🇸🇬 Singapore 05 @nodpai
+  network: tcp
+  port: '23502'
+  server: ora-sg4.cou.gay
+  tls: false
+  type: vmess
+  uuid: 580330b8-4dfe-47f3-9898-c1a1120c8edd
+- alterId: 0
+  cipher: auto
   name: 12|🇸🇬 新加坡_1018254
   network: ws
   port: 2095
@@ -116,7 +116,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
+  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -126,7 +126,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
+  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -136,7 +136,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
+  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

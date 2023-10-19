@@ -1,6 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7|「蛋挞云,流媒体全解锁」🇭🇰 HK 01
+  network: tcp
+  port: '26014'
+  server: 110.72.101.144
+  tls: false
+  type: vmess
+  uuid: d40d976d-d569-3e7d-9396-132dea60cf28
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,超低价格,超高体验」🇭🇰 HK 02
+  network: tcp
+  port: '26010'
+  server: 110.72.101.144
+  tls: false
+  type: vmess
+  uuid: d40d976d-d569-3e7d-9396-132dea60cf28
+- alterId: 0
+  cipher: auto
   name: 9|🇭🇰香港04
   network: tcp
   port: '36601'
@@ -8,7 +26,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
+  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +36,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
+  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +46,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
+  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -38,7 +56,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
+  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -48,7 +66,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
+  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -58,7 +76,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
+  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -76,6 +94,22 @@ proxies:
     headers:
       Host: n1696140639.izwhvan.cn
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港B|@ripaojiedian
+  network: ws
+  port: 17002
+  server: cdn.node.user-sub.pddns-usersdk.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 77c66ff3-b0b7-368d-bb81-f5b0dfe11e92
+  ws-opts:
+    headers:
+      Host: cdn.node.user-sub.pddns-usersdk.com
+    path: /af483582-6269-468c-93af-c512ec2b1a61
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -134,3 +168,13 @@ proxies:
     headers:
       Host: ''
     path: /af483582-6269-468c-93af-c512ec2b1a61
+- alterId: 0
+  cipher: auto
+  name: 15|香港C|@ripaojiedian
+  network: tcp
+  port: '25001'
+  server: a.baozinet.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
