@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,4,6,18|🇺🇸_US_美国->🇫🇷_FR_法国_6_6
+  name: '0,2,4,6|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 80
   server: 104.18.202.232
@@ -14,7 +14,7 @@ proxies:
     path: /@hopev2ray،@hopev2ray
 - alterId: 0
   cipher: auto
-  name: '0,2,4|🇺🇸_US_美国->🇦🇪_AE_阿联酋 #1'
+  name: 0,2,4,18|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
   network: ws
   port: 80
   server: db5.shabijichang.com
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,4,6,11|github.com/freefq - 美国CloudFla... #6'
+  name: 0,2,4,6,11,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: 104.17.18.26
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
+  name: 0,2,3,4,18|🇺🇸_US_美国->🇮🇳_IN_印度_2_28
   network: ws
   port: 80
   server: hdlb3.shabijichang.com
@@ -64,7 +64,7 @@ proxies:
   uuid: fa5c55a5-e50a-427d-b57e-aab199f4cb84
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,12,18|🇺🇸_US_美国->🇬🇧_GB_英国_3_3 #1'
+  name: 0,2,3,4,12|🇺🇸_US_美国->🇬🇧_GB_英国_3_3
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -90,7 +90,7 @@ proxies:
     path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  name: '0,2,3,4|🇺🇸_US_美国->🇮🇳_IN_印度 #7'
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -103,7 +103,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇮🇳_IN_印度_3_3由快嘴科技提供：...
+  name: '0,2,3,4|🇺🇸_US_美国->🇮🇳_IN_印度 #8'
   network: ws
   port: 80
   server: hdlb2.shabijichang.com
@@ -116,7 +116,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇮🇳_IN_印度_2_22_22
+  name: '0,2,3,4|🇺🇸_US_美国->🇮🇳_IN_印度 #9'
   network: ws
   port: 80
   server: mm2.shabijichang.com
@@ -336,9 +336,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,18|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_37_37
+  name: 3|🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
   network: ws
-  port: 80
+  port: '80'
   server: jd3.shabijichang.com
   tls: false
   type: vmess
@@ -349,9 +349,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇰🇷 _KR_韩国->🇬🇧_GB_英国
+  name: 3,18|🇰🇷_KR_韩国->🇺🇸_US_美国_36
   network: ws
-  port: '443'
+  port: 443
   server: 130.162.154.209
   tls: true
   type: vmess
@@ -375,7 +375,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: '3,6|🇺🇸_US_美国->🇮🇷_IR_伊朗 #2'
   network: ws
   port: 2052
   server: 162.159.137.9
@@ -388,7 +388,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,18|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_34_34
+  name: '6|🇺🇸_US_美国->🇮🇷_IR_伊朗 #1'
   network: ws
   port: 2052
   server: 162.159.143.241
@@ -423,7 +423,7 @@ proxies:
   uuid: 11053029-cc94-46b2-bff4-8019a1efaeba
 - alterId: 64
   cipher: auto
-  name: 6,12|🇳🇱 荷兰 59
+  name: 6,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_22
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -435,6 +435,78 @@ proxies:
     headers:
       Host: www.42077230.xyz
     path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇺🇸 United States 02 @nodpai
+  network: tcp
+  port: '50005'
+  server: 05.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: a4c0faae-46f8-4038-a297-559d2c83c2e9
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇺🇸 United States 03 @nodpai
+  network: tcp
+  port: '50004'
+  server: 04.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: a4c0faae-46f8-4038-a297-559d2c83c2e9
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇺🇸 United States 04 @nodpai
+  network: tcp
+  port: '50003'
+  server: 03.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: a4c0faae-46f8-4038-a297-559d2c83c2e9
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇺🇸 United States 05 @nodpai
+  network: tcp
+  port: '50018'
+  server: tg_mfbpn_bb1.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: 7fcfce50-5be6-35ae-b334-d1773cb9003d
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇺🇸 United States 06 @nodpai
+  network: tcp
+  port: '50017'
+  server: 17.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: a4c0faae-46f8-4038-a297-559d2c83c2e9
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇦🇹 Austria 01 @nodpai
+  network: tcp
+  port: '50007'
+  server: 07.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: a4c0faae-46f8-4038-a297-559d2c83c2e9
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇺🇸 United States 07 @nodpai
+  network: tcp
+  port: '50012'
+  server: 12.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: a4c0faae-46f8-4038-a297-559d2c83c2e9
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 04 @nodpai
+  network: tcp
+  port: '11005'
+  server: tg_mfbpn_d4.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸_US_美国->🇿🇦_ZA_南非
@@ -451,24 +523,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
+  name: 18|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
   network: ws
-  port: 2096
-  server: 104.25.254.162
-  tls: true
+  port: 80
+  server: ld2.shabijichang.com
+  tls: false
   type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: s1.shargh.shop
+      Host: ld2.shabijichang.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_由快嘴科技提供：k...
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
