@@ -46,19 +46,6 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 12|法国new01（1倍率）
-  network: ws
-  port: '8080'
-  server: fr-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 12|🇫🇷_FR_法国_yui科技_364
   network: ws
   port: 80
@@ -70,3 +57,26 @@ proxies:
     headers:
       Host: pl1-vmess.greenssh.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇫🇷 FR-54.38.79.75:2...
+  network: ws
+  port: '2086'
+  server: 54.38.79.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 971468b0-6de1-11ee-b438-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
+    path: /1g305wr4
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-188.165.61...
+  network: tcp
+  port: 26126
+  server: 188.165.61.68
+  tls: false
+  type: vmess
+  uuid: b6e2a6a0-87ff-43e8-9dff-e99c7e5959c2
