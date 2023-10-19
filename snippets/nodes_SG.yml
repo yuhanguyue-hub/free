@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7,12|🇸🇬 Singapore 05 @nodpai
+  network: tcp
+  port: '23502'
+  server: ora-sg4.cou.gay
+  tls: false
+  type: vmess
+  uuid: 580330b8-4dfe-47f3-9898-c1a1120c8edd
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -8,7 +17,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2699786b-180e-442a-8b23-7beb07466f39
+  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +27,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2699786b-180e-442a-8b23-7beb07466f39
+  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,21 +37,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2699786b-180e-442a-8b23-7beb07466f39
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_1018254
-  network: ws
-  port: 2095
-  server: 103.253.24.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e3a3e370-6cb2-11ee-bf3b-1239d0255272
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmws
+  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.108.6...
@@ -59,6 +54,19 @@ proxies:
     path: /Shalana
 - alterId: 0
   cipher: auto
+  name: 12|🇸🇬 Singapore 06 @nodpai
+  network: ws
+  port: '80'
+  server: xjp2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  ws-opts:
+    headers:
+      Host: xjp2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-WS-NONE 🇸🇬 SG-146.190.96....
   network: ws
   port: '55599'
@@ -71,6 +79,20 @@ proxies:
     headers:
       Host: media-exp1.licdn.com
     path: /isuru
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_1018254
+  network: ws
+  port: 2095
+  server: 103.253.24.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e3a3e370-6cb2-11ee-bf3b-1239d0255272
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmws
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1011095
@@ -87,20 +109,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬 新加坡_1012102
-  network: ws
-  port: 80
-  server: 18.142.51.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 484e15da-0666-486d-b138-78622e795fed
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -108,7 +116,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
+  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -118,7 +126,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
+  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -128,20 +136,29 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
-- cipher: chacha20-ietf-poly1305
+  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|频道:@ripaojiedian
-  password: 3525588ee14ea924
-  port: 41040
-  server: gzcm01.celerlink.one
+  name: 14,15|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 8.218.3.12
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: do1.kxking.eu.org
+    path: /vm?ed=2048
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.143.182.115
+  server: 13.229.86.90
   tfo: false
   type: ss
