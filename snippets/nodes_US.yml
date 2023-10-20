@@ -27,15 +27,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,7,8|🇧🇷 Brazil 01 @nodpai #1'
+  name: '0|🇺🇸 _US_美国 #2'
   network: ws
-  port: 8443
+  port: '8443'
   server: brcf.duaaoped.xyz
-  servername: brcf.duaaoped.xyz
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
   ws-opts:
     headers:
@@ -388,20 +385,6 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: dous.looooooongnet.lol
-  name: '7,8|🇺🇸 United States 01 @nodpai #1'
-  network: grpc
-  port: 443
-  server: dous.looooooongnet.lol
-  servername: dous.looooooongnet.lol
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1536cd3b-a074-403b-b213-483a3873d68a
-- alterId: 0
-  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -409,7 +392,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e81a03b6-842d-474e-9c5c-a5458d4dd135
+  uuid: 6dda21ec-dc5c-4823-b45c-c1459c0c3f87
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -419,7 +402,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e81a03b6-842d-474e-9c5c-a5458d4dd135
+  uuid: 6dda21ec-dc5c-4823-b45c-c1459c0c3f87
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -429,7 +412,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e81a03b6-842d-474e-9c5c-a5458d4dd135
+  uuid: 6dda21ec-dc5c-4823-b45c-c1459c0c3f87
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -579,19 +562,6 @@ proxies:
   ws-opts:
     headers:
       Host: b5.iraniancp.click
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国_yui科技_37
-  network: ws
-  port: 80
-  server: xjp3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  ws-opts:
-    headers:
-      Host: xjp3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -878,7 +848,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3e30c525-5af8-4d9a-b7be-fbe20d6172cf
+  uuid: c5e2e775-3ad0-4dc5-b856-e3ec5f1418a5
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -888,7 +858,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3e30c525-5af8-4d9a-b7be-fbe20d6172cf
+  uuid: c5e2e775-3ad0-4dc5-b856-e3ec5f1418a5
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -898,7 +868,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3e30c525-5af8-4d9a-b7be-fbe20d6172cf
+  uuid: c5e2e775-3ad0-4dc5-b856-e3ec5f1418a5
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国B|@ripaojiedian
