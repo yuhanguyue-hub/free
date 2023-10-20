@@ -1,57 +1,14 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 7,15|香港A|@ripaojiedian
+  name: 7,11|github.com/freefq - 北京市移动 1
   network: tcp
-  port: '53300'
-  server: 112.29.94.22
+  port: 25002
+  server: b.baozinet.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '7,8|「蛋挞云,超低价格,超高体验」🇭🇰 HK 02 #1'
-  network: ws
-  port: 62014
-  server: 112.29.156.248
-  servername: b.cn-db.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
-  ws-opts:
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 05 @nodpai #1'
-  network: ws
-  port: 80
-  server: hktddns.aikunapp.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1e63f999-7553-46c0-93eb-65b6553e1bde
-  ws-opts:
-    headers:
-      Host: hktddns.aikunapp.com
-    path: /hkbn
-- alterId: 0
-  cipher: auto
-  name: '7,8|🇭🇰 Hong Kong 07 @nodpai #1'
-  network: ws
-  port: 2052
-  server: 162.159.134.52
-  servername: b.cn-db.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
-  ws-opts:
-    path: /dabai.in
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -75,7 +32,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8333c388-aa0b-4dee-bcca-9bc335a699fe
+  uuid: 7678e08b-df79-4642-816f-0e8e881b4894
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -85,7 +42,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8333c388-aa0b-4dee-bcca-9bc335a699fe
+  uuid: 7678e08b-df79-4642-816f-0e8e881b4894
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -95,7 +52,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8333c388-aa0b-4dee-bcca-9bc335a699fe
+  uuid: 7678e08b-df79-4642-816f-0e8e881b4894
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 香港_1020168
@@ -119,7 +76,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6323ef30-9257-492d-8f7f-4b98d1760dda
+  uuid: 03c6e4af-6e0d-4fe2-b462-03747114e7b3
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -129,7 +86,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6323ef30-9257-492d-8f7f-4b98d1760dda
+  uuid: 03c6e4af-6e0d-4fe2-b462-03747114e7b3
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -139,7 +96,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6323ef30-9257-492d-8f7f-4b98d1760dda
+  uuid: 03c6e4af-6e0d-4fe2-b462-03747114e7b3
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -207,6 +164,16 @@ proxies:
   network: tcp
   port: '51904'
   server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 15|香港A|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.29.94.22
   servername: ''
   tls: false
   type: vmess
