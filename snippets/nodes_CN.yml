@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 01 #1'
+  name: '7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1'
   network: ws
   port: 80
   server: 1.117.69.235
@@ -14,6 +14,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 02 #1'
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11|github.com/freefq - 广东省移动 13
   network: tcp
   port: '11002'
@@ -22,12 +35,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇳_CN_中国_yui科技_103
-  network: tcp
-  port: 25005
-  server: a.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e

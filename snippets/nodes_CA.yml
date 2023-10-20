@@ -22,7 +22,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6a6f6b6a-1a59-4c5a-94e0-0e0a3250ee67
+  uuid: b4dfeeef-bd5a-4899-9161-a5af2bda9f31
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 206
+  network: ws
+  port: 443
+  server: main.animelover.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+  ws-opts:
+    headers:
+      Host: main.animelover.ir
+    path: /amstd.digires.shop/12796
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
@@ -52,4 +66,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6ebd8e5a-388f-43ec-8225-38a072a4f354
+  uuid: 21bc3bac-aff5-44e5-b1cc-9dd108aaad82
