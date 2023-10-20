@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,12|不定期抽奖https://t.me/mftizi
+  name: 3|🇨🇦 _CA_加拿大
   network: ws
   port: '80'
   server: 108.181.10.17
-  servername: ''
   tls: false
   type: vmess
   uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
@@ -22,7 +21,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6dda21ec-dc5c-4823-b45c-c1459c0c3f87
+  uuid: 8333c388-aa0b-4dee-bcca-9bc335a699fe
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -35,14 +34,17 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
-  network: tcp
-  port: '3389'
-  server: 134.122.38.104
-  servername: ''
-  tls: false
+  name: 12|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '56301'
+  server: ca-000.xiaoxiaobujidao.xyz
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
+  ws-opts:
+    headers:
+      Host: ca-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -52,4 +54,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c5e2e775-3ad0-4dc5-b856-e3ec5f1418a5
+  uuid: 6323ef30-9257-492d-8f7f-4b98d1760dda
