@@ -387,6 +387,22 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: 7,8,11,12|频道31@wxgqlfx
+  network: ws
+  port: '443'
+  server: us1.socifiles.com
+  servername: us1.socifiles.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 45521be0-6e84-11ee-8290-1239d0255272
+  ws-opts:
+    headers:
+      Host: us1.socifiles.com
+    path: /vmws
+- alterId: 0
+  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -394,7 +410,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b4dfeeef-bd5a-4899-9161-a5af2bda9f31
+  uuid: 9352726a-8fcb-4b97-bbc1-ea66128d7474
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -404,7 +420,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b4dfeeef-bd5a-4899-9161-a5af2bda9f31
+  uuid: 9352726a-8fcb-4b97-bbc1-ea66128d7474
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -414,21 +430,24 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b4dfeeef-bd5a-4899-9161-a5af2bda9f31
-- alterId: 64
+  uuid: 9352726a-8fcb-4b97-bbc1-ea66128d7474
+- alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 美国加利福尼亚州圣何...
+  client-fingerprint: chrome
+  name: 11,12,14,15|美国|tg频道:@ripaojiedian
   network: ws
-  port: 30000
-  server: 142.4.110.142
+  port: '2082'
+  server: 162.159.134.52
   servername: ''
-  tls: true
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3
+  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
   ws-opts:
     headers:
-      Host: ''
-    path: /path/1697376782879
+      Host: a.cn-db.top
+    path: /dabai.in
 - alterId: 0
   cipher: auto
   name: 11,12|频道35@wxgqlfx
@@ -445,34 +464,21 @@ proxies:
     path: /Shalana
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #2'
+  name: '11|github.com/freefq - 美国CloudFla... #3'
   network: ws
-  port: '2082'
-  server: ydbb.76898102.xyz
+  port: '8080'
+  server: cf-lt.sharecentre.online
   servername: ''
   tls: false
   type: vmess
-  uuid: 3a40c353-90f9-37a6-9f7b-68afb9cc13e0
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
   ws-opts:
     headers:
-      Host: ydb.76898102.xyz
-    path: /buiaebd
+      Host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #3'
-  network: ws
-  port: 80
-  server: ml3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
-  ws-opts:
-    headers:
-      Host: ml3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #5'
+  name: '11|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: '80'
   server: yhnsb2.shabijichang.com
@@ -483,6 +489,19 @@ proxies:
   ws-opts:
     headers:
       Host: yhnsb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|github.com/freefq - 美国CloudFla... #6'
+  network: ws
+  port: 80
+  server: ml3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  ws-opts:
+    headers:
+      Host: ml3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -869,23 +888,6 @@ proxies:
     path: /wdsk
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 12,14,15|美国|tg频道:@ripaojiedian
-  network: ws
-  port: '2082'
-  server: 162.159.134.52
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
-  ws-opts:
-    headers:
-      Host: a.cn-db.top
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
   name: 12|🇺🇸_US_美国_yui科技_37
   network: ws
   port: 80
@@ -1055,7 +1057,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 21bc3bac-aff5-44e5-b1cc-9dd108aaad82
+  uuid: 877a8d2f-c587-4695-90c3-de27d1d47b90
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -1065,7 +1067,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 21bc3bac-aff5-44e5-b1cc-9dd108aaad82
+  uuid: 877a8d2f-c587-4695-90c3-de27d1d47b90
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -1075,7 +1077,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 21bc3bac-aff5-44e5-b1cc-9dd108aaad82
+  uuid: 877a8d2f-c587-4695-90c3-de27d1d47b90
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国B|@ripaojiedian
