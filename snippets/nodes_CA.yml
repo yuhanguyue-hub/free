@@ -9,7 +9,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,7,11,12|不定期抽奖https://t.me/mftizi
+  name: 3,12|不定期抽奖https://t.me/mftizi
   network: ws
   port: '80'
   server: 108.181.10.17
@@ -30,7 +30,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ae84236e-ac73-41e7-af3a-df36ebdc405b
+  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
@@ -43,18 +43,14 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 12|V1C | 加拿大 01
-  network: ws
-  port: 28391
-  server: kr-cdn-6273819.starnetcn.top
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: xgui2agy3dq8y.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -64,4 +60,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e2bcd0a-0cf8-49be-b4ef-6b9ea75213ba
+  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08

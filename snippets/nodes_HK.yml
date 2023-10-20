@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇭...
-  password: '!!str 123456'
-  port: 31101
-  server: cm1-go.go001.buzz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -15,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ae84236e-ac73-41e7-af3a-df36ebdc405b
+  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -25,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ae84236e-ac73-41e7-af3a-df36ebdc405b
+  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -35,7 +28,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ae84236e-ac73-41e7-af3a-df36ebdc405b
+  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
+- alterId: 64
+  cipher: auto
+  name: 12|🇭🇰 香港_1019026
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: ''
+    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -45,7 +52,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e2bcd0a-0cf8-49be-b4ef-6b9ea75213ba
+  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -55,7 +62,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e2bcd0a-0cf8-49be-b4ef-6b9ea75213ba
+  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -65,24 +72,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e2bcd0a-0cf8-49be-b4ef-6b9ea75213ba
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 154.198.209.52
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ee14f6e0-e652-4260-ffb5-c2a7fd4db35a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -174,6 +164,16 @@ proxies:
     headers:
       Host: ''
     path: /af483582-6269-468c-93af-c512ec2b1a61
+- alterId: 0
+  cipher: auto
+  name: 15|香港C|@ripaojiedian
+  network: tcp
+  port: '25001'
+  server: a.baozinet.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 64
   cipher: auto
   name: 15|香港2|@ripaojiedian

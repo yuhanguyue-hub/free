@@ -46,19 +46,6 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 12|🇫🇷_FR_法国_yui科技_364
-  network: ws
-  port: 80
-  server: pl1-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 2b3ec40f-1dfc-4893-b739-c94e2fe46015
-  ws-opts:
-    headers:
-      Host: pl1-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 12|🔒 VM-WS-NA 🇫🇷 FR-54.38.79.75:2...
   network: ws
   port: '2086'
@@ -73,10 +60,11 @@ proxies:
     path: /1g305wr4
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-188.165.61...
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-172.232.37.5...
   network: tcp
-  port: 26126
-  server: 188.165.61.68
+  port: '31018'
+  server: 172.232.37.51
+  servername: ''
   tls: false
   type: vmess
-  uuid: b6e2a6a0-87ff-43e8-9dff-e99c7e5959c2
+  uuid: b1ac0576-8943-48d0-d9e0-b3b7913da620
