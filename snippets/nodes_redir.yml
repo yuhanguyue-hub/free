@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,4,6,18|🇺🇸_US_美国->🇬🇧_GB_英国_5
+  name: 0,2,4,6,19|🇺🇸_US_美国->🇬🇧_GB_英国_5
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西_6_37
+  name: 0,2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_6_37
   network: ws
   port: 8080
   server: freeyx.cloudflare88.eu.org
@@ -27,7 +27,7 @@ proxies:
     path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供：kkz...
+  name: 0,2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供：kkz...
   network: ws
   port: 2095
   server: freeyx.cloudflare88.eu.org
@@ -40,7 +40,7 @@ proxies:
     path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西_2_由快嘴科技提供：k...
+  name: 0,2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_2_由快嘴科技提供：k...
   network: ws
   port: 8880
   server: freeyx.cloudflare88.eu.org
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西_3_24
+  name: 0,2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_3_24
   network: ws
   port: 2052
   server: freeyx.cloudflare88.eu.org
@@ -95,7 +95,7 @@ proxies:
     path: /xtsmol
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西_5_32
+  name: 0,2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_5_32
   network: ws
   port: 2086
   server: freeyx.cloudflare88.eu.org
@@ -134,7 +134,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西_4_26
+  name: 0,2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_4_26
   network: ws
   port: 80
   server: freeyx.cloudflare88.eu.org
@@ -311,7 +311,7 @@ proxies:
     path: /42.5@natdcibot
 - alterId: 64
   cipher: auto
-  name: '3,6,11|github.com/freefq - 美国加利福尼亚州圣何... #1'
+  name: 3,6,11|github.com/freefq - 美国加利福尼亚州圣何...
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -324,7 +324,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国->🇧🇷_BR_巴西 #14'
+  name: 3,6,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 2052
   server: 104.26.1.116
@@ -428,315 +428,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 03 @nodpai
-  network: tcp
-  port: '25004'
-  server: b.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 04 @nodpai
-  network: tcp
-  port: '33215'
-  server: sg.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 05 @nodpai
-  network: tcp
-  port: '33910'
-  server: sg.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 01 @nodpai
-  network: tcp
-  port: '33212'
-  server: jp.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 02 @nodpai #1'
+  name: '7,8|中转 🇺🇸 United States 02 @nodpai #1'
   network: ws
-  port: 13002
-  server: cdn.node.user-sub.pddns-usersdk.com
+  port: 58080
+  server: 120.233.42.181
+  servername: c.cn-db.top
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
+  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
   ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
+    path: /dabai.in
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1'
+  name: '7,8|中转 🇺🇸 United States 03 @nodpai #1'
   network: ws
-  port: 17002
-  server: cdn.node.user-sub.pddns-usersdk.com
+  port: 27756
+  server: 183.233.187.244
+  servername: d.cn-db.top
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
+  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
   ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /af483582-6269-468c-93af-c512ec2b1a61
+    path: /dabai.in
 - alterId: 0
   cipher: auto
-  name: '7,8|中转 🇭🇰 Hong Kong 04 @nodpai #1'
+  name: '7,8|中转 🇺🇸 United States 04 @nodpai #1'
   network: ws
-  port: 13004
-  server: cdn.node.user-sub.pddns-usersdk.com
+  port: 27539
+  server: 183.233.187.244
+  servername: c.cn-db.top
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
+  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
   ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 06 @nodpai
-  network: tcp
-  port: '33214'
-  server: sg.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: 7,11|github.com/freefq - 北京市移动 6
-  network: tcp
-  port: 25002
-  server: b.baozinet.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇸🇬 Singapore 07 @nodpai #1'
-  network: ws
-  port: 12001
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 02 @nodpai
-  network: tcp
-  port: '33211'
-  server: jp.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 02 @nodpai
-  network: tcp
-  port: '25009'
-  server: a.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 03 @nodpai
-  network: tcp
-  port: '45371'
-  server: lpl.xggj.xn--fiqs8s
-  tls: false
-  type: vmess
-  uuid: f1d4033d-de8b-3959-8c73-0a7d22ec10cb
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇸🇬 Singapore 08 @nodpai #1'
-  network: ws
-  port: 12002
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 03 @nodpai
-  network: tcp
-  port: '33213'
-  server: jp.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 04 @nodpai
-  network: tcp
-  port: '33208'
-  server: us.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 05 @nodpai
-  network: tcp
-  port: '33210'
-  server: us.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 06 @nodpai
-  network: tcp
-  port: '33209'
-  server: us.nodegroups.ink
-  tls: false
-  type: vmess
-  uuid: e18e8902-c811-3c98-85de-1808f5009dbe
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇯🇵 Japan 04 @nodpai #1'
-  network: ws
-  port: 14110
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇯🇵 Japan 05 @nodpai #1'
-  network: ws
-  port: 14109
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 07 @nodpai
-  network: tcp
-  port: '32225'
-  server: hk.hnytkm.com
-  tls: false
-  type: vmess
-  uuid: f1d4033d-de8b-3959-8c73-0a7d22ec10cb
-- alterId: 0
-  cipher: auto
-  name: 7,15|香港2|@ripaojiedian
-  network: tcp
-  port: '25001'
-  server: a.baozinet.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇹🇼 Taiwan 03 @nodpai #1'
-  network: ws
-  port: 14099
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 08 @nodpai #1'
-  network: ws
-  port: 11301
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c512ec2b8a61
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇺🇸 United States 09 @nodpai #1'
-  network: ws
-  port: 11302
-  server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd07ee84-91b3-3216-8ef7-d1fc1d265321
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c512ec2b8a61
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇺🇸 United States 10 @nodpai
-  network: tcp
-  port: '25005'
-  server: a.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: '7,8|中转 🇩🇪 Germany 02 @nodpai #1'
-  network: ws
-  port: 23618
-  server: 18.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fa93ae37-3ad5-337c-9210-791a07f00492
-  ws-opts:
-    headers:
-      Host: 18.v2-ray.cyou
-    path: /
+    path: /dabai.in
 - alterId: 0
   cipher: auto
   name: 12|CDN中转-新加坡-1倍率
