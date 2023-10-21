@@ -121,7 +121,7 @@ proxies:
     path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
-  name: '0,2,4,6,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #4'
+  name: '0,2,4,6|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3'
   network: ws
   port: 2096
   server: 104.24.184.65
@@ -311,10 +311,11 @@ proxies:
     path: /42.5@natdcibot
 - alterId: 64
   cipher: auto
-  name: 3,6,11,19|🇺🇸_US_美国->🇳🇱_NL_荷兰_22
+  name: 3,6,11,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_22
   network: ws
   port: 30000
   server: 45.199.138.191
+  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -363,7 +364,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,6,12|🇺🇸_US_美国_资源分享师_81
+  name: 3,6|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 80
   server: flkf2.shabijichang.com
@@ -376,7 +377,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,6,19|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  name: 3,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: 104.17.18.26
@@ -415,7 +416,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,19|🇺🇸_US_美国->🇮🇳_IN_印度_2_28
+  name: 6,18|🇺🇸_US_美国->🇮🇳_IN_印度_2_28
   network: ws
   port: 80
   server: hdlb3.shabijichang.com
@@ -428,11 +429,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,15|美国2|@ripaojiedian
+  name: 7|中转 🇭🇰 Hong Kong 07 @nodpai
   network: tcp
-  port: '25006'
+  port: '25002'
   server: b.baozinet.top
-  servername: ''
   tls: false
   type: vmess
   uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
@@ -451,20 +451,7 @@ proxies:
     path: /wo.img
 - alterId: 0
   cipher: auto
-  name: 12|CDN中转-新加坡-1倍率
-  network: ws
-  port: '443'
-  server: auto.ccccdn.tk
-  tls: true
-  type: vmess
-  uuid: 65da50e6-89c0-4d10-b7cf-16404dae0879
-  ws-opts:
-    headers:
-      Host: sg.chisi.link
-    path: /wo.img
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: 18|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -477,7 +464,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|🇺🇸_US_美国->🇮🇳_IN_印度_3_30
+  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_3_30
   network: ws
   port: 80
   server: cname.ispeed.online
@@ -490,7 +477,7 @@ proxies:
     path: /centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
 - alterId: 0
   cipher: auto
-  name: 19|🇰🇷_KR_韩国->🇺🇸_US_美国_36
+  name: 18|🇰🇷_KR_韩国->🇺🇸_US_美国_36
   network: ws
   port: 443
   server: 130.162.154.209
@@ -503,7 +490,7 @@ proxies:
     path: /ophelia.mom:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 19|🇺🇸_US_美国->🇨🇦_CA_加拿大_44
+  name: 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_44
   network: ws
   port: 8080
   server: go.gujuji.top
@@ -516,7 +503,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
+  name: 18|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
   network: ws
   port: 80
   server: db5.shabijichang.com
