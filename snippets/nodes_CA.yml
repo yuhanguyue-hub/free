@@ -8,7 +8,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dcc9f517-6b14-4cde-8449-53ee702c97ec
+  uuid: bf0751ee-0147-46e4-aa03-8b22f0d20bab
+- alterId: 0
+  cipher: auto
+  name: 11,12|🔒 VM-WS-NA 🇺🇸 US-108.181.10.17...
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
+    path: /0vixdm74
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大_1022001
@@ -28,4 +42,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a19d8231-7e1f-488d-899a-0ad4e97abdec
+  uuid: 50cdcbc4-1acc-42d8-b42f-2d1b38a85d39
