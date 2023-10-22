@@ -249,28 +249,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|「www.starnetcn.com 年付85折 不定期抽U...
-  network: tcp
-  port: '50004'
-  server: 04.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: ce84b69c-b202-4ef2-82a0-5a8190bd4169
-- alterId: 0
-  cipher: auto
-  name: 7,8,19|🇺🇸_US_美国_8_38
+  name: '7,8|「www.starnetcn.com 年付85折 不定期抽U... #1'
   network: ws
-  port: 80
-  server: fhc2.shabijichang.com
+  port: 443
+  server: 198.2.203.153
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    headers:
-      Host: fhc2.shabijichang.com
-    path: /
+    path: /path/1691837402073
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国04
@@ -280,7 +269,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f67a33af-7ab3-4473-9569-9432e31ab721
+  uuid: 9c9bfece-50a0-445c-a995-97ec9691a89c
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -290,7 +279,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f67a33af-7ab3-4473-9569-9432e31ab721
+  uuid: 9c9bfece-50a0-445c-a995-97ec9691a89c
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -300,7 +289,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f67a33af-7ab3-4473-9569-9432e31ab721
+  uuid: 9c9bfece-50a0-445c-a995-97ec9691a89c
 - alterId: 0
   cipher: auto
   name: 11,12|🇺🇸|US|美国|@wxgqlfx|19
@@ -768,7 +757,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c62fe084-fe9f-46e3-bc59-917ed911048a
+  uuid: 60e7b2dc-5871-42cb-abed-351d12628d0c
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -778,7 +767,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c62fe084-fe9f-46e3-bc59-917ed911048a
+  uuid: 60e7b2dc-5871-42cb-abed-351d12628d0c
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -788,7 +777,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c62fe084-fe9f-46e3-bc59-917ed911048a
+  uuid: 60e7b2dc-5871-42cb-abed-351d12628d0c
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -849,7 +838,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 4621f884-9a68-42e1-b8c4-47aeaf7e567d
+  uuid: 79a7928c-ae31-4b9e-9f72-d14a40e9ec3f
   ws-opts:
     headers:
       Host: ''
@@ -862,7 +851,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: 4621f884-9a68-42e1-b8c4-47aeaf7e567d
+  uuid: 79a7928c-ae31-4b9e-9f72-d14a40e9ec3f
   ws-opts:
     headers:
       Host: ''
@@ -875,7 +864,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 4621f884-9a68-42e1-b8c4-47aeaf7e567d
+  uuid: 79a7928c-ae31-4b9e-9f72-d14a40e9ec3f
   ws-opts:
     headers:
       Host: ''
@@ -888,7 +877,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 4621f884-9a68-42e1-b8c4-47aeaf7e567d
+  uuid: 79a7928c-ae31-4b9e-9f72-d14a40e9ec3f
   ws-opts:
     headers:
       Host: ''
@@ -901,7 +890,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: 4621f884-9a68-42e1-b8c4-47aeaf7e567d
+  uuid: 79a7928c-ae31-4b9e-9f72-d14a40e9ec3f
   ws-opts:
     headers:
       Host: ''
@@ -914,7 +903,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 4621f884-9a68-42e1-b8c4-47aeaf7e567d
+  uuid: 79a7928c-ae31-4b9e-9f72-d14a40e9ec3f
   ws-opts:
     headers:
       Host: ''
@@ -931,4 +920,17 @@ proxies:
   ws-opts:
     headers:
       Host: vcus2.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国_8_38
+  network: ws
+  port: 80
+  server: fhc2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: fhc2.shabijichang.com
     path: /
