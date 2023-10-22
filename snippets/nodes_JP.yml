@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fcc3d43-be0a-4660-8d1c-d9298d177ac6
+  uuid: a0bd3ede-56ec-47dc-aff0-4691b670203c
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fcc3d43-be0a-4660-8d1c-d9298d177ac6
+  uuid: a0bd3ede-56ec-47dc-aff0-4691b670203c
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fcc3d43-be0a-4660-8d1c-d9298d177ac6
+  uuid: a0bd3ede-56ec-47dc-aff0-4691b670203c
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵白嫖-072
@@ -91,7 +91,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bf7fa934-e930-4fac-902f-103f2d2d4036
+  uuid: ab9eb19f-441f-4506-903b-e3dc76707f5e
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -101,7 +101,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bf7fa934-e930-4fac-902f-103f2d2d4036
+  uuid: ab9eb19f-441f-4506-903b-e3dc76707f5e
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -111,7 +111,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bf7fa934-e930-4fac-902f-103f2d2d4036
+  uuid: ab9eb19f-441f-4506-903b-e3dc76707f5e
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -124,7 +124,7 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 20014
+  port: 20011
   server: 183.232.170.32
   tfo: false
   type: ss
@@ -140,15 +140,32 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 30015
+  port: 30013
   server: 183.232.170.32
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.108.238
+  name: 14,15|日本2|@ripaojiedian
+  network: ws
+  port: '8880'
+  server: 8.218.136.25
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: jp.kxking.eu.org
+    path: /vm?ed=2048
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本3|@ripaojiedian
+  password: d6f33437-afa3-477f-a428-246a3b320a33
+  port: 20851
+  server: jp-pro.xsus.ac.cn
   tfo: false
   type: ss

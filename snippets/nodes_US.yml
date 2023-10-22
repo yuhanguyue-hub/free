@@ -50,7 +50,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,11|github.com/freefq - 美国CloudFla... #3'
+  name: '0,2,4,11|github.com/freefq - 美国CloudFla... #3'
   network: ws
   port: 8080
   server: 172.67.229.17
@@ -123,39 +123,13 @@ proxies:
   name: '3|🇺🇸 _US_美国 #5'
   network: ws
   port: '80'
-  server: jd2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  ws-opts:
-    headers:
-      Host: jd2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3|🇺🇸 _US_美国 #6'
-  network: ws
-  port: '80'
-  server: asb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: asb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3|🇺🇸 _US_美国 #8'
-  network: ws
-  port: '80'
-  server: sbl3.shabijichang.com
+  server: wnd3.shabijichang.com
   tls: false
   type: vmess
   uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
   ws-opts:
     headers:
-      Host: sbl3.shabijichang.com
+      Host: wnd3.shabijichang.com
     path: /
 - alterId: 64
   cipher: auto
@@ -172,44 +146,43 @@ proxies:
     path: /path/1697376782879
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国 #16'
+  name: '3|🇺🇸 _US_美国 #7'
   network: ws
-  port: 2052
-  server: lt1.992688.xyz
+  port: '80'
+  server: jd2.shabijichang.com
   tls: false
   type: vmess
-  uuid: fa5fc74f-0f0b-4221-82ba-dc7cd24e24e5
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
   ws-opts:
     headers:
-      Host: vcus2.vpn66.eu.org
+      Host: jd2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国 #11'
+  name: '3|🇺🇸 _US_美国 #8'
   network: ws
-  port: 80
-  server: fhc2.shabijichang.com
+  port: '8080'
+  server: ns1.v2-vip.fun
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
   ws-opts:
     headers:
-      Host: fhc2.shabijichang.com
-    path: /
-- alterId: 64
+      Host: ssrsub.v006.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
   cipher: auto
-  name: 3,11|github.com/freefq - 南非  3
+  name: '3|🇺🇸 _US_美国 #9'
   network: ws
-  port: '30000'
-  server: 156.225.67.104
-  servername: ''
-  tls: true
+  port: '8080'
+  server: singapore.com
+  tls: false
   type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
   ws-opts:
     headers:
-      Host: www.41758112.xyz
-    path: /path/1696944806961
+      Host: ssrsub.v003.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: '6|🇺🇸_US_美国 #10'
@@ -222,6 +195,19 @@ proxies:
   ws-opts:
     headers:
       Host: wnd2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6|🇺🇸_US_美国 #11'
+  network: ws
+  port: 80
+  server: fhc2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: fhc2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -251,22 +237,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '7,8|🇺🇸 United States 01 @nodpai #1'
-  network: http
-  port: 443
-  server: 5.161.159.21
-  skip-cert-verify: true
+  name: '6|🇺🇸_US_美国 #16'
+  network: ws
+  port: 2052
+  server: lt1.992688.xyz
   tls: false
   type: vmess
-  udp: true
-  uuid: 3d1fab6e-3bd6-472b-8d9c-9934c04eaf40
+  uuid: fa5fc74f-0f0b-4221-82ba-dc7cd24e24e5
+  ws-opts:
+    headers:
+      Host: vcus2.vpn66.eu.org
+    path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|🇺🇸 United States 03 @nodpai #1'
+  name: '7,8|🇺🇸 United States 01 @nodpai #1'
   network: ws
   port: 8006
   server: 185.214.103.249
@@ -287,7 +271,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fcc3d43-be0a-4660-8d1c-d9298d177ac6
+  uuid: a0bd3ede-56ec-47dc-aff0-4691b670203c
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -297,7 +281,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fcc3d43-be0a-4660-8d1c-d9298d177ac6
+  uuid: a0bd3ede-56ec-47dc-aff0-4691b670203c
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -307,7 +291,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fcc3d43-be0a-4660-8d1c-d9298d177ac6
+  uuid: a0bd3ede-56ec-47dc-aff0-4691b670203c
 - alterId: 0
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #2'
@@ -724,19 +708,6 @@ proxies:
     path: /amstd.digires.shop/12796
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸_US_美国_资源分享师_191
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-5.161.96.225...
   network: tcp
   port: '3389'
@@ -887,7 +858,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bf7fa934-e930-4fac-902f-103f2d2d4036
+  uuid: ab9eb19f-441f-4506-903b-e3dc76707f5e
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -897,7 +868,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bf7fa934-e930-4fac-902f-103f2d2d4036
+  uuid: ab9eb19f-441f-4506-903b-e3dc76707f5e
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -907,7 +878,24 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bf7fa934-e930-4fac-902f-103f2d2d4036
+  uuid: ab9eb19f-441f-4506-903b-e3dc76707f5e
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|美国3|@ripaojiedian
+  network: ws
+  port: '52095'
+  server: 120.233.42.181
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 26726b2c-a280-356a-a452-4be0bd46ec1e
+  ws-opts:
+    headers:
+      Host: b.cn-db.top
+    path: /dabai.in
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国1|@ripaojiedian
@@ -918,14 +906,21 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 15|美国2|@ripaojiedian
-  network: tcp
-  port: '25006'
-  server: b.baozinet.top
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 14,15|美国4|@ripaojiedian
+  network: ws
+  port: '443'
+  server: cloudflare.binghe.design
+  servername: us.binghe.design
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  uuid: 4548b8de-c6f5-41f2-8cb6-723c8db8ed03
+  ws-opts:
+    headers:
+      Host: us.binghe.design
+    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
