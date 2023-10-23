@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f272e38-18ec-4ad5-b3a2-997639b49bbc
+  uuid: 8cdde0d4-ca57-4124-a21c-2bfa4d605aeb
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f272e38-18ec-4ad5-b3a2-997639b49bbc
+  uuid: 8cdde0d4-ca57-4124-a21c-2bfa4d605aeb
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f272e38-18ec-4ad5-b3a2-997639b49bbc
+  uuid: 8cdde0d4-ca57-4124-a21c-2bfa4d605aeb
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本_1016151
@@ -78,7 +78,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 610985ab-5676-48b3-8dd4-24c6015ad97e
+  uuid: d344e816-65d9-4ba3-807d-e460b5396647
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -88,7 +88,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 610985ab-5676-48b3-8dd4-24c6015ad97e
+  uuid: d344e816-65d9-4ba3-807d-e460b5396647
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -98,7 +98,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 610985ab-5676-48b3-8dd4-24c6015ad97e
+  uuid: d344e816-65d9-4ba3-807d-e460b5396647
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -131,21 +131,27 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本3|@ripaojiedian
-  password: d6f33437-afa3-477f-a428-246a3b320a33
-  port: 20851
-  server: jp-pro.xsus.ac.cn
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.248.165.63
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 15|日本1|@ripaojiedian
-  network: tcp
-  port: '25003'
-  server: a.baozinet.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.179.198.112
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.19.234
+  tfo: false
+  type: ss
