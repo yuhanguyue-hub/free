@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_3_由快嘴科技提供：k...
+  name: '0,2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #12'
   network: ws
   port: 2086
   server: freeyx.cloudflare88.eu.org
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸_US_美国->🇬🇧_GB_英国_2_26
+  name: 0,2,3,4,6,19|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -177,7 +177,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 1,11|github.com/freefq - 美国加利福尼亚州圣何...
+  name: 1,11,19|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -187,8 +187,6 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    headers:
-      Host: ''
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
@@ -248,7 +246,7 @@ proxies:
     path: /42.5@natdcibot
 - alterId: 0
   cipher: auto
-  name: 2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_6_2由快嘴科技提供：...
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #7'
   network: ws
   port: 2052
   server: freeyx.cloudflare88.eu.org
@@ -261,7 +259,7 @@ proxies:
     path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
-  name: 2,3,4,19|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: '2,3,4|🇺🇸_US_美国->🇬🇧_GB_英国 #3'
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -274,7 +272,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_2_6
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #8'
   network: ws
   port: 2052
   server: 104.26.1.116
@@ -287,7 +285,7 @@ proxies:
     path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
-  name: 2,3,4,6,19|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供：kkz...
+  name: '2,3,4,6|🇺🇸_US_美国->🇧🇷_BR_巴西 #14'
   network: ws
   port: 80
   server: freeyx.cloudflare88.eu.org
@@ -313,7 +311,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_7_27
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #10'
   network: ws
   port: 8880
   server: freeyx.cloudflare88.eu.org
@@ -326,7 +324,7 @@ proxies:
     path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
-  name: 2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_5_由快嘴科技提供：k...
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #11'
   network: ws
   port: 2082
   server: freeyx.cloudflare88.eu.org
@@ -339,7 +337,7 @@ proxies:
     path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
-  name: 2,3,4,19|🇺🇸_US_美国->🇧🇷_BR_巴西_4_由快嘴科技提供：k...
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #13'
   network: ws
   port: 8080
   server: freeyx.cloudflare88.eu.org
@@ -378,7 +376,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,19|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  name: '6|🇺🇸_US_美国->🇮🇳_IN_印度 #4'
   network: ws
   port: 80
   server: mm2.shabijichang.com
@@ -433,29 +431,3 @@ proxies:
     headers:
       Host: ming2.kiwireich.com
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇧🇷_BR_巴西_8_35
-  network: ws
-  port: 2095
-  server: freeyx.cloudflare88.eu.org
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇧🇷_BR_巴西_9_40
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  tls: true
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
