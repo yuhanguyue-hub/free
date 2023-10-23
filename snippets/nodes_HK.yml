@@ -21,7 +21,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bf0751ee-0147-46e4-aa03-8b22f0d20bab
+  uuid: 5f272e38-18ec-4ad5-b3a2-997639b49bbc
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -31,7 +31,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bf0751ee-0147-46e4-aa03-8b22f0d20bab
+  uuid: 5f272e38-18ec-4ad5-b3a2-997639b49bbc
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -41,7 +41,24 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bf0751ee-0147-46e4-aa03-8b22f0d20bab
+  uuid: 5f272e38-18ec-4ad5-b3a2-997639b49bbc
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,14,15|日本2|@ripaojiedian
+  network: ws
+  port: '8880'
+  server: 8.218.136.25
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: jp.kxking.eu.org
+    path: /vm?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -51,7 +68,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50cdcbc4-1acc-42d8-b42f-2d1b38a85d39
+  uuid: 610985ab-5676-48b3-8dd4-24c6015ad97e
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -61,7 +78,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50cdcbc4-1acc-42d8-b42f-2d1b38a85d39
+  uuid: 610985ab-5676-48b3-8dd4-24c6015ad97e
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -71,7 +88,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50cdcbc4-1acc-42d8-b42f-2d1b38a85d39
+  uuid: 610985ab-5676-48b3-8dd4-24c6015ad97e
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
