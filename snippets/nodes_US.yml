@@ -195,7 +195,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6,11|github.com/freefq - 美国CloudFla... #4'
+  name: '2,3,4,6,11|github.com/freefq - 美国CloudFla... #3'
   network: ws
   port: 80
   server: jd2.shabijichang.com
@@ -234,7 +234,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6,12|TG频道:@hkaa0▓美国
+  name: 6,11,12|TG频道:@hkaa0▓美国
   network: ws
   port: 30000
   server: 156.225.67.104
@@ -267,7 +267,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59633517-6210-4bcf-836c-2c367747ecc4
+  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -277,7 +277,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59633517-6210-4bcf-836c-2c367747ecc4
+  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -287,23 +287,129 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59633517-6210-4bcf-836c-2c367747ecc4
+  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 80
-  server: www.speedtest.net
+  name: 11,12|1
+  network: tcp
+  port: 37869
+  server: 23.224.36.133
+  servername: ''
   tls: false
   type: vmess
-  uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62
+  uuid: 4c90d167-e65b-4419-d455-eb635724d2ed
+- alterId: 0
+  cipher: auto
+  name: 11,12|thavecpc-47
+  network: ws
+  port: 36894
+  server: 23.26.98.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 337affdc-7836-41fa-c636-573095a3e3d6
   ws-opts:
     headers:
-      Host: hu1.xv2ray.net
+      Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  name: 11,12|🇺🇸_US_美国_yui科技_110
+  network: ws
+  port: 443
+  server: 142.4.108.65
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63181393.xyz
+    path: /path/1697798192533
+- alterId: 64
+  cipher: auto
+  name: 11,12|🇺🇸_US_美国_yui科技_9
+  network: ws
+  port: 443
+  server: 192.74.229.189
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68339205.xyz
+    path: /path/1697798192533
+- alterId: 64
+  cipher: auto
+  name: 11,12|🇺🇸_US_美国_yui科技_130
+  network: ws
+  port: 443
+  server: 142.4.100.4
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33756710.xyz
+    path: /path/1697892739836
+- alterId: 0
+  cipher: auto
+  name: 11,12|美国-0525
+  network: tcp
+  port: 55655
+  server: rontall.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81a5a508-a6b4-48b5-c92c-df95c2654544
+- alterId: 0
+  cipher: auto
+  name: 11,12|Phone4
+  network: tcp
+  port: 29276
+  server: d02.dechuanglihua.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c47ee447-fa17-4b37-bba7-4b56b07197a3
+- alterId: 0
+  cipher: auto
+  name: 11,12|_1
+  network: ws
+  port: 12515
+  server: britishhulu2023.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c658f812-6b59-451d-b44a-bfe170895b5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws234
+- alterId: 64
+  cipher: auto
+  name: '11|github.com/freefq - 美国加利福尼亚州圣何... #3'
+  network: ws
+  port: 30000
+  server: 45.199.138.186
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  ws-opts:
+    headers:
+      Host: www.19229362.xyz
+    path: /path/1697376782879
+- alterId: 0
+  cipher: auto
+  name: 11,12|美国-1023
+  network: tcp
+  port: 13856
+  server: rontall.com
+  tls: true
+  type: vmess
+  uuid: 20be612e-3fcb-491e-85fb-477bca86a652
 - alterId: 0
   cipher: ''
-  name: '11|github.com/freefq - 美国CloudFla... #1'
+  name: 11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 80
   server: www.speedtest.net
@@ -318,75 +424,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '11|github.com/freefq - 美国CloudFla... #2'
-  network: ws
-  port: 443
-  server: 104.31.16.120
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: edeen.makeup
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 美国Amazon E...
-  network: ws
-  port: 80
-  server: 3.38.115.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d8c7bd6-7a3e-4a9a-d486-1192d3a999a7
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11|github.com/freefq - 美国加利福尼亚州圣何...
-  network: ws
-  port: 30000
-  server: 45.199.138.186
-  tls: true
-  type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  ws-opts:
-    headers:
-      Host: www.19229362.xyz
-    path: /path/1697376782879
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国Amazon E... #1'
-  network: ws
-  port: 80
-  server: 3.38.108.255
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 02d84ca9-ec5c-42e4-9571-aa1b4f274ffb
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #3'
-  network: ws
-  port: '80'
-  server: sbl2.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: 80
   server: ml2.shabijichang.com
@@ -421,19 +458,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- alterId: 64
-  cipher: auto
-  name: 12|🇺🇸_US_美国_yui科技_130
-  network: ws
-  port: 443
-  server: 142.4.100.4
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.33756710.xyz
-    path: /path/1697892739836
 - alterId: 0
   cipher: chacha20-poly1305
   name: 12|🔒 VM-WS-NA 🇺🇸 US-172.67.229.39...
@@ -472,19 +496,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
-- alterId: 64
-  cipher: auto
-  name: 12|🇺🇸_US_美国_yui科技_110
-  network: ws
-  port: 443
-  server: 142.4.108.65
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.63181393.xyz
-    path: /path/1697798192533
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇺🇸 US-129.80.185.15...
@@ -499,19 +510,6 @@ proxies:
     headers:
       Host: ''
     path: /fb9da0cf
-- alterId: 64
-  cipher: auto
-  name: 12|🇺🇸_US_美国_yui科技_9
-  network: ws
-  port: 443
-  server: 192.74.229.189
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68339205.xyz
-    path: /path/1697798192533
 - alterId: 64
   cipher: auto
   name: 12|🇺🇸_US_美国_yui科技_142
@@ -816,15 +814,6 @@ proxies:
       Host: www.86052077.xyz
     path: /path/1697980101249
 - alterId: 0
-  cipher: auto
-  name: 12|美国-1023
-  network: tcp
-  port: 13856
-  server: rontall.com
-  tls: true
-  type: vmess
-  uuid: 20be612e-3fcb-491e-85fb-477bca86a652
-- alterId: 0
   cipher: chacha20-poly1305
   name: 12|🔒 VM-WS-NA 🇺🇸 US-172.67.229.37...
   network: ws
@@ -1003,16 +992,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|美国-0525
-  network: tcp
-  port: 55655
-  server: rontall.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81a5a508-a6b4-48b5-c92c-df95c2654544
-- alterId: 0
-  cipher: auto
   name: 13|美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -1020,7 +999,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dd523fad-dd4c-4fae-bb0d-1c4130cd883e
+  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -1030,7 +1009,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dd523fad-dd4c-4fae-bb0d-1c4130cd883e
+  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -1040,7 +1019,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dd523fad-dd4c-4fae-bb0d-1c4130cd883e
+  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1084,7 +1063,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 3e7fb9b5-6f20-4dc5-90e3-7a4678995cc1
+  uuid: 442c1fb6-92d0-4366-a88f-43cf16028bb8
   ws-opts:
     headers:
       Host: ''
@@ -1097,7 +1076,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: 3e7fb9b5-6f20-4dc5-90e3-7a4678995cc1
+  uuid: 442c1fb6-92d0-4366-a88f-43cf16028bb8
   ws-opts:
     headers:
       Host: ''
@@ -1110,7 +1089,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 3e7fb9b5-6f20-4dc5-90e3-7a4678995cc1
+  uuid: 442c1fb6-92d0-4366-a88f-43cf16028bb8
   ws-opts:
     headers:
       Host: ''
@@ -1123,7 +1102,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: 3e7fb9b5-6f20-4dc5-90e3-7a4678995cc1
+  uuid: 442c1fb6-92d0-4366-a88f-43cf16028bb8
   ws-opts:
     headers:
       Host: ''
@@ -1136,7 +1115,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: 3e7fb9b5-6f20-4dc5-90e3-7a4678995cc1
+  uuid: 442c1fb6-92d0-4366-a88f-43cf16028bb8
   ws-opts:
     headers:
       Host: ''
@@ -1149,7 +1128,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: 3e7fb9b5-6f20-4dc5-90e3-7a4678995cc1
+  uuid: 442c1fb6-92d0-4366-a88f-43cf16028bb8
   ws-opts:
     headers:
       Host: ''
