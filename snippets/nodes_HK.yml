@@ -21,7 +21,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9e0e57a3-1117-4816-bbb5-a7bb379480b7
+  uuid: 28e0cd9e-ddae-4bab-8db9-8eb5becfe6bb
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -31,7 +31,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9e0e57a3-1117-4816-bbb5-a7bb379480b7
+  uuid: 28e0cd9e-ddae-4bab-8db9-8eb5becfe6bb
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -41,53 +41,40 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9e0e57a3-1117-4816-bbb5-a7bb379480b7
+  uuid: 28e0cd9e-ddae-4bab-8db9-8eb5becfe6bb
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 香港城市电讯有限公司...
-  network: ws
-  port: 80
-  server: hktddns.aikunapp.com
-  tls: false
-  type: vmess
-  uuid: 1e63f999-7553-46c0-93eb-65b6553e1bde
-  ws-opts:
-    headers:
-      Host: sanmao17.hkbn.n.optage.moe
-    path: /hkbn
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK
+  name: 12|香港 04 | 1x HK
   network: tcp
   port: '31601'
   server: 5m4h0k04.mcfront.xyz
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5962a6d9-fb9d-46b8-805b-02aa45ad08ab
+  uuid: 70f90082-e0f6-4164-ad26-99ec1fc22486
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
+  name: 12|香港 05 | 1x HK
   network: tcp
   port: '31606'
   server: 5m4h0k05.mcfront.xyz
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5962a6d9-fb9d-46b8-805b-02aa45ad08ab
+  uuid: 70f90082-e0f6-4164-ad26-99ec1fc22486
 - alterId: 0
   cipher: auto
-  name: 13|香港 06 | 1x HK
+  name: 12|香港 06 | 1x HK
   network: tcp
   port: '31611'
   server: 5m4h0k06.mcfront.xyz
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5962a6d9-fb9d-46b8-805b-02aa45ad08ab
+  uuid: 70f90082-e0f6-4164-ad26-99ec1fc22486
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT2|@ripaojiedian
+  name: 13|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -103,7 +90,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  name: 13|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: obfs
   plugin-opts:
@@ -116,7 +103,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,15|香港3|@ripaojiedian
+  name: 13,14|香港3|@ripaojiedian
   network: ws
   port: '443'
   server: n1697765772.izwhvan.cn
@@ -132,7 +119,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|香港1|@ripaojiedian
+  name: 14|香港1|@ripaojiedian
   network: tcp
   port: '50003'
   server: 03.kccic2pa.xyz
@@ -142,7 +129,7 @@ proxies:
   uuid: d5b6a6b1-feee-4318-b33b-51378f5787e8
 - alterId: 64
   cipher: auto
-  name: 15|香港2|@ripaojiedian
+  name: 14|香港2|@ripaojiedian
   network: tcp
   port: '53300'
   server: 112.29.94.22
