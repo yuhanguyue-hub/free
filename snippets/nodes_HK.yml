@@ -21,7 +21,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
+  uuid: a161e875-d884-47a9-8032-fae56fad2a73
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -31,7 +31,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
+  uuid: a161e875-d884-47a9-8032-fae56fad2a73
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -41,7 +41,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
+  uuid: a161e875-d884-47a9-8032-fae56fad2a73
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -72,6 +72,30 @@ proxies:
     headers:
       Host: sanmao17.hkbn.n.optage.moe
     path: /hkbn
+- alterId: 64
+  cipher: auto
+  name: 12|🇭🇰 香港_1023002
+  network: ws
+  port: 80
+  server: hrgdvpn.flycdnedc55.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-8.217.4.110:...
+  network: tcp
+  port: '31013'
+  server: 8.217.4.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 66440943-8bcf-4832-a5b7-694c466c5fd7
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -81,7 +105,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
+  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -91,7 +115,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
+  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -101,7 +125,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
+  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian

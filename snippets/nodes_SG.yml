@@ -31,7 +31,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
+  uuid: a161e875-d884-47a9-8032-fae56fad2a73
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -41,7 +41,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
+  uuid: a161e875-d884-47a9-8032-fae56fad2a73
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -51,7 +51,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 19f2fc6c-2a91-41d7-a274-8436e215954b
+  uuid: a161e875-d884-47a9-8032-fae56fad2a73
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_1023003
+  network: ws
+  port: 38056
+  server: 139.180.155.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 136d8557-7656-4224-9168-3b0473760e16
+  ws-opts:
+    headers:
+      Host: ''
+    path: /SHALANA
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1011095
@@ -68,22 +82,38 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬 新加坡_1023001
-  network: ws
-  port: 2095
-  server: 103.253.24.44
-  servername: ''
-  tls: false
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: e3a3e370-6cb2-11ee-bf3b-1239d0255272
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmws
+  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,14,15|新加坡2|@ripaojiedian
+  name: 14,15|新加坡2|@ripaojiedian
   network: ws
   port: '38056'
   server: 139.180.155.222
@@ -97,33 +127,3 @@ proxies:
     headers:
       Host: m.zoom.us
     path: /SHALANA
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f8778df6-f29d-47fa-9b38-6589d27d526f
