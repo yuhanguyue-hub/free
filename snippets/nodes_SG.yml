@@ -12,11 +12,11 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 8,14|🇭🇰 香港2|@ripaojiedian
-  password: 9af5d599-a28a-4753-8e15-49fb8e7a963c
+  password: M83a100a
   port: 53300
   server: 112.29.94.22
   skip-cert-verify: false
-  sni: sg.kunlun-ppg.com
+  sni: www.icloud.com
   tfo: false
   tls: false
   type: vmess
@@ -31,7 +31,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a161e875-d884-47a9-8032-fae56fad2a73
+  uuid: ba5ee203-8c49-4497-921c-95f655844e35
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -41,7 +41,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a161e875-d884-47a9-8032-fae56fad2a73
+  uuid: ba5ee203-8c49-4497-921c-95f655844e35
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -51,7 +51,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a161e875-d884-47a9-8032-fae56fad2a73
+  uuid: ba5ee203-8c49-4497-921c-95f655844e35
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1023003
@@ -89,7 +89,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
+  uuid: 078d5a7e-402b-4c2a-bdc8-f9e962233532
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -99,7 +99,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
+  uuid: 078d5a7e-402b-4c2a-bdc8-f9e962233532
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -109,21 +109,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
-- alterId: 0
-  cipher: auto
+  uuid: 078d5a7e-402b-4c2a-bdc8-f9e962233532
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14,15|新加坡2|@ripaojiedian
-  network: ws
-  port: '38056'
-  server: 139.180.155.222
-  servername: ''
-  skip-cert-verify: false
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.151.244.95
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 136d8557-7656-4224-9168-3b0473760e16
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /SHALANA
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.101.70
+  tfo: false
+  type: ss

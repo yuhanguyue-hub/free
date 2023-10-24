@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a161e875-d884-47a9-8032-fae56fad2a73
+  uuid: ba5ee203-8c49-4497-921c-95f655844e35
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a161e875-d884-47a9-8032-fae56fad2a73
+  uuid: ba5ee203-8c49-4497-921c-95f655844e35
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a161e875-d884-47a9-8032-fae56fad2a73
+  uuid: ba5ee203-8c49-4497-921c-95f655844e35
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本_1016151
@@ -92,7 +92,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
+  uuid: 078d5a7e-402b-4c2a-bdc8-f9e962233532
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -102,7 +102,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
+  uuid: 078d5a7e-402b-4c2a-bdc8-f9e962233532
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -112,7 +112,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab741137-11d6-42e9-89c4-220195e4c78d
+  uuid: 078d5a7e-402b-4c2a-bdc8-f9e962233532
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -150,39 +150,15 @@ proxies:
   client-fingerprint: chrome
   name: 14,15|日本2|@ripaojiedian
   network: ws
-  port: '8880'
-  server: 8.218.136.25
-  servername: ''
+  port: '443'
+  server: oci.donpau.com
+  servername: oci.donpau.com
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666
   ws-opts:
     headers:
-      Host: jp.kxking.eu.org
-    path: /vm?ed=2048
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.248.165.63
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 东京特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.198.112
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.19.234
-  tfo: false
-  type: ss
+      Host: oci.donpau.com
+    path: /cone
