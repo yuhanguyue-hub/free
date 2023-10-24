@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,19|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供;kkz...
+  name: '0,2,3,4|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #8'
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供;kkz...
   network: ws
   port: 80
   server: mm2.shabijichang.com
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
+  name: 0,2,3,4,18|🇺🇸_US_美国->🇮🇳_IN_印度_2_20
   network: ws
   port: 80
   server: hdlb2.shabijichang.com
@@ -92,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国->🇭🇺_HU_匈牙利 #1'
+  name: 0,2,3,4,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 80
   server: www.speedtest.net
@@ -214,7 +214,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  name: 6,11,12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -295,14 +295,3 @@ proxies:
   server: 43.200.7.213
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1696251522438
