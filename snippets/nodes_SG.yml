@@ -31,7 +31,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
+  uuid: 99882c6d-0b8b-409b-abfb-1dfd64d8b0ad
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -41,7 +41,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
+  uuid: 99882c6d-0b8b-409b-abfb-1dfd64d8b0ad
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -51,7 +51,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
+  uuid: 99882c6d-0b8b-409b-abfb-1dfd64d8b0ad
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬 新加坡 22
+  network: ws
+  port: 34645
+  server: 146.190.200.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 265a163f-405e-47ce-e423-8ef8e2d4ba4e
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /ONHIT_ADMIN_TEAM
 - alterId: 0
   cipher: auto
   name: 11|🇸🇬 新加坡_1011095
@@ -68,20 +82,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|🔒 VM-WS-NA 🇸🇬 SG-146.190.200.6...
-  network: ws
-  port: '34645'
-  server: 146.190.200.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 265a163f-405e-47ce-e423-8ef8e2d4ba4e
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /ONHIT_ADMIN_TEAM
-- alterId: 0
-  cipher: auto
   name: 12|新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -89,7 +89,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
+  uuid: 6835361d-a582-4b27-8d7a-8a747ef7f97d
 - alterId: 0
   cipher: auto
   name: 12|新加坡 05 | 1x SG
@@ -99,7 +99,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
+  uuid: 6835361d-a582-4b27-8d7a-8a747ef7f97d
 - alterId: 0
   cipher: auto
   name: 12|新加坡 06 | 1x SG
@@ -109,20 +109,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 13|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.151.244.95
-  tfo: false
-  type: ss
+  uuid: 6835361d-a582-4b27-8d7a-8a747ef7f97d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇸🇬 新加坡特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.212.101.70
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.139.111.243
   tfo: false
   type: ss

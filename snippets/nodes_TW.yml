@@ -8,7 +8,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
+  uuid: 99882c6d-0b8b-409b-abfb-1dfd64d8b0ad
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -18,7 +18,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
+  uuid: 99882c6d-0b8b-409b-abfb-1dfd64d8b0ad
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -28,7 +28,7 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
+  uuid: 99882c6d-0b8b-409b-abfb-1dfd64d8b0ad
 - alterId: 0
   cipher: auto
   name: 12|台湾 04  | 1x TWN
@@ -38,7 +38,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
+  uuid: 6835361d-a582-4b27-8d7a-8a747ef7f97d
 - alterId: 0
   cipher: auto
   name: 12|台湾 05  | 1x TWN
@@ -48,7 +48,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
+  uuid: 6835361d-a582-4b27-8d7a-8a747ef7f97d
 - alterId: 0
   cipher: auto
   name: 12|台湾 06  | 1x TWN
@@ -58,21 +58,12 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
-- alterId: 0
-  cipher: auto
+  uuid: 6835361d-a582-4b27-8d7a-8a747ef7f97d
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 13,14,18|🇺🇸_US_美国_4_2由快嘴科技提供;kkzui.com
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
+  name: 13|🇹🇼 台湾1|@ripaojiedian
+  password: 3Nu3sC
+  port: 21523
+  server: dnsb.zz01.zzssptop.com
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c0699aa-790e-4ccc-b9aa-5cff4b1165e3
-  ws-opts:
-    headers:
-      Host: tw135037538.pkmkwvxqnn.xyz
-    path: /video/MNBrTghv
+  type: ss
