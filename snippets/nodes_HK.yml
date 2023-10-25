@@ -21,7 +21,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 98a8ade0-0aa3-4ac4-8ab5-18f48b0cd1f1
+  uuid: e2489251-3f00-4367-b1c9-85cb8b7ae52e
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -31,7 +31,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 98a8ade0-0aa3-4ac4-8ab5-18f48b0cd1f1
+  uuid: e2489251-3f00-4367-b1c9-85cb8b7ae52e
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -41,7 +41,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 98a8ade0-0aa3-4ac4-8ab5-18f48b0cd1f1
+  uuid: e2489251-3f00-4367-b1c9-85cb8b7ae52e
+- alterId: 0
+  cipher: auto
+  name: 11|🇭🇰 香港_1025107
+  network: ws
+  port: 80
+  server: hktddns.aikunapp.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1e63f999-7553-46c0-93eb-65b6553e1bde
+  ws-opts:
+    headers:
+      Host: sanmao17.hkbn.n.optage.moe
+    path: /hkbn
 - alterId: 0
   cipher: auto
   name: 11|🔒 VM-TCP-NA 🇭🇰 HK-8.217.4.110:...
@@ -61,7 +75,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c87e1ad1-cbed-43e0-9824-0476d6fb155a
+  uuid: 9a0e83f5-3848-4816-b25f-93399eb490aa
 - alterId: 0
   cipher: auto
   name: 12|香港 05 | 1x HK
@@ -71,7 +85,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c87e1ad1-cbed-43e0-9824-0476d6fb155a
+  uuid: 9a0e83f5-3848-4816-b25f-93399eb490aa
 - alterId: 0
   cipher: auto
   name: 12|香港 06 | 1x HK
@@ -81,7 +95,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c87e1ad1-cbed-43e0-9824-0476d6fb155a
+  uuid: 9a0e83f5-3848-4816-b25f-93399eb490aa
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港KT2|@ripaojiedian
