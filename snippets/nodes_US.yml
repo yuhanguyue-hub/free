@@ -1,91 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: '0,3,6|🇺🇸_US_美国 #13'
+  name: 0,11|🇺🇸 美国 334
   network: ws
-  port: 80
-  server: 104.21.75.246
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,6|🇺🇸_US_美国 #14'
-  network: ws
-  port: 80
-  server: 172.67.184.13
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '0|🇺🇸 _US_美国 #2'
-  network: ws
-  port: '30000'
-  server: 156.225.67.104
-  tls: true
-  type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-  ws-opts:
-    headers:
-      Host: www.41758112.xyz
-    path: /path/1696944806961
-- alterId: 0
-  cipher: auto
-  name: '0,3,6|🇺🇸_US_美国 #15'
-  network: ws
-  port: 80
-  server: wnd3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: wnd3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,6|🇺🇸_US_美国 #16'
-  network: http
   port: 443
-  server: 5.161.159.21
-  tls: false
-  type: vmess
-  uuid: 3d1fab6e-3bd6-472b-8d9c-9934c04eaf40
-- alterId: 0
-  cipher: auto
-  name: '0,3,6|🇺🇸_US_美国 #20'
-  network: ws
-  port: 80
-  server: wnd2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: wnd2.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '0,6|🇺🇸_US_美国 #21'
-  network: ws
-  port: 30000
-  server: 45.199.138.186
+  server: 104.16.67.38
+  servername: ''
   tls: true
   type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: www.19229362.xyz
-    path: /path/1696682720138
+      Host: alvvin.click
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: 1|_US__1
@@ -130,7 +57,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: none
-  name: 1,2,3,4,17|🇺🇸_US_美国_5_23
+  name: '1,2,3,4|🇺🇸_US_美国 #8'
   network: ws
   port: 2082
   server: 206.168.190.219
@@ -142,7 +69,7 @@ proxies:
     path: /vmws
 - alterId: 0
   cipher: auto
-  name: 1,2,3,4,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_3
+  name: '1,2,3,4|🇺🇸_US_美国 #9'
   network: ws
   port: 8080
   server: 206.168.190.219
@@ -180,7 +107,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,4,6|🇺🇸_US_美国 #12'
+  name: 2,4,6,17|🇺🇸_US_美国_4_37
   network: ws
   port: 80
   server: jd2.shabijichang.com
@@ -193,7 +120,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '3,6|🇺🇸_US_美国 #19'
+  name: 3,6,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com2_46
   network: ws
   port: 443
   server: 107.167.16.85
@@ -206,7 +133,16 @@ proxies:
     path: /path/080822272914
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国 #10'
+  name: 3,6,17|🇺🇸_US_美国_9_43
+  network: http
+  port: 443
+  server: 5.161.159.21
+  tls: false
+  type: vmess
+  uuid: 3d1fab6e-3bd6-472b-8d9c-9934c04eaf40
+- alterId: 0
+  cipher: auto
+  name: 3,6,17|🇺🇸_US_美国_2_25
   network: tcp
   port: 41916
   server: 195.123.240.170
@@ -215,7 +151,7 @@ proxies:
   uuid: 12772df9-485f-413c-edbf-3f562d61de4e
 - alterId: 0
   cipher: auto
-  name: 3,6,17|🇺🇸_US_美国_2_9
+  name: 3,6,17|🇺🇸_US_美国_3_36
   network: ws
   port: 80
   server: fhc2.shabijichang.com
@@ -228,7 +164,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,6,11|🇺🇸_US_美国 #23'
+  name: 3,6,17|🇺🇸_US_美国_8_42
+  network: ws
+  port: 80
+  server: wnd3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: wnd3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,6,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com3_49
+  network: ws
+  port: 80
+  server: wnd2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: wnd2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,6,11,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com0_44
   network: ws
   port: 443
   server: waynn.makeup
@@ -241,7 +203,20 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '3,6|🇺🇸_US_美国 #18'
+  name: 3,6,17|🇺🇸_US_美国_5_39
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,6,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com1_45
   network: ws
   port: 80
   server: ml2.shabijichang.com
@@ -254,7 +229,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国 #22'
+  name: 6,17|🇺🇸_US_美国_6_40
+  network: ws
+  port: 80
+  server: 172.67.184.13
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 6,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com4_54
+  network: ws
+  port: 30000
+  server: 45.199.138.186
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  ws-opts:
+    headers:
+      Host: www.19229362.xyz
+    path: /path/1696682720138
+- alterId: 0
+  cipher: auto
+  name: 6,17|🇺🇸_US_美国_由快嘴科技提供;kkzui.com5_55
   network: ws
   port: 80
   server: asb2.shabijichang.com
@@ -267,19 +268,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|「www.starnetcn.com 年付85折 不定期抽U... #1'
-  network: ws
-  port: 443
-  server: 198.2.203.153
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1691837402073
-- alterId: 0
-  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -287,7 +275,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2bd3c73e-cc9c-417a-a958-5d612d3f6117
+  uuid: 47123555-3956-4d13-994a-ddaa6ceae062
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -297,7 +285,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2bd3c73e-cc9c-417a-a958-5d612d3f6117
+  uuid: 47123555-3956-4d13-994a-ddaa6ceae062
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -307,7 +295,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2bd3c73e-cc9c-417a-a958-5d612d3f6117
+  uuid: 47123555-3956-4d13-994a-ddaa6ceae062
 - alterId: 0
   cipher: auto
   name: 11|🇺🇸 美国_10251054 2
@@ -335,20 +323,6 @@ proxies:
   ws-opts:
     headers:
       Host: octavi.cfd
-    path: linkvws
-- alterId: 1
-  cipher: auto
-  name: 11|🇺🇸 美国 334
-  network: ws
-  port: 443
-  server: 104.16.67.38
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: alvvin.click
     path: linkvws
 - alterId: 0
   cipher: auto
@@ -615,7 +589,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe90a12-9cdd-4f4f-ad0a-55acbbe9b1c1
+  uuid: 4e74af5f-f27d-4a29-b3c0-12570cd4a52a
 - alterId: 0
   cipher: auto
   name: 12|美国 05 | 1x US
@@ -625,7 +599,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe90a12-9cdd-4f4f-ad0a-55acbbe9b1c1
+  uuid: 4e74af5f-f27d-4a29-b3c0-12570cd4a52a
 - alterId: 0
   cipher: auto
   name: 12|美国 06 | 1x US
@@ -635,7 +609,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe90a12-9cdd-4f4f-ad0a-55acbbe9b1c1
+  uuid: 4e74af5f-f27d-4a29-b3c0-12570cd4a52a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -656,9 +630,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
+  name: 13,14,17|🇨🇳_CN_中国->🇺🇸_US_美国_6
   network: ws
-  port: '63011'
+  port: 63011
   server: 120.241.46.222
   servername: ''
   skip-cert-verify: false
@@ -695,29 +669,3 @@ proxies:
     headers:
       Host: us2.wxgqlfx883.xyz
     path: /946915f4-b72d-4193-9c4f-1efeda1c0c21
-- alterId: 0
-  cipher: auto
-  name: 17|🇺🇸_US_美国_3_由快嘴科技提供;kkzui.com4
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  tls: false
-  type: vmess
-  uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6
-  ws-opts:
-    headers:
-      Host: it1.xv2ray.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 17|🇺🇸_US_美国_4_2由快嘴科技提供;kkzui.com
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 4c0699aa-790e-4ccc-b9aa-5cff4b1165e3
-  ws-opts:
-    headers:
-      Host: tw135037538.pkmkwvxqnn.xyz
-    path: /video/MNBrTghv

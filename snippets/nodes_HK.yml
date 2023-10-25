@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,8|「starnet，老牌公益机场」🇭🇰 HK 01 #1'
+  name: 0|🇭🇰 _HK_香港
   network: ws
-  port: 443
-  server: 47.242.109.138
-  skip-cert-verify: true
-  tls: true
+  port: '80'
+  server: 8.218.181.189
+  tls: false
   type: vmess
-  udp: true
-  uuid: 9dc41e4b-53a8-a442-e911-4bc5f490f2cd
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
-    path: /myblog
+    headers:
+      Host: br.gy.youxuan-1.66688888.xyz
+    path: /tg@hkaa0
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04
@@ -21,7 +21,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2bd3c73e-cc9c-417a-a958-5d612d3f6117
+  uuid: 47123555-3956-4d13-994a-ddaa6ceae062
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -31,7 +31,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2bd3c73e-cc9c-417a-a958-5d612d3f6117
+  uuid: 47123555-3956-4d13-994a-ddaa6ceae062
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -41,7 +41,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2bd3c73e-cc9c-417a-a958-5d612d3f6117
+  uuid: 47123555-3956-4d13-994a-ddaa6ceae062
 - alterId: 0
   cipher: auto
   name: 11|🇭🇰 香港_1025107
@@ -65,7 +65,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe90a12-9cdd-4f4f-ad0a-55acbbe9b1c1
+  uuid: 4e74af5f-f27d-4a29-b3c0-12570cd4a52a
 - alterId: 0
   cipher: auto
   name: 12|香港 05 | 1x HK
@@ -75,7 +75,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe90a12-9cdd-4f4f-ad0a-55acbbe9b1c1
+  uuid: 4e74af5f-f27d-4a29-b3c0-12570cd4a52a
 - alterId: 0
   cipher: auto
   name: 12|香港 06 | 1x HK
@@ -85,7 +85,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe90a12-9cdd-4f4f-ad0a-55acbbe9b1c1
+  uuid: 4e74af5f-f27d-4a29-b3c0-12570cd4a52a
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港KT2|@ripaojiedian

@@ -1,6 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 0,13|🇰🇷 韩国3|@ripaojiedian
+  network: ws
+  port: 21106
+  server: cadld2.gophers.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb
+  ws-opts:
+    headers:
+      Host: cadld2.gophers.gay
+    path: /
+- alterId: 0
+  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -8,7 +24,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2bd3c73e-cc9c-417a-a958-5d612d3f6117
+  uuid: 47123555-3956-4d13-994a-ddaa6ceae062
 - alterId: 0
   cipher: auto
   name: 11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.248....
@@ -62,4 +78,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe90a12-9cdd-4f4f-ad0a-55acbbe9b1c1
+  uuid: 4e74af5f-f27d-4a29-b3c0-12570cd4a52a
