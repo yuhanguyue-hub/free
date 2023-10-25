@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供;kkz...
+  name: 0,3,6,17|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供;kkz...
   network: ws
   port: 80
   server: mm2.shabijichang.com
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,18|🇺🇸_US_美国->🇮🇳_IN_印度_2_20
+  name: 0,17|🇺🇸_US_美国->🇮🇳_IN_印度_2_20
   network: ws
   port: 80
   server: hdlb2.shabijichang.com
@@ -217,7 +217,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
+  name: 2,3,4,6,17|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -304,3 +304,17 @@ proxies:
   server: 43.200.7.213
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸_US_美国->🇮🇳_IN_印度_0@9
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
