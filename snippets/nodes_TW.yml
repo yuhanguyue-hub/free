@@ -8,7 +8,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b10aa744-a30d-4bab-a3e1-46a32502a1c3
+  uuid: bcfca9d7-b2b0-4188-9fae-083f9becb80e
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -18,7 +18,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b10aa744-a30d-4bab-a3e1-46a32502a1c3
+  uuid: bcfca9d7-b2b0-4188-9fae-083f9becb80e
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -28,7 +28,7 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b10aa744-a30d-4bab-a3e1-46a32502a1c3
+  uuid: bcfca9d7-b2b0-4188-9fae-083f9becb80e
 - alterId: 0
   cipher: auto
   name: 12|台湾 04  | 1x TWN
@@ -38,7 +38,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5a68a9dc-3da8-48ab-9b6e-7aeb7786f5dd
+  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
 - alterId: 0
   cipher: auto
   name: 12|台湾 05  | 1x TWN
@@ -48,7 +48,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5a68a9dc-3da8-48ab-9b6e-7aeb7786f5dd
+  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
 - alterId: 0
   cipher: auto
   name: 12|台湾 06  | 1x TWN
@@ -58,12 +58,14 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5a68a9dc-3da8-48ab-9b6e-7aeb7786f5dd
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 13|🇹🇼 台湾1|@ripaojiedian
-  password: 3Nu3sC
-  port: 21523
-  server: dnsb.zz01.zzssptop.com
-  tfo: false
-  type: ss
+  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
+- alterId: 0
+  cipher: auto
+  name: 14|台湾|@ripaojiedian
+  network: tcp
+  port: '50008'
+  server: 08.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: efb313db-cafb-417a-96e8-740212ec4132
