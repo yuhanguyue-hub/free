@@ -24,21 +24,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d60c6c21-b954-4b8b-8270-e664b3bea54e
-- alterId: 0
-  cipher: auto
-  name: 11|🇨🇦 加拿大 253
-  network: ws
-  port: 443
-  server: laravel.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4548b8de-c6f5-41f2-8cb6-723c8db8ed03
-  ws-opts:
-    headers:
-      Host: sub.xn--9kq89d4y0g.top
-    path: /us.binghe.design:443/
+  uuid: b10aa744-a30d-4bab-a3e1-46a32502a1c3
 - alterId: 0
   cipher: auto
   name: 11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.248....
@@ -61,11 +47,10 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 11|🇨🇦 CA 19
+  name: 11|🇨🇦_CA_加拿大
   network: ws
   port: 80
   server: 108.181.10.17
-  servername: ''
   tls: false
   type: vmess
   uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
@@ -75,6 +60,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 11|🇨🇦 加拿大 253
+  network: ws
+  port: 443
+  server: laravel.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4548b8de-c6f5-41f2-8cb6-723c8db8ed03
+  ws-opts:
+    headers:
+      Host: sub.xn--9kq89d4y0g.top
+    path: /us.binghe.design:443/
+- alterId: 0
+  cipher: auto
   name: 12|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -82,4 +81,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7e40a7d1-09ae-4b2e-93b3-7f0e03312111
+  uuid: 5a68a9dc-3da8-48ab-9b6e-7aeb7786f5dd
