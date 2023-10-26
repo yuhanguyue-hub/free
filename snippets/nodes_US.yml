@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,18|🇺🇸_US_美国_3_36
+  name: 0|🇺🇸 _US_美国
   network: ws
-  port: 80
+  port: '80'
   server: fhc2.shabijichang.com
   tls: false
   type: vmess
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com2_46
+  name: '0,2,3,4|🇺🇸_US_美国 #10'
   network: ws
   port: 443
   server: 107.167.16.85
@@ -55,7 +55,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,4,18|🇺🇸_US_美国_4_37
+  name: '0,2,4|🇺🇸_US_美国 #13'
   network: ws
   port: 80
   server: jd2.shabijichang.com
@@ -68,7 +68,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,11,18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com4_54
+  name: 0,2,3,4,6,11,18|🇺🇸_US_美国_4_42
   network: ws
   port: 30000
   server: 45.199.138.186
@@ -81,7 +81,7 @@ proxies:
     path: /path/1696682720138
 - alterId: 0
   cipher: auto
-  name: 0,2,4,6,18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com3_49
+  name: 0,2,4,6,18|🇺🇸_US_美国_3_40
   network: ws
   port: 80
   server: wnd2.shabijichang.com
@@ -94,7 +94,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,2,4,18|🇺🇸_US_美国_2_25
+  name: '0,1,2,4|🇺🇸_US_美国 #16'
   network: tcp
   port: 41916
   server: 195.123.240.170
@@ -104,7 +104,7 @@ proxies:
   uuid: 12772df9-485f-413c-edbf-3f562d61de4e
 - alterId: 0
   cipher: auto
-  name: 0,2,4,6,18|🇺🇸_US_美国_5_39
+  name: 0,2,4,6,18|🇺🇸_US_美国_8_52
   network: ws
   port: 80
   server: 104.21.75.246
@@ -240,7 +240,7 @@ proxies:
       Host: fhc2.shabijichang.com
 - alterId: 0
   cipher: auto
-  name: 3,6,11|🇺🇸_US_美国_1
+  name: 3,6,11,18|🇺🇸_US_美国_2_34
   network: ws
   port: 2082
   server: 206.168.190.219
@@ -249,12 +249,10 @@ proxies:
   type: vmess
   uuid: e31ca750-71f7-11ee-b920-1239d0255272
   ws-opts:
-    headers:
-      Host: ''
     path: /vmws
 - alterId: 0
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国_8_42
+  name: 3,6,18|🇺🇸_US_美国_5_43
   network: ws
   port: 80
   server: wnd3.shabijichang.com
@@ -274,7 +272,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0aebfbb8-d42d-4612-ac80-366cfeb04372
+  uuid: ce6240f0-5e39-481b-9fd5-267188a08317
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -284,7 +282,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0aebfbb8-d42d-4612-ac80-366cfeb04372
+  uuid: ce6240f0-5e39-481b-9fd5-267188a08317
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -294,7 +292,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0aebfbb8-d42d-4612-ac80-366cfeb04372
+  uuid: ce6240f0-5e39-481b-9fd5-267188a08317
 - alterId: 64
   cipher: auto
   name: 11|🇺🇸_US_美国_yui科技_32
@@ -968,9 +966,9 @@ proxies:
     path: /path/1698239888914
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸|US|美国|@wxgqlfx|2
+  name: 11,18|🇺🇸_US_美国_2_4
   network: ws
-  port: '443'
+  port: 443
   server: Jolimolilap.com
   servername: s4.folow-r18.cfd
   tls: true
@@ -1153,7 +1151,7 @@ proxies:
     path: /path/1698239888914
 - alterId: 64
   cipher: auto
-  name: 11|🇺🇸_US_美国_yui科技_9
+  name: 11,18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_1
   network: ws
   port: 30000
   server: 156.225.67.104
@@ -1405,7 +1403,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 453bd5cc-c7cb-4c72-9003-c1565036cb81
+  uuid: af6ba56f-47e4-4e2f-a01e-e18c3a7f0a3a
 - alterId: 0
   cipher: auto
   name: 12|美国 05 | 1x US
@@ -1415,7 +1413,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 453bd5cc-c7cb-4c72-9003-c1565036cb81
+  uuid: af6ba56f-47e4-4e2f-a01e-e18c3a7f0a3a
 - alterId: 0
   cipher: auto
   name: 12|美国 06 | 1x US
@@ -1425,13 +1423,13 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 453bd5cc-c7cb-4c72-9003-c1565036cb81
+  uuid: af6ba56f-47e4-4e2f-a01e-e18c3a7f0a3a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
+  name: 13,14,18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
   network: ws
-  port: '62009'
+  port: 62009
   server: 120.241.46.222
   servername: ''
   skip-cert-verify: false
@@ -1459,7 +1457,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: d341b089-3a40-4410-8d59-a395edf39575
+  uuid: f92e2def-4542-488f-aa9f-333d64b0b9e4
   ws-opts:
     headers:
       Host: ''
@@ -1472,7 +1470,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: d341b089-3a40-4410-8d59-a395edf39575
+  uuid: f92e2def-4542-488f-aa9f-333d64b0b9e4
   ws-opts:
     headers:
       Host: ''
@@ -1485,7 +1483,7 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: d341b089-3a40-4410-8d59-a395edf39575
+  uuid: f92e2def-4542-488f-aa9f-333d64b0b9e4
   ws-opts:
     headers:
       Host: ''
@@ -1498,7 +1496,7 @@ proxies:
   server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: d341b089-3a40-4410-8d59-a395edf39575
+  uuid: f92e2def-4542-488f-aa9f-333d64b0b9e4
   ws-opts:
     headers:
       Host: ''
@@ -1511,7 +1509,7 @@ proxies:
   server: gzdx01.jcnode.top
   tls: false
   type: vmess
-  uuid: d341b089-3a40-4410-8d59-a395edf39575
+  uuid: f92e2def-4542-488f-aa9f-333d64b0b9e4
   ws-opts:
     headers:
       Host: ''
@@ -1524,69 +1522,68 @@ proxies:
   server: gzdx.jcnode.top
   tls: false
   type: vmess
-  uuid: d341b089-3a40-4410-8d59-a395edf39575
+  uuid: f92e2def-4542-488f-aa9f-333d64b0b9e4
   ws-opts:
     headers:
       Host: ''
     path: ''
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇺🇸_US_美国_6_40
+  name: 18|🇺🇸_US_美国_3_6
   network: ws
-  port: 80
-  server: 172.67.184.13
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国_9_43
-  network: http
-  port: 443
-  server: 5.161.159.21
-  tls: false
-  type: vmess
-  uuid: 3d1fab6e-3bd6-472b-8d9c-9934c04eaf40
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com0_44
-  network: ws
-  port: 443
-  server: waynn.makeup
+  port: 30000
+  server: 23.224.255.173
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: waynn.makeup
-    path: linkvws
+      Host: www.53638055.xyz
+    path: /path/1698239888914
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸_US_美国_4_9
+  network: ws
+  port: 30000
+  server: 156.225.67.25
+  tls: true
+  type: vmess
+  uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
+  ws-opts:
+    headers:
+      Host: www.36318181.xyz
+    path: /path/1698239888914
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸_US_美国_5_由快嘴科技提供;kkzui.com0
+  network: ws
+  port: 30000
+  server: 156.225.67.102
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.38991360.xyz
+    path: /path/1698239888914
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com1_45
+  name: 18|🇺🇸_US_美国_6_由快嘴科技提供;kkzui.com9
   network: ws
   port: 80
-  server: ml2.shabijichang.com
+  server: 158.101.7.8
   tls: false
   type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
   ws-opts:
-    headers:
-      Host: ml2.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com5_55
+  name: 18|🇺🇸_US_美国_7_20
   network: ws
-  port: 80
-  server: asb2.shabijichang.com
-  tls: false
+  port: 443
+  server: 107.167.16.85
+  tls: true
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: asb2.shabijichang.com
-    path: /
+  uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
+  ws-opts: {}

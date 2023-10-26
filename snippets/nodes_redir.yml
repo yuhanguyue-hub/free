@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3'
+  name: 0,2,4,6,18|🇺🇸_US_美国->🇬🇧_GB_英国_4_5由快嘴科技提供;...
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_3_37
   network: ws
   port: 80
   server: flkf2.shabijichang.com
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,4,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供;kkz...
+  name: 0,2,4,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_4_53
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -82,7 +82,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_3_由快嘴科技提供;k...
+  name: '3,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供;kkz... #1'
   network: ws
   port: 80
   server: 104.17.18.26
@@ -96,7 +96,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,6,13,14,18|🇺🇸_US_美国->🇮🇳_IN_印度_2_由快嘴科技提供;k...
+  name: 3,6,13,14,18|🇺🇸_US_美国->🇮🇳_IN_印度_2_36
   network: ws
   port: 80
   server: 104.26.8.44
@@ -112,7 +112,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_22
+  name: 3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_33
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -125,7 +125,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 3,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_34
+  name: 3,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_3_39
   network: ws
   port: 80
   server: mm2.shabijichang.com
@@ -138,7 +138,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,18|🇺🇸_US_美国_2_由快嘴科技提供;kkzui.com1
+  name: 6,18|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_38
   network: ws
   port: 80
   server: jd3.shabijichang.com
@@ -151,7 +151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6|🇹🇼_TW_台湾->🇺🇸_US_美国
+  name: 6,18|🇹🇼_TW_台湾->🇺🇸_US_美国_49
   network: ws
   port: 80
   server: 107.167.182.230
@@ -164,7 +164,7 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: 6,18|🇺🇸_US_美国->🇬🇧_GB_英国_2_38
+  name: 6,18|🇺🇸_US_美国->🇬🇧_GB_英国_3_50
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -216,16 +216,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_6
-  network: ws
-  port: 63011
-  server: 120.241.46.222
-  tls: false
-  type: vmess
-  uuid: 798b440f-b27d-3247-88be-3e2767daef83
-  ws-opts:
-    headers:
-      Host: b.cn-db.top
-    path: /dabai.in
