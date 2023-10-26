@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8,11|🔒 VM-WS-NONE 🇸🇬 SG-146.190.104...
+  name: '7,8|🇸🇬 Singapore 01 @nodpai #1'
   network: ws
   port: 18154
   server: 146.190.104.67
@@ -11,8 +11,6 @@ proxies:
   udp: true
   uuid: 24c3f5e2-7b6a-46f1-821f-2449f48bfbe3
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - cipher: aes-256-cfb
   name: 8|🇸🇬 Singapore 02 @nodpai
@@ -37,7 +35,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bcfca9d7-b2b0-4188-9fae-083f9becb80e
+  uuid: 0267e562-7440-4ac7-bff5-a8dfbe28e453
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -47,7 +45,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bcfca9d7-b2b0-4188-9fae-083f9becb80e
+  uuid: 0267e562-7440-4ac7-bff5-a8dfbe28e453
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -57,7 +55,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bcfca9d7-b2b0-4188-9fae-083f9becb80e
+  uuid: 0267e562-7440-4ac7-bff5-a8dfbe28e453
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬 新加坡_102611087
+  network: ws
+  port: 8080
+  server: 139.180.143.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|新加坡 04 | 1x SG
@@ -67,7 +79,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
+  uuid: 8669709c-a8cb-4f2e-ba57-e4c02b4d1d33
 - alterId: 0
   cipher: auto
   name: 12|新加坡 05 | 1x SG
@@ -77,7 +89,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
+  uuid: 8669709c-a8cb-4f2e-ba57-e4c02b4d1d33
 - alterId: 0
   cipher: auto
   name: 12|新加坡 06 | 1x SG
@@ -87,7 +99,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
+  uuid: 8669709c-a8cb-4f2e-ba57-e4c02b4d1d33
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇸🇬 狮城特殊|@ripaojiedian
