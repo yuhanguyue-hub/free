@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_3_37
+  name: '0,2,3,4,6,11,18|🇺🇸_US_美国->🇩🇪_DE_德国_3_37 #1'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
@@ -191,23 +191,23 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 8,13|🇰🇷 韩国2|@ripaojiedian
+  name: 8,13|🇭🇰 香港2|@ripaojiedian
   password: M83a100a
-  port: 28157
-  server: 183.213.200.208
-  skip-cert-verify: true
+  port: 53300
+  server: 112.29.94.22
+  skip-cert-verify: false
   sni: www.icloud.com
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯 #1'
+  name: 11|🇺🇸_US_美国->🇧🇷_BR_巴西_2_9@19
   network: ws
   port: 80
-  server: jd3.shabijichang.com
+  server: sbl4.shabijichang.com
   servername: ''
   tls: false
   type: vmess

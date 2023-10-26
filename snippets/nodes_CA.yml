@@ -52,7 +52,17 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ce6240f0-5e39-481b-9fd5-267188a08317
+  uuid: b6ac087c-c427-4730-abed-0ee25ed96147
+- alterId: 0
+  cipher: auto
+  name: 11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.248....
+  network: tcp
+  port: '3389'
+  server: 146.190.248.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 11|🇨🇦 加拿大 260
@@ -69,24 +79,10 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 11|🇨🇦 加拿大 173
-  network: ws
-  port: 8443
-  server: 172.67.153.179
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 874a60cd-f099-499a-8aee-e4606ccf3e86
-  ws-opts:
-    headers:
-      Host: nomore.hideip.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.248....
+  name: 11|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
   network: tcp
   port: '3389'
-  server: 146.190.248.140
+  server: 142.93.144.99
   servername: ''
   tls: false
   type: vmess
@@ -114,4 +110,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: af6ba56f-47e4-4e2f-a01e-e18c3a7f0a3a
+  uuid: 457239ec-4509-4239-aa1a-5128437cb718
