@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,11,18|🇺🇸_US_美国->🇩🇪_DE_德国_3_37 #1'
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇩🇪_DE_德国_3_37
   network: ws
   port: 80
   server: flkf2.shabijichang.com
@@ -204,10 +204,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸_US_美国->🇧🇷_BR_巴西_2_9@19
+  name: 11|🇺🇸_US_美国->🇮🇹_IT_意大利_12@27
   network: ws
   port: 80
-  server: sbl4.shabijichang.com
+  server: ml3.shabijichang.com
   servername: ''
   tls: false
   type: vmess
@@ -216,3 +216,29 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  name: '11|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: 30000
+  server: 156.225.67.234
+  tls: true
+  type: vmess
+  uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29
+  ws-opts:
+    headers:
+      Host: www.47734647.xyz
+    path: /path/1698239888914
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供;kkz...
+  network: ws
+  port: 62009
+  server: 120.241.46.222
+  tls: false
+  type: vmess
+  uuid: 22de7de9-26c8-396a-9258-7cc0658ac370
+  ws-opts:
+    headers:
+      Host: c.cn-db.top
+    path: /dabai.in
