@@ -1,45 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,18|🇺🇸_US_美国->🇰🇷_KR_韩国_由快嘴科技提供;kkz...
-  network: ws
-  port: 21106
-  server: cadld2.gophers.gay
-  tls: false
-  type: vmess
-  uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb
-  ws-opts:
-    headers:
-      Host: cadld2.gophers.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1,2,4|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 21106
-  server: cadld2.gophers.gay
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,6,11,18|🇨🇦_CA_加拿大_24
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -47,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 57ca2891-dae5-4bf3-878b-15fff1a6487a
+  uuid: d10dd925-b28c-4f50-a622-447e09ec70aa
 - alterId: 0
   cipher: auto
   name: 11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -147,6 +108,20 @@ proxies:
   ws-opts:
     headers:
       Host: dk1.xv2ray.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,18|🇨🇦_CA_加拿大_24
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
     path: /
 - alterId: 0
   cipher: auto
@@ -311,4 +286,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 89ddd961-3a7d-4b1d-8dd2-32a2cf54a88f
+  uuid: fbf4530b-7d75-42ae-b6a9-99a6f343b0f9
