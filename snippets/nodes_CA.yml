@@ -1,6 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '1,2,3,4|🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -8,7 +20,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: aed210c7-20da-456d-b368-4791e33d5e76
+  uuid: 2193081c-2f51-4d29-8439-fc5c38eabe79
 - alterId: 0
   cipher: auto
   name: 11|加拿大 095
@@ -437,20 +449,6 @@ proxies:
     path: /XQ2WCa29jfDMGBcbnQ
 - alterId: 0
   cipher: auto
-  name: 11|加拿大 083
-  network: ws
-  port: 8443
-  server: 104.31.16.120
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-  ws-opts:
-    headers:
-      Host: cloudconebbb.gorgorchicken.one
-    path: /cloudconebbb
-- alterId: 0
-  cipher: auto
   name: 11|加拿大 093
   network: ws
   port: 8880
@@ -543,6 +541,20 @@ proxies:
     headers:
       Host: ''
     path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 11|加拿大 005
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 11|加拿大 094
@@ -814,4 +826,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 451b0b47-dfe0-450d-945e-0b49c2f2228a
+  uuid: 45c9b878-0ecd-4dd3-81ee-d0269f6a333a
