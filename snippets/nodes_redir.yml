@@ -454,30 +454,17 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '7,8|中转 🇨🇳 China 01 @nodpai #1'
+  name: '12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2'
   network: ws
-  port: 19709
-  server: 123.249.101.15
-  skip-cert-verify: true
-  tls: false
+  port: 30000
+  server: 45.199.138.191
+  servername: ''
+  tls: true
   type: vmess
-  udp: true
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,14|🇰🇷 韩国2|@ripaojiedian
-  password: M83a100a
-  port: 28157
-  server: 183.213.200.208
-  skip-cert-verify: false
-  sni: www.icloud.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 379af13b-ff87-429c-b0b4-50bd542b5ce6
+    headers:
+      Host: ''
+    path: /path/1696251522438
