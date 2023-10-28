@@ -8,7 +8,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b5ccee25-9bca-4338-a644-d13c8db36d00
+  uuid: 72ecf182-4686-46f9-8d0e-856881ad4777
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -18,7 +18,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b5ccee25-9bca-4338-a644-d13c8db36d00
+  uuid: 72ecf182-4686-46f9-8d0e-856881ad4777
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -28,34 +28,48 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b5ccee25-9bca-4338-a644-d13c8db36d00
+  uuid: 72ecf182-4686-46f9-8d0e-856881ad4777
 - alterId: 0
   cipher: auto
-  name: 12|台湾 04  | 1x TWN
+  name: 11,12|越南 002
+  network: ws
+  port: 80
+  server: 103.122.140.137
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d3f12779-0523-4064-bc6f-b870cdb1dd48
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /viefast.vn
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
   network: tcp
   port: '31301'
   server: 2d1t5w04.mcfront.xyz
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50a0f803-04aa-4355-ae5d-335c46de428c
+  uuid: 4567fa99-60be-428b-a0a6-c8e07284bf05
 - alterId: 0
   cipher: auto
-  name: 12|台湾 05  | 1x TWN
+  name: 13|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
   server: 2d1t5w05.mcfront.xyz
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50a0f803-04aa-4355-ae5d-335c46de428c
+  uuid: 4567fa99-60be-428b-a0a6-c8e07284bf05
 - alterId: 0
   cipher: auto
-  name: 12|台湾 06  | 1x TWN
+  name: 13|台湾 06  | 1x TWN
   network: tcp
   port: '31311'
   server: 2d1t5w06.mcfront.xyz
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 50a0f803-04aa-4355-ae5d-335c46de428c
+  uuid: 4567fa99-60be-428b-a0a6-c8e07284bf05

@@ -158,7 +158,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,6,13,14,18|🇨🇳_CN_中国->🇺🇸_US_美国_5_30
+  name: 0,6,14,15,18|🇨🇳_CN_中国->🇺🇸_US_美国_5_30
   network: ws
   port: 61001
   server: 120.241.46.222
@@ -276,17 +276,18 @@ proxies:
     path: /dabai.in
 - alterId: 64
   cipher: auto
-  name: 1|_US_->_NL_
+  name: '1,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3'
   network: ws
   port: 30000
   server: 156.225.67.234
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29
   ws-opts:
     headers:
-      host: www.47734647.xyz
+      Host: ''
     path: /path/1698239888914
 - alterId: 0
   cipher: auto
@@ -469,7 +470,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8,13|🇰🇷 韩国2|@ripaojiedian
+  name: 8,14|🇰🇷 韩国2|@ripaojiedian
   password: M83a100a
   port: 28157
   server: 183.213.200.208
