@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 847906bd-59b5-4960-a433-946b7cbfdcf9
+  uuid: b5ccee25-9bca-4338-a644-d13c8db36d00
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 847906bd-59b5-4960-a433-946b7cbfdcf9
+  uuid: b5ccee25-9bca-4338-a644-d13c8db36d00
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,41 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 847906bd-59b5-4960-a433-946b7cbfdcf9
-- alterId: 0
-  cipher: auto
-  name: 11|🔒 VM-WS-NONE 🇯🇵 JP-152.69.197....
-  network: ws
-  port: '12345'
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: 152.69.197.74
-    path: /bb
-- alterId: 0
-  cipher: auto
-  name: 11|🇯🇵白嫖-053
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 64
-  cipher: auto
-  name: 11|🔒 VM-TCP-NONE 🇯🇵 JP-140.83.63....
-  network: tcp
-  port: '24445'
-  server: 140.83.63.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  uuid: b5ccee25-9bca-4338-a644-d13c8db36d00
 - alterId: 64
   cipher: auto
   name: 11|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
@@ -88,6 +54,16 @@ proxies:
     path: /tg@herhero6
 - alterId: 0
   cipher: auto
+  name: 11|🔒 VM-TCP-NONE 🇯🇵 JP-152.69.197...
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
   name: 11|🇯🇵白嫖-061
   network: tcp
   port: 20081
@@ -105,7 +81,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4c4a622e-a0ae-43b0-8faa-aef3dbfa48a1
+  uuid: 50a0f803-04aa-4355-ae5d-335c46de428c
 - alterId: 0
   cipher: auto
   name: 12|日本 05  | 1x JP
@@ -115,7 +91,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4c4a622e-a0ae-43b0-8faa-aef3dbfa48a1
+  uuid: 50a0f803-04aa-4355-ae5d-335c46de428c
 - alterId: 0
   cipher: auto
   name: 12|日本 06  | 1x JP
@@ -125,7 +101,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4c4a622e-a0ae-43b0-8faa-aef3dbfa48a1
+  uuid: 50a0f803-04aa-4355-ae5d-335c46de428c
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 13|🇯🇵 日本KT|@ripaojiedian
