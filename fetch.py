@@ -397,6 +397,8 @@ class Node:
         if 'uuid' in ret and len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
         if 'group' in ret: del ret['group']
+        if 'cipher' in ret and not ret['cipher']:
+            ret['cipher'] = 'auto'
         return ret
 
     def supports_clash(self) -> bool:
