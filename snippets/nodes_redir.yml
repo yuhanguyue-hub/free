@@ -188,17 +188,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IN__4
+  name: 1,11|加拿大 005
   network: ws
   port: 80
   server: mm2.shabijichang.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mm2.shabijichang.com
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -216,7 +217,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_28
+  name: 2,3,4,6,11,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_28
   network: ws
   port: 30000
   server: 156.225.67.234
@@ -270,10 +271,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
+  name: 6,11,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
   network: ws
   port: 30000
   server: 45.199.138.191
+  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -310,10 +312,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸_US_美国->🇮🇳_IN_印度_3
+  name: 11|🇺🇸_US_美国->🇿🇦_ZA_南非_3@21
   network: ws
   port: 80
-  server: mm3.shabijichang.com
+  server: yhnsb3.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸_US_美国->🇮🇹_IT_意大利_12@27
+  network: ws
+  port: 80
+  server: ml3.shabijichang.com
   servername: ''
   tls: false
   type: vmess
