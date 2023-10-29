@@ -1,18 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '1,2,3,4|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -20,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9609131e-865b-459a-ac21-9bec2096c550
+  uuid: d44de24a-f3c7-4f89-877c-b4ef0f6e286e
 - alterId: 0
   cipher: auto
   name: 12|加拿大 056
@@ -590,4 +578,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 857f1c51-c619-4be7-a39a-f969518f28a9
+  uuid: ab133cdc-6539-462e-8bca-7539daf9dc48

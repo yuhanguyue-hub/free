@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,6,19|🇨🇳_CN_中国_36
+  name: 19|🇨🇳_CN_中国_36
   network: ws
   port: 61051
   server: 120.241.46.223
@@ -12,30 +12,3 @@ proxies:
     headers:
       Host: data.db-link01.top
     path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_
-  network: ws
-  port: 80
-  server: 124.220.57.75
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      host: 124.220.57.75
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '2,3,4|🇨🇳_CN_中国 #1'
-  network: ws
-  port: 80
-  server: 124.220.57.75
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      Host: 124.220.57.75
-    path: /
