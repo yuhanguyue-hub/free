@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4a47026a-16de-4771-b68f-5aceec25b708
+  uuid: 9609131e-865b-459a-ac21-9bec2096c550
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4a47026a-16de-4771-b68f-5aceec25b708
+  uuid: 9609131e-865b-459a-ac21-9bec2096c550
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,17 +28,16 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4a47026a-16de-4771-b68f-5aceec25b708
-- alterId: 0
+  uuid: 9609131e-865b-459a-ac21-9bec2096c550
+- alterId: 64
   cipher: auto
-  name: 12|🇯🇵白嫖-061
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
   network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
+  port: 51801
+  server: 45.88.43.143
   tls: false
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|日本a9
@@ -53,15 +52,26 @@ proxies:
     headers:
       Host: 5.wuxianliulianng.xyz
     path: /mp4
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  name: 12|🔒 VM-TCP-NONE 🇯🇵 JP-152.69.197...
   network: tcp
-  port: 51801
-  server: 45.88.43.143
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NONE 🇯🇵 JP-138.2.44.2...
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
   name: 13|日本 04  | 1x JP
@@ -71,7 +81,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7fc1c3b0-75c7-4b3b-824a-cf16423a85cb
+  uuid: 857f1c51-c619-4be7-a39a-f969518f28a9
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -81,7 +91,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7fc1c3b0-75c7-4b3b-824a-cf16423a85cb
+  uuid: 857f1c51-c619-4be7-a39a-f969518f28a9
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -91,7 +101,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7fc1c3b0-75c7-4b3b-824a-cf16423a85cb
+  uuid: 857f1c51-c619-4be7-a39a-f969518f28a9
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
