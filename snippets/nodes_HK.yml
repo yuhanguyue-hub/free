@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d44de24a-f3c7-4f89-877c-b4ef0f6e286e
+  uuid: 8c50d62c-af13-4f87-a1c9-322eb9270045
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d44de24a-f3c7-4f89-877c-b4ef0f6e286e
+  uuid: 8c50d62c-af13-4f87-a1c9-322eb9270045
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +28,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d44de24a-f3c7-4f89-877c-b4ef0f6e286e
+  uuid: 8c50d62c-af13-4f87-a1c9-322eb9270045
+- alterId: 0
+  cipher: auto
+  name: 12|香港 004
+  network: ws
+  port: 443
+  server: a4.wuxianliulianng.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: fbf32627-4db5-4e72-a05f-9eac1d19ebc9
+  ws-opts:
+    headers:
+      Host: bbq2.wxlljc520.com
+    path: /sometimesnaive
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -38,7 +52,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab133cdc-6539-462e-8bca-7539daf9dc48
+  uuid: 2eae1afb-c87d-47c2-8aec-40a05f5f0bee
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -48,7 +62,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab133cdc-6539-462e-8bca-7539daf9dc48
+  uuid: 2eae1afb-c87d-47c2-8aec-40a05f5f0bee
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -58,7 +72,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab133cdc-6539-462e-8bca-7539daf9dc48
+  uuid: 2eae1afb-c87d-47c2-8aec-40a05f5f0bee
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
