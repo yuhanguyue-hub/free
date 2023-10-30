@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 8,14|🇭🇰 香港1|@ripaojiedian
+  password: M83a100a
+  port: 50002
+  server: 02.kccic2pa.xyz
+  skip-cert-verify: false
+  sni: www.icloud.com
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a24d165e-408c-41cb-9997-0fcb012cb138
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -8,7 +22,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f2c1206-9728-416d-be80-08e0f64b9368
+  uuid: 817c15e7-291c-4d31-b400-baf10f50dd39
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +32,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f2c1206-9728-416d-be80-08e0f64b9368
+  uuid: 817c15e7-291c-4d31-b400-baf10f50dd39
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,20 +42,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f2c1206-9728-416d-be80-08e0f64b9368
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|10
-  network: ws
-  port: 80
-  server: 207.148.67.221
-  tls: false
-  type: vmess
-  uuid: cfd7ee93-279e-488f-a347-52c06d11f66c
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /4Gfree.asia
+  uuid: 817c15e7-291c-4d31-b400-baf10f50dd39
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG
@@ -51,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 329b1b9f-4e79-4258-9fc1-1d5d5e285aab
+  uuid: 7018171a-c5a4-4bbe-b421-b830656f6a37
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -61,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 329b1b9f-4e79-4258-9fc1-1d5d5e285aab
+  uuid: 7018171a-c5a4-4bbe-b421-b830656f6a37
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -71,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 329b1b9f-4e79-4258-9fc1-1d5d5e285aab
+  uuid: 7018171a-c5a4-4bbe-b421-b830656f6a37
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡|@ripaojiedian
