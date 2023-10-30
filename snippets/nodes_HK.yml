@@ -1,6 +1,62 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '7,8|🇭🇰 Hong Kong 11 @nodpai #1'
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 15 @nodpai
+  network: tcp
+  port: '51002'
+  server: sp.superjj.cc
+  tls: false
+  type: vmess
+  uuid: 31217fbe-6bc1-4476-9799-e0dbfb1ed713
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 16 @nodpai
+  network: tcp
+  port: '51004'
+  server: sp.superjj.cc
+  tls: false
+  type: vmess
+  uuid: 31217fbe-6bc1-4476-9799-e0dbfb1ed713
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 17 @nodpai
+  network: tcp
+  port: '51003'
+  server: sp.superjj.cc
+  tls: false
+  type: vmess
+  uuid: 31217fbe-6bc1-4476-9799-e0dbfb1ed713
+- alterId: 0
+  cipher: auto
+  name: 7|🇭🇰 Hong Kong 18 @nodpai
+  network: tcp
+  port: '51001'
+  server: sp.superjj.cc
+  tls: false
+  type: vmess
+  uuid: 31217fbe-6bc1-4476-9799-e0dbfb1ed713
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇭🇰 Hong Kong 20 @nodpai
+  password: fd8b209e-d080-4c37-8aa7-37fa216ef473
+  port: 31121
+  server: hkt1.100860000.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 9|🇭🇰香港04
   network: tcp
   port: '36601'
@@ -8,7 +64,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 817c15e7-291c-4d31-b400-baf10f50dd39
+  uuid: e7053852-4419-42d1-95a2-0605ff2adc01
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +74,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 817c15e7-291c-4d31-b400-baf10f50dd39
+  uuid: e7053852-4419-42d1-95a2-0605ff2adc01
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +84,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 817c15e7-291c-4d31-b400-baf10f50dd39
+  uuid: e7053852-4419-42d1-95a2-0605ff2adc01
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -38,7 +94,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7018171a-c5a4-4bbe-b421-b830656f6a37
+  uuid: ac84a030-1dee-4109-b133-11b7ba8801c0
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -48,7 +104,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7018171a-c5a4-4bbe-b421-b830656f6a37
+  uuid: ac84a030-1dee-4109-b133-11b7ba8801c0
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -58,7 +114,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7018171a-c5a4-4bbe-b421-b830656f6a37
+  uuid: ac84a030-1dee-4109-b133-11b7ba8801c0
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
