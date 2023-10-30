@@ -1,93 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3|🇺🇸 _US_美国 #1'
-  network: ws
-  port: '80'
-  server: sbl2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1,2,4|🇺🇸_US_美国 #7'
+  name: 0,12|🇺🇸 美国 27
   network: ws
   port: 2082
-  server: 206.168.190.219
-  skip-cert-verify: true
+  server: 104.31.16.164
+  servername: ''
   tls: false
   type: vmess
-  uuid: e31ca750-71f7-11ee-b920-1239d0255272
+  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
   ws-opts:
-    path: /vmws
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /franc.digires.shop/11201
 - alterId: 0
   cipher: auto
-  name: '1,2,4,6|🇺🇸_US_美国 #17'
-  network: tcp
-  port: 41916
-  server: 195.123.240.170
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 12772df9-485f-413c-edbf-3f562d61de4e
-- alterId: 64
-  cipher: auto
-  name: '1,2,4|🇺🇸_US_美国 #9'
-  network: ws
-  port: 30000
-  server: 156.225.67.104
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '1,2,4|🇺🇸_US_美国 #10'
-  network: ws
-  port: 8080
-  server: 206.168.190.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e31ca750-71f7-11ee-b920-1239d0255272
-  ws-opts:
-    path: /vmws
-- alterId: 0
-  cipher: auto
-  name: 1|_US__5
+  name: 1|_US__1
   network: ws
   port: 80
-  server: mrb2.shabijichang.com
+  server: wnd2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mrb2.shabijichang.com
+      host: wnd2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US__6
-  network: ws
-  port: 80
-  server: jd2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  ws-opts:
-    headers:
-      host: jd2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US__7
+  name: 1|_US__2
   network: ws
   port: 80
   server: 104.21.75.246
@@ -101,33 +43,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,4,6|🇺🇸_US_美国 #14'
+  name: '2,3,4|🇺🇸_US_美国 #2'
   network: ws
   port: 80
-  server: mrb2.shabijichang.com
+  server: wnd2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mrb2.shabijichang.com
+      Host: wnd2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,4,6|🇺🇸_US_美国 #16'
-  network: ws
-  port: 80
-  server: jd2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  ws-opts:
-    headers:
-      Host: jd2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '2,4,6|🇺🇸_US_美国 #15'
+  name: '2,3,4|🇺🇸_US_美国 #3'
   network: ws
   port: 80
   server: 104.21.75.246
@@ -140,6 +69,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '6|🇺🇸_US_美国 #4'
+  network: tcp
+  port: 41916
+  server: 195.123.240.170
+  tls: false
+  type: vmess
+  uuid: 12772df9-485f-413c-edbf-3f562d61de4e
+- alterId: 0
+  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -147,7 +85,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c091005a-1999-4691-803a-ccef5a7531cb
+  uuid: dfb5aeb8-2898-4783-9046-b55fd5490460
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -157,7 +95,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c091005a-1999-4691-803a-ccef5a7531cb
+  uuid: dfb5aeb8-2898-4783-9046-b55fd5490460
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -167,7 +105,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c091005a-1999-4691-803a-ccef5a7531cb
+  uuid: dfb5aeb8-2898-4783-9046-b55fd5490460
 - alterId: 64
   cipher: auto
   name: '11,12|中国 - 厦门市 - PEG TECH INC #1'
@@ -678,20 +616,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国 27
-  network: ws
-  port: 2082
-  server: 104.31.16.164
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /franc.digires.shop/11201
-- alterId: 0
-  cipher: auto
   name: 12|🇺🇸 美国 34
   network: ws
   port: 443
@@ -765,7 +689,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a7ecbb23-a2dc-4bef-9308-ae832f46d6cb
+  uuid: 97695bf6-01a6-456b-a146-fe257bafb4d1
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -775,7 +699,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a7ecbb23-a2dc-4bef-9308-ae832f46d6cb
+  uuid: 97695bf6-01a6-456b-a146-fe257bafb4d1
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -785,41 +709,41 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a7ecbb23-a2dc-4bef-9308-ae832f46d6cb
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|美国2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 107.167.16.85
-  servername: www.51109057.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
-  ws-opts:
-    headers:
-      Host: www.51109057.xyz
-    path: /path/080822272914
+  uuid: 97695bf6-01a6-456b-a146-fe257bafb4d1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 14,15|美国3|@ripaojiedian
   network: ws
-  port: '2052'
-  server: gbbb.76898102.xyz
+  port: '2095'
+  server: frsadubibb.76898102.xyz
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9defd968-d21f-326b-b422-a9fedf0bcf80
+  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
   ws-opts:
     headers:
-      Host: sascasx.76898102.xyz
-    path: /miao
+      Host: frsadubibs.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|美国2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: speedcl.5489265.xyz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22e7bb9f-8bd0-3eed-be72-7a4cfeca0dc3
+  ws-opts:
+    headers:
+      Host: baxex.5489265.xyz
+    path: /uasfbbc
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国1|@ripaojiedian
@@ -828,3 +752,81 @@ proxies:
   server: 185.47.255.219
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国01【vip1】
+  network: ws
+  port: '38381'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4f577273-e38f-4fb5-adac-8a092c35eab9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02_1【vip1】
+  network: ws
+  port: '20153'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4f577273-e38f-4fb5-adac-8a092c35eab9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02【vip1】
+  network: ws
+  port: '28204'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4f577273-e38f-4fb5-adac-8a092c35eab9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 03【vip1】
+  network: ws
+  port: '21036'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4f577273-e38f-4fb5-adac-8a092c35eab9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04_1【vip1】
+  network: ws
+  port: '26611'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4f577273-e38f-4fb5-adac-8a092c35eab9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04【vip1】
+  network: ws
+  port: '62684'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4f577273-e38f-4fb5-adac-8a092c35eab9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
