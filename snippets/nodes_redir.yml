@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,4,11|github.com/freefq - 美国CloudFla... #3'
+  name: 0,2,4,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 80
   server: sfmomastore.com
@@ -174,45 +174,6 @@ proxies:
     headers:
       Host: mrb2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰HK香港 首尔中转
-  network: ws
-  port: '22153'
-  server: krse-b090-2a5cee4bb04a.hk-cctv.com
-  tls: false
-  type: vmess
-  uuid: 0029b03a-54dc-47f1-b601-3278a9131fbf
-  ws-opts:
-    headers:
-      Host: ''
-    path: /jntm=2048
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵JP日本 首尔中转
-  network: ws
-  port: '22154'
-  server: krse-b090-2a5cee4bb04a.hk-cctv.com
-  tls: false
-  type: vmess
-  uuid: 0029b03a-54dc-47f1-b601-3278a9131fbf
-  ws-opts:
-    headers:
-      Host: ''
-    path: /jntm=2048
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬SG新加坡 首尔中转
-  network: ws
-  port: '22152'
-  server: krse-b090-2a5cee4bb04a.hk-cctv.com
-  tls: false
-  type: vmess
-  uuid: 0029b03a-54dc-47f1-b601-3278a9131fbf
-  ws-opts:
-    headers:
-      Host: ''
-    path: /jntm?ed=2048
 - alterId: 64
   cipher: auto
   name: 19|🇺🇸_US_美国->🇳🇱_NL_荷兰_27
