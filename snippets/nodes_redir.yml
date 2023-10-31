@@ -28,7 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,11|github.com/freefq - 美国CloudFla... #4'
+  name: '1,10|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: '80'
   server: jd3.shabijichang.com
@@ -85,7 +85,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
+  name: '2,3,4,5|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
@@ -98,7 +98,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯 #2'
+  name: '2,3,4,5|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯 #2'
   network: ws
   port: 80
   server: jd3.shabijichang.com
@@ -111,7 +111,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇰🇷_KR_韩国->🇺🇸_US_美国 #2'
+  name: '2,3,4,5|🇰🇷_KR_韩国->🇺🇸_US_美国 #2'
   network: ws
   port: 443
   server: 130.162.144.196
@@ -124,7 +124,7 @@ proxies:
     path: /2d08a9f8-204f-4c11-aab5-f5bb8daf9b4c
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #4'
+  name: '2,3,4,5|🇺🇸_US_美国->🇬🇧_GB_英国 #4'
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -150,50 +150,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 01 @nodpai
-  network: tcp
-  port: '26021'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 02 @nodpai
-  network: tcp
-  port: '26022'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 03 @nodpai
-  network: tcp
-  port: '26020'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 08 @nodpai
-  network: tcp
-  port: '26023'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- cipher: aes-128-gcm
-  name: 8|「线路包含IEPL，中转，覆盖冷门地区」🇬🇧 GB 02
-  password: shadowsocks
+  name: 11|🇺🇸_US_美国->🇵🇱_PL_波兰_3@1
+  network: ws
   port: 443
-  server: 212.102.53.194
-  type: ss
-  udp: true
+  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: ''
+    path: /acetaffy.top
 - alterId: 0
   cipher: auto
-  name: 19|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供：kkz...
+  name: 18|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: sbl4.shabijichang.com
@@ -204,3 +175,16 @@ proxies:
     headers:
       Host: sbl4.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  network: ws
+  port: 80
+  server: cdn.yifenjichang.top
+  tls: false
+  type: vmess
+  uuid: 62b024bb-3e45-41eb-e8ff-60502a4e791d
+  ws-opts:
+    headers:
+      Host: a5.mianfenyun012.eu.org
+    path: /vui2
