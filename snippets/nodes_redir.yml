@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,4,11|github.com/freefq - 美国CloudFla... #3'
+  name: 0,2,4,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 80
   server: sfmomastore.com
@@ -149,18 +149,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,11|github.com/freefq - 美国CloudFla... #5'
+  name: 1|_US_->_SA_
   network: ws
-  port: '80'
+  port: 80
   server: jd3.shabijichang.com
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: ''
+      host: jd3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
