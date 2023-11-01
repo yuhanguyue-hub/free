@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3'
+  name: '0,2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #5'
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -14,9 +14,9 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  name: '0,2,3,4|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
   network: ws
-  port: '30000'
+  port: 30000
   server: 45.199.138.124
   tls: true
   type: vmess
@@ -27,7 +27,7 @@ proxies:
     path: /path/1698671600986
 - alterId: 0
   cipher: auto
-  name: '0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #4'
+  name: '0,2,3,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #2'
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -54,7 +54,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,11,12|法国_欢迎订阅yui科技_5
+  name: 0,2,3,4,11,12|法国_欢迎订阅yui科技_5
   network: ws
   port: '30000'
   server: 156.249.18.151
@@ -68,7 +68,7 @@ proxies:
     path: /path/1698671600986
 - alterId: 0
   cipher: auto
-  name: '0,2,4,6|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯 #2'
+  name: '0,2,3,4,6|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯 #2'
   network: ws
   port: 80
   server: jd3.shabijichang.com
@@ -81,7 +81,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,12|香港_欢迎订阅yui科技_23
+  name: 0,2,3,4,12|香港_欢迎订阅yui科技_23
   network: ws
   port: '30000'
   server: 156.245.8.175
@@ -95,7 +95,7 @@ proxies:
     path: /path/1698671600986
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2'
+  name: '0,2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #4'
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -105,6 +105,48 @@ proxies:
   ws-opts:
     headers:
       Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB__1
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mrb2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 1|_US_->_NL_
+  network: ws
+  port: 30000
+  server: 45.199.138.124
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.54294122.xyz
+    path: /path/1698671600986
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_IN_
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -120,62 +162,20 @@ proxies:
     headers:
       host: sbl4.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 1|_US_->_GB_
+  name: 1|_FR_->_NL_
   network: ws
-  port: 80
-  server: ld2.shabijichang.com
+  port: 30000
+  server: 156.249.18.151
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
   ws-opts:
     headers:
-      host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__1
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE_
-  network: ws
-  port: 80
-  server: sfmomastore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b
-  ws-opts:
-    headers:
-      host: ee1.xv2ray.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__2
-  network: ws
-  port: 80
-  server: hdlb2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: hdlb2.shabijichang.com
-    path: /
+      host: www.57424349.xyz
+    path: /path/1698671600986
 - alterId: 0
   cipher: auto
   name: 1|_US_->_SA_
@@ -190,22 +190,37 @@ proxies:
     headers:
       host: jd3.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '2,4,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
+  name: 1|_HK_->_NL_
   network: ws
-  port: 80
-  server: sfmomastore.com
-  tls: false
+  port: 30000
+  server: 156.245.8.175
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: ee1.xv2ray.net
+      host: www.49291261.xyz
+    path: /path/1698671600986
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB__2
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #5'
+  name: '6|🇺🇸_US_美国->🇮🇳_IN_印度 #3'
   network: ws
   port: 80
   server: hdlb2.shabijichang.com
