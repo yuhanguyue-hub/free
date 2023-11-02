@@ -1,6 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '7,8,12|🇫🇷 France 42 @nodpai #2'
+  network: ws
+  port: '8080'
+  server: fr-new01.gujuji.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1bf9efb2-cf30-4878-a01e-acd8bfacc54a
+  ws-opts:
+    headers:
+      Host: fr-new01.gujuji.top
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 12|法国_欢迎订阅yui科技_5
+  network: ws
+  port: '30000'
+  server: 156.249.18.151
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  ws-opts:
+    headers:
+      Host: www.57424349.xyz
+    path: /path/1698671600986
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
   network: tcp
   port: '34310'
