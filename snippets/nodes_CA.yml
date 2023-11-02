@@ -1,89 +1,57 @@
 proxies:
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '7,8|🇨🇦 Canada 76 @nodpai #1'
+  name: 7|🇨🇦 Canada 76 @nodpai
   network: http
-  port: 23566
+  port: '23566'
   server: 154.12.39.95
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '7,8|🇨🇦 Canada 77 @nodpai #1'
+  name: 7|🇨🇦 Canada 77 @nodpai
   network: http
-  port: 23566
+  port: '23566'
   server: 154.12.39.201
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '7,8|🇨🇦 Canada 74 @nodpai #1'
+  name: 7|🇨🇦 Canada 74 @nodpai
   network: http
-  port: 23566
+  port: '23566'
   server: 154.12.39.113
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '7,8|🇨🇦 Canada 75 @nodpai #1'
+  name: 7|🇨🇦 Canada 75 @nodpai
   network: http
-  port: 23566
+  port: '23566'
   server: 154.12.39.152
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '7,8|🇨🇦 Canada 78 @nodpai #1'
+  name: 7|🇨🇦 Canada 78 @nodpai
   network: http
-  port: 701
+  port: '701'
   server: 154.12.39.216
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7
 - alterId: 0
   cipher: auto
-  name: '7,8,12|🇨🇦 Canada 51 @nodpai #2'
+  name: '7,12|🇨🇦 Canada 51 @nodpai #1'
   network: ws
   port: '8080'
   server: ca-new01.gujuji.top
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 1bf9efb2-cf30-4878-a01e-acd8bfacc54a
   ws-opts:
     headers:
@@ -91,24 +59,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|🇨🇦 Canada 73 @nodpai #1'
+  name: 7|🇨🇦 Canada 73 @nodpai
   network: ws
-  port: 80
+  port: '80'
   server: 162.159.142.217
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
   ws-opts:
+    headers:
+      Host: ''
     path: /1654431
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇨🇦 Canada 62 @nodpai
-  password: 6be55da9-599c-44a8-9437-c2c65a6065c3
-  port: 20749
-  server: cf.fanqiecloud.top
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -118,7 +79,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e9bde73-2385-4fa1-bcdf-51fcdc9131c1
+  uuid: 538fd5f7-fff0-4766-931b-b82cb4fb8898
 - alterId: 0
   cipher: auto
   name: 12|Youtube顺丰资源  加拿大_1
@@ -509,20 +470,6 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 12|CA_speednode_0002
-  network: ws
-  port: 8080
-  server: 74.48.98.249
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7878acaf-f555-4bad-b1fa-a8c94272d4dd
-  ws-opts:
-    headers:
-      Host: us.quanstring.top
-    path: /quanstring?ed=2048
-- alterId: 0
-  cipher: auto
   name: 12|加拿大 090
   network: ws
   port: 8443
@@ -712,4 +659,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 43e38266-89b1-47f0-825b-3d10d97a130e
+  uuid: bd4bfd10-6946-4af3-b6e5-11bedbd9456e

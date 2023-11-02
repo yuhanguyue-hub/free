@@ -19,27 +19,25 @@ proxies:
   uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: 0
   cipher: auto
-  name: '7,8|🇯🇵 Japan 485 @nodpai #1'
+  name: 7|🇯🇵 Japan 485 @nodpai
   network: ws
-  port: 80
+  port: '80'
   server: 162.159.142.239
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,8|🇯🇵 Japan 490 @nodpai #1'
+  name: 7|🇯🇵 Japan 490 @nodpai
   network: ws
-  port: 443
+  port: '443'
   server: a9.wuxianliulianng.xyz
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 14f82e70-0493-4463-9b3a-53f6cb4b885e
   ws-opts:
     headers:
@@ -47,60 +45,17 @@ proxies:
     path: /mp4
 - alterId: 0
   cipher: auto
-  name: '7,8|🇯🇵 Japan 491 @nodpai #1'
+  name: 7|🇯🇵 Japan 491 @nodpai
   network: ws
-  port: 443
+  port: '443'
   server: a10.wuxianliulianng.xyz
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 14f82e70-0493-4463-9b3a-53f6cb4b885e
   ws-opts:
     headers:
       Host: a10.wuxianliulianng.xyz
     path: /mp4
-- cipher: aes-256-cfb
-  name: 8|🇯🇵 Japan 486 @nodpai
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 8,14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.196.125.189
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 8,14|🇯🇵 日本特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.73.77
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 8,14|🇯🇵 东京特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.195.228.10
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 8|🇯🇵 Japan 489 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 43.207.98.172
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04 PRO
@@ -110,7 +65,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e9bde73-2385-4fa1-bcdf-51fcdc9131c1
+  uuid: 538fd5f7-fff0-4766-931b-b82cb4fb8898
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -120,7 +75,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e9bde73-2385-4fa1-bcdf-51fcdc9131c1
+  uuid: 538fd5f7-fff0-4766-931b-b82cb4fb8898
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -130,7 +85,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e9bde73-2385-4fa1-bcdf-51fcdc9131c1
+  uuid: 538fd5f7-fff0-4766-931b-b82cb4fb8898
 - alterId: 0
   cipher: auto
   name: 12|日本 001
@@ -198,7 +153,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 43e38266-89b1-47f0-825b-3d10d97a130e
+  uuid: bd4bfd10-6946-4af3-b6e5-11bedbd9456e
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -208,7 +163,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 43e38266-89b1-47f0-825b-3d10d97a130e
+  uuid: bd4bfd10-6946-4af3-b6e5-11bedbd9456e
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -218,7 +173,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 43e38266-89b1-47f0-825b-3d10d97a130e
+  uuid: bd4bfd10-6946-4af3-b6e5-11bedbd9456e
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -284,6 +239,30 @@ proxies:
     headers:
       Host: www.90015096.xyz
     path: /path/143534141104
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.196.125.189
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.195.228.10
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.73.77
+  tfo: false
+  type: ss
 - alterId: 1
   cipher: auto
   name: 15|日本2|@ripaojiedian
