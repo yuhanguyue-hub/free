@@ -1,40 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 8,14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.196.125.189
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 8|🇯🇵 Japan 1064 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 43.207.98.172
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇯🇵 Japan 1030 @nodpai
-  password: cc90e910-590c-4fe9-bf12-0e777a798506
-  port: 21402
-  server: jp.fanqiecloud.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵 Japan 1060 @nodpai
-  network: ws
-  port: 80
-  server: 162.159.142.239
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04 PRO
@@ -44,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 329cb435-a674-4a0d-b973-61b006884322
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -54,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 329cb435-a674-4a0d-b973-61b006884322
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -64,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 329cb435-a674-4a0d-b973-61b006884322
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
 - alterId: 0
   cipher: auto
   name: 12|日本 002
@@ -145,7 +109,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c18e510-8334-4f3a-97f8-1a7bceb69083
+  uuid: 722db66e-255d-448a-89b4-8baf617c167b
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -155,7 +119,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c18e510-8334-4f3a-97f8-1a7bceb69083
+  uuid: 722db66e-255d-448a-89b4-8baf617c167b
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -165,7 +129,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c18e510-8334-4f3a-97f8-1a7bceb69083
+  uuid: 722db66e-255d-448a-89b4-8baf617c167b
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -231,6 +195,14 @@ proxies:
     headers:
       Host: www.90015096.xyz
     path: /path/143534141104
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.196.125.189
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇯🇵 东京特殊|@ripaojiedian
