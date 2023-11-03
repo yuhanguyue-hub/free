@@ -1,22 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 7,8,14,15|香港2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: n1698814075.aaigefm.cn
-  servername: n1698814075.aaigefm.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
-  ws-opts:
-    headers:
-      Host: n1698814075.aaigefm.cn
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 8,14|🇭🇰 香港8|@ripaojiedian
@@ -35,7 +17,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 8|🇭🇰 Hong Kong 1666 @nodpai
+  name: 8|🇭🇰 Hong Kong 1614 @nodpai
   password: d44454ef4745164c21bb
   plugin: obfs
   plugin-opts:
@@ -46,18 +28,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 8|🇭🇰 Hong Kong 1668 @nodpai
-  password: fa9194d02e125b5dde28
-  plugin: obfs
-  plugin-opts:
-    host: b86ef18a78a90d6e987d.microsoft.com
-    mode: http
-  port: 9527
-  server: hkg-hgc.tag-global-ddns.top
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 8|🇭🇰 Hong Kong 1681 @nodpai
+  name: 8|🇭🇰 Hong Kong 1616 @nodpai
   password: b8c3f4d97013af43ccfc
   plugin: obfs
   plugin-opts:
@@ -68,7 +39,18 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 8|🇭🇰 Hong Kong 1670 @nodpai
+  name: 8|🇭🇰 Hong Kong 1615 @nodpai
+  password: fa9194d02e125b5dde28
+  plugin: obfs
+  plugin-opts:
+    host: b86ef18a78a90d6e987d.microsoft.com
+    mode: http
+  port: 9527
+  server: hkg-hgc.tag-global-ddns.top
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 8|🇭🇰 Hong Kong 1617 @nodpai
   password: 97b53b570db0917935e0
   plugin: obfs
   plugin-opts:
@@ -87,7 +69,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 89060492-8bb9-4655-9486-57416a9d6ada
+  uuid: 9336d557-6b8a-40bd-843a-67bd99f0721f
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -97,7 +79,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 89060492-8bb9-4655-9486-57416a9d6ada
+  uuid: 9336d557-6b8a-40bd-843a-67bd99f0721f
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -107,31 +89,14 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 89060492-8bb9-4655-9486-57416a9d6ada
+  uuid: 9336d557-6b8a-40bd-843a-67bd99f0721f
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 7
+  name: 12|🇭🇰 香港1|@ripaojiedian
   network: ws
-  port: '443'
-  server: n1697555560.aaigefm.cn
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 56691c3c-b9a5-440f-a678-478618854e75
-  ws-opts:
-    headers:
-      Host: n1697555560.aaigefm.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,14,15|香港1|@ripaojiedian
-  network: ws
-  port: '443'
+  port: 443
   server: n1697555557.aaigefm.cn
   servername: n1697555557.aaigefm.cn
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 164b381f-3a55-4f1a-8206-3edd2cd9166f
@@ -158,7 +123,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1a4531f8-7fee-49ff-9ead-e63933393d20
+  uuid: e67edf7c-deaf-4184-8bd6-5a73d56d1442
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -168,7 +133,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1a4531f8-7fee-49ff-9ead-e63933393d20
+  uuid: e67edf7c-deaf-4184-8bd6-5a73d56d1442
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -178,7 +143,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1a4531f8-7fee-49ff-9ead-e63933393d20
+  uuid: e67edf7c-deaf-4184-8bd6-5a73d56d1442
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -191,7 +156,7 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 20295
+  port: 20297
   server: 223.95.40.85
   tfo: false
   type: ss
@@ -204,34 +169,26 @@ proxies:
     host: ''
     mode: http
   port: 80
-  server: 8.217.237.237
+  server: 8.217.218.147
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,15|香港6|@ripaojiedian
+  name: 14,15|香港4|@ripaojiedian
   network: ws
   port: '443'
-  server: 107.148.1.27
-  servername: www.78895382.xyz
+  server: 103.232.213.241
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d0fa8fa7-e217-4fb9-fed3-34c6a17851db
   ws-opts:
     headers:
-      Host: www.78895382.xyz
-    path: /path/143534141104
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港5|@ripaojiedian
-  password: da5d172a-16e9-4329-a32a-8f926f932aaf
-  port: 30272
-  server: 120.220.182.71
-  tfo: false
-  type: ss
+      Host: 103.232.213.241
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -249,3 +206,37 @@ proxies:
     headers:
       Host: n1698814076.izwhvan.cn
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|香港2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1698814075.aaigefm.cn
+  servername: n1698814075.aaigefm.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
+  ws-opts:
+    headers:
+      Host: n1698814075.aaigefm.cn
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|香港5|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 202.95.8.91
+  servername: www.88430956.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88430956.xyz
+    path: /path/143534141104
