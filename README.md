@@ -24,7 +24,7 @@
 
 如果此问题有进展，我们会在此更新，请及时关注。
 
-注意：原有的链接 1 出现过问题，我们在它前面添加了新的链接 1 并下移了原有链接。我们建议您将订阅链接改为新的加速链接 1。加速链接 3/4 含有缓存，可能不是最新，且访问速度没有链接 1 快。
+注意：最近加速链接出现大量失效（在我所在的网络下），如果无法更新订阅，请把所有链接从上到下每个试一遍！
 
 我们新增了 `snippets` 文件夹来存放从 `list.yml` 中拆分出的配置片段，用于将本项目提供的一些配置整合到你自己的配置中。
 
@@ -34,19 +34,29 @@
 
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [加速链接 1](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [加速链接 2](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [加速链接 3](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
-- [加速链接 4](https://cdn.staticaly.com/gh/peasoft/NoMoreWalls/master/list.txt)
-- [加速链接 5](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.txt)
+- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
+- [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.txt)
+- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+
+以下加速链接可能无效：
+- [Statically CDN](https://cdn.statically.io/gh/peasoft/NoMoreWalls/master/list.txt)
+- [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.txt)
+- [GhProxy.com](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 
 或添加 Clash 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-- [加速链接 1](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-- [加速链接 2](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-- [加速链接 3](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
-- [加速链接 4](https://cdn.staticaly.com/gh/peasoft/NoMoreWalls/master/list.yml)
-- [加速链接 5](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.yml)
+- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
+- [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.yml)
+- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
+- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
+- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
+
+以下加速链接可能无效：
+- [Statically CDN](https://cdn.statically.io/gh/peasoft/NoMoreWalls/master/list.yml)
+- [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.yml)
+- [GhProxy.com](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 
 ## 免责声明
 
@@ -56,7 +66,7 @@
 
 各位看一看：
 
-- **[【独家恢复】我们的教育弄虚作假，到底是为了什么？](https://peasoft.github.io/2023/08/26/cnedu.html)：如此视频，为何惨遭删除？我们恢复了这段视频，只为让更多人可以看清现实。**
+- **[【独家恢复】我们的教育弄虚作假，到底是为了什么](https://peasoft.github.io/2023/08/26/cnedu.html)：如此视频，为何惨遭删除？我们恢复了这段视频，只为让更多人可以看清现实。**
 - **[最流氓的软件可以流氓到什么程度？](https://www.zhihu.com/question/29129310)我翻开其他网页一查，歪歪斜斜的每页上都写着“危险网页”几个字。我横竖睡不着，仔细看了半夜，才从字缝里看出字来，满本都写着两个字是“霸权”！**
 - **[百度？百毒！](https://user.guancha.cn/main/content?id=100552)魏则西去世3周年：害死他的百度广告和莆田系医院**
 - **[《满江红》的行为艺术](https://www.bilibili.com/video/BV11v4y1t7Gw/)：秦桧竟是我自己？**

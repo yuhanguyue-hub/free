@@ -43,3 +43,21 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: master
+
+    - name: 计算要清除缓存的文件
+      id: purge_urls
+      run: |
+        sleep 3
+        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
+        urls=""
+        for f in `find snippets -name "*.yml" -type f`; do
+          urls+="${baseUrl}/${f},"
+        done
+        for f in `find . -name "list*" -type f -maxdepth 1`; do
+          urls+="${baseUrl}/${f},"
+        done
+        echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
+    - name: 清除 JsDelivr CDN 缓存
+      uses: egad13/purge-jsdelivr-cache@v1
+      with:
+        url: ${{ steps.purge_urls.outputs.urls }}

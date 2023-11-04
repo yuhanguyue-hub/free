@@ -94,9 +94,15 @@ rules:
   - DOMAIN-SUFFIX,bing.com,🌐 突破锁区
   - DOMAIN-SUFFIX,bing.net,🌐 突破锁区
   - DOMAIN-KEYWORD,bingapi,🌐 突破锁区
-  - DOMAIN-KEYWORD,kgithub,DIRECT
+  # - DOMAIN-KEYWORD,kgithub,DIRECT
   - DOMAIN-KEYWORD,fastgit,DIRECT
+  - DOMAIN-KEYWORD,fgit,DIRECT
   - DOMAIN-KEYWORD,ghproxy,DIRECT
+  - DOMAIN-KEYWORD,gh-proxy,DIRECT
+  - DOMAIN-SUFFIX,zzko.cn,DIRECT
+  - DOMAIN-SUFFIX,jsdelivr.us,DIRECT
+  - DOMAIN-SUFFIX,jsdelivr.net,DIRECT
+  # - DOMAIN-SUFFIX,statically.io,🚀 选择代理
   - DOMAIN-KEYWORD,clash,🚀 选择代理
   - DOMAIN-KEYWORD,v2ray,🚀 选择代理
   - DOMAIN-KEYWORD,v2fly,🚀 选择代理
@@ -116,6 +122,8 @@ rules:
   - DOMAIN-SUFFIX,yout.com,🚀 选择代理
   - DOMAIN-SUFFIX,bulianglin.com,🚀 选择代理
   - DOMAIN-SUFFIX,buliang0.cf,🚀 选择代理
+  - DOMAIN-SUFFIX,hydro.ac,DIRECT
+  - DOMAIN-SUFFIX,tuna.moe,DIRECT
 
 
   # 国内网站（优先，避免 google.cn 走代理）
