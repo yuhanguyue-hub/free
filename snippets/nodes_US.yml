@@ -68,9 +68,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,6,11,12,14,15|美国5|@ripaojiedian
+  name: 0,3,6,11,12,14,15,19|🇺🇸_US_美国->🇮🇷_IR_伊朗_7
   network: ws
-  port: '8080'
+  port: 8080
   server: hytron.io
   servername: ''
   skip-cert-verify: false
@@ -188,7 +188,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
+  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -198,7 +198,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
+  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -208,7 +208,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
+  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
 - alterId: 64
   cipher: auto
   name: 11,12|美国_欢迎订阅yui科技_123
@@ -1583,7 +1583,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
 - alterId: 0
   cipher: auto
   name: 13|美国 05 | 1x US
@@ -1593,7 +1593,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
 - alterId: 0
   cipher: auto
   name: 13|美国 06 | 1x US
@@ -1603,7 +1603,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇺🇸 美国1|@ripaojiedian
@@ -1614,14 +1614,79 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供;kkzui.com7
+  name: 16|JCBB_ 美国01【vip1】
   network: ws
-  port: 80
-  server: mm3.shabijichang.com
+  port: '38381'
+  server: gzyd.jcnode.top
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: a57ac9ce-5d54-4596-b337-02c43c2d62ed
   ws-opts:
     headers:
-      Host: mm3.shabijichang.com
-    path: /
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02_1【vip1】
+  network: ws
+  port: '20153'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a57ac9ce-5d54-4596-b337-02c43c2d62ed
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02【vip1】
+  network: ws
+  port: '28204'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a57ac9ce-5d54-4596-b337-02c43c2d62ed
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 03【vip1】
+  network: ws
+  port: '21036'
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a57ac9ce-5d54-4596-b337-02c43c2d62ed
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04_1【vip1】
+  network: ws
+  port: '26611'
+  server: gzdx01.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a57ac9ce-5d54-4596-b337-02c43c2d62ed
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04【vip1】
+  network: ws
+  port: '62684'
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: a57ac9ce-5d54-4596-b337-02c43c2d62ed
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
