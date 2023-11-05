@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dcbaa35a-d287-41d2-aef4-51009acc5364
+  uuid: 7708c8f5-ffa4-402b-a951-34eae5911476
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dcbaa35a-d287-41d2-aef4-51009acc5364
+  uuid: 7708c8f5-ffa4-402b-a951-34eae5911476
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dcbaa35a-d287-41d2-aef4-51009acc5364
+  uuid: 7708c8f5-ffa4-402b-a951-34eae5911476
 - alterId: 0
   cipher: auto
   name: 11|github.com/freefq - 新加坡  5
@@ -45,20 +45,6 @@ proxies:
     path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: 12|☀️@DeamNet_🇸🇬Singapore
-  network: ws
-  port: 8080
-  server: 139.180.143.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 12|新加坡 001
   network: ws
   port: 14241
@@ -73,6 +59,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12|☀️@DeamNet_🇸🇬Singapore 3
+  network: ws
+  port: 8080
+  server: 139.180.143.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 04 | 1x SG PRO
   network: tcp
   port: '31201'
@@ -80,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf8f03ea-45fb-4f90-b105-21b41d1ea168
+  uuid: c9a3124f-a2f8-4c73-b098-e40ed6362acd
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -90,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf8f03ea-45fb-4f90-b105-21b41d1ea168
+  uuid: c9a3124f-a2f8-4c73-b098-e40ed6362acd
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -100,21 +100,31 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf8f03ea-45fb-4f90-b105-21b41d1ea168
+  uuid: c9a3124f-a2f8-4c73-b098-e40ed6362acd
+- alterId: 0
+  cipher: auto
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: ea802ee7-f08d-420e-a8c2-4ab2366d4075
+  port: 35009
+  server: 120.233.43.54
+  skip-cert-verify: false
+  sni: 421421.xyz
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.141.177.65
+  server: 13.250.123.158
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.1.200.50
+  server: 54.255.142.131
   tfo: false
   type: ss
 - alterId: 0
