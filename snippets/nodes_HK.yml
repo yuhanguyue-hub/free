@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 42c02fe2-20c2-4cb5-9c54-febd147e8e68
+  uuid: 1a5b506e-c084-4a4f-a884-09d12654cbc9
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 42c02fe2-20c2-4cb5-9c54-febd147e8e68
+  uuid: 1a5b506e-c084-4a4f-a884-09d12654cbc9
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +28,30 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 42c02fe2-20c2-4cb5-9c54-febd147e8e68
+  uuid: 1a5b506e-c084-4a4f-a884-09d12654cbc9
+- alterId: 0
+  cipher: auto
+  name: 12|香港01| www.maikcloud.com
+  network: tcp
+  port: '40024'
+  server: hk.hknat.xyz
+  tls: false
+  type: vmess
+  uuid: b26c28ee-25ba-4767-a7e7-39bcc0aaa7a2
+- alterId: 0
+  cipher: auto
+  name: 12|香港 005
+  network: ws
+  port: 80
+  server: pr13.5gtocdocao.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c
+  ws-opts:
+    headers:
+      Host: dl.ops.kgvn.garenanow.com
+    path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK PRO
@@ -38,7 +61,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7b77663a-1ebd-4fc7-8d87-8000f95b3104
+  uuid: f4dc9af7-1b17-47e7-8357-7e646ed0230f
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -48,7 +71,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7b77663a-1ebd-4fc7-8d87-8000f95b3104
+  uuid: f4dc9af7-1b17-47e7-8357-7e646ed0230f
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -58,7 +81,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7b77663a-1ebd-4fc7-8d87-8000f95b3104
+  uuid: f4dc9af7-1b17-47e7-8357-7e646ed0230f
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
