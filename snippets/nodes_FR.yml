@@ -23,8 +23,24 @@ proxies:
     headers:
       Host: v-nl1.ngvip.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: 14,15|法国|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 13.38.23.174
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3a354261-a8c1-4da1-a4b1-5fd2cabc8c48
+  ws-opts:
+    headers:
+      Host: 13.38.23.174
+    path: /
 - cipher: aes-256-cfb
-  name: 14|🇫🇷 法国|@ripaojiedian
+  name: 14|🇫🇷 法国|@ripaojiedian 2
   password: asdKkaskJKfnsa
   port: 110
   server: 51.158.195.96

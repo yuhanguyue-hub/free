@@ -1,26 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,6,9|🇹🇷土耳其04
+  name: 0,1,2,3,4,6,9|🇹🇷土耳其04
   network: tcp
   port: '36868'
   server: 2t1u04.abzoones.xyz
   servername: tr04.abpilot.xyz
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 56cedea0-33e8-4900-9135-05ffb10a7222
-- alterId: 0
-  cipher: auto
-  name: '1,2,3,4|🇨🇳_CN_中国 #1'
-  network: ws
-  port: 80
-  server: 124.220.57.75
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    path: /
+  uuid: 41e065ea-d277-4277-b167-1a76be4a39e0
 - alterId: 0
   cipher: auto
   name: 11|github.com/freefq - 广东省移动 9
