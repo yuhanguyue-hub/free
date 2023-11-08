@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d065f9a7-9a34-4236-bbed-d856beb7fbd7
+  uuid: 434bef97-63a5-4bbc-8ae2-2b26b0f9b9dd
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d065f9a7-9a34-4236-bbed-d856beb7fbd7
+  uuid: 434bef97-63a5-4bbc-8ae2-2b26b0f9b9dd
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,10 +28,10 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d065f9a7-9a34-4236-bbed-d856beb7fbd7
+  uuid: 434bef97-63a5-4bbc-8ae2-2b26b0f9b9dd
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 2
+  name: 11|github.com/freefq - 香港阿里云 12
   network: ws
   port: '443'
   server: n1698814075.aaigefm.cn
@@ -43,19 +43,16 @@ proxies:
     headers:
       Host: n1698814075.aaigefm.cn
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 12|🇭🇰_HK_香港_yui科技_21
-  network: ws
-  port: 30000
-  server: 156.245.8.114
-  tls: true
+  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-8.217.4.110:...
+  network: tcp
+  port: '31013'
+  server: 8.217.4.110
+  servername: ''
+  tls: false
   type: vmess
-  uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7
-  ws-opts:
-    headers:
-      Host: www.38858917.xyz
-    path: /path/1699193100388
+  uuid: 66440943-8bcf-4832-a5b7-694c466c5fd7
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK PRO
@@ -65,7 +62,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ee31e5d-5ad8-44a9-b1f7-ad5a7f48b6fa
+  uuid: 21bf1b58-8f11-45b6-bd85-6af658c3cf5d
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -75,7 +72,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ee31e5d-5ad8-44a9-b1f7-ad5a7f48b6fa
+  uuid: 21bf1b58-8f11-45b6-bd85-6af658c3cf5d
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -85,7 +82,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ee31e5d-5ad8-44a9-b1f7-ad5a7f48b6fa
+  uuid: 21bf1b58-8f11-45b6-bd85-6af658c3cf5d
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw

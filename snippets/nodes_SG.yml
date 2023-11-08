@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d065f9a7-9a34-4236-bbed-d856beb7fbd7
+  uuid: 434bef97-63a5-4bbc-8ae2-2b26b0f9b9dd
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d065f9a7-9a34-4236-bbed-d856beb7fbd7
+  uuid: 434bef97-63a5-4bbc-8ae2-2b26b0f9b9dd
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,45 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d065f9a7-9a34-4236-bbed-d856beb7fbd7
+  uuid: 434bef97-63a5-4bbc-8ae2-2b26b0f9b9dd
+- cipher: aes-256-cfb
+  name: 12|5Zyf6ICz5YW2IC0g5LyK5pav5Z2m5b...
+  obfs: plain
+  obfs-param: YTU5ZmY5MTkxMS5iYWlkdS5jb20%3D
+  password: iuo7tbw4ks
+  port: '12104'
+  protocol: auth_aes128_sha1
+  protocol-param: OTE5MTE6dUZHY21u
+  server: snxao52s.xn--8zrwc997j78ud7a.com
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - DigitalOcean, LLC
+  network: ws
+  port: 80
+  server: 104.21.233.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 130e1e06-ea93-4e9c-b3ed-6045ffdbce0e
+  ws-opts:
+    headers:
+      Host: do2.myserver-prem.cloud
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_102611087
+  network: ws
+  port: 8080
+  server: 139.180.143.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG PRO
@@ -38,7 +76,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ee31e5d-5ad8-44a9-b1f7-ad5a7f48b6fa
+  uuid: 21bf1b58-8f11-45b6-bd85-6af658c3cf5d
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -48,7 +86,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ee31e5d-5ad8-44a9-b1f7-ad5a7f48b6fa
+  uuid: 21bf1b58-8f11-45b6-bd85-6af658c3cf5d
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -58,7 +96,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ee31e5d-5ad8-44a9-b1f7-ad5a7f48b6fa
+  uuid: 21bf1b58-8f11-45b6-bd85-6af658c3cf5d
 - alterId: 0
   cipher: auto
   name: 15|新加坡2|@ripaojiedian
