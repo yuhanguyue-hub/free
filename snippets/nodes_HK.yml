@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a871c763-bffb-4207-b33f-6f5b03aabe8f
+  uuid: f0773226-6afe-41c5-a9f1-897d6606df59
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a871c763-bffb-4207-b33f-6f5b03aabe8f
+  uuid: f0773226-6afe-41c5-a9f1-897d6606df59
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +28,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a871c763-bffb-4207-b33f-6f5b03aabe8f
+  uuid: f0773226-6afe-41c5-a9f1-897d6606df59
 - alterId: 0
   cipher: auto
   name: '12|🇭🇰香港-备用 #1'
@@ -61,7 +61,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f201e96d-09e2-43a8-856f-14defbf710f9
+  uuid: a5b02f46-65f0-46b2-af06-fc7f3d022378
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -71,7 +71,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f201e96d-09e2-43a8-856f-14defbf710f9
+  uuid: a5b02f46-65f0-46b2-af06-fc7f3d022378
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -81,7 +81,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f201e96d-09e2-43a8-856f-14defbf710f9
+  uuid: a5b02f46-65f0-46b2-af06-fc7f3d022378
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -111,25 +111,15 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 14|🇺🇸 美国2|@ripaojiedian
-  password: 7830f36d-9f49-4d67-b5de-da6204ad7834
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
   port: 23566
   server: 154.12.39.113
   skip-cert-verify: false
-  sni: alibaba-node.cn
+  sni: glc-vn.windowsupdatea.com
   tfo: false
   tls: false
   type: vmess
   uuid: 041170e1-95fd-40b1-9bd0-1d28826f97e7
-- cipher: aes-256-cfb
-  name: 14|🇭🇰 香港R|@ripaojiedian
-  obfs: plain
-  obfs-param: a59ff91911.baidu.com
-  password: iuo7tbw4ks
-  port: 11112
-  protocol: auth_aes128_sha1
-  protocol-param: 91911:uFGcmn
-  server: u73kpx2s.xn--8zrwc997j78ud7a.com
-  type: ssr
 - alterId: 64
   cipher: auto
   name: 14,15|香港|@ripaojiedian
@@ -146,24 +136,8 @@ proxies:
     headers:
       Host: www.52948386.xyz
     path: /path/080218162423
-- alterId: 1
-  cipher: auto
-  name: 14,15|香港1|@ripaojiedian
-  network: ws
-  port: '13484'
-  server: g03.hk10-vm5.entry.hsrtd.club
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 544a2f10-2393-3735-b9f8-35fa035ff552
-  ws-opts:
-    headers:
-      Host: bgp-01-10.entry-0.chinasnow.net
-    path: /
 - cipher: aes-256-gcm
-  name: 14|🇭🇰 香港5|@ripaojiedian
+  name: 14|🇭🇰 香港6|@ripaojiedian
   password: 3cda32d5cda5
   plugin: v2ray-plugin
   plugin-opts:
@@ -177,3 +151,13 @@ proxies:
   server: 43.240.15.69
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '56265'
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
