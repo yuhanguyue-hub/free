@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3aa10ba6-0705-42cf-a974-a7f8539e7255
+  uuid: a1bddc23-f943-4fe4-adcc-ddd6879604a5
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3aa10ba6-0705-42cf-a974-a7f8539e7255
+  uuid: a1bddc23-f943-4fe4-adcc-ddd6879604a5
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3aa10ba6-0705-42cf-a974-a7f8539e7255
+  uuid: a1bddc23-f943-4fe4-adcc-ddd6879604a5
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-141.147.153....
@@ -87,7 +87,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 95c9bc6e-3fbd-4c06-a381-2a1eaab5e476
+  uuid: 39a8727c-1c84-40c4-8941-2ab9e87ef57b
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -97,7 +97,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 95c9bc6e-3fbd-4c06-a381-2a1eaab5e476
+  uuid: 39a8727c-1c84-40c4-8941-2ab9e87ef57b
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -107,7 +107,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 95c9bc6e-3fbd-4c06-a381-2a1eaab5e476
+  uuid: 39a8727c-1c84-40c4-8941-2ab9e87ef57b
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -138,17 +138,18 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   name: 14|🇯🇵 日本|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.183.109.230
+  network: ws
+  port: 48493
+  server: jpd.zerodisk.site
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.140.42
-  tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: jpd.zerodisk.site
+    path: /
