@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e18ad32-588d-4471-ac10-42f0ab93c4fb
+  uuid: 36c9c758-b5a3-4da7-bb44-af9b41f74b5e
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e18ad32-588d-4471-ac10-42f0ab93c4fb
+  uuid: 36c9c758-b5a3-4da7-bb44-af9b41f74b5e
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,7 +28,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e18ad32-588d-4471-ac10-42f0ab93c4fb
+  uuid: 36c9c758-b5a3-4da7-bb44-af9b41f74b5e
 - alterId: 0
   cipher: auto
   name: 10,11,12|中国 - 香港 - Stark Industries Sol...
@@ -41,7 +41,7 @@ proxies:
   uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 13
+  name: 10,11|github.com/freefq - 香港阿里云 13
   network: ws
   port: 443
   server: n1697685464.aaigefm.cn
@@ -61,7 +61,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6352e68e-820e-48d4-94a2-71bf2593d1a0
+  uuid: e069635c-20e5-4511-8629-c9089c356dac
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -71,7 +71,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6352e68e-820e-48d4-94a2-71bf2593d1a0
+  uuid: e069635c-20e5-4511-8629-c9089c356dac
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -81,7 +81,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6352e68e-820e-48d4-94a2-71bf2593d1a0
+  uuid: e069635c-20e5-4511-8629-c9089c356dac
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -124,34 +124,50 @@ proxies:
     headers:
       Host: n1699253769.aaigefm.cn
     path: /
-- alterId: 64
-  cipher: auto
-  name: 14|🇭🇰 香港4|@ripaojiedian
-  password: 85db6652-a747-3a0a-a170-422736076410
-  port: 11009
-  server: 120.233.43.47
-  skip-cert-verify: false
-  sni: tg_mfbpn_d4.52vpn.eu.org
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  name: 14|🇭🇰 香港A|@ripaojiedian
+  name: 14,15|香港A|@ripaojiedian
   network: ws
-  port: 443
-  server: n1699510575.aaigefm.cn
-  servername: n1699510575.aaigefm.cn
+  port: '443'
+  server: n1699510573.izwhvan.cn
+  servername: n1699510573.izwhvan.cn
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 8038eb29-e8fe-4bc2-a9de-ce0fd00326c4
+  uuid: 2d6798d9-1484-4d83-9cd6-b62007647879
   ws-opts:
     headers:
-      Host: n1699510575.aaigefm.cn
+      Host: n1699510573.izwhvan.cn
     path: /
+- alterId: 0
+  cipher: auto
+  name: 14,15|香港C|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1699510577.izwhvan.cn
+  servername: n1699510577.izwhvan.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 86aa8df0-e8c8-43c5-ad5b-8b0a7f4e9ae8
+  ws-opts:
+    headers:
+      Host: n1699510577.izwhvan.cn
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 14|🇭🇰 香港|安卓推荐clash
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
+  port: 443
+  server: 112.120.127.9
+  skip-cert-verify: false
+  sni: glc-hkt2.windowsupdatea.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港6|@ripaojiedian
   password: 20544f92a1fb
@@ -167,31 +183,3 @@ proxies:
   server: 123.254.105.107
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 15|香港A|@ripaojiedian
-  network: ws
-  port: '443'
-  server: n1699510573.izwhvan.cn
-  servername: n1699510573.izwhvan.cn
-  tls: true
-  type: vmess
-  uuid: 2d6798d9-1484-4d83-9cd6-b62007647879
-  ws-opts:
-    headers:
-      Host: n1699510573.izwhvan.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15|香港C|@ripaojiedian
-  network: ws
-  port: '443'
-  server: n1699510577.izwhvan.cn
-  servername: n1699510577.izwhvan.cn
-  tls: true
-  type: vmess
-  uuid: 86aa8df0-e8c8-43c5-ad5b-8b0a7f4e9ae8
-  ws-opts:
-    headers:
-      Host: n1699510577.izwhvan.cn
-    path: /
