@@ -8,7 +8,7 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9deaaf4b-4561-4f28-97a6-e7cc314f066c
+  uuid: c7132506-5bbd-4557-9597-ea13884c57f0
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港05
@@ -18,7 +18,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9deaaf4b-4561-4f28-97a6-e7cc314f066c
+  uuid: c7132506-5bbd-4557-9597-ea13884c57f0
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -28,17 +28,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9deaaf4b-4561-4f28-97a6-e7cc314f066c
+  uuid: c7132506-5bbd-4557-9597-ea13884c57f0
 - alterId: 0
   cipher: auto
-  name: 10,12|中国 - 香港 - Stark Industries Sol...
-  network: tcp
-  port: 80
-  server: 194.156.98.179
+  name: 10|香港 阿里云
+  network: ws
+  port: '443'
+  server: n1698814076.izwhvan.cn
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
+  uuid: 2484ab4b-e997-45f3-9f0d-456640d967ef
+  ws-opts:
+    headers:
+      Host: n1698814076.izwhvan.cn
+    path: /
 - alterId: 0
   cipher: auto
   name: 10,11|github.com/freefq - 香港阿里云 7
@@ -84,7 +88,7 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9eb055a4-f0a6-406f-ac94-f21accb59aac
+  uuid: c15d48c3-b2ec-46a9-ab2f-ab3a42da2ec2
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -94,7 +98,7 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9eb055a4-f0a6-406f-ac94-f21accb59aac
+  uuid: c15d48c3-b2ec-46a9-ab2f-ab3a42da2ec2
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -104,7 +108,7 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9eb055a4-f0a6-406f-ac94-f21accb59aac
+  uuid: c15d48c3-b2ec-46a9-ab2f-ab3a42da2ec2
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
