@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96245100-98cd-41b4-9277-290eae77e96a
+  uuid: 8e18ad32-588d-4471-ac10-42f0ab93c4fb
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96245100-98cd-41b4-9277-290eae77e96a
+  uuid: 8e18ad32-588d-4471-ac10-42f0ab93c4fb
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96245100-98cd-41b4-9277-290eae77e96a
+  uuid: 8e18ad32-588d-4471-ac10-42f0ab93c4fb
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.94.14...
+  network: ws
+  port: '27817'
+  server: 146.190.94.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 240ecf2a-5ab2-4d48-88cb-c2b7347980f7
+  ws-opts:
+    headers:
+      Host: sg.linkedin.com
+    path: /ONHIT
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_102611087
@@ -52,7 +66,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0497c253-3826-4142-8b4f-e028c57a85f4
+  uuid: 6352e68e-820e-48d4-94a2-71bf2593d1a0
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -62,7 +76,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0497c253-3826-4142-8b4f-e028c57a85f4
+  uuid: 6352e68e-820e-48d4-94a2-71bf2593d1a0
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -72,7 +86,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0497c253-3826-4142-8b4f-e028c57a85f4
+  uuid: 6352e68e-820e-48d4-94a2-71bf2593d1a0
 - cipher: aes-256-cfb
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
