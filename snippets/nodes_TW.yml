@@ -8,7 +8,7 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d5b007d4-cd2f-41dc-b768-53fec16e4164
+  uuid: 00b5e341-208d-457a-8193-d2a9d7499ad5
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -18,7 +18,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d5b007d4-cd2f-41dc-b768-53fec16e4164
+  uuid: 00b5e341-208d-457a-8193-d2a9d7499ad5
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -28,23 +28,10 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d5b007d4-cd2f-41dc-b768-53fec16e4164
+  uuid: 00b5e341-208d-457a-8193-d2a9d7499ad5
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 台湾省中华电信(Hi...
-  network: ws
-  port: '443'
-  server: nbq11.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
-  ws-opts:
-    headers:
-      Host: nbq11.ntbq.dynu.net
-    path: /b11
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 台湾省新北市中华电信...
+  name: 10,11|github.com/freefq - 台湾省新北市中华电信...
   network: ws
   port: '443'
   server: b23.ntbq.dynu.net
@@ -57,7 +44,22 @@ proxies:
     path: /b23
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 台湾省桃园市中华电信...
+  name: 10,11,14|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  port: 443
+  server: nbq11.ntbq.dynu.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  ws-opts:
+    headers:
+      Host: nbq11.ntbq.dynu.net
+    path: /b11
+- alterId: 0
+  cipher: auto
+  name: 10,11|github.com/freefq - 台湾省桃园市中华电信...
   network: ws
   port: '443'
   server: nbq12.ntbq.dynu.net
@@ -77,7 +79,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0779286a-f8fa-4510-a91c-295019c9642c
+  uuid: 30d3e9ae-cd2d-4327-9dae-65ba1b538c33
 - alterId: 0
   cipher: auto
   name: 13|台湾 05  | 1x TWN
@@ -87,7 +89,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0779286a-f8fa-4510-a91c-295019c9642c
+  uuid: 30d3e9ae-cd2d-4327-9dae-65ba1b538c33
 - alterId: 0
   cipher: auto
   name: 13|台湾 06  | 1x TWN
@@ -97,7 +99,7 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0779286a-f8fa-4510-a91c-295019c9642c
+  uuid: 30d3e9ae-cd2d-4327-9dae-65ba1b538c33
 - cipher: aes-256-gcm
   name: 14|🇹🇼 台湾2|@ripaojiedian
   password: a0068c048cb0
@@ -113,3 +115,17 @@ proxies:
   server: fn600mtw005.testnewline.info
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 15|台湾|@ripaojiedian
+  network: ws
+  port: '443'
+  server: nbq11.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b11
