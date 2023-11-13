@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇸🇬_SG_新加坡->🇺🇸_US_美国 #4'
+  name: 0,2,3,4,6,11|github.com/freefq - 中国阿里云 35
   network: ws
   port: 80
   server: 8.222.198.105
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸_US_美国->🇮🇳_IN_印度_6
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_6
   network: ws
   port: 80
   server: mm2.shabijichang.com
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,19|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
+  name: '0,2,3,4,6,18|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -63,7 +63,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,10,11|github.com/freefq - 中国阿里云 34
+  name: 0,2,3,4,6,10,11|github.com/freefq - 中国阿里云 41
   network: ws
   port: '80'
   server: 8.222.235.92
@@ -77,7 +77,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -90,7 +90,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
+  name: '0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz... #1'
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -103,7 +103,7 @@ proxies:
     path: /path/1699280099138
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸_US_美国->🇬🇧_GB_英国_2_9
+  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇬🇧_GB_英国_2_9
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -238,16 +238,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 19|🇨🇳_CN_中国->🇬🇧_GB_英国_2
-  network: tcp
-  port: 49056
-  server: 112.29.94.23
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 64
-  cipher: auto
-  name: '19|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz... #1'
+  name: '12,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz... #2'
   network: ws
   port: 30000
   server: 45.199.138.146
@@ -258,3 +249,12 @@ proxies:
     headers:
       Host: www.19229362.xyz
     path: /path/1699193100388
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇬🇧_GB_英国_2
+  network: tcp
+  port: 49056
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
