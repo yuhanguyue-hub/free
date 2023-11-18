@@ -8,7 +8,7 @@ proxies:
   servername: in04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇨🇦加拿大04
@@ -18,7 +18,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇺🇦乌克兰04
@@ -28,7 +28,7 @@ proxies:
   servername: ua04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇺🇸美国04
@@ -38,7 +38,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇦🇷阿根廷04
@@ -48,10 +48,10 @@ proxies:
   servername: ar04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #2'
+  name: 0,3,6|🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -64,11 +64,12 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,3,10,11,15,19|🇨🇳_CN_中国->🇩🇪_DE_德国_23
+  name: 0,1,2,3,4,10,11,15,19|🇨🇳_CN_中国->🇩🇪_DE_德国_23
   network: tcp
   port: 50707
   server: 183.237.20.148
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -81,7 +82,7 @@ proxies:
   servername: hu04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇹🇷土耳其04
@@ -91,7 +92,7 @@ proxies:
   servername: tr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇩🇪德国04
@@ -101,7 +102,7 @@ proxies:
   servername: de04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇦🇺澳大利亚04
@@ -111,7 +112,7 @@ proxies:
   servername: au04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇧🇷巴西04
@@ -121,14 +122,15 @@ proxies:
   servername: br04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 64
   cipher: auto
-  name: '0,3,10,12,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
+  name: 0,1,2,3,4,10,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
   network: tcp
   port: 49223
   server: 112.29.94.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
@@ -141,7 +143,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇬🇧英国04
@@ -151,12 +153,12 @@ proxies:
   servername: uk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
-  name: '0,3,6|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
+  name: '0,3|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
   network: ws
-  port: 80
+  port: '80'
   server: mrb2.shabijichang.com
   tls: false
   type: vmess
@@ -174,7 +176,7 @@ proxies:
   servername: pt04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
   name: 0,3,9|🇺🇸美国06
@@ -184,60 +186,24 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 411163aa-a74b-488e-a670-08c0f0e03579
+  uuid: 05fc9ce3-044c-438e-b342-4736f789eb7a
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IN_
+  name: 1|_US_->_GB_
   network: ws
   port: 80
-  server: mm3.shabijichang.com
+  server: ld2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mm3.shabijichang.com
+      host: ld2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2,4,6|🇷🇴_RO_罗马尼亚->🇺🇦_UA_乌克兰 #2'
-  network: http
-  port: 18785
-  server: ss.wwww.htttbbx.alirezashhamraz.tk
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
-- alterId: 0
-  cipher: auto
-  name: '6,12|🇺🇸_US_美国->🇬🇧_GB_英国 #3'
-  network: ws
-  port: 2052
-  server: family.mgtajhiz.ir
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国->🇮🇳_IN_印度 #3'
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国->🇬🇧_GB_英国 #2'
+  name: '2,4|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
   network: ws
   port: 80
   server: ld2.shabijichang.com
