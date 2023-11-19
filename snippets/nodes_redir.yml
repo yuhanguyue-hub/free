@@ -11,7 +11,7 @@ proxies:
   uuid: 05af75d7-4c45-4222-b245-d36c5618135d
 - alterId: 0
   cipher: auto
-  name: 0,3,6|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: 0,3,6,18|🇺🇸_US_美国->🇮🇳_IN_印度_20
   network: ws
   port: 80
   server: mm2.shabijichang.com
@@ -24,7 +24,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,18|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: 0,2,3,4,6,11,18|🇺🇸_US_美国->🇬🇧_GB_英国_4
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -37,7 +37,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,1,2,3,4,10,15,18|🇨🇳_CN_中国->🇬🇧_GB_英国_6
+  name: 0,1,2,3,4,10,11,15,18|🇨🇳_CN_中国->🇬🇧_GB_英国_24
   network: tcp
   port: 49223
   server: 112.29.94.23
@@ -48,7 +48,7 @@ proxies:
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 64
   cipher: auto
-  name: 0,3,10,11|github.com/freefq - 广东省移动 6
+  name: 0,3,10|广东省移动 3
   network: tcp
   port: 50707
   server: 183.237.20.148
@@ -113,30 +113,4 @@ proxies:
   ws-opts:
     headers:
       host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇬🇧_GB_英国_2_20
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
-  network: ws
-  port: 2096
-  server: 104.25.38.74
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
     path: /
