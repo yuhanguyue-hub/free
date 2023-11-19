@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cea073d8-b4a3-4038-9d78-83cbf599083a
+  uuid: 2c5c225c-a2b9-4762-9a60-503bcfe31793
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cea073d8-b4a3-4038-9d78-83cbf599083a
+  uuid: 2c5c225c-a2b9-4762-9a60-503bcfe31793
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,17 +28,20 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cea073d8-b4a3-4038-9d78-83cbf599083a
+  uuid: 2c5c225c-a2b9-4762-9a60-503bcfe31793
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
+  name: 11|github.com/freefq - 日本东京都Amazo...
+  network: ws
+  port: 8443
+  server: jp6.skynode.one
   tls: false
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: 861cb438-6731-3638-bbf1-153575f8a430
+  ws-opts:
+    headers:
+      Host: jp6.skynode.one
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
@@ -51,13 +54,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  name: 12|🇯🇵白嫖-053
   network: tcp
   port: 1069
   server: 152.69.197.60
+  servername: ''
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-061
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 04  | 1x JP
@@ -67,7 +81,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 976d76c6-a929-44bb-8fc9-311405632d87
+  uuid: c214e54c-11ad-438d-b6e0-6df7d6973761
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -77,7 +91,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 976d76c6-a929-44bb-8fc9-311405632d87
+  uuid: c214e54c-11ad-438d-b6e0-6df7d6973761
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -87,7 +101,18 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 976d76c6-a929-44bb-8fc9-311405632d87
+  uuid: c214e54c-11ad-438d-b6e0-6df7d6973761
+- cipher: aes-128-gcm
+  name: 14|🇯🇵 日本|付费版推荐 翻墙.com
+  password: https://t.me/ssucn
+  plugin: obfs
+  plugin-opts:
+    host: speedtest.net
+    mode: http
+  port: 1020
+  server: nearoute.jp.securevpn.cc
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -122,13 +147,13 @@ proxies:
   name: 14|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.199.13.24
+  server: 54.65.81.153
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: 14|🇯🇵 东京特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.181.177.181
+  server: 13.112.2.25
   tfo: false
   type: ss
