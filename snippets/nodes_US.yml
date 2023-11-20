@@ -182,7 +182,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6410ec3d-3f6e-4cae-80d7-4639fda2cce1
+  uuid: 141b433f-0769-4827-a68b-253bdc2949a3
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -192,7 +192,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6410ec3d-3f6e-4cae-80d7-4639fda2cce1
+  uuid: 141b433f-0769-4827-a68b-253bdc2949a3
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -202,7 +202,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6410ec3d-3f6e-4cae-80d7-4639fda2cce1
+  uuid: 141b433f-0769-4827-a68b-253bdc2949a3
 - alterId: 0
   cipher: auto
   name: 10|美国 CloudFlare公司CDN节点(shopify)
@@ -247,7 +247,7 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: '10,11|github.com/freefq - 美国CloudFla... #1'
+  name: '10|美国 CloudFlare节点 #2'
   network: ws
   port: '8080'
   server: cf2.openxai.link
@@ -288,7 +288,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 17
+  name: '10,11|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: '8080'
   server: cf2.openxai.link
@@ -314,6 +314,20 @@ proxies:
     headers:
       Host: aktw.daozhang.love
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,12|🇺🇸 US 390
+  network: ws
+  port: 8443
+  server: 104.21.84.60
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
+  ws-opts:
+    headers:
+      Host: brcf.duaaoped.xyz
+    path: /xtsmol
 - alterId: 0
   cipher: auto
   name: 11,12|US美国(mibei77.com 米贝节点分享)
@@ -386,20 +400,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US 390
-  network: ws
-  port: 8443
-  server: 104.21.84.60
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
-  ws-opts:
-    headers:
-      Host: brcf.duaaoped.xyz
-    path: /xtsmol
 - alterId: 0
   cipher: auto
   name: 12|美国 007
@@ -651,7 +651,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bff1742a-76eb-491e-9bf4-6618ca823ad2
+  uuid: ed32317b-f76e-4dbb-8d96-6c2829123f43
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -661,7 +661,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bff1742a-76eb-491e-9bf4-6618ca823ad2
+  uuid: ed32317b-f76e-4dbb-8d96-6c2829123f43
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -671,7 +671,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bff1742a-76eb-491e-9bf4-6618ca823ad2
+  uuid: ed32317b-f76e-4dbb-8d96-6c2829123f43
 - cipher: aes-256-gcm
   name: 14|🇺🇸 美国|低价实惠 翻墙.com
   password: 5c8b210a-2f00-4292-964b-05281c7ad5d1
@@ -704,7 +704,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: 8570b092-0ed0-4f39-8a70-83913b879559
+  uuid: 71404f32-d974-4a59-bae2-bc92b3f1115e
   ws-opts:
     headers:
       Host: ''
@@ -717,7 +717,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: 8570b092-0ed0-4f39-8a70-83913b879559
+  uuid: 71404f32-d974-4a59-bae2-bc92b3f1115e
   ws-opts:
     headers:
       Host: ''
@@ -730,7 +730,7 @@ proxies:
   server: gdct001.jcnode.top
   tls: false
   type: vmess
-  uuid: 8570b092-0ed0-4f39-8a70-83913b879559
+  uuid: 71404f32-d974-4a59-bae2-bc92b3f1115e
   ws-opts:
     headers:
       Host: ''
@@ -743,7 +743,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: 8570b092-0ed0-4f39-8a70-83913b879559
+  uuid: 71404f32-d974-4a59-bae2-bc92b3f1115e
   ws-opts:
     headers:
       Host: ''
@@ -756,7 +756,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: 8570b092-0ed0-4f39-8a70-83913b879559
+  uuid: 71404f32-d974-4a59-bae2-bc92b3f1115e
   ws-opts:
     headers:
       Host: ''
@@ -769,7 +769,7 @@ proxies:
   server: gdct001.jcnode.top
   tls: false
   type: vmess
-  uuid: 8570b092-0ed0-4f39-8a70-83913b879559
+  uuid: 71404f32-d974-4a59-bae2-bc92b3f1115e
   ws-opts:
     headers:
       Host: ''
