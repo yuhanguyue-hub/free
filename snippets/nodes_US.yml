@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,6,11|github.com/freefq - 美国CloudFla...
+  name: 0,3,6,10,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: 2052
   server: cfcdn1.sanfencdn9.com
@@ -95,7 +95,7 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: 2,3,4,12,18|🇺🇸_US_美国_2_25
+  name: 2,4,12,18|🇺🇸_US_美国_2_25
   network: ws
   port: 443
   server: a7.wxlljc520.com
@@ -108,7 +108,7 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: 2,3,4,12,18|🇺🇸_US_美国_3_26
+  name: 2,4,12,18|🇺🇸_US_美国_3_26
   network: ws
   port: 443
   server: a8.wxlljc520.com
@@ -119,58 +119,6 @@ proxies:
     headers:
       Host: 777.golinkwuxian.top
     path: /apple
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇺🇸_US_美国_5_29
-  network: ws
-  port: 80
-  server: 28.namesilo123.top
-  tls: false
-  type: vmess
-  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
-  ws-opts:
-    headers:
-      Host: uszhang.sanfen002.top
-    path: /grdhhgrdhhhhhhj?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇺🇸_US_美国_6_30
-  network: ws
-  port: 8080
-  server: 27.namesilo123.top
-  tls: false
-  type: vmess
-  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
-  ws-opts:
-    headers:
-      Host: uszhang.sanfen002.top
-    path: /grdhhgrdhhhhhhj?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇺🇸_US_美国_7_3由快嘴科技提供：kkzui.com
-  network: ws
-  port: 8880
-  server: 29.namesilo123.top
-  tls: false
-  type: vmess
-  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
-  ws-opts:
-    headers:
-      Host: uszhang.sanfen002.top
-    path: /grdhhgrdhhhhhhj?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇺🇸_US_美国_4_28
-  network: ws
-  port: 2082
-  server: 26.namesilo123.top
-  tls: false
-  type: vmess
-  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
-  ws-opts:
-    headers:
-      Host: uszhang.sanfen002.top
-    path: /grdhhgrdhhhhhhj?ed=2048
 - alterId: 0
   cipher: auto
   name: '7,8|🇺🇸 United States 01 @nodpai #1'
@@ -195,7 +143,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 713efe2b-3342-4186-88f9-212ecce82de0
+  uuid: a325afa0-835e-4431-940c-a9f7e6e76d68
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -205,7 +153,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 713efe2b-3342-4186-88f9-212ecce82de0
+  uuid: a325afa0-835e-4431-940c-a9f7e6e76d68
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -215,14 +163,13 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 713efe2b-3342-4186-88f9-212ecce82de0
+  uuid: a325afa0-835e-4431-940c-a9f7e6e76d68
 - alterId: 0
   cipher: auto
-  name: 10,12|加拿大 216
+  name: 10|美国 CloudFlare节点
   network: ws
   port: 80
-  server: Singapore.MFA.EE
-  servername: ''
+  server: 172.67.68.136
   tls: false
   type: vmess
   uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
@@ -244,12 +191,40 @@ proxies:
     headers:
       Host: eu3.openxai.link
     path: /
+- alterId: 0
+  cipher: auto
+  name: 10,12|美国(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '80'
+  server: freeyx.cloudflare88.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
+  ws-opts:
+    headers:
+      Host: buyvm.iiio.wiki
+    path: /aries?ed=2048
+- alterId: 64
+  cipher: auto
+  name: '10,11,12|荷兰 - 阿姆斯特丹 - Yisp B.V. #1'
+  network: ws
+  port: 30000
+  server: 154.85.1.130
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1698843555400
 - alterId: 1
   cipher: auto
-  name: 10,12|加拿大 287
+  name: 10,12|🇺🇸 _US_美国_wmt_34
   network: ws
   port: 443
-  server: octavi.cfd
+  server: 104.21.31.183
   servername: ''
   tls: true
   type: vmess
@@ -258,20 +233,20 @@ proxies:
     headers:
       Host: octavi.cfd
     path: linkvws
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 10,12|加拿大 203
+  name: 10,11|github.com/freefq - 美国加利福尼亚州圣何...
   network: ws
-  port: 443
-  server: mtnc.ircf.space
+  port: 30000
+  server: 142.4.97.65
   servername: ''
   tls: true
   type: vmess
-  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: red-leaf-2332.walidfree20.workers.dev
-    path: /speedtest/Kansas.kotick.site
+      Host: www.39838266.xyz
+    path: /path/1699624723213
 - alterId: 0
   cipher: auto
   name: '10,11|github.com/freefq - 美国CloudFla... #2'
@@ -286,34 +261,6 @@ proxies:
     headers:
       Host: cc2.shabijichang.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 11|github.com/freefq - 美国加利福尼亚州圣何...
-  network: ws
-  port: 30000
-  server: 142.4.97.65
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.39838266.xyz
-    path: /path/1699624723213
-- alterId: 64
-  cipher: auto
-  name: '11,12|荷兰 - 阿姆斯特丹 - Yisp B.V. #1'
-  network: ws
-  port: 30000
-  server: 154.85.1.130
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1698843555400
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇺🇸 US-23.26.98.154:...
@@ -328,20 +275,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 1
-  cipher: auto
-  name: 12|🇺🇸 _US_美国_wmt_34
-  network: ws
-  port: 443
-  server: 104.21.31.183
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: octavi.cfd
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇺🇸 US-172.67.132.20...
@@ -369,20 +302,6 @@ proxies:
     headers:
       Host: kansas.Kotick.site
     path: /speedtest?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 12|美国(yudou66.com 玉豆免费节点)
-  network: ws
-  port: '80'
-  server: freeyx.cloudflare88.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
-  ws-opts:
-    headers:
-      Host: buyvm.iiio.wiki
-    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 _US_美国_wmt_3
@@ -552,7 +471,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cad02945-7596-40dc-bd1f-9cc0a4e81db3
+  uuid: 74be7e49-ca35-404f-a001-59dba0ffeef9
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -562,7 +481,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cad02945-7596-40dc-bd1f-9cc0a4e81db3
+  uuid: 74be7e49-ca35-404f-a001-59dba0ffeef9
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -572,7 +491,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cad02945-7596-40dc-bd1f-9cc0a4e81db3
+  uuid: 74be7e49-ca35-404f-a001-59dba0ffeef9
 - cipher: aes-256-gcm
   name: 14|🇺🇸 美国|低价实惠 翻墙.com
   password: 5c8b210a-2f00-4292-964b-05281c7ad5d1
@@ -587,6 +506,87 @@ proxies:
   server: 188.214.157.5
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|🇺🇸 美国2|@ripaojiedian
+  network: ws
+  port: 46036
+  server: mf836f.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
+  ws-opts:
+    headers:
+      Host: mf836f.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 15|美国2|@ripaojiedian
+  network: ws
+  port: '46036'
+  server: mf836f.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_4_28
+  network: ws
+  port: 2082
+  server: 26.namesilo123.top
+  tls: false
+  type: vmess
+  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
+  ws-opts:
+    headers:
+      Host: uszhang.sanfen002.top
+    path: /grdhhgrdhhhhhhj?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_5_29
+  network: ws
+  port: 80
+  server: 28.namesilo123.top
+  tls: false
+  type: vmess
+  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
+  ws-opts:
+    headers:
+      Host: uszhang.sanfen002.top
+    path: /grdhhgrdhhhhhhj?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_6_30
+  network: ws
+  port: 8080
+  server: 27.namesilo123.top
+  tls: false
+  type: vmess
+  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
+  ws-opts:
+    headers:
+      Host: uszhang.sanfen002.top
+    path: /grdhhgrdhhhhhhj?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_7_3由快嘴科技提供：kkzui.com
+  network: ws
+  port: 8880
+  server: 29.namesilo123.top
+  tls: false
+  type: vmess
+  uuid: 309f84b9-49dd-408d-a0b6-8860393be802
+  ws-opts:
+    headers:
+      Host: uszhang.sanfen002.top
+    path: /grdhhgrdhhhhhhj?ed=2048
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_46
