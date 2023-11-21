@@ -27,11 +27,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,12|美国(玉豆免费节点 yudou66.com)
+  name: '0,2,3,4|🇺🇸_US_美国->🇬🇧_GB_英国 #3'
   network: ws
-  port: '2052'
+  port: 2052
   server: family.mgtajhiz.ir
-  servername: ''
   tls: false
   type: vmess
   uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
@@ -131,6 +130,19 @@ proxies:
   ws-opts:
     headers:
       host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇮🇷_IR_伊朗_3
+  network: ws
+  port: 2053
+  server: 104.16.122.175
+  tls: true
+  type: vmess
+  uuid: c9c724b1-e7f8-429d-93a7-631db13f6ead
+  ws-opts:
+    headers:
+      Host: zUla.eSMaIlkOrEa.sHOp
     path: /
 - alterId: 0
   cipher: auto
