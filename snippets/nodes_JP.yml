@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 610d3544-f9fb-4098-ad53-347794e8c0d6
+  uuid: fc8af368-f768-480d-af05-25e25ba39de9
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 610d3544-f9fb-4098-ad53-347794e8c0d6
+  uuid: fc8af368-f768-480d-af05-25e25ba39de9
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 610d3544-f9fb-4098-ad53-347794e8c0d6
+  uuid: fc8af368-f768-480d-af05-25e25ba39de9
 - alterId: 0
   cipher: auto
   name: 12|[vmess]日本a9
@@ -100,7 +100,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5730b7ba-0425-47ec-9328-89a44b6b86de
+  uuid: 9d6d5470-400a-4256-9d0a-e962edbc44d8
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -110,7 +110,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5730b7ba-0425-47ec-9328-89a44b6b86de
+  uuid: 9d6d5470-400a-4256-9d0a-e962edbc44d8
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -120,23 +120,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5730b7ba-0425-47ec-9328-89a44b6b86de
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 14,15|日本|浏览器输入 翻墙.com
-  network: ws
-  port: '32201'
-  server: free-relay.themars.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: afdc69bd-67a1-46e9-9211-c544fe83a755
-  ws-opts:
-    headers:
-      Host: www.cctv.com
-    path: /cctv1.m3u8
+  uuid: 9d6d5470-400a-4256-9d0a-e962edbc44d8
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -171,6 +155,27 @@ proxies:
   name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
   password: amazonskr05
   port: 443
-  server: 43.207.109.28
+  server: 57.180.242.234
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 13.112.247.107
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.92.106.140
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.131.201
   tfo: false
   type: ss
