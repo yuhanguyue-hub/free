@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 13e36dcb-1911-4bb0-ae54-a67e43b08542
+  uuid: 610d3544-f9fb-4098-ad53-347794e8c0d6
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 13e36dcb-1911-4bb0-ae54-a67e43b08542
+  uuid: 610d3544-f9fb-4098-ad53-347794e8c0d6
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,29 +28,41 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 13e36dcb-1911-4bb0-ae54-a67e43b08542
+  uuid: 610d3544-f9fb-4098-ad53-347794e8c0d6
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本1丨电报群@bp520
+  name: 12|[vmess]日本a9
   network: ws
-  port: '80'
-  server: 162.159.142.239
-  tls: false
+  port: '443'
+  server: aa7.wuxianliulianng.xyz
+  servername: golinkwuxian.top
+  tls: true
   type: vmess
-  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
+  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
   ws-opts:
     headers:
-      Host: jp3.889611.com
-    path: /
+      Host: 4444.golinkwuxian.top
+    path: /apple
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|[vmess]日本a10
@@ -67,79 +79,18 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵日本4丨电报群@bp520
+  name: 12|[vmess]日本b5
   network: ws
-  port: '80'
-  server: 162.159.142.234
-  tls: false
+  port: '443'
+  server: bb4.wuxianliulianng.xyz
+  servername: golinkwuxian.top
+  tls: true
   type: vmess
-  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
+  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
   ws-opts:
     headers:
-      Host: jp3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本3丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.142.233
-  tls: false
-  type: vmess
-  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
-  ws-opts:
-    headers:
-      Host: jp3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本6丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.142.236
-  tls: false
-  type: vmess
-  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
-  ws-opts:
-    headers:
-      Host: jp3.visaapp.top
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本5丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.142.235
-  tls: false
-  type: vmess
-  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
-  ws-opts:
-    headers:
-      Host: jp3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本2丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.142.232
-  tls: false
-  type: vmess
-  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
-  ws-opts:
-    headers:
-      Host: jp3.889611.com
-    path: /
+      Host: 4444.golinkwuxian.top
+    path: /apple
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 04  | 1x JP
@@ -149,7 +100,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ec11aea1-551a-465f-b299-401fb6fe5672
+  uuid: 5730b7ba-0425-47ec-9328-89a44b6b86de
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -159,7 +110,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ec11aea1-551a-465f-b299-401fb6fe5672
+  uuid: 5730b7ba-0425-47ec-9328-89a44b6b86de
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -169,7 +120,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ec11aea1-551a-465f-b299-401fb6fe5672
+  uuid: 5730b7ba-0425-47ec-9328-89a44b6b86de
 - alterId: 0
   cipher: chacha20-poly1305
   name: 14,15|日本|浏览器输入 翻墙.com
