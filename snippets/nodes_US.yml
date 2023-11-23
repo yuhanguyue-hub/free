@@ -147,7 +147,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 11400f32-6e25-4157-ace2-7bf48174f5fb
+  uuid: a4d2cace-0053-41db-8774-b787c6a1a06a
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -157,7 +157,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 11400f32-6e25-4157-ace2-7bf48174f5fb
+  uuid: a4d2cace-0053-41db-8774-b787c6a1a06a
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -167,35 +167,49 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 11400f32-6e25-4157-ace2-7bf48174f5fb
+  uuid: a4d2cace-0053-41db-8774-b787c6a1a06a
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 6
+  name: 10|美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: ml3.shabijichang.com
+  port: '8080'
+  server: 104.17.129.28
   servername: ''
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 94242109-0930-427f-f899-15d34021130c
   ws-opts:
     headers:
-      Host: ml3.shabijichang.com
+      Host: eu2.openxai.link
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 1
+  name: '10,12|US美国(mibei77.com 米贝节点分享) #1'
   network: ws
-  port: '443'
-  server: hexsen.com
+  port: '30000'
+  server: 192.74.244.1
   servername: ''
   tls: true
   type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: centers-mean-cnet-jm.trycloudflare.com
-    path: /argo-vmess?ed=2048
+      Host: www.54146999.xyz
+    path: /path/1700403634984
+- alterId: 64
+  cipher: auto
+  name: 10,11,12|US美国(mibei77.com 米贝节点分享)
+  network: ws
+  port: '30000'
+  server: 199.188.108.230
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.16616906.xyz
+    path: /path/1700403634984
 - alterId: 64
   cipher: auto
   name: '10,11,12|US美国(mibei77.com 米贝节点分享) #2'
@@ -210,23 +224,9 @@ proxies:
     headers:
       Host: www.39838266.xyz
     path: /path/1699624723213
-- alterId: 64
-  cipher: auto
-  name: 11,12|US美国(mibei77.com 米贝节点分享)
-  network: ws
-  port: '30000'
-  server: 199.188.108.230
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.16616906.xyz
-    path: /path/1700403634984
 - alterId: 0
   cipher: auto
-  name: 11,12|🔒 VM-WS-NA 🇸🇬 SG-146.190.87.59...
+  name: 10,11,12|🔒 VM-WS-NA 🇸🇬 SG-146.190.87.59...
   network: ws
   port: '48022'
   server: 146.190.87.59
@@ -238,20 +238,6 @@ proxies:
     headers:
       Host: media-exp1.licdn.com
     path: /ADMIN_SHALANA
-- alterId: 64
-  cipher: auto
-  name: '12|US美国(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: '30000'
-  server: 192.74.244.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.54146999.xyz
-    path: /path/1700403634984
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸|US|美国|@wxgqlfx|65
@@ -393,7 +379,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f95db7d6-c482-409c-b6cc-13931bcfe2d3
+  uuid: 6da60485-ad78-46db-80fe-630332ce0bd8
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -403,7 +389,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f95db7d6-c482-409c-b6cc-13931bcfe2d3
+  uuid: 6da60485-ad78-46db-80fe-630332ce0bd8
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -413,7 +399,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f95db7d6-c482-409c-b6cc-13931bcfe2d3
+  uuid: 6da60485-ad78-46db-80fe-630332ce0bd8
 - alterId: 64
   cipher: auto
   name: 14,15|美国1|付费版推荐 翻墙.com
@@ -463,16 +449,6 @@ proxies:
     headers:
       Host: www.87405080.xyz
     path: /path/143013092425
-- alterId: 64
-  cipher: auto
-  name: 15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-  network: tcp
-  port: 43526
-  server: 112.29.94.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: 16|JCBB_ 美国01【vip1】
@@ -481,7 +457,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: 237e060e-2ff6-45d1-97b5-a5e19693f707
+  uuid: 8138fc09-78a2-414e-b710-7ddd7668ba29
   ws-opts:
     headers:
       Host: ''
@@ -494,7 +470,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: 237e060e-2ff6-45d1-97b5-a5e19693f707
+  uuid: 8138fc09-78a2-414e-b710-7ddd7668ba29
   ws-opts:
     headers:
       Host: ''
@@ -507,7 +483,7 @@ proxies:
   server: gdct001.jcnode.top
   tls: false
   type: vmess
-  uuid: 237e060e-2ff6-45d1-97b5-a5e19693f707
+  uuid: 8138fc09-78a2-414e-b710-7ddd7668ba29
   ws-opts:
     headers:
       Host: ''
@@ -520,7 +496,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: 237e060e-2ff6-45d1-97b5-a5e19693f707
+  uuid: 8138fc09-78a2-414e-b710-7ddd7668ba29
   ws-opts:
     headers:
       Host: ''
@@ -533,7 +509,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: 237e060e-2ff6-45d1-97b5-a5e19693f707
+  uuid: 8138fc09-78a2-414e-b710-7ddd7668ba29
   ws-opts:
     headers:
       Host: ''
@@ -546,7 +522,7 @@ proxies:
   server: gdct001.jcnode.top
   tls: false
   type: vmess
-  uuid: 237e060e-2ff6-45d1-97b5-a5e19693f707
+  uuid: 8138fc09-78a2-414e-b710-7ddd7668ba29
   ws-opts:
     headers:
       Host: ''
