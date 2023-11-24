@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b617095-0ae2-4fb1-8886-5c618ef7c90d
+  uuid: a93dc4b4-efe3-4beb-98a5-ed8ccc59b1f6
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b617095-0ae2-4fb1-8886-5c618ef7c90d
+  uuid: a93dc4b4-efe3-4beb-98a5-ed8ccc59b1f6
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b617095-0ae2-4fb1-8886-5c618ef7c90d
+  uuid: a93dc4b4-efe3-4beb-98a5-ed8ccc59b1f6
 - alterId: 0
   cipher: auto
   name: 10,11|github.com/freefq - 新加坡Amazon数...
@@ -44,6 +44,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|47
+  network: ws
+  port: 30830
+  server: 146.190.202.39
+  tls: false
+  type: vmess
+  uuid: 5e37ddcb-82b5-49d8-fbc4-28f13b4250e5
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -51,7 +64,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 00207633-587c-4b69-b3a5-808201bf3794
+  uuid: e3c633fd-6e37-45d8-96df-16e380f40e06
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -61,7 +74,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 00207633-587c-4b69-b3a5-808201bf3794
+  uuid: e3c633fd-6e37-45d8-96df-16e380f40e06
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -71,7 +84,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 00207633-587c-4b69-b3a5-808201bf3794
+  uuid: e3c633fd-6e37-45d8-96df-16e380f40e06
 - alterId: 0
   cipher: auto
   name: 14,15|新加坡|@ripaojiedian
