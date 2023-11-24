@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '3,12|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: 8080
-  server: 23.227.39.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -22,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a93dc4b4-efe3-4beb-98a5-ed8ccc59b1f6
+  uuid: 6bf106d5-f531-40c6-a56d-3377299b766d
 - alterId: 1
   cipher: auto
   name: 12|加拿大 172
@@ -177,6 +163,20 @@ proxies:
     headers:
       Host: cf.tonyluk.link
     path: /ophelia.mom:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 _CA_加拿大
+  network: ws
+  port: 8080
+  server: 23.227.39.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: dongtaiwang13.dtku47.xyz
+    path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
   name: 12|加拿大 280
@@ -578,4 +578,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e3c633fd-6e37-45d8-96df-16e380f40e06
+  uuid: 070a9cc0-5f80-4b1c-a8bc-05f683b8975e
