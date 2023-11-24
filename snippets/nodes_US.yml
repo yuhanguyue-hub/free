@@ -101,7 +101,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 11a72565-e0b3-485f-b4be-dfadb9cc1e43
+  uuid: 976f1614-4492-4419-8b92-6489aeb3efce
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -111,7 +111,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 11a72565-e0b3-485f-b4be-dfadb9cc1e43
+  uuid: 976f1614-4492-4419-8b92-6489aeb3efce
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -121,7 +121,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 11a72565-e0b3-485f-b4be-dfadb9cc1e43
+  uuid: 976f1614-4492-4419-8b92-6489aeb3efce
 - alterId: 0
   cipher: auto
   name: 10|美国 CloudFlare节点
@@ -193,7 +193,7 @@ proxies:
     path: /path/1699624723213
 - alterId: 0
   cipher: auto
-  name: 10,18|🇺🇸_US_美国_5_29
+  name: 10,19|🇺🇸_US_美国_5_29
   network: ws
   port: 80
   server: us01.xpoti.online
@@ -204,7 +204,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 10,11|github.com/freefq - 美国  1
+  name: 10|美国  3
   network: ws
   port: '30000'
   server: 199.188.108.230
@@ -218,7 +218,7 @@ proxies:
     path: /path/1700403634984
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 6
+  name: '10,11|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: '8080'
   server: cf1.openxai.link
@@ -272,6 +272,61 @@ proxies:
     headers:
       Host: studies-sense-encourages-washington.trycloudflare.com
     path: 622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 北美地区  2
+  network: ws
+  port: '9000'
+  server: alter.ssfree.ru
+  tls: false
+  type: vmess
+  uuid: e7d954e8-8aea-11ee-9b0c-00163e49219e
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /search
+- alterId: 0
+  cipher: auto
+  name: 11,12|🔒 VM-WS-NA 🇸🇬 SG-146.190.93.32...
+  network: ws
+  port: '25467'
+  server: 146.190.93.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95a4b306-097f-4d07-a615-df74f8220f15
+  ws-opts:
+    headers:
+      Host: SG.linkedin.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,12|加拿大 252
+  network: ws
+  port: 2052
+  server: family.mgtajhiz.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,12|🔒 VM-WS-TLS 🇺🇸 US-172.67.184.1...
+  network: ws
+  port: '2096'
+  server: 172.67.184.149
+  servername: v1.583181.xyz
+  tls: true
+  type: vmess
+  uuid: 6efc69b4-7367-46af-af62-da516548a9f4
+  ws-opts:
+    headers:
+      Host: v1.583181.xyz
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|US美国(mibei77.com 米贝节点分享)
@@ -372,20 +427,6 @@ proxies:
   ws-opts:
     headers:
       Host: sj.alieszvps.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-TLS 🇺🇸 US-172.67.184.1...
-  network: ws
-  port: '2096'
-  server: 172.67.184.149
-  servername: v1.583181.xyz
-  tls: true
-  type: vmess
-  uuid: 6efc69b4-7367-46af-af62-da516548a9f4
-  ws-opts:
-    headers:
-      Host: v1.583181.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -493,7 +534,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 40364d02-3e5e-4235-be44-08cc8b5588b2
+  uuid: 4ea1bb26-2c27-4f0c-9084-a069fe0eb427
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -503,7 +544,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 40364d02-3e5e-4235-be44-08cc8b5588b2
+  uuid: 4ea1bb26-2c27-4f0c-9084-a069fe0eb427
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -513,7 +554,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 40364d02-3e5e-4235-be44-08cc8b5588b2
+  uuid: 4ea1bb26-2c27-4f0c-9084-a069fe0eb427
 - alterId: 0
   cipher: auto
   name: 14|🇭🇰 香港5|@ripaojiedian
@@ -553,7 +594,85 @@ proxies:
   uuid: c17a31ce-d574-40c4-8d4e-07d8299c9fd7
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
+  name: 16|JCBB_ 美国01【vip1】
+  network: ws
+  port: '38381'
+  server: gdct003.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4bada1ae-f66a-486f-8f11-1c862fef6ec7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02_1【vip1】
+  network: ws
+  port: '20153'
+  server: gdct002.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4bada1ae-f66a-486f-8f11-1c862fef6ec7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02【vip1】
+  network: ws
+  port: '28204'
+  server: gdct001.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4bada1ae-f66a-486f-8f11-1c862fef6ec7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 03【vip1】
+  network: ws
+  port: '21036'
+  server: gdct003.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4bada1ae-f66a-486f-8f11-1c862fef6ec7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04_1【vip1】
+  network: ws
+  port: '26611'
+  server: gdct002.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4bada1ae-f66a-486f-8f11-1c862fef6ec7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 04【vip1】
+  network: ws
+  port: '62684'
+  server: gdct001.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 4bada1ae-f66a-486f-8f11-1c862fef6ec7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
   network: ws
   port: 80
   server: us04.xpoti.online
@@ -564,7 +683,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
+  name: 19|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
   network: ws
   port: 80
   server: us05.xpoti.online
@@ -575,7 +694,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com7
+  name: 19|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com7
   network: ws
   port: 80
   server: us02.xpoti.online
@@ -586,7 +705,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_4_25
+  name: 19|🇺🇸_US_美国_4_25
   network: ws
   port: 80
   server: us03.xpoti.online
