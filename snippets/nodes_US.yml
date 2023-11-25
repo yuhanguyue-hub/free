@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '0,2,4,6|🇺🇸_US_美国 #8'
+  name: 0,2,4,6,19|🇺🇸_US_美国_3_23
   network: grpc
   port: 2087
   server: a.asghar-hamrah.store
@@ -47,7 +47,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,10|美国CloudFlare公司CDN节点 3
+  name: 0,2,3,4,10,19|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -123,7 +123,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '2,4,12|🇺🇸_US_美国 #13'
+  name: 2,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_3
   network: ws
   port: 443
   server: c1.wuxianliulianng.xyz
@@ -136,7 +136,7 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: chacha20-poly1305
-  name: '2,4,12|🇺🇸_US_美国 #14'
+  name: '2,4|🇺🇸_US_美国 #7'
   network: ws
   port: 2095
   server: 172.67.229.38
@@ -184,7 +184,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0fc19a16-b059-4923-b9b2-ef2dd10d2116
+  uuid: c04525cc-bd19-4f1c-8bc1-a3b7bc4de161
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -194,7 +194,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0fc19a16-b059-4923-b9b2-ef2dd10d2116
+  uuid: c04525cc-bd19-4f1c-8bc1-a3b7bc4de161
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -204,7 +204,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0fc19a16-b059-4923-b9b2-ef2dd10d2116
+  uuid: c04525cc-bd19-4f1c-8bc1-a3b7bc4de161
 - alterId: 0
   cipher: auto
   name: 10|美国 CloudFlare节点
@@ -234,10 +234,11 @@ proxies:
     path: /path/1700657625181
 - alterId: 64
   cipher: auto
-  name: 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
+  name: '10,12|US美国(mibei77.com 米贝节点分享) #1'
   network: ws
-  port: 30000
+  port: '30000'
   server: 192.74.244.1
+  servername: ''
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -247,7 +248,7 @@ proxies:
     path: /path/1700403634984
 - alterId: 0
   cipher: auto
-  name: '10,11,12|US美国(mibei77.com 米贝节点分享) #2'
+  name: 10|美国  4
   network: ws
   port: '25467'
   server: 146.190.93.32
@@ -317,7 +318,7 @@ proxies:
     path: /path/1699624723213
 - alterId: 0
   cipher: auto
-  name: '10,11|github.com/freefq - 美国CloudFla... #11'
+  name: 10|美国CloudFlare公司CDN节点 7
   network: ws
   port: '8080'
   server: cf1.openxai.link
@@ -331,49 +332,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|US_youtube@资源分享师_7
+  name: 11,12|Los Angeles 优选IP 0.1
   network: ws
-  port: '80'
-  server: upload.ir
-  servername: ''
+  port: '2052'
+  server: indec.qkhbyf.tech
   tls: false
   type: vmess
-  uuid: 7e85049a-2b44-4621-991f-1e10e2210bc9
+  uuid: 6da3e574-52f1-4690-a53b-2847ce756456
   ws-opts:
     headers:
-      Host: lv1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '11,12|US美国(mibei77.com 米贝节点分享) #3'
-  network: ws
-  port: '80'
-  server: upload.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 085f6281-5c4c-4a34-8b44-d65bc2e2b069
-  ws-opts:
-    headers:
-      Host: is3-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 11,12|US_youtube@资源分享师_3
-  network: ws
-  port: '443'
-  server: www.wto.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a41d48bb-578d-49a2-94e8-f3b97d892c1e
-  ws-opts:
-    headers:
-      Host: tray-rapid-emacs-perfume.trycloudflare.com
-    path: a41d48bb-578d-49a2-94e8-f3b97d892c1e-vm
+      Host: uswu.1145114.me
+    path: /lonan
 - alterId: 64
   cipher: auto
-  name: 11,12|美国(yudou66.com 玉豆免费节点)
+  name: '11,12|美国(yudou66.com 玉豆免费节点) #1'
   network: ws
   port: '30000'
   server: 198.2.202.23
@@ -387,9 +359,9 @@ proxies:
     path: /path/1700571207277
 - alterId: 0
   cipher: auto
-  name: '11,12|US美国(mibei77.com 米贝节点分享) #1'
+  name: 11,12,19|🇺🇸_US_美国->🇵🇱_PL_波兰_由快嘴科技提供：kkz...
   network: ws
-  port: '80'
+  port: 80
   server: zula.ir
   servername: ''
   tls: false
@@ -398,20 +370,6 @@ proxies:
   ws-opts:
     headers:
       Host: pl2-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 11,12|US美国(mibei77.com 米贝节点分享)
-  network: ws
-  port: '80'
-  server: zula.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
-  ws-opts:
-    headers:
-      Host: no1-vmess.sshmax.xyz
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -429,55 +387,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|US_youtube@资源分享师_46
+  name: '11|github.com/freefq - 美国CloudFla... #2'
   network: ws
-  port: '443'
-  server: ip.pitbull8585.top
+  port: '80'
+  server: ml2.shabijichang.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: ecad2a38-a9f3-40a9-f7e7-caa91ee4869c
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
   ws-opts:
     headers:
-      Host: id.pitbull8585.top
-    path: /downloader/58598
-- alterId: 0
-  cipher: auto
-  name: 11,12|US_youtube@资源分享师_48
-  network: ws
-  port: '443'
-  server: cn.azhz.eu.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8
-  ws-opts:
-    headers:
-      Host: professional-psi-runtime-in.trycloudflare.com
-    path: /622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm
-- alterId: 0
-  cipher: auto
-  name: 11,12|US_youtube@资源分享师_195
-  network: ws
-  port: '8443'
-  server: v14.583182.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6efc69b4-7367-46af-af62-da516548a9f4
-  ws-opts:
-    headers:
-      Host: v14.583181.xyz
+      Host: ml2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #8'
+  name: '11|github.com/freefq - 美国CloudFla... #3'
   network: ws
   port: '443'
   server: tttt.ssfree.ru
   tls: true
   type: vmess
-  uuid: ab0a1d4a-8b30-11ee-8fe5-00163e49219e
+  uuid: 0494c734-8b68-11ee-82be-00163e49219e
   ws-opts:
     headers:
       Host: ''
@@ -498,24 +428,62 @@ proxies:
     path: /xiaoxiaoqwerty_sg2_lol_begin_suiji_sguwgwuehf68yhhggjwgwjwvshwjgwndhsjj676rwhuqgusjrbejqkhwjw686bsiwgiwgsizhaiqjgaiahakwloqpdodgdiwgei_end
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #10'
+  name: '11|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: '80'
-  server: ml2.shabijichang.com
+  server: mm3.shabijichang.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: ml2.shabijichang.com
+      Host: mm3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|美国
+  name: 11,19|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
+  network: ws
+  port: 80
+  server: upload.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 085f6281-5c4c-4a34-8b44-d65bc2e2b069
+  ws-opts:
+    headers:
+      Host: is3-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '12|Channel id: @ShadowProxy66🇺🇸'
+  network: tcp
+  port: '3389'
+  server: 5.161.216.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 64
+  cipher: auto
+  name: 12|美国 - 洛杉矶 - PEG TECH INC
+  network: ws
+  port: 443
+  server: 38.63.0.79
+  servername: www.19458162.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1695652618025
+- alterId: 0
+  cipher: auto
+  name: 12|美国
   network: ws
   port: '2087'
-  server: 104.24.137.186
+  server: 173.245.58.145
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -529,7 +497,7 @@ proxies:
   name: '12|美国 #1'
   network: ws
   port: '2087'
-  server: 198.41.193.64
+  server: 198.41.215.134
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -543,7 +511,7 @@ proxies:
   name: '12|美国 #2'
   network: ws
   port: '2087'
-  server: 104.24.79.23
+  server: 104.18.190.43
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -552,12 +520,26 @@ proxies:
     headers:
       Host: us.kapacloud.eu.org
     path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|US_youtube@资源分享师_3
+  network: ws
+  port: '443'
+  server: www.wto.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a41d48bb-578d-49a2-94e8-f3b97d892c1e
+  ws-opts:
+    headers:
+      Host: tray-rapid-emacs-perfume.trycloudflare.com
+    path: a41d48bb-578d-49a2-94e8-f3b97d892c1e-vm
 - alterId: 0
   cipher: auto
   name: '12|美国 #3'
   network: ws
   port: '2087'
-  server: 104.24.164.82
+  server: 172.67.205.105
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -568,7 +550,101 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 12|美国 053
+  name: '12|美国 #4'
+  network: ws
+  port: '2087'
+  server: 188.114.98.242
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|US_youtube@资源分享师_7
+  network: ws
+  port: '80'
+  server: upload.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e85049a-2b44-4621-991f-1e10e2210bc9
+  ws-opts:
+    headers:
+      Host: lv1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #5'
+  network: ws
+  port: '2087'
+  server: 104.18.150.130
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #6'
+  network: ws
+  port: '2087'
+  server: 104.18.40.157
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|US_youtube@资源分享师_48
+  network: ws
+  port: '443'
+  server: cn.azhz.eu.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8
+  ws-opts:
+    headers:
+      Host: professional-psi-runtime-in.trycloudflare.com
+    path: /622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #7'
+  network: ws
+  port: '2087'
+  server: 104.27.42.45
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|美国 052
   network: ws
   port: 443
   server: 104.17.45.51
@@ -582,10 +658,66 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: '12|美国 #4'
+  name: '12|美国 #8'
   network: ws
   port: '2087'
-  server: 104.27.42.45
+  server: 188.114.99.63
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #9'
+  network: ws
+  port: '2087'
+  server: 141.101.114.96
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #10'
+  network: ws
+  port: '2087'
+  server: 104.25.85.15
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #11'
+  network: ws
+  port: '2087'
+  server: 198.41.219.152
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #12'
+  network: ws
+  port: '2087'
+  server: 172.67.184.171
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -610,122 +742,10 @@ proxies:
     path: /cloudconeaaa
 - alterId: 0
   cipher: auto
-  name: '12|美国 #5'
-  network: ws
-  port: '2087'
-  server: 188.114.98.125
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #6'
-  network: ws
-  port: '2087'
-  server: 198.41.219.152
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #7'
-  network: ws
-  port: '2087'
-  server: 104.25.85.15
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #8'
-  network: ws
-  port: '2087'
-  server: 104.17.190.134
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #9'
-  network: ws
-  port: '2087'
-  server: 104.18.205.5
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #10'
-  network: ws
-  port: '2087'
-  server: 172.67.212.205
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #11'
-  network: ws
-  port: '2087'
-  server: 141.101.114.96
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #12'
-  network: ws
-  port: '2087'
-  server: 104.18.150.130
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
   name: '12|美国 #13'
   network: ws
   port: '2087'
-  server: 104.18.190.43
+  server: 141.101.113.104
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -739,7 +759,7 @@ proxies:
   name: '12|美国 #14'
   network: ws
   port: '2087'
-  server: 141.101.120.82
+  server: 104.19.246.132
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -753,7 +773,7 @@ proxies:
   name: '12|美国 #15'
   network: ws
   port: '2087'
-  server: 104.25.215.100
+  server: 104.18.133.71
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -767,7 +787,7 @@ proxies:
   name: '12|美国 #16'
   network: ws
   port: '2087'
-  server: 172.67.184.171
+  server: 162.159.51.237
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -776,12 +796,23 @@ proxies:
     headers:
       Host: us.kapacloud.eu.org
     path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇺🇸 US-23.26.98.154:...
+  network: ws
+  port: 26791
+  server: 23.26.98.154
+  tls: false
+  type: vmess
+  uuid: b30f9cc6-44ad-4c97-f6ce-bbb966756fb3
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: '12|美国 #17'
   network: ws
   port: '2087'
-  server: 141.101.115.70
+  server: 188.114.99.245
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -790,26 +821,12 @@ proxies:
     headers:
       Host: us.kapacloud.eu.org
     path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸|US|美国|@wxgqlfx|35
-  network: ws
-  port: '8443'
-  server: 172.67.184.53
-  servername: cloudconebbb.gorgorchicken.one
-  tls: true
-  type: vmess
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-  ws-opts:
-    headers:
-      Host: cloudconebbb.gorgorchicken.one
-    path: /cloudconebbb
 - alterId: 0
   cipher: auto
   name: '12|美国 #18'
   network: ws
   port: '2087'
-  server: 104.25.77.127
+  server: 190.93.246.130
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -818,22 +835,40 @@ proxies:
     headers:
       Host: us.kapacloud.eu.org
     path: /blue
+- alterId: 64
+  cipher: auto
+  name: 12|美国(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '30000'
+  server: 38.54.185.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.73664999.xyz
+    path: /path/1700571207277
 - alterId: 0
   cipher: auto
-  name: '12|Channel id: @ShadowProxy66🇺🇸'
-  network: tcp
-  port: '3389'
-  server: 5.161.193.197
-  servername: ''
-  tls: false
+  name: 12|🔒 VM-WS-TLS 🇺🇸 US-192.9.241.16...
+  network: ws
+  port: 55555
+  server: 192.9.241.163
+  servername: sj.alieszvps.cf
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: bb68b623-7f27-4da1-b068-4e5748ca29d6
+  ws-opts:
+    headers:
+      Host: sj.alieszvps.cf
+    path: /
 - alterId: 0
   cipher: auto
   name: '12|美国 #19'
   network: ws
   port: '2087'
-  server: 173.245.49.224
+  server: 188.114.96.116
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -847,7 +882,7 @@ proxies:
   name: '12|美国 #20'
   network: ws
   port: '2087'
-  server: 162.159.51.237
+  server: 198.41.198.84
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -861,7 +896,7 @@ proxies:
   name: '12|美国 #21'
   network: ws
   port: '2087'
-  server: 104.25.200.53
+  server: 104.25.215.100
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -875,7 +910,7 @@ proxies:
   name: '12|美国 #22'
   network: ws
   port: '2087'
-  server: 198.41.198.84
+  server: 104.20.54.175
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -884,54 +919,12 @@ proxies:
     headers:
       Host: us.kapacloud.eu.org
     path: /blue
-- alterId: 64
-  cipher: auto
-  name: '12|美国(yudou66.com 玉豆免费节点) #1'
-  network: ws
-  port: '30000'
-  server: 107.148.196.242
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86222404.xyz
-    path: /path/1700657625181
 - alterId: 0
   cipher: auto
   name: '12|美国 #23'
   network: ws
   port: '2087'
-  server: 104.24.143.26
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #24'
-  network: ws
-  port: '2087'
-  server: 198.41.192.243
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #25'
-  network: ws
-  port: '2087'
-  server: 162.159.21.90
+  server: 104.27.95.48
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -952,10 +945,38 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
+  name: '12|美国 #24'
+  network: ws
+  port: '2087'
+  server: 104.24.143.26
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #25'
+  network: ws
+  port: '2087'
+  server: 104.21.207.77
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
   name: '12|美国 #26'
   network: ws
   port: '2087'
-  server: 190.93.244.146
+  server: 104.20.233.131
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -969,7 +990,7 @@ proxies:
   name: '12|美国 #27'
   network: ws
   port: '2087'
-  server: 172.67.47.253
+  server: 188.114.98.102
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -983,7 +1004,7 @@ proxies:
   name: '12|美国 #28'
   network: ws
   port: '2087'
-  server: 172.67.246.194
+  server: 188.114.99.173
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -997,7 +1018,7 @@ proxies:
   name: '12|美国 #29'
   network: ws
   port: '2087'
-  server: 104.25.148.143
+  server: 108.162.193.211
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1011,7 +1032,7 @@ proxies:
   name: '12|美国 #30'
   network: ws
   port: '2087'
-  server: 104.19.246.132
+  server: 104.24.137.186
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1020,22 +1041,12 @@ proxies:
     headers:
       Host: us.kapacloud.eu.org
     path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|Channel id: @ShadowProxy66🇺🇸 #2'
-  network: tcp
-  port: '3389'
-  server: 5.161.86.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: '12|美国 #31'
   network: ws
   port: '2087'
-  server: 188.114.99.167
+  server: 172.67.47.253
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1046,10 +1057,24 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
+  name: 12|US_youtube@资源分享师_96
+  network: ws
+  port: '80'
+  server: zula.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
+  ws-opts:
+    headers:
+      Host: no1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: '12|美国 #32'
   network: ws
   port: '2087'
-  server: 104.21.216.207
+  server: 190.93.244.146
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1063,7 +1088,7 @@ proxies:
   name: '12|美国 #33'
   network: ws
   port: '2087'
-  server: 108.162.198.30
+  server: 188.114.99.167
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1077,48 +1102,6 @@ proxies:
   name: '12|美国 #34'
   network: ws
   port: '2087'
-  server: 104.17.98.103
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #35'
-  network: ws
-  port: '2087'
-  server: 104.16.147.31
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: none
-  name: '12|美国(yudou66.com 玉豆免费节点) #2'
-  network: ws
-  port: '8443'
-  server: icook.hk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: pot-odds-rica-reminder.trycloudflare.com
-    path: /argo-vmess?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #36'
-  network: ws
-  port: '2087'
   server: 172.67.103.187
   servername: us.kapacloud.eu.org
   tls: true
@@ -1130,20 +1113,58 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '12|Channel id: @ShadowProxy66🇺🇸 #3'
+  name: '12|Channel id: @ShadowProxy66🇺🇸 #2'
   network: tcp
   port: '3389'
-  server: 5.161.216.177
+  server: 5.161.193.197
   servername: ''
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
+  name: '12|美国 #35'
+  network: ws
+  port: '2087'
+  server: 104.17.190.134
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-5.161.86.19:...
+  network: tcp
+  port: '3389'
+  server: 5.161.86.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #36'
+  network: ws
+  port: '2087'
+  server: 162.159.50.114
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
   name: '12|美国 #37'
   network: ws
   port: '2087'
-  server: 104.18.24.242
+  server: 104.21.55.98
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1157,7 +1178,7 @@ proxies:
   name: '12|美国 #38'
   network: ws
   port: '2087'
-  server: 104.20.54.175
+  server: 104.25.77.127
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1171,7 +1192,268 @@ proxies:
   name: '12|美国 #39'
   network: ws
   port: '2087'
-  server: 104.18.40.157
+  server: 104.23.142.77
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸|US|美国|@wxgqlfx|27
+  network: ws
+  port: 2052
+  server: chunkr.qkhbyf.tech
+  tls: false
+  type: vmess
+  uuid: c169844a-1530-450a-a7df-0736475bd68b
+  ws-opts:
+    headers:
+      Host: chunc.cxzntq.tech
+    path: /lonan
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #40'
+  network: ws
+  port: '2087'
+  server: 104.21.216.207
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #41'
+  network: ws
+  port: '2087'
+  server: 190.93.246.55
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #42'
+  network: ws
+  port: '2087'
+  server: 104.25.253.167
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12,19|🇺🇸_US_美国_2_22
+  network: ws
+  port: 2087
+  server: 108.162.195.96
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #44'
+  network: ws
+  port: '2087'
+  server: 188.114.98.249
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #45'
+  network: ws
+  port: '2087'
+  server: 104.16.147.31
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #46'
+  network: ws
+  port: '2087'
+  server: 104.24.164.82
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: 42598
+  server: 129.146.247.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #47'
+  network: ws
+  port: '2087'
+  server: 172.67.41.197
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #48'
+  network: ws
+  port: '2087'
+  server: 104.17.98.103
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #49'
+  network: ws
+  port: '2087'
+  server: 104.25.86.214
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #50'
+  network: ws
+  port: '2087'
+  server: 198.41.192.243
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #51'
+  network: ws
+  port: '2087'
+  server: 104.18.46.63
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #52'
+  network: ws
+  port: '2087'
+  server: 141.101.123.84
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #53'
+  network: ws
+  port: '2087'
+  server: 104.18.193.195
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #54'
+  network: ws
+  port: '2087'
+  server: 172.67.5.90
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #55'
+  network: ws
+  port: '2087'
+  server: 162.159.48.255
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #56'
+  network: ws
+  port: '2087'
+  server: 162.159.24.245
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1196,10 +1478,10 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: '12|美国 #40'
+  name: '12|美国 #57'
   network: ws
   port: '2087'
-  server: 188.114.99.245
+  server: 188.114.99.172
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1210,10 +1492,10 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '12|美国 #41'
+  name: '12|美国 #58'
   network: ws
   port: '2087'
-  server: 104.25.86.214
+  server: 104.27.61.113
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1224,10 +1506,331 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '12|美国 #42'
+  name: '12|美国 #59'
   network: ws
   port: '2087'
-  server: 104.20.233.131
+  server: 172.66.128.21
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|[vmess]美国a8-流媒体解锁
+  network: ws
+  port: '443'
+  server: a8.wxlljc520.com
+  servername: golinkwuxian.top
+  tls: true
+  type: vmess
+  uuid: 4d7732ee-986a-4c25-8443-d6fefa8d2190
+  ws-opts:
+    headers:
+      Host: 777.golinkwuxian.top
+    path: /apple
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #60'
+  network: ws
+  port: '2087'
+  server: 188.114.98.125
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #61'
+  network: ws
+  port: '2087'
+  server: 104.25.200.53
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #62'
+  network: ws
+  port: '2087'
+  server: 104.18.205.5
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #63'
+  network: ws
+  port: '2087'
+  server: 172.67.212.205
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|美国(玉豆免费节点 yudou66.com)
+  network: ws
+  port: '2052'
+  server: family.mgtajhiz.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|[vmess]美国a7-流媒体解锁
+  network: ws
+  port: '443'
+  server: a7.wxlljc520.com
+  servername: golinkwuxian.top
+  tls: true
+  type: vmess
+  uuid: 4d7732ee-986a-4c25-8443-d6fefa8d2190
+  ws-opts:
+    headers:
+      Host: 777.golinkwuxian.top
+    path: /apple
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #64'
+  network: ws
+  port: '2087'
+  server: 162.159.42.18
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #65'
+  network: ws
+  port: '2087'
+  server: 104.18.24.242
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #66'
+  network: ws
+  port: '2087'
+  server: 162.159.21.90
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #67'
+  network: ws
+  port: '2087'
+  server: 198.41.198.152
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #68'
+  network: ws
+  port: '2087'
+  server: 141.101.115.70
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #69'
+  network: ws
+  port: '2087'
+  server: 104.20.113.124
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #70'
+  network: ws
+  port: '2087'
+  server: 141.101.120.82
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #71'
+  network: ws
+  port: '2087'
+  server: 173.245.49.224
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #72'
+  network: ws
+  port: '2087'
+  server: 104.25.148.143
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #73'
+  network: ws
+  port: '2087'
+  server: 108.162.198.30
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|US_youtube@资源分享师_102
+  network: ws
+  port: '443'
+  server: c6.wuxianliulianng.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4d7732ee-986a-4c25-8443-d6fefa8d2190
+  ws-opts:
+    headers:
+      Host: 6666.golinkwuxian.top
+    path: /apple
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #74'
+  network: ws
+  port: '2087'
+  server: 108.162.196.44
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|US A 0.1 优选IP 0.1
+  network: ws
+  port: '2052'
+  server: debbc.qkhbyf.tech
+  tls: false
+  type: vmess
+  uuid: 6da3e574-52f1-4690-a53b-2847ce756456
+  ws-opts:
+    headers:
+      Host: haxteuilq.1145114.me
+    path: /lonan
+- alterId: 0
+  cipher: auto
+  name: 12|美国 050
+  network: ws
+  port: 443
+  server: bobbykotick.rip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: Kansas.bobbykotick.rip
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #75'
+  network: ws
+  port: '2087'
+  server: 172.67.246.194
+  servername: us.kapacloud.eu.org
+  tls: true
+  type: vmess
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
+  ws-opts:
+    headers:
+      Host: us.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '12|美国 #76'
+  network: ws
+  port: '2087'
+  server: 104.24.79.23
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1248,10 +1851,10 @@ proxies:
   uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
 - alterId: 0
   cipher: auto
-  name: '12|美国 #43'
+  name: '12|美国 #77'
   network: ws
   port: '2087'
-  server: 172.67.205.105
+  server: 198.41.193.64
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1262,545 +1865,10 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '12|美国 #44'
-  network: ws
-  port: '2087'
-  server: 188.114.99.173
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #45'
+  name: '12|美国 #78'
   network: ws
   port: '2087'
   server: 173.245.58.6
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #46'
-  network: ws
-  port: '2087'
-  server: 104.25.253.167
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-TLS 🇺🇸 US-172.67.184.1...
-  network: ws
-  port: '2096'
-  server: 172.67.184.149
-  servername: v1.583181.xyz
-  tls: true
-  type: vmess
-  uuid: 6efc69b4-7367-46af-af62-da516548a9f4
-  ws-opts:
-    headers:
-      Host: v1.583181.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #47'
-  network: ws
-  port: '2087'
-  server: 188.114.99.63
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|美国 050
-  network: ws
-  port: 443
-  server: bobbykotick.rip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  ws-opts:
-    headers:
-      Host: Kansas.bobbykotick.rip
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #48'
-  network: ws
-  port: '2087'
-  server: 104.20.113.124
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #49'
-  network: ws
-  port: '2087'
-  server: 104.27.61.113
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #50'
-  network: ws
-  port: '2087'
-  server: 172.66.128.21
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #51'
-  network: ws
-  port: '2087'
-  server: 104.18.193.195
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #52'
-  network: ws
-  port: '2087'
-  server: 162.159.50.114
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #53'
-  network: ws
-  port: '2087'
-  server: 104.21.55.98
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #54'
-  network: ws
-  port: '2087'
-  server: 172.67.41.197
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #55'
-  network: ws
-  port: '2087'
-  server: 190.93.246.55
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #56'
-  network: ws
-  port: '2087'
-  server: 104.21.207.77
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #57'
-  network: ws
-  port: '2087'
-  server: 141.101.113.104
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #58'
-  network: ws
-  port: '2087'
-  server: 188.114.96.116
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #59'
-  network: ws
-  port: '2087'
-  server: 172.67.5.90
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #60'
-  network: ws
-  port: '2087'
-  server: 162.159.24.245
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #61'
-  network: ws
-  port: '2087'
-  server: 104.18.133.71
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #62'
-  network: ws
-  port: '2087'
-  server: 104.27.95.48
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-TLS 🇺🇸 US-192.9.241.16...
-  network: ws
-  port: 55555
-  server: 192.9.241.163
-  servername: sj.alieszvps.cf
-  tls: true
-  type: vmess
-  uuid: bb68b623-7f27-4da1-b068-4e5748ca29d6
-  ws-opts:
-    headers:
-      Host: sj.alieszvps.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #63'
-  network: ws
-  port: '2087'
-  server: 188.114.98.102
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #64'
-  network: ws
-  port: '2087'
-  server: 108.162.195.96
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇺🇸 US-172.67.204.84...
-  network: ws
-  port: '80'
-  server: 172.67.204.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
-  ws-opts:
-    headers:
-      Host: no1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇺🇸 US-23.26.98.154:...
-  network: ws
-  port: 26791
-  server: 23.26.98.154
-  tls: false
-  type: vmess
-  uuid: b30f9cc6-44ad-4c97-f6ce-bbb966756fb3
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #65'
-  network: ws
-  port: '2087'
-  server: 108.162.196.44
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: 42598
-  server: 129.146.247.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #66'
-  network: ws
-  port: '2087'
-  server: 104.18.46.63
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #67'
-  network: ws
-  port: '2087'
-  server: 188.114.98.242
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #68'
-  network: ws
-  port: '2087'
-  server: 190.93.246.130
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #69'
-  network: ws
-  port: '2087'
-  server: 173.245.58.145
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #70'
-  network: ws
-  port: '2087'
-  server: 188.114.98.249
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #71'
-  network: ws
-  port: '2087'
-  server: 198.41.215.134
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #72'
-  network: ws
-  port: '2087'
-  server: 198.41.198.152
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #73'
-  network: ws
-  port: '2087'
-  server: 104.23.142.77
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #74'
-  network: ws
-  port: '2087'
-  server: 162.159.42.18
-  servername: us.kapacloud.eu.org
-  tls: true
-  type: vmess
-  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
-  ws-opts:
-    headers:
-      Host: us.kapacloud.eu.org
-    path: /blue
-- alterId: 64
-  cipher: auto
-  name: 12|美国 - 洛杉矶 - PEG TECH INC
-  network: ws
-  port: 443
-  server: 38.63.0.79
-  servername: www.19458162.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1695652618025
-- alterId: 0
-  cipher: auto
-  name: '12|美国 #75'
-  network: ws
-  port: '2087'
-  server: 108.162.193.211
   servername: us.kapacloud.eu.org
   tls: true
   type: vmess
@@ -1818,7 +1886,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7bd8c5f9-8f9d-4585-b731-23caccdcfc51
+  uuid: d62a856a-80f4-4430-bfe0-80215e7f6fe2
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -1828,7 +1896,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7bd8c5f9-8f9d-4585-b731-23caccdcfc51
+  uuid: d62a856a-80f4-4430-bfe0-80215e7f6fe2
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -1838,7 +1906,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7bd8c5f9-8f9d-4585-b731-23caccdcfc51
+  uuid: d62a856a-80f4-4430-bfe0-80215e7f6fe2
 - alterId: 64
   cipher: auto
   name: 14|🇺🇸 美国4|浏览器输入 翻墙.com
@@ -1876,7 +1944,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: ee5e6b5b-e890-4d59-bb5e-6b312e7e2ae9
+  uuid: e02a16ba-0cfd-4f6f-8e93-63579ca7d3bf
   ws-opts:
     headers:
       Host: ''
@@ -1889,7 +1957,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: ee5e6b5b-e890-4d59-bb5e-6b312e7e2ae9
+  uuid: e02a16ba-0cfd-4f6f-8e93-63579ca7d3bf
   ws-opts:
     headers:
       Host: ''
@@ -1902,7 +1970,7 @@ proxies:
   server: gdct001.jcnode.top
   tls: false
   type: vmess
-  uuid: ee5e6b5b-e890-4d59-bb5e-6b312e7e2ae9
+  uuid: e02a16ba-0cfd-4f6f-8e93-63579ca7d3bf
   ws-opts:
     headers:
       Host: ''
@@ -1915,7 +1983,7 @@ proxies:
   server: gdct003.jcnode.top
   tls: false
   type: vmess
-  uuid: ee5e6b5b-e890-4d59-bb5e-6b312e7e2ae9
+  uuid: e02a16ba-0cfd-4f6f-8e93-63579ca7d3bf
   ws-opts:
     headers:
       Host: ''
@@ -1928,7 +1996,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: ee5e6b5b-e890-4d59-bb5e-6b312e7e2ae9
+  uuid: e02a16ba-0cfd-4f6f-8e93-63579ca7d3bf
   ws-opts:
     headers:
       Host: ''
@@ -1941,63 +2009,8 @@ proxies:
   server: gdct001.jcnode.top
   tls: false
   type: vmess
-  uuid: ee5e6b5b-e890-4d59-bb5e-6b312e7e2ae9
+  uuid: e02a16ba-0cfd-4f6f-8e93-63579ca7d3bf
   ws-opts:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
-  network: ws
-  port: 80
-  server: us04.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 226973d9-42db-4430-9bd0-d582dee7785c
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
-  network: ws
-  port: 80
-  server: us05.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 226973d9-42db-4430-9bd0-d582dee7785c
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com7
-  network: ws
-  port: 80
-  server: us02.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 226973d9-42db-4430-9bd0-d582dee7785c
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国_4_25
-  network: ws
-  port: 80
-  server: us03.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 226973d9-42db-4430-9bd0-d582dee7785c
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国_5_29
-  network: ws
-  port: 80
-  server: us01.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 226973d9-42db-4430-9bd0-d582dee7785c
-  ws-opts:
-    path: /
