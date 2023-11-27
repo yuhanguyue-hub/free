@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c6449884-918c-48f1-8f79-9bcf6b09d9f5
+  uuid: e7e156de-e59b-467d-88de-308c88b2f56b
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c6449884-918c-48f1-8f79-9bcf6b09d9f5
+  uuid: e7e156de-e59b-467d-88de-308c88b2f56b
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c6449884-918c-48f1-8f79-9bcf6b09d9f5
+  uuid: e7e156de-e59b-467d-88de-308c88b2f56b
 - alterId: 0
   cipher: auto
   name: 12|新加坡AkileCloud-1-没有CDN
@@ -80,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d9227928-1634-48c9-94df-8b5a6d6a63dc
+  uuid: ce09442e-e053-4030-87b6-f67eb3271a53
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -90,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d9227928-1634-48c9-94df-8b5a6d6a63dc
+  uuid: ce09442e-e053-4030-87b6-f67eb3271a53
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -100,28 +100,25 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d9227928-1634-48c9-94df-8b5a6d6a63dc
+  uuid: ce09442e-e053-4030-87b6-f67eb3271a53
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
-  password: a58024d9-e277-49df-91aa-2fdad751f76d
+  password: d49dd50e-d1b9-4815-a938-7886bae110b8
   port: 20009
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  name: 14|🇸🇬 新加坡|浏览器输入 翻墙.com
-  obfs: plain
-  obfs-param: TG@ripaojiedian
-  password: jFa4F1
-  port: 6708
-  protocol: auth_aes128_sha1
-  protocol-param: 84263:3gj7aB
-  server: zx02.endhigh.xyz
-  type: ssr
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 13.229.64.27
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.128.76.42
+  server: 18.139.163.30
   tfo: false
   type: ss
