@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 10cf1868-2739-4b39-a2d7-e8aea3e8be7d
+  uuid: 859299c1-5949-41c3-aeca-7f665ed306d3
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 10cf1868-2739-4b39-a2d7-e8aea3e8be7d
+  uuid: 859299c1-5949-41c3-aeca-7f665ed306d3
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 10cf1868-2739-4b39-a2d7-e8aea3e8be7d
+  uuid: 859299c1-5949-41c3-aeca-7f665ed306d3
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵_JP_日本_42
@@ -143,7 +143,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8f74f332-2254-4b8e-b65a-2b77867e4f6e
+  uuid: 6083a493-1976-4dba-9520-91c4346b851a
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -153,7 +153,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8f74f332-2254-4b8e-b65a-2b77867e4f6e
+  uuid: 6083a493-1976-4dba-9520-91c4346b851a
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -163,7 +163,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8f74f332-2254-4b8e-b65a-2b77867e4f6e
+  uuid: 6083a493-1976-4dba-9520-91c4346b851a
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -175,7 +175,7 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 10016
+  port: 10014
   server: 139.227.182.207
   tfo: false
   type: ss
@@ -212,22 +212,38 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵 日本|@ripaojiedian
-  password: d49dd50e-d1b9-4815-a938-7886bae110b8
+  password: 64e1703a-ce4d-499a-8353-56c656d9bdf8
   port: 50001
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 14,15|日本|浏览器输入 翻墙.com
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4ce37201-5ae3-4a49-97fb-906bd9d8235c
+  ws-opts:
+    headers:
+      Host: jp3ffe82816.chvsifetrj.xyz
+    path: /video/EUBRFrBA
 - cipher: aes-256-cfb
-  name: 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
   password: amazonskr05
   port: 443
-  server: 57.180.247.46
+  server: 52.195.236.85
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: 14|🇯🇵 东京特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.13.26
+  server: 13.124.16.187
   tfo: false
   type: ss

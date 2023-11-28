@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 7
+  name: 10,11|github.com/freefq - 香港阿里云 7
   network: ws
   port: 443
   server: n1700303374.aaigefm.cn
@@ -52,6 +52,16 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  name: 14|🇭🇰 香港4|频道:@ripaojiedian
+  port: 41492
+  server: 183.238.202.174
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 14,15|香港1|浏览器输入 翻墙.com
@@ -96,8 +106,44 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港3|@ripaojiedian
-  password: d49dd50e-d1b9-4815-a938-7886bae110b8
+  password: 64e1703a-ce4d-499a-8353-56c656d9bdf8
   port: 21001
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 14,15|香港5|@ripaojiedian
+  network: ws
+  port: '51753'
+  server: shct1.xlb.lol
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 52bed0db-a37e-430f-a393-cfaa54eae9d0
+  ws-opts:
+    headers:
+      Host: shct1.xlb.lol
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 15|香港2|付费版推荐 翻墙.com
+  network: tcp
+  port: '53300'
+  server: 112.29.94.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 15|香港4|频道:@ripaojiedian
+  network: tcp
+  port: '41492'
+  server: 183.238.202.174
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
