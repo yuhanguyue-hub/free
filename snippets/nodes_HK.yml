@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,12|中国 - 香港 - Stark Industries Sol...
-  network: tcp
-  port: 80
-  server: 194.156.98.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 11
+  name: 11|github.com/freefq - 香港阿里云 7
   network: ws
   port: 443
   server: n1700303374.aaigefm.cn
@@ -21,47 +11,6 @@ proxies:
   ws-opts:
     headers:
       Host: n1700303374.aaigefm.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰_HK_香港_535
-  network: ws
-  port: 443
-  server: 8.210.97.132
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 504f2fb4-a680-4dc8-b0dc-2356fb739e61
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|HK_speednode_0030
-  network: ws
-  port: 443
-  server: 47.242.109.138
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9dc41e4b-53a8-a442-e911-4bc5f490f2cd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰HongKong_4
-  network: ws
-  port: 2083
-  server: xg_cdntow.yunjisuan.cf
-  tls: true
-  type: vmess
-  uuid: d68e5441-a18d-449a-ab25-f16fd6535950
-  ws-opts:
-    headers:
-      Host: xg_cdntow.yunjisuan.cf
     path: /
 - alterId: 0
   cipher: auto
@@ -75,6 +24,33 @@ proxies:
   ws-opts:
     headers:
       Host: xg_cdnone.yunjisuan.cf
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 12|Fardian0142♈🇭🇰♈HK♈1413
+  network: ws
+  port: '80'
+  server: 182.16.1.194
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰_HK_香港_535
+  network: ws
+  port: 443
+  server: 8.210.97.132
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 504f2fb4-a680-4dc8-b0dc-2356fb739e61
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
