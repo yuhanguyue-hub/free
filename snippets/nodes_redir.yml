@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国->🇮🇳_IN_印度_24
+  name: 0,2,3,4,19|🇺🇸_US_美国->🇮🇳_IN_印度_24
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -102,7 +102,7 @@ proxies:
     path: /FORWARDV2RAY
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸_US_美国->🇬🇧_GB_英国_28
+  name: 0,2,3,4,6,19|🇺🇸_US_美国->🇬🇧_GB_英国_28
   network: ws
   port: 80
   server: mrb2.shabijichang.com
@@ -128,7 +128,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸_US_美国_4_9
+  name: 0,2,3,4,19|🇺🇸_US_美国_4_9
   network: ws
   port: 2095
   server: a1.forwardv2raytelegramchannel.fun
@@ -175,18 +175,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,11|github.com/freefq - 美国CloudFla... #2'
+  name: 1|_US_->_DE__1
   network: ws
-  port: '2052'
+  port: 2052
   server: xyz18.forwardv2raytelegramchannel.fun
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d62e72b0-14a2-439a-9912-c133bf89237b
   ws-opts:
     headers:
-      Host: ''
+      host: xyz18.forwardv2raytelegramchannel.fun
     path: /FORWARDV2RAY
 - alterId: 0
   cipher: auto
