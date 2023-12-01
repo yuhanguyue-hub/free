@@ -18,7 +18,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 177c184d-ec93-41d3-883d-37acc2495037
+  uuid: 8fbba2ae-9ae4-42e6-b65a-46305ede50f6
+- alterId: 0
+  cipher: auto
+  name: 11,12,14,15,19|🇺🇸_US_美国_7_26
+  network: ws
+  port: 2086
+  server: 23.26.226.45
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 70408f5d-78f2-44d0-9747-ae68da8651a4
+  ws-opts:
+    path: 70408f5d-78f2-44d0-9747-ae68da8651a4-vm
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -244,4 +258,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9104e37e-f67f-452f-b1a0-b20647dbff14
+  uuid: cd64fdfb-44f2-40a0-8a5b-423cd6988cd6
