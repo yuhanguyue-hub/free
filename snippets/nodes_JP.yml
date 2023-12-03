@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,11,12|🇯🇵 _JP_日本 #2'
+  name: '3,12|🇯🇵 _JP_日本 #1'
   network: ws
   port: 443
   server: 103.35.190.65
@@ -22,7 +22,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 61fa9962-a386-4438-a2f9-a63c5a03fce9
+  uuid: b5f11551-9b87-4c1e-a2d3-b58702a70006
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -32,7 +32,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 61fa9962-a386-4438-a2f9-a63c5a03fce9
+  uuid: b5f11551-9b87-4c1e-a2d3-b58702a70006
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -42,34 +42,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 61fa9962-a386-4438-a2f9-a63c5a03fce9
+  uuid: b5f11551-9b87-4c1e-a2d3-b58702a70006
 - alterId: 0
   cipher: auto
-  name: 11,12|白银vip｜直链｜日本｜vv09 - 永动机〖电报：@ccb...
+  name: 12|JP-Packet_Host-vm
   network: ws
-  port: 20009
-  server: rb.yongdong.xyz
+  port: 443
+  server: hexsen.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 65680fc1-0884-4598-9519-50b9ff1faed6
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
   ws-opts:
     headers:
-      Host: yongdong.xyz
-    path: /yongdong
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本高速接入点-02
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: d1f7a92a-6927-467b-902c-c5b7b6213bf6
-  ws-opts:
-    headers:
-      Host: jp29f261871.chvsifetrj.xyz
-    path: /video/iMGdpGpR
+      Host: jews-porsche-delaware-presence.trycloudflare.com
+    path: /argo-vmess?ed=2048
 - alterId: 64
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
@@ -98,7 +85,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3ecac629-6fc2-4a21-99e4-3a50322bd445
+  uuid: 0d176559-8c97-4358-84de-854dfceb8f1b
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -108,7 +95,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3ecac629-6fc2-4a21-99e4-3a50322bd445
+  uuid: 0d176559-8c97-4358-84de-854dfceb8f1b
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -118,7 +105,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3ecac629-6fc2-4a21-99e4-3a50322bd445
+  uuid: 0d176559-8c97-4358-84de-854dfceb8f1b
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -151,15 +138,15 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵 日本|@ripaojiedian
-  password: b9525800-9423-4322-a0e5-551f22314033
+  password: 97b2338c-7390-4810-847f-7028d17ff938
   port: 50001
   server: service.ouluyun9803.com
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
   password: amazonskr05
   port: 443
-  server: 13.125.30.161
+  server: 54.199.42.30
   tfo: false
   type: ss
