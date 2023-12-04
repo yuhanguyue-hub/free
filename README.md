@@ -6,7 +6,7 @@
 
 ## 公告
 
-人民总理人民爱，人民总理爱人民。总理，人民的好总理，你在哪里啊，你在哪里……
+为防止失联，我们建立了镜像：<https://peasoft.github.io/NWalls.html>
 
 ## 关于 Google Play 等服务在国内无法使用的解决方法
 
@@ -19,7 +19,7 @@
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，尚未完成部署
 ```
 2. **如果方案 1 无效，且你的手机已 ROOT，请解除 GMS 锁区**，安装 Magisk 模块 [Unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)（[zip 下载](https://github.com/fei-ke/unlock-cn-gms/releases/download/v3.4/unlock-cn-gms-v3.4.zip)），这不一定适合所有手机，请先关注您手机中相关锁区文件的位置。
-3. **如果你的手机未 ROOT，请使用 Clash For Android 试一试**，有概率正常。
+3. **如果你的手机未 ROOT，请使用 Clash For Android 试一试**，有概率正常。项目没了，找备份！
 4. 实在不行就等等吧，但愿 Google 能尽快修复此问题。
 
 如果此问题有进展，我们会在此更新，请及时关注。
@@ -34,26 +34,26 @@
 
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
 
 以下加速链接可能无效：
+- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - [Statically CDN](https://cdn.statically.io/gh/peasoft/NoMoreWalls/master/list.txt)
 - [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.txt)
 - [GhProxy.com](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 
 或添加 Clash 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml)
 
 以下加速链接可能无效：
+- [Gh-Proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 - [Statically CDN](https://cdn.statically.io/gh/peasoft/NoMoreWalls/master/list.yml)
 - [KGithub](https://raw.kgithub.com/peasoft/NoMoreWalls/master/list.yml)
 - [GhProxy.com](https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
