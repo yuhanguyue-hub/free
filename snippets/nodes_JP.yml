@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,4,6,11,12|日本(yudou66.com 玉豆免费节点)
+  name: 0,2,4,6,10,11,12|日本(yudou66.com 玉豆免费节点)
   network: ws
   port: '80'
   server: 103.35.188.226
@@ -49,7 +49,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0de56d1-e88f-4084-a571-c2258bbeb6c3
+  uuid: a6180e58-11a6-4485-85e0-79531f29dd63
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -59,7 +59,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0de56d1-e88f-4084-a571-c2258bbeb6c3
+  uuid: a6180e58-11a6-4485-85e0-79531f29dd63
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -69,7 +69,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0de56d1-e88f-4084-a571-c2258bbeb6c3
+  uuid: a6180e58-11a6-4485-85e0-79531f29dd63
+- alterId: 0
+  cipher: auto
+  name: 10|日本 东京阿里云
+  network: ws
+  port: '8080'
+  server: c.mac2win.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
+  ws-opts:
+    headers:
+      Host: icu.mac2win.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
@@ -98,7 +112,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bff66c0c-1e05-4da1-b82e-7e85d5edbc4b
+  uuid: 6665b43b-549d-4816-8188-8718b558d31a
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -108,7 +122,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bff66c0c-1e05-4da1-b82e-7e85d5edbc4b
+  uuid: 6665b43b-549d-4816-8188-8718b558d31a
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -118,7 +132,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bff66c0c-1e05-4da1-b82e-7e85d5edbc4b
+  uuid: 6665b43b-549d-4816-8188-8718b558d31a
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
