@@ -57,11 +57,13 @@ proxies:
     path: /b12
 - alterId: 0
   cipher: auto
-  name: 12|TW-板桥1-1 - 麻雀加速器 Sparrow〖电报：@c...
+  name: 12,14|🇹🇼 台湾|低价实惠 翻墙.com
   network: ws
-  port: '443'
+  port: 443
   server: nbq11.ntbq.dynu.net
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e
@@ -83,22 +85,6 @@ proxies:
     headers:
       Host: b21.ntbq.dynu.net
     path: /b21
-- alterId: 0
-  cipher: auto
-  name: 14,15|台湾|低价实惠 翻墙.com
-  network: ws
-  port: '443'
-  server: b24.ntbq.dynu.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾3|@ripaojiedian
   password: 4d1e8cd03847
@@ -116,17 +102,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14,15|台湾3|浏览器输入 翻墙.com
+  name: 15|台湾|低价实惠 翻墙.com
   network: ws
   port: '443'
-  server: tc11.twtc.dynu.net
-  servername: tc11.twtc.dynu.net
-  skip-cert-verify: false
-  tfo: false
+  server: nbq11.ntbq.dynu.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a
+  uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e
   ws-opts:
     headers:
-      Host: tc11.twtc.dynu.net
-    path: /vbub1
+      Host: ''
+    path: /b11
