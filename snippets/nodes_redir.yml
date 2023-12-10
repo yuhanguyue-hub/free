@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,6|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 0,3,7,20|🇺🇸_US_美国->🇬🇧_GB_英国_5_5
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,10,19|🇺🇸_US_美国->🇱🇹_LT_立陶宛_由快嘴科技提供：kk...
+  name: 0,2,3,4,7,11,20|🇺🇸_US_美国->🇱🇹_LT_立陶宛_6_6
   network: ws
   port: 8080
   server: moon.chanell.mci.v-x4ssd.space
@@ -61,7 +61,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,10,11|github.com/freefq - 美国CloudFla... #4'
+  name: '1,11,12|github.com/freefq - 美国CloudFla... #9'
   network: ws
   port: '8080'
   server: moon.chanell.mci.v-x4ssd.space
@@ -76,7 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
+  name: 13|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
   network: ws
   port: 443
   server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
@@ -87,16 +87,3 @@ proxies:
     headers:
       Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
     path: /azumase.ren
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇳🇱_NL_荷兰_4由快嘴科技提供：kk...
-  network: ws
-  port: 2096
-  server: 162.159.129.87
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
