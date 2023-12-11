@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e94591b2-b53c-4b89-b365-c7195d6cb77c
+  uuid: d93401fc-a9f4-4702-9c35-80e0f0d92cd4
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e94591b2-b53c-4b89-b365-c7195d6cb77c
+  uuid: d93401fc-a9f4-4702-9c35-80e0f0d92cd4
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e94591b2-b53c-4b89-b365-c7195d6cb77c
+  uuid: d93401fc-a9f4-4702-9c35-80e0f0d92cd4
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵日本4丨电报群@bp520
@@ -74,7 +74,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 01cbdc76-8bc9-48fe-b7cf-91f591b3b045
+  uuid: 482a2986-89c1-413d-90a7-82c4a508ff5f
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -84,7 +84,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 01cbdc76-8bc9-48fe-b7cf-91f591b3b045
+  uuid: 482a2986-89c1-413d-90a7-82c4a508ff5f
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -94,7 +94,19 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 01cbdc76-8bc9-48fe-b7cf-91f591b3b045
+  uuid: 482a2986-89c1-413d-90a7-82c4a508ff5f
+- alterId: 64
+  cipher: auto
+  name: 14|🇯🇵 日本2|浏览器输入 翻墙.com
+  password: 8b625473-bcc1-42e7-b32c-586693816632
+  port: 443
+  server: jp-csjc.85413.xyz
+  skip-cert-verify: false
+  sni: cs-cdn-cdn-cdn.zzzcccc.top
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -136,13 +148,13 @@ proxies:
   name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
   password: amazonskr05
   port: 443
-  server: 13.209.9.130
+  server: 13.250.30.209
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: 14|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.14.113
+  server: 43.201.110.52
   tfo: false
   type: ss

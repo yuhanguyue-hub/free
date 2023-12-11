@@ -1,34 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|香港阿里云 2
-  network: ws
-  port: '443'
-  server: n1701761456.gxpnmtg.cn
-  servername: n1701761456.gxpnmtg.cn
-  tls: true
-  type: vmess
-  uuid: bce406ed-1435-4afd-bb81-54ee21b696a7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|香港亿万数据中心 5
-  network: ws
-  port: 8888
-  server: 107.151.250.29
-  tls: false
-  type: vmess
-  uuid: 602f97df-6681-4161-c095-922ce1b74ab6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /index.php
-- alterId: 0
-  cipher: auto
-  name: 10,12|🇭🇰|HK|香港|@wxgqlfx|33
+  name: 12|🇭🇰|HK|香港|@wxgqlfx|33
   network: tcp
   port: '16399'
   server: 115.126.50.111
@@ -44,7 +17,7 @@ proxies:
     host: ''
     mode: http
   port: 80
-  server: 47.76.44.217
+  server: 8.210.85.62
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -62,20 +35,15 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
-  name: 15|香港2|@ripaojiedian
+  name: 14,15|香港2|@ripaojiedian
   network: ws
   port: '443'
   server: 118.107.43.205
   servername: www.73981772.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -83,3 +51,10 @@ proxies:
     headers:
       Host: www.73981772.xyz
     path: /path/143534141104
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 21001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
