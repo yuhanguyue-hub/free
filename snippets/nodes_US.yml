@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,11|github.com/freefq - 美国CloudFla... #4'
+  name: '0,2,3,4,6,10,11|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: '80'
   server: cf-lt.sharecentre.online
@@ -310,7 +310,7 @@ proxies:
     path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
-  name: '6,10,12|🇺🇸_US_美国 #22'
+  name: '6,12|🇺🇸_US_美国 #22'
   network: ws
   port: 443
   server: 1208.ssfree.ru
@@ -357,7 +357,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: de097527-9b3a-425b-9bb9-ddd42be3a970
+  uuid: 8aa1a8f0-6629-4a71-8850-fe94bbe6a901
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -367,7 +367,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: de097527-9b3a-425b-9bb9-ddd42be3a970
+  uuid: 8aa1a8f0-6629-4a71-8850-fe94bbe6a901
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -377,121 +377,20 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: de097527-9b3a-425b-9bb9-ddd42be3a970
+  uuid: 8aa1a8f0-6629-4a71-8850-fe94bbe6a901
 - alterId: 0
   cipher: auto
-  name: 10|美国 CloudFlare节点
-  network: ws
-  port: 8080
-  server: cf2.492745.xyz
+  name: 10,12|@ZDYZ2_557
+  network: tcp
+  port: 10001
+  server: 156.235.89.194
   servername: ''
   tls: false
   type: vmess
-  uuid: 579fd6f1-7618-4fff-8635-9dba4a61df96
-  ws-opts:
-    headers:
-      Host: cc.992688.xyz
-    path: /
+  uuid: 658c66dd-272f-444a-ed30-f6ca6bde7357
 - alterId: 0
   cipher: auto
-  name: '10,12|US美国(mibei77.com 米贝节点分享) #4'
-  network: ws
-  port: '80'
-  server: singapore.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v004.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 10,12|美国(yudou66.com 玉豆免费节点)
-  network: ws
-  port: '443'
-  server: xyfxhiogo.site
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617
-  ws-opts:
-    headers:
-      Host: xyfxhiogo.site
-    path: /kwhmvws
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: torlqsbztdo.site
-  tls: true
-  type: vmess
-  uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617
-  ws-opts:
-    headers:
-      Host: torlqsbztdo.site
-    path: /kwhmvws
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #5'
-  network: ws
-  port: '8080'
-  server: cf.openxai.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc
-  ws-opts:
-    headers:
-      Host: eu5.openxai.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,12|US美国(mibei77.com 米贝节点分享)
-  network: ws
-  port: '8080'
-  server: zfc.windowsupdate1.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
-  ws-opts:
-    headers:
-      Host: kryx.651568.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,12|GB_speednode_0022
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: None
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 10|美国CloudFlare节点 17
-  network: ws
-  port: '8080'
-  server: cloudflare.cfgo.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 579fd6f1-7618-4fff-8635-9dba4a61df96
-  ws-opts:
-    headers:
-      Host: cc.992688.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 美国CloudFla...
+  name: 10,11|github.com/freefq - 美国CloudFla...
   network: ws
   port: '8080'
   server: de-new01.gujuji.top
@@ -505,7 +404,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,12|US美国(mibei77.com 米贝节点分享) #3'
+  name: '10,11,12|US美国(mibei77.com 米贝节点分享) #3'
   network: ws
   port: '8080'
   server: scadn.yydsii.com
@@ -519,7 +418,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #2'
+  name: '10,11|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: 2053
   server: v2ray.ibgfw.top
@@ -562,6 +461,20 @@ proxies:
   uuid: cd76100e-3a4a-4648-96c0-b22376dfafa1
 - alterId: 0
   cipher: auto
+  name: 12|US美国(mibei77.com 米贝节点分享)
+  network: ws
+  port: '8080'
+  server: zfc.windowsupdate1.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
+  ws-opts:
+    headers:
+      Host: kryx.651568.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-23.27.168.64...
   network: tcp
   port: '21426'
@@ -579,6 +492,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
+- alterId: 0
+  cipher: auto
+  name: 12|美国(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '443'
+  server: xyfxhiogo.site
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617
+  ws-opts:
+    headers:
+      Host: xyfxhiogo.site
+    path: /kwhmvws
 - alterId: 0
   cipher: auto
   name: 12|美国加利福尼亚 19〖电报：@ccbaohe】免费节点定时更...
@@ -802,6 +729,20 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
+  name: '12|US美国(mibei77.com 米贝节点分享) #4'
+  network: ws
+  port: '80'
+  server: singapore.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v004.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
   name: 12|美国加利福尼亚 33〖电报：@ccbaohe】免费节点定时更...
   network: tcp
   port: 29414
@@ -843,7 +784,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 41af46df-56c0-4e00-ae3b-482b81c2a4d8
+  uuid: 5a603b50-2f88-4c46-9dd0-8f14d69163be
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -853,7 +794,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 41af46df-56c0-4e00-ae3b-482b81c2a4d8
+  uuid: 5a603b50-2f88-4c46-9dd0-8f14d69163be
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -863,7 +804,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 41af46df-56c0-4e00-ae3b-482b81c2a4d8
+  uuid: 5a603b50-2f88-4c46-9dd0-8f14d69163be
 - alterId: 0
   cipher: auto
   name: 14,15|美国|浏览器输入 翻墙.com
@@ -883,7 +824,7 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸 美国5|频道:@ripaojiedian
   password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20003
+  port: 50003
   server: service.ouluyun9803.com
   tfo: false
   type: ss
