@@ -28,7 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,6,10,11|github.com/freefq - 美国CloudFla... #2'
+  name: '0,3,6,10,11|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: '80'
   server: cf-lt.sharecentre.online
@@ -107,18 +107,15 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '1,2,4,11|github.com/freefq - 美国CloudFla... #1'
+  name: '1,2,4|🇺🇸_US_美国 #10'
   network: ws
   port: 443
   server: fuqiang.misaeng.top
-  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 1cff37e2-6e16-4722-ca87-0054c9276a54
   ws-opts:
-    headers:
-      Host: ''
     path: /1cff37e2
 - name: 1|_US__4
   network: ws
@@ -225,7 +222,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 2,4,10,11|github.com/freefq - 乌克兰  21
+  name: 2,4,10|乌克兰  16
   network: ws
   port: '80'
   server: 94.131.14.177
@@ -239,7 +236,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 2,4,10,11,18|🇺🇸_US_美国->🇬🇧_GB_英国_3_由快嘴科技提供：k...
+  name: 2,4,10,11,17|🇺🇸_US_美国->🇬🇧_GB_英国_3_由快嘴科技提供：k...
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -277,7 +274,7 @@ proxies:
     path: /search
 - alterId: 0
   cipher: auto
-  name: '6,10,11|github.com/freefq - 美国CloudFla... #5'
+  name: '6,10,11|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: '2082'
   server: us-02.jikuai.xyz
@@ -313,7 +310,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 31c597ea-436e-428d-a8b4-5ee90929eb72
+  uuid: e9e56e54-be7a-478d-932c-25b68e79fc8d
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国05
@@ -323,7 +320,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 31c597ea-436e-428d-a8b4-5ee90929eb72
+  uuid: e9e56e54-be7a-478d-932c-25b68e79fc8d
 - alterId: 0
   cipher: auto
   name: 9|🇺🇸美国06
@@ -333,7 +330,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 31c597ea-436e-428d-a8b4-5ee90929eb72
+  uuid: e9e56e54-be7a-478d-932c-25b68e79fc8d
 - alterId: 0
   cipher: auto
   name: 10|美国加利福尼亚州洛杉矶 Cloudinnovation数据中...
@@ -386,42 +383,32 @@ proxies:
     path: /vVNUJOgb/
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 美国  3
-  network: tcp
-  port: 22324
-  server: 172.99.190.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 美国CloudFla...
+  name: 11,12|美国【TG：@ccbaohe】定时更新节点订阅
   network: ws
-  port: '8880'
-  server: 104.18.203.232
+  port: 443
+  server: www.wto.org
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: cbe3bb21-3e45-4c83-9d59-c7b783e5074a
+  uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f
   ws-opts:
     headers:
-      Host: pl.vpn.whal.whaleproject.tech
-    path: /@vpn_whal,@vpn_whal,@vpn_whal
+      Host: copies-bandwidth-harold-tops.trycloudflare.com
+    path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 美国CloudFla... #6'
+  name: 11,12|中国 - 香港 - Alibaba.com LLC
   network: ws
-  port: 8080
-  server: 104.17.129.28
+  port: 443
+  server: hkpro.win
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6
+  uuid: 9DC41E4B-53A8-A442-E911-4BC5F490F2CD
   ws-opts:
     headers:
-      Host: eu4.openxai.link
-    path: /
+      Host: ''
+    path: /myblog
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇺🇸 US-172.233.188....
@@ -442,20 +429,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cd76100e-3a4a-4648-96c0-b22376dfafa1
-- alterId: 0
-  cipher: auto
-  name: 12|美国【TG：@ccbaohe】定时更新节点订阅
-  network: ws
-  port: 443
-  server: www.wto.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f
-  ws-opts:
-    headers:
-      Host: copies-bandwidth-harold-tops.trycloudflare.com
-    path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇺🇸 US-20.127.216.16...
@@ -687,7 +660,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3ea363e1-e9a3-4f90-a0e5-d5687f425847
+  uuid: 56cd5976-f844-4496-9e4b-4193f792894b
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 05 | 1x US
@@ -697,7 +670,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3ea363e1-e9a3-4f90-a0e5-d5687f425847
+  uuid: 56cd5976-f844-4496-9e4b-4193f792894b
 - alterId: 0
   cipher: auto
   name: 13|【BGP】美国 06 | 1x US
@@ -707,7 +680,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3ea363e1-e9a3-4f90-a0e5-d5687f425847
+  uuid: 56cd5976-f844-4496-9e4b-4193f792894b
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸 美国5|频道:@ripaojiedian
   password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
@@ -717,85 +690,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|JCBB_ 美国01【vip1】
-  network: ws
-  port: '38381'
-  server: gdct003.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 849c77b0-4744-4310-b4fb-e54fcbc46cf8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国02_1【vip1】
-  network: ws
-  port: '20153'
-  server: gdct002.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 849c77b0-4744-4310-b4fb-e54fcbc46cf8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国02【vip1】
-  network: ws
-  port: '28204'
-  server: gdct001.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 849c77b0-4744-4310-b4fb-e54fcbc46cf8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 03【vip1】
-  network: ws
-  port: '21036'
-  server: gdct003.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 849c77b0-4744-4310-b4fb-e54fcbc46cf8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 04_1【vip1】
-  network: ws
-  port: '26611'
-  server: gdct002.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 849c77b0-4744-4310-b4fb-e54fcbc46cf8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 04【vip1】
-  network: ws
-  port: '62684'
-  server: gdct001.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 849c77b0-4744-4310-b4fb-e54fcbc46cf8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  name: 17|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
   network: ws
   port: 2052
   server: 104.18.62.248
@@ -808,7 +703,7 @@ proxies:
     path: /public?ed=2048
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com0
+  name: 17|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com0
   network: ws
   port: 8880
   server: 94.131.14.177
