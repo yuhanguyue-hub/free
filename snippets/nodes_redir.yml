@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,4,8|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 0,2,3,4,8|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -33,19 +33,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
-  network: ws
-  port: '2052'
-  server: family.mgtajhiz.ir
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
   network: ws
   port: 443
@@ -57,3 +44,16 @@ proxies:
     headers:
       Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
     path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 20|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_35
+  network: ws
+  port: 443
+  server: www.wto.org
+  tls: true
+  type: vmess
+  uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f
+  ws-opts:
+    headers:
+      Host: copies-bandwidth-harold-tops.trycloudflare.com
+    path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm
