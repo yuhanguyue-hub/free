@@ -1,18 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇭🇰 HK-47.242.76.125...
+  name: 14,16|🇻🇳 越南|浏览器输入 翻墙.com
   network: ws
-  port: '45631'
-  server: 47.242.76.125
+  port: 21010
+  server: 103.103.245.81
+  servername: vn11-ji.455773.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 33fef73f-cf19-4e70-b071-ddb0155a9556
+  ws-opts:
+    headers:
+      Host: vn11-ji.455773.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-TCP-NA 🇭🇰 HK-47.243.254.1...
+  network: tcp
+  port: '44127'
+  server: 47.243.254.169
   servername: ''
   tls: false
   type: vmess
-  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 828e30d3-fbe6-4607-bbd6-ba6eaba89d70
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -53,3 +65,27 @@ proxies:
   server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|香港2|@ripaojiedian
+  network: ws
+  port: '50000'
+  server: 202.86.138.58
+  servername: hkt-ji.455773.xyz
+  tls: true
+  type: vmess
+  uuid: 33fef73f-cf19-4e70-b071-ddb0155a9556
+  ws-opts:
+    headers:
+      Host: hkt-ji.455773.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 17|香港5|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
