@@ -1,18 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12,14|TW-板桥1-3
-  network: ws
+- alterId: 4
+  cipher: aes-128-gcm
+  h2-opts:
+    host:
+    - mirai.route76.net
+    path: /cache
+  name: 12|台湾省新北市 中华电信
+  network: h2
   port: '443'
-  server: nbq13.ntbq.dynu.net
+  server: mirai.route76.net
   servername: ''
   tls: true
   type: vmess
-  uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79
-  ws-opts:
-    headers:
-      Host: nbq13.ntbq.dynu.net
-    path: /b13
+  uuid: ccf295c0-cdb7-43f1-9dca-7f15752704b4
 - alterId: 0
   cipher: auto
   name: 12,14|-1252-TW【ccbaohe.com〗 永久免费节点机场
@@ -29,7 +29,21 @@ proxies:
     path: /b23
 - alterId: 0
   cipher: auto
-  name: 12,14|TW-板桥2-1
+  name: 14|TW-板桥1-3
+  network: ws
+  port: '443'
+  server: nbq13.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79
+  ws-opts:
+    headers:
+      Host: nbq13.ntbq.dynu.net
+    path: /b13
+- alterId: 0
+  cipher: auto
+  name: 14|TW-板桥2-1
   network: ws
   port: '443'
   server: b21.ntbq.dynu.net
@@ -69,10 +83,12 @@ proxies:
     path: /b12
 - alterId: 0
   cipher: auto
-  name: 14|TW-板桥2-2
+  name: 14,16|🇹🇼 台湾2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: b22.ntbq.dynu.net
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79
@@ -107,6 +123,13 @@ proxies:
     tls: true
   port: 443
   server: wtw1000mline004.chilines.club
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇹🇼 台湾1|@ripaojiedian
+  password: 0614d8af-e48f-40e3-8e56-47123606084c
+  port: 51051
+  server: apnep2erpyyj4ef86.makabaka740.com
   tfo: false
   type: ss
 - alterId: 0
