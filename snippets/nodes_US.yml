@@ -14,7 +14,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '0,8|🇺🇸_US_美国 #2'
+  name: '0,3,8|🇺🇸_US_美国 #2'
   network: ws
   port: 2086
   server: cf-point2.handboy.top
@@ -124,7 +124,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 12968f50-0cc9-4664-b3cf-fd99d1aa90be
+  uuid: f6b2879b-a146-4742-867d-854d3eb6891e
 - alterId: 0
   cipher: auto
   name: 11|🇺🇸美国05
@@ -134,7 +134,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 12968f50-0cc9-4664-b3cf-fd99d1aa90be
+  uuid: f6b2879b-a146-4742-867d-854d3eb6891e
 - alterId: 0
   cipher: auto
   name: 11|🇺🇸美国06
@@ -144,35 +144,49 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 12968f50-0cc9-4664-b3cf-fd99d1aa90be
+  uuid: f6b2879b-a146-4742-867d-854d3eb6891e
 - alterId: 0
   cipher: auto
-  name: 12,14|🟣30@oneclickvpnkeys
+  name: 12,14|【ccbaohe.com】 永久免费机场节点
   network: ws
-  port: '21378'
-  server: 146.190.99.71
+  port: 80
+  server: v4.cfnode.eu.org
   servername: ''
   tls: false
   type: vmess
-  uuid: f9819b76-b627-4635-a9c5-c54c46a9db10
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
   ws-opts:
     headers:
-      Host: media-exp1.licdn.com
-    path: /Shalana
+      Host: yxtw.651568.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: '12|美国 CloudFlare节点 #3'
+  name: '12|美国 CloudFlare节点 #1'
   network: ws
-  port: '2096'
-  server: XXX112.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  port: '8080'
+  server: scadn.yydsii.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
   ws-opts:
     headers:
-      Host: ''
-    path: /@FORWARDV2RAY
+      Host: kryx.651568.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '12|美国 CloudFlare节点 #2'
+  network: ws
+  port: '80'
+  server: scadn.yydsii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
+  ws-opts:
+    headers:
+      Host: yxtw.651568.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: '12,13|github.com/freefq - 美国CloudFla... #1'
@@ -188,62 +202,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '12|美国 CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: cf.openxai.link
-  tls: false
-  type: vmess
-  uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc
-  ws-opts:
-    headers:
-      Host: eu5.openxai.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #4'
-  network: ws
-  port: '2082'
-  server: us-02.jikuai.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: us-02.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #6'
-  network: ws
-  port: '2083'
-  server: 104.21.16.201
-  servername: foryourtestmyfriends.hesam5a.tk
-  tls: true
-  type: vmess
-  uuid: da37a316-d17b-493f-bd6e-b58a23e31823
-  ws-opts:
-    headers:
-      Host: foryourtestmyfriends.hesam5a.tk
-    path: /foryourtestmyfriends2083
-- alterId: 0
-  cipher: auto
-  name: 12|美国CloudFlare节点 3
-  network: ws
-  port: '80'
-  server: zfc.windowsupdate1.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
-  ws-opts:
-    headers:
-      Host: jpyx.651568.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|github.com/freefq - 美国CloudFla... #2'
+  name: '12,13|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: '8080'
   server: zfc.windowsupdate1.com
@@ -257,7 +216,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13,14|加拿大 288
+  name: 12,13,14|加拿大 288
   network: ws
   port: 8880
   server: 172.67.229.33
@@ -269,19 +228,6 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
     path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: '13|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: 443
-  server: hexsen.com
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: arthur-experienced-hate-maiden.trycloudflare.com
-    path: /argo-vmess?ed=2048
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇺🇸 US-144.202.81.12...
@@ -433,7 +379,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: caba0539-ce2b-434d-bf4b-8b79f066983d
+  uuid: 8c9cd3fd-f377-4487-b639-0fc62dad862c
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 05 | 1x US
@@ -443,7 +389,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: caba0539-ce2b-434d-bf4b-8b79f066983d
+  uuid: 8c9cd3fd-f377-4487-b639-0fc62dad862c
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 06 | 1x US
@@ -453,46 +399,17 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: caba0539-ce2b-434d-bf4b-8b79f066983d
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇺🇸 美国5|频道:@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 50003
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
+  uuid: 8c9cd3fd-f377-4487-b639-0fc62dad862c
+- alterId: 64
   cipher: auto
-  name: 16,17|美国2|@ripaojiedian
-  network: ws
-  port: '56536'
-  server: 142.171.136.39
+  name: 17|美国2|@ripaojiedian
+  network: tcp
+  port: '52629'
+  server: 120.233.43.37
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 60b09967-1069-469b-a4b2-8aa1744d0175
-  ws-opts:
-    headers:
-      Host: ''
-    path: /60b09967
-- alterId: 0
-  cipher: auto
-  name: 16,17|美国3|@ripaojiedian
-  network: ws
-  port: '11619'
-  server: 23.166.24.63
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ec3e0973-3395-4ce9-86c0-34de005fee7d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ec3e0973
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 18|JCBB_ 美国01【vip1】
@@ -571,3 +488,16 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 20|🇺🇸_US_美国_33
+  network: ws
+  port: 80
+  server: singapore.com
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
